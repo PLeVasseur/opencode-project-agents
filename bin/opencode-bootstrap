@@ -1,0 +1,39 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+if ! command -v git >/dev/null 2>&1; then
+  echo "opencode-bootstrap: git is required" >&2
+  exit 1
+fi
+
+root="$(git rev-parse --show-toplevel 2>/dev/null || true)"
+if [ -z "$root" ]; then
+  echo "opencode-bootstrap: not in a git repository" >&2
+  exit 1
+fi
+
+repo="$(basename "$root")"
+base_dir="$HOME/opencode-project-agents"
+target_dir="$base_dir/$repo"
+
+template_dir="$base_dir/templates"
+template_config="$template_dir/opencode.jsonc"
+template_agents="$template_dir/AGENTS.md"
+
+if [ ! -f "$template_config" ] || [ ! -f "$template_agents" ]; then
+  echo "opencode-bootstrap: templates missing in $template_dir" >&2
+  exit 1
+fi
+
+if [ -e "$target_dir" ]; then
+  echo "opencode-bootstrap: $target_dir already exists" >&2
+  exit 1
+fi
+
+mkdir -p "$target_dir"
+cp "$template_config" "$target_dir/opencode.jsonc"
+cp "$template_agents" "$target_dir/AGENTS.md"
+
+echo "Created $target_dir/opencode.jsonc"
+echo "Created $target_dir/AGENTS.md"
