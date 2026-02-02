@@ -1,0 +1,14 @@
+200 |   async function withErrorHandling<T>(body: () => Promise<T>) {
+201 |     return body().catch((e) => {
+202 |       if (!(e instanceof Error)) throw e
+203 |       const errnoException = e as NodeJS.ErrnoException
+204 |       if (errnoException.code === "ENOENT") {
+205 |         throw new NotFoundError({ message: `Resource not found: ${errnoException.path}` })
+                    ^
+NotFoundError: NotFoundError
+ data: {
+  message: "Resource not found: /home/pete.levasseur/.local/share/opencode/storage/session/476ce6aea6af2fd68ac5d832952dd309caa93fc0/ses-glossary-S-20260202-184545Z.json",
+},
+
+      at <anonymous> (src/storage/storage.ts:205:15)
+

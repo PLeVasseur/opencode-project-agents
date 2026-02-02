@@ -1,0 +1,137 @@
+definition_site_hygiene: /home/pete.levasseur/project/fls/src/macros.rst:1085; /home/pete.levasseur/project/fls/src/macros.rst:1086
+discriminant_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1608; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1613; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1617; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1622; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1646
+division_assignment: /home/pete.levasseur/project/fls/src/expressions.rst:2672; /home/pete.levasseur/project/fls/src/expressions.rst:2754
+dropping: /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:382; /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:391; /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:427; /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:465; /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:597
+element_type: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1372; /home/pete.levasseur/project/fls/src/expressions.rst:2934; /home/pete.levasseur/project/fls/src/patterns.rst:648; /home/pete.levasseur/project/fls/src/types-and-traits.rst:498; /home/pete.levasseur/project/fls/src/types-and-traits.rst:535
+elided: /home/pete.levasseur/project/fls/src/types-and-traits.rst:3334; /home/pete.levasseur/project/fls/src/types-and-traits.rst:3339; /home/pete.levasseur/project/fls/src/types-and-traits.rst:3344; /home/pete.levasseur/project/fls/src/types-and-traits.rst:3360; /home/pete.levasseur/project/fls/src/types-and-traits.rst:3378
+elided_lifetime: no :t: occurrences
+enum: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1062; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1066; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1077; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1078; /home/pete.levasseur/project/fls/src/exceptions-and-errors.rst:18
+enum_field: no :t: occurrences
+enum_value: /home/pete.levasseur/project/fls/src/expressions.rst:3185; /home/pete.levasseur/project/fls/src/expressions.rst:3192; /home/pete.levasseur/project/fls/src/expressions.rst:3263; /home/pete.levasseur/project/fls/src/patterns.rst:747
+enum_variant_value: /home/pete.levasseur/project/fls/src/patterns.rst:818
+escaped_character: /home/pete.levasseur/project/fls/src/general.rst:290
+fat_pointer: no :t: occurrences
+ffi: /home/pete.levasseur/project/fls/src/ffi.rst:14; /home/pete.levasseur/project/fls/src/ffi.rst:19
+field_index: /home/pete.levasseur/project/fls/src/expressions.rst:3207; /home/pete.levasseur/project/fls/src/patterns.rst:830
+field_list: no :t: occurrences
+fixed_sized_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:498; /home/pete.levasseur/project/fls/src/types-and-traits.rst:535
+floating_point_type: /home/pete.levasseur/project/fls/src/expressions.rst:1338; /home/pete.levasseur/project/fls/src/expressions.rst:1344; /home/pete.levasseur/project/fls/src/expressions.rst:1505; /home/pete.levasseur/project/fls/src/expressions.rst:1527; /home/pete.levasseur/project/fls/src/expressions.rst:1556
+floating_point_value: no :t: occurrences
+for_loop: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:487
+foreign_function_interface: /home/pete.levasseur/project/fls/src/ffi.rst:14; /home/pete.levasseur/project/fls/src/ffi.rst:150
+full_range_expression: /home/pete.levasseur/project/fls/src/expressions.rst:2438
+function_pointer_type_parameter: /home/pete.levasseur/project/fls/src/types-and-traits.rst:3300
+function_type: /home/pete.levasseur/project/fls/src/functions.rst:52; /home/pete.levasseur/project/fls/src/types-and-traits.rst:882; /home/pete.levasseur/project/fls/src/types-and-traits.rst:928
+generic_argument: /home/pete.levasseur/project/fls/src/generics.rst:52; /home/pete.levasseur/project/fls/src/generics.rst:202; /home/pete.levasseur/project/fls/src/generics.rst:205; /home/pete.levasseur/project/fls/src/generics.rst:218; /home/pete.levasseur/project/fls/src/generics.rst:221
+generic_conformance: /home/pete.levasseur/project/fls/src/generics.rst:398; /home/pete.levasseur/project/fls/src/generics.rst:430
+generic_substitution: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1308
+immutable_place_expression_context: /home/pete.levasseur/project/fls/src/expressions.rst:1111
+immutable_variable: no :t: occurrences
+implementation_conformance: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:374; /home/pete.levasseur/project/fls/src/implementations.rst:85; /home/pete.levasseur/project/fls/src/implementations.rst:209
+incomplete_associated_constant: no :t: occurrences
+incomplete_associated_function: no :t: occurrences
+incomplete_associated_type: no :t: occurrences
+indexed_field_selector: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1282; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1290
+indirection_type: /home/pete.levasseur/project/fls/src/values.rst:52; /home/pete.levasseur/project/fls/src/types-and-traits.rst:983; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1033; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1073; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1426
+infinite_loop: /home/pete.levasseur/project/fls/src/expressions.rst:4135; /home/pete.levasseur/project/fls/src/expressions.rst:4222
+initialization_expression: /home/pete.levasseur/project/fls/src/expressions.rst:2473
+initialization_type: /home/pete.levasseur/project/fls/src/associated-items.rst:92; /home/pete.levasseur/project/fls/src/associated-items.rst:123; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:546
+item: /home/pete.levasseur/project/fls/src/associated-items.rst:28; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:142; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:192; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:192; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:571
+layout: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1481; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1490; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1493; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1497; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1513
+let_binding: /home/pete.levasseur/project/fls/src/patterns.rst:73
+local_variable: no :t: occurrences
+loop: no :t: occurrences
+macro_repetition_in_matching: /home/pete.levasseur/project/fls/src/macros.rst:237; /home/pete.levasseur/project/fls/src/macros.rst:245; /home/pete.levasseur/project/fls/src/macros.rst:250; /home/pete.levasseur/project/fls/src/macros.rst:931; /home/pete.levasseur/project/fls/src/macros.rst:1061
+mixed_site_hygiene: /home/pete.levasseur/project/fls/src/macros.rst:1097; /home/pete.levasseur/project/fls/src/macros.rst:1106; /home/pete.levasseur/project/fls/src/macros.rst:1110
+multiplication_assignment: /home/pete.levasseur/project/fls/src/expressions.rst:2677; /home/pete.levasseur/project/fls/src/expressions.rst:2759
+mutable_assignee_expression: /home/pete.levasseur/project/fls/src/expressions.rst:2643
+mutable_binding: /home/pete.levasseur/project/fls/src/patterns.rst:163; /home/pete.levasseur/project/fls/src/patterns.rst:858
+mutable_variable: /home/pete.levasseur/project/fls/src/expressions.rst:452
+named_field_selector: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1286; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1308
+nan_boxing: no :t: occurrences
+numeric_type: /home/pete.levasseur/project/fls/src/expressions.rst:2165; /home/pete.levasseur/project/fls/src/expressions.rst:2165; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2622
+object_safety: no :t: occurrences
+place: /home/pete.levasseur/project/fls/src/expressions.rst:2409; /home/pete.levasseur/project/fls/src/expressions.rst:2507; /home/pete.levasseur/project/fls/src/patterns.rst:1238
+pointer: /home/pete.levasseur/project/fls/src/expressions.rst:2212; /home/pete.levasseur/project/fls/src/patterns.rst:581
+pointer_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:431; /home/pete.levasseur/project/fls/src/types-and-traits.rst:466
+prelude_entity: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:943
+prelude_name: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:944; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1199; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1201; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1201
+principal_trait: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1217; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1224; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1227; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2068; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2068
+punctuator: /home/pete.levasseur/project/fls/src/lexical-elements.rst:267
+raw_pointer: /home/pete.levasseur/project/fls/src/expressions.rst:1035; /home/pete.levasseur/project/fls/src/expressions.rst:1044; /home/pete.levasseur/project/fls/src/expressions.rst:1107; /home/pete.levasseur/project/fls/src/expressions.rst:1151
+reachable_control_flow_path: no :t: occurrences
+record_enum_variant: /home/pete.levasseur/project/fls/src/expressions.rst:3267; /home/pete.levasseur/project/fls/src/patterns.rst:882
+record_struct: /home/pete.levasseur/project/fls/src/expressions.rst:3267; /home/pete.levasseur/project/fls/src/patterns.rst:882
+record_struct_field: /home/pete.levasseur/project/fls/src/types-and-traits.rst:782; /home/pete.levasseur/project/fls/src/types-and-traits.rst:786; /home/pete.levasseur/project/fls/src/types-and-traits.rst:787; /home/pete.levasseur/project/fls/src/types-and-traits.rst:787
+record_struct_type: no :t: occurrences
+record_struct_value: no :t: occurrences
+reference_identifier_pattern: /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:604; /home/pete.levasseur/project/fls/src/patterns.rst:167
+refutable_type: /home/pete.levasseur/project/fls/src/patterns.rst:117
+remainder_assignment: /home/pete.levasseur/project/fls/src/expressions.rst:2683; /home/pete.levasseur/project/fls/src/expressions.rst:2764
+representation_modifier: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1588
+rustc: /home/pete.levasseur/project/fls/src/general.rst:51; /home/pete.levasseur/project/fls/src/general.rst:55
+safety_invariant: /home/pete.levasseur/project/fls/src/attributes.rst:871; /home/pete.levasseur/project/fls/src/attributes.rst:874; /home/pete.levasseur/project/fls/src/types-and-traits.rst:571
+scope_hierarchy: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:660; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:667; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:726; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:730; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:735
+sequence_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:491; /home/pete.levasseur/project/fls/src/types-and-traits.rst:531; /home/pete.levasseur/project/fls/src/types-and-traits.rst:558; /home/pete.levasseur/project/fls/src/types-and-traits.rst:595
+shared_borrow: no :t: occurrences
+shared_reference: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1085; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1088
+shift_left_assignment: /home/pete.levasseur/project/fls/src/expressions.rst:2688; /home/pete.levasseur/project/fls/src/expressions.rst:2769
+shift_right_assignment: /home/pete.levasseur/project/fls/src/expressions.rst:2693; /home/pete.levasseur/project/fls/src/expressions.rst:2774
+signed_integer_type: /home/pete.levasseur/project/fls/src/expressions.rst:1823
+sized_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:2076
+slice: /home/pete.levasseur/project/fls/src/patterns.rst:705; /home/pete.levasseur/project/fls/src/types-and-traits.rst:558; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1510
+statement: /home/pete.levasseur/project/fls/src/macros.rst:552; /home/pete.levasseur/project/fls/src/macros.rst:656; /home/pete.levasseur/project/fls/src/macros.rst:705; /home/pete.levasseur/project/fls/src/macros.rst:875; /home/pete.levasseur/project/fls/src/statements.rst:28
+struct: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:917; /home/pete.levasseur/project/fls/src/generics.rst:69; /home/pete.levasseur/project/fls/src/expressions.rst:3188; /home/pete.levasseur/project/fls/src/patterns.rst:408; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1641
+struct_field: /home/pete.levasseur/project/fls/src/types-and-traits.rst:2108; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2116
+struct_value: /home/pete.levasseur/project/fls/src/expressions.rst:3185; /home/pete.levasseur/project/fls/src/expressions.rst:3193; /home/pete.levasseur/project/fls/src/expressions.rst:3264; /home/pete.levasseur/project/fls/src/patterns.rst:748; /home/pete.levasseur/project/fls/src/patterns.rst:818
+subexpression: /home/pete.levasseur/project/fls/src/expressions.rst:387
+subtraction_assignment: /home/pete.levasseur/project/fls/src/expressions.rst:2699; /home/pete.levasseur/project/fls/src/expressions.rst:2779
+subtype: /home/pete.levasseur/project/fls/src/implementations.rst:221; /home/pete.levasseur/project/fls/src/implementations.rst:229; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2019; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2057; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2061
+syntactic_category: no :t: occurrences
+textual_type: no :t: occurrences
+thin_pointer: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1500; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1505; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1509
+thin_pointer_type: no :t: occurrences
+token: /home/pete.levasseur/project/fls/src/macros.rst:142; /home/pete.levasseur/project/fls/src/macros.rst:367; /home/pete.levasseur/project/fls/src/macros.rst:420; /home/pete.levasseur/project/fls/src/macros.rst:490; /home/pete.levasseur/project/fls/src/macros.rst:492
+trait_type: no :t: occurrences
+tuple: /home/pete.levasseur/project/fls/src/expressions.rst:3110; /home/pete.levasseur/project/fls/src/expressions.rst:3459; /home/pete.levasseur/project/fls/src/expressions.rst:3467; /home/pete.levasseur/project/fls/src/expressions.rst:3475; /home/pete.levasseur/project/fls/src/patterns.rst:1111
+tuple_enum_variant: /home/pete.levasseur/project/fls/src/expressions.rst:627; /home/pete.levasseur/project/fls/src/expressions.rst:3288; /home/pete.levasseur/project/fls/src/expressions.rst:3424; /home/pete.levasseur/project/fls/src/expressions.rst:3431; /home/pete.levasseur/project/fls/src/expressions.rst:3449
+tuple_enum_variant_value: /home/pete.levasseur/project/fls/src/expressions.rst:3403; /home/pete.levasseur/project/fls/src/expressions.rst:3411; /home/pete.levasseur/project/fls/src/patterns.rst:1030
+tuple_field: /home/pete.levasseur/project/fls/src/expressions.rst:3114; /home/pete.levasseur/project/fls/src/patterns.rst:1123; /home/pete.levasseur/project/fls/src/patterns.rst:1124; /home/pete.levasseur/project/fls/src/patterns.rst:1150; /home/pete.levasseur/project/fls/src/patterns.rst:1153
+tuple_struct: /home/pete.levasseur/project/fls/src/expressions.rst:628; /home/pete.levasseur/project/fls/src/expressions.rst:3288; /home/pete.levasseur/project/fls/src/expressions.rst:3420; /home/pete.levasseur/project/fls/src/expressions.rst:3432; /home/pete.levasseur/project/fls/src/expressions.rst:3451
+tuple_struct_field: /home/pete.levasseur/project/fls/src/types-and-traits.rst:791; /home/pete.levasseur/project/fls/src/types-and-traits.rst:792; /home/pete.levasseur/project/fls/src/types-and-traits.rst:792
+tuple_struct_type: /home/pete.levasseur/project/fls/src/expressions.rst:3425; /home/pete.levasseur/project/fls/src/expressions.rst:3450; /home/pete.levasseur/project/fls/src/patterns.rst:903; /home/pete.levasseur/project/fls/src/patterns.rst:1034
+tuple_struct_value: /home/pete.levasseur/project/fls/src/expressions.rst:3403; /home/pete.levasseur/project/fls/src/expressions.rst:3411; /home/pete.levasseur/project/fls/src/patterns.rst:1030
+type_ascription: /home/pete.levasseur/project/fls/src/statements.rst:87; /home/pete.levasseur/project/fls/src/statements.rst:90; /home/pete.levasseur/project/fls/src/statements.rst:93; /home/pete.levasseur/project/fls/src/statements.rst:100; /home/pete.levasseur/project/fls/src/statements.rst:101
+type_specification: /home/pete.levasseur/project/fls/src/associated-items.rst:164; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:360; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:526; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:742; /home/pete.levasseur/project/fls/src/implementations.rst:245
+unary_operator: no :t: occurrences
+undefined_behavior: /home/pete.levasseur/project/fls/src/unsafety.rst:19
+unicode: /home/pete.levasseur/project/fls/src/lexical-elements.rst:25; /home/pete.levasseur/project/fls/src/lexical-elements.rst:32; /home/pete.levasseur/project/fls/src/lexical-elements.rst:32; /home/pete.levasseur/project/fls/src/lexical-elements.rst:36; /home/pete.levasseur/project/fls/src/lexical-elements.rst:40
+unifiable: /home/pete.levasseur/project/fls/src/generics.rst:441; /home/pete.levasseur/project/fls/src/expressions.rst:2921; /home/pete.levasseur/project/fls/src/expressions.rst:3213; /home/pete.levasseur/project/fls/src/expressions.rst:3230; /home/pete.levasseur/project/fls/src/expressions.rst:3252
+unifiable_type: no :t: occurrences
+unified_type: /home/pete.levasseur/project/fls/src/expressions.rst:686; /home/pete.levasseur/project/fls/src/expressions.rst:692; /home/pete.levasseur/project/fls/src/expressions.rst:3998; /home/pete.levasseur/project/fls/src/expressions.rst:4753; /home/pete.levasseur/project/fls/src/patterns.rst:538
+union: /home/pete.levasseur/project/fls/src/generics.rst:78; /home/pete.levasseur/project/fls/src/unsafety.rst:35; /home/pete.levasseur/project/fls/src/expressions.rst:3188; /home/pete.levasseur/project/fls/src/expressions.rst:3682; /home/pete.levasseur/project/fls/src/expressions.rst:3686
+union_field: /home/pete.levasseur/project/fls/src/types-and-traits.rst:836; /home/pete.levasseur/project/fls/src/types-and-traits.rst:840; /home/pete.levasseur/project/fls/src/types-and-traits.rst:853; /home/pete.levasseur/project/fls/src/types-and-traits.rst:856
+union_value: /home/pete.levasseur/project/fls/src/expressions.rst:3185; /home/pete.levasseur/project/fls/src/expressions.rst:3264; /home/pete.levasseur/project/fls/src/patterns.rst:748; /home/pete.levasseur/project/fls/src/patterns.rst:818
+unique_immutable_reference: /home/pete.levasseur/project/fls/src/expressions.rst:5194
+unit_enum_variant: /home/pete.levasseur/project/fls/src/expressions.rst:628; /home/pete.levasseur/project/fls/src/expressions.rst:3322; /home/pete.levasseur/project/fls/src/patterns.rst:172; /home/pete.levasseur/project/fls/src/patterns.rst:177; /home/pete.levasseur/project/fls/src/patterns.rst:196
+unit_struct: /home/pete.levasseur/project/fls/src/expressions.rst:628; /home/pete.levasseur/project/fls/src/expressions.rst:3322; /home/pete.levasseur/project/fls/src/patterns.rst:946; /home/pete.levasseur/project/fls/src/patterns.rst:1431
+unit_struct_constant: /home/pete.levasseur/project/fls/src/patterns.rst:172; /home/pete.levasseur/project/fls/src/patterns.rst:177; /home/pete.levasseur/project/fls/src/patterns.rst:196; /home/pete.levasseur/project/fls/src/patterns.rst:366; /home/pete.levasseur/project/fls/src/patterns.rst:413
+unit_struct_type: no :t: occurrences
+unit_struct_value: no :t: occurrences
+unit_tuple: /home/pete.levasseur/project/fls/src/types-and-traits.rst:1493
+unit_type: /home/pete.levasseur/project/fls/src/statements.rst:171; /home/pete.levasseur/project/fls/src/expressions.rst:700; /home/pete.levasseur/project/fls/src/expressions.rst:2375; /home/pete.levasseur/project/fls/src/expressions.rst:2646; /home/pete.levasseur/project/fls/src/expressions.rst:3881
+unit_value: /home/pete.levasseur/project/fls/src/expressions.rst:716; /home/pete.levasseur/project/fls/src/expressions.rst:2378; /home/pete.levasseur/project/fls/src/expressions.rst:2649; /home/pete.levasseur/project/fls/src/expressions.rst:3925; /home/pete.levasseur/project/fls/src/expressions.rst:4006
+unnamed_lifetime: no :t: occurrences
+unsafe_block: /home/pete.levasseur/project/fls/src/unsafety.rst:44; /home/pete.levasseur/project/fls/src/attributes.rst:540
+unsafe_rust: /home/pete.levasseur/project/fls/src/unsafety.rst:20
+unsafe_trait: /home/pete.levasseur/project/fls/src/implementations.rst:81
+unsigned_integer_type: no :t: occurrences
+unsized_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:2077
+use_import: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:330; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:337; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1020; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1022; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1030
+validity_invariant: /home/pete.levasseur/project/fls/src/types-and-traits.rst:346; /home/pete.levasseur/project/fls/src/types-and-traits.rst:364; /home/pete.levasseur/project/fls/src/types-and-traits.rst:716; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1009; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1105
+visibility_modifier: /home/pete.levasseur/project/fls/src/associated-items.rst:180; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:155; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:158; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:162; /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:168
+visible_emptiness: /home/pete.levasseur/project/fls/src/patterns.rst:405; /home/pete.levasseur/project/fls/src/patterns.rst:771; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2240; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2243; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2246
+while_let_loop: /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:487
+while_loop: no :t: occurrences
+zero_sized_type: no :t: occurrences
+zero_variant_enum_type: /home/pete.levasseur/project/fls/src/types-and-traits.rst:656; /home/pete.levasseur/project/fls/src/types-and-traits.rst:1566; /home/pete.levasseur/project/fls/src/types-and-traits.rst:2252

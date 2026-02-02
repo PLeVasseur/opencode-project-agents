@@ -9,6 +9,7 @@ compatibility: opencode
 - Explain definition roles `:t:`, `:c:`, `:s:` and definition forms `:dt:`, `:dc:`, `:ds:`
 - Show prefix/suffix and label syntax for links
 - Explain `:std:` for Rust standard library search links
+- Resolve glossary collisions by first scanning nearby sections and similarly named terms to confirm the intended concept; if no established phrase fits, define a qualified term and keep the literal spelling with `:c:` or inline code
 
 ## When to use me
 

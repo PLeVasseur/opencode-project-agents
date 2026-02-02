@@ -1,0 +1,2 @@
+attach url unreachable; falling back to --no-attach
+using --no-attach; each opencode run will start its own backend
