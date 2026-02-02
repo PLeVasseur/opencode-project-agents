@@ -23,7 +23,7 @@ Write a short caption to accompany a Bluesky repost of the full newsletter.
 4. Draft a single caption that stays under 240 characters.
 5. Use a relaxed, all-lowercase tone.
 6. Use plain text only. Do not use Markdown links or images.
-7. Do not include links in the repost caption.
+7. Do not include links in the repost caption. If a link is explicitly requested, put it on its own line.
 8. Limit hashtags to 0 to 1. Avoid @ mentions unless requested.
 9. Save to `newsletter/YYYY-MM/bluesky-repost.md`.
 

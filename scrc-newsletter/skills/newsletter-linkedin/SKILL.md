@@ -26,10 +26,11 @@ Create a LinkedIn post summarizing monthly SCRC activity with a professional ton
 5. Use a professional tone and clearly attribute each highlight to its repo.
 6. If a repo had no activity, state that explicitly.
 7. Include a short CTA and an optional plain-text URL if provided.
-8. Use plain text only. Do not use Markdown links or images.
-9. Include 2 to 4 relevant hashtags on the final line.
-10. If attachments are needed, add an `Attachments:` section with plain-text file names or descriptions.
-11. Save to `newsletter/YYYY-MM/linkedin.md`.
+8. If a URL is used, put it on its own line immediately after the sentence that introduces it.
+9. Use plain text only. Do not use Markdown links or images.
+10. Include 2 to 4 relevant hashtags on the final line.
+11. If attachments are needed, add an `Attachments:` section with plain-text file names or descriptions.
+12. Save to `newsletter/YYYY-MM/linkedin.md`.
 
 ## Output
 - The Markdown file path.

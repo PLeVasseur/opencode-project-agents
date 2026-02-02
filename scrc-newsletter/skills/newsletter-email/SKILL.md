@@ -29,10 +29,13 @@ Create the monthly email newsletter covering activity across the SCRC repositori
    - Optional metrics snapshot (counts of PRs, issues, releases)
    - Looking ahead
    - CTA and closing
-5. Use a professional, factual tone. Avoid hype and speculation.
-6. Output plain text in Markdown. Do not use Markdown links or images. Use plain-text URLs only if needed.
-7. If attachments are needed, add an `Attachments:` section with plain-text file names or descriptions.
-8. Save to `newsletter/YYYY-MM/email.md`.
+5. Target 350 to 450 words (about a 3 minute read).
+6. Use a professional, factual tone. Avoid hype and speculation.
+7. If no CTA is provided, use a neutral closing. Do not imply special labels, featured items, or tracking unless explicitly confirmed.
+8. Output plain text in Markdown. Do not use Markdown links or images. Use plain-text URLs only if needed.
+9. If a URL is used, put it on its own line immediately after the sentence that introduces it.
+10. If attachments are needed, add an `Attachments:` section with plain-text file names or descriptions.
+11. Save to `newsletter/YYYY-MM/email.md`.
 
 ## Output
 - The Markdown file path.

@@ -1,6 +1,12 @@
 # FLS Project Instructions
 
+Verify `OPENCODE_CONFIG_DIR` immediately after reading this file, regardless of mode.
+
 FLS is a Sphinx-built Rust language specification. Source content lives in `src/`.
+
+## Edition Scope
+
+- FLS documents the Rust 2021 edition. When aligning with the Rust Reference, exclude edition-specific rules introduced in 2024+ unless explicitly backported.
 
 ## Quick Commands
 
@@ -15,9 +21,41 @@ FLS is a Sphinx-built Rust language specification. Source content lives in `src/
 
 - Ensure `opencode-env.sh` is sourced so `OPENCODE_CONFIG_DIR` is set and project skills are discoverable.
 
+## Version Control
+
+- Use Conventional Commits for commit messages: `type(scope?): subject`.
+  - Example: `docs(inline-assembly): document asm_cfg attributes`.
+  - Common types: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`.
+- Branch names should be plain, descriptive phrases without a type prefix.
+
+## Pull Requests
+
+- Upstream: `https://github.com/rust-lang/fls`.
+- Work on a feature branch and push to the fork (`PLeVasseur/fls`) first.
+- Create a PR on the fork for review, then open the upstream PR from the fork branch.
+- Do not push directly to upstream or force-push.
+- PR body format:
+  - `## Summary`
+  - `## Reference alignment` (include Reference PR/section links and deviations)
+  - `## Testing`
+- Include `Closes #<issue>` as the last line in `## Summary` when applicable.
+
 ## Plans
 
 - Plan documents live in `$OPENCODE_CONFIG_DIR/plans/` and must not be written into the repo.
+
+## Reports
+
+- Report artifacts must be written under `$OPENCODE_CONFIG_DIR/reports/` and must not be written into the repo.
+
+## Temporary artifacts and deletions
+
+- Temporary artifacts (including intermediate logs or analysis outputs) must be written under `$OPENCODE_CONFIG_DIR/` and never in the repo.
+- Do not delete files outside the repo, including under `$OPENCODE_CONFIG_DIR/`, without explicit user permission.
+
+## Reviews
+
+- Review comment drafts live in `$OPENCODE_CONFIG_DIR/reviews/<pr-number>/commentN.md` and include YAML with `file` and `line_hint` (right-side/new line in the PR diff).
 
 ## Skills
 
@@ -41,6 +79,7 @@ FLS is a Sphinx-built Rust language specification. Source content lives in `src/
 - Each section must include an explicit anchor: `.. _fls_<id>:`
 - Each paragraph/list item/table first cell must start with `:dp:`; required everywhere except `index` and `changelog` (see `src/conf.py`)
 - Glossary sections must be alphabetized (linted)
+- When introducing a new term, define it in the glossary with `:dt:` and use `:t:` in prose thereafter.
 - Use spec roles: `:t:`, `:c:`, `:s:`, `:std:` and the `.. syntax::` directive
 
 ## Progressive Disclosure

@@ -33,6 +33,9 @@ compatibility: opencode
 4. Identify changed paragraphs with existing IDs:
    - For each diff hunk, find the nearest `:dp:` above the change in the file and record that ID.
    - Use `git diff --unified=3 main...HEAD -- src/path.rst` and search in the file with `rg -n ':dp:' src/path.rst`.
+   - Ignore wrap-only changes (same wording, same indentation, same roles).
+   - Treat list-structure or indentation changes as meaningful, even if the wording is unchanged.
+   - Treat role changes (e.g., `:dt:` -> `:t:`) as meaningful even when wording is the same.
 5. Check for other changelog-worthy items:
    - `.. syntax::` blocks or grammar category names -> "New/Changed syntax" using `:s:`.
    - New section anchors (`.. _fls_...:`) -> "New section" using `:ref:`.
@@ -41,7 +44,20 @@ compatibility: opencode
    - Entry is under the correct "Language changes in Rust X.Y.Z".
    - Upstream PR link is present.
    - Lists of changed/new/removed paragraphs match the IDs you collected (`:p:`).
+   - Removed IDs should not appear in changed/new lists.
    - "No change: ..." reason is present when appropriate.
+
+## Notes
+
+- Prefer diffing the spec-change PR (not the changelog-only PR) to build the ID list.
+- When comparing paragraphs, treat blank lines as paragraph boundaries to avoid false positives from surrounding structure changes.
+
+## Review comments
+
+- Draft inline review comments in `$OPENCODE_CONFIG_DIR/reviews/<pr-number>/commentN.md`.
+- Add YAML front-matter with `pr`, `file`, `line_hint` (right-side/new line in the PR diff), and `line_hint_side: new`.
+- Optionally include `section` and `context` to make the target location obvious.
+- Use one file per inline location; include `suggestion` blocks when proposing exact edits.
 
 ## References
 

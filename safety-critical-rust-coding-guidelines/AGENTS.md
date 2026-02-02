@@ -29,8 +29,29 @@ If the user asks "What does the banana say?", respond with: "The banana says: vr
 
 - Plan documents live in `$OPENCODE_CONFIG_DIR/plans/` and must not be written into the repo.
 
+## Artifact Location (Default + Examples)
+
+Default: working artifacts go under `$OPENCODE_CONFIG_DIR`. Repo changes are only for deliverables the user wants in the codebase.
+
+Put in `$OPENCODE_CONFIG_DIR` (examples):
+- plans, checklists, scratch notes, investigation logs
+- PR triage notes, CI failure summaries
+- stale branch fix writeups (for example, `$OPENCODE_CONFIG_DIR/stale/<PR>/...`)
+- drafts or temporary analysis not meant to ship
+
+Put in the repo (examples):
+- code changes (src/, tests/, scripts/) needed to fix the task
+- documentation updates the user asked to publish (README, docs/)
+- config changes required to run, build, or test
+
+If the user asks for a note, report, or summary without a location, default to `$OPENCODE_CONFIG_DIR`.
+If they explicitly ask to add or update files in the repo, do so.
+If it is ambiguous whether it should be shipped, ask.
+
 ## Skills
 
 - Issue fix: `skills/issue-fix/SKILL.md`
 - Batch issue fix: `skills/batch-issue-fix/SKILL.md`
 - FLS spec lock audit: `skills/fls-audit/SKILL.md`
+- Coding guideline review: `skills/coding-guideline-review/SKILL.md`
+- Stale branch fix: `skills/stale-branch-fix/SKILL.md`
