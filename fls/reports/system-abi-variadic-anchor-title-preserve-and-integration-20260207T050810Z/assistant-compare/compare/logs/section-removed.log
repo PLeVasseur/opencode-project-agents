@@ -1,0 +1,13 @@
+case: section-removed
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/section-removed/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/section-removed/head.json
+
+observed tags:
+- section-removed
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

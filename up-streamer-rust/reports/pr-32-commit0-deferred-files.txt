@@ -1,0 +1,23 @@
+Commit 0 deferred files and owning commit labels
+
+defer_to_c5: example-streamer-uses/src/bin/mqtt_client.rs
+defer_to_c5: example-streamer-uses/src/bin/mqtt_publisher.rs
+defer_to_c5: example-streamer-uses/src/bin/mqtt_service.rs
+defer_to_c5: example-streamer-uses/src/bin/mqtt_subscriber.rs
+defer_to_c5: example-streamer-uses/src/bin/someip_client.rs
+defer_to_c5: example-streamer-uses/src/bin/someip_publisher.rs
+defer_to_c5: example-streamer-uses/src/bin/someip_service.rs
+defer_to_c5: example-streamer-uses/src/bin/someip_subscriber.rs
+defer_to_c5: example-streamer-uses/src/bin/zenoh_client.rs
+defer_to_c5: example-streamer-uses/src/bin/zenoh_publisher.rs
+defer_to_c5: example-streamer-uses/src/bin/zenoh_service.rs
+defer_to_c5: example-streamer-uses/src/bin/zenoh_subscriber.rs
+defer_to_c5: example-streamer-uses/README.md
+defer_to_c2: up-streamer/src/ustreamer.rs
+defer_to_c2: configurable-streamer/src/main.rs
+defer_to_c2: example-streamer-implementations/src/bin/zenoh_someip.rs
+defer_to_c2: up-linux-streamer-plugin/src/lib.rs
+defer_to_c3: utils/integration-test-utils/src/integration_test_utils.rs
+defer_to_c3: utils/integration-test-utils/src/up_client_foo.rs
+defer_to_c3: utils/usubscription-static-file/src/lib.rs
+defer_to_c2_c3_c4_c5: Cargo.lock

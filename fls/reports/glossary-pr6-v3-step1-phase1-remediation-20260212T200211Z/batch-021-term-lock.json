@@ -1,0 +1,21 @@
+{
+  "batch_number": 21,
+  "batch_prefix": "batch-021",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-082",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ffi.rst",
+      "recommended_reason": "Most referenced here (5/8 refs)",
+      "recommended_section": "ABI",
+      "relocation_priority": "medium",
+      "term": "c"
+    }
+  ],
+  "timestamp": "20260213T015613Z",
+  "wave": "WB"
+}

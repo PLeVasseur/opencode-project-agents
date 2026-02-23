@@ -1,0 +1,38 @@
+{
+  "wave": "A",
+  "term_count": 15,
+  "checklist_range": [
+    "WA-001",
+    "WA-015"
+  ],
+  "action_type_counts": {
+    "move": 14,
+    "retain": 1
+  },
+  "reason_code_counts": {
+    "relocate-first-use-owner": 12,
+    "relocate-conceptual-owner": 2,
+    "retain-link-mitigated": 1
+  },
+  "semantic_change_flag_counts": {
+    "none": 15
+  },
+  "commit_hashes": [
+    "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+    "69af449c36447c82f24e1ec8021f28ed6ac5f57f",
+    "8f95531de31ad39cef0600be7c54a09f28bf0dbc",
+    "3e76012a8b3c70058bfbdcddb7156b1dbd284cb0",
+    "3c513af76bfe06a66ce8a8bb283a56a6cf639c95",
+    "4033caf781e53b582d3349e6983694e5c9e371bb",
+    "cf1d449c54f72aebf5f22d78f1a2376dccb02988",
+    "26e6f487a9270d75b1ff58d17e6bf82f81f89405"
+  ],
+  "commit_range": {
+    "first": "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+    "last": "26e6f487a9270d75b1ff58d17e6bf82f81f89405"
+  },
+  "validator": "validation/wave-a-validate-progress.json",
+  "strict_report": "validation/wave-a-phase1-strict.json",
+  "build_log": "validation/wave-a-make-clear.log",
+  "link_log": "validation/wave-a-make-check-links.log"
+}

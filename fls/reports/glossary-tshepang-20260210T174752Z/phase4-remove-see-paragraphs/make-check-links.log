@@ -1,0 +1,63 @@
+Running Sphinx v8.1.3
+loading translations [en]... done
+loading pickled environment... The configuration has changed (1 option: 'html_theme_options')
+done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: build_info mismatch, copying .buildinfo to .buildinfo.bak
+building [html]: targets for 28 source files that are out of date
+updating environment: 0 added, 0 changed, 0 removed
+
+looking for now-outdated files... 5 found
+pickling environment... done
+checking consistency... /home/pete.levasseur/project/fls-wt/step4/src/glossary.rst:979: WARNING: id in paragraph is not the first element
+/home/pete.levasseur/project/fls-wt/step4/src/glossary.rst:1475: WARNING: id in paragraph is not the first element
+/home/pete.levasseur/project/fls-wt/step4/src/glossary.rst:3713: WARNING: id in paragraph is not the first element
+/home/pete.levasseur/project/fls-wt/step4/src/glossary.rst:5771: WARNING: id in paragraph is not the first element
+done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls-wt/step4/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls-wt/step4/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls-wt/step4/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build finished with problems, 4 warnings (with warnings treated as errors).
+
+hint: if you see an exception, pass --debug to see the full traceback

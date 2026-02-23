@@ -1,0 +1,80 @@
+CHECK opencode_config_dir_writable
+EXIT 0
+
+CHECK git_remote_v
+origin	git@github.com:PLeVasseur/fls.git (fetch)
+origin	git@github.com:PLeVasseur/fls.git (push)
+EXIT 0
+
+CHECK gh_auth_status
+EXIT 0
+
+CHECK toolchain_uv
+uv 0.6.4
+EXIT 0
+
+CHECK toolchain_make_help
+EXIT 0
+
+CHECK toolchain_generate_help
+EXIT 0
+
+CHECK fetch_origin_prune
+EXIT 0
+
+CHECK origin_main_exists
+EXIT 0
+
+CHECK origin_phase1_exists
+EXIT 0
+
+CHECK worktree_parent_listing
+total 0
+drwxr-xr-x 1 pete.levasseur docker 1178 Feb  7 23:40 .
+drwxr-x--- 1 pete.levasseur docker  744 Feb  8 13:14 ..
+drwxr-xr-x 1 pete.levasseur docker  202 Nov 23 14:09 audio-processing
+drwxr-xr-x 1 pete.levasseur docker  426 Jan 13 07:56 blog.rust-lang.org
+drwxr-xr-x 1 pete.levasseur docker  116 Oct 27 04:36 content-team
+drwxr-xr-x 1 pete.levasseur docker  526 Feb 11 00:07 fls
+drwxr-xr-x 1 pete.levasseur docker  368 Feb  7 13:30 fls-anchor-on-dedupe-20260207T042229Z
+drwxr-xr-x 1 pete.levasseur docker  368 Feb  7 14:11 fls-anchor-title-preserve-on-dedupe-20260207T050810Z
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  7 23:41 fls-changelog-assistant-paragraph-buckets-20260207T144017Z
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  3 06:31 fls-glossary-U
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  3 06:18 fls-glossary-V
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  3 06:18 fls-glossary-W
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  3 06:17 fls-glossary-X
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  3 06:18 fls-glossary-Y
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  3 06:16 fls-glossary-Z
+drwxr-xr-x 1 pete.levasseur docker  378 Feb  7 11:01 fls-paragraph-id-dedup-mainline
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  7 13:31 fls-system-abi-anchor-integration-20260207T042229Z
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  7 14:17 fls-system-abi-anchor-title-preserve-integration-20260207T050810Z
+drwxr-xr-x 1 pete.levasseur docker  358 Feb  7 13:30 fls-system-abi-on-dedupe-20260207T042229Z
+drwxr-xr-x 1 pete.levasseur docker  388 Feb  7 09:37 fls-system-abi-variadic-validation
+drwxr-xr-x 1 pete.levasseur docker   78 Nov  1 10:12 fls-team
+drwxr-xr-x 1 pete.levasseur docker  150 Feb  6 02:00 project-vision-doc
+drwxr-xr-x 1 pete.levasseur docker  308 Oct 28 02:18 rust-lang-team
+drwxr-xr-x 1 pete.levasseur docker  958 Oct 25 03:43 rust-project-calendar
+drwxr-xr-x 1 pete.levasseur docker  412 Jan 29 03:02 rust-project-goals
+drwxr-xr-x 1 pete.levasseur docker  354 Oct 18 06:07 rust-rfcs
+EXIT 0
+
+CHECK existing_worktrees
+/home/pete.levasseur/project/fls                                                                00ad891 [glossary-single-source-phase1]
+/home/pete.levasseur/project/fls-anchor-on-dedupe-20260207T042229Z                              02937b5 [changelog-assistant-upstream-pr-anchor-on-dedupe]
+/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z               216668c [changelog-assistant-upstream-pr-anchor-title-preserve-on-dedupe]
+/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z         0c590c4 [changelog-assistant-paragraph-buckets-inline-tags-on-dedupe-20260207T144017Z]
+/home/pete.levasseur/project/fls-glossary-U                                                     ec946a3 [glossary-U]
+/home/pete.levasseur/project/fls-glossary-V                                                     308d2c4 [glossary-V]
+/home/pete.levasseur/project/fls-glossary-W                                                     873aaca [glossary-W]
+/home/pete.levasseur/project/fls-glossary-X                                                     f119687 [glossary-X]
+/home/pete.levasseur/project/fls-glossary-Y                                                     f119687 [glossary-Y]
+/home/pete.levasseur/project/fls-glossary-Z                                                     b7393af [glossary-Z]
+/home/pete.levasseur/project/fls-paragraph-id-dedup-mainline                                    30df352 [dedupe-paragraph-ids-mainline]
+/home/pete.levasseur/project/fls-system-abi-anchor-integration-20260207T042229Z                 019b9be [system-abi-variadic-anchor-integration-on-dedupe-20260207T042229Z]
+/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z  b4e9f07 [system-abi-variadic-anchor-title-preserve-integration-on-dedupe-20260207T050810Z]
+/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z                          1d98249 [system-abi-variadic-on-dedupe]
+/home/pete.levasseur/project/fls-system-abi-variadic-validation                                 57b0f04 [system-abi-variadic]
+EXIT 0
+
+CHECK existing_phase_branches
+EXIT 0

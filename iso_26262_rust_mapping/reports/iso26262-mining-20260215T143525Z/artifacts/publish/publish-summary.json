@@ -1,0 +1,12 @@
+{
+  "anchor_registry": "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/anchor-registry.jsonc",
+  "corpus_manifest": "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/corpus-manifest.jsonc",
+  "published_parts": [
+    "P06",
+    "P08",
+    "P09"
+  ],
+  "published_record_count": 176,
+  "run_id": "20260215T143525Z",
+  "timestamp_utc": "2026-02-15T14:57:39Z"
+}

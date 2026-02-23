@@ -1,0 +1,17 @@
+commit e86d544b64753e7b3cf45d7f41827fea1804f76c (HEAD -> glossary-single-source-phase1-repack-upstream-main, origin/glossary-single-source-phase1-repack-upstream-main)
+Author: Pete LeVasseur <plevasseur@gmail.com>
+Date:   Sat Feb 14 02:53:54 2026 +0900
+
+    refactor(glossary): switch to generated-only glossary source and reproducibility checks
+
+ .github/workflows/ci.yml       |    7 +-
+ README.rst                     |   15 +-
+ exts/ferrocene_spec/README.rst |    7 +-
+ generate-glossary-entry.py     |   18 +-
+ generate-glossary.py           |    3 +-
+ make.py                        |   36 +-
+ src/glossary.rst               |    5 -
+ src/glossary.rst.inc           | 7852 ----------------------------------------
+ tools/README.rst               |   63 +-
+ tools/verify-html-diff.py      |  466 ++-
+ 10 files changed, 447 insertions(+), 8025 deletions(-)

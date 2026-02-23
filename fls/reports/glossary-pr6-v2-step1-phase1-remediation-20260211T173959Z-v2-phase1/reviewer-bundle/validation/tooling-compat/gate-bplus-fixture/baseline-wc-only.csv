@@ -1,0 +1,2 @@
+checklist_id,term,wave,source_set,baseline_file,baseline_line,baseline_dp_id,baseline_section,baseline_commit,first_use_file,first_use_line,recommended_file,recommended_section,placement_priority,placement_fitness_rating,divergence_match_category,divergence_reliability,divergence_similarity,before_evidence_ref
+WC-001,fixture term,WC,fixture,values.rst,1,fls_fixture,Fixture,19e75856eac5694e5d613c7c59b429848d333992,,,,,,,,,,fixture

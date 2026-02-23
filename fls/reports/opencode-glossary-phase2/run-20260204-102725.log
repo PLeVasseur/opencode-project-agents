@@ -1,0 +1,1244 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[94m[1m| [0m[90m Grep     [0mconcrete type
+[94m[1m| [0m[90m Grep     [0mcompound assignment expression
+[94m[1m| [0m[90m Grep     [0mconditional compilation
+[94m[1m| [0m[90m Grep     [0mconditionally-compiled source code
+[94m[1m| [0m[90m Grep     [0mconfiguration predicate
+[94m[1m| [0m[90m Grep     [0mconst block expression
+[94m[1m| [0m[90m Grep     [0mconstant argument
+[94m[1m| [0m[90m Grep     [0mconstant context
+[94m[1m| [0m[90m Grep     [0mconstant expression
+[94m[1m| [0m[90m Grep     [0mconstant function
+[94m[1m| [0m[90m Grep     [0mconstant initializer
+[94m[1m| [0m[90m Grep     [0mconstant parameter initializer
+[94m[1m| [0m[90m Grep     [0mconstant parameter
+[94m[1m| [0m[90m Grep     [0mconstant promotion
+[94m[1m| [0m[90m Grep     [0mconstant\b
+[94m[1m| [0m[90m Grep     [0mconstrain
+[94m[1m| [0m[90m Grep     [0mconstructee
+[94m[1m| [0m[90m Grep     [0mconstruct\b
+[94m[1m| [0m[90m Grep     [0mcontainer operand
+[94m[1m| [0m[90m Grep     [0mcontinue expression
+[94m[1m| [0m[90m Grep     [0mcompound assignment expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mconcrete type
+[94m[1m| [0m[90m Grep     [0m:dt:`concrete type`
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[94m[1m| [0m[90m Grep     [0mconditional compilation
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`Conditional compilation`
+[94m[1m| [0m[90m Grep     [0mconst block expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`constant` is
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[94m[1m| [0m[90m Grep     [0mconstant promotion
+[94m[1m| [0m[90m Grep     [0mConstant promotion
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[94m[1m| [0m[90m Grep     [0mconstant argument
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[94m[1m| [0m[90m Grep     [0mconstant parameter
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`construct` is
+[94m[1m| [0m[90m Grep     [0m:dt:`construct`
+[94m[1m| [0m[90m Grep     [0mpiece of program text
+[96m[1m| [0m[90m Read     [0msrc/general.rst
+[94m[1m| [0m[90m Grep     [0mconstructee
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mcontainer operand
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mcontinue expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mconstant context
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`constant expression`
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mconstant function
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for compound assignment expression
+
+.. glossary-entry:: compound assignment expression
+   
+   :glossary:
+     :dp:`fls_mkxpk2jhe5s0`
+     A :dt:`compound assignment expression` is an expression that first computes
+     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
+     :t:`assigned operand`.
+     
+     :dp:`fls_55abuw8symub`
+     See :s:`CompoundAssignmentExpression`.
+   :chapter:
+     :dp:`fls_3bu3g8o5nopc`
+     A :t:`compound assignment expression` is an expression that first computes
+     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
+     :t:`assigned operand`.
+     
+     .. glossary-entry:: bit and assignment expression
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry with manual chapter lines
+
+/bin/bash: line 1: fls_3bu3g8o5nopc: command not found
+/bin/bash: line 1: compound: command not found
+/bin/bash: line 1: value: command not found
+/bin/bash: line 1: [operand]s: command not found
+/bin/bash: line 1: assigned: command not found
+.. glossary-entry:: compound assignment expression
+   
+   :glossary:
+     :dp:`fls_mkxpk2jhe5s0`
+     A :dt:`compound assignment expression` is an expression that first computes
+     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
+     :t:`assigned operand`.
+     
+     :dp:`fls_55abuw8symub`
+     See :s:`CompoundAssignmentExpression`.
+   :chapter:
+     :dp:
+     A :t: is an expression that first computes
+     a :t: from two :t: and then assigns the value to an
+     :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for compound assignment expression with manual chapter lines
+
+.. glossary-entry:: compound assignment expression
+   
+   :glossary:
+     :dp:`fls_mkxpk2jhe5s0`
+     A :dt:`compound assignment expression` is an expression that first computes
+     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
+     :t:`assigned operand`.
+     
+     :dp:`fls_55abuw8symub`
+     See :s:`CompoundAssignmentExpression`.
+   :chapter:
+     :dp:`fls_3bu3g8o5nopc`
+     A :t:`compound assignment expression` is an expression that first computes
+     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
+     :t:`assigned operand`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for configuration predicate with manual chapter lines
+
+.. glossary-entry:: configuration predicate
+   
+   :glossary:
+     :dp:`fls_TyKIUQMxO9Si`
+     A :dt:`configuration predicate` is a :t:`construct` that evaluates statically
+     to either ``true`` or ``false``, and controls :t:`conditional compilation`.
+     
+     :dp:`fls_99ioki0M64fD`
+     See :s:`ConfigurationPredicate`.
+   :chapter:
+     :dp:`fls_l96kyix5xsof`
+     A :t:`configuration predicate` is a :t:`construct` that evaluates statically
+     to either ``true`` or ``false``, and controls :t:`conditional compilation`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constructee with manual chapter lines
+
+.. glossary-entry:: constructee
+   
+   :glossary:
+     :dp:`fls_Twbu94uGW4Cb`
+     A :dt:`constructee` indicates the :t:`enum variant`, :t:`struct` or :t:`union`
+     whose value is being constructed by a :t:`struct expression`.
+   :chapter:
+     :dp:`fls_4z91ymz3ciup`
+     A :t:`constructee` indicates the :t:`enum variant`, :t:`struct`, or :t:`union`
+     whose value is being constructed by a :t:`struct expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for const block expression
+
+.. glossary-entry:: const block expression
+   
+   :glossary:
+     :dp:`fls_5ApoJzRSTZGH`
+     A :dt:`const block expression` is a :t:`block expression` that is specified
+     with :t:`keyword` ``const`` and encapsulates behavior which is evaluated
+     statically.
+   :chapter:
+     :dp:`fls_0lcunL4bo8ka`
+     A :t:`const block expression` is a :t:`block expression` that is specified
+     with :t:`keyword` ``const`` and encapsulates behavior which is evaluated
+     statically.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant context
+
+.. glossary-entry:: constant context
+   
+   :glossary:
+     :dp:`fls_9j6mc4i1t73z`
+     A :dt:`constant context` is a :t:`construct` that requires a
+     :t:`constant expression`.
+   :chapter:
+     :dp:`fls_kjhma680hz3g`
+     A :t:`constant context` is a :t:`construct` that requires a
+     :t:`constant expression`. The following :t:`[construct]s` are
+     :t:`[constant context]s`:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant expression
+
+.. glossary-entry:: constant expression
+   
+   :glossary:
+     :dp:`fls_rmn8w4rh3juf`
+     A :dt:`constant expression` is an :t:`expression` that can be evaluated
+     statically.
+   :chapter:
+     :dp:`fls_1ji7368ieg0b`
+     A :t:`constant expression` is an :t:`expression` that can be evaluated
+     statically. The following :t:`[construct]s` are :t:`[constant expression]s` as
+     long as their :t:`[operand]s` are also :t:`[constant expression]s` and do not
+     involve :t:`[type]s` that require :t:`destruction`:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for container operand
+
+.. glossary-entry:: container operand
+   
+   :glossary:
+     :dp:`fls_stjmobac6wyd`
+     A :dt:`container operand` is an :t:`operand` that indicates the :t:`value`
+     whose :t:`field` is selected in a :t:`field access expression`.
+     
+     :dp:`fls_hgm1ssicc8j4`
+     See :s:`ContainerOperand`.
+   :chapter:
+     :dp:`fls_s2vpn4ihenpe`
+     A :t:`container operand` is an :t:`operand` that indicates the :t:`value` whose
+     :t:`field` is selected in a :t:`field access expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant promotion
+
+.. glossary-entry:: constant promotion
+   
+   :glossary:
+     :dp:`fls_ku2md8lnei12`
+     :dt:`Constant promotion` is the process of converting a :t:`value expression`
+     into a :t:`constant`.
+   :chapter:
+     :dp:`fls_udn9lyf3m0z6`
+     :t:`Constant promotion` is the process of converting a :t:`value expression`
+     into a :t:`constant`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant
+
+.. glossary-entry:: constant
+   
+   :glossary:
+     :dp:`fls_p8rjw2qok85b`
+     A :dt:`constant` is an immutable :t:`value` whose uses are substituted by the
+     :t:`value`.
+     
+     :dp:`fls_hlouedpdg1zd`
+     See :s:`ConstantDeclaration`.
+   :chapter:
+     :dp:`fls_5o5iu4j8in4l`
+     A :t:`constant` is an :t:`immutable` :t:`value expression` whose uses are substituted by
+     the :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant initializer
+
+.. glossary-entry:: constant initializer
+   
+   :glossary:
+     :dp:`fls_2ge48v1kmw8`
+     A :dt:`constant initializer` is a :t:`construct` that provides the :t:`value`
+     of its related :t:`constant`.
+     
+     :dp:`fls_h86eg26z19r2`
+     See :s:`ConstantInitializer`.
+   :chapter:
+     :dp:`fls_ndmfqxjpvsqy`
+     A :t:`constant initializer` is a :t:`construct` that provides the :t:`value` of
+     its related :t:`constant`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant argument
+
+.. glossary-entry:: constant argument
+   
+   :glossary:
+     :dp:`fls_sz10vgh260xo`
+     A :dt:`constant argument` is a :t:`generic argument` that supplies the
+     :t:`value` of a :t:`constant parameter`.
+     
+     :dp:`fls_dz9x6gf3yzc6`
+     See :s:`ConstantArgument`.
+   :chapter:
+     :dp:`fls_i3z9ueoe99zd`
+     A :t:`constant argument` is a :t:`generic argument` that supplies the
+     :t:`value` of a :t:`constant parameter`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant parameter
+
+.. glossary-entry:: constant parameter
+   
+   :glossary:
+     :dp:`fls_z7e491m3dx4u`
+     A :dt:`constant parameter` is a :t:`generic parameter` for a :t:`constant`.
+     
+     :dp:`fls_9093wziwxk1g`
+     See :s:`ConstantParameter`.
+   :chapter:
+     :dp:`fls_vpcqgec83ybt`
+     A :t:`constant parameter` is a :t:`generic parameter` for a :t:`constant`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant parameter initializer
+
+.. glossary-entry:: constant parameter initializer
+   
+   :glossary:
+     :dp:`fls_OXD2YaOkfjcI`
+     A :dt:`constant parameter initializer` is a :t:`construct` that provides the
+     default `:t:`value` of its related :t:`constant parameter`.
+     
+     :dp:`fls_CMsyUCxGm8Xs`
+     See :s:`ConstantParameterInitializer`.
+   :chapter:
+     :dp:`fls_3SjMBlc0b7qo`
+     A :t:`constant parameter initializer` is a :t:`construct` that provides the
+     default :t:`value` of its related :t:`constant parameter`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constrain
+
+.. glossary-entry:: constrain
+   
+   :glossary:
+     :dp:`fls_fna0ch8ucyhv`
+     A :t:`generic parameter` is said to :dt:`constrain` an :t:`implementation` if
+     it makes the :t:`[implementation]'s` applicability more narrow.
+   :chapter:
+     :dp:`fls_hyi2jnp38v1n`
+     A :t:`generic parameter` is said to constrain an :t:`implementation` if the
+     :t:`generic parameter` appears at least once in one of the following:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for constant function
+
+.. glossary-entry:: constant function
+   
+   :glossary:
+     :dp:`fls_4glkwg11p5ml`
+     A :dt:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
+   :chapter:
+     :dp:`fls_2049qu3ji5x7`
+     A :t:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for concrete type
+
+.. glossary-entry:: concrete type
+   
+   :glossary:
+     :dp:`fls_l0lr3ybgccjc`
+     A :dt:`concrete type` is a :t:`type` described by a :t:`type specification`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for conditional compilation
+
+.. glossary-entry:: conditional compilation
+   
+   :glossary:
+     :dp:`fls_xymops69eer3`
+     :dt:`Conditional compilation` is the process of compiling
+     :t:`conditionally-compiled source code`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for conditionally-compiled source code
+
+.. glossary-entry:: conditionally-compiled source code
+   
+   :glossary:
+     :dp:`fls_hs4lnrdxpj2g`
+     :dt:`Conditionally-compiled source code` is source code that may or may not be
+     considered a part of a Rust program depending on certain conditions.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for construct
+
+.. glossary-entry:: construct
+   
+   :glossary:
+     :dp:`fls_10tvzeo8xex0`
+     A :dt:`construct` is a piece of program text that is an instance of a
+     :t:`syntactic category`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for continue expression
+
+.. glossary-entry:: continue expression
+   
+   :glossary:
+     :dp:`fls_waxam3m9plfj`
+     A :dt:`continue expression` is an :t:`expression` that first terminates and
+     then restarts a :t:`loop expression`.
+     
+     :dp:`fls_smwcz2xw9o1f`
+     See :s:`ContinueExpression`.
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/functions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/general.rst
+[91m[1m| [0m[90m Bash     [0mAppend glossary term map entries for next 20 terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mAppend glossary term map entries using checklist
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff is empty
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow git status summary
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1
+ M src/attributes.rst
+ M src/expressions.rst
+ M src/functions.rst
+ M src/general.rst
+ M src/generics.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged changes
+
+diff --git a/src/attributes.rst b/src/attributes.rst
+index 6b0f7ac..7f54284 100644
+--- a/src/attributes.rst
++++ b/src/attributes.rst
+@@ -911,6 +911,20 @@ It is a :t:`safety invariant` for the :t:`function body` to :t:`diverge <divergi
+ Conditional Compilation Attributes
+ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
++.. glossary-entry:: conditional compilation
++   
++   :glossary:
++     :dp:`fls_xymops69eer3`
++     :dt:`Conditional compilation` is the process of compiling
++     :t:`conditionally-compiled source code`.
++
++.. glossary-entry:: conditionally-compiled source code
++   
++   :glossary:
++     :dp:`fls_hs4lnrdxpj2g`
++     :dt:`Conditionally-compiled source code` is source code that may or may not be
++     considered a part of a Rust program depending on certain conditions.
++
+ .. _fls_fymvsy6ig99a:
+ 
+ Attribute ``cfg``
+@@ -957,9 +971,19 @@ Attribute ``cfg``
+ :dp:`fls_xrjp7xw9jutz`
+ :t:`Attribute` :dc:`cfg` enables :t:`conditional compilation`.
+ 
+-:dp:`fls_l96kyix5xsof`
+-A :t:`configuration predicate` is a :t:`construct` that evaluates statically
+-to either ``true`` or ``false``, and controls :t:`conditional compilation`.
++.. glossary-entry:: configuration predicate
++   
++   :glossary:
++     :dp:`fls_TyKIUQMxO9Si`
++     A :dt:`configuration predicate` is a :t:`construct` that evaluates statically
++     to either ``true`` or ``false``, and controls :t:`conditional compilation`.
++     
++     :dp:`fls_99ioki0M64fD`
++     See :s:`ConfigurationPredicate`.
++   :chapter:
++     :dp:`fls_l96kyix5xsof`
++     A :t:`configuration predicate` is a :t:`construct` that evaluates statically
++     to either ``true`` or ``false``, and controls :t:`conditional compilation`.
+ 
+ .. glossary-entry:: all configuration predicate
+    
+@@ -1749,6 +1773,12 @@ Attribute ``type_length_limit``
+ :t:`[generic substitution]s` for :t:`[type parameter]s` when constructing a
+ :t:`concrete type`.
+ 
++.. glossary-entry:: concrete type
++   
++   :glossary:
++     :dp:`fls_l0lr3ybgccjc`
++     A :dt:`concrete type` is a :t:`type` described by a :t:`type specification`.
++
+ .. rubric:: Examples
+ 
+ .. code-block:: rust
+diff --git a/src/expressions.rst b/src/expressions.rst
+index a173b09..c0a260a 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -170,11 +170,18 @@ Constant Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_1ji7368ieg0b`
+-A :t:`constant expression` is an :t:`expression` that can be evaluated
+-statically. The following :t:`[construct]s` are :t:`[constant expression]s` as
+-long as their :t:`[operand]s` are also :t:`[constant expression]s` and do not
+-involve :t:`[type]s` that require :t:`destruction`:
++.. glossary-entry:: constant expression
++   
++   :glossary:
++     :dp:`fls_rmn8w4rh3juf`
++     A :dt:`constant expression` is an :t:`expression` that can be evaluated
++     statically.
++   :chapter:
++     :dp:`fls_1ji7368ieg0b`
++     A :t:`constant expression` is an :t:`expression` that can be evaluated
++     statically. The following :t:`[construct]s` are :t:`[constant expression]s` as
++     long as their :t:`[operand]s` are also :t:`[constant expression]s` and do not
++     involve :t:`[type]s` that require :t:`destruction`:
+ 
+ * :dp:`fls_y6ore0iwx7e0`
+   :t:`[Arithmetic expression]s` of :t:`[scalar type]s`,
+@@ -295,10 +302,17 @@ It is a static error if the :t:`size operand` of an
+ :t:`array repetition constructor` or an :t:`array type` depends on
+ :t:`[generic parameter]s`.
+ 
+-:dp:`fls_kjhma680hz3g`
+-A :t:`constant context` is a :t:`construct` that requires a
+-:t:`constant expression`. The following :t:`[construct]s` are
+-:t:`[constant context]s`:
++.. glossary-entry:: constant context
++   
++   :glossary:
++     :dp:`fls_9j6mc4i1t73z`
++     A :dt:`constant context` is a :t:`construct` that requires a
++     :t:`constant expression`.
++   :chapter:
++     :dp:`fls_kjhma680hz3g`
++     A :t:`constant context` is a :t:`construct` that requires a
++     :t:`constant expression`. The following :t:`[construct]s` are
++     :t:`[constant context]s`:
+ 
+ * :dp:`fls_ljc6jq5ksbcs`
+   The :t:`constant initializer` of an :t:`associated constant` or a
+@@ -833,10 +847,18 @@ Const Blocks
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_0lcunL4bo8ka`
+-A :t:`const block expression` is a :t:`block expression` that is specified
+-with :t:`keyword` ``const`` and encapsulates behavior which is evaluated
+-statically.
++.. glossary-entry:: const block expression
++   
++   :glossary:
++     :dp:`fls_5ApoJzRSTZGH`
++     A :dt:`const block expression` is a :t:`block expression` that is specified
++     with :t:`keyword` ``const`` and encapsulates behavior which is evaluated
++     statically.
++   :chapter:
++     :dp:`fls_0lcunL4bo8ka`
++     A :t:`const block expression` is a :t:`block expression` that is specified
++     with :t:`keyword` ``const`` and encapsulates behavior which is evaluated
++     statically.
+ 
+ :dp:`fls_veEGzEbpT4ny`
+ An :t:`const block expression` denotes a new :t:`control flow boundary`.
+@@ -2766,10 +2788,21 @@ Compound Assignment Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_3bu3g8o5nopc`
+-A :t:`compound assignment expression` is an expression that first computes
+-a :t:`value` from two :t:`[operand]s` and then assigns the value to an
+-:t:`assigned operand`.
++.. glossary-entry:: compound assignment expression
++   
++   :glossary:
++     :dp:`fls_mkxpk2jhe5s0`
++     A :dt:`compound assignment expression` is an expression that first computes
++     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
++     :t:`assigned operand`.
++     
++     :dp:`fls_55abuw8symub`
++     See :s:`CompoundAssignmentExpression`.
++   :chapter:
++     :dp:`fls_3bu3g8o5nopc`
++     A :t:`compound assignment expression` is an expression that first computes
++     a :t:`value` from two :t:`[operand]s` and then assigns the value to an
++     :t:`assigned operand`.
+ 
+ .. glossary-entry:: bit and assignment expression
+    
+@@ -3436,9 +3469,16 @@ Struct Expressions
+ A :t:`struct expression` is an :t:`expression` that constructs an
+ :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+ 
+-:dp:`fls_4z91ymz3ciup`
+-A :t:`constructee` indicates the :t:`enum variant`, :t:`struct`, or :t:`union`
+-whose value is being constructed by a :t:`struct expression`.
++.. glossary-entry:: constructee
++   
++   :glossary:
++     :dp:`fls_Twbu94uGW4Cb`
++     A :dt:`constructee` indicates the :t:`enum variant`, :t:`struct` or :t:`union`
++     whose value is being constructed by a :t:`struct expression`.
++   :chapter:
++     :dp:`fls_4z91ymz3ciup`
++     A :t:`constructee` indicates the :t:`enum variant`, :t:`struct`, or :t:`union`
++     whose value is being constructed by a :t:`struct expression`.
+ 
+ .. glossary-entry:: base initializer
+    
+@@ -3964,9 +4004,19 @@ Field Access Expressions
+ A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
+ of a :t:`value`.
+ 
+-:dp:`fls_s2vpn4ihenpe`
+-A :t:`container operand` is an :t:`operand` that indicates the :t:`value` whose
+-:t:`field` is selected in a :t:`field access expression`.
++.. glossary-entry:: container operand
++   
++   :glossary:
++     :dp:`fls_stjmobac6wyd`
++     A :dt:`container operand` is an :t:`operand` that indicates the :t:`value`
++     whose :t:`field` is selected in a :t:`field access expression`.
++     
++     :dp:`fls_hgm1ssicc8j4`
++     See :s:`ContainerOperand`.
++   :chapter:
++     :dp:`fls_s2vpn4ihenpe`
++     A :t:`container operand` is an :t:`operand` that indicates the :t:`value` whose
++     :t:`field` is selected in a :t:`field access expression`.
+ 
+ :dp:`fls_yeuayil6uxzx`
+ A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+@@ -4682,6 +4732,16 @@ Continue Expressions
+    ContinueExpression ::=
+        $$continue$$ LabelIndication?
+ 
++.. glossary-entry:: continue expression
++   
++   :glossary:
++     :dp:`fls_waxam3m9plfj`
++     A :dt:`continue expression` is an :t:`expression` that first terminates and
++     then restarts a :t:`loop expression`.
++     
++     :dp:`fls_smwcz2xw9o1f`
++     See :s:`ContinueExpression`.
++
+ .. rubric:: Legality Rules
+ 
+ :dp:`fls_wzs6kz9ffqzt`
+diff --git a/src/functions.rst b/src/functions.rst
+index 7183c5d..6326d1e 100644
+--- a/src/functions.rst
++++ b/src/functions.rst
+@@ -176,8 +176,14 @@ that encompasses of its :t:`[function qualifier]s`, :t:`name`,
+ :t:`[generic parameter]s`, :t:`[function parameter]s`, :t:`return type`, and
+ :t:`where clause`.
+ 
+-:dp:`fls_2049qu3ji5x7`
+-A :t:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
++.. glossary-entry:: constant function
++   
++   :glossary:
++     :dp:`fls_4glkwg11p5ml`
++     A :dt:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
++   :chapter:
++     :dp:`fls_2049qu3ji5x7`
++     A :t:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
+ 
+ :dp:`fls_7mlanuh5mvpn`
+ The :t:`function body` of a :t:`constant function` shall be a
+diff --git a/src/general.rst b/src/general.rst
+index 570af8e..e3c8892 100644
+--- a/src/general.rst
++++ b/src/general.rst
+@@ -154,6 +154,13 @@ relevant to the topic:
+ :dp:`fls_oxzjqxgejx9t`
+ The syntax representation of a :t:`construct`.
+ 
++.. glossary-entry:: construct
++   
++   :glossary:
++     :dp:`fls_10tvzeo8xex0`
++     A :dt:`construct` is a piece of program text that is an instance of a
++     :t:`syntactic category`.
++
+ .. rubric:: Legality Rules
+ 
+ :dp:`fls_gmx688d6ek1o`
+diff --git a/src/generics.rst b/src/generics.rst
+index 7420e8c..87cfbf2 100644
+--- a/src/generics.rst
++++ b/src/generics.rst
+@@ -77,12 +77,31 @@ A :t:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+ :dp:`fls_u8mqct93yimd`
+ A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+ 
+-:dp:`fls_vpcqgec83ybt`
+-A :t:`constant parameter` is a :t:`generic parameter` for a :t:`constant`.
++.. glossary-entry:: constant parameter
++   
++   :glossary:
++     :dp:`fls_z7e491m3dx4u`
++     A :dt:`constant parameter` is a :t:`generic parameter` for a :t:`constant`.
++     
++     :dp:`fls_9093wziwxk1g`
++     See :s:`ConstantParameter`.
++   :chapter:
++     :dp:`fls_vpcqgec83ybt`
++     A :t:`constant parameter` is a :t:`generic parameter` for a :t:`constant`.
+ 
+-:dp:`fls_3SjMBlc0b7qo`
+-A :t:`constant parameter initializer` is a :t:`construct` that provides the
+-default :t:`value` of its related :t:`constant parameter`.
++.. glossary-entry:: constant parameter initializer
++   
++   :glossary:
++     :dp:`fls_OXD2YaOkfjcI`
++     A :dt:`constant parameter initializer` is a :t:`construct` that provides the
++     default `:t:`value` of its related :t:`constant parameter`.
++     
++     :dp:`fls_CMsyUCxGm8Xs`
++     See :s:`ConstantParameterInitializer`.
++   :chapter:
++     :dp:`fls_3SjMBlc0b7qo`
++     A :t:`constant parameter initializer` is a :t:`construct` that provides the
++     default :t:`value` of its related :t:`constant parameter`.
+ 
+ :dp:`fls_p4yb8EAXlRU0`
+ A :t:`constant parameter initializer` shall be a :t:`constant expression`.
+@@ -122,9 +141,16 @@ A :t:`generic struct` shall use all of its :t:`[type parameter]s` and
+ A :t:`generic union` shall use all of its :t:`[type parameter]s` and
+ :t:`[lifetime parameter]s` at least once in at least one of its :t:`[field]s`.
+ 
+-:dp:`fls_hyi2jnp38v1n`
+-A :t:`generic parameter` is said to constrain an :t:`implementation` if the
+-:t:`generic parameter` appears at least once in one of the following:
++.. glossary-entry:: constrain
++   
++   :glossary:
++     :dp:`fls_fna0ch8ucyhv`
++     A :t:`generic parameter` is said to :dt:`constrain` an :t:`implementation` if
++     it makes the :t:`[implementation]'s` applicability more narrow.
++   :chapter:
++     :dp:`fls_hyi2jnp38v1n`
++     A :t:`generic parameter` is said to constrain an :t:`implementation` if the
++     :t:`generic parameter` appears at least once in one of the following:
+ 
+ * :dp:`fls_sseo6u6pbcki`
+   As a :t:`binding argument` in the :t:`[trait bound]s` of a :t:`type` that
+@@ -391,9 +417,19 @@ A :t:`binding bound argument` shall only be used within the confines of a
+ :t:`[bound]s`, :t:`associated type`'s :t:`[bound]s` or :t:`trait`'s
+ :t:`[supertrait]s`.
+ 
+-:dp:`fls_i3z9ueoe99zd`
+-A :t:`constant argument` is a :t:`generic argument` that supplies the
+-:t:`value` of a :t:`constant parameter`.
++.. glossary-entry:: constant argument
++   
++   :glossary:
++     :dp:`fls_sz10vgh260xo`
++     A :dt:`constant argument` is a :t:`generic argument` that supplies the
++     :t:`value` of a :t:`constant parameter`.
++     
++     :dp:`fls_dz9x6gf3yzc6`
++     See :s:`ConstantArgument`.
++   :chapter:
++     :dp:`fls_i3z9ueoe99zd`
++     A :t:`constant argument` is a :t:`generic argument` that supplies the
++     :t:`value` of a :t:`constant parameter`.
+ 
+ :dp:`fls_al4dhmqodvwc`
+ A :t:`constant argument` may only appear as a single segment
+diff --git a/src/values.rst b/src/values.rst
+index 68c27eb..d5cfb73 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -79,9 +79,19 @@ Constants
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_5o5iu4j8in4l`
+-A :t:`constant` is an :t:`immutable` :t:`value expression` whose uses are substituted by
+-the :t:`value`.
++.. glossary-entry:: constant
++   
++   :glossary:
++     :dp:`fls_p8rjw2qok85b`
++     A :dt:`constant` is an immutable :t:`value` whose uses are substituted by the
++     :t:`value`.
++     
++     :dp:`fls_hlouedpdg1zd`
++     See :s:`ConstantDeclaration`.
++   :chapter:
++     :dp:`fls_5o5iu4j8in4l`
++     A :t:`constant` is an :t:`immutable` :t:`value expression` whose uses are substituted by
++     the :t:`value`.
+ 
+ :dp:`fls_3mhj0kkupwuz`
+ An :t:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
+@@ -95,9 +105,19 @@ The :t:`type specification` of a :t:`constant` shall have ``'static``
+ The :t:`type` of a :t:`constant` shall implement the :std:`core::marker::Sized`
+ :t:`trait`.
+ 
+-:dp:`fls_ndmfqxjpvsqy`
+-A :t:`constant initializer` is a :t:`construct` that provides the :t:`value` of
+-its related :t:`constant`.
++.. glossary-entry:: constant initializer
++   
++   :glossary:
++     :dp:`fls_2ge48v1kmw8`
++     A :dt:`constant initializer` is a :t:`construct` that provides the :t:`value`
++     of its related :t:`constant`.
++     
++     :dp:`fls_h86eg26z19r2`
++     See :s:`ConstantInitializer`.
++   :chapter:
++     :dp:`fls_ndmfqxjpvsqy`
++     A :t:`constant initializer` is a :t:`construct` that provides the :t:`value` of
++     its related :t:`constant`.
+ 
+ :dp:`fls_6rxwbbhf5tc5`
+ A :t:`constant` shall have a :t:`constant initializer`, unless it is an
+@@ -266,9 +286,16 @@ Constant Promotion
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_udn9lyf3m0z6`
+-:t:`Constant promotion` is the process of converting a :t:`value expression`
+-into a :t:`constant`.
++.. glossary-entry:: constant promotion
++   
++   :glossary:
++     :dp:`fls_ku2md8lnei12`
++     :dt:`Constant promotion` is the process of converting a :t:`value expression`
++     into a :t:`constant`.
++   :chapter:
++     :dp:`fls_udn9lyf3m0z6`
++     :t:`Constant promotion` is the process of converting a :t:`value expression`
++     into a :t:`constant`.
+ 
+ :dp:`fls_yvkdcs4pmxjf`
+ :t:`Constant promotion` is possible only when
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+00dc183 docs(glossary): migrate batch 06 entries
+98e97a8 docs(glossary): migrate batch 05 entries
+48ae279 docs(glossary): migrate batch 04 entries
+e377a80 add script to generate glossary directives
+1e900d9 docs(glossary): migrate batch 03 entries
+
+[91m[1m| [0m[90m Bash     [0mStage changes, commit, and show status
+
+[glossary-single-source-phase1 7a54fff] docs(glossary): migrate batch 07 entries
+ 6 files changed, 214 insertions(+), 48 deletions(-)
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 1]
+
+Migrated the next 20 glossary terms into `.. glossary-entry::` blocks across the relevant chapters, keeping glossary text verbatim and matching chapter definitions where present. Inserted glossary-only entries for conditional compilation, concrete type, construct, and continue expression, and updated the supporting sections in `src/attributes.rst`, `src/expressions.rst`, `src/functions.rst`, `src/general.rst`, `src/generics.rst`, and `src/values.rst`.  
+Committed as `docs(glossary): migrate batch 07 entries`.
+
+Tests and checks
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Notes
+- Checklist updated at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`.
+- Term map appended at `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`.
+- HTML diff report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`.
+
+Next steps (optional)
+1) Push the branch to your fork.  
+2) Start the next batch of 20 terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

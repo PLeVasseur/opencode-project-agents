@@ -1,0 +1,10 @@
+.github/workflows/ci.yml
+README.rst
+exts/ferrocene_spec/README.rst
+generate-glossary-entry.py
+generate-glossary.py
+make.py
+src/glossary.rst
+src/glossary.rst.inc
+tools/README.rst
+tools/verify-html-diff.py

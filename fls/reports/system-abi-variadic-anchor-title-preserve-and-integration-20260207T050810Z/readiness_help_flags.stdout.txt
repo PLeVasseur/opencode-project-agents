@@ -1,0 +1,4 @@
+4:                              [--require-tags] [--require-anchor]
+5:                              [--replace-title]
+19:  --require-anchor      require --upstream-pr (explicit or inferred) to match
+21:  --replace-title       replace the anchored entry title on anchor-hit updates

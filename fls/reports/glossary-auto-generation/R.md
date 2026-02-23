@@ -66,6 +66,7 @@
 - [x] repeat operand (repeat_operand)
 - [x] repetition operator (repetition_operator)
 - [x] representation modifier (representation_modifier)
+- [x] representation (representation)
 - [x] reserved keyword (reserved_keyword)
 - [x] resolution (resolution)
 - [x] rest pattern (rest_pattern)
@@ -139,6 +140,11 @@
 - placement: `src/expressions.rst`
 - action: Upgraded the definition to :dt: in Range Expressions.
 - rationale: Range-to-inclusive expressions are defined in Range Expressions.
+
+## representation (representation)
+- placement: `src/types-and-traits.rst`
+- action: Added an alias entry that redirects to type representation.
+- rationale: Type Representation defines representation semantics for abstract data types.
 
 ## raw borrow expression (raw_borrow_expression)
 - placement: `src/expressions.rst`

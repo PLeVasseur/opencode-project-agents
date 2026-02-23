@@ -1,0 +1,34 @@
+{
+  "batch_number": 16,
+  "error": "run strict post-check for batch-016 failed (exit 1)\nstdout:\n[FAIL] glossary-terms-covered-by-chapters\n\nstderr:\nstrict checks failed: 1\n",
+  "failure_codes": [],
+  "ids": [
+    "WB-043",
+    "WB-045",
+    "WB-053",
+    "WB-057",
+    "WB-058",
+    "WB-059",
+    "WB-060",
+    "WB-061",
+    "WB-062",
+    "WB-063",
+    "WB-064",
+    "WB-065",
+    "WB-066",
+    "WB-067",
+    "WB-068",
+    "WB-069",
+    "WB-070",
+    "WB-071",
+    "WB-072",
+    "WB-073"
+  ],
+  "rolled_back": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/manual-placement-checklist-v3.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/manual-placement-ledger-v3.csv",
+    "worktree (git restore)"
+  ],
+  "timestamp": "20260213T001920Z",
+  "wave": "WB"
+}

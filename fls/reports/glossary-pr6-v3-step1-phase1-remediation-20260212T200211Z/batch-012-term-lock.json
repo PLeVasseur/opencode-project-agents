@@ -1,0 +1,230 @@
+{
+  "batch_number": 12,
+  "batch_prefix": "batch-012",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-041",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (5/8 refs)",
+      "recommended_section": "Enum Types",
+      "relocation_priority": "high",
+      "term": "discriminant initializer"
+    },
+    {
+      "checklist_id": "WB-042",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Type Unification",
+      "relocation_priority": "medium",
+      "term": "[unifiable type]s"
+    },
+    {
+      "checklist_id": "WB-043",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "items.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Items",
+      "relocation_priority": "medium",
+      "term": "elaboration"
+    },
+    {
+      "checklist_id": "WB-044",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "attributes.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Attribute ``no_mangle``",
+      "relocation_priority": "medium",
+      "term": "exported function"
+    },
+    {
+      "checklist_id": "WB-045",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Use Imports",
+      "relocation_priority": "medium",
+      "term": "expression-with-block"
+    },
+    {
+      "checklist_id": "WB-046",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Function Item Types",
+      "relocation_priority": "medium",
+      "term": "external function item type"
+    },
+    {
+      "checklist_id": "WB-047",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Values",
+      "relocation_priority": "medium",
+      "term": "mutable"
+    },
+    {
+      "checklist_id": "WB-048",
+      "divergence_match_category": "moderate_divergence",
+      "divergence_reliability": "medium",
+      "placement_fitness": "questionable",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "First reference at types-and-traits.rst:1586 precedes definition",
+      "recommended_section": "Type Aliases",
+      "relocation_priority": "medium",
+      "term": "where clause"
+    },
+    {
+      "checklist_id": "WB-049",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "associated-items.rst",
+      "recommended_reason": "Most referenced here (6/15 refs)",
+      "recommended_section": "Associated Items",
+      "relocation_priority": "medium",
+      "term": "associated function"
+    },
+    {
+      "checklist_id": "WB-050",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "First reference at entities-and-resolution.rst:975 precedes definition",
+      "recommended_section": "Preludes",
+      "relocation_priority": "medium",
+      "term": "renaming"
+    },
+    {
+      "checklist_id": "WB-051",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "First reference at lexical-elements.rst:189 precedes definition",
+      "recommended_section": "Lexical Elements, Separators, and Punctuation",
+      "relocation_priority": "medium",
+      "term": "separator"
+    },
+    {
+      "checklist_id": "WB-052",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (5/8 refs)",
+      "recommended_section": "Struct Patterns",
+      "relocation_priority": "medium",
+      "term": "struct pattern"
+    },
+    {
+      "checklist_id": "WB-053",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:653 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "medium",
+      "term": "tuple enum variant"
+    },
+    {
+      "checklist_id": "WB-054",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "associated-items.rst",
+      "recommended_reason": "Most referenced here (4/11 refs)",
+      "recommended_section": "Associated Items",
+      "relocation_priority": "medium",
+      "term": "associated item"
+    },
+    {
+      "checklist_id": "WB-055",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ownership-and-deconstruction.rst",
+      "recommended_reason": "Most referenced here (4/4 refs)",
+      "recommended_section": "Destructors",
+      "relocation_priority": "medium",
+      "term": "destructor"
+    },
+    {
+      "checklist_id": "WB-056",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Character Literals",
+      "relocation_priority": "medium",
+      "term": "escaped character"
+    },
+    {
+      "checklist_id": "WB-057",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "generics.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Generic Arguments",
+      "relocation_priority": "medium",
+      "term": "generic substitution"
+    },
+    {
+      "checklist_id": "WB-058",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "Most referenced here (9/49 refs)",
+      "recommended_section": "Compound Assignment Expressions",
+      "relocation_priority": "medium",
+      "term": "trait implementation"
+    },
+    {
+      "checklist_id": "WB-059",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "functions.rst",
+      "recommended_reason": "Most referenced here (15/96 refs)",
+      "recommended_section": "Functions",
+      "relocation_priority": "medium",
+      "term": "function"
+    },
+    {
+      "checklist_id": "WB-060",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "Most referenced here (2/7 refs)",
+      "recommended_section": "Paths",
+      "relocation_priority": "medium",
+      "term": "type path"
+    }
+  ],
+  "timestamp": "20260212T233035Z",
+  "wave": "WB"
+}

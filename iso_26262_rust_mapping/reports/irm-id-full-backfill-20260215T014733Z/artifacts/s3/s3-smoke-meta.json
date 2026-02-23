@@ -1,0 +1,8 @@
+{
+  "backfill_dry_run_summary": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s3/backfill-dry-run-summary.json",
+  "generated_at_utc": "2026-02-15T02:12:33Z",
+  "generator_smoke_log": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s3/generator-smoke.log",
+  "mapping_json": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s4/id-mapping.json",
+  "mapping_size_bytes": 96786,
+  "summary_size_bytes": 6882
+}

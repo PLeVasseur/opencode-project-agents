@@ -1,0 +1,5 @@
+BASE_REF=f1b193f5197f48686bd56fe881633bb62fad7f27
+RELEASE=1.93.0
+ENTRY_TITLE=Anchor replace validation (abi-on-dedupe integration)
+CANONICAL_UPSTREAM_PR=https://github.com/rust-lang/rust/pull/145954
+MISSING_UPSTREAM_PR=https://github.com/rust-lang/rust/pull/999999

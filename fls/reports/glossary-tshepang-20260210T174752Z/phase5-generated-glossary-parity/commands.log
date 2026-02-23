@@ -1,0 +1,14 @@
+# Phase 5 command log
+# Append commands with UTC timestamps during execution.
+
+2026-02-10T19:00:03Z git -C "../fls-wt/step5" merge --ff-only glossary-step-4-remove-see-paragraphs
+2026-02-10T19:01:17Z add `generate-glossary.py`; replace `src/glossary.rst` with include wrapper; generate `src/glossary.rst.inc`
+2026-02-10T19:02:46Z uv run ./tools/glossary-migration-check.py --phase 5 --strict --report "$REPORT_ROOT/glossary-phase5-check.json" (initial; doctree dt remnants)
+2026-02-10T19:03:25Z update generator to convert remaining `:dt:` and `:dc:` roles to reference roles in output
+2026-02-10T19:04:09Z uv run ./tools/glossary-migration-check.py --phase 5 --strict --report "$REPORT_ROOT/glossary-phase5-check.json" (rerun, passes)
+2026-02-10T19:05:02Z ./generate-glossary.py --help
+2026-02-10T19:05:11Z ./make.py --clear
+2026-02-10T19:06:37Z ./make.py --check-links
+2026-02-10T19:08:12Z ./generate-glossary.py && diff -u build/generated.glossary.rst src/glossary.rst.inc
+2026-02-10T19:08:43Z git commit -m "feat(glossary): generate glossary artifact from chapter definitions"
+2026-02-10T19:21:26Z ./make.py --check-links (log capture backfill)

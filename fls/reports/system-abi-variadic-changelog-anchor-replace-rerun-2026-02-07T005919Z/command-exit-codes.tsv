@@ -1,0 +1,31 @@
+name	command	exit_code
+bootstrap-opencode-config-dir	printenv OPENCODE_CONFIG_DIR	0
+bootstrap-git-fetch	git fetch origin	0
+bootstrap-metadata	pwd; git branch --show-current; git rev-parse HEAD; date -u	0
+report-root	print REPORT_ROOT path	0
+readiness-file-exists	test -f tools/changelog_assistant.py	0
+readiness-help	uv run python tools/changelog_assistant.py --help	0
+readiness-require-anchor	rg -- --require-anchor readiness-help.stdout.txt	0
+readiness-metadata-symbols	rg update_action|anchored_* tools/changelog_assistant.py	0
+readiness-py-compile	uv run python -m py_compile tools/changelog_assistant.py	0
+base-ref	git merge-base HEAD origin/main	0
+changelog-before-rerun	cp src/changelog.rst <REPORT_ROOT>/changelog-before-rerun.rst	0
+anchor-before	python canonical URL count before update	0
+pre-check	uv run python tools/changelog_assistant.py --check --base <BASE_REF> --emit-report <pre-check>	1
+pre-check-artifacts	test pre-check.json and pre-check.md exist	0
+update	uv run python tools/changelog_assistant.py --update --base <BASE_REF> --title <ENTRY_TITLE> --upstream-pr <URL> --emit-report <update>	0
+update-artifacts	test update.json and update.md exist	0
+update-metadata-check	python validate update.json anchor metadata	0
+changelog-diff-first	git diff -- src/changelog.rst > changelog.diff	0
+anchor-after-first	python canonical URL count after first update	0
+changelog-quality-check	python verify release section tags and role usage	0
+update-second	uv run python tools/changelog_assistant.py --update --base <BASE_REF> --title <ENTRY_TITLE> --upstream-pr <URL> --emit-report <update-second>	0
+changelog-diff-second	git diff -- src/changelog.rst > changelog-second.diff	0
+anchor-after-second	python canonical URL count after second update	0
+post-check	uv run python tools/changelog_assistant.py --check --base <BASE_REF> --emit-report <post-check>	1
+post-check-artifacts	test post-check.json and post-check.md exist	0
+tag-mapping	python generate tags-to-content mapping artifact	0
+update-second-metadata-check	python validate second update metadata values	0
+update-second-artifacts	test update-second.json and update-second.md exist	0
+idempotence-diff-compare	cmp -s changelog.diff changelog-second.diff	0
+run-metadata	record worktree branch head base_ref timestamp	0

@@ -1,0 +1,34 @@
+c80e7d8 checkpoint: preserve glossary generation state
+c2d889b refactor(glossary): base glossary entries on chapter terms
+7d36f8a chore(glossary): enforce stub-only glossary source
+ce88910 feat(glossary): add generated glossary check
+a92f1f4 chore(build): add delta installer and nightly glossary check
+a6eaab3 fix(glossary): stabilize generated output
+66bb88e chore(build): allow debug glossary checks
+791efae docs(glossary): clarify chapter-only definitions
+32fbe4d checkpoint before massive migration
+c13b26a docs(glossary): checkpoint A migration
+aeafe57 docs(glossary): checkpoint B migration
+9a2d8f2 feat: done up through c
+6757129 docs(glossary): checkpoint D definitions
+b8c29f6 fix(glossary): include code-term definitions
+cfbedf5 docs(glossary): checkpoint F migration
+6cb641b docs(glossary): checkpoint G migration
+55fe499 feat: done up through H
+5d95464 docs(glossary): align I/L term definitions for generated glossary coverage
+5496961 docs(glossary): checkpoint M migration
+9b60dce docs(glossary): checkpoint N migration
+0261484 docs(glossary): checkpoint O migration
+2844596 docs(glossary): checkpoint P migration
+e6873af docs(glossary): checkpoint Q migration
+5afdc13 docs(glossary): checkpoint R migration
+3d83981 docs(glossary): checkpoint S migration
+fac9b30 docs(glossary): checkpoint T migration
+f119687 docs(glossary): fix paragraph id placement
+5914509 docs(glossary): checkpoint U migration
+fb7d911 docs(glossary): checkpoint V migration
+cbe68a8 docs(glossary): checkpoint W migration
+d95aaa0 docs(glossary): checkpoint Z migration
+d77ab3c docs(glossary): add missing glossary aliases
+7cf4e94 fix(glossary): include adjacent See lines in generated glossary
+040803e docs(glossary): keep legacy See lines in glossary only

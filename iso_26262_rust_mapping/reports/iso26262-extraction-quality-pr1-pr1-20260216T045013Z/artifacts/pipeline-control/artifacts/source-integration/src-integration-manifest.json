@@ -1,0 +1,20 @@
+{
+  "files": [
+    {
+      "path": "src/iso26262_rust_mapping.md",
+      "sha256": "9a4276dd840a89b0cc454753e40f5f653ca936ab34831dfdc975812209012cfa",
+      "sha256_after": "6562e45589875a0b2cff030b01d2f0266f51478a714976f1a873cc968bb4f3ae",
+      "sha256_before": "9a4276dd840a89b0cc454753e40f5f653ca936ab34831dfdc975812209012cfa"
+    },
+    {
+      "path": "src/tables/table-01.yaml",
+      "sha256": "179c06691951f90528a62c8f69bc6da6ab46a2ef80b64025dbbdafa594a19bab",
+      "sha256_after": "4a92f7afa371638d04e41676c2ab55e9d2deea071a18182c08412531ea27320c",
+      "sha256_before": "179c06691951f90528a62c8f69bc6da6ab46a2ef80b64025dbbdafa594a19bab"
+    }
+  ],
+  "generated_at_utc": "2026-02-16T04:51:19Z",
+  "list_insertion_changed": true,
+  "paragraph_insertion_changed": true,
+  "table_insertion_changed": true
+}

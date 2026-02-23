@@ -1,0 +1,27 @@
+verify-html-diff report
+
+mode: repro
+left: HEAD (run 1)
+right: HEAD (run 2)
+
+result: no differences under configured comparison policy.
+
+policy:
+- strict byte-for-byte file comparison
+- paragraph-ids.json compared by normalized logical content (sorted structure)
+- searchindex.js compared by normalized JSON payload (ferrocene_spec envversion ignored)
+- .buildinfo compares config; tags differences are ignored
+
+only in left:
+- (none)
+
+only in right:
+- (none)
+
+changed files:
+- (none)
+
+special comparisons:
+- .buildinfo: config matches
+- paragraph-ids.json: normalized content matches
+- searchindex.js: normalized content matches (ferrocene_spec envversion ignored)

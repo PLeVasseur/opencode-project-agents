@@ -1,0 +1,32 @@
+{
+  "baseline_gate_mode": "report_only",
+  "decision": "continue",
+  "failed_metrics": [
+    "paragraph_license",
+    "list_license",
+    "table_license",
+    "paragraph_meaningful",
+    "list_meaningful",
+    "table_meaningful",
+    "paragraph_pattern",
+    "list_marker",
+    "list_continuation",
+    "table_structural",
+    "table_pattern",
+    "line_wrap",
+    "dehyphenation",
+    "section_boundary",
+    "clause_boundary",
+    "table_scope",
+    "superscript",
+    "subscript",
+    "footnote",
+    "section_anchor",
+    "clause_anchor",
+    "table_anchor"
+  ],
+  "overall_pass": false,
+  "run_id": "pr1-20260215T215421Z",
+  "stage": "EQ1",
+  "timestamp_utc": "2026-02-15T22:08:39Z"
+}

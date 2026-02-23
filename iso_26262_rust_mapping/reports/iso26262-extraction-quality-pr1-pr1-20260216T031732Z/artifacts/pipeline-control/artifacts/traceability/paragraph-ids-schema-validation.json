@@ -1,0 +1,6 @@
+{
+  "errors": [],
+  "paragraph_ids_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/build/paragraph-ids.json",
+  "schema_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/schema/paragraph-ids.schema.json",
+  "valid": true
+}

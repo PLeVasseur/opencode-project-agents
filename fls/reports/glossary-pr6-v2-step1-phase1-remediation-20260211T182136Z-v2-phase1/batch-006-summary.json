@@ -1,0 +1,44 @@
+{
+  "batch_number": 6,
+  "commit_hash": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "ids": [
+    "WB-081",
+    "WB-082",
+    "WB-083",
+    "WB-084",
+    "WB-085",
+    "WB-086",
+    "WB-087",
+    "WB-088",
+    "WB-089"
+  ],
+  "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/batch-006-opencode.jsonl",
+  "passed_ids": [
+    "WB-081",
+    "WB-082",
+    "WB-083",
+    "WB-084",
+    "WB-085",
+    "WB-086",
+    "WB-087",
+    "WB-088",
+    "WB-089"
+  ],
+  "quarantined_ids": [],
+  "session_id": "ses_3b1ef7c3bffe3RrUI03zDhloMm",
+  "terms": [
+    "binary crate",
+    "c",
+    "qualifying trait",
+    "temporary",
+    "pattern-without-range",
+    "qualified type",
+    "tuple struct type",
+    "trait body",
+    "base initializer"
+  ],
+  "timestamp": "20260211T190116Z",
+  "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/batch-006-validate-post-commit.json",
+  "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/batch-006-validate-progress.json",
+  "wave": "WB"
+}

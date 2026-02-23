@@ -1,0 +1,10 @@
+{
+  "canonical_checksum": "e9a443afb42e733584eaeb10c6c16f5bb32b7984fda62593a57ef050eb971c84",
+  "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-9.done.json",
+  "commit_sha": "6dda71b993f2de1b7250adc1114d512951dda9c7",
+  "commit_subject": "test(trace-miner): validate ts references end-to-end via src insertion and make.py",
+  "phase": 9,
+  "phase_code": "C23",
+  "run_id": "20260215T162251Z",
+  "timestamp_utc": "2026-02-15T16:42:39Z"
+}

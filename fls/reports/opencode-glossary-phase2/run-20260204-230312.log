@@ -1,0 +1,1189 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms from checklist
+
+warning: glossary-entry not found in src files: string literal
+warning: glossary-entry not found in src files: struct
+warning: glossary-entry not found in src files: struct expression
+warning: glossary-entry not found in src files: struct field
+warning: glossary-entry not found in src files: struct pattern
+warning: glossary-entry not found in src files: struct type
+warning: glossary-entry not found in src files: struct value
+warning: glossary-entry not found in src files: structurally equal
+warning: glossary-entry not found in src files: subexpression
+warning: glossary-entry not found in src files: subject expression
+warning: glossary-entry not found in src files: subject let expression
+warning: glossary-entry not found in src files: subpattern
+warning: glossary-entry not found in src files: subtraction assignment
+warning: glossary-entry not found in src files: subtraction assignment expression
+warning: glossary-entry not found in src files: subtraction expression
+warning: glossary-entry not found in src files: subtrait
+warning: glossary-entry not found in src files: subtype
+warning: glossary-entry not found in src files: subtyping
+warning: glossary-entry not found in src files: suffixed float
+warning: glossary-entry not found in src files: suffixed integer
+warning: no new term-map entries to write
+
+[93m[1m| [0m[90m Todo     [0m4 todos
+[94m[1m| [0m[90m Grep     [0mstring literal
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`struct`
+[94m[1m| [0m[90m Grep     [0mA :t:`struct`
+[94m[1m| [0m[90m Grep     [0mstruct type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m:t:`struct` is
+[94m[1m| [0m[90m Grep     [0mstruct expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mstruct field` is
+[94m[1m| [0m[90m Grep     [0mstruct field
+[94m[1m| [0m[90m Grep     [0mstruct pattern
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mstruct value
+[94m[1m| [0m[90m Grep     [0msubexpression` is
+[94m[1m| [0m[90m Grep     [0m:dt:`subexpression`
+[94m[1m| [0m[90m Grep     [0msubexpression
+[94m[1m| [0m[90m Grep     [0msubpattern
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0msubtraction assignment
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0msubtraction assignment`
+[94m[1m| [0m[90m Grep     [0msubtraction expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0msubtrait
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0msubtype
+[94m[1m| [0m[90m Grep     [0msubtyping
+[94m[1m| [0m[90m Grep     [0msubtyping` is
+[94m[1m| [0m[90m Grep     [0mSubtyping
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0msuffixed
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mStruct Types
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m.. rubric:: Legality Rules
+[94m[1m| [0m[90m Grep     [0mStruct Values
+[94m[1m| [0m[90m Grep     [0mstructurally equal
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m:t:`subtype` is
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for string literal
+
+.. glossary-entry:: string literal
+   
+   :glossary:
+     :dp:`fls_dphk5br0ag35`
+     A :dt:`string literal` is a :t:`literal` that consists of multiple characters.
+     
+     :dp:`fls_z0t3ae24h5h5`
+     See :s:`StringLiteral`.
+   :chapter:
+     :dp:`fls_7fuctvtvdi7x`
+     A :t:`string literal` is a :t:`literal` that consists of multiple characters.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subject expression
+
+.. glossary-entry:: subject expression
+   
+   :glossary:
+     :dp:`fls_xisqke87ert`
+     A :dt:`subject expression` is an :t:`expression` that controls
+     :t:`[for loop]s`, :t:`[if expression]s`, and :t:`[match expression]s`.
+     
+     :dp:`fls_gph5doham4js`
+     See :s:`SubjectExpression`.
+   :chapter:
+     :dp:`fls_pwut2jbmk66k`
+     A :ds:`SubjectExpression` is any expression in category :s:`Expression`, except
+     :s:`StructExpression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subject let expression
+
+.. glossary-entry:: subject let expression
+   
+   :glossary:
+     :dp:`fls_b3ckv6zgnaeb`
+     A :dt:`subject let expression` is an :t:`expression` that controls
+     :t:`[if let expression]s` and :t:`[while let loop]s`.
+     
+     :dp:`fls_vnzaargh5yok`
+     See :s:`SubjectLetExpression`.
+   :chapter:
+     :dp:`fls_361q9ljc6ybz`
+     A :ds:`SubjectLetExpression` is any expression in category
+     :s:`SubjectExpression`, except :s:`LazyBooleanExpression`.
+     
+     .. rubric:: Legality Rules
+     
+     .. glossary-entry:: expression
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subject let expression with manual chapter lines
+
+/bin/bash: line 1: fls_361q9ljc6ybz: command not found
+/bin/bash: line 1: SubjectLetExpression: command not found
+/bin/bash: line 1: SubjectExpression: command not found
+/bin/bash: line 1: LazyBooleanExpression: command not found
+.. glossary-entry:: subject let expression
+   
+   :glossary:
+     :dp:`fls_b3ckv6zgnaeb`
+     A :dt:`subject let expression` is an :t:`expression` that controls
+     :t:`[if let expression]s` and :t:`[while let loop]s`.
+     
+     :dp:`fls_vnzaargh5yok`
+     See :s:`SubjectLetExpression`.
+   :chapter:
+     :dp:
+     A :ds: is any expression in category
+     :s:, except :s:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subject let expression
+
+.. glossary-entry:: subject let expression
+   
+   :glossary:
+     :dp:`fls_b3ckv6zgnaeb`
+     A :dt:`subject let expression` is an :t:`expression` that controls
+     :t:`[if let expression]s` and :t:`[while let loop]s`.
+     
+     :dp:`fls_vnzaargh5yok`
+     See :s:`SubjectLetExpression`.
+   :chapter:
+     :dp:`fls_361q9ljc6ybz`
+     A :ds:`SubjectLetExpression` is any expression in category
+     :s:`SubjectExpression`, except :s:`LazyBooleanExpression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct expression
+
+.. glossary-entry:: struct expression
+   
+   :glossary:
+     :dp:`fls_m8n9e0sxyb95`
+     A :dt:`struct expression` is an :t:`expression` that constructs an
+     :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+     
+     :dp:`fls_odm68rhu2j1`
+     See :s:`StructExpression`.
+   :chapter:
+     :dp:`fls_ij8rebvupb85`
+     A :t:`struct expression` is an :t:`expression` that constructs an
+     :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+     
+     .. glossary-entry:: constructee
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct expression (manual chapter lines)
+
+.. glossary-entry:: struct expression
+   
+   :glossary:
+     :dp:`fls_m8n9e0sxyb95`
+     A :dt:`struct expression` is an :t:`expression` that constructs an
+     :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+     
+     :dp:`fls_odm68rhu2j1`
+     See :s:`StructExpression`.
+   :chapter:
+     :dp:`fls_ij8rebvupb85`
+     A :t:`struct expression` is an :t:`expression` that constructs an
+     :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct pattern (manual chapter lines)
+
+.. glossary-entry:: struct pattern
+   
+   :glossary:
+     :dp:`fls_xbtoiwegp8gu`
+     A :dt:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
+     :t:`struct value`, or a :t:`union value`.
+     
+     :dp:`fls_pn8e50ep2fln`
+     See :s:`StructPattern`.
+   :chapter:
+     :dp:`fls_vjdkpr3zml51`
+     A :t:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
+     :t:`struct value`, or a :t:`union value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtraction assignment expression (manual chapter lines)
+
+.. glossary-entry:: subtraction assignment expression
+   
+   :glossary:
+     :dp:`fls_4pb85nl4r7vs`
+     A :dt:`subtraction assignment expression` is a
+     :t:`compound assignment expression` that uses subtraction.
+     
+     :dp:`fls_mye9yj5tc8hr`
+     See :s:`SubtractionAssignmentExpression`.
+   :chapter:
+     :dp:`fls_7l7v7vigw3fu`
+     A :t:`subtraction assignment expression` is a
+     :t:`compound assignment expression` that uses subtraction.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct type
+
+.. glossary-entry:: struct type
+   
+   :glossary:
+     :dp:`fls_7v4dhh3nl8h9`
+     A :dt:`struct type` is an :t:`abstract data type` that is a product of other
+     :t:`[type]s`.
+     
+     :dp:`fls_dhlww4yrnb2v`
+     See :s:`StructDeclaration`.
+   :chapter:
+     :dp:`fls_g1azfj548136`
+     A :t:`struct type` is an :t:`abstract data type` that is a product of other
+     :t:`[type]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for structurally equal
+
+.. glossary-entry:: structurally equal
+   
+   :glossary:
+     :dp:`fls_glRZUKhmaWmP`
+     A :t:`type` is :dt:`structurally equal` when its :t:`[value]s` can be compared
+     for equality by structure.
+   :chapter:
+     :dp:`fls_uVTpA7gbLCYX`
+     A :t:`type` is :t:`structurally equal` when its :t:`[value]s` can be compared
+     for equality by structure.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subpattern
+
+.. glossary-entry:: subpattern
+   
+   :glossary:
+     :dp:`fls_942ulj9qsdes`
+     A :dt:`subpattern` is a :t:`pattern` nested within another :t:`pattern`.
+   :chapter:
+     :dp:`fls_6xx34zr069bj`
+     A :t:`subpattern` is a :t:`pattern` nested within another pattern.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtraction expression
+
+.. glossary-entry:: subtraction expression
+   
+   :glossary:
+     :dp:`fls_caamjgpw59id`
+     A :dt:`subtraction expression` is an :t:`arithmetic expression` that uses
+     subtraction.
+     
+     :dp:`fls_mx3olnbntpye`
+     See :s:`SubtractionExpression`.
+   :chapter:
+     :dp:`fls_aalxhbvu8kdi`
+     A :t:`subtraction expression` is an :t:`arithmetic expression` that uses
+     subtraction.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtrait
+
+.. glossary-entry:: subtrait
+   
+   :glossary:
+     :dp:`fls_wnj95vozis6n`
+     A :dt:`subtrait` is a :t:`trait` with a :t:`supertrait`.
+   :chapter:
+       :dp:`fls_I9JaKZelMiby`
+       A :dt:`local trait` is a :t:`trait` that is defined in the current :t:`crate`.
+     :chapter:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtyping
+
+.. glossary-entry:: subtyping
+   
+   :glossary:
+     :dp:`fls_bo5xzjsdd3lj`
+     :dt:`Subtyping` is a property of :t:`[type]s`, allowing one :t:`type` to be
+     used where another :t:`type` is expected.
+   :chapter:
+     :dp:`fls_atq2cltx487m`
+     :t:`Subtyping` is a property of :t:`[type]s`, allowing one :t:`type` to be used
+     where another :t:`type` is expected.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for suffixed integer
+
+.. glossary-entry:: suffixed integer
+   
+   :glossary:
+     :dp:`fls_ltzetxu3sq7k`
+     A :dt:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
+   :chapter:
+     :dp:`fls_u83mffscqm6`
+     A :t:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for suffixed float
+
+.. glossary-entry:: suffixed float
+   
+   :glossary:
+     :dp:`fls_7reb4jp0x1wf`
+     A :dt:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+   :chapter:
+     :dp:`fls_21mhnhplzam7`
+     A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtrait (manual chapter lines)
+
+.. glossary-entry:: subtrait
+   
+   :glossary:
+     :dp:`fls_wnj95vozis6n`
+     A :dt:`subtrait` is a :t:`trait` with a :t:`supertrait`.
+   :chapter:
+     :dp:`fls_I9JaKZelMiby`
+     A :t:`subtrait` is a :t:`trait` with a :t:`supertrait`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct (glossary-only)
+
+.. glossary-entry:: struct
+   
+   :glossary:
+     :dp:`fls_rufylj7qxs1w`
+     A :dt:`struct` is an :t:`item` that declares a :t:`struct type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct field (glossary-only)
+
+.. glossary-entry:: struct field
+   
+   :glossary:
+     :dp:`fls_8Z9YWMnrHXJS`
+     A :dt:`struct field` is a :t:`field` of a :t:`struct type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for struct value (glossary-only)
+
+.. glossary-entry:: struct value
+   
+   :glossary:
+     :dp:`fls_YmZfW9kWlbIX`
+     A :dt:`struct value` is a :t:`value` of a :t:`struct type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subexpression (glossary-only)
+
+.. glossary-entry:: subexpression
+   
+   :glossary:
+     :dp:`fls_bNSHwD4Kpfm0`
+     A :dt:`subexpression` is an :t:`expression` nested within another
+     :t:`expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtraction assignment (glossary-only)
+
+.. glossary-entry:: subtraction assignment
+   
+   :glossary:
+     :dp:`fls_75Eyk2YXO2j4`
+     For :dt:`subtraction assignment`, see :t:`subtraction assignment`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for subtype (glossary-only)
+
+.. glossary-entry:: subtype
+   
+   :glossary:
+     :dp:`fls_pmkjOWsieQog`
+     A :dt:`subtype` is a :t:`type` with additional constraints.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: subtrait
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mSubtyping and Variance
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map metadata for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[93m[1m| [0m[90m Todo     [0m0 todos
+[91m[1m| [0m[90m Bash     [0mShow short git status
+[91m[1m| [0m[90m Bash     [0mShow unstaged git diff
+
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 9c35faa..8f37d1a 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -64,13 +64,40 @@ Expressions
+    RightOperand ::=
+        Operand
+ 
+-:dp:`fls_pwut2jbmk66k`
+-A :ds:`SubjectExpression` is any expression in category :s:`Expression`, except
+-:s:`StructExpression`.
++.. glossary-entry:: subject expression
++   
++   :glossary:
++     :dp:`fls_xisqke87ert`
++     A :dt:`subject expression` is an :t:`expression` that controls
++     :t:`[for loop]s`, :t:`[if expression]s`, and :t:`[match expression]s`.
++     
++     :dp:`fls_gph5doham4js`
++     See :s:`SubjectExpression`.
++   :chapter:
++     :dp:`fls_pwut2jbmk66k`
++     A :ds:`SubjectExpression` is any expression in category :s:`Expression`, except
++     :s:`StructExpression`.
++
++.. glossary-entry:: subject let expression
++   
++   :glossary:
++     :dp:`fls_b3ckv6zgnaeb`
++     A :dt:`subject let expression` is an :t:`expression` that controls
++     :t:`[if let expression]s` and :t:`[while let loop]s`.
++     
++     :dp:`fls_vnzaargh5yok`
++     See :s:`SubjectLetExpression`.
++   :chapter:
++     :dp:`fls_361q9ljc6ybz`
++     A :ds:`SubjectLetExpression` is any expression in category
++     :s:`SubjectExpression`, except :s:`LazyBooleanExpression`.
+ 
+-:dp:`fls_361q9ljc6ybz`
+-A :ds:`SubjectLetExpression` is any expression in category
+-:s:`SubjectExpression`, except :s:`LazyBooleanExpression`.
++.. glossary-entry:: subexpression
++   
++   :glossary:
++     :dp:`fls_bNSHwD4Kpfm0`
++     A :dt:`subexpression` is an :t:`expression` nested within another
++     :t:`expression`.
+ 
+ .. rubric:: Legality Rules
+ 
+@@ -1823,9 +1850,19 @@ The :t:`type` of a :t:`remainder expression` is :t:`associated type`
+ The :t:`value` of a :t:`remainder expression` is the result of
+ ``core::ops::Rem::rem(left_operand, right_operand)``.
+ 
+-:dp:`fls_aalxhbvu8kdi`
+-A :t:`subtraction expression` is an :t:`arithmetic expression` that uses
+-subtraction.
++.. glossary-entry:: subtraction expression
++   
++   :glossary:
++     :dp:`fls_caamjgpw59id`
++     A :dt:`subtraction expression` is an :t:`arithmetic expression` that uses
++     subtraction.
++     
++     :dp:`fls_mx3olnbntpye`
++     See :s:`SubtractionExpression`.
++   :chapter:
++     :dp:`fls_aalxhbvu8kdi`
++     A :t:`subtraction expression` is an :t:`arithmetic expression` that uses
++     subtraction.
+ 
+ :dp:`fls_fjcv1nm8tlgf`
+ The :t:`type` of the :t:`left operand` of a :t:`subtraction expression` shall
+@@ -3335,9 +3372,25 @@ Compound Assignment Expressions
+      A :t:`shift right assignment expression` is a
+      :t:`compound assignment expression` that uses bit shift right arithmetic.
+ 
+-:dp:`fls_7l7v7vigw3fu`
+-A :t:`subtraction assignment expression` is a
+-:t:`compound assignment expression` that uses subtraction.
++.. glossary-entry:: subtraction assignment
++   
++   :glossary:
++     :dp:`fls_75Eyk2YXO2j4`
++     For :dt:`subtraction assignment`, see :t:`subtraction assignment`.
++
++.. glossary-entry:: subtraction assignment expression
++   
++   :glossary:
++     :dp:`fls_4pb85nl4r7vs`
++     A :dt:`subtraction assignment expression` is a
++     :t:`compound assignment expression` that uses subtraction.
++     
++     :dp:`fls_mye9yj5tc8hr`
++     See :s:`SubtractionAssignmentExpression`.
++   :chapter:
++     :dp:`fls_7l7v7vigw3fu`
++     A :t:`subtraction assignment expression` is a
++     :t:`compound assignment expression` that uses subtraction.
+ 
+ .. glossary-entry:: assigned operand
+    
+@@ -4019,9 +4072,19 @@ Struct Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ij8rebvupb85`
+-A :t:`struct expression` is an :t:`expression` that constructs an
+-:t:`enum value`, a :t:`struct value`, or a :t:`union value`.
++.. glossary-entry:: struct expression
++   
++   :glossary:
++     :dp:`fls_m8n9e0sxyb95`
++     A :dt:`struct expression` is an :t:`expression` that constructs an
++     :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
++     
++     :dp:`fls_odm68rhu2j1`
++     See :s:`StructExpression`.
++   :chapter:
++     :dp:`fls_ij8rebvupb85`
++     A :t:`struct expression` is an :t:`expression` that constructs an
++     :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+ 
+ .. glossary-entry:: constructee
+    
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 112f2e3..a4f09ca 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -1130,8 +1130,14 @@ Integer Literals
+      An :t:`integer suffix` is a component of an :t:`integer literal` that specifies
+      an explicit :t:`integer type`.
+ 
+-:dp:`fls_u83mffscqm6`
+-A :t:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
++.. glossary-entry:: suffixed integer
++   
++   :glossary:
++     :dp:`fls_ltzetxu3sq7k`
++     A :dt:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
++   :chapter:
++     :dp:`fls_u83mffscqm6`
++     A :t:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
+ 
+ :dp:`fls_g10nuv14q4jn`
+ An :t:`unsuffixed integer` is an :t:`integer literal` without an :t:`integer
+@@ -1264,8 +1270,14 @@ Float Literals
+      A :t:`float suffix` is a component of a :t:`float literal` that specifies an
+      explicit :t:`floating-point type`.
+ 
+-:dp:`fls_21mhnhplzam7`
+-A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
++.. glossary-entry:: suffixed float
++   
++   :glossary:
++     :dp:`fls_7reb4jp0x1wf`
++     A :dt:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
++   :chapter:
++     :dp:`fls_21mhnhplzam7`
++     A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+ 
+ :dp:`fls_drqh80k0sfkb`
+ An :t:`unsuffixed float` is a :t:`float literal` without a :t:`float suffix`.
+@@ -1387,8 +1399,17 @@ String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_7fuctvtvdi7x`
+-A :t:`string literal` is a :t:`literal` that consists of multiple characters.
++.. glossary-entry:: string literal
++   
++   :glossary:
++     :dp:`fls_dphk5br0ag35`
++     A :dt:`string literal` is a :t:`literal` that consists of multiple characters.
++     
++     :dp:`fls_z0t3ae24h5h5`
++     See :s:`StringLiteral`.
++   :chapter:
++     :dp:`fls_7fuctvtvdi7x`
++     A :t:`string literal` is a :t:`literal` that consists of multiple characters.
+ 
+ :dp:`fls_NyiCpU2tzJlQ`
+ The character sequence 0x0D 0x0A (carriage return, new line) is replaced by 0x0A
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 4dc14fb..b773ff3 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -89,8 +89,14 @@ Patterns
+      A :t:`pattern-without-range` is a :t:`pattern-without-alternation` that
+      excludes :t:`[range pattern]s`.
+ 
+-:dp:`fls_6xx34zr069bj`
+-A :t:`subpattern` is a :t:`pattern` nested within another pattern.
++.. glossary-entry:: subpattern
++   
++   :glossary:
++     :dp:`fls_942ulj9qsdes`
++     A :dt:`subpattern` is a :t:`pattern` nested within another :t:`pattern`.
++   :chapter:
++     :dp:`fls_6xx34zr069bj`
++     A :t:`subpattern` is a :t:`pattern` nested within another pattern.
+ 
+ :dp:`fls_8xzjb0yzftkd`
+ A :t:`pattern` has a :t:`type`, with the exception of the :t:`rest pattern` if
+@@ -1004,9 +1010,19 @@ Struct Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_vjdkpr3zml51`
+-A :t:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
+-:t:`struct value`, or a :t:`union value`.
++.. glossary-entry:: struct pattern
++   
++   :glossary:
++     :dp:`fls_xbtoiwegp8gu`
++     A :dt:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
++     :t:`struct value`, or a :t:`union value`.
++     
++     :dp:`fls_pn8e50ep2fln`
++     See :s:`StructPattern`.
++   :chapter:
++     :dp:`fls_vjdkpr3zml51`
++     A :t:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
++     :t:`struct value`, or a :t:`union value`.
+ 
+ .. glossary-entry:: deconstructee
+    
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 1d1a5e3..1006a98 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -985,6 +985,12 @@ It is a :t:`validity invariant` for a :t:`value` of an :t:`enum type` to have a
+ Struct Types
+ ~~~~~~~~~~~~
+ 
++.. glossary-entry:: struct
++   
++   :glossary:
++     :dp:`fls_rufylj7qxs1w`
++     A :dt:`struct` is an :t:`item` that declares a :t:`struct type`.
++
+ .. rubric:: Syntax
+ 
+ .. syntax::
+@@ -1045,6 +1051,18 @@ Struct Types
+      :dp:`fls_SMBIc0JMck1H`
+      A :dt:`record struct value` is a :t:`value` of a :t:`record struct type`.
+ 
++.. glossary-entry:: struct field
++   
++   :glossary:
++     :dp:`fls_8Z9YWMnrHXJS`
++     A :dt:`struct field` is a :t:`field` of a :t:`struct type`.
++
++.. glossary-entry:: struct value
++   
++   :glossary:
++     :dp:`fls_YmZfW9kWlbIX`
++     A :dt:`struct value` is a :t:`value` of a :t:`struct type`.
++
+ .. rubric:: Legality Rules
+ 
+ .. glossary-entry:: field
+@@ -1059,9 +1077,19 @@ Struct Types
+      :dp:`fls_xMZsrxMc9Cni`
+      A :dt:`field list` is a :s:`RecordStructFieldList` or :s:`TupleStructFieldList`.
+ 
+-:dp:`fls_g1azfj548136`
+-A :t:`struct type` is an :t:`abstract data type` that is a product of other
+-:t:`[type]s`.
++.. glossary-entry:: struct type
++   
++   :glossary:
++     :dp:`fls_7v4dhh3nl8h9`
++     A :dt:`struct type` is an :t:`abstract data type` that is a product of other
++     :t:`[type]s`.
++     
++     :dp:`fls_dhlww4yrnb2v`
++     See :s:`StructDeclaration`.
++   :chapter:
++     :dp:`fls_g1azfj548136`
++     A :t:`struct type` is an :t:`abstract data type` that is a product of other
++     :t:`[type]s`.
+ 
+ :dp:`fls_r885av95eivp`
+ The :t:`name` of a :t:`record struct field` shall be unique within the
+@@ -2776,9 +2804,16 @@ Structural Equality
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_uVTpA7gbLCYX`
+-A :t:`type` is :t:`structurally equal` when its :t:`[value]s` can be compared
+-for equality by structure.
++.. glossary-entry:: structurally equal
++   
++   :glossary:
++     :dp:`fls_glRZUKhmaWmP`
++     A :t:`type` is :dt:`structurally equal` when its :t:`[value]s` can be compared
++     for equality by structure.
++   :chapter:
++     :dp:`fls_uVTpA7gbLCYX`
++     A :t:`type` is :t:`structurally equal` when its :t:`[value]s` can be compared
++     for equality by structure.
+ 
+ :dp:`fls_2DZAP6JJjJ9h`
+ The following :t:`[type]s` are :t:`structurally equal`:
+@@ -3407,8 +3442,14 @@ Within a :t:`trait`, the :t:`type` :c:`Self` acts as a placeholder for a
+      :dp:`fls_AdbbUZZgMEsQ`
+      A :t:`local trait` is a :t:`trait` that is defined in the current :t:`crate`.
+ 
+-:dp:`fls_I9JaKZelMiby`
+-A :t:`subtrait` is a :t:`trait` with a :t:`supertrait`.
++.. glossary-entry:: subtrait
++   
++   :glossary:
++     :dp:`fls_wnj95vozis6n`
++     A :dt:`subtrait` is a :t:`trait` with a :t:`supertrait`.
++   :chapter:
++     :dp:`fls_I9JaKZelMiby`
++     A :t:`subtrait` is a :t:`trait` with a :t:`supertrait`.
+ 
+ :dp:`fls_CYtxPjK3zq2T`
+ A :t:`supertrait` is a transitive :t:`trait` that a :t:`type` must additionally
+@@ -3776,9 +3817,22 @@ Subtyping and Variance
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_atq2cltx487m`
+-:t:`Subtyping` is a property of :t:`[type]s`, allowing one :t:`type` to be used
+-where another :t:`type` is expected.
++.. glossary-entry:: subtype
++   
++   :glossary:
++     :dp:`fls_pmkjOWsieQog`
++     A :dt:`subtype` is a :t:`type` with additional constraints.
++
++.. glossary-entry:: subtyping
++   
++   :glossary:
++     :dp:`fls_bo5xzjsdd3lj`
++     :dt:`Subtyping` is a property of :t:`[type]s`, allowing one :t:`type` to be
++     used where another :t:`type` is expected.
++   :chapter:
++     :dp:`fls_atq2cltx487m`
++     :t:`Subtyping` is a property of :t:`[type]s`, allowing one :t:`type` to be used
++     where another :t:`type` is expected.
+ 
+ :dp:`fls_df87d44kgwcv`
+ :t:`Variance` is a property of :t:`[lifetime parameter]s` and
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+6cc6e9f docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1
+ M src/expressions.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mStage glossary updates, commit, show status
+
+[glossary-single-source-phase1 6f91bcd] docs(glossary): migrate struct and sub* terms
+ 4 files changed, 191 insertions(+), 37 deletions(-)
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 1]
+
+Glossary phase 2 batch migrated for the next 20 unchecked terms, moving chapter definitions into `.. glossary-entry::` blocks while keeping generated glossary output identical and HTML diff clean. Updates are in `src/expressions.rst`, `src/lexical-elements.rst`, `src/patterns.rst`, and `src/types-and-traits.rst`, with glossary-only inserts for terms lacking chapter definitions and dual blocks where chapter definitions existed. The checklist was updated at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`, and term-map metadata was appended under `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`.
+
+Tests and verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (report: `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`)
+
+Commit:
+- `6f91bcd docs(glossary): migrate struct and sub* terms`
+
+Next steps:
+1. `git push` to publish the commit if you want it upstream.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

@@ -1,0 +1,1707 @@
+{
+  "total_missing_see_terms": 334,
+  "missing_by_chapter": {
+    "associated-items": [
+      {
+        "term": "associated item",
+        "see_line": "See :s:`AssociatedItem`.",
+        "notes": "Missing legacy See line: See :s:`AssociatedItem`."
+      }
+    ],
+    "attributes": [
+      {
+        "term": "all configuration predicate",
+        "see_line": "See :s:`ConfigurationPredicateAll`.",
+        "notes": "Missing legacy See line: See :s:`ConfigurationPredicateAll`."
+      },
+      {
+        "term": "any configuration predicate",
+        "see_line": "See :s:`ConfigurationPredicateAny`.",
+        "notes": "Missing legacy See line: See :s:`ConfigurationPredicateAny`."
+      },
+      {
+        "term": "attribute content",
+        "see_line": "See :s:`AttributeContent`.",
+        "notes": "Missing legacy See line: See :s:`AttributeContent`."
+      },
+      {
+        "term": "built-in attribute",
+        "see_line": "See :s:`InnerBuiltinAttribute`, :s:`OuterBuiltinAttribute`.",
+        "notes": "Missing legacy See line: See :s:`InnerBuiltinAttribute`, :s:`OuterBuiltinAttribute`."
+      },
+      {
+        "term": "configuration predicate",
+        "see_line": "See :s:`ConfigurationPredicate`.",
+        "notes": "Missing legacy See line: See :s:`ConfigurationPredicate`."
+      },
+      {
+        "term": "inner attribute",
+        "see_line": "See :s:`InnerAttribute`.",
+        "notes": "Missing legacy See line: See :s:`InnerAttribute`."
+      },
+      {
+        "term": "not configuration predicate",
+        "see_line": "See :s:`ConfigurationPredicateNot`.",
+        "notes": "Missing legacy See line: See :s:`ConfigurationPredicateNot`."
+      },
+      {
+        "term": "outer attribute",
+        "see_line": "See :s:`OuterAttribute`.",
+        "notes": "Missing legacy See line: See :s:`OuterAttribute`."
+      },
+      {
+        "term": "representation modifier",
+        "see_line": "See :s:`Alignment`.",
+        "notes": "Missing legacy See line: See :s:`Alignment`."
+      }
+    ],
+    "entities-and-resolution": [
+      {
+        "term": "crate public modifier",
+        "see_line": "See :s:`CratePublicModifier`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`CratePublicModifier`."
+      },
+      {
+        "term": "glob import",
+        "see_line": "See :s:`GlobImport`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`GlobImport`."
+      },
+      {
+        "term": "indexed field selector",
+        "see_line": "See :s:`IndexedFieldSelector`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IndexedFieldSelector`."
+      },
+      {
+        "term": "item",
+        "see_line": "See :s:`Item`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`Item`."
+      },
+      {
+        "term": "name",
+        "see_line": "See :s:`Name`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Name`."
+      },
+      {
+        "term": "named field selector",
+        "see_line": "See :s:`NamedFieldSelector`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`NamedFieldSelector`."
+      },
+      {
+        "term": "nesting import",
+        "see_line": "See :s:`NestingImport`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`NestingImport`."
+      },
+      {
+        "term": "path segment",
+        "see_line": "See :s:`PathSegment`, :s:`SimplePathSegment`, :s:`TypePathSegment`.",
+        "notes": "Definition is short or fragmentary and lacks usable scope. Missing legacy See line: See :s:`PathSegment`, :s:`SimplePathSegment`, :s:`TypePathSegment`."
+      },
+      {
+        "term": "qualified path expression",
+        "see_line": "See :s:`QualifiedPathExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`QualifiedPathExpression`."
+      },
+      {
+        "term": "qualified type",
+        "see_line": "See :s:`QualifiedType`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`QualifiedType`."
+      },
+      {
+        "term": "qualified type path",
+        "see_line": "See :s:`QualifiedTypePath`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`QualifiedTypePath`."
+      },
+      {
+        "term": "qualifying trait",
+        "see_line": "See :s:`QualifyingTrait`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`QualifyingTrait`."
+      },
+      {
+        "term": "self public modifier",
+        "see_line": "See :s:`SelfPublicModifier`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`SelfPublicModifier`."
+      },
+      {
+        "term": "simple import",
+        "see_line": "See :s:`SimpleImport`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`SimpleImport`."
+      },
+      {
+        "term": "simple path",
+        "see_line": "See :s:`SimplePath`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`SimplePath`."
+      },
+      {
+        "term": "simple path prefix",
+        "see_line": "See :s:`SimplePathPrefix`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SimplePathPrefix`."
+      },
+      {
+        "term": "simple path public modifier",
+        "see_line": "See :s:`SimplePathPublicModifier`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`SimplePathPublicModifier`."
+      },
+      {
+        "term": "simple public modifier",
+        "see_line": "See :s:`SelfPublicModifier`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SelfPublicModifier`."
+      },
+      {
+        "term": "super public modifier",
+        "see_line": "See :s:`SuperPublicModifier`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`SuperPublicModifier`."
+      },
+      {
+        "term": "type path",
+        "see_line": "See :s:`TypePath`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TypePath`."
+      },
+      {
+        "term": "use import",
+        "see_line": "See :s:`UseImport`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`UseImport`."
+      }
+    ],
+    "expressions": [
+      {
+        "term": "addition assignment",
+        "see_line": "For :dt:`addition assignment`, see :t:`addition assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`addition assignment`, see :t:`addition assignment expression`."
+      },
+      {
+        "term": "addition assignment expression",
+        "see_line": "See :s:`AdditionAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`AdditionAssignmentExpression`."
+      },
+      {
+        "term": "addition expression",
+        "see_line": "See :s:`AdditionExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`AdditionExpression`."
+      },
+      {
+        "term": "arithmetic expression",
+        "see_line": "See :s:`ArithmeticExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ArithmeticExpression`."
+      },
+      {
+        "term": "array element constructor",
+        "see_line": "See :s:`ArrayElementConstructor`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ArrayElementConstructor`."
+      },
+      {
+        "term": "array expression",
+        "see_line": "See :s:`ArrayExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ArrayExpression`."
+      },
+      {
+        "term": "array repetition constructor",
+        "see_line": "See :s:`ArrayRepetitionConstructor`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ArrayRepetitionConstructor`."
+      },
+      {
+        "term": "assigned operand",
+        "see_line": "See :s:`AssignedOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`AssignedOperand`."
+      },
+      {
+        "term": "assignee operand",
+        "see_line": "See :s:`AssigneeOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`AssigneeOperand`."
+      },
+      {
+        "term": "assignment expression",
+        "see_line": "See :s:`AssignmentExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`AssignmentExpression`."
+      },
+      {
+        "term": "async block",
+        "see_line": "For :dt:`async block`, see :t:`async block expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`async block`, see :t:`async block expression`."
+      },
+      {
+        "term": "async block expression",
+        "see_line": "See :s:`AsyncBlockExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`AsyncBlockExpression`."
+      },
+      {
+        "term": "async closure expression",
+        "see_line": "See :s:`ClosureExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ClosureExpression`."
+      },
+      {
+        "term": "await expression",
+        "see_line": "See :s:`AwaitExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`AwaitExpression`."
+      },
+      {
+        "term": "base initializer",
+        "see_line": "See :s:`BaseInitializer`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`BaseInitializer`."
+      },
+      {
+        "term": "bit and assignment",
+        "see_line": "For :dt:`bit and assignment`, see :t:`bit and assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`bit and assignment`, see :t:`bit and assignment expression`."
+      },
+      {
+        "term": "bit and assignment expression",
+        "see_line": "See :s:`BitAndAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitAndAssignmentExpression`."
+      },
+      {
+        "term": "bit and expression",
+        "see_line": "See :s:`BitAndExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitAndExpression`."
+      },
+      {
+        "term": "bit expression",
+        "see_line": "See :s:`BitExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitExpression`."
+      },
+      {
+        "term": "bit or assignment",
+        "see_line": "For :dt:`bit or assignment`, see :t:`bit or assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`bit or assignment`, see :t:`bit or assignment expression`."
+      },
+      {
+        "term": "bit or assignment expression",
+        "see_line": "See :s:`BitOrAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitOrAssignmentExpression`."
+      },
+      {
+        "term": "bit or expression",
+        "see_line": "See :s:`BitOrExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitOrExpression`."
+      },
+      {
+        "term": "bit xor assignment",
+        "see_line": "For :dt:`bit xor assignment`, see :t:`bit xor assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`bit xor assignment`, see :t:`bit xor assignment expression`."
+      },
+      {
+        "term": "bit xor assignment expression",
+        "see_line": "See :s:`BitXorAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitXorAssignmentExpression`."
+      },
+      {
+        "term": "bit xor expression",
+        "see_line": "See :s:`BitXorExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BitXorExpression`."
+      },
+      {
+        "term": "block expression",
+        "see_line": "See :s:`BlockExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BlockExpression`."
+      },
+      {
+        "term": "borrow expression",
+        "see_line": "See :s:`BorrowExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`BorrowExpression`."
+      },
+      {
+        "term": "break expression",
+        "see_line": "See :s:`BreakExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BreakExpression`."
+      },
+      {
+        "term": "call expression",
+        "see_line": "See :s:`CallExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`CallExpression`."
+      },
+      {
+        "term": "call operand",
+        "see_line": "See :s:`CallOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`CallOperand`."
+      },
+      {
+        "term": "closure body",
+        "see_line": "See :s:`ClosureBody`, :s:`ClosureBodyWithReturnType`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ClosureBody`, :s:`ClosureBodyWithReturnType`."
+      },
+      {
+        "term": "closure expression",
+        "see_line": "See :s:`ClosureExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ClosureExpression`."
+      },
+      {
+        "term": "closure parameter",
+        "see_line": "See :s:`ClosureParameter`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`ClosureParameter`."
+      },
+      {
+        "term": "comparison expression",
+        "see_line": "See :s:`ComparisonExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ComparisonExpression`."
+      },
+      {
+        "term": "compound assignment",
+        "see_line": "For :dt:`compound assignment`, see :t:`compound assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`compound assignment`, see :t:`compound assignment expression`."
+      },
+      {
+        "term": "compound assignment expression",
+        "see_line": "See :s:`CompoundAssignmentExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`CompoundAssignmentExpression`."
+      },
+      {
+        "term": "container operand",
+        "see_line": "See :s:`ContainerOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ContainerOperand`."
+      },
+      {
+        "term": "continue expression",
+        "see_line": "See :s:`ContinueExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ContinueExpression`."
+      },
+      {
+        "term": "dereference expression",
+        "see_line": "See :s:`DereferenceExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`DereferenceExpression`."
+      },
+      {
+        "term": "division assignment",
+        "see_line": "For :dt:`division assignment`, see :t:`division assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`division assignment`, see :t:`division assignment expression`."
+      },
+      {
+        "term": "division assignment expression",
+        "see_line": "See :s:`DivisionAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`DivisionAssignmentExpression`."
+      },
+      {
+        "term": "division expression",
+        "see_line": "See :s:`DivisionExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`DivisionExpression`."
+      },
+      {
+        "term": "else expression",
+        "see_line": "See :s:`ElseExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ElseExpression`."
+      },
+      {
+        "term": "equals expression",
+        "see_line": "See :s:`EqualsExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`EqualsExpression`."
+      },
+      {
+        "term": "error propagation expression",
+        "see_line": "See :s:`ErrorPropagationExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ErrorPropagationExpression`."
+      },
+      {
+        "term": "expression",
+        "see_line": "See :s:`Expression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Expression`."
+      },
+      {
+        "term": "expression-with-block",
+        "see_line": "See :s:`ExpressionWithBlock`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ExpressionWithBlock`."
+      },
+      {
+        "term": "expression-without-block",
+        "see_line": "See :s:`ExpressionWithoutBlock`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ExpressionWithoutBlock`."
+      },
+      {
+        "term": "field access expression",
+        "see_line": "See :s:`FieldAccessExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FieldAccessExpression`."
+      },
+      {
+        "term": "field selector",
+        "see_line": "See :s:`FieldSelector`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FieldSelector`."
+      },
+      {
+        "term": "final match arm",
+        "see_line": "See :s:`FinalMatchArm`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FinalMatchArm`."
+      },
+      {
+        "term": "for loop expression",
+        "see_line": "See :s:`ForLoopExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ForLoopExpression`."
+      },
+      {
+        "term": "future operand",
+        "see_line": "See :s:`FutureOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FutureOperand`."
+      },
+      {
+        "term": "greater-than expression",
+        "see_line": "See :s:`GreaterThanExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`GreaterThanExpression`."
+      },
+      {
+        "term": "greater-than-or-equals expression",
+        "see_line": "See :s:`GreaterThanOrEqualsExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`GreaterThanOrEqualsExpression`."
+      },
+      {
+        "term": "if expression",
+        "see_line": "See :s:`IfExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`IfExpression`."
+      },
+      {
+        "term": "if let expression",
+        "see_line": "See :s:`IfLetExpression`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`IfLetExpression`."
+      },
+      {
+        "term": "index expression",
+        "see_line": "See :s:`IndexExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IndexExpression`."
+      },
+      {
+        "term": "indexed initializer",
+        "see_line": "See :s:`IndexedInitializer`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`IndexedInitializer`."
+      },
+      {
+        "term": "indexed operand",
+        "see_line": "See :s:`IndexedOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`IndexedOperand`."
+      },
+      {
+        "term": "indexing operand",
+        "see_line": "See :s:`IndexingOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IndexingOperand`."
+      },
+      {
+        "term": "infinite loop expression",
+        "see_line": "See :s:`InfiniteLoopExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`InfiniteLoopExpression`."
+      },
+      {
+        "term": "intermediate match arm",
+        "see_line": "See :s:`IntermediateMatchArm`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IntermediateMatchArm`."
+      },
+      {
+        "term": "iteration expression",
+        "see_line": "See :s:`IterationExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IterationExpression`."
+      },
+      {
+        "term": "label",
+        "see_line": "See :s:`Label`.",
+        "notes": "Definition is short or fragmentary and lacks usable scope. Missing legacy See line: See :s:`Label`."
+      },
+      {
+        "term": "label indication",
+        "see_line": "See :s:`LabelIndication`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LabelIndication`."
+      },
+      {
+        "term": "lazy and expression",
+        "see_line": "See :s:`LazyAndExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LazyAndExpression`."
+      },
+      {
+        "term": "lazy boolean expression",
+        "see_line": "See :s:`LazyBooleanExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LazyBooleanExpression`."
+      },
+      {
+        "term": "lazy or expression",
+        "see_line": "See :s:`LazyOrExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LazyOrExpression`."
+      },
+      {
+        "term": "left operand",
+        "see_line": "See :s:`LeftOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LeftOperand`."
+      },
+      {
+        "term": "less-than expression",
+        "see_line": "See :s:`LessThanExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LessThanExpression`."
+      },
+      {
+        "term": "less-than-or-equals expression",
+        "see_line": "See :s:`LessThanOrEqualsExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`LessThanOrEqualsExpression`."
+      },
+      {
+        "term": "literal expression",
+        "see_line": "See :s:`LiteralExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LiteralExpression`."
+      },
+      {
+        "term": "loop body",
+        "see_line": "See :s:`LoopBody`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LoopBody`."
+      },
+      {
+        "term": "loop expression",
+        "see_line": "See :s:`LoopExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`LoopExpression`."
+      },
+      {
+        "term": "match arm guard",
+        "see_line": "See :s:`MatchArmGuard`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MatchArmGuard`."
+      },
+      {
+        "term": "match arm matcher",
+        "see_line": "See :s:`MatchArmMatcher`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MatchArmMatcher`."
+      },
+      {
+        "term": "match expression",
+        "see_line": "See :s:`MatchExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`MatchExpression`."
+      },
+      {
+        "term": "method call expression",
+        "see_line": "See :s:`MethodCallExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MethodCallExpression`."
+      },
+      {
+        "term": "method operand",
+        "see_line": "See :s:`MethodOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MethodOperand`."
+      },
+      {
+        "term": "modifying operand",
+        "see_line": "See :s:`ModifyingOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ModifyingOperand`."
+      },
+      {
+        "term": "multiplication assignment",
+        "see_line": "For :dt:`multiplication assignment`, see :t:`multiplication assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`multiplication assignment`, see :t:`multiplication assignment expression`."
+      },
+      {
+        "term": "multiplication assignment expression",
+        "see_line": "See :s:`MultiplicationAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MultiplicationAssignmentExpression`."
+      },
+      {
+        "term": "multiplication expression",
+        "see_line": "See :s:`MultiplicationExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MultiplicationExpression`."
+      },
+      {
+        "term": "named initializer",
+        "see_line": "See :s:`NamedInitializer`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`NamedInitializer`."
+      },
+      {
+        "term": "negation expression",
+        "see_line": "See :s:`NegationExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`NegationExpression`."
+      },
+      {
+        "term": "not-equals expression",
+        "see_line": "See :s:`NotEqualsExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`NotEqualsExpression`."
+      },
+      {
+        "term": "operand",
+        "see_line": "See :s:`Operand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Operand`."
+      },
+      {
+        "term": "operator expression",
+        "see_line": "See :s:`OperatorExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`OperatorExpression`."
+      },
+      {
+        "term": "parenthesized expression",
+        "see_line": "See :s:`ParenthesizedExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ParenthesizedExpression`."
+      },
+      {
+        "term": "path expression",
+        "see_line": "See :s:`PathExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`PathExpression`."
+      },
+      {
+        "term": "range expression",
+        "see_line": "See :s:`RangeExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangeExpression`."
+      },
+      {
+        "term": "range expression high bound",
+        "see_line": "See :s:`RangeExpressionHighBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangeExpressionHighBound`."
+      },
+      {
+        "term": "range expression low bound",
+        "see_line": "See :s:`RangeExpressionLowBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangeExpressionLowBound`."
+      },
+      {
+        "term": "range-from expression",
+        "see_line": "See :s:`RangeFromExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangeFromExpression`."
+      },
+      {
+        "term": "range-from-to expression",
+        "see_line": "See :s:`RangeFromToExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`RangeFromToExpression`."
+      },
+      {
+        "term": "range-inclusive expression",
+        "see_line": "See :s:`RangeInclusiveExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`RangeInclusiveExpression`."
+      },
+      {
+        "term": "range-to expression",
+        "see_line": "See :s:`RangeToExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangeToExpression`."
+      },
+      {
+        "term": "range-to-inclusive expression",
+        "see_line": "See :s:`RangeToInclusiveExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`RangeToInclusiveExpression`."
+      },
+      {
+        "term": "raw borrow expression",
+        "see_line": "See :s:`RawBorrowExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`RawBorrowExpression`."
+      },
+      {
+        "term": "receiver operand",
+        "see_line": "See :s:`ReceiverOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ReceiverOperand`."
+      },
+      {
+        "term": "remainder assignment",
+        "see_line": "For :dt:`remainder assignment`, see :t:`remainder assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`remainder assignment`, see :t:`remainder assignment expression`."
+      },
+      {
+        "term": "remainder assignment expression",
+        "see_line": "See :s:`RemainderAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RemainderAssignmentExpression`."
+      },
+      {
+        "term": "remainder expression",
+        "see_line": "See :s:`RemainderExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RemainderExpression`."
+      },
+      {
+        "term": "repeat operand",
+        "see_line": "See :s:`RepeatOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`RepeatOperand`."
+      },
+      {
+        "term": "return expression",
+        "see_line": "See :s:`ReturnExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ReturnExpression`."
+      },
+      {
+        "term": "right operand",
+        "see_line": "See :s:`RightOperand`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RightOperand`."
+      },
+      {
+        "term": "shift left assignment",
+        "see_line": "For :dt:`shift left assignment`, see :t:`shift left assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`shift left assignment`, see :t:`shift left assignment expression`."
+      },
+      {
+        "term": "shift left assignment expression",
+        "see_line": "See :s:`ShiftLeftAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ShiftLeftAssignmentExpression`."
+      },
+      {
+        "term": "shift left expression",
+        "see_line": "See :s:`ShiftLeftExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ShiftLeftExpression`."
+      },
+      {
+        "term": "shift right assignment",
+        "see_line": "For :dt:`shift right assignment`, see :t:`shift right assignment expression`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`shift right assignment`, see :t:`shift right assignment expression`."
+      },
+      {
+        "term": "shift right assignment expression",
+        "see_line": "See :s:`ShiftRightAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ShiftRightAssignmentExpression`."
+      },
+      {
+        "term": "shift right expression",
+        "see_line": "See :s:`ShiftRightExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ShiftRightExpression`."
+      },
+      {
+        "term": "shorthand initializer",
+        "see_line": "See :s:`ShorthandInitializer`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ShorthandInitializer`."
+      },
+      {
+        "term": "struct expression",
+        "see_line": "See :s:`StructExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`StructExpression`."
+      },
+      {
+        "term": "subject expression",
+        "see_line": "See :s:`SubjectExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`SubjectExpression`."
+      },
+      {
+        "term": "subject let expression",
+        "see_line": "See :s:`SubjectLetExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SubjectLetExpression`."
+      },
+      {
+        "term": "subtraction assignment",
+        "see_line": "For :dt:`subtraction assignment`, see :t:`subtraction assignment`.",
+        "notes": "Generated definition is a bare alias. Missing legacy See line: For :dt:`subtraction assignment`, see :t:`subtraction assignment`."
+      },
+      {
+        "term": "subtraction assignment expression",
+        "see_line": "See :s:`SubtractionAssignmentExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SubtractionAssignmentExpression`."
+      },
+      {
+        "term": "subtraction expression",
+        "see_line": "See :s:`SubtractionExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SubtractionExpression`."
+      },
+      {
+        "term": "tuple expression",
+        "see_line": "See :s:`TupleExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TupleExpression`."
+      },
+      {
+        "term": "type cast expression",
+        "see_line": "See :s:`TypeCastExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TypeCastExpression`."
+      },
+      {
+        "term": "underscore expression",
+        "see_line": "See :s:`UnderscoreExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`UnderscoreExpression`."
+      },
+      {
+        "term": "unsafe block expression",
+        "see_line": "See :s:`UnsafeBlockExpression`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`UnsafeBlockExpression`."
+      },
+      {
+        "term": "value operand",
+        "see_line": "See :s:`ValueOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ValueOperand`."
+      },
+      {
+        "term": "while let loop expression",
+        "see_line": "See :s:`WhileLetLoopExpression`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`WhileLetLoopExpression`."
+      },
+      {
+        "term": "while loop expression",
+        "see_line": "See :s:`WhileLoopExpression`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`WhileLoopExpression`."
+      }
+    ],
+    "ffi": [
+      {
+        "term": "ABI kind",
+        "see_line": "See :s:`AbiKind`.",
+        "notes": "Missing legacy See line: See :s:`AbiKind`."
+      },
+      {
+        "term": "Application Binary Interface",
+        "see_line": "See :s:`AbiSpecification`.",
+        "notes": "Missing legacy See line: See :s:`AbiSpecification`."
+      },
+      {
+        "term": "external block",
+        "see_line": "See :s:`ExternalBlock`.",
+        "notes": "Missing legacy See line: See :s:`ExternalBlock`."
+      },
+      {
+        "term": "FFI",
+        "see_line": "See :t:`Foreign Function Interface`.",
+        "notes": "Missing legacy See line: See :t:`Foreign Function Interface`."
+      }
+    ],
+    "functions": [
+      {
+        "term": "function",
+        "see_line": "See :s:`FunctionDeclaration`.",
+        "notes": "Definition is clear but missing legacy See line: See :s:`FunctionDeclaration`."
+      },
+      {
+        "term": "function body",
+        "see_line": "See :s:`FunctionBody`.",
+        "notes": "Definition is clear but missing legacy See line: See :s:`FunctionBody`."
+      },
+      {
+        "term": "function parameter",
+        "see_line": "See :s:`FunctionParameter`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`FunctionParameter`."
+      },
+      {
+        "term": "function qualifier",
+        "see_line": "See :s:`FunctionQualifierList`.",
+        "notes": "Definition is clear but missing legacy See line: See :s:`FunctionQualifierList`."
+      },
+      {
+        "term": "return type",
+        "see_line": "See :s:`ReturnType`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ReturnType`."
+      }
+    ],
+    "generics": [
+      {
+        "term": "constant argument",
+        "see_line": "See :s:`ConstantArgument`.",
+        "notes": "Missing legacy See line: See :s:`ConstantArgument`."
+      },
+      {
+        "term": "constant parameter",
+        "see_line": "See :s:`ConstantParameter`.",
+        "notes": "Missing legacy See line: See :s:`ConstantParameter`."
+      },
+      {
+        "term": "constant parameter initializer",
+        "see_line": "See :s:`ConstantParameterInitializer`.",
+        "notes": "Missing legacy See line: See :s:`ConstantParameterInitializer`."
+      },
+      {
+        "term": "generic argument",
+        "see_line": "See :s:`GenericArgumentList`.",
+        "notes": "Missing legacy See line: See :s:`GenericArgumentList`."
+      },
+      {
+        "term": "generic parameter",
+        "see_line": "See :s:`GenericParameterList`.",
+        "notes": "Missing legacy See line: See :s:`GenericParameterList`."
+      },
+      {
+        "term": "lifetime argument",
+        "see_line": "See :s:`LifetimeArgument`.",
+        "notes": "Missing legacy See line: See :s:`LifetimeArgument`."
+      },
+      {
+        "term": "lifetime bound predicate",
+        "see_line": "See :s:`LifetimeBoundPredicate`.",
+        "notes": "Missing legacy See line: See :s:`LifetimeBoundPredicate`."
+      },
+      {
+        "term": "lifetime parameter",
+        "see_line": "See :s:`LifetimeParameter`.",
+        "notes": "Missing legacy See line: See :s:`LifetimeParameter`."
+      },
+      {
+        "term": "type argument",
+        "see_line": "See :s:`TypeArgument`.",
+        "notes": "Missing legacy See line: See :s:`TypeArgument`."
+      },
+      {
+        "term": "type bound predicate",
+        "see_line": "See :s:`TypeBoundPredicate`.",
+        "notes": "Missing legacy See line: See :s:`TypeBoundPredicate`."
+      },
+      {
+        "term": "type parameter",
+        "see_line": "See :s:`TypeParameter`.",
+        "notes": "Missing legacy See line: See :s:`TypeParameter`."
+      },
+      {
+        "term": "type parameter initializer",
+        "see_line": "See :s:`TypeParameterInitializer`.",
+        "notes": "Missing legacy See line: See :s:`TypeParameterInitializer`."
+      },
+      {
+        "term": "where clause",
+        "see_line": "See :s:`WhereClause`.",
+        "notes": "Missing legacy See line: See :s:`WhereClause`."
+      },
+      {
+        "term": "where clause predicate",
+        "see_line": "See :s:`WhereClausePredicate`.",
+        "notes": "Missing legacy See line: See :s:`WhereClausePredicate`."
+      }
+    ],
+    "implementations": [
+      {
+        "term": "implementation",
+        "see_line": "See :s:`Implementation`.",
+        "notes": "Missing legacy See line: See :s:`Implementation`."
+      },
+      {
+        "term": "implementation body",
+        "see_line": "See :s:`ImplementationBody`.",
+        "notes": "Missing legacy See line: See :s:`ImplementationBody`."
+      },
+      {
+        "term": "implemented trait",
+        "see_line": "See :s:`ImplementedTrait`.",
+        "notes": "Missing legacy See line: See :s:`ImplementedTrait`."
+      },
+      {
+        "term": "implementing type",
+        "see_line": "See :s:`ImplementingType`.",
+        "notes": "Missing legacy See line: See :s:`ImplementingType`."
+      },
+      {
+        "term": "inherent implementation",
+        "see_line": "See :s:`InherentImplementation`.",
+        "notes": "Missing legacy See line: See :s:`InherentImplementation`."
+      },
+      {
+        "term": "trait implementation",
+        "see_line": "See :s:`TraitImplementation`.",
+        "notes": "Missing legacy See line: See :s:`TraitImplementation`."
+      }
+    ],
+    "inline-assembly": [
+      {
+        "term": "ABI clobber",
+        "see_line": "See :s:`AbiClobber`.",
+        "notes": "Missing legacy See line: See :s:`AbiClobber`."
+      },
+      {
+        "term": "assembly code block",
+        "see_line": "See :s:`AssemblyCodeBlock`.",
+        "notes": "Missing legacy See line: See :s:`AssemblyCodeBlock`."
+      },
+      {
+        "term": "assembly instruction",
+        "see_line": "See :s:`AssemblyInstruction`.",
+        "notes": "Missing legacy See line: See :s:`AssemblyInstruction`."
+      },
+      {
+        "term": "assembly option",
+        "see_line": "See :s:`AssemblyOption`.",
+        "notes": "Missing legacy See line: See :s:`AssemblyOption`."
+      },
+      {
+        "term": "direction modifier",
+        "see_line": "See :s:`DirectionModifier`.",
+        "notes": "Missing legacy See line: See :s:`DirectionModifier`."
+      },
+      {
+        "term": "explicit register name",
+        "see_line": "See :s:`ExplicitRegisterName`.",
+        "notes": "Missing legacy See line: See :s:`ExplicitRegisterName`."
+      },
+      {
+        "term": "input register expression",
+        "see_line": "See :s:`InputRegisterExpression`.",
+        "notes": "Missing legacy See line: See :s:`InputRegisterExpression`."
+      },
+      {
+        "term": "input-output register expression",
+        "see_line": "See :s:`InputOutputRegisterExpression`.",
+        "notes": "Missing legacy See line: See :s:`InputOutputRegisterExpression`."
+      },
+      {
+        "term": "output register expression",
+        "see_line": "See :s:`OutputRegisterExpression`.",
+        "notes": "Missing legacy See line: See :s:`OutputRegisterExpression`."
+      },
+      {
+        "term": "register argument",
+        "see_line": "See :s:`RegisterArgument`.",
+        "notes": "Missing legacy See line: See :s:`RegisterArgument`."
+      },
+      {
+        "term": "register class name",
+        "see_line": "See :s:`RegisterClassName`.",
+        "notes": "Missing legacy See line: See :s:`RegisterClassName`."
+      },
+      {
+        "term": "register expression",
+        "see_line": "See :s:`RegisterExpression`.",
+        "notes": "Definition expands the legacy list of forms. Missing legacy See line: See :s:`RegisterExpression`."
+      },
+      {
+        "term": "register name",
+        "see_line": "See :s:`RegisterName`.",
+        "notes": "Missing legacy See line: See :s:`RegisterName`."
+      },
+      {
+        "term": "simple register expression",
+        "see_line": "See :s:`SimpleRegisterExpression`.",
+        "notes": "Missing legacy See line: See :s:`SimpleRegisterExpression`."
+      }
+    ],
+    "lexical-elements": [
+      {
+        "term": "binary literal",
+        "see_line": "See :s:`BinaryLiteral`.",
+        "notes": "Definition is short or fragmentary and lacks usable scope. Missing legacy See line: See :s:`BinaryLiteral`."
+      },
+      {
+        "term": "block comment",
+        "see_line": "See :s:`BlockComment`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BlockComment`."
+      },
+      {
+        "term": "boolean literal",
+        "see_line": "See :s:`BooleanLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BooleanLiteral`."
+      },
+      {
+        "term": "byte literal",
+        "see_line": "See :s:`ByteLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ByteLiteral`."
+      },
+      {
+        "term": "byte string literal",
+        "see_line": "See :s:`ByteStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ByteStringLiteral`."
+      },
+      {
+        "term": "c string literal",
+        "see_line": "See :s:`CStringLiteral`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`CStringLiteral`."
+      },
+      {
+        "term": "character literal",
+        "see_line": "See :s:`CharacterLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`CharacterLiteral`."
+      },
+      {
+        "term": "comment",
+        "see_line": "See :s:`Comment`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Comment`."
+      },
+      {
+        "term": "decimal literal",
+        "see_line": "See :s:`DecimalLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`DecimalLiteral`."
+      },
+      {
+        "term": "float literal",
+        "see_line": "See :s:`FloatLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FloatLiteral`."
+      },
+      {
+        "term": "float suffix",
+        "see_line": "See :s:`FloatSuffix`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FloatSuffix`."
+      },
+      {
+        "term": "hexadecimal literal",
+        "see_line": "See :s:`HexadecimalLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`HexadecimalLiteral`."
+      },
+      {
+        "term": "identifier",
+        "see_line": "See :s:`Identifier`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Identifier`."
+      },
+      {
+        "term": "inner block doc",
+        "see_line": "See :s:`InnerBlockDoc`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`InnerBlockDoc`."
+      },
+      {
+        "term": "inner line doc",
+        "see_line": "See :s:`InnerLineDoc`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`InnerLineDoc`."
+      },
+      {
+        "term": "integer literal",
+        "see_line": "See :s:`IntegerLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IntegerLiteral`."
+      },
+      {
+        "term": "integer suffix",
+        "see_line": "See ``IntegerSuffix.``",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See ``IntegerSuffix.``"
+      },
+      {
+        "term": "keyword",
+        "see_line": "See :s:`Keyword`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Keyword`."
+      },
+      {
+        "term": "line comment",
+        "see_line": "See :s:`LineComment`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LineComment`."
+      },
+      {
+        "term": "literal",
+        "see_line": "See :s:`Literal`.",
+        "notes": "Definition is short or fragmentary and lacks usable scope. Missing legacy See line: See :s:`Literal`."
+      },
+      {
+        "term": "numeric literal",
+        "see_line": "See :s:`NumericLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`NumericLiteral`."
+      },
+      {
+        "term": "octal literal",
+        "see_line": "See ``OctalLiteral.``",
+        "notes": "Definition is short or fragmentary and lacks usable scope. Missing legacy See line: See ``OctalLiteral.``"
+      },
+      {
+        "term": "outer block doc",
+        "see_line": "See :s:`OuterBlockDoc`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`OuterBlockDoc`."
+      },
+      {
+        "term": "outer line doc",
+        "see_line": "See :s:`OuterLineDoc`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`OuterLineDoc`."
+      },
+      {
+        "term": "raw byte string literal",
+        "see_line": "See :s:`RawByteStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RawByteStringLiteral`."
+      },
+      {
+        "term": "raw c string literal",
+        "see_line": "See :s:`RawCStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RawCStringLiteral`."
+      },
+      {
+        "term": "raw string literal",
+        "see_line": "See :s:`RawStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RawStringLiteral`."
+      },
+      {
+        "term": "reserved keyword",
+        "see_line": "See :s:`ReservedKeyword`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ReservedKeyword`."
+      },
+      {
+        "term": "simple byte string literal",
+        "see_line": "See :s:`SimpleByteStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SimpleByteStringLiteral`."
+      },
+      {
+        "term": "simple c string literal",
+        "see_line": "See :s:`SimpleCStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SimpleCStringLiteral`."
+      },
+      {
+        "term": "simple string literal",
+        "see_line": "See :s:`SimpleStringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SimpleStringLiteral`."
+      },
+      {
+        "term": "strict keyword",
+        "see_line": "See :s:`StrictKeyword`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`StrictKeyword`."
+      },
+      {
+        "term": "string literal",
+        "see_line": "See :s:`StringLiteral`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`StringLiteral`."
+      },
+      {
+        "term": "weak keyword",
+        "see_line": "See :s:`WeakKeyword`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`WeakKeyword`."
+      }
+    ],
+    "macros": [
+      {
+        "term": "declarative macro",
+        "see_line": "See :s:`MacroRulesDeclaration`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`MacroRulesDeclaration`."
+      },
+      {
+        "term": "fragment specifier",
+        "see_line": "See ``MacroFragmentSpecifier``.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See ``MacroFragmentSpecifier``."
+      },
+      {
+        "term": "macro invocation",
+        "see_line": "See :s:`MacroInvocation`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`MacroInvocation`."
+      },
+      {
+        "term": "macro match",
+        "see_line": "See :s:`MacroMatch`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MacroMatch`."
+      },
+      {
+        "term": "macro matcher",
+        "see_line": "See :s:`MacroMatcher`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MacroMatcher`."
+      },
+      {
+        "term": "macro repetition in matching",
+        "see_line": "See :s:`MacroRepetitionMatch`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`MacroRepetitionMatch`."
+      },
+      {
+        "term": "macro repetition in transcription",
+        "see_line": "See :s:`MacroRepetitionTranscriber`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`MacroRepetitionTranscriber`."
+      },
+      {
+        "term": "macro rule",
+        "see_line": "See :s:`MacroRule`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MacroRule`."
+      },
+      {
+        "term": "macro transcriber",
+        "see_line": "See :s:`MacroTranscriber`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MacroTranscriber`."
+      },
+      {
+        "term": "metavariable",
+        "see_line": "See :s:`MacroMetavariable`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MacroMetavariable`."
+      },
+      {
+        "term": "metavariable indication",
+        "see_line": "See :s:`MacroMetavariableIndication`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`MacroMetavariableIndication`."
+      },
+      {
+        "term": "repetition operator",
+        "see_line": "See :s:`MacroRepetitionOperator`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`MacroRepetitionOperator`."
+      },
+      {
+        "term": "terminated macro invocation",
+        "see_line": "See :s:`TerminatedMacroInvocation`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TerminatedMacroInvocation`."
+      }
+    ],
+    "patterns": [
+      {
+        "term": "binding",
+        "see_line": "See :s:`Binding`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Binding`."
+      },
+      {
+        "term": "bound pattern",
+        "see_line": "See :s:`BoundPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`BoundPattern`."
+      },
+      {
+        "term": "deconstructee",
+        "see_line": "See :s:`Deconstructee`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Deconstructee`."
+      },
+      {
+        "term": "exclusive range pattern",
+        "see_line": "See :s:`ExclusiveRangePattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ExclusiveRangePattern`."
+      },
+      {
+        "term": "half-open range pattern",
+        "see_line": "See :s:`HalfOpenRangePattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`HalfOpenRangePattern`."
+      },
+      {
+        "term": "identifier pattern",
+        "see_line": "See :s:`IdentifierPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IdentifierPattern`."
+      },
+      {
+        "term": "inclusive range pattern",
+        "see_line": "See :s:`InclusiveRangePattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`InclusiveRangePattern`."
+      },
+      {
+        "term": "indexed deconstructor",
+        "see_line": "See :s:`IndexedDeconstructor`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`IndexedDeconstructor`."
+      },
+      {
+        "term": "literal pattern",
+        "see_line": "See :s:`LiteralPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LiteralPattern`."
+      },
+      {
+        "term": "named deconstructor",
+        "see_line": "See :s:`NamedDeconstructor`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`NamedDeconstructor`."
+      },
+      {
+        "term": "numeric literal pattern",
+        "see_line": "See :s:`LiteralPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LiteralPattern`."
+      },
+      {
+        "term": "obsolete range pattern",
+        "see_line": "See :s:`ObsoleteRangePattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ObsoleteRangePattern`."
+      },
+      {
+        "term": "or-pattern",
+        "see_line": "See :s:`Pattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`Pattern`."
+      },
+      {
+        "term": "parenthesized pattern",
+        "see_line": "See :s:`ParenthesizedPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ParenthesizedPattern`."
+      },
+      {
+        "term": "path pattern",
+        "see_line": "See :s:`PathPattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`PathPattern`."
+      },
+      {
+        "term": "pattern",
+        "see_line": "See :s:`Pattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Pattern`."
+      },
+      {
+        "term": "pattern-without-alternation",
+        "see_line": "See :s:`PatternWithoutAlternation`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`PatternWithoutAlternation`."
+      },
+      {
+        "term": "pattern-without-range",
+        "see_line": "See :s:`PatternWithoutRange`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`PatternWithoutRange`."
+      },
+      {
+        "term": "range pattern",
+        "see_line": "See ``RangePattern``.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See ``RangePattern``."
+      },
+      {
+        "term": "range pattern bound",
+        "see_line": "See :s:`RangePatternBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangePatternBound`."
+      },
+      {
+        "term": "range pattern high bound",
+        "see_line": "See :s:`RangePatternHighBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangePatternHighBound`."
+      },
+      {
+        "term": "range pattern low bound",
+        "see_line": "See :s:`RangePatternLowBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RangePatternLowBound`."
+      },
+      {
+        "term": "record struct pattern",
+        "see_line": "See :s:`RecordStructPattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`RecordStructPattern`."
+      },
+      {
+        "term": "reference pattern",
+        "see_line": "See :s:`ReferencePattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ReferencePattern`."
+      },
+      {
+        "term": "rest pattern",
+        "see_line": "See :s:`RestPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RestPattern`."
+      },
+      {
+        "term": "shorthand deconstructor",
+        "see_line": "See :s:`ShorthandDeconstructor`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ShorthandDeconstructor`."
+      },
+      {
+        "term": "slice pattern",
+        "see_line": "See :s:`SlicePattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SlicePattern`."
+      },
+      {
+        "term": "struct pattern",
+        "see_line": "See :s:`StructPattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`StructPattern`."
+      },
+      {
+        "term": "tuple pattern",
+        "see_line": "See :s:`TuplePattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`TuplePattern`."
+      },
+      {
+        "term": "tuple struct pattern",
+        "see_line": "See :s:`TupleStructPattern`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`TupleStructPattern`."
+      },
+      {
+        "term": "underscore pattern",
+        "see_line": "See :s:`UnderscorePattern`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`UnderscorePattern`."
+      }
+    ],
+    "program-structure-and-compilation": [
+      {
+        "term": "crate import",
+        "see_line": "See :s:`ExternalCrateImport`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ExternalCrateImport`."
+      },
+      {
+        "term": "crate indication",
+        "see_line": "See :s:`CrateIndication`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`CrateIndication`."
+      },
+      {
+        "term": "inline module",
+        "see_line": "See :s:`InlineModuleSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`InlineModuleSpecification`."
+      },
+      {
+        "term": "module",
+        "see_line": "See :s:`ModuleDeclaration`.",
+        "notes": "Definition is short or fragmentary and lacks usable scope. Missing legacy See line: See :s:`ModuleDeclaration`."
+      },
+      {
+        "term": "outline module",
+        "see_line": "See :s:`OutlineModuleSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`OutlineModuleSpecification`."
+      },
+      {
+        "term": "renaming",
+        "see_line": "See :s:`Renaming`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Renaming`."
+      },
+      {
+        "term": "source file",
+        "see_line": "See :s:`SourceFile`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`SourceFile`."
+      }
+    ],
+    "statements": [
+      {
+        "term": "expression statement",
+        "see_line": "See :s:`ExpressionStatement`.",
+        "notes": "Definition is clear; missing legacy See line: See :s:`ExpressionStatement`."
+      },
+      {
+        "term": "let initializer",
+        "see_line": "See :s:`LetInitializer`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`LetInitializer`."
+      },
+      {
+        "term": "let statement",
+        "see_line": "See :s:`LetStatement`.",
+        "notes": "Definition is clear and mostly scoped. Missing legacy See line: See :s:`LetStatement`."
+      },
+      {
+        "term": "statement",
+        "see_line": "See :s:`Statement`.",
+        "notes": "Generated definition just points to :s:`Statement` without a concrete relationship. Missing legacy See line: See :s:`Statement`."
+      }
+    ],
+    "types-and-traits": [
+      {
+        "term": "array type",
+        "see_line": "See :s:`ArrayTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ArrayTypeSpecification`."
+      },
+      {
+        "term": "bound",
+        "see_line": "See :s:`TypeBound`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`TypeBound`."
+      },
+      {
+        "term": "discriminant initializer",
+        "see_line": "See :s:`DiscriminantInitializer`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`DiscriminantInitializer`."
+      },
+      {
+        "term": "element type",
+        "see_line": "See :s:`ElementType`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ElementType`."
+      },
+      {
+        "term": "enum type",
+        "see_line": "See :s:`EnumDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`EnumDeclaration`."
+      },
+      {
+        "term": "enum variant",
+        "see_line": "See :s:`EnumVariant`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`EnumVariant`."
+      },
+      {
+        "term": "field index",
+        "see_line": "See :s:`FieldIndex`.",
+        "notes": "Definition is clear, scoped, and self-contained with discriminators. Missing legacy See line: See :s:`FieldIndex`."
+      },
+      {
+        "term": "function pointer type",
+        "see_line": "See :s:`FunctionPointerTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FunctionPointerTypeSpecification`."
+      },
+      {
+        "term": "function pointer type parameter",
+        "see_line": "See :s:`FunctionPointerTypeParameter`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`FunctionPointerTypeParameter`."
+      },
+      {
+        "term": "higher-ranked trait bound",
+        "see_line": "See :s:`ForGenericParameterList`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`ForGenericParameterList`."
+      },
+      {
+        "term": "impl trait type",
+        "see_line": "See :s:`ImplTraitTypeSpecification`, :s:`ImplTraitTypeSpecificationOneBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ImplTraitTypeSpecification`, :s:`ImplTraitTypeSpecificationOneBound`."
+      },
+      {
+        "term": "inferred type",
+        "see_line": "See :s:`InferredType`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`InferredType`."
+      },
+      {
+        "term": "initialization type",
+        "see_line": "See :s:`InitializationType`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`InitializationType`."
+      },
+      {
+        "term": "lifetime",
+        "see_line": "See :s:`Lifetime`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`Lifetime`."
+      },
+      {
+        "term": "lifetime bound",
+        "see_line": "See :s:`LifetimeIndication`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`LifetimeIndication`."
+      },
+      {
+        "term": "never type",
+        "see_line": "See :s:`NeverType`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`NeverType`."
+      },
+      {
+        "term": "parenthesized type",
+        "see_line": "See :s:`ParenthesizedTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ParenthesizedTypeSpecification`."
+      },
+      {
+        "term": "raw pointer type",
+        "see_line": "See :s:`RawPointerTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RawPointerTypeSpecification`."
+      },
+      {
+        "term": "record struct",
+        "see_line": "See :s:`RecordStructDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RecordStructDeclaration`."
+      },
+      {
+        "term": "record struct field",
+        "see_line": "See :s:`RecordStructField`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`RecordStructField`."
+      },
+      {
+        "term": "reference type",
+        "see_line": "See :s:`ReferenceTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`ReferenceTypeSpecification`."
+      },
+      {
+        "term": "representation",
+        "see_line": "See :t:`type representation`.",
+        "notes": "No generated definition present. Missing legacy See line: See :t:`type representation`."
+      },
+      {
+        "term": "size operand",
+        "see_line": "See :s:`SizeOperand`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`SizeOperand`."
+      },
+      {
+        "term": "slice type",
+        "see_line": "See :s:`SliceTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`SliceTypeSpecification`."
+      },
+      {
+        "term": "struct type",
+        "see_line": "See :s:`StructDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`StructDeclaration`."
+      },
+      {
+        "term": "trait",
+        "see_line": "See :s:`TraitDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TraitDeclaration`."
+      },
+      {
+        "term": "trait body",
+        "see_line": "See :s:`TraitBody`.",
+        "notes": "Definition is clear and mostly scoped with at least one discriminator. Missing legacy See line: See :s:`TraitBody`."
+      },
+      {
+        "term": "trait bound",
+        "see_line": "See :s:`TraitBound`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TraitBound`."
+      },
+      {
+        "term": "trait object type",
+        "see_line": "See :s:`TraitObjectTypeSpecification`,",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TraitObjectTypeSpecification`,"
+      },
+      {
+        "term": "tuple struct",
+        "see_line": "See :s:`TupleStructDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TupleStructDeclaration`."
+      },
+      {
+        "term": "tuple struct field",
+        "see_line": "See :s:`TupleStructField`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TupleStructField`."
+      },
+      {
+        "term": "tuple type",
+        "see_line": "See :s:`TupleTypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TupleTypeSpecification`."
+      },
+      {
+        "term": "type alias",
+        "see_line": "See :s:`TypeAliasDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TypeAliasDeclaration`."
+      },
+      {
+        "term": "type ascription",
+        "see_line": "See :s:`TypeAscription`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TypeAscription`."
+      },
+      {
+        "term": "type specification",
+        "see_line": "See :s:`TypeSpecification`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`TypeSpecification`."
+      },
+      {
+        "term": "unifiable",
+        "see_line": "For :dt:`unifiable`, see :t:`unify`.",
+        "notes": "Missing legacy See line: For :dt:`unifiable`, see :t:`unify`."
+      },
+      {
+        "term": "union type",
+        "see_line": "See :s:`UnionDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`UnionDeclaration`."
+      },
+      {
+        "term": "unit struct",
+        "see_line": "See :s:`UnitStructDeclaration`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`UnitStructDeclaration`."
+      },
+      {
+        "term": "use capture",
+        "see_line": "See :s:`UseCaptures`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`UseCaptures`."
+      },
+      {
+        "term": "variadic part",
+        "see_line": "See :s:`VariadicPart`.",
+        "notes": "Definition states the core relationship but lacks discriminators or edge cases. Missing legacy See line: See :s:`VariadicPart`."
+      }
+    ],
+    "values": [
+      {
+        "term": "constant",
+        "see_line": "See :s:`ConstantDeclaration`.",
+        "notes": "Definition states the core relationship but omits the legacy See line: See :s:`ConstantDeclaration`."
+      },
+      {
+        "term": "constant initializer",
+        "see_line": "See :s:`ConstantInitializer`.",
+        "notes": "Definition states the core relationship but omits the legacy See line: See :s:`ConstantInitializer`."
+      },
+      {
+        "term": "static",
+        "see_line": "See :s:`StaticDeclaration`.",
+        "notes": "Definition states the core relationship but omits the legacy See line: See :s:`StaticDeclaration`."
+      },
+      {
+        "term": "static initializer",
+        "see_line": "See :s:`StaticInitializer`.",
+        "notes": "Definition states the core relationship but omits the legacy See line: See :s:`StaticInitializer`."
+      }
+    ]
+  }
+}

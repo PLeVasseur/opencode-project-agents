@@ -1,0 +1,74 @@
+{
+  "baseline_integrity_snapshot": {
+    "active_corpus_anchor_count": 464,
+    "active_shard_set_pass": true,
+    "anchor_registry_count": 464,
+    "anchor_registry_extra_in_corpus": [],
+    "anchor_registry_missing_in_corpus": [],
+    "anchor_set_pass": true,
+    "overall_pass": true,
+    "part_shard_audits": {
+      "P06": {
+        "active_shards": [
+          "list_bullet-0001.jsonl",
+          "paragraph-0001.jsonl",
+          "table_cell-0001.jsonl"
+        ],
+        "extra": [],
+        "manifest_exists": true,
+        "manifest_shards": [
+          "list_bullet-0001.jsonl",
+          "paragraph-0001.jsonl",
+          "table_cell-0001.jsonl"
+        ],
+        "missing": [],
+        "pass": true
+      },
+      "P08": {
+        "active_shards": [
+          "list_bullet-0001.jsonl",
+          "paragraph-0001.jsonl",
+          "table_cell-0001.jsonl"
+        ],
+        "extra": [],
+        "manifest_exists": true,
+        "manifest_shards": [
+          "list_bullet-0001.jsonl",
+          "paragraph-0001.jsonl",
+          "table_cell-0001.jsonl"
+        ],
+        "missing": [],
+        "pass": true
+      },
+      "P09": {
+        "active_shards": [
+          "list_bullet-0001.jsonl",
+          "paragraph-0001.jsonl",
+          "table_cell-0001.jsonl"
+        ],
+        "extra": [],
+        "manifest_exists": true,
+        "manifest_shards": [
+          "list_bullet-0001.jsonl",
+          "paragraph-0001.jsonl",
+          "table_cell-0001.jsonl"
+        ],
+        "missing": [],
+        "pass": true
+      }
+    },
+    "required_parts": [
+      "P06",
+      "P08",
+      "P09"
+    ],
+    "timestamp_utc": "2026-02-16T04:44:23Z"
+  },
+  "run_id": "pr1-20260216T044416Z",
+  "table_scope_changes": [
+    "tightened table region detection",
+    "enforced table-local candidate pools",
+    "audited shard manifest hygiene"
+  ],
+  "timestamp_utc": "2026-02-16T04:44:23Z"
+}

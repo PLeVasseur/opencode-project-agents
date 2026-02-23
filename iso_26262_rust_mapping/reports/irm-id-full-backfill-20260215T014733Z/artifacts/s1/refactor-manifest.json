@@ -1,0 +1,69 @@
+{
+  "changed_files": [
+    "exts/iso26262_spec/__init__.py",
+    "exts/iso26262_spec_lints/__init__.py"
+  ],
+  "extension_decomposition": {
+    "new_modules": [
+      "exts/iso26262_spec/constants.py",
+      "exts/iso26262_spec/types.py",
+      "exts/iso26262_spec/nodes.py",
+      "exts/iso26262_spec/utils.py",
+      "exts/iso26262_spec/record_store.py",
+      "exts/iso26262_spec/preface_parser.py",
+      "exts/iso26262_spec/markdown_binding.py",
+      "exts/iso26262_spec/table_directive.py",
+      "exts/iso26262_spec/registry.py",
+      "exts/iso26262_spec/references.py",
+      "exts/iso26262_spec/outputs.py",
+      "exts/iso26262_spec/domain.py",
+      "exts/iso26262_spec/events.py",
+      "exts/iso26262_spec/directives.py",
+      "exts/iso26262_spec/roles.py"
+    ],
+    "root_module": "exts/iso26262_spec/__init__.py"
+  },
+  "generated_at_utc": "2026-02-15T01:56:52Z",
+  "lint_decomposition": {
+    "new_modules": [
+      "exts/iso26262_spec_lints/common.py",
+      "exts/iso26262_spec_lints/legacy_token_check.py",
+      "exts/iso26262_spec_lints/native_table_check.py",
+      "exts/iso26262_spec_lints/anchor_resolution_check.py",
+      "exts/iso26262_spec_lints/preface_adjacency_check.py",
+      "exts/iso26262_spec_lints/table_anchor_check.py",
+      "exts/iso26262_spec_lints/trace_status_check.py",
+      "exts/iso26262_spec_lints/paragraph_id_check.py"
+    ],
+    "paragraph_id_check_mode": "placeholder-no-op",
+    "root_module": "exts/iso26262_spec_lints/__init__.py"
+  },
+  "new_files": [
+    "exts/iso26262_spec/constants.py",
+    "exts/iso26262_spec/directives.py",
+    "exts/iso26262_spec/domain.py",
+    "exts/iso26262_spec/events.py",
+    "exts/iso26262_spec/markdown_binding.py",
+    "exts/iso26262_spec/nodes.py",
+    "exts/iso26262_spec/outputs.py",
+    "exts/iso26262_spec/preface_parser.py",
+    "exts/iso26262_spec/record_store.py",
+    "exts/iso26262_spec/references.py",
+    "exts/iso26262_spec/registry.py",
+    "exts/iso26262_spec/roles.py",
+    "exts/iso26262_spec/table_directive.py",
+    "exts/iso26262_spec/types.py",
+    "exts/iso26262_spec/utils.py",
+    "exts/iso26262_spec_lints/anchor_resolution_check.py",
+    "exts/iso26262_spec_lints/common.py",
+    "exts/iso26262_spec_lints/legacy_token_check.py",
+    "exts/iso26262_spec_lints/native_table_check.py",
+    "exts/iso26262_spec_lints/paragraph_id_check.py",
+    "exts/iso26262_spec_lints/preface_adjacency_check.py",
+    "exts/iso26262_spec_lints/table_anchor_check.py",
+    "exts/iso26262_spec_lints/trace_status_check.py"
+  ],
+  "run_id": "20260215T014733Z",
+  "safe_refactor_only": true,
+  "stage": "S1"
+}

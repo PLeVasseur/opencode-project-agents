@@ -1,0 +1,372 @@
+{
+  "associated type alias": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "associated type alias",
+        "file": "expressions.rst",
+        "line": 4134
+      }
+    ]
+  },
+  "auto-dereferencing": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "auto-dereferencing",
+        "file": "attributes.rst",
+        "line": 1710
+      }
+    ]
+  },
+  "bindings": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "bindings",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 724
+      }
+    ]
+  },
+  "dynamically-sized type": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "dynamically-sized type",
+        "file": "types-and-traits.rst",
+        "line": 740
+      }
+    ]
+  },
+  "extern block": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "extern block",
+        "file": "attributes.rst",
+        "line": 1421
+      }
+    ]
+  },
+  "flexible compound punctuator": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "flexible compound punctuator",
+        "file": "lexical-elements.rst",
+        "line": 272
+      }
+    ]
+  },
+  "floating point type": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "[floating point type]s",
+        "file": "types-and-traits.rst",
+        "line": 421
+      }
+    ]
+  },
+  "fragment specifier restriction": {
+    "count": 5,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 315
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 321
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 326
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 331
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 335
+      }
+    ]
+  },
+  "if-let expression": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "if-let expression",
+        "file": "types-and-traits.rst",
+        "line": 2892
+      }
+    ]
+  },
+  "main function": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "non-[main function]s",
+        "file": "attributes.rst",
+        "line": 815
+      }
+    ]
+  },
+  "namespace qualifier": {
+    "count": 3,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "namespace qualifier",
+        "file": "entities-and-resolution.rst",
+        "line": 330
+      },
+      {
+        "raw": "namespace qualifier",
+        "file": "entities-and-resolution.rst",
+        "line": 358
+      },
+      {
+        "raw": "namespace qualifier",
+        "file": "entities-and-resolution.rst",
+        "line": 372
+      }
+    ]
+  },
+  "obligation": {
+    "count": 7,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 2793
+      },
+      {
+        "raw": "[obligation]s",
+        "file": "types-and-traits.rst",
+        "line": 2795
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 2801
+      },
+      {
+        "raw": "[obligation]s",
+        "file": "types-and-traits.rst",
+        "line": 2836
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 3080
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 3089
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 3111
+      }
+    ]
+  },
+  "shadowed": {
+    "count": 3,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "shadowed",
+        "file": "entities-and-resolution.rst",
+        "line": 1271
+      },
+      {
+        "raw": "shadowed",
+        "file": "entities-and-resolution.rst",
+        "line": 1273
+      },
+      {
+        "raw": "shadowed",
+        "file": "entities-and-resolution.rst",
+        "line": 1276
+      }
+    ]
+  },
+  "token": {
+    "count": 28,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 162
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 187
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 357
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 357
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 380
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 380
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 411
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 432
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 432
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 464
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 494
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 494
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 534
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 536
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 541
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 840
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 844
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 870
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 921
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 952
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 956
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 967
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 972
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 991
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 994
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 1000
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 1041
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 1046
+      }
+    ]
+  },
+  "unifiable type": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "[unifiable type]s",
+        "file": "patterns.rst",
+        "line": 104
+      }
+    ]
+  }
+}

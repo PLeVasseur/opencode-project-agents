@@ -1,0 +1,21 @@
+{
+  "commit_sha": "0b798b37d41847b2a5d39491c15880bb77d32683",
+  "commit_subject": "feat(trace-data): publish required-part corpus batch 1",
+  "deterministic_replay_pass": true,
+  "published_total_units": 2633,
+  "published_unit_type_totals": {
+    "list_bullet": 494,
+    "paragraph": 176,
+    "table_cell": 1963
+  },
+  "required_parts_completeness": "3/3",
+  "resilience_all_pass": true,
+  "run_id": "20260215T143525Z",
+  "supported_unit_types": [
+    "paragraph",
+    "list_bullet",
+    "table_cell"
+  ],
+  "timestamp_utc": "2026-02-15T15:20:01Z",
+  "unresolved_qa_count": 0
+}

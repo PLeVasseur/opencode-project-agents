@@ -1,0 +1,2 @@
+6:  listen: {
+7:    endpoints: ["tcp/0.0.0.0:7447"],

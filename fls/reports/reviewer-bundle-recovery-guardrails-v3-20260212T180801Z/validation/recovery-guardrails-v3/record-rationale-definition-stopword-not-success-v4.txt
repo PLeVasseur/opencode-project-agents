@@ -1,0 +1,1 @@
+ok checklist_id=WA-001 rationale_uuid=4b1fec2c-a1ef-4ae3-abaf-bf1d882471e4 definition_operation=promote definition_similarity=0.833333

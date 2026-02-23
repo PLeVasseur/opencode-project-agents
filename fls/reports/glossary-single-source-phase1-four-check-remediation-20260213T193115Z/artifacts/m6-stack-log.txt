@@ -1,0 +1,4 @@
+fe9272c feat(glossary): add single-source glossary tooling core
+8127c3a docs(glossary): migrate glossary content to single-source entries
+5aef928 ci(glossary): add transitional html parity verification
+dc06ac2 (HEAD -> glossary-single-source-phase1-repack-upstream-main, m6-rebuild-20260213T193115Z) refactor(glossary): switch to generated-only glossary source and reproducibility checks

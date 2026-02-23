@@ -1,0 +1,13 @@
+case: definition-relocated
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/definition-relocated/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/definition-relocated/head.json
+
+observed tags:
+- definition-relocated
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

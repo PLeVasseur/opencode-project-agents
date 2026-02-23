@@ -1,0 +1,26 @@
+{
+  "errors": [
+    "WA-001: missing after_commit (reason quality)",
+    "WA-001: missing after_commit (after snapshot)",
+    "WA-001: missing after_commit (completed-row)"
+  ],
+  "summary": {
+    "baseline_rows": 2,
+    "checklist": {
+      "parent_checked": 1,
+      "parent_total": 2,
+      "parent_unchecked": 1,
+      "sub_checked": 6,
+      "sub_total": 12,
+      "sub_unchecked": 6
+    },
+    "completed_rows": 1,
+    "error_count": 3,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 12,
+    "ledger_rows": 2,
+    "mode": "progress",
+    "resolved_high_rows": 1
+  }
+}

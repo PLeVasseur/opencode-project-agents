@@ -1,0 +1,13 @@
+{
+  "batch_number": 1,
+  "error": "Unexpected out-of-scope changes:\n- WA-002: checklist row changed outside batch\n- WA-002: checklist row changed outside batch\n- WA-002: checklist row changed outside batch\n- WA-002: checklist row changed outside batch\n- WA-002: checklist row changed outside batch\n- WA-002: checklist row changed outside batch\n- WA-002: checklist row changed outside batch\n- WA-002: ledger row changed outside batch",
+  "ids": [
+    "WA-001"
+  ],
+  "rolled_back": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/out-of-scope-run/manual-placement-checklist-v2.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/out-of-scope-run/manual-placement-ledger-v2.csv"
+  ],
+  "timestamp": "20260211T161358Z",
+  "wave": "WA"
+}

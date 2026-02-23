@@ -1,0 +1,14 @@
+{
+  "wave": "WA",
+  "commit_hash": "4033caf781e53b582d3349e6983694e5c9e371bb",
+  "term_count": 1,
+  "checklist_ids": [
+    "WA-014"
+  ],
+  "terms": [
+    "module"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 1
+  }
+}

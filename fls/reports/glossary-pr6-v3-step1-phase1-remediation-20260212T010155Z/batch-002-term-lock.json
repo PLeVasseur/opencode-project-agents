@@ -1,0 +1,230 @@
+{
+  "batch_number": 2,
+  "batch_prefix": "batch-002",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/inputs/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/inputs/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-001",
+      "divergence_match_category": "cosmetic",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "high",
+      "term": "field list"
+    },
+    {
+      "checklist_id": "WB-002",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "macros.rst",
+      "recommended_reason": "Most referenced here (2/20 refs)",
+      "recommended_section": "Function-like Macros",
+      "relocation_priority": "high",
+      "term": "type specification"
+    },
+    {
+      "checklist_id": "WB-003",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Types",
+      "relocation_priority": "high",
+      "term": "concrete type"
+    },
+    {
+      "checklist_id": "WB-004",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "generics.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Generic Parameters",
+      "relocation_priority": "high",
+      "term": "generic function"
+    },
+    {
+      "checklist_id": "WB-005",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "macros.rst",
+      "recommended_reason": "First reference at macros.rst:147 precedes definition",
+      "recommended_section": "Metavariables",
+      "relocation_priority": "high",
+      "term": "variable"
+    },
+    {
+      "checklist_id": "WB-006",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "Most referenced here (3/7 refs)",
+      "recommended_section": "Place Expressions",
+      "relocation_priority": "high",
+      "term": "container operand"
+    },
+    {
+      "checklist_id": "WB-007",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "First reference at types-and-traits.rst:348 precedes definition",
+      "recommended_section": "Bool Type",
+      "relocation_priority": "high",
+      "term": "undefined behavior"
+    },
+    {
+      "checklist_id": "WB-008",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "First reference at lexical-elements.rst:34 precedes definition",
+      "recommended_section": "Character Set",
+      "relocation_priority": "high",
+      "term": "code point"
+    },
+    {
+      "checklist_id": "WB-009",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:3658 precedes definition",
+      "recommended_section": "Method Call Expressions",
+      "relocation_priority": "high",
+      "term": "receiver operand"
+    },
+    {
+      "checklist_id": "WB-010",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:309 precedes definition",
+      "recommended_section": "Constant Expressions",
+      "relocation_priority": "high",
+      "term": "associated constant"
+    },
+    {
+      "checklist_id": "WB-011",
+      "divergence_match_category": "inline_definition",
+      "divergence_reliability": "medium",
+      "placement_fitness": "poor",
+      "recommended_file": "program-structure-and-compilation.rst",
+      "recommended_reason": "Most referenced here (4/22 refs)",
+      "recommended_section": "Compilation Roots",
+      "relocation_priority": "high",
+      "term": "crate root module"
+    },
+    {
+      "checklist_id": "WB-012",
+      "divergence_match_category": "moderate_divergence",
+      "divergence_reliability": "medium",
+      "placement_fitness": "poor",
+      "recommended_file": "associated-items.rst",
+      "recommended_reason": "Most referenced here (3/9 refs)",
+      "recommended_section": "Associated Items",
+      "relocation_priority": "high",
+      "term": "associated trait function"
+    },
+    {
+      "checklist_id": "WB-013",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (14/36 refs)",
+      "recommended_section": "Type Layout",
+      "relocation_priority": "high",
+      "term": "size"
+    },
+    {
+      "checklist_id": "WB-014",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "First reference at lexical-elements.rst:1061 precedes definition",
+      "recommended_section": "Float Literals",
+      "relocation_priority": "high",
+      "term": "floating-point type"
+    },
+    {
+      "checklist_id": "WB-015",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "First reference at types-and-traits.rst:659 precedes definition",
+      "recommended_section": "Str Type",
+      "relocation_priority": "high",
+      "term": "safety invariant"
+    },
+    {
+      "checklist_id": "WB-016",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:654 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "high",
+      "term": "unit struct"
+    },
+    {
+      "checklist_id": "WB-017",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:662 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "high",
+      "term": "unsafe context"
+    },
+    {
+      "checklist_id": "WB-018",
+      "divergence_match_category": "moderate_divergence",
+      "divergence_reliability": "medium",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "First reference at types-and-traits.rst:3643 precedes definition",
+      "recommended_section": "Static Lifetime Elision",
+      "relocation_priority": "high",
+      "term": "associated trait constant"
+    },
+    {
+      "checklist_id": "WB-019",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:3267 precedes definition",
+      "recommended_section": "Struct Expressions",
+      "relocation_priority": "high",
+      "term": "union value"
+    },
+    {
+      "checklist_id": "WB-020",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "ownership-and-deconstruction.rst",
+      "recommended_reason": "Most referenced here (3/9 refs)",
+      "recommended_section": "Drop Order",
+      "relocation_priority": "high",
+      "term": "pattern-without-alternation"
+    }
+  ],
+  "timestamp": "20260212T010513Z",
+  "wave": "WB"
+}

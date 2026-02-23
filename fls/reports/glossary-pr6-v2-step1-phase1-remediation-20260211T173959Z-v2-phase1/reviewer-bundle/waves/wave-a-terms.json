@@ -1,0 +1,66 @@
+{
+  "wave": "A",
+  "count": 15,
+  "terms": [
+    {
+      "checklist_id": "WA-001",
+      "term": "value"
+    },
+    {
+      "checklist_id": "WA-002",
+      "term": "expression"
+    },
+    {
+      "checklist_id": "WA-003",
+      "term": "type"
+    },
+    {
+      "checklist_id": "WA-004",
+      "term": "trait"
+    },
+    {
+      "checklist_id": "WA-005",
+      "term": "construct"
+    },
+    {
+      "checklist_id": "WA-006",
+      "term": "entity"
+    },
+    {
+      "checklist_id": "WA-007",
+      "term": "name"
+    },
+    {
+      "checklist_id": "WA-008",
+      "term": "item"
+    },
+    {
+      "checklist_id": "WA-009",
+      "term": "field"
+    },
+    {
+      "checklist_id": "WA-010",
+      "term": "reference"
+    },
+    {
+      "checklist_id": "WA-011",
+      "term": "implementation"
+    },
+    {
+      "checklist_id": "WA-012",
+      "term": "method"
+    },
+    {
+      "checklist_id": "WA-013",
+      "term": "crate"
+    },
+    {
+      "checklist_id": "WA-014",
+      "term": "module"
+    },
+    {
+      "checklist_id": "WA-015",
+      "term": "statement"
+    }
+  ]
+}

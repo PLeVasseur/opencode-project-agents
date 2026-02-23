@@ -1,0 +1,92 @@
+bootstrap_printenv	0	printenv OPENCODE_CONFIG_DIR
+bootstrap_git_fetch	0	git fetch origin
+bootstrap_uv_sync	0	uv sync
+assistant_prechange_entry_before	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+assistant_prechange_update	0	uv run python tools/changelog_assistant.py --update --base 'eaafc97e1db8f4a3d153db1abe96ececacf1be2c' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-prechange-anchor-hit'
+assistant_prechange_entry_after	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+assistant_prechange_restore	0	git restore src/changelog.rst
+assistant_prechange_entry_restored	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+assistant_py_compile	0	uv run python -m py_compile tools/changelog_assistant.py
+assistant_help	0	uv run python tools/changelog_assistant.py --help
+assistant_compare	1	uv run python tools/changelog_tag_verifier.py --mode compare --report-dir '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-compare'
+assistant_extract	1	uv run python tools/changelog_tag_verifier.py --mode extract --report-dir '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-extract'
+assistant_validation_baseline_capture	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-validation-changelog-baseline.rst'
+assistant_anchor_default_update	0	uv run python tools/changelog_assistant.py --update --base 'eaafc97e1db8f4a3d153db1abe96ececacf1be2c' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-anchor-default'
+assistant_anchor_default_entry_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+assistant_anchor_default_diff	0	git diff -- src/changelog.rst
+assistant_anchor_default_restore	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-validation-changelog-baseline.rst' src/changelog.rst
+assistant_anchor_replace_update	0	uv run python tools/changelog_assistant.py --update --base 'eaafc97e1db8f4a3d153db1abe96ececacf1be2c' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --replace-title --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-anchor-replace'
+assistant_anchor_replace_entry_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+assistant_anchor_replace_diff	0	git diff -- src/changelog.rst
+assistant_anchor_replace_restore	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-validation-changelog-baseline.rst' src/changelog.rst
+assistant_report_symlink_create	0	ln -sfn '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z' .opencode_report_root
+assistant_compare_retry	0	uv run python tools/changelog_tag_verifier.py --mode compare --report-dir '.opencode_report_root/assistant-compare'
+assistant_extract_retry	0	uv run python tools/changelog_tag_verifier.py --mode extract --report-dir '.opencode_report_root/assistant-extract'
+assistant_report_symlink_remove	0	rm .opencode_report_root
+assistant_commit_stage	0	git add tools/changelog_assistant.py
+assistant_commit_create	0	git commit -m 'fix(changelog-assistant): preserve anchored entry title by default'
+assistant_commit_status	0	git status --short --branch
+assistant_commit_sha	0	git rev-parse HEAD
+base_check_local_dedupe	0	git rev-parse --verify dedupe-paragraph-ids-mainline
+base_check_remote_dedupe	0	git rev-parse --verify origin/dedupe-paragraph-ids-mainline
+base_check_dedupe_message	0	git log --oneline dedupe-paragraph-ids-mainline --grep 'fix(paragraph-ids): deduplicate reused glossary IDs' -n 1
+anchor_worktree_create	0	ls '/home/pete.levasseur/project' && git worktree add -b 'changelog-assistant-upstream-pr-anchor-title-preserve-on-dedupe' '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' changelog-assistant-upstream-pr-anchor
+anchor_pre_sha	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' rev-parse HEAD
+anchor_pre_base_main	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' merge-base HEAD origin/main
+anchor_pre_revlist_main	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' rev-list --left-right --count origin/main...HEAD
+anchor_rebase_onto_dedupe	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' rebase --onto dedupe-paragraph-ids-mainline 'eaafc97e1db8f4a3d153db1abe96ececacf1be2c'
+anchor_post_sha	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' rev-parse HEAD
+anchor_post_base_dedupe	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' merge-base HEAD dedupe-paragraph-ids-mainline
+anchor_post_revlist_dedupe	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' rev-list --left-right --count dedupe-paragraph-ids-mainline...HEAD
+anchor_verify_dedupe_ancestor	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' merge-base --is-ancestor dedupe-paragraph-ids-mainline HEAD
+abi_worktree_status	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' status --short --branch
+abi_pre_sha	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' rev-parse HEAD
+abi_pre_base_main	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' merge-base HEAD origin/main
+abi_pre_revlist_main	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' rev-list --left-right --count origin/main...HEAD
+abi_rebase_onto_dedupe	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' rebase --onto dedupe-paragraph-ids-mainline 'f1b193f5197f48686bd56fe881633bb62fad7f27'
+abi_post_sha	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' rev-parse HEAD
+abi_post_base_dedupe	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' merge-base HEAD dedupe-paragraph-ids-mainline
+abi_post_revlist_dedupe	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' rev-list --left-right --count dedupe-paragraph-ids-mainline...HEAD
+abi_verify_dedupe_ancestor	0	git -C '/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z' merge-base --is-ancestor dedupe-paragraph-ids-mainline HEAD
+assistant_rebased_log	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' log --oneline --reverse dedupe-paragraph-ids-mainline..HEAD
+assistant_rebased_log_details	0	git -C '/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z' log --reverse --pretty=format:'%H%x09%s' dedupe-paragraph-ids-mainline..HEAD
+integration_worktree_create	0	ls '/home/pete.levasseur/project' && git worktree add -b 'system-abi-variadic-anchor-title-preserve-integration-on-dedupe-20260207T050810Z' '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' 'system-abi-variadic-on-dedupe'
+integration_base_sha	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' rev-parse HEAD
+integration_cherry_pick_01	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick '35c5f87f4d3dc73b48e79a82331e56679e1752b1'
+integration_cherry_pick_02	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick 'c54af32b398d2e6f4f002c1fd1365e96d578dfce'
+integration_cherry_pick_03	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick '4836a7560a72cf217467fe479416ee976a1c29ed'
+integration_cherry_pick_04	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick 'bc4a67c31032486ecfdca28716ce71e1b8fe3e32'
+integration_cherry_pick_05	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick 'd89e324ba7f49630a414041e25982adee071151c'
+integration_cherry_pick_06	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick '28b542bbe45fe18874125032191483011ef09f57'
+integration_cherry_pick_07	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' cherry-pick '216668c99002757486ccdfb3b9242504a6ab5789'
+readiness_assistant_file_exists	0	ls '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z/tools/changelog_assistant.py'
+readiness_help	0	uv run python tools/changelog_assistant.py --help
+readiness_help_flags	0	rg -n -- '--require-anchor|--replace-title' '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/readiness_help.stdout.txt'
+readiness_metadata_fields	0	rg -n 'update_action|anchored_pr_url|anchored_entry_line|anchored_entry_index' tools/changelog_assistant.py
+readiness_py_compile	0	uv run python -m py_compile tools/changelog_assistant.py
+validation_baseline_capture	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/integration-changelog-baseline.rst'
+validation_canonical_before_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_canonical_before_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_pre_check	1	uv run python tools/changelog_assistant.py --check --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/pre-check'
+validation_default_update	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/canonical-default'
+validation_default_report_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/canonical-default.json'))['update_action'])"
+validation_default_after_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_default_after_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_default_diff	0	git diff -- src/changelog.rst
+validation_restore_baseline	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/integration-changelog-baseline.rst' src/changelog.rst
+validation_replace_update	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --replace-title --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/canonical-replace'
+validation_replace_report_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/canonical-replace.json'))['update_action'])"
+validation_replace_after_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_replace_after_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_replace_diff	0	git diff -- src/changelog.rst
+validation_replace_snapshot_pass1	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/integration-changelog-replace-pass1.rst'
+validation_replace_rerun	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --replace-title --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/canonical-replace-rerun'
+validation_replace_rerun_report_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/canonical-replace-rerun.json'))['update_action'])"
+validation_replace_snapshot_pass2	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/integration-changelog-replace-pass2.rst'
+validation_replace_idempotence_diff	0	diff -u '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/integration-changelog-replace-pass1.rst' '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/integration-changelog-replace-pass2.rst'
+validation_replace_rerun_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_missing_strict	1	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/999999' --title 'Anchor replace validation title override probe' --require-anchor --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/missing-strict'
+validation_missing_default	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/999999' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/missing-default'
+validation_missing_default_report_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/missing-default.json'))['update_action'])"
+validation_missing_default_count	0	rg -c 'https://github.com/rust-lang/rust/pull/999999' src/changelog.rst
+validation_post_check	0	uv run python tools/changelog_assistant.py --check --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/post-check'

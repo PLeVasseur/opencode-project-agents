@@ -1,0 +1,8 @@
+ Network mosquitto_default  Creating
+ Network mosquitto_default  Created
+ Container mosquitto-mosquitto-1  Creating
+ Container mosquitto-mosquitto-1  Created
+ Container mosquitto-mosquitto-1  Starting
+ Container mosquitto-mosquitto-1  Started
+NAME                    IMAGE                   COMMAND                  SERVICE     CREATED         STATUS        PORTS
+mosquitto-mosquitto-1   eclipse-mosquitto:2.0   "/docker-entrypoint.…"   mosquitto   2 seconds ago   Up 1 second   0.0.0.0:1883->1883/tcp, [::]:1883->1883/tcp

@@ -1,0 +1,43 @@
+{
+  "errors": [
+    "WA-004: missing after_commit (reason quality)",
+    "WA-004: missing after_commit (after snapshot)",
+    "WA-004: missing after_commit (completed-row)",
+    "WA-005: missing after_commit (reason quality)",
+    "WA-005: missing after_commit (after snapshot)",
+    "WA-005: missing after_commit (completed-row)",
+    "WA-006: missing after_commit (reason quality)",
+    "WA-006: missing after_commit (after snapshot)",
+    "WA-006: missing after_commit (completed-row)"
+  ],
+  "summary": {
+    "baseline_rows": 104,
+    "checklist": {
+      "parent_checked": 6,
+      "parent_total": 104,
+      "parent_unchecked": 98,
+      "sub_checked": 36,
+      "sub_total": 624,
+      "sub_unchecked": 588
+    },
+    "completed_rows": 6,
+    "error_count": 9,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 624,
+    "insert_diff_modes": {
+      "WA-001": "hunk"
+    },
+    "ledger_rows": 104,
+    "mode": "progress",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 6,
+    "warning_count": 3
+  },
+  "warnings": [
+    "WARN_GLOSSARY_MISMATCH: WA-004: alignment deferred until committed after_commit is available",
+    "WARN_GLOSSARY_MISMATCH: WA-005: alignment deferred until committed after_commit is available",
+    "WARN_GLOSSARY_MISMATCH: WA-006: alignment deferred until committed after_commit is available"
+  ]
+}

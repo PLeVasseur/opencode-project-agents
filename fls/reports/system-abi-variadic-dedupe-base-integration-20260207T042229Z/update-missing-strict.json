@@ -1,0 +1,312 @@
+{
+  "release": "1.93.0",
+  "base": "f1b193f5197f48686bd56fe881633bb62fad7f27",
+  "changed_src_files": [
+    "src/ffi.rst",
+    "src/glossary.rst"
+  ],
+  "tags": [
+    "paragraph-added",
+    "paragraph-changed",
+    "role-change",
+    "term-def-added",
+    "term-ref-removed",
+    "syntax-ref-added",
+    "section-added",
+    "normative-shift"
+  ],
+  "changes": [
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_9OFXj6DnKS7W",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_H5vkbMFvzrFs",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_MpcAsy5zhCeW",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_NxhrfQzbxetN",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_TmvfmSQP65pA",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_ZbvI45Ojpte4",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_kqdvWGi9cglm",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_tZP7xARsjuYv",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_tuP6iLdL6Kx0",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_yjRmR5F1cL6i",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_36qrs2fxxvi7",
+      "tag": "paragraph-changed",
+      "base_checksum": "1da7fe0a23d93d524fed3110b8c116e9b7fe7f1563c51830ffd8b98ce562b9dd",
+      "head_checksum": "004d9eeb46c8b8e7fe56e07369710ee3888ff5858adce406211fd1c127589ab2"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_36qrs2fxxvi7",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_6rtj6rwqxojh",
+      "tag": "paragraph-changed",
+      "base_checksum": "42ee2288dd6a0bde172c2aa19bdd6c764e4c21913a22a4d9d65065b478aa14ba",
+      "head_checksum": "d1ab4f75d7570b3dd18b52916d46e7ccc89412dde0c8de590454738da13462fc"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_6rtj6rwqxojh",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_7t7yxh94wnbl",
+      "tag": "paragraph-changed",
+      "base_checksum": "fab1088ce02afa3c8566f0f5033efbd1b6cfec69fc639a64273cc39e32f479e5",
+      "head_checksum": "8c9dd7e26d0ac7848137053e02ff4d1bf697ebeda4fffdf9aecc209b1ac70621"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_7t7yxh94wnbl",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_CIyK8BYzzo26",
+      "tag": "paragraph-changed",
+      "base_checksum": "d0f9c8d00a857e8d69b98fadc01f1222ca7838660e92dbf4c571d07df302a222",
+      "head_checksum": "6daa2acd28b53efb30508470bab25eb295aa4048771de06854e7f59f558ecd8e"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_CIyK8BYzzo26",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "tag": "paragraph-changed",
+      "base_checksum": "c6afddf3086e634c55738c917ada6174289ada7dde046b2ad1f620e70d67f5e9",
+      "head_checksum": "c6afddf3086e634c55738c917ada6174289ada7dde046b2ad1f620e70d67f5e9"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 1,
+        "t": 5,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 3,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      }
+    },
+    {
+      "type": "term_ref_removed",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "count": 2,
+      "tag": "term-ref-removed"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_UippZpUyYpHl",
+      "tag": "paragraph-changed",
+      "base_checksum": "3015fb781cf27af98cfdb17a199fc06a282c4995bf513e4f23460aa87a24fefd",
+      "head_checksum": "82d0577c99d015ca068892ae2f3cfb9413aba82cf68db7def1a94223a0643568"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_UippZpUyYpHl",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_ccFdnlX5HIYk",
+      "tag": "paragraph-changed",
+      "base_checksum": "5d748e814d1f01129f8b66ffb05acc435c309ab75eeff0b4e74925cc1e8b786b",
+      "head_checksum": "577037ee9b115680a0388f72007131da469781b7d350d44e4b86ea46bd9e5120"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_ccFdnlX5HIYk",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_d3nmpc5mtg27",
+      "tag": "paragraph-changed",
+      "base_checksum": "a81529042a5b1033d4dfd23dc355a422cafc5e8a94dac4134dcc1cdbe6d6b01d",
+      "head_checksum": "0e7d5ec67f95015898b88ba3209a029b1c0ae633f4a1486aa47d31477a6dada8"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_d3nmpc5mtg27",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_dbbfqaqa80r8",
+      "tag": "paragraph-changed",
+      "base_checksum": "1454a6149650f43e10f4254d309ba83ae39d3052b579c45d26bed5c429ce1bc4",
+      "head_checksum": "f577b535c2c2f8c758a06d1db3504e3712c7eabb74eec1a8d780730fbdfb6ade"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_dbbfqaqa80r8",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_qwchgvvnp0qe",
+      "tag": "paragraph-changed",
+      "base_checksum": "9abb006e22c228a40953b442c54e63fd9a10cc675390d5e7d61b1fb7221ec353",
+      "head_checksum": "de9f485f04b3404d7ce4d58216257e17f2de15b1dc952d7dea17a95775c1e60b"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_qwchgvvnp0qe",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 0,
+        "t": 1,
+        "ds": 0,
+        "s": 1,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 1,
+        "ds": 0,
+        "s": 2,
+        "std": 0
+      }
+    },
+    {
+      "type": "syntax_ref_added",
+      "paragraph_id": "fls_qwchgvvnp0qe",
+      "count": 1,
+      "tag": "syntax-ref-added"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_sxj4vy39sj4g",
+      "tag": "paragraph-changed",
+      "base_checksum": "aa45e16b2c9fb1e7d7ecf23ca38806bc2f369b1d1be518e74d28e24e6b54a8b4",
+      "head_checksum": "8752873f95907d15fb3ed380df983b5911f93d286139708dd8cd0712eec932b3"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_sxj4vy39sj4g",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "tag": "paragraph-changed",
+      "base_checksum": "9018d5bb55a9ad10867addcd1bc986fa5e8cd4c111f3cb348c42f11f7343d886",
+      "head_checksum": "9018d5bb55a9ad10867addcd1bc986fa5e8cd4c111f3cb348c42f11f7343d886"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 1,
+        "t": 4,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 2,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      }
+    },
+    {
+      "type": "term_ref_removed",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "count": 2,
+      "tag": "term-ref-removed"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_tyjs1x4j8ovp",
+      "tag": "paragraph-changed",
+      "base_checksum": "563032c0e9c472e10f9c487c70925926c24107c3258cc003fb04dd03b00c21af",
+      "head_checksum": "9d55689fb18bdcf91b46aba59293dcf50b59a0a72b094d22a4c1ef371881af56"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_tyjs1x4j8ovp",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_xrCRprWS13R1",
+      "tag": "paragraph-changed",
+      "base_checksum": "985fd96881b7c12b952e2f2a81cdc5713cd19ec157141a68232ac19172c96907",
+      "head_checksum": "b4db1e08fb09bcba2ff6e3fd2a102154976e492b52dd95ad3f010c5751f39ca8"
+    },
+    {
+      "type": "normative_shift",
+      "paragraph_id": "fls_xrCRprWS13R1",
+      "tag": "normative-shift"
+    },
+    {
+      "type": "term_def_added",
+      "id": "calling_convention",
+      "tag": "term-def-added"
+    },
+    {
+      "type": "section_added",
+      "section_id": "fls_m9hw83dqgt6w",
+      "tag": "section-added"
+    }
+  ],
+  "update_action": "replace",
+  "anchored_pr_url": "https://github.com/rust-lang/rust/pull/999999",
+  "anchored_entry_line": 106,
+  "anchored_entry_index": 10
+}

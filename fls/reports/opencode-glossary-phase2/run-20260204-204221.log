@@ -1,0 +1,1729 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms from checklist
+
+warning: glossary-entry not found in src files: nesting import
+warning: glossary-entry not found in src files: never type
+warning: glossary-entry not found in src files: non-reference pattern
+warning: glossary-entry not found in src files: not configuration predicate
+warning: glossary-entry not found in src files: not-equals expression
+warning: glossary-entry not found in src files: null
+warning: glossary-entry not found in src files: numeric literal
+warning: glossary-entry not found in src files: numeric literal pattern
+warning: glossary-entry not found in src files: numeric type
+warning: glossary-entry not found in src files: object safe
+warning: glossary-entry not found in src files: object safety
+warning: glossary-entry not found in src files: obsolete range pattern
+warning: glossary-entry not found in src files: octal literal
+warning: glossary-entry not found in src files: operand
+warning: glossary-entry not found in src files: operator expression
+warning: glossary-entry not found in src files: opt-out trait bound
+warning: glossary-entry not found in src files: or-pattern
+warning: glossary-entry not found in src files: outer attribute
+warning: glossary-entry not found in src files: outer block doc
+warning: glossary-entry not found in src files: outer doc comment
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mCheck glossary static contains terms
+
+missing: []
+
+[91m[1m| [0m[90m Bash     [0mLocate term definitions in src chapters
+
+nesting import -> src/entities-and-resolution.rst:384 :t:`nesting import`, or the :t:`simple path` of a :t:`simple import`. | :dp:`fls_iuzvtr3oax1o`
+nesting import -> src/entities-and-resolution.rst:389 be part of the :s:`UseImportContent` of a :t:`nesting import` as long as the | :dp:`fls_cw006jhlboa`
+nesting import -> src/entities-and-resolution.rst:1129 or a :t:`nesting import`. | :dp:`fls_sxo1jb25pl8a`
+nesting import -> src/entities-and-resolution.rst:1149 If the :t:`use import` is a :t:`nesting import` then start with the | * :dp:`fls_irdKqoYzBM0M`
+nesting import -> src/entities-and-resolution.rst:1150 :t:`[path segment]s` of the :t:`nesting import`'s :t:`simple path prefix`. | * :dp:`fls_irdKqoYzBM0M`
+nesting import -> src/entities-and-resolution.rst:1153 Then if the current :t:`use import` is the child of a :t:`nesting import`, | #. :dp:`fls_gAWsqibl4GLq`
+nesting import -> src/entities-and-resolution.rst:1154 prepend the :t:`nesting import`'s :t:`simple path prefix` to the | #. :dp:`fls_gAWsqibl4GLq`
+nesting import -> src/entities-and-resolution.rst:1155 :t:`import path prefix`. Repeat this step with the :t:`nesting import` as | #. :dp:`fls_gAWsqibl4GLq`
+nesting import -> src/entities-and-resolution.rst:1205 The :t:`simple import` is in a :t:`nesting import`, then bring the | * :dp:`fls_yY58pFpkig9o`
+nesting import -> src/entities-and-resolution.rst:1228 A :t:`nesting import` is a :t:`use import` that provides a common | :dp:`fls_ldr7tsuqw34s`
+nesting import -> src/entities-and-resolution.rst:1232 A :t:`glob import` outside of a :t:`nesting import` without a :t:`simple path | :dp:`fls_iNUBX5fJAI1N`
+nesting import -> src/entities-and-resolution.rst:1240 It shall either appear in a :t:`nesting import` with a non-empty | * :dp:`fls_hv3xT2CjZuxc`
+---
+never type -> src/attributes.rst:2231 It has the :t:`never type` as its :t:`return type`, | * :dp:`fls_iWPw0QFE5TrP`
+never type -> src/expressions.rst:463 type` of the :t:`call operand` is the :t:`never type`, | * :dp:`fls_4wDpAHhnWZAB`
+never type -> src/expressions.rst:4908 then the :t:`type` is the :t:`never type`. | * :dp:`fls_rpedapxnv8w3`
+never type -> src/expressions.rst:5177 The :t:`type` of a :t:`break expression` is the :t:`never type`. | :dp:`fls_dnnq1zym8ii0`
+never type -> src/expressions.rst:5296 The :t:`type` of a :t:`continue expression` is the :t:`never type`. | :dp:`fls_d0bmw8xiw5nk`
+never type -> src/expressions.rst:5939 The :t:`type` of a :t:`return expression` is the :t:`never type`. | :dp:`fls_7Ck4LMQMeQCv`
+never type -> src/inline-assembly.rst:1867 The type of the :t:`label block` must be :t:`unit type` or :t:`never type`. | :dp:`fls_vJT3iAG1ZLh3`
+never type -> src/statements.rst:177 :t:`never type`. | :dp:`fls_1eBQDZdBuDsN`
+never type -> src/types-and-traits.rst:1632 The :t:`never type` is a :t:`type` that represents the result of a computation | :dp:`fls_4u0v5uy95pyf`
+never type -> src/types-and-traits.rst:1636 The :t:`never type` has no :t:`[value]s`. | :dp:`fls_xmtc10qzw0ui`
+never type -> src/types-and-traits.rst:1641 It is :t:`validity invariant` to not have a :t:`value` of the :t:`never type`. | :dp:`fls_22e8quna7ed5`
+never type -> src/types-and-traits.rst:2199 The :t:`never type` is unifiable with any other :t:`type`. | :dp:`fls_hf0cfkrmt655`
+never type -> src/types-and-traits.rst:2443 The source :t:`type` is the :t:`never type` and the target :t:`type` is any | * :dp:`fls_sf0c3fbx8z57`
+never type -> src/types-and-traits.rst:2635 The :t:`type` is the :t:`never type`. | * :dp:`fls_ZfnYORORz40y`
+never type -> src/types-and-traits.rst:2883 the :t:`never type`. | #. :dp:`fls_Gwx0Kfx68DXL`
+---
+non-reference pattern -> src/patterns.rst:1379 A :t:`non-reference pattern` is any :t:`pattern` except | :dp:`fls_dqe75i8h2fie`
+---
+not configuration predicate -> src/attributes.rst:1043 A :t:`not configuration predicate` is a :t:`configuration predicate` that | :dp:`fls_XsxeOd32JI8x`
+not configuration predicate -> src/attributes.rst:1047 A :t:`not configuration predicate` evaluates statically to ``true`` when its | :dp:`fls_tvsadfy9uibu`
+---
+not-equals expression -> src/expressions.rst:2323 A :t:`not-equals expression` is a :t:`comparison expression` that tests for | :dp:`fls_w71j7i3n1kit`
+not-equals expression -> src/expressions.rst:2327 The :t:`type` of the :t:`left operand` of a :t:`not-equals expression` shall | :dp:`fls_qzo1torhv5i3`
+not-equals expression -> src/expressions.rst:2332 The :t:`value` of a :t:`not-equals expression` is the result of | :dp:`fls_kodwkh58hmdv`
+not-equals expression -> src/expressions.rst:2400 The :t:`evaluation` of a :t:`not-equals expression` proceeds as follows: | :dp:`fls_c93pacid548a`
+---
+null -> (no match)
+---
+numeric literal -> src/lexical-elements.rst:283 :t:`comment`, a :t:`numeric literal`, or a :t:`string literal`. | :dp:`fls_x89vkq9rwlyt`
+numeric literal -> src/lexical-elements.rst:899 A :t:`numeric literal` is a :t:`literal` that denotes a number. | :dp:`fls_fqpqnku27v99`
+numeric literal -> src/lexical-elements.rst:985 An :dt:`integer literal` is a :t:`numeric literal` that denotes a whole number. | :dp:`fls_23a1fjpf15qv`
+numeric literal -> src/lexical-elements.rst:991 An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number. | :dp:`fls_vkk2krfn93ry`
+numeric literal -> src/lexical-elements.rst:1157 A :dt:`float literal` is a :t:`numeric literal` that denotes a fractional | :dp:`fls_53o8dio9vpjh`
+numeric literal -> src/lexical-elements.rst:1164 A :t:`float literal` is a :t:`numeric literal` that denotes a fractional number. | :dp:`fls_rzi7oeqokd6e`
+numeric literal -> src/patterns.rst:331 A :t:`numeric literal pattern`'s :t:`numeric literal` value shall not be a IEEE | :dp:`fls_JP8YSbxSN0Ym`
+---
+numeric literal pattern -> src/patterns.rst:327 A :t:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric | :dp:`fls_COQKJC0dvtNO`
+numeric literal pattern -> src/patterns.rst:331 A :t:`numeric literal pattern`'s :t:`numeric literal` value shall not be a IEEE | :dp:`fls_JP8YSbxSN0Ym`
+---
+numeric type -> src/expressions.rst:2569 An :t:`operand` of a :t:`numeric type` and a target :t:`numeric type` perform | * :dp:`fls_4s69s9pcvbn7`
+numeric type -> src/types-and-traits.rst:399 A :dt:`floating-point type` is a :t:`numeric type` whose :t:`[value]s` denote | :dp:`fls_1w5yjiffah1u`
+numeric type -> src/types-and-traits.rst:444 An :dt:`integer type` is a :t:`numeric type` whose :t:`[value]s` denote whole | :dp:`fls_nhfqdhf26ym3`
+numeric type -> src/types-and-traits.rst:3043 :t:`numeric type`, :t:`unify` the :t:`[type]s` of both :t:`[operand]s` with | #. :dp:`fls_sLCBZ3vG1AWs`
+---
+object safe -> src/types-and-traits.rst:1508 The :t:`principal trait` shall denote an :t:`object safe` :t:`trait`. | :dp:`fls_9z8oleh0wdel`
+object safe -> src/types-and-traits.rst:2465 ``T`` implements ``U + core::marker::Sized``, and ``U`` is :t:`object safe`. | * :dp:`fls_20pvqqayzqra`
+object safe -> src/types-and-traits.rst:3298 A :t:`trait` is :t:`object safe` when: | :dp:`fls_lrdki56hpc3k`
+object safe -> src/types-and-traits.rst:3301 Its :t:`[supertrait]s` are :t:`object safe`, and | * :dp:`fls_5wlltclogfkw`
+object safe -> src/types-and-traits.rst:3310 Its :t:`[associated function]s` are :t:`object safe`, and | * :dp:`fls_kwo4cknx0yat`
+object safe -> src/types-and-traits.rst:3317 An :t:`associated function` is :t:`object safe` when it is either an | :dp:`fls_uixekv82g2e5`
+object safe -> src/types-and-traits.rst:3318 :t:`object safe` dispatchable :t:`function` or an :t:`object safe` | :dp:`fls_uixekv82g2e5`
+object safe -> src/types-and-traits.rst:3322 A dispatchable :t:`function` is :t:`object safe` when: | :dp:`fls_72tvfoemwpyy`
+object safe -> src/types-and-traits.rst:3339 A :t:`function` is :t:`object safe` when it specifies a | :dp:`fls_aer3gaur7avp`
+---
+object safety -> (no match)
+---
+obsolete range pattern -> src/patterns.rst:574 An :t:`obsolete range pattern` is a :t:`range pattern` that uses obsolete syntax | :dp:`fls_akf9x5r6e0ta`
+obsolete range pattern -> src/patterns.rst:601 An :t:`obsolete range pattern` is equivalent to an :t:`inclusive range pattern`. | :dp:`fls_s2b5n4snc4d7`
+obsolete range pattern -> src/patterns.rst:616 :t:`exclusive range pattern`, or an :t:`obsolete range pattern`, then the | * :dp:`fls_8Q6NfRx4j5V7`
+obsolete range pattern -> src/patterns.rst:1585 pattern` or an :t:`obsolete range pattern` and the context :t:`value` is in | #. :dp:`fls_6kgj2fjccoig`
+---
+octal literal -> src/lexical-elements.rst:1030 An :t:`octal literal` is an :t:`integer literal` in base 8. | :dp:`fls_4v7awnutbpoe`
+---
+operand -> src/expressions.rst:120 An :t:`operand` is an :t:`expression` nested within an :t:`expression`. | :dp:`fls_gwgttltgjma4`
+operand -> src/expressions.rst:132 A :dt:`left operand` is an :t:`operand` that appears on the left-hand side of a | :dp:`fls_m821x5195ac9`
+operand -> src/expressions.rst:139 A :t:`left operand` is an :t:`operand` that appears on the left-hand side of a | :dp:`fls_1r29rtnjlkql`
+operand -> src/expressions.rst:143 A :t:`right operand` is an :t:`operand` that appears on the right-hand side of a | :dp:`fls_qxdpyf4u3hbz`
+operand -> src/expressions.rst:493 :t:`[Parenthesized expression]s` where the :t:`operand` is a | * :dp:`fls_anzidgx02lly`
+operand -> src/expressions.rst:515 A :t:`dereference expression` whose :t:`operand`'s :t:`type` implements the | * :dp:`fls_1tq2o2huda9l`
+operand -> src/expressions.rst:519 A :t:`dereference expression` whose :t:`operand`'s :t:`type` is a | * :dp:`fls_6b4rwkrc1ap6`
+operand -> src/expressions.rst:523 A :t:`dereference expression` whose :t:`operand`'s :t:`type` is a | * :dp:`fls_s4bhrpykzmm7`
+operand -> src/expressions.rst:535 :t:`[Parenthesized expression]s` where the :t:`operand` is a | * :dp:`fls_Sgfxp186GMvz`
+operand -> src/expressions.rst:562 :t:`operand` as a memory location. | :dp:`fls_4vxi1ji93dxb`
+operand -> src/expressions.rst:572 The :t:`operand` of a :t:`borrow expression`, | * :dp:`fls_Ufz9W5vyZkv3`
+operand -> src/expressions.rst:575 The :t:`operand` of a :t:`raw borrow expression`, | * :dp:`fls_K7SbApHPmwjM`
+operand -> src/expressions.rst:578 The :t:`operand` of a :t:`dereference expression`, | * :dp:`fls_KxWIzoh9WwK7`
+operand -> src/expressions.rst:587 The :t:`operand` of an :t:`implicit borrow`, | * :dp:`fls_jLZlxIHr4w2v`
+operand -> src/expressions.rst:614 that may evaluate its :t:`operand` as a mutable memory location. | :dp:`fls_2ixH8LWGHi3k`
+operand -> src/expressions.rst:618 may evaluate its :t:`operand` as a mutable memory location. The following | :dp:`fls_wxGAOWEVT77u`
+operand -> src/expressions.rst:630 The :t:`operand` of a mutable :t:`borrow expression`, | * :dp:`fls_u80htrnr2ebz`
+operand -> src/expressions.rst:633 The :t:`operand` of a :t:`dereference expression` if evaluated in a | * :dp:`fls_o0feajus3jtu`
+operand -> src/expressions.rst:645 The :t:`operand` of a mutable :t:`implicit borrow`, | * :dp:`fls_o76QXHyrrJPG`
+operand -> src/expressions.rst:1118 of its :t:`operand` and creates a :t:`reference` to the memory location of its | :dp:`fls_2f55piwg78ru`
+operand -> src/expressions.rst:1126 its :t:`operand` and creates a :t:`reference` to the memory location of its | :dp:`fls_nnqfkl228hjx`
+operand -> src/expressions.rst:1127 :t:`operand`. | :dp:`fls_nnqfkl228hjx`
+operand -> src/expressions.rst:1152 When the :t:`operand` of a :t:`borrow expression` is a :t:`place expression`, | :dp:`fls_ya77l2zgtilp`
+operand -> src/expressions.rst:1154 indicated by the :t:`operand`. The memory location is placed in a borrowed | :dp:`fls_ya77l2zgtilp`
+operand -> src/expressions.rst:1169 :t:`type` is ``&T``, where ``T`` is the :t:`type` of the :t:`operand`. | * :dp:`fls_5b2x5ri2w54r`
+operand -> src/expressions.rst:1173 :t:`type` is ``&mut T``, where ``T`` is the :t:`type` of the :t:`operand`. | * :dp:`fls_agl09ia869rk`
+operand -> src/expressions.rst:1176 The :t:`value` of a :t:`borrow expression` is the address of its :t:`operand`. | :dp:`fls_8cvmee9bzs40`
+operand -> src/expressions.rst:1186 The :t:`evaluation` of a :t:`borrow expression` evaluates its :t:`operand`. | :dp:`fls_2jd0mgw4zja4`
+operand -> src/expressions.rst:1216 A :t:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`. | :dp:`fls_TS6DvMon5h27`
+operand -> src/expressions.rst:1225 When the :t:`operand` of a :t:`raw borrow expression` is a :t:`place expression`, the :t:`raw borrow expression` produces a :t:`raw pointer` to the memory location indicated by the :t:`operand`. | :dp:`fls_gOXUWePymgGV`
+operand -> src/expressions.rst:1228 It is a static error if the :t:`operand` of a :t:`raw borrow expression` is a :t:`temporary`. | :dp:`fls_YBC8GrIBzZbi`
+operand -> src/expressions.rst:1234 If the :t:`raw borrow expression` denotes an :t:`immutable raw borrow expression`, then the :t:`type` is ``*const T``, where ``T`` is the :t:`type` of the :t:`operand`. | * :dp:`fls_Ki4FOzJMqtvJ`
+operand -> src/expressions.rst:1237 If the :t:`raw borrow expression` denotes a :t:`mutable raw borrow expression`, then the :t:`type` is ``*mut T``, where ``T`` is the :t:`type` of the :t:`operand`. | * :dp:`fls_DJxQDBsO9hc7`
+operand -> src/expressions.rst:1240 The :t:`value` of a :t:`raw borrow expression` is the address of its :t:`operand`. | :dp:`fls_WlXB0AHifCdd`
+operand -> src/expressions.rst:1245 The :t:`evaluation` of a :t:`raw borrow expression` evaluates its :t:`operand`. | :dp:`fls_qQrV8QuGGcVO`
+operand -> src/expressions.rst:1279 pointed-to memory location of its :t:`operand`. | :dp:`fls_3cuyhbh2llei`
+operand -> src/expressions.rst:1286 memory location of its :t:`operand`. | :dp:`fls_f6wktzofzdn1`
+operand -> src/expressions.rst:1296 When the :t:`operand` of a :t:`dereference expression` is of a :t:`pointer | :dp:`fls_aeh5pzpcjveq`
+operand -> src/expressions.rst:1298 the :t:`operand`, or the :t:`dereference` of the :t:`operand`. | :dp:`fls_aeh5pzpcjveq`
+operand -> src/expressions.rst:1305 Dereferencing a :t:`raw pointer` shall require :t:`unsafe context` unless the :t:`dereference expression` is the :t:`operand` of a :t:`raw borrow expression`. | :dp:`fls_8i4jzksxlrw0`
+operand -> src/expressions.rst:1322 If the :t:`type` of the :t:`operand` is ``&mut T``, ``&T``, ``*mut T``, or | * :dp:`fls_7e7tka4f2f1a`
+operand -> src/expressions.rst:1333 If the :t:`type` of the :t:`operand` is ``&mut T``, ``&T``, ``*mut T``, or | * :dp:`fls_jjf3sz9ddfhy`
+operand -> src/expressions.rst:1344 The :t:`evaluation` of a :t:`dereference expression` evaluates its :t:`operand`. | :dp:`fls_72bpdsxxbgeq`
+operand -> src/expressions.rst:1388 evaluates to a :t:`value` of its :t:`operand` or returns a value to the next | :dp:`fls_5kebgodxtqqt`
+operand -> src/expressions.rst:1396 to a :t:`value` of its :t:`operand` or returns a value to the enclosing control | :dp:`fls_8q59wbumrt5s`
+operand -> src/expressions.rst:1482 A :dt:`negation expression` is an :t:`expression` that negates its :t:`operand`. | :dp:`fls_pmn6cjamdt0a`
+operand -> src/expressions.rst:1488 A :t:`negation expression` is an :t:`expression` that negates its :t:`operand`. | :dp:`fls_pfa81kv2mru8`
+operand -> src/expressions.rst:1491 The :t:`type` of the :t:`operand` of a :t:`negation expression` with a | :dp:`fls_plcut8vzdwox`
+operand -> src/expressions.rst:1504 The :t:`type` of the :t:`operand` of a :t:`negation expression` with a | :dp:`fls_3m4mgqnzqhri`
+operand -> src/expressions.rst:1522 The :t:`operand` is evaluated. | #. :dp:`fls_8tgxtprtifrr`
+operand -> src/expressions.rst:1525 If the type of the :t:`operand` is an :t:`integer type`, then the | #. :dp:`fls_rFFlt33a5RsZ`
+operand -> src/expressions.rst:1527 :t:`operand`. | #. :dp:`fls_rFFlt33a5RsZ`
+operand -> src/expressions.rst:1530 If the type of the :t:`operand` is :c:`bool`, then the result is computed as | #. :dp:`fls_h7pIl1WZ8Y2t`
+operand -> src/expressions.rst:1531 follows, depending on the :t:`value` of the :t:`operand`: | #. :dp:`fls_h7pIl1WZ8Y2t`
+operand -> src/expressions.rst:1546 If the type of :t:`operand` is neither an :t:`integer type` nor | #. :dp:`fls_gn3dnuxm2h8m`
+operand -> src/expressions.rst:1554 The :t:`operand` is evaluated. | #. :dp:`fls_zdfgqky85r1f`
+operand -> src/expressions.rst:1557 If the type of the :t:`operand` is an :t:`integer type`, then the | #. :dp:`fls_CutpaCFCGHQs`
+operand -> src/expressions.rst:1558 :t:`negation expression` evaluates to the :t:`value` of the :t:`operand`, | #. :dp:`fls_CutpaCFCGHQs`
+operand -> src/expressions.rst:1560 not fit within the range of the :t:`operand` type, then | #. :dp:`fls_CutpaCFCGHQs`
+operand -> src/expressions.rst:1564 If the type of the :t:`operand` is a :t:`floating-point type`, then the | #. :dp:`fls_B2eKGWaJhFKD`
+operand -> src/expressions.rst:1565 :t:`negation expression` evaluates to the :t:`value` of the :t:`operand`, | #. :dp:`fls_B2eKGWaJhFKD`
+operand -> src/expressions.rst:1569 If the type of the :t:`operand` is neither an :t:`integer type` nor a | #. :dp:`fls_uldh10k77sng`
+operand -> src/expressions.rst:2105 :t:`shift left expression` evaluates to the value of the left :t:`operand` | #. :dp:`fls_f0p70y92k14f`
+operand -> src/expressions.rst:2106 whose bits are shifted left by the number of positions the right :t:`operand` | #. :dp:`fls_f0p70y92k14f`
+operand -> src/expressions.rst:2109 :t:`operand`. If the value of the right :t:`operand` is negative or greater | #. :dp:`fls_f0p70y92k14f`
+operand -> src/expressions.rst:2127 :t:`shift right expression` evaluates to the value of the left :t:`operand` | #. :dp:`fls_r02OGonXp93A`
+operand -> src/expressions.rst:2129 :t:`operand` evaluates to. If the type of the left :t:`operand` is any | #. :dp:`fls_r02OGonXp93A`
+operand -> src/expressions.rst:2133 the left :t:`operand`. If the value of the right :t:`operand` is negative, | #. :dp:`fls_r02OGonXp93A`
+operand -> src/expressions.rst:2547 an :t:`operand`. | :dp:`fls_ltioqbhl14g0`
+operand -> src/expressions.rst:2569 An :t:`operand` of a :t:`numeric type` and a target :t:`numeric type` perform | * :dp:`fls_4s69s9pcvbn7`
+operand -> src/expressions.rst:2573 An :t:`operand` of an :t:`enum type` and a target :t:`integer type` | * :dp:`fls_le6bchl25ewz`
+operand -> src/expressions.rst:2574 perform :t:`enum cast`. An :dt:`enum cast` converts the :t:`operand` to its | * :dp:`fls_le6bchl25ewz`
+operand -> src/expressions.rst:2583 Converts an :t:`operand` of :t:`type` :c:`bool` with :t:`value` ``false`` | * :dp:`fls_al9f1t7vlsxi`
+operand -> src/expressions.rst:2587 Converts an :t:`operand` of :t:`type` :c:`bool` with :t:`value` ``true`` | * :dp:`fls_jea17f39fmsg`
+operand -> src/expressions.rst:2591 Convert an :t:`operand` of :t:`type` :c:`char` to the :t:`value` of the | * :dp:`fls_eb00s8fxlvjb`
+operand -> src/expressions.rst:2595 An :t:`operand` of :t:`type` :c:`u8` and a target :t:`type` :c:`char` performs | * :dp:`fls_qk5trk8wkvxb`
+operand -> src/expressions.rst:2596 :t:`u8-to-char cast`. A :dt:`u8-to-char cast` converts an :t:`operand` of | * :dp:`fls_qk5trk8wkvxb`
+operand -> src/expressions.rst:2600 An :t:`operand` of :t:`type` ``*const T`` or ``*mut T`` and a | * :dp:`fls_t16yzaxro5ew`
+operand -> src/expressions.rst:2605 An :t:`operand` of :t:`type` ``*const T`` or ``*mut T`` where ``T`` implements | * :dp:`fls_i4zsbbmfa2fl`
+operand -> src/expressions.rst:2609 the :t:`integer type` is smaller than the :t:`type` of the :t:`operand`, the | * :dp:`fls_i4zsbbmfa2fl`
+operand -> src/expressions.rst:2613 An :t:`operand` of :t:`integer type` and :t:`target type` ``*const V`` or | * :dp:`fls_59mpteeczzo`
+operand -> src/expressions.rst:2619 An :t:`operand` of :t:`type` ``&mut [T; N]`` and a :t:`target type` | * :dp:`fls_8ccwlliqw9jx`
+operand -> src/expressions.rst:2623 An :t:`operand` of a :t:`function item type` and a :t:`target type` | * :dp:`fls_i8txki3htx92`
+operand -> src/expressions.rst:2628 An :t:`operand` of a :t:`function item type` and a target :t:`integer type` | * :dp:`fls_6hbkvbb1c8aj`
+operand -> src/expressions.rst:2632 An :t:`operand` of a :t:`function pointer type` and a :t:`target type` | * :dp:`fls_133j6xw8k4qe`
+operand -> src/expressions.rst:2638 An :t:`operand` of a :t:`function pointer type` and a target :t:`integer type` | * :dp:`fls_bhw2j9wjpf2x`
+operand -> src/expressions.rst:2654 :t:`operand` after the :t:`cast`. | :dp:`fls_uuayaksl8059`
+operand -> src/expressions.rst:2659 The :t:`evaluation` of a :t:`type cast expression` evaluates its :t:`operand`. | :dp:`fls_syk2li8ft3rx`
+operand -> src/expressions.rst:2665 Casting an :t:`operand` of an :t:`integer type` to a target :t:`integer type` | * :dp:`fls_kc3gwj9x3jnr`
+operand -> src/expressions.rst:2669 Casting an :t:`operand` of an :t:`integer type` to a target :t:`integer type` | * :dp:`fls_76eq3bd6birr`
+operand -> src/expressions.rst:2670 with smaller :t:`size` truncates the :t:`value` of the :t:`operand`. | * :dp:`fls_76eq3bd6birr`
+operand -> src/expressions.rst:2673 Casting an :t:`operand` of an :t:`integer type` to a target :t:`integer type` | * :dp:`fls_ldiritt32h2w`
+operand -> src/expressions.rst:2677 Zero-extends the :t:`operand` if the :t:`[operand]'s` :t:`type` is | * :dp:`fls_h9sxg3pxn7i2`
+operand -> src/expressions.rst:2681 Sign-extends the :t:`operand` if the :t:`[operand]'s` :t:`type` is signed. | * :dp:`fls_shy6e0e30bco`
+operand -> src/expressions.rst:2684 Casting an :t:`operand` of a :t:`floating-point type` to a target | * :dp:`fls_4xldaoj5ac6t`
+operand -> src/expressions.rst:2685 :t:`integer type` rounds the :t:`value` of the :t:`operand` towards zero. In | * :dp:`fls_4xldaoj5ac6t`
+operand -> src/expressions.rst:2689 Returns zero if the :t:`operand` denotes :std:`f32::NaN` or :std:`f64::NaN` | * :dp:`fls_50714cvaqkfv`
+operand -> src/expressions.rst:2693 Saturates the :t:`value` of the :t:`operand` to the maximum :t:`value` | * :dp:`fls_g3xbmp8zx1yh`
+operand -> src/expressions.rst:2699 Saturates the :t:`value` of the :t:`operand` to the minimum :t:`value` | * :dp:`fls_hcc5odh52bk7`
+operand -> src/expressions.rst:2705 Casting an :t:`operand` of an :t:`integer type` to a target | * :dp:`fls_o2ep4b6t287z`
+operand -> src/expressions.rst:2710 Rounds the :t:`value` of the :t:`operand` preferring the :t:`value` with an | * :dp:`fls_vfofk2aagsj5`
+operand -> src/expressions.rst:2716 the :t:`value` of the :t:`operand` when the :t:`value` of the :t:`operand` | * :dp:`fls_cx86k8yfjhht`
+operand -> src/expressions.rst:2720 Casting an :t:`operand` of :t:`type` :c:`f32` to a :t:`target type` :c:`f64` | * :dp:`fls_gzmdwibl5s4w`
+operand -> src/expressions.rst:2724 Casting an :t:`operand` of :t:`type` :c:`f64` to :t:`target type` :c:`f32` | * :dp:`fls_mjqvjt7v8a25`
+operand -> src/expressions.rst:2734 :t:`operand` when the :t:`value` of the :t:`operand` causes | * :dp:`fls_2etd73f8jg2n`
+operand -> src/expressions.rst:2790 An :dt:`assignee operand` is the target :t:`operand` of an | :dp:`fls_4tgf0wu2mr3l`
+operand -> src/expressions.rst:2797 An :t:`assignee operand` is the target :t:`operand` of an | :dp:`fls_bsjw6f4a3wol`
+operand -> src/expressions.rst:2801 A :t:`value operand` is an :t:`operand` that supplies the :t:`value` that is | :dp:`fls_uinh05sslxeo`
+operand -> src/expressions.rst:3185 An :dt:`assigned operand` is the target :t:`operand` of a | :dp:`fls_g714mnh7s7fx`
+operand -> src/expressions.rst:3192 An :t:`assigned operand` is the target :t:`operand` of a | :dp:`fls_dvy201zd6oym`
+operand -> src/expressions.rst:3199 A :dt:`modifying operand` is an :t:`operand` that supplies the :t:`value` that | :dp:`fls_9wt2l5gg06pb`
+operand -> src/expressions.rst:3206 A :t:`modifying operand` is an :t:`operand` that supplies the :t:`value` that | :dp:`fls_9v09ayi2azpe`
+operand -> src/expressions.rst:3423 :t:`operand`. | :dp:`fls_5d66h7naoup6`
+operand -> src/expressions.rst:3427 :t:`operand`. | :dp:`fls_xp9whcj2obk8`
+operand -> src/expressions.rst:3433 :t:`operand`. | :dp:`fls_2po52gv0m021`
+operand -> src/expressions.rst:3519 A :t:`repeat operand` is an :t:`operand` that specifies the element being | :dp:`fls_3y69y9ga4at7`
+operand -> src/expressions.rst:3523 A :t:`size operand` is an :t:`operand` that specifies the size of an :t:`array` | :dp:`fls_2l9objtb23zn`
+operand -> src/expressions.rst:3648 An :dt:`indexed operand` is an :t:`operand` which indicates the :t:`value` of a | :dp:`fls_dvmm47wnl33e`
+operand -> src/expressions.rst:3656 An :t:`indexed operand` is an :t:`operand` which indicates the :t:`value` | :dp:`fls_pc0c22asgzvw`
+operand -> src/expressions.rst:3663 An :dt:`indexing operand` is an :t:`operand` which specifies the index for the | :dp:`fls_ipw4tfrserbu`
+operand -> src/expressions.rst:3670 An :t:`indexing operand` is an :t:`operand` which specifies the index of an | :dp:`fls_ff3sgpldn52o`
+operand -> src/expressions.rst:3761 A :t:`tuple initializer` is an :t:`operand` that provides the :t:`value` of a | :dp:`fls_581y6jq1eyn8`
+operand -> src/expressions.rst:3863 The :t:`type` of a :t:`base initializer` is the :t:`type` of its :t:`operand`. | :dp:`fls_gfu267bpl9ql`
+operand -> src/expressions.rst:3888 The :t:`type` of the :t:`operand` of an :t:`indexed initializer` and the | :dp:`fls_dfajs3xaxbv`
+operand -> src/expressions.rst:3893 :t:`operand`. | :dp:`fls_e5b9n910z1cp`
+operand -> src/expressions.rst:4105 An :dt:`argument operand` is an :t:`operand` which is used as an argument in a | :dp:`fls_ljuwr88k92vp`
+operand -> src/expressions.rst:4109 An :t:`argument operand` is an :t:`operand` which is used as an argument in a | :dp:`fls_jvz5z3eqxb39`
+operand -> src/expressions.rst:4294 A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose | :dp:`fls_jx3ryre0xs88`
+operand -> src/expressions.rst:4301 A :dt:`method operand` is an :t:`operand` that denotes the :t:`method` being | :dp:`fls_VLLAFjAxCfkE`
+operand -> src/expressions.rst:4308 A :t:`method operand` is an :t:`operand` that denotes the :t:`method` being | :dp:`fls_3AQUOBo7akXu`
+operand -> src/expressions.rst:4424 A :dt:`container operand` is an :t:`operand` that indicates the :t:`value` | :dp:`fls_stjmobac6wyd`
+operand -> src/expressions.rst:4431 A :t:`container operand` is an :t:`operand` that indicates the :t:`value` whose | :dp:`fls_s2vpn4ihenpe`
+operand -> src/expressions.rst:5173 :t:`break expression` shall have an :t:`operand` only when it is associated | :dp:`fls_3hI7FU42sVyX`
+operand -> src/expressions.rst:5183 :dt:`Break type` is the :t:`type` of the :t:`operand` of a | :dp:`fls_jvm1vsqmslxn`
+operand -> src/expressions.rst:5187 :t:`Break type` is the :t:`type` of the :t:`operand` of a :t:`break expression`. | :dp:`fls_1wdybpfldj7q`
+operand -> src/expressions.rst:5193 If the :t:`break expression` lacks an :t:`operand`, then the :t:`break type` | * :dp:`fls_60imbzwg3e2x`
+operand -> src/expressions.rst:5197 If the :t:`break expression` has an :t:`operand`, then the :t:`break type` is | * :dp:`fls_l0c05wa9q97w`
+operand -> src/expressions.rst:5198 the :t:`type` of its :t:`operand`. | * :dp:`fls_l0c05wa9q97w`
+operand -> src/expressions.rst:5204 :dt:`Break value` is the :t:`value` of the :t:`operand` of a | :dp:`fls_kpka4jf2qr5l`
+operand -> src/expressions.rst:5208 :t:`Break value` is the :t:`value` of the :t:`operand` of a | :dp:`fls_bgd7d5q69q0g`
+operand -> src/expressions.rst:5215 If the :t:`break expression` lacks an :t:`operand`, then the :t:`break value` | * :dp:`fls_d7l1y2qbe8br`
+operand -> src/expressions.rst:5219 If the :t:`break expression` has an :t:`operand`, then the :t:`break value` is | * :dp:`fls_56szfyilc06`
+operand -> src/expressions.rst:5220 the :t:`value` of its :t:`operand`. | * :dp:`fls_56szfyilc06`
+operand -> src/expressions.rst:5229 The :t:`operand` is evaluated. | #. :dp:`fls_l2kp8mw6bjj0`
+operand -> src/expressions.rst:5240 The :t:`operand` is evaluated. | #. :dp:`fls_WFAW1PG1YXdM`
+operand -> src/expressions.rst:5379 A :t:`range expression low bound` is an :t:`operand` that specifies the start of | :dp:`fls_msyv4oyk5zp9`
+operand -> src/expressions.rst:5383 A :t:`range expression high bound` is an :t:`operand` that specifies the end of | :dp:`fls_f648uuxxh4vk`
+operand -> src/expressions.rst:5723 succeeds, evaluates an :t:`operand`. | :dp:`fls_2ohrphptjny6`
+operand -> src/expressions.rst:5731 evaluates an :t:`operand`. | :dp:`fls_ei4pbeksd1v8`
+operand -> src/expressions.rst:5791 A :dt:`match arm body` is the :t:`operand` of a :t:`match arm`. | :dp:`fls_33e7oefx0xqm`
+operand -> src/expressions.rst:5794 A :t:`match arm body` is the :t:`operand` of a :t:`match arm`. | :dp:`fls_8wjdichfxp0y`
+operand -> src/expressions.rst:5819 The :t:`type` of the :t:`operand` of a :t:`match arm guard` shall be :t:`type` | :dp:`fls_bzhz5wjd90ii`
+operand -> src/expressions.rst:5843 The :t:`value` of a :t:`match expression` is the :t:`value` of the :t:`operand` | :dp:`fls_4sh2yrslszvb`
+operand -> src/expressions.rst:5864 The :t:`operand` of the :t:`match arm` is evaluated. | #. :dp:`fls_yv11febo0kyb`
+operand -> src/expressions.rst:5899 The :t:`evaluation` of a :t:`match arm guard` evaluates its :t:`operand`. A | :dp:`fls_sbtx1l6n2tp2`
+operand -> src/expressions.rst:5900 :t:`match arm guard` evaluates to ``true`` when its :t:`operand` evaluates to | :dp:`fls_sbtx1l6n2tp2`
+operand -> src/expressions.rst:5945 If the :t:`return expression` has an :t:`operand`, then the :t:`value` is the | * :dp:`fls_njndlx2rps2k`
+operand -> src/expressions.rst:5946 :t:`value` of the :t:`operand`. | * :dp:`fls_njndlx2rps2k`
+operand -> src/expressions.rst:5949 If the :t:`return expression` does not have an :t:`operand`, then the | * :dp:`fls_tjksia7prao1`
+operand -> src/expressions.rst:5958 If the :t:`return expression` has an :t:`operand`, then | #. :dp:`fls_d9avvfi548t7`
+operand -> src/expressions.rst:5961 The :t:`operand` is evaluated. | #. :dp:`fls_o3fc1z2mn8zc`
+operand -> src/expressions.rst:5964 The :t:`value` of the :t:`operand` is :t:`passed <passing convention>` | #. :dp:`fls_bbf54ukld7j9`
+operand -> src/expressions.rst:6020 A :dt:`future operand` is an :t:`operand` whose :t:`future` is being awaited by | :dp:`fls_fold1inh5jev`
+operand -> src/expressions.rst:6027 A :t:`future operand` is an :t:`operand` whose :t:`future` is being awaited by | :dp:`fls_vhchgab59jvd`
+operand -> src/expressions.rst:6377 :t:`[value]s` for the :t:`scalar type` or when one or more :t:`operand` of an | :dp:`fls_oFIRXBPXu6Zv`
+operand -> src/ownership-and-deconstruction.rst:212 The :t:`operand` of a :t:`field access expression`, | * :dp:`fls_jv18y618j2s3`
+operand -> src/ownership-and-deconstruction.rst:215 The :t:`operand` of a :t:`dereference expression`, | * :dp:`fls_g4i0jb27iryr`
+operand -> src/ownership-and-deconstruction.rst:595 The parent :t:`drop scope` of an :t:`operand` in an :t:`expression statement` | * :dp:`fls_qidma4fpkhb0`
+operand -> src/ownership-and-deconstruction.rst:607 The parent :t:`drop scope` of the :t:`operand` of a :t:`match arm guard` is | * :dp:`fls_lbsfhg42yiqy`
+operand -> src/ownership-and-deconstruction.rst:612 The parent :t:`drop scope` of the :t:`operand` of a :t:`match arm` is the | * :dp:`fls_5m3u3k6f00bd`
+operand -> src/ownership-and-deconstruction.rst:613 :t:`drop scope` of the :t:`match arm` that contains the :t:`operand`. | * :dp:`fls_5m3u3k6f00bd`
+operand -> src/ownership-and-deconstruction.rst:677 The :t:`drop scope` of the :t:`operand` of a :t:`match arm`. | * :dp:`fls_n108lvc4otoc`
+operand -> src/ownership-and-deconstruction.rst:680 The :t:`drop scope` of the :t:`operand` of a :t:`match arm guard`. | * :dp:`fls_ptk6yibqyfzi`
+operand -> src/ownership-and-deconstruction.rst:734 The :t:`operand` of an :t:`extending expression` that is an | * :dp:`fls_gjd1ow3l7swe`
+operand -> src/ownership-and-deconstruction.rst:759 The :t:`drop scope` of the :t:`operand` of a :t:`borrow expression` that is an | :dp:`fls_aq01wjpkxhq9`
+operand -> src/ownership-and-deconstruction.rst:764 The :t:`drop scope` of the :t:`operand` of a :t:`borrow expression`, a | :dp:`fls_VDPi1dJzJMUb`
+operand -> src/statements.rst:256 The :t:`operand` is evaluated. | #. :dp:`fls_r8poocwqaglf`
+operand -> src/statements.rst:259 The :t:`value` of the :t:`operand` is :t:`dropped`. | #. :dp:`fls_88e6s3erk8tj`
+operand -> src/types-and-traits.rst:2382 Each :t:`operand` of an :t:`array expression`. | * :dp:`fls_p8hp5y506nam`
+operand -> src/types-and-traits.rst:2388 The :t:`operand` of a :t:`parenthesized expression`. | * :dp:`fls_n1kh3z8d4q8y`
+operand -> src/types-and-traits.rst:2391 Each :t:`operand` of a :t:`tuple expression`. | * :dp:`fls_dgoypa3hcxc0`
+operand -> src/types-and-traits.rst:2988 :t:`operand`, and ``Trait`` is the operator :t:`trait` determined from | #. :dp:`fls_lDkPMB5UI58B`
+operand -> src/types-and-traits.rst:3704 A :t:`type cast expression` requires that the :t:`type` of its :t:`operand` is | * :dp:`fls_AD1IXzsnlwyg`
+operand -> src/types-and-traits.rst:3713 A :t:`return expression` requires that the :t:`type` of its :t:`operand` is | * :dp:`fls_pN5C4FHWEWdK`
+operand -> src/values.rst:363 The :t:`value expression` is the :t:`operand` of an | * :dp:`fls_3BGncWvMumEt`
+---
+operator expression -> src/expressions.rst:1092 An :t:`operator expression` is an :t:`expression` that involves an operator. | :dp:`fls_ursc5ynymoy`
+operator expression -> src/expressions.rst:1097 An :t:`operator expression` that operates with :t:`[floating-point value]s` run as a :t:`constant expression` is allowed to yield different :t:`[value]s` compared to when run as a non-:t:`constant expression`. | :dp:`fls_lSxXWxJn0vMO`
+operator expression -> src/expressions.rst:6375 An :t:`arithmetic overflow` occurs when an :t:`operator expression` computes a | :dp:`fls_oFIRXBPXu6Zv`
+operator expression -> src/expressions.rst:6378 :t:`operator expression` lies outside of the range of valid :t:`[value]s` for | :dp:`fls_oFIRXBPXu6Zv`
+---
+opt-out trait bound -> src/generics.rst:277 unless an :t:`opt-out trait bound` for the :std:`core::marker::Sized` :t:`trait` | :dp:`fls_hidfwkwr2r73`
+opt-out trait bound -> src/types-and-traits.rst:3436 An :t:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?`` | :dp:`fls_AzuZmR9DXSQh`
+---
+or-pattern -> src/ownership-and-deconstruction.rst:815 :t:`[Binding]s` introduced by an :t:`or-pattern` are dropped in reverse | * :dp:`fls_W2S2FrkuedYC`
+or-pattern -> src/patterns.rst:45 An :t:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line). | :dp:`fls_VQMmveZUfNTn`
+or-pattern -> src/patterns.rst:76 Any two :t:`[subpattern]s` of an :t:`or-pattern` are subject to the following | :dp:`fls_8luyomzppck`
+or-pattern -> src/patterns.rst:1445 If the :t:`pattern` is an :t:`or-pattern`, then perform :t:`pattern matching` with each :t:`pattern-without-alternation` of the :t:`or-pattern` and the :t:`value`. If any such :t:`pattern matching` succeeds, then the overall :t:`pattern matching` succeeds. | #. :dp:`fls_tZJgZDWVChJV`
+---
+outer attribute -> src/attributes.rst:71 An :t:`outer attribute` is an :t:`attribute` that applies to a subsequent | :dp:`fls_8o6vmzbw1b1j`
+outer attribute -> src/attributes.rst:2114 The :t:`outer attribute` version of :t:`attribute` :c:`no_implicit_prelude` | :dp:`fls_cmrqxc5oax4r`
+outer attribute -> src/macros.rst:588 :t:`outer attribute` that can be attached to :t:`[item]s`. | :dp:`fls_mtqr4d817ikn`
+outer attribute -> src/macros.rst:593 new :t:`outer attribute` that can be attached to :t:`[item]s`. | :dp:`fls_l3epi1dqpi8o`
+---
+outer block doc -> src/lexical-elements.rst:1557 An :t:`outer block doc` is a :t:`block comment` that applies to a subsequent | :dp:`fls_63gzofa9ktic`
+outer block doc -> src/lexical-elements.rst:1565 An :t:`outer doc comment` is either an :t:`outer block doc` or an | :dp:`fls_RYVL9KgaxKvl`
+---
+outer doc comment -> src/lexical-elements.rst:1565 An :t:`outer doc comment` is either an :t:`outer block doc` or an | :dp:`fls_RYVL9KgaxKvl`
+---
+
+[91m[1m| [0m[90m Bash     [0mFind usage of term null in chapters
+[91m[1m| [0m[90m Bash     [0mFind 'null' word occurrences in chapters
+
+src/changelog.rst:362: - `Add invalid_null_arguments lint to prevent invalid usage of null pointers <https://github.com/rust-lang/rust/pull/119220>`_
+src/changelog.rst:412: - `More pointers are now detected as definitely not-null based on their alignment in const eval. <https://github.com/rust-lang/rust/pull/133700>`_
+src/expressions.rst:1351: :c:`null` or not all of the bytes at the referred memory location are part of
+src/lexical-elements.rst:820: (null byte).
+src/types-and-traits.rst:1257: to be not :c:`null`.
+src/types-and-traits.rst:1374: not :c:`null`.
+src/values.rst:59: :c:`null`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for nesting import
+
+.. glossary-entry:: nesting import
+   
+   :glossary:
+     :dp:`fls_nhkqkdqo32xs`
+     A :dt:`nesting import` is a :t:`use import` that provides a common :t:`path`
+     prefix for its nested :t:`[use import]s`.
+     
+     :dp:`fls_z4d611glen13`
+     See :s:`NestingImport`.
+   :chapter:
+     :dp:`fls_ldr7tsuqw34s`
+     A :t:`nesting import` is a :t:`use import` that provides a common
+     :t:`simple path prefix` for its nested :t:`[use import]s`.
+
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m\bnever type\b
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for never type
+
+.. glossary-entry:: never type
+   
+   :glossary:
+     :dp:`fls_m9v5j6detob4`
+     The :dt:`never type` is a :t:`type` that represents the result of a computation
+     that never completes.
+     
+     :dp:`fls_k5z1vjxepnfj`
+     See :s:`NeverType`.
+   :chapter:
+     :dp:`fls_4u0v5uy95pyf`
+     The :t:`never type` is a :t:`type` that represents the result of a computation
+     that never completes.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for not-equals expression
+
+.. glossary-entry:: not-equals expression
+   
+   :glossary:
+     :dp:`fls_2hmynl94uusk`
+     A :dt:`not-equals expression` is a :t:`comparison expression` that tests for
+     inequality.
+     
+     :dp:`fls_5d6vvr9m35n2`
+     See :s:`NotEqualsExpression`.
+   :chapter:
+     :dp:`fls_w71j7i3n1kit`
+     A :t:`not-equals expression` is a :t:`comparison expression` that tests for
+     inequality.
+
+[94m[1m| [0m[90m Grep     [0m:t:`numeric type` is
+[91m[1m| [0m[90m Bash     [0mSearch for dt numeric type in chapters
+[94m[1m| [0m[90m Grep     [0mNumeric
+[94m[1m| [0m[90m Grep     [0mObject Safety
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m\bnull\b
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry blocks for all terms
+
+### nesting import
+.. glossary-entry:: nesting import
+   
+   :glossary:
+     :dp:`fls_nhkqkdqo32xs`
+     A :dt:`nesting import` is a :t:`use import` that provides a common :t:`path`
+     prefix for its nested :t:`[use import]s`.
+     
+     :dp:`fls_z4d611glen13`
+     See :s:`NestingImport`.
+   :chapter:
+     :dp:`fls_ldr7tsuqw34s`
+     A :t:`nesting import` is a :t:`use import` that provides a common
+     :t:`simple path prefix` for its nested :t:`[use import]s`.
+
+### never type
+.. glossary-entry:: never type
+   
+   :glossary:
+     :dp:`fls_m9v5j6detob4`
+     The :dt:`never type` is a :t:`type` that represents the result of a computation
+     that never completes.
+     
+     :dp:`fls_k5z1vjxepnfj`
+     See :s:`NeverType`.
+   :chapter:
+     :dp:`fls_4u0v5uy95pyf`
+     The :t:`never type` is a :t:`type` that represents the result of a computation
+     that never completes.
+
+### non-reference pattern
+.. glossary-entry:: non-reference pattern
+   
+   :glossary:
+     :dp:`fls_tejled5izyue`
+     A :dt:`non-reference pattern` is any :t:`pattern` except
+     :t:`non-[binding pattern]s`, :t:`[path pattern]s`, :t:`[reference pattern]s`,
+     and :t:`[underscore pattern]s`.
+   :chapter:
+     :dp:`fls_dqe75i8h2fie`
+     A :t:`non-reference pattern` is any :t:`pattern` except
+     :t:`non-[binding pattern]s`, :t:`[path pattern]s`, :t:`[reference pattern]s`,
+     and :t:`[underscore pattern]s`.
+
+### not configuration predicate
+.. glossary-entry:: not configuration predicate
+   
+   :glossary:
+     :dp:`fls_BVMlBterkFYq`
+     A :dt:`not configuration predicate` is a :t:`configuration predicate` that
+     negates the Boolean :t:`value` of its nested :t:`configuration predicate`.
+     
+     :dp:`fls_9j9AaNcv0VNA`
+     See :s:`ConfigurationPredicateNot`.
+   :chapter:
+     :dp:`fls_XsxeOd32JI8x`
+     A :t:`not configuration predicate` is a :t:`configuration predicate` that
+     negates the Boolean :t:`value` of its nested :t:`configuration predicate`.
+
+### not-equals expression
+.. glossary-entry:: not-equals expression
+   
+   :glossary:
+     :dp:`fls_2hmynl94uusk`
+     A :dt:`not-equals expression` is a :t:`comparison expression` that tests for
+     inequality.
+     
+     :dp:`fls_5d6vvr9m35n2`
+     See :s:`NotEqualsExpression`.
+   :chapter:
+     :dp:`fls_w71j7i3n1kit`
+     A :t:`not-equals expression` is a :t:`comparison expression` that tests for
+     inequality.
+
+### numeric literal
+.. glossary-entry:: numeric literal
+   
+   :glossary:
+     :dp:`fls_978ndaqdv4r`
+     A :dt:`numeric literal` is a :t:`literal` that denotes a number.
+     
+     :dp:`fls_swue4tma9fmf`
+     See :s:`NumericLiteral`.
+   :chapter:
+     :dp:`fls_fqpqnku27v99`
+     A :t:`numeric literal` is a :t:`literal` that denotes a number.
+     
+     .. _fls_2ed4axpsy9u0:
+     
+     Integer Literals
+     ^^^^^^^^^^^^^^^^
+     
+     .. rubric:: Syntax
+     
+     .. syntax::
+     
+        IntegerLiteral ::=
+            IntegerContent IntegerSuffix?
+     
+        IntegerContent ::=
+            BinaryLiteral
+          | DecimalLiteral
+          | HexadecimalLiteral
+          | OctalLiteral
+     
+        BinaryLiteral ::=
+            $$0b$$ BinaryDigitOrUnderscore* BinaryDigit BinaryDigitOrUnderscore*
+     
+        BinaryDigitOrUnderscore ::=
+            BinaryDigit
+          | $$_$$
+     
+        BinaryDigit ::=
+            [$$0$$-$$1$$]
+     
+        DecimalLiteral ::=
+            DecimalDigit DecimalDigitOrUnderscore*
+     
+        DecimalDigitOrUnderscore ::=
+            DecimalDigit
+          | $$_$$
+     
+        DecimalDigit ::=
+            [$$0$$-$$9$$]
+     
+        HexadecimalLiteral ::=
+            $$0x$$ HexadecimalDigitOrUnderscore* HexadecimalDigit HexadecimalDigitOrUnderscore*
+     
+        HexadecimalDigitOrUnderscore ::=
+            HexadecimalDigit
+          | $$_$$
+     
+        HexadecimalDigit ::=
+            [$$0$$-$$9$$ $$a$$-$$f$$ $$A$$-$$F$$]
+     
+        OctalLiteral ::=
+            $$0o$$ OctalDigitOrUnderscore* OctalDigit OctalDigitOrUnderscore*
+     
+        OctalDigitOrUnderscore ::=
+            OctalDigit
+          | $$_$$
+     
+        OctalDigit ::=
+            [$$0$$-$$7$$]
+     
+        IntegerSuffix ::=
+            SignedIntegerSuffix
+          | UnsignedIntegerSuffix
+     
+        SignedIntegerSuffix ::=
+            $$i8$$
+          | $$i16$$
+          | $$i32$$
+          | $$i64$$
+          | $$i128$$
+          | $$isize$$
+     
+        UnsignedIntegerSuffix ::=
+            $$u8$$
+          | $$u16$$
+          | $$u32$$
+          | $$u64$$
+          | $$u128$$
+          | $$usize$$
+     
+     .. rubric:: Legality Rules
+     
+     .. glossary-entry:: integer literal
+        
+        :glossary:
+
+### numeric literal pattern
+.. glossary-entry:: numeric literal pattern
+   
+   :glossary:
+     :dp:`fls_azqQ3JxD5Lt7`
+     A :dt:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric
+     literal`.
+     
+     :dp:`fls_QYDZm7pKy1nW`
+     See :s:`LiteralPattern`.
+   :chapter:
+     :dp:`fls_COQKJC0dvtNO`
+     A :t:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric
+     literal`.
+
+### object safe
+.. glossary-entry:: object safe
+   
+   :glossary:
+     :dp:`fls_oa2jiklr5nl2`
+     A :t:`trait` is :dt:`object safe` when it can be used as a
+     :t:`trait object type`.
+   :chapter:
+     :dp:`fls_lrdki56hpc3k`
+     A :t:`trait` is :t:`object safe` when:
+
+### obsolete range pattern
+.. glossary-entry:: obsolete range pattern
+   
+   :glossary:
+     :dp:`fls_ave42vwb45zb`
+     An :dt:`obsolete range pattern` is a :t:`range pattern` that uses obsolete
+     syntax to express an :t:`inclusive range pattern`.
+     
+     :dp:`fls_ta0wa8ta9ol4`
+     See :s:`ObsoleteRangePattern`.
+   :chapter:
+     :dp:`fls_akf9x5r6e0ta`
+     An :t:`obsolete range pattern` is a :t:`range pattern` that uses obsolete syntax
+     to express an :t:`inclusive range pattern`.
+
+### octal literal
+.. glossary-entry:: octal literal
+   
+   :glossary:
+     :dp:`fls_pf4341vnqiin`
+     An :dt:`octal literal` is an :t:`integer literal` in base 8.
+     
+     :dp:`fls_8u0n6xu0mizm`
+     See ``OctalLiteral.``
+   :chapter:
+     :dp:`fls_4v7awnutbpoe`
+     An :t:`octal literal` is an :t:`integer literal` in base 8.
+     
+     .. glossary-entry:: integer suffix
+        
+        :glossary:
+
+### operand
+.. glossary-entry:: operand
+   
+   :glossary:
+     :dp:`fls_3mnn1au9ob6q`
+     An :dt:`operand` is an :t:`expression` nested within an expression.
+     
+     :dp:`fls_8299xfhdsd1`
+     See :s:`Operand`.
+   :chapter:
+     :dp:`fls_gwgttltgjma4`
+     An :t:`operand` is an :t:`expression` nested within an :t:`expression`.
+     
+     .. glossary-entry:: binary operator
+        
+        :glossary:
+
+### operator expression
+.. glossary-entry:: operator expression
+   
+   :glossary:
+     :dp:`fls_6ev01xwcfow1`
+     An :dt:`operator expression` is an :t:`expression` that involves an operator.
+     
+     :dp:`fls_qdszbyeuo7w1`
+     See :s:`OperatorExpression`.
+   :chapter:
+     :dp:`fls_ursc5ynymoy`
+     An :t:`operator expression` is an :t:`expression` that involves an operator.
+     
+     .. rubric:: Dynamic Semantics
+
+### opt-out trait bound
+.. glossary-entry:: opt-out trait bound
+   
+   :glossary:
+     :dp:`fls_wS4EzN0N1GDP`
+     An :dt:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
+     that nullifies an implicitly added :t:`trait bound`.
+   :chapter:
+     :dp:`fls_AzuZmR9DXSQh`
+     An :t:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
+     that nullifies an implicitly added :t:`trait bound`.
+
+### or-pattern
+.. glossary-entry:: or-pattern
+   
+   :glossary:
+     :dp:`fls_LnPDQW3bnNUw`
+     An :dt:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line, i.e. ``|``).
+     
+     :dp:`fls_urIJ5JNHLhm6`
+     See :s:`Pattern`.
+   :chapter:
+     :dp:`fls_VQMmveZUfNTn`
+     An :t:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line).
+
+### outer attribute
+.. glossary-entry:: outer attribute
+   
+   :glossary:
+     :dp:`fls_gffxnbilsqly`
+     An :dt:`outer attribute` is an :t:`attribute` that applies to a subsequent
+     :t:`item`.
+     
+     :dp:`fls_ty6ihy6x3kf`
+     See :s:`OuterAttribute`.
+   :chapter:
+     :dp:`fls_8o6vmzbw1b1j`
+     An :t:`outer attribute` is an :t:`attribute` that applies to a subsequent
+     :t:`item`.
+     
+     .. glossary-entry:: attribute content
+        
+        :glossary:
+
+### outer block doc
+.. glossary-entry:: outer block doc
+   
+   :glossary:
+     :dp:`fls_531ggn1f8f6u`
+     An :dt:`outer block doc` is a :t:`block comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+     
+     :dp:`fls_ddy9a66tpytp`
+     See :s:`OuterBlockDoc`.
+   :chapter:
+     :dp:`fls_63gzofa9ktic`
+     An :t:`outer block doc` is a :t:`block comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+
+### outer doc comment
+.. glossary-entry:: outer doc comment
+   
+   :glossary:
+     :dp:`fls_mgSEUNUPcPBs`
+     An :dt:`outer doc comment` is either an :t:`outer block doc` or an
+     :t:`outer line doc`.
+   :chapter:
+     :dp:`fls_RYVL9KgaxKvl`
+     An :t:`outer doc comment` is either an :t:`outer block doc` or an
+     :t:`outer line doc`.
+     
+     .. glossary-entry:: doc comment
+        
+        :glossary:
+
+### null
+.. glossary-entry:: null
+   
+   :glossary:
+     :dp:`fls_8sh17t37b2ml`
+     A :dc:`null` :t:`value` denotes the address ``0``.
+
+### numeric type
+.. glossary-entry:: numeric type
+   
+   :glossary:
+     :dp:`fls_cpdsj94l57af`
+     A :dt:`numeric type` is a :t:`type` whose :t:`[value]s` denote numbers.
+
+### object safety
+.. glossary-entry:: object safety
+   
+   :glossary:
+     :dp:`fls_vqmng1l9ab8a`
+     :dt:`Object safety` is the process of determining whether a :t:`trait` can be
+     used as a :t:`trait object type`.
+
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mGenerate manual chapter block for numeric literal
+
+.. glossary-entry:: numeric literal
+   
+   :glossary:
+     :dp:`fls_978ndaqdv4r`
+     A :dt:`numeric literal` is a :t:`literal` that denotes a number.
+     
+     :dp:`fls_swue4tma9fmf`
+     See :s:`NumericLiteral`.
+   :chapter:
+     :dp:`fls_fqpqnku27v99`
+     A :t:`numeric literal` is a :t:`literal` that denotes a number.
+
+[91m[1m| [0m[90m Bash     [0mGenerate manual chapter block for octal literal
+
+.. glossary-entry:: octal literal
+   
+   :glossary:
+     :dp:`fls_pf4341vnqiin`
+     An :dt:`octal literal` is an :t:`integer literal` in base 8.
+     
+     :dp:`fls_8u0n6xu0mizm`
+     See ``OctalLiteral.``
+   :chapter:
+     :dp:`fls_4v7awnutbpoe`
+     An :t:`octal literal` is an :t:`integer literal` in base 8.
+
+[91m[1m| [0m[90m Bash     [0mGenerate manual chapter block for operand
+
+.. glossary-entry:: operand
+   
+   :glossary:
+     :dp:`fls_3mnn1au9ob6q`
+     An :dt:`operand` is an :t:`expression` nested within an expression.
+     
+     :dp:`fls_8299xfhdsd1`
+     See :s:`Operand`.
+   :chapter:
+     :dp:`fls_gwgttltgjma4`
+     An :t:`operand` is an :t:`expression` nested within an :t:`expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate manual chapter block for operator expression
+
+.. glossary-entry:: operator expression
+   
+   :glossary:
+     :dp:`fls_6ev01xwcfow1`
+     An :dt:`operator expression` is an :t:`expression` that involves an operator.
+     
+     :dp:`fls_qdszbyeuo7w1`
+     See :s:`OperatorExpression`.
+   :chapter:
+     :dp:`fls_ursc5ynymoy`
+     An :t:`operator expression` is an :t:`expression` that involves an operator.
+
+[91m[1m| [0m[90m Bash     [0mGenerate manual chapter block for outer attribute
+
+.. glossary-entry:: outer attribute
+   
+   :glossary:
+     :dp:`fls_gffxnbilsqly`
+     An :dt:`outer attribute` is an :t:`attribute` that applies to a subsequent
+     :t:`item`.
+     
+     :dp:`fls_ty6ihy6x3kf`
+     See :s:`OuterAttribute`.
+   :chapter:
+     :dp:`fls_8o6vmzbw1b1j`
+     An :t:`outer attribute` is an :t:`attribute` that applies to a subsequent
+     :t:`item`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate manual chapter block for outer doc comment
+
+.. glossary-entry:: outer doc comment
+   
+   :glossary:
+     :dp:`fls_mgSEUNUPcPBs`
+     An :dt:`outer doc comment` is either an :t:`outer block doc` or an
+     :t:`outer line doc`.
+   :chapter:
+     :dp:`fls_RYVL9KgaxKvl`
+     An :t:`outer doc comment` is either an :t:`outer block doc` or an
+     :t:`outer line doc`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static baseline
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff against baseline
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/attributes.rst
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+ec49426 docs(glossary): migrate mutable and named terms
+d6c89e6 docs(glossary): migrate macro and method glossary entries
+0be1c7e docs(glossary): migrate loop and macro glossary entries
+c862c56 docs(glossary): migrate batch 18 entries
+bc069fd docs(glossary): migrate batch 17 entries
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged diffs
+
+diff --git a/src/attributes.rst b/src/attributes.rst
+index 19c66c5..4cee792 100644
+--- a/src/attributes.rst
++++ b/src/attributes.rst
+@@ -67,9 +67,19 @@ Attributes
+      An :t:`inner attribute` is an :t:`attribute` that applies to an enclosing
+      :t:`item`.
+ 
+-:dp:`fls_8o6vmzbw1b1j`
+-An :t:`outer attribute` is an :t:`attribute` that applies to a subsequent
+-:t:`item`.
++.. glossary-entry:: outer attribute
++   
++   :glossary:
++     :dp:`fls_gffxnbilsqly`
++     An :dt:`outer attribute` is an :t:`attribute` that applies to a subsequent
++     :t:`item`.
++     
++     :dp:`fls_ty6ihy6x3kf`
++     See :s:`OuterAttribute`.
++   :chapter:
++     :dp:`fls_8o6vmzbw1b1j`
++     An :t:`outer attribute` is an :t:`attribute` that applies to a subsequent
++     :t:`item`.
+ 
+ .. glossary-entry:: attribute content
+    
+@@ -1039,9 +1049,19 @@ configuration predicates.
+ An :t:`any configuration predicate` evaluates statically to ``true`` when any
+ nested configuration predicate evaluates to ``true``.
+ 
+-:dp:`fls_XsxeOd32JI8x`
+-A :t:`not configuration predicate` is a :t:`configuration predicate` that
+-negates the Boolean :t:`value` of its nested :t:`configuration predicate`.
++.. glossary-entry:: not configuration predicate
++   
++   :glossary:
++     :dp:`fls_BVMlBterkFYq`
++     A :dt:`not configuration predicate` is a :t:`configuration predicate` that
++     negates the Boolean :t:`value` of its nested :t:`configuration predicate`.
++     
++     :dp:`fls_9j9AaNcv0VNA`
++     See :s:`ConfigurationPredicateNot`.
++   :chapter:
++     :dp:`fls_XsxeOd32JI8x`
++     A :t:`not configuration predicate` is a :t:`configuration predicate` that
++     negates the Boolean :t:`value` of its nested :t:`configuration predicate`.
+ 
+ :dp:`fls_tvsadfy9uibu`
+ A :t:`not configuration predicate` evaluates statically to ``true`` when its
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 73cddce..7f64b76 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -1224,9 +1224,19 @@ A :t:`trait` imported by a :t:`simple import` subject to a
+ :t:`renaming` with character underscore ``_`` is added into :t:`scope` without
+ a :t:`name`.
+ 
+-:dp:`fls_ldr7tsuqw34s`
+-A :t:`nesting import` is a :t:`use import` that provides a common
+-:t:`simple path prefix` for its nested :t:`[use import]s`.
++.. glossary-entry:: nesting import
++   
++   :glossary:
++     :dp:`fls_nhkqkdqo32xs`
++     A :dt:`nesting import` is a :t:`use import` that provides a common :t:`path`
++     prefix for its nested :t:`[use import]s`.
++     
++     :dp:`fls_z4d611glen13`
++     See :s:`NestingImport`.
++   :chapter:
++     :dp:`fls_ldr7tsuqw34s`
++     A :t:`nesting import` is a :t:`use import` that provides a common
++     :t:`simple path prefix` for its nested :t:`[use import]s`.
+ 
+ :dp:`fls_iNUBX5fJAI1N`
+ A :t:`glob import` outside of a :t:`nesting import` without a :t:`simple path
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 3ae1a24..28b0b0e 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -116,8 +116,17 @@ A :ds:`SubjectLetExpression` is any expression in category
+      An :t:`expression-without-block` is an :t:`expression` whose structure does not
+      involve a :t:`block expression`.
+ 
+-:dp:`fls_gwgttltgjma4`
+-An :t:`operand` is an :t:`expression` nested within an :t:`expression`.
++.. glossary-entry:: operand
++   
++   :glossary:
++     :dp:`fls_3mnn1au9ob6q`
++     An :dt:`operand` is an :t:`expression` nested within an expression.
++     
++     :dp:`fls_8299xfhdsd1`
++     See :s:`Operand`.
++   :chapter:
++     :dp:`fls_gwgttltgjma4`
++     An :t:`operand` is an :t:`expression` nested within an :t:`expression`.
+ 
+ .. glossary-entry:: binary operator
+    
+@@ -1088,8 +1097,17 @@ Operator Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ursc5ynymoy`
+-An :t:`operator expression` is an :t:`expression` that involves an operator.
++.. glossary-entry:: operator expression
++   
++   :glossary:
++     :dp:`fls_6ev01xwcfow1`
++     An :dt:`operator expression` is an :t:`expression` that involves an operator.
++     
++     :dp:`fls_qdszbyeuo7w1`
++     See :s:`OperatorExpression`.
++   :chapter:
++     :dp:`fls_ursc5ynymoy`
++     An :t:`operator expression` is an :t:`expression` that involves an operator.
+ 
+ .. rubric:: Dynamic Semantics
+ 
+@@ -2319,9 +2337,19 @@ of the :t:`right operand` is the :t:`trait implementation` :t:`type parameter`.
+ The :t:`value` of a :t:`less-than-or-equals expression` is the result of
+ ``core::cmp::PartialOrd::le(&left_operand, &right_operand)``.
+ 
+-:dp:`fls_w71j7i3n1kit`
+-A :t:`not-equals expression` is a :t:`comparison expression` that tests for
+-inequality.
++.. glossary-entry:: not-equals expression
++   
++   :glossary:
++     :dp:`fls_2hmynl94uusk`
++     A :dt:`not-equals expression` is a :t:`comparison expression` that tests for
++     inequality.
++     
++     :dp:`fls_5d6vvr9m35n2`
++     See :s:`NotEqualsExpression`.
++   :chapter:
++     :dp:`fls_w71j7i3n1kit`
++     A :t:`not-equals expression` is a :t:`comparison expression` that tests for
++     inequality.
+ 
+ :dp:`fls_qzo1torhv5i3`
+ The :t:`type` of the :t:`left operand` of a :t:`not-equals expression` shall
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index d2f6d77..fbf83a3 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -895,8 +895,17 @@ Numeric Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fqpqnku27v99`
+-A :t:`numeric literal` is a :t:`literal` that denotes a number.
++.. glossary-entry:: numeric literal
++   
++   :glossary:
++     :dp:`fls_978ndaqdv4r`
++     A :dt:`numeric literal` is a :t:`literal` that denotes a number.
++     
++     :dp:`fls_swue4tma9fmf`
++     See :s:`NumericLiteral`.
++   :chapter:
++     :dp:`fls_fqpqnku27v99`
++     A :t:`numeric literal` is a :t:`literal` that denotes a number.
+ 
+ .. _fls_2ed4axpsy9u0:
+ 
+@@ -1026,8 +1035,17 @@ Integer Literals
+      :dp:`fls_2268lchxkzjp`
+      A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
+ 
+-:dp:`fls_4v7awnutbpoe`
+-An :t:`octal literal` is an :t:`integer literal` in base 8.
++.. glossary-entry:: octal literal
++   
++   :glossary:
++     :dp:`fls_pf4341vnqiin`
++     An :dt:`octal literal` is an :t:`integer literal` in base 8.
++     
++     :dp:`fls_8u0n6xu0mizm`
++     See ``OctalLiteral.``
++   :chapter:
++     :dp:`fls_4v7awnutbpoe`
++     An :t:`octal literal` is an :t:`integer literal` in base 8.
+ 
+ .. glossary-entry:: integer suffix
+    
+@@ -1553,17 +1571,34 @@ Comments
+      An :t:`inner doc comment` is either an :t:`inner block doc` or an
+      :t:`inner line doc`.
+ 
+-:dp:`fls_63gzofa9ktic`
+-An :t:`outer block doc` is a :t:`block comment` that applies to a subsequent
+-:t:`non-[comment]` :t:`construct`.
++.. glossary-entry:: outer block doc
++   
++   :glossary:
++     :dp:`fls_531ggn1f8f6u`
++     An :dt:`outer block doc` is a :t:`block comment` that applies to a subsequent
++     :t:`non-[comment]` :t:`construct`.
++     
++     :dp:`fls_ddy9a66tpytp`
++     See :s:`OuterBlockDoc`.
++   :chapter:
++     :dp:`fls_63gzofa9ktic`
++     An :t:`outer block doc` is a :t:`block comment` that applies to a subsequent
++     :t:`non-[comment]` :t:`construct`.
+ 
+ :dp:`fls_scko7crha0um`
+ An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
+ :t:`non-[comment]` :t:`construct`.
+ 
+-:dp:`fls_RYVL9KgaxKvl`
+-An :t:`outer doc comment` is either an :t:`outer block doc` or an
+-:t:`outer line doc`.
++.. glossary-entry:: outer doc comment
++   
++   :glossary:
++     :dp:`fls_mgSEUNUPcPBs`
++     An :dt:`outer doc comment` is either an :t:`outer block doc` or an
++     :t:`outer line doc`.
++   :chapter:
++     :dp:`fls_RYVL9KgaxKvl`
++     An :t:`outer doc comment` is either an :t:`outer block doc` or an
++     :t:`outer line doc`.
+ 
+ .. glossary-entry:: doc comment
+    
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 0cd3af6..f8f1e4e 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -41,8 +41,17 @@ Patterns
+ A :t:`pattern` is a :t:`construct` that matches a :t:`value` which satisfies all
+ the criteria of the :t:`pattern`.
+ 
+-:dp:`fls_VQMmveZUfNTn`
+-An :t:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line).
++.. glossary-entry:: or-pattern
++   
++   :glossary:
++     :dp:`fls_LnPDQW3bnNUw`
++     An :dt:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line, i.e. ``|``).
++     
++     :dp:`fls_urIJ5JNHLhm6`
++     See :s:`Pattern`.
++   :chapter:
++     :dp:`fls_VQMmveZUfNTn`
++     An :t:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line).
+ 
+ :dp:`fls_mp6i4blzexnu`
+ A :t:`pattern-without-alternation` is a :t:`pattern` that cannot be alternated.
+@@ -323,9 +332,19 @@ Literal Patterns
+      :dp:`fls_pah15qa54irs`
+      A :t:`literal pattern` is a :t:`pattern` that matches a :t:`literal`.
+ 
+-:dp:`fls_COQKJC0dvtNO`
+-A :t:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric
+-literal`.
++.. glossary-entry:: numeric literal pattern
++   
++   :glossary:
++     :dp:`fls_azqQ3JxD5Lt7`
++     A :dt:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric
++     literal`.
++     
++     :dp:`fls_QYDZm7pKy1nW`
++     See :s:`LiteralPattern`.
++   :chapter:
++     :dp:`fls_COQKJC0dvtNO`
++     A :t:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric
++     literal`.
+ 
+ :dp:`fls_JP8YSbxSN0Ym`
+ A :t:`numeric literal pattern`'s :t:`numeric literal` value shall not be a IEEE
+@@ -570,9 +589,19 @@ within a range.
+      An :t:`exclusive range pattern` is a :t:`range pattern` with both a
+      :t:`range pattern low bound` and a :t:`range pattern high bound`.
+ 
+-:dp:`fls_akf9x5r6e0ta`
+-An :t:`obsolete range pattern` is a :t:`range pattern` that uses obsolete syntax
+-to express an :t:`inclusive range pattern`.
++.. glossary-entry:: obsolete range pattern
++   
++   :glossary:
++     :dp:`fls_ave42vwb45zb`
++     An :dt:`obsolete range pattern` is a :t:`range pattern` that uses obsolete
++     syntax to express an :t:`inclusive range pattern`.
++     
++     :dp:`fls_ta0wa8ta9ol4`
++     See :s:`ObsoleteRangePattern`.
++   :chapter:
++     :dp:`fls_akf9x5r6e0ta`
++     An :t:`obsolete range pattern` is a :t:`range pattern` that uses obsolete syntax
++     to express an :t:`inclusive range pattern`.
+ 
+ :dp:`fls_vrpr6ttpfpal`
+ A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
+@@ -1375,10 +1404,18 @@ A :t:`binding` with :t:`binding mode` :dt:`by reference` binds an
+ A :t:`binding` with :t:`binding mode` :dt:`by mutable reference` binds a
+ :t:`mutable reference` to the matched :t:`value` to the :t:`name`.
+ 
+-:dp:`fls_dqe75i8h2fie`
+-A :t:`non-reference pattern` is any :t:`pattern` except
+-:t:`non-[binding pattern]s`, :t:`[path pattern]s`, :t:`[reference pattern]s`,
+-and :t:`[underscore pattern]s`.
++.. glossary-entry:: non-reference pattern
++   
++   :glossary:
++     :dp:`fls_tejled5izyue`
++     A :dt:`non-reference pattern` is any :t:`pattern` except
++     :t:`non-[binding pattern]s`, :t:`[path pattern]s`, :t:`[reference pattern]s`,
++     and :t:`[underscore pattern]s`.
++   :chapter:
++     :dp:`fls_dqe75i8h2fie`
++     A :t:`non-reference pattern` is any :t:`pattern` except
++     :t:`non-[binding pattern]s`, :t:`[path pattern]s`, :t:`[reference pattern]s`,
++     and :t:`[underscore pattern]s`.
+ 
+ :dp:`fls_y3wuvj1y5j20`
+ If a :t:`binding pattern` does not explicitly specify :t:`keyword` ``ref``,
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 0e955ba..1840fef 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -385,6 +385,12 @@ inside the 0x000 - 0xD7FF or the 0xE000 - 0x10FFFF inclusive ranges of
+ Numeric Types
+ ~~~~~~~~~~~~~
+ 
++.. glossary-entry:: numeric type
++   
++   :glossary:
++     :dp:`fls_cpdsj94l57af`
++     A :dt:`numeric type` is a :t:`type` whose :t:`[value]s` denote numbers.
++
+ .. _fls_b4xporvr64s:
+ 
+ Floating Point Types
+@@ -1628,9 +1634,19 @@ Never Type
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_4u0v5uy95pyf`
+-The :t:`never type` is a :t:`type` that represents the result of a computation
+-that never completes.
++.. glossary-entry:: never type
++   
++   :glossary:
++     :dp:`fls_m9v5j6detob4`
++     The :dt:`never type` is a :t:`type` that represents the result of a computation
++     that never completes.
++     
++     :dp:`fls_k5z1vjxepnfj`
++     See :s:`NeverType`.
++   :chapter:
++     :dp:`fls_4u0v5uy95pyf`
++     The :t:`never type` is a :t:`type` that represents the result of a computation
++     that never completes.
+ 
+ :dp:`fls_xmtc10qzw0ui`
+ The :t:`never type` has no :t:`[value]s`.
+@@ -3292,10 +3308,24 @@ Circle is a subtrait of Shape.
+ Object Safety
+ ~~~~~~~~~~~~~
+ 
++.. glossary-entry:: object safety
++   
++   :glossary:
++     :dp:`fls_vqmng1l9ab8a`
++     :dt:`Object safety` is the process of determining whether a :t:`trait` can be
++     used as a :t:`trait object type`.
++
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_lrdki56hpc3k`
+-A :t:`trait` is :t:`object safe` when:
++.. glossary-entry:: object safe
++   
++   :glossary:
++     :dp:`fls_oa2jiklr5nl2`
++     A :t:`trait` is :dt:`object safe` when it can be used as a
++     :t:`trait object type`.
++   :chapter:
++     :dp:`fls_lrdki56hpc3k`
++     A :t:`trait` is :t:`object safe` when:
+ 
+ * :dp:`fls_5wlltclogfkw`
+   Its :t:`[supertrait]s` are :t:`object safe`, and
+@@ -3432,9 +3462,16 @@ A :s:`ForGenericParameterList` shall not specify :s:`[ConstantParameter]s` or
+      list of :t:`[bound]s` for all possible :t:`[lifetime]s` specified by the
+      :s:`ForGenericParameterList`.
+ 
+-:dp:`fls_AzuZmR9DXSQh`
+-An :t:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
+-that nullifies an implicitly added :t:`trait bound`.
++.. glossary-entry:: opt-out trait bound
++   
++   :glossary:
++     :dp:`fls_wS4EzN0N1GDP`
++     An :dt:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
++     that nullifies an implicitly added :t:`trait bound`.
++   :chapter:
++     :dp:`fls_AzuZmR9DXSQh`
++     An :t:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
++     that nullifies an implicitly added :t:`trait bound`.
+ 
+ :dp:`fls_1Sm2Yq1Ow76f`
+ An :t:`outlives bound` is a :t:`trait bound` which requires that a
+diff --git a/src/values.rst b/src/values.rst
+index 0f2c0a0..377cd57 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -48,6 +48,12 @@ Two :t:`[value]s` :t:`overlap` when
+ * :dp:`fls_eoak5mdl6ma`
+   Both :t:`[value]s` are elements of the same :t:`array`.
+ 
++.. glossary-entry:: null
++   
++   :glossary:
++     :dp:`fls_8sh17t37b2ml`
++     A :dc:`null` :t:`value` denotes the address ``0``.
++
+ .. rubric:: Undefined Behavior
+ 
+ :dp:`fls_6lg0oaaopc26`
+
+[91m[1m| [0m[90m Bash     [0mStage updated glossary migration files
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch
+
+[glossary-single-source-phase1 6d3a2bc] docs(glossary): migrate next 20 glossary terms
+ 7 files changed, 219 insertions(+), 46 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShow git status after commit
+Migrated the next 20 glossary terms into `.. glossary-entry::` blocks across the relevant chapters, including glossary-only inserts for `null`, `numeric type`, and `object safety`. Updated the term-map metadata and marked the checklist entries complete.
+
+- Updated files: `src/attributes.rst`, `src/entities-and-resolution.rst`, `src/expressions.rst`, `src/lexical-elements.rst`, `src/patterns.rst`, `src/types-and-traits.rst`, `src/values.rst`
+- Checklist updated: `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`
+- Term map updated: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`
+- Commit: `6d3a2bc` (`docs(glossary): migrate next 20 glossary terms`)
+
+Tests and verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next steps if you want me to continue:
+1. Start the next batch of 20 unchecked terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

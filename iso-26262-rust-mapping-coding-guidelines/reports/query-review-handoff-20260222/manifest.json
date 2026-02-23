@@ -1,0 +1,72 @@
+{
+  "allow_degraded": false,
+  "bundle_dir": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/reports/rust_reference/query_reviews/five-query-hybrid-20260222",
+  "bundle_id": "five-query-hybrid-20260222",
+  "candidate_limit": 200,
+  "entries": [
+    {
+      "artifact_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/reports/rust_reference/query_reviews/five-query-hybrid-20260222/20260222T001709Z__ret-resolve-001__hybrid.json",
+      "error_code": "",
+      "error_message": "",
+      "mode": "hybrid",
+      "prompt_id": "RET-RESOLVE-001",
+      "status": "pass"
+    },
+    {
+      "artifact_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/reports/rust_reference/query_reviews/five-query-hybrid-20260222/20260222T001709Z__ret-resolve-002__hybrid.json",
+      "error_code": "",
+      "error_message": "",
+      "mode": "hybrid",
+      "prompt_id": "RET-RESOLVE-002",
+      "status": "pass"
+    },
+    {
+      "artifact_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/reports/rust_reference/query_reviews/five-query-hybrid-20260222/20260222T001709Z__ret-resolve-003__hybrid.json",
+      "error_code": "",
+      "error_message": "",
+      "mode": "hybrid",
+      "prompt_id": "RET-RESOLVE-003",
+      "status": "pass"
+    },
+    {
+      "artifact_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/reports/rust_reference/query_reviews/five-query-hybrid-20260222/20260222T001709Z__ret-resolve-004__hybrid.json",
+      "error_code": "",
+      "error_message": "",
+      "mode": "hybrid",
+      "prompt_id": "RET-RESOLVE-004",
+      "status": "pass"
+    },
+    {
+      "artifact_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/reports/rust_reference/query_reviews/five-query-hybrid-20260222/20260222T001709Z__ret-resolve-005__hybrid.json",
+      "error_code": "",
+      "error_message": "",
+      "mode": "hybrid",
+      "prompt_id": "RET-RESOLVE-005",
+      "status": "pass"
+    }
+  ],
+  "generated_at": "2026-02-22T00:20:29+00:00",
+  "include_score_breakdown": true,
+  "mode_override": [
+    "hybrid"
+  ],
+  "prompts_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/data/query_testsets/rust_reference_table1_retrieval_eval.yaml",
+  "schema_version": 1,
+  "semantic_config": {
+    "allow_online_corpus_embedding": false,
+    "base_url": "http://127.0.0.1:8080",
+    "embed_base_url": "http://127.0.0.1:19080",
+    "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+    "persist_semantic_cache": true,
+    "rerank_base_url": "http://127.0.0.1:19081",
+    "reranker_model_id": "BAAI/bge-reranker-v2-m3",
+    "semantic_retries": 0,
+    "timeout_sec": 120.0
+  },
+  "summary": {
+    "failed_case_count": 0,
+    "selected_prompt_count": 5,
+    "written_artifact_count": 5
+  },
+  "top_k": 8
+}

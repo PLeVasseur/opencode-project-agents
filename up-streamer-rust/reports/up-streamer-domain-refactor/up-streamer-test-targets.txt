@@ -1,0 +1,42 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.47s
+     Running unittests src/lib.rs (target/debug/deps/up_streamer-861ff201d1e46e1b)
+ustreamer::tests::add_forwarding_rule_rolls_back_on_listener_insert_failure: test
+ustreamer::tests::multi_map_allows_both_sources: test
+ustreamer::tests::publish_filter_allows_left_wildcard: test
+ustreamer::tests::publish_filter_blocks_mismatched_tuple: test
+ustreamer::tests::publish_filter_blocks_unmapped_authority: test
+ustreamer::tests::publish_filter_dedupes_overlapping_rows: test
+ustreamer::tests::publish_filter_respects_topic_authority: test
+ustreamer::tests::right_side_wildcard_does_not_forward_without_rule: test
+ustreamer::tests::right_side_wildcard_forwards_to_registered_authorities: test
+ustreamer::tests::test_advanced_where_there_is_a_local_endpoint_and_two_remote_endpoints: test
+ustreamer::tests::test_advanced_where_there_is_a_local_endpoint_and_two_remote_endpoints_but_the_remote_endpoints_have_the_same_instance_of_utransport: test
+ustreamer::tests::test_simple_with_a_single_input_and_output_endpoint: test
+ustreamer::tests::unregistration_removes_publish_filters: test
+
+13 tests, 0 benchmarks
+     Running tests/single_local_single_remote.rs (target/debug/deps/single_local_single_remote-2ae8f36380fa4772)
+single_local_single_remote: test
+
+1 test, 0 benchmarks
+     Running tests/single_local_two_remote_add_remove_rules.rs (target/debug/deps/single_local_two_remote_add_remove_rules-de0cadce9b3caaf9)
+single_local_two_remote_add_remove_rules: test
+
+1 test, 0 benchmarks
+     Running tests/single_local_two_remote_authorities_different_remote_transport.rs (target/debug/deps/single_local_two_remote_authorities_different_remote_transport-96c674d98d442f37)
+single_local_two_remote_authorities_different_remote_transport: test
+
+1 test, 0 benchmarks
+     Running tests/single_local_two_remote_authorities_same_remote_transport.rs (target/debug/deps/single_local_two_remote_authorities_same_remote_transport-51af832fe078efed)
+single_local_two_remote_authorities_same_remote_transport: test
+
+1 test, 0 benchmarks
+     Running tests/usubscription.rs (target/debug/deps/usubscription-02a7d3fe10788aea)
+usubscription_bad_data: test
+
+1 test, 0 benchmarks
+   Doc-tests up_streamer
+up-streamer/src/endpoint.rs - endpoint::Endpoint (line 27): test
+up-streamer/src/ustreamer.rs - ustreamer::UStreamer (line 498): test
+
+2 tests, 0 benchmarks

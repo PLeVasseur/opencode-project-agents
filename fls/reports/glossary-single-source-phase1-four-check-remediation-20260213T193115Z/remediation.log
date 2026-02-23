@@ -1,0 +1,19 @@
+[2026-02-13T19:31:17Z] M0 complete discovery=new basis=scan-none-new-run
+[2026-02-13T19:32:25Z] reconciliation decision: M1B
+[2026-02-13T19:33:02Z] reconciliation decision: M2
+[2026-02-13T19:33:30Z] M2 backup refs validated and stage complete
+[2026-02-13T19:36:16Z] M3 diagnostics complete and drift signatures captured
+[2026-02-13T19:38:28Z] M4 remediation edits applied
+[2026-02-13T19:43:36Z] M5 parity gates passed
+[2026-02-13T19:46:02Z] M6 restack complete old4=e86d544b64753e7b3cf45d7f41827fea1804f76c new4=43d43c608e2e48d84a6936311229544a57e0b3b4
+[2026-02-13T19:52:55Z] M6 rerestack finalized new2=279fe01e7069842615346d08cba7a6beab74897c new3=73e0ca1905cd66c2b6bad94375519698951b26cf new4=2806ae66af329fd5fed383dac69931052bef30cb
+[2026-02-14T00:00:00Z] schema/checklist v2 sync completed; reset stages M4-M7 for targeted hygiene parity rerun
+[2026-02-13T20:01:00Z] M4 targeted hygiene list parity fix applied in src/macros.rst
+[2026-02-13T20:07:00Z] M5 parity gates passed (chapter/anchor/dp diagnostic diffs empty)
+[2026-02-13T20:17:00Z] M6 rerestack finalized new1=06da2fde57a1b195325e91fa322614ce1bbe2d04 new2=85a60b64f816b284a3191dfc730b9e5d8ac49030 new3=6716db3a49cfbffa30ccac3a51cf76ebd9ab60a7 new4=1132eb4c632c0d1b65bc7000d9bced2fca3842bd
+[2026-02-13T20:53:00Z] M7 verification matrix passed (all RC=0, all result lines no differences)
+[2026-02-13T20:56:00Z] M8 integrity-chain report written and pending canonical update set
+[2026-02-13T20:58:00Z] M9 push confirmed on origin/glossary-single-source-phase1-repack-upstream-main at 1132eb4c632c0d1b65bc7000d9bced2fca3842bd
+[2026-02-13T21:00:00Z] M9b canonical state/report/summary updated idempotently for run 20260213T193115Z
+[2026-02-13T21:02:00Z] rollback hard-sha=e86d544b64753e7b3cf45d7f41827fea1804f76c backup-branch=backup/glossary-single-source-phase1-four-check-pre-remediation-20260213T193115Z backup-tag=backup-glossary-single-source-phase1-four-check-pre-remediation-20260213T193115Z
+[2026-02-13T21:03:00Z] M10 complete; manual-review stop point reached with clean worktree and preserved rollback refs

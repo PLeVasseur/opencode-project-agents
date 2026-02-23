@@ -1,0 +1,13 @@
+{
+  "batch_number": 1,
+  "ids": [
+    "WA-001"
+  ],
+  "prompt": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails-v3/orchestrator-dryrun-v3/batch-001-prompt.md",
+  "term_lock_manifest": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails-v3/orchestrator-dryrun-v3/batch-001-term-lock.json",
+  "terms": [
+    "value"
+  ],
+  "timestamp": "20260211T234619Z",
+  "wave": "WA"
+}

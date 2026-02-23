@@ -1,0 +1,230 @@
+{
+  "batch_number": 11,
+  "batch_prefix": "batch-011",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-021",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (6/10 refs)",
+      "recommended_section": "Enum Types",
+      "relocation_priority": "high",
+      "term": "discriminant"
+    },
+    {
+      "checklist_id": "WB-022",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (3/4 refs)",
+      "recommended_section": "Struct Types",
+      "relocation_priority": "high",
+      "term": "field index"
+    },
+    {
+      "checklist_id": "WB-023",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Most referenced here (14/31 refs)",
+      "recommended_section": "Statics",
+      "relocation_priority": "high",
+      "term": "static"
+    },
+    {
+      "checklist_id": "WB-024",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:122 precedes definition",
+      "recommended_section": "Expressions",
+      "relocation_priority": "high",
+      "term": "evaluation"
+    },
+    {
+      "checklist_id": "WB-025",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Enum Types",
+      "relocation_priority": "high",
+      "term": "enum variant value"
+    },
+    {
+      "checklist_id": "WB-026",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "ffi.rst",
+      "recommended_reason": "Most referenced here (1/3 refs)",
+      "recommended_section": "External Statics",
+      "relocation_priority": "high",
+      "term": "immutable"
+    },
+    {
+      "checklist_id": "WB-027",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (7/7 refs)",
+      "recommended_section": "Integer Types",
+      "relocation_priority": "high",
+      "term": "signed integer type"
+    },
+    {
+      "checklist_id": "WB-028",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "statements.rst",
+      "recommended_reason": "First reference at statements.rst:44 precedes definition",
+      "recommended_section": "Statements",
+      "relocation_priority": "high",
+      "term": "execution"
+    },
+    {
+      "checklist_id": "WB-029",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "functions.rst",
+      "recommended_reason": "Most referenced here (5/20 refs)",
+      "recommended_section": "Functions",
+      "relocation_priority": "high",
+      "term": "function body"
+    },
+    {
+      "checklist_id": "WB-030",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "attributes.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Attributes",
+      "relocation_priority": "high",
+      "term": "attribute content"
+    },
+    {
+      "checklist_id": "WB-031",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "ownership-and-deconstruction.rst",
+      "recommended_reason": "Most referenced here (1/3 refs)",
+      "recommended_section": "Borrowing",
+      "relocation_priority": "high",
+      "term": "borrowed"
+    },
+    {
+      "checklist_id": "WB-032",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (3/19 refs)",
+      "recommended_section": "Refutability",
+      "relocation_priority": "high",
+      "term": "irrefutable pattern"
+    },
+    {
+      "checklist_id": "WB-033",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Record Struct Patterns",
+      "relocation_priority": "high",
+      "term": "record enum variant"
+    },
+    {
+      "checklist_id": "WB-034",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (5/5 refs)",
+      "recommended_section": "Structural Equality",
+      "relocation_priority": "high",
+      "term": "structurally equal"
+    },
+    {
+      "checklist_id": "WB-035",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Self Scope",
+      "relocation_priority": "high",
+      "term": "implementation body"
+    },
+    {
+      "checklist_id": "WB-036",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Values",
+      "relocation_priority": "high",
+      "term": "dangling"
+    },
+    {
+      "checklist_id": "WB-037",
+      "divergence_match_category": "inline_definition",
+      "divergence_reliability": "medium",
+      "placement_fitness": "poor",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (1/2 refs)",
+      "recommended_section": "Reference Patterns",
+      "relocation_priority": "high",
+      "term": "pointer"
+    },
+    {
+      "checklist_id": "WB-038",
+      "divergence_match_category": "moderate_divergence",
+      "divergence_reliability": "medium",
+      "placement_fitness": "poor",
+      "recommended_file": "macros.rst",
+      "recommended_reason": "First reference at macros.rst:845 precedes definition",
+      "recommended_section": "Token Matching",
+      "relocation_priority": "high",
+      "term": "underscore expression"
+    },
+    {
+      "checklist_id": "WB-039",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (2/8 refs)",
+      "recommended_section": "Array Types",
+      "relocation_priority": "high",
+      "term": "element type"
+    },
+    {
+      "checklist_id": "WB-040",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Most referenced here (1/1 refs)",
+      "recommended_section": "Variables",
+      "relocation_priority": "high",
+      "term": "mutable variable"
+    }
+  ],
+  "timestamp": "20260212T231603Z",
+  "wave": "WB"
+}

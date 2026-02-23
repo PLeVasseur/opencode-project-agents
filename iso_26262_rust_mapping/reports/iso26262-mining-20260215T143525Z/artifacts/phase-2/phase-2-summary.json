@@ -1,0 +1,7 @@
+{
+  "extract_decision_count": 176,
+  "phase_checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-2.done.json",
+  "required_parts_completeness": "3/3",
+  "run_id": "20260215T143525Z",
+  "timestamp_utc": "2026-02-15T14:51:49Z"
+}

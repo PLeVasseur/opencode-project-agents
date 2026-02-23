@@ -1,0 +1,7 @@
+35c5f87 feat(changelog): add Sphinx-aware changelog automation
+c54af32 feat(changelog-tags): add verifier harness and schema
+4836a75 test(changelog-tags): add verifier fixtures and case manifest
+bc4a67c ci(changelog-tags): run verifier in PR and nightly
+d89e324 fix(changelog-assistant): anchor updates to existing upstream PR entries
+28b542b ci(changelog-assistant): run coverage checks in pull requests
+216668c fix(changelog-assistant): preserve anchored entry title by default

@@ -1,0 +1,5 @@
+canonical_match_count_after_second_run=1
+canonical_match_lines_after_second_run=29
+diff_files_identical=True
+first_patch_bytes=0
+second_patch_bytes=0

@@ -1,0 +1,17 @@
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.55s
+   Doc-tests up_streamer
+
+running 7 tests
+test up-streamer/src/control_plane/mod.rs - control_plane (line 7) ... ignored
+test up-streamer/src/data_plane/mod.rs - data_plane (line 7) ... ignored
+test up-streamer/src/routing/mod.rs - routing (line 6) ... ignored
+test up-streamer/src/runtime/mod.rs - runtime (line 6) ... ignored
+test up-streamer/src/endpoint.rs - endpoint::Endpoint (line 23) ... ok
+test up-streamer/src/lib.rs - (line 24) ... ok
+test up-streamer/src/lib.rs - (line 94) ... ok
+
+test result: ok. 3 passed; 0 failed; 4 ignored; 0 measured; 0 filtered out; finished in 1.99s
+

@@ -1,0 +1,5 @@
+580:            "anchored_pr_url": anchor["entry_url"],
+588:            "anchored_pr_url": None,
+610:        "anchored_pr_url": update_metadata.get("anchored_pr_url"),
+645:        if report["anchored_pr_url"]:
+646:            lines.append(f"- anchored PR URL: `{report['anchored_pr_url']}`")

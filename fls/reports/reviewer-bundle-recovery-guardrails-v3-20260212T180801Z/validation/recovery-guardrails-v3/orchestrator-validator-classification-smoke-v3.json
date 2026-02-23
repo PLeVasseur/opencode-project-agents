@@ -1,0 +1,11 @@
+{
+  "hard_codes": [],
+  "quarantined": {
+    "WA-001": "validator failed_uuid_guardrail: FAILED_UUID_GUARDRAIL: WA-001: missing rationale_uuid",
+    "WA-002": "validator failed_recommendation_lock: FAILED_RECOMMENDATION_LOCK: WA-002: high/medium non-recommended decision missing deviation_permit_sha256",
+    "WA-003": "validator error: WA-003: missing decision_detail (completed-row)"
+  },
+  "unresolved": [
+    "checklist and ledger ID sets differ"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "canonical_checksum": "670c42786cd1a3c36755999b688db84ab8bb4dba2fdceeb78988a3007b79470e",
+  "checkpoint": "phase-4.done",
+  "input_hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/verify.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/finalize.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/verify/verify-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/finalize/final-summary.md",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/finalize/run-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/phase-2/phase-2-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/source-hash-evidence.jsonc"
+  ],
+  "phase": 4,
+  "phase_commits": [
+    {
+      "id": "C9",
+      "sha": "b9028fc07f77687565963b89aef35f9dc482456d",
+      "subject": "feat(trace-miner): implement verify gates and compliance checks"
+    },
+    {
+      "id": "C10",
+      "sha": "368cda68cb9d432743d7fbdb475a1f81acee6723",
+      "subject": "chore(ci,docs): add CI jobs and operator runbook workflows"
+    },
+    {
+      "id": "C11",
+      "sha": "cb698b5b07289fba5561a7c63c2f66266ad363f2",
+      "subject": "chore(trace-data): refresh required-part source hash evidence and lock provenance"
+    },
+    {
+      "id": "C12",
+      "sha": "94df8946337f054493713ebd3c5e43e13264e328",
+      "subject": "feat(trace-data): publish pilot normalized corpus and evidence"
+    }
+  ],
+  "run_id": "20260215T143525Z",
+  "stage_set": [
+    "verify",
+    "finalize"
+  ],
+  "timestamp_utc": "2026-02-15T15:00:01Z"
+}

@@ -1,0 +1,38 @@
+{
+  "definitions": {
+    "oversized_paragraph_rate_pct": {
+      "denominator": "paragraph units",
+      "numerator": "paragraphs above oversized token limit",
+      "zero_denominator": "100.0"
+    },
+    "paragraph_fragment_end_rate_pct": {
+      "denominator": "paragraph units",
+      "numerator": "paragraphs with fragment-like endings",
+      "zero_denominator": "100.0"
+    },
+    "paragraph_fragment_start_rate_pct": {
+      "denominator": "paragraph units",
+      "numerator": "paragraphs with connector/lowercase starts",
+      "zero_denominator": "100.0"
+    },
+    "paragraph_singleton_page_rate_pct": {
+      "denominator": "pages with paragraph units",
+      "numerator": "pages with exactly one paragraph unit",
+      "zero_denominator": "100.0"
+    },
+    "triad_source_set_identity_rate_pct": {
+      "denominator": "multi-type pages",
+      "numerator": "multi-type pages with dominant source signature identity",
+      "zero_denominator": "100.0"
+    },
+    "unit_type_provenance_overlap_rate_pct": {
+      "denominator": "type-pair comparisons",
+      "numerator": "average pairwise provenance overlap",
+      "zero_denominator": "0.0"
+    }
+  },
+  "percent_metric_bounds": "[0,100]",
+  "run_id": "pr1-20260216T044416Z",
+  "schema_version": 2,
+  "timestamp_utc": "2026-02-16T04:44:21Z"
+}

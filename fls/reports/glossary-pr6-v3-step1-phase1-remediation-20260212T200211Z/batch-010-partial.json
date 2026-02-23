@@ -1,0 +1,29 @@
+{
+  "batch_number": 10,
+  "passed_ids": [
+    "WB-001",
+    "WB-002",
+    "WB-003",
+    "WB-004",
+    "WB-005",
+    "WB-006",
+    "WB-007",
+    "WB-008",
+    "WB-009",
+    "WB-010",
+    "WB-011",
+    "WB-012",
+    "WB-013",
+    "WB-014",
+    "WB-015",
+    "WB-016",
+    "WB-018",
+    "WB-019"
+  ],
+  "quarantined": {
+    "WB-017": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)",
+    "WB-020": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/ownership-and-deconstruction.rst)"
+  },
+  "timestamp": "20260212T231558Z",
+  "wave": "WB"
+}

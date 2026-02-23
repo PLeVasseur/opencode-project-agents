@@ -1,0 +1,19 @@
+usage: changelog_assistant.py [-h] [--check] [--update] [--release RELEASE]
+                              [--base BASE] [--upstream-pr UPSTREAM_PR]
+                              [--title TITLE] [--emit-report EMIT_REPORT]
+                              [--require-tags] [--require-anchor]
+
+options:
+  -h, --help            show this help message and exit
+  --check               verify changelog coverage
+  --update              update src/changelog.rst
+  --release RELEASE     release version, defaults to version.rst
+  --base BASE           git base ref
+  --upstream-pr UPSTREAM_PR
+                        upstream rust-lang/rust PR URL
+  --title TITLE         release item title
+  --emit-report EMIT_REPORT
+                        base path for report files
+  --require-tags        require Change tags lines
+  --require-anchor      require --upstream-pr (explicit or inferred) to match
+                        an existing release entry

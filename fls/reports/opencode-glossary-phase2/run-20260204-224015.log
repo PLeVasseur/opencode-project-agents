@@ -1,0 +1,1250 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms
+
+warning: glossary-entry not found in src files: send type
+warning: glossary-entry not found in src files: separator
+warning: glossary-entry not found in src files: sequence type
+warning: glossary-entry not found in src files: shadowing
+warning: glossary-entry not found in src files: shared borrow
+warning: glossary-entry not found in src files: shared reference
+warning: glossary-entry not found in src files: shared reference type
+warning: glossary-entry not found in src files: shift left assignment
+warning: glossary-entry not found in src files: shift left assignment expression
+warning: glossary-entry not found in src files: shift left expression
+warning: glossary-entry not found in src files: shift right assignment
+warning: glossary-entry not found in src files: shift right assignment expression
+warning: glossary-entry not found in src files: shift right expression
+warning: glossary-entry not found in src files: shorthand deconstructor
+warning: glossary-entry not found in src files: shorthand initializer
+warning: glossary-entry not found in src files: signed integer type
+warning: glossary-entry not found in src files: simple byte string literal
+warning: glossary-entry not found in src files: simple c string literal
+warning: glossary-entry not found in src files: simple import
+warning: glossary-entry not found in src files: simple path
+warning: no new term-map entries to write
+
+[93m[1m| [0m[90m Todo     [0m4 todos
+[94m[1m| [0m[90m Grep     [0m:dt:`(send type|separator|sequence type|shadowing|shared borrow|shared reference|shared reference type|shift left assignment|shift left assignment expression|shift left expression|shift right assignment|shift right assignment expression|shift right expression|shorthand deconstructor|shorthand initializer|signed integer type|simple byte string literal|simple c string literal|simple import|simple path)`
+[94m[1m| [0m[90m Grep     [0mshadowing
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0msend type|separator|sequence type|shadowing|shared borrow|shared reference type|shared reference|shift left assignment expression|shift left assignment|shift left expression|shift right assignment expression|shift right assignment|shift right expression|shorthand deconstructor|shorthand initializer|signed integer type|simple byte string literal|simple c string literal|simple import|simple path
+[94m[1m| [0m[90m Grep     [0msimple byte string literal|simple c string literal
+[94m[1m| [0m[90m Grep     [0mseparator
+[94m[1m| [0m[90m Grep     [0msequence type
+[94m[1m| [0m[90m Grep     [0m:dt:`sequence type`
+[94m[1m| [0m[90m Grep     [0msend type
+[94m[1m| [0m[90m Grep     [0mShadowing
+[94m[1m| [0m[90m Grep     [0mshared borrow
+[94m[1m| [0m[90m Grep     [0m:dt:`shift left expression`|:dt:`shift right expression`|:dt:`shift left assignment expression`|:dt:`shift right assignment expression`
+[94m[1m| [0m[90m Grep     [0mshorthand deconstructor
+[94m[1m| [0m[90m Grep     [0mshared reference
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`shared reference` is
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0msigned integer type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/concurrency.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mimmutable borrow expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for send type
+
+.. glossary-entry:: send type
+   
+   :glossary:
+     :dp:`fls_qfkng98dw6yy`
+     A :dt:`send type` is a :t:`type` that implements the :std:`core::marker::Send`
+     :t:`trait`.
+   :chapter:
+     :dp:`fls_2jujsujpjp3w`
+     A :t:`send type` is a :t:`type` that implements the :std:`core::marker::Send`
+     :t:`trait`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for separator
+
+.. glossary-entry:: separator
+   
+   :glossary:
+     :dp:`fls_128xny4qfcj5`
+     A :dt:`separator` is a character or a string that separates adjacent
+     :t:`[lexical element]s`.
+   :chapter:
+     :dp:`fls_a6t53o8h1vdk`
+     A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
+     element]s`. A :t:`whitespace string` is a :t:`separator`.
+     
+     .. glossary-entry:: punctuator
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for separator with manual chapter lines
+
+/bin/bash: line 1: fls_a6t53o8h1vdk: command not found
+/bin/bash: line 1: separator: command not found
+/bin/bash: line 1: [lexical --chapter-line element]s: command not found
+/bin/bash: line 1: whitespace: command not found
+/bin/bash: line 1: separator: command not found
+.. glossary-entry:: separator
+   
+   :glossary:
+     :dp:`fls_128xny4qfcj5`
+     A :dt:`separator` is a character or a string that separates adjacent
+     :t:`[lexical element]s`.
+   :chapter:
+     :dp:
+     A :t: is a character or a string that separates adjacent :t:. A :t: is a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate separator glossary-entry with escaped lines
+
+.. glossary-entry:: separator
+   
+   :glossary:
+     :dp:`fls_128xny4qfcj5`
+     A :dt:`separator` is a character or a string that separates adjacent
+     :t:`[lexical element]s`.
+   :chapter:
+     :dp:`fls_a6t53o8h1vdk`
+     A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
+     element]s`. A :t:`whitespace string` is a :t:`separator`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for sequence type
+
+.. glossary-entry:: sequence type
+   
+   :glossary:
+     :dp:`fls_lk1oslxh8h9p`
+     A :dt:`sequence type` represents a sequence of elements.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shadowing
+
+.. glossary-entry:: shadowing
+   
+   :glossary:
+     :dp:`fls_li3NXOPEH9cL`
+     :dt:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
+     :dt:`shadowed` when another :t:`name` with the same characters is introduced
+     in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
+   :chapter:
+     :dp:`fls_ob0riinmitkl`
+     :t:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
+     :t:`shadowed` when another :t:`name` with the same characters is introduced
+     in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
+     A :t:`name` cannot be referred to by any means once it is :t:`shadowed`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shared borrow
+
+.. glossary-entry:: shared borrow
+   
+   :glossary:
+     :dp:`fls_gmbskxin90zi`
+     A :dt:`shared borrow` is a :t:`borrow` produced by evaluating an
+     :t:`immutable borrow expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shared reference
+
+.. glossary-entry:: shared reference
+   
+   :glossary:
+     :dp:`fls_cspa4c5mscnw`
+     A :dt:`shared reference` is a :t:`value` of a :t:`shared reference type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shared reference type
+
+.. glossary-entry:: shared reference type
+   
+   :glossary:
+     :dp:`fls_8z9wb3eu5yp1`
+     A :dt:`shared reference type` is a :t:`reference type` not subject to
+     :t:`keyword` ``mut``.
+   :chapter:
+     :dp:`fls_w4NbA7WhZfR2`
+     A :t:`shared reference type` is a :t:`reference type` not subject to
+     :t:`keyword` ``mut``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shift left assignment
+
+.. glossary-entry:: shift left assignment
+   
+   :glossary:
+     :dp:`fls_6adWrtvab6Tw`
+     For :dt:`shift left assignment`, see :t:`shift left assignment expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shift left assignment expression
+
+.. glossary-entry:: shift left assignment expression
+   
+   :glossary:
+     :dp:`fls_j15ke2p8cjfp`
+     A :dt:`shift left assignment expression` is a
+     :t:`compound assignment expression` that uses bit shift left arithmetic.
+     
+     :dp:`fls_ozu74fsakomn`
+     See :s:`ShiftLeftAssignmentExpression`.
+   :chapter:
+     :dp:`fls_oy9ur11k78t`
+     A :t:`shift left assignment expression` is a :t:`compound assignment expression`
+     that uses bit shift left arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shift left expression
+
+.. glossary-entry:: shift left expression
+   
+   :glossary:
+     :dp:`fls_phiv6k4emauc`
+     A :dt:`shift left expression` is a :t:`bit expression` that uses bit shift left
+     arithmetic.
+     
+     :dp:`fls_56lu9kenzig9`
+     See :s:`ShiftLeftExpression`.
+   :chapter:
+     :dp:`fls_caxn774ij8lk`
+     A :t:`shift left expression` is a :t:`bit expression` that uses bit shift left
+     arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shift right assignment
+
+.. glossary-entry:: shift right assignment
+   
+   :glossary:
+     :dp:`fls_XuwcHjwHdyA8`
+     For :dt:`shift right assignment`, see :t:`shift right assignment expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shift right assignment expression
+
+.. glossary-entry:: shift right assignment expression
+   
+   :glossary:
+     :dp:`fls_1jpnp7hatlmu`
+     A :dt:`shift right assignment expression` is a
+     :t:`compound assignment expression` that uses bit shift right arithmetic.
+     
+     :dp:`fls_naqzlebew1uf`
+     See :s:`ShiftRightAssignmentExpression`.
+   :chapter:
+     :dp:`fls_s7rey2bndfei`
+     A :t:`shift right assignment expression` is a
+     :t:`compound assignment expression` that uses bit shift right arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shift right expression
+
+.. glossary-entry:: shift right expression
+   
+   :glossary:
+     :dp:`fls_j6itily0u0k9`
+     A :dt:`shift right expression` is a :t:`bit expression` that uses bit shift
+     right arithmetic.
+     
+     :dp:`fls_ex1mopil8w1p`
+     See :s:`ShiftRightExpression`.
+   :chapter:
+     :dp:`fls_t709sl4co3al`
+     A :t:`shift right expression` is a :t:`bit expression` that uses bit shift right
+     arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shorthand deconstructor
+
+.. glossary-entry:: shorthand deconstructor
+   
+   :glossary:
+     :dp:`fls_22yxrde244w8`
+     A :dt:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
+     of a :t:`field` and binds the :t:`value` of the matched :t:`field` to a
+     :t:`binding`.
+     
+     :dp:`fls_rlo4237bgbwt`
+     See :s:`ShorthandDeconstructor`.
+   :chapter:
+     :dp:`fls_9wfizujx0szd`
+     A :t:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
+     of a :t:`field` and binds the :t:`value` of the matched :t:`field` to a
+     :t:`binding`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for shorthand initializer
+
+.. glossary-entry:: shorthand initializer
+   
+   :glossary:
+     :dp:`fls_bgxxg48snck1`
+     A :dt:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
+     of a :t:`field` in a :t:`struct expression`.
+     
+     :dp:`fls_qc08ydgmqudi`
+     See :s:`ShorthandInitializer`.
+   :chapter:
+     :dp:`fls_57t368kema7h`
+     A :t:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
+     of a :t:`field` in a :t:`struct expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for signed integer type
+
+.. glossary-entry:: signed integer type
+   
+   :glossary:
+     :dp:`fls_vcronf7l2bhy`
+     A :dt:`signed integer type` is an :t:`integer type` whose :t:`[value]s` denote
+     negative whole numbers, zero, and positive whole numbers.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple byte string literal
+
+.. glossary-entry:: simple byte string literal
+   
+   :glossary:
+     :dp:`fls_XpbU4Up0Aza8`
+     A :dt:`simple byte string literal` is a :t:`byte string literal` that consists
+     of multiple :s:`[AsciiCharacter]s`.
+     
+     :dp:`fls_OfI70zK68TnQ`
+     See :s:`SimpleByteStringLiteral`.
+   :chapter:
+     :dp:`fls_moe3zfx39ox2`
+     A :t:`simple byte string literal` is a :t:`byte string literal` that consists of multiple
+     :s:`[AsciiCharacter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple c string literal
+
+.. glossary-entry:: simple c string literal
+   
+   :glossary:
+     :dp:`fls_qoHXrmds9SgI`
+     A :dt:`simple c string literal` is any :t:`Unicode` character except characters
+     0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
+     (null byte).
+     
+     :dp:`fls_ggm5FNUqg9EY`
+     See :s:`SimpleCStringLiteral`.
+   :chapter:
+     :dp:`fls_fnwQHo7twAom`
+     A :t:`simple c string literal` is any :t:`Unicode` character except characters
+     0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
+     (null byte).
+     
+     .. rubric:: Legality Rules
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple c string literal with manual chapter lines
+
+.. glossary-entry:: simple c string literal
+   
+   :glossary:
+     :dp:`fls_qoHXrmds9SgI`
+     A :dt:`simple c string literal` is any :t:`Unicode` character except characters
+     0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
+     (null byte).
+     
+     :dp:`fls_ggm5FNUqg9EY`
+     See :s:`SimpleCStringLiteral`.
+   :chapter:
+     :dp:`fls_fnwQHo7twAom`
+     A :t:`simple c string literal` is any :t:`Unicode` character except characters
+     0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
+     (null byte).
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple import
+
+.. glossary-entry:: simple import
+   
+   :glossary:
+     :dp:`fls_jrlzpoauui9g`
+     A :dt:`simple import` is a :t:`use import` that binds a :t:`simple path` to a
+     local :t:`name` by using an optional :t:`renaming`.
+     
+     :dp:`fls_ta5t4h25unsw`
+     See :s:`SimpleImport`.
+   :chapter:
+     :dp:`fls_2bkcn83smy2y`
+     A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
+     it refers to into scope, optionally with a different
+     :t:`name` than they are declared with by using a :t:`renaming`.
+     
+     .. glossary-entry:: glob import
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple import with manual chapter lines
+
+.. glossary-entry:: simple import
+   
+   :glossary:
+     :dp:`fls_jrlzpoauui9g`
+     A :dt:`simple import` is a :t:`use import` that binds a :t:`simple path` to a
+     local :t:`name` by using an optional :t:`renaming`.
+     
+     :dp:`fls_ta5t4h25unsw`
+     See :s:`SimpleImport`.
+   :chapter:
+     :dp:`fls_2bkcn83smy2y`
+     A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
+     it refers to into scope, optionally with a different
+     :t:`name` than they are declared with by using a :t:`renaming`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple path
+
+.. glossary-entry:: simple path
+   
+   :glossary:
+     :dp:`fls_db91duoug4eb`
+     A :dt:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
+     :t:`[identifier]s` or certain :t:`[keyword]s`.
+     
+     :dp:`fls_cm7ysyfrdwom`
+     See :s:`SimplePath`.
+   :chapter:
+     :dp:`fls_n77icl6idazp`
+     A :t:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
+     :t:`[identifier]s` or certain :t:`[keyword]s` as defined in the syntax rules
+     above.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/concurrency.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[93m[1m| [0m[90m Todo     [0m2 todos
+[91m[1m| [0m[90m Bash     [0mAppend glossary term-map entries for batch
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output file
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff after glossary update
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[93m[1m| [0m[90m Todo     [0m1 todos
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/concurrency.rst
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow git diff of changes
+
+diff --git a/src/concurrency.rst b/src/concurrency.rst
+index 01fdaa0..2ac50cf 100644
+--- a/src/concurrency.rst
++++ b/src/concurrency.rst
+@@ -43,9 +43,16 @@ The Rust programming language provides the :std:`core::marker::Send` and
+ :std:`core::marker::Sync` :t:`[trait]s` for preventing data races at the
+ :t:`type` level.
+ 
+-:dp:`fls_2jujsujpjp3w`
+-A :t:`send type` is a :t:`type` that implements the :std:`core::marker::Send`
+-:t:`trait`.
++.. glossary-entry:: send type
++   
++   :glossary:
++     :dp:`fls_qfkng98dw6yy`
++     A :dt:`send type` is a :t:`type` that implements the :std:`core::marker::Send`
++     :t:`trait`.
++   :chapter:
++     :dp:`fls_2jujsujpjp3w`
++     A :t:`send type` is a :t:`type` that implements the :std:`core::marker::Send`
++     :t:`trait`.
+ 
+ :dp:`fls_cax6fe4em23k`
+ An :t:`abstract data type` automatically implements the
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 6efc091..65620d1 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -409,10 +409,20 @@ or the previous :t:`path segment` of the :t:`path` shall also be expressed as
+      A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+      ``::``.
+ 
+-:dp:`fls_n77icl6idazp`
+-A :t:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
+-:t:`[identifier]s` or certain :t:`[keyword]s` as defined in the syntax rules
+-above.
++.. glossary-entry:: simple path
++   
++   :glossary:
++     :dp:`fls_db91duoug4eb`
++     A :dt:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
++     :t:`[identifier]s` or certain :t:`[keyword]s`.
++     
++     :dp:`fls_cm7ysyfrdwom`
++     See :s:`SimplePath`.
++   :chapter:
++     :dp:`fls_n77icl6idazp`
++     A :t:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
++     :t:`[identifier]s` or certain :t:`[keyword]s` as defined in the syntax rules
++     above.
+ 
+ :dp:`fls_YnUsdSM4x9eq`
+ A :dt:`path prefix` is a :t:`path` with its last :t:`path segment` and
+@@ -1293,10 +1303,20 @@ An :dt:`import path prefix` is the fully constructed :t:`path` prefix of a
+      :dp:`fls_8inznqig2ibr`
+      See :s:`Renaming`.
+ 
+-:dp:`fls_2bkcn83smy2y`
+-A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
+-it refers to into scope, optionally with a different
+-:t:`name` than they are declared with by using a :t:`renaming`.
++.. glossary-entry:: simple import
++   
++   :glossary:
++     :dp:`fls_jrlzpoauui9g`
++     A :dt:`simple import` is a :t:`use import` that binds a :t:`simple path` to a
++     local :t:`name` by using an optional :t:`renaming`.
++     
++     :dp:`fls_ta5t4h25unsw`
++     See :s:`SimpleImport`.
++   :chapter:
++     :dp:`fls_2bkcn83smy2y`
++     A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
++     it refers to into scope, optionally with a different
++     :t:`name` than they are declared with by using a :t:`renaming`.
+ 
+ .. glossary-entry:: glob import
+    
+@@ -1438,11 +1458,19 @@ Shadowing
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ob0riinmitkl`
+-:t:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
+-:t:`shadowed` when another :t:`name` with the same characters is introduced
+-in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
+-A :t:`name` cannot be referred to by any means once it is :t:`shadowed`.
++.. glossary-entry:: shadowing
++   
++   :glossary:
++     :dp:`fls_li3NXOPEH9cL`
++     :dt:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
++     :dt:`shadowed` when another :t:`name` with the same characters is introduced
++     in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
++   :chapter:
++     :dp:`fls_ob0riinmitkl`
++     :t:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
++     :t:`shadowed` when another :t:`name` with the same characters is introduced
++     in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
++     A :t:`name` cannot be referred to by any means once it is :t:`shadowed`.
+ 
+ :dp:`fls_fslg89a70e3n`
+ No :t:`name` shall be :t:`shadowed` except for
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 0893a49..230f4bb 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1194,6 +1194,13 @@ Borrow Expression
+      An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+      :t:`keyword` ``mut``.
+ 
++.. glossary-entry:: shared borrow
++   
++   :glossary:
++     :dp:`fls_gmbskxin90zi`
++     A :dt:`shared borrow` is a :t:`borrow` produced by evaluating an
++     :t:`immutable borrow expression`.
++
+ .. glossary-entry:: mutable borrow expression
+    
+    :glossary:
+@@ -2095,9 +2102,19 @@ The :t:`type` of a :t:`bit xor expression` is :t:`associated type`
+ The :t:`value` of a :t:`bit xor expression` is the result of
+ ``core::ops::BitXor::bitxor(left_operand, right_operand)``.
+ 
+-:dp:`fls_caxn774ij8lk`
+-A :t:`shift left expression` is a :t:`bit expression` that uses bit shift left
+-arithmetic.
++.. glossary-entry:: shift left expression
++   
++   :glossary:
++     :dp:`fls_phiv6k4emauc`
++     A :dt:`shift left expression` is a :t:`bit expression` that uses bit shift left
++     arithmetic.
++     
++     :dp:`fls_56lu9kenzig9`
++     See :s:`ShiftLeftExpression`.
++   :chapter:
++     :dp:`fls_caxn774ij8lk`
++     A :t:`shift left expression` is a :t:`bit expression` that uses bit shift left
++     arithmetic.
+ 
+ :dp:`fls_1f4pc612f2a8`
+ The :t:`type` of the :t:`left operand` of a :t:`shift left expression` shall
+@@ -2112,9 +2129,19 @@ The :t:`type` of a :t:`shift left expression` is :t:`associated type`
+ The :t:`value` of a :t:`shift left expression` is the result of
+ ``core::ops::Shl::shl(left_operand, right_operand)``.
+ 
+-:dp:`fls_t709sl4co3al`
+-A :t:`shift right expression` is a :t:`bit expression` that uses bit shift right
+-arithmetic.
++.. glossary-entry:: shift right expression
++   
++   :glossary:
++     :dp:`fls_j6itily0u0k9`
++     A :dt:`shift right expression` is a :t:`bit expression` that uses bit shift
++     right arithmetic.
++     
++     :dp:`fls_ex1mopil8w1p`
++     See :s:`ShiftRightExpression`.
++   :chapter:
++     :dp:`fls_t709sl4co3al`
++     A :t:`shift right expression` is a :t:`bit expression` that uses bit shift right
++     arithmetic.
+ 
+ :dp:`fls_onutb0b9p9zj`
+ The :t:`type` of the :t:`left operand` of a :t:`shift right expression` shall
+@@ -3268,13 +3295,45 @@ Compound Assignment Expressions
+      A :t:`remainder assignment expression` is a :t:`compound assignment expression`
+      that uses remainder division.
+ 
+-:dp:`fls_oy9ur11k78t`
+-A :t:`shift left assignment expression` is a :t:`compound assignment expression`
+-that uses bit shift left arithmetic.
++.. glossary-entry:: shift left assignment
++   
++   :glossary:
++     :dp:`fls_6adWrtvab6Tw`
++     For :dt:`shift left assignment`, see :t:`shift left assignment expression`.
++
++.. glossary-entry:: shift left assignment expression
++   
++   :glossary:
++     :dp:`fls_j15ke2p8cjfp`
++     A :dt:`shift left assignment expression` is a
++     :t:`compound assignment expression` that uses bit shift left arithmetic.
++     
++     :dp:`fls_ozu74fsakomn`
++     See :s:`ShiftLeftAssignmentExpression`.
++   :chapter:
++     :dp:`fls_oy9ur11k78t`
++     A :t:`shift left assignment expression` is a :t:`compound assignment expression`
++     that uses bit shift left arithmetic.
++
++.. glossary-entry:: shift right assignment
++   
++   :glossary:
++     :dp:`fls_XuwcHjwHdyA8`
++     For :dt:`shift right assignment`, see :t:`shift right assignment expression`.
+ 
+-:dp:`fls_s7rey2bndfei`
+-A :t:`shift right assignment expression` is a
+-:t:`compound assignment expression` that uses bit shift right arithmetic.
++.. glossary-entry:: shift right assignment expression
++   
++   :glossary:
++     :dp:`fls_1jpnp7hatlmu`
++     A :dt:`shift right assignment expression` is a
++     :t:`compound assignment expression` that uses bit shift right arithmetic.
++     
++     :dp:`fls_naqzlebew1uf`
++     See :s:`ShiftRightAssignmentExpression`.
++   :chapter:
++     :dp:`fls_s7rey2bndfei`
++     A :t:`shift right assignment expression` is a
++     :t:`compound assignment expression` that uses bit shift right arithmetic.
+ 
+ :dp:`fls_7l7v7vigw3fu`
+ A :t:`subtraction assignment expression` is a
+@@ -4041,9 +4100,19 @@ The :t:`type` of a :t:`named initializer` and the :t:`type` of the matched
+ The :t:`value` of a :t:`named initializer` is the :t:`value` of its
+ :t:`expression`.
+ 
+-:dp:`fls_57t368kema7h`
+-A :t:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
+-of a :t:`field` in a :t:`struct expression`.
++.. glossary-entry:: shorthand initializer
++   
++   :glossary:
++     :dp:`fls_bgxxg48snck1`
++     A :dt:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
++     of a :t:`field` in a :t:`struct expression`.
++     
++     :dp:`fls_qc08ydgmqudi`
++     See :s:`ShorthandInitializer`.
++   :chapter:
++     :dp:`fls_57t368kema7h`
++     A :t:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
++     of a :t:`field` in a :t:`struct expression`.
+ 
+ :dp:`fls_sm2hx8sh4agb`
+ A :t:`shorthand initializer` is equivalent to a :t:`named initializer` where
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index aef8667..5a77189 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -200,9 +200,16 @@ The text of a :t:`source file` is divided into :t:`[line]s`.
+ :dp:`fls_go25sisi5fdp`
+ The representation of an end of line is tool-defined.
+ 
+-:dp:`fls_a6t53o8h1vdk`
+-A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
+-element]s`. A :t:`whitespace string` is a :t:`separator`.
++.. glossary-entry:: separator
++   
++   :glossary:
++     :dp:`fls_128xny4qfcj5`
++     A :dt:`separator` is a character or a string that separates adjacent
++     :t:`[lexical element]s`.
++   :chapter:
++     :dp:`fls_a6t53o8h1vdk`
++     A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
++     element]s`. A :t:`whitespace string` is a :t:`separator`.
+ 
+ .. glossary-entry:: punctuator
+    
+@@ -730,9 +737,19 @@ except characters 0x0D (carriage return), 0x22 (quotation mark), and 0x5C
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_moe3zfx39ox2`
+-A :t:`simple byte string literal` is a :t:`byte string literal` that consists of multiple
+-:s:`[AsciiCharacter]s`.
++.. glossary-entry:: simple byte string literal
++   
++   :glossary:
++     :dp:`fls_XpbU4Up0Aza8`
++     A :dt:`simple byte string literal` is a :t:`byte string literal` that consists
++     of multiple :s:`[AsciiCharacter]s`.
++     
++     :dp:`fls_OfI70zK68TnQ`
++     See :s:`SimpleByteStringLiteral`.
++   :chapter:
++     :dp:`fls_moe3zfx39ox2`
++     A :t:`simple byte string literal` is a :t:`byte string literal` that consists of multiple
++     :s:`[AsciiCharacter]s`.
+ 
+ :dp:`fls_vffxb6arj9jf`
+ The :t:`type` of a :t:`simple byte string literal` of size ``N`` is ``&'static [u8;
+@@ -845,10 +862,21 @@ Simple C String Literals
+      | StringContinuation
+      | UnicodeEscape
+ 
+-:dp:`fls_fnwQHo7twAom`
+-A :t:`simple c string literal` is any :t:`Unicode` character except characters
+-0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
+-(null byte).
++.. glossary-entry:: simple c string literal
++   
++   :glossary:
++     :dp:`fls_qoHXrmds9SgI`
++     A :dt:`simple c string literal` is any :t:`Unicode` character except characters
++     0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
++     (null byte).
++     
++     :dp:`fls_ggm5FNUqg9EY`
++     See :s:`SimpleCStringLiteral`.
++   :chapter:
++     :dp:`fls_fnwQHo7twAom`
++     A :t:`simple c string literal` is any :t:`Unicode` character except characters
++     0x0D (carriage return), 0x22 (quotation mark), 0x5C (reverse solidus) and 0x00
++     (null byte).
+ 
+ .. rubric:: Legality Rules
+ 
+diff --git a/src/patterns.rst b/src/patterns.rst
+index aab27e2..bc8d1c3 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -1139,10 +1139,21 @@ its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+ The :t:`type` of a :t:`matched named deconstructor` and the :t:`type` of the
+ matched :t:`field` shall be :t:`unifiable`.
+ 
+-:dp:`fls_9wfizujx0szd`
+-A :t:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
+-of a :t:`field` and binds the :t:`value` of the matched :t:`field` to a
+-:t:`binding`.
++.. glossary-entry:: shorthand deconstructor
++   
++   :glossary:
++     :dp:`fls_22yxrde244w8`
++     A :dt:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
++     of a :t:`field` and binds the :t:`value` of the matched :t:`field` to a
++     :t:`binding`.
++     
++     :dp:`fls_rlo4237bgbwt`
++     See :s:`ShorthandDeconstructor`.
++   :chapter:
++     :dp:`fls_9wfizujx0szd`
++     A :t:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
++     of a :t:`field` and binds the :t:`value` of the matched :t:`field` to a
++     :t:`binding`.
+ 
+ :dp:`fls_jTh9Hur0qsIb`
+ A :t:`shorthand deconstructor` with :t:`keyword` ``mut`` yields a
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 88ab942..1dca68c 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -492,6 +492,13 @@ domain of whole numbers:
+ :t:`Type` :c:`usize` has the same number of bits as the platform's
+ :t:`pointer type`, and is at least 16-bits wide.
+ 
++.. glossary-entry:: signed integer type
++   
++   :glossary:
++     :dp:`fls_vcronf7l2bhy`
++     A :dt:`signed integer type` is an :t:`integer type` whose :t:`[value]s` denote
++     negative whole numbers, zero, and positive whole numbers.
++
+ :dp:`fls_p2shoji3xg5a`
+ :t:`[Signed integer type]s` define the following inclusive ranges over the
+ domain of whole numbers:
+@@ -574,6 +581,12 @@ domain of whole numbers:
+ Sequence Types
+ --------------
+ 
++.. glossary-entry:: sequence type
++   
++   :glossary:
++     :dp:`fls_lk1oslxh8h9p`
++     A :dt:`sequence type` represents a sequence of elements.
++
+ .. _fls_uj0kpjwyld60:
+ 
+ Array Types
+@@ -1427,9 +1440,16 @@ Reference Types
+      :dp:`fls_twhq24s8kchh`
+      A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
+ 
+-:dp:`fls_w4NbA7WhZfR2`
+-A :t:`shared reference type` is a :t:`reference type` not subject to
+-:t:`keyword` ``mut``.
++.. glossary-entry:: shared reference type
++   
++   :glossary:
++     :dp:`fls_8z9wb3eu5yp1`
++     A :dt:`shared reference type` is a :t:`reference type` not subject to
++     :t:`keyword` ``mut``.
++   :chapter:
++     :dp:`fls_w4NbA7WhZfR2`
++     A :t:`shared reference type` is a :t:`reference type` not subject to
++     :t:`keyword` ``mut``.
+ 
+ :dp:`fls_ie0avzljmxfm`
+ A :t:`shared reference type` prevents the direct mutation of a referenced
+@@ -1442,6 +1462,12 @@ A :t:`shared reference type` implements the :std:`core::marker::Copy`
+ :dp:`fls_csdjfwczlzfd`
+ Releasing a :t:`shared reference` has no effect on the :t:`value` it refers to.
+ 
++.. glossary-entry:: shared reference
++   
++   :glossary:
++     :dp:`fls_cspa4c5mscnw`
++     A :dt:`shared reference` is a :t:`value` of a :t:`shared reference type`.
++
+ .. glossary-entry:: mutable reference type
+    
+    :glossary:
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+3925cc1 docs(glossary): migrate next 20 glossary terms
+764f095 docs(glossary): migrate refutability glossary entry
+e5bd283 docs(glossary): migrate register and remainder terms
+3bff43b docs(glossary): migrate next 20 glossary terms
+7f4ea48 docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration edits
+[91m[1m| [0m[90m Bash     [0mCommit glossary batch and show status
+
+[glossary-single-source-phase1 bc8919f] docs(glossary): migrate next 20 glossary terms
+ 6 files changed, 217 insertions(+), 48 deletions(-)
+
+[93m[1m| [0m[90m Todo     [0m0 todos
+Updated the next 20 glossary terms into `.. glossary-entry::` directives across `src/concurrency.rst`, `src/lexical-elements.rst`, `src/types-and-traits.rst`, `src/entities-and-resolution.rst`, `src/expressions.rst`, and `src/patterns.rst`, including glossary-only inserts for `sequence type`, `signed integer type`, `shared borrow`, `shared reference`, and the shift assignment terms where no chapter definitions exist. Term-map metadata is appended under `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`, and the checklist is updated at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`. Commit created: `docs(glossary): migrate next 20 glossary terms`.
+
+Tests:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next step:
+1) Proceed with the next 20 unchecked terms from the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

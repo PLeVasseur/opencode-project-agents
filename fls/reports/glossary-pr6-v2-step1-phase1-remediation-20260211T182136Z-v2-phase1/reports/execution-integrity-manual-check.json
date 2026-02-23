@@ -1,0 +1,36 @@
+{
+  "changed_src_files": [
+    "src/attributes.rst",
+    "src/entities-and-resolution.rst",
+    "src/expressions.rst",
+    "src/general.rst",
+    "src/generics.rst",
+    "src/implementations.rst",
+    "src/inline-assembly.rst",
+    "src/macros.rst",
+    "src/ownership-and-deconstruction.rst",
+    "src/patterns.rst",
+    "src/program-structure-and-compilation.rst",
+    "src/statements.rst",
+    "src/types-and-traits.rst",
+    "src/unsafety.rst",
+    "src/values.rst"
+  ],
+  "end_head": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "failures": [],
+  "new_commit_count": 6,
+  "new_commit_hashes": [
+    "63bde8968e31742477e0f320d86212b9c5704da8",
+    "fc8154a8c03876b21857bf03ce7ac58a4e9453ca",
+    "ec7ff962b15a64c525e21feca8051d926b6129ad",
+    "af86b2d61bbb483d8dc37debb3a1286c4d3f5562",
+    "53f3c47e640dd222e0fd0014bd327bc50c60d84f",
+    "52f1285682360265eb49061c6a00755cc6ae96c0"
+  ],
+  "orchestrator_batches_completed_current_run": 5,
+  "orchestrator_batches_completed_total": 6,
+  "start_head": "19e75856eac5694e5d613c7c59b429848d333992",
+  "verdict": "pass",
+  "wave_a_end_head": "52f1285682360265eb49061c6a00755cc6ae96c0",
+  "wave_ab_complete": true
+}

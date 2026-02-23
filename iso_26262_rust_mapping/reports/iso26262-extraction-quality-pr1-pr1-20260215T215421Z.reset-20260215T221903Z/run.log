@@ -1,0 +1,29 @@
+[2026-02-15T22:08:39Z] run_bootstrap mode=kickoff-default-pr1 run_id=pr1-20260215T215421Z
+[2026-02-15T22:08:39Z] lock_acquired pid=3340931 run_id=pr1-20260215T215421Z
+[2026-02-15T22:08:39Z] stage_start stage=EQ0
+[2026-02-15T22:08:39Z] stage_complete stage=EQ0
+[2026-02-15T22:08:39Z] stage_start stage=EQ1
+[2026-02-15T22:08:39Z] stage_complete stage=EQ1
+[2026-02-15T22:08:39Z] stage_start stage=EQ2
+[2026-02-15T22:08:39Z] stage_complete stage=EQ2
+[2026-02-15T22:08:39Z] stage_start stage=EQ3
+[2026-02-15T22:08:39Z] stage_complete stage=EQ3
+[2026-02-15T22:08:39Z] stage_start stage=EQ4
+[2026-02-15T22:08:39Z] stage_complete stage=EQ4
+[2026-02-15T22:08:39Z] stage_start stage=EQ5
+[2026-02-15T22:08:39Z] stage_complete stage=EQ5
+[2026-02-15T22:08:39Z] stage_start stage=EQ6
+[2026-02-15T22:08:39Z] stage_complete stage=EQ6
+[2026-02-15T22:08:39Z] stage_start stage=EQ7
+[2026-02-15T22:08:39Z] stage_complete stage=EQ7
+[2026-02-15T22:08:39Z] stage_start stage=EQ8
+[2026-02-15T22:08:39Z] stage_complete stage=EQ8
+[2026-02-15T22:08:39Z] stage_start stage=EQ9
+[2026-02-15T22:08:39Z] stage_complete stage=EQ9
+[2026-02-15T22:08:39Z] stage_start stage=EQ10
+[2026-02-15T22:08:39Z] stage_complete stage=EQ10
+[2026-02-15T22:08:39Z] stage_start stage=EQ11
+[2026-02-15T22:08:39Z] stage_complete stage=EQ11
+[2026-02-15T22:08:39Z] stage_start stage=EQ12
+[2026-02-15T22:08:39Z] stage_blocked stage=EQ12 failed_metrics=clause_anchor,clause_boundary,dehyphenation,footnote,line_wrap,list_continuation,list_license,list_marker,list_meaningful,paragraph_license,paragraph_meaningful,paragraph_pattern,section_anchor,section_boundary,subscript,superscript,table_anchor,table_license,table_meaningful,table_pattern,table_scope,table_structural
+[2026-02-15T22:08:39Z] lock_released run_id=pr1-20260215T215421Z

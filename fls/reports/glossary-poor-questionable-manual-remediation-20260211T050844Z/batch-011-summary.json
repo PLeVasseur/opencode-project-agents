@@ -1,0 +1,17 @@
+{
+  "batch_number": 11,
+  "commit_hash": "19e75856eac5694e5d613c7c59b429848d333992",
+  "ids": [
+    "PQ-201",
+    "PQ-202"
+  ],
+  "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T050844Z/batch-011-opencode.jsonl",
+  "session_id": "ses_3b4672e02ffePDrMkvOPS4t4vQ",
+  "terms": [
+    "unsafety",
+    "value operand"
+  ],
+  "timestamp": "20260211T073004Z",
+  "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T050844Z/batch-011-validate-post-commit.json",
+  "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T050844Z/batch-011-validate-progress.json"
+}

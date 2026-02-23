@@ -1,0 +1,5 @@
+# M-Stage Schema Materialization
+stages: M0..M14
+stage_done_keys: M<N>_DONE
+stage_checklist_keys: M<N>_CHECKLIST_DONE
+legacy_keys_policy: ignore S* keys

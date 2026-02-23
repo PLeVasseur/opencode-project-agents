@@ -1,0 +1,3 @@
+:dp:`fls_xaumwogwbv3g`
+A :t:`range-from expression` is a :t:`range expression` that specifies an
+included :t:`range expression low bound`.

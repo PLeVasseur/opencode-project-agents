@@ -1,0 +1,19 @@
+[2026-02-14T18:43:51Z] bootstrap RUN_ID=20260214T184350Z RUN_ROOT=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/sphinx-traceability-migration-20260214T184350Z
+[2026-02-14T18:44:51Z] lock-acquired pid=2998436 run_id=20260214T184350Z
+[2026-02-14T18:45:56Z] stale-lock-replaced payload="acquired_at_utc="2026-02-14T18:44:51Z"
+host="oss-work"
+pid="2998436"
+run_id="20260214T184350Z"
+user="pete.levasseur"" missing_fields=""
+[2026-02-14T18:45:56Z] lock-acquired pid=2998597 run_id=20260214T184350Z
+[2026-02-14T18:47:17Z] stage-complete M0 next=M1
+[2026-02-14T18:47:23Z] lock-released run_id=20260214T184350Z
+[2026-02-14T19:22:54Z] lock-acquired pid=3003050 run_id=20260214T184350Z
+[2026-02-14T19:22:56Z] lock-released run_id=20260214T184350Z
+[2026-02-14T19:23:42Z] lock-acquired pid=3003182 run_id=20260214T184350Z
+[2026-02-14T19:23:44Z] stage-complete M1 next=M2
+[2026-02-14T19:23:44Z] lock-released run_id=20260214T184350Z
+[2026-02-14T20:08:11Z] lock-acquired pid=3033188 run_id=20260214T184350Z
+[2026-02-14T20:08:11Z] assumptions defaulted new markdown/table statement units to ts=unmapped_with_rationale pending anchor enrichment
+[2026-02-14T20:08:11Z] stage-complete M2..M14 run-finalized
+[2026-02-14T20:08:12Z] lock-released run_id=20260214T184350Z

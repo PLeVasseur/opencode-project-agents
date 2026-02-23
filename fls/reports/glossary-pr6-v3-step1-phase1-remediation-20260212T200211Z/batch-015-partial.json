@@ -1,0 +1,29 @@
+{
+  "batch_number": 15,
+  "passed_ids": [
+    "WB-024",
+    "WB-028",
+    "WB-039",
+    "WB-040",
+    "WB-041",
+    "WB-042",
+    "WB-044",
+    "WB-046",
+    "WB-047",
+    "WB-048",
+    "WB-049",
+    "WB-050",
+    "WB-051",
+    "WB-052",
+    "WB-054",
+    "WB-055",
+    "WB-056"
+  ],
+  "quarantined": {
+    "WB-043": "definition precheck failed: definition_operation=promote must not include insertion-like diff; set definition_operation=insert when adding a new definition sentence (insert_pass=True, swap_detected=False, insert_net=1, file=src/items.rst)",
+    "WB-045": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/entities-and-resolution.rst)",
+    "WB-053": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)"
+  },
+  "timestamp": "20260213T000242Z",
+  "wave": "WB"
+}

@@ -1,0 +1,39 @@
+{
+  "batch_number": 1,
+  "ids": [
+    "WA-001",
+    "WA-002",
+    "WA-003",
+    "WA-004",
+    "WA-005",
+    "WA-006",
+    "WA-007",
+    "WA-008",
+    "WA-009",
+    "WA-010",
+    "WA-011",
+    "WA-012",
+    "WA-013",
+    "WA-014",
+    "WA-015"
+  ],
+  "terms": [
+    "value",
+    "expression",
+    "type",
+    "trait",
+    "construct",
+    "entity",
+    "name",
+    "item",
+    "field",
+    "reference",
+    "implementation",
+    "method",
+    "crate",
+    "module",
+    "statement"
+  ],
+  "timestamp": "20260211T182335Z",
+  "wave": "WA"
+}

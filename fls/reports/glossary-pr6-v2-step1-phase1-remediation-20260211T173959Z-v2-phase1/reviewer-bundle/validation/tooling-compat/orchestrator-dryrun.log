@@ -1,0 +1,20 @@
+
+=== batch-001 WA: WA-001 .. WA-015 (15 IDs) ===
+- WA-001: value
+- WA-002: expression
+- WA-003: type
+- WA-004: trait
+- WA-005: construct
+- WA-006: entity
+- WA-007: name
+- WA-008: item
+- WA-009: field
+- WA-010: reference
+- WA-011: implementation
+- WA-012: method
+- WA-013: crate
+- WA-014: module
+- WA-015: statement
+Orchestration complete.
+Run directory: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-dryrun-run
+Summary: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-dryrun-run/orchestrator-summary.json

@@ -1,0 +1,4 @@
+## changelog-assistant-upstream-pr-anchor
+ M .github/workflows/ci.yml
+ M src/changelog.rst
+ M tools/changelog_assistant.py

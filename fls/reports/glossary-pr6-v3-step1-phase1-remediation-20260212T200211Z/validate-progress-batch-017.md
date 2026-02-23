@@ -1,0 +1,75 @@
+# Checklist and ledger validation (v3)
+
+- Mode: `progress`
+- Parent items: `88/104` checked
+- Sub-items: `528/624` checked
+- Ledger rows: `104`
+- Baseline rows: `104`
+- Completed ledger rows: `88`
+- Resolved-high rows: `88`
+- Warning count: `0`
+- Pending deviations: `0`
+- Error count: `60`
+
+## Errors
+
+- WB-061: missing after_commit (reason quality)
+- WB-061: missing after_commit (after snapshot)
+- WB-061: missing after_commit (completed-row)
+- WB-062: missing after_commit (reason quality)
+- WB-062: missing after_commit (after snapshot)
+- WB-062: missing after_commit (completed-row)
+- WB-063: missing after_commit (reason quality)
+- WB-063: missing after_commit (after snapshot)
+- WB-063: missing after_commit (completed-row)
+- WB-064: missing after_commit (reason quality)
+- WB-064: missing after_commit (after snapshot)
+- WB-064: missing after_commit (completed-row)
+- WB-065: missing after_commit (reason quality)
+- WB-065: missing after_commit (after snapshot)
+- WB-065: missing after_commit (completed-row)
+- WB-066: missing after_commit (reason quality)
+- WB-066: missing after_commit (after snapshot)
+- WB-066: missing after_commit (completed-row)
+- WB-067: missing after_commit (reason quality)
+- WB-067: missing after_commit (after snapshot)
+- WB-067: missing after_commit (completed-row)
+- WB-068: missing after_commit (reason quality)
+- WB-068: missing after_commit (after snapshot)
+- WB-068: missing after_commit (completed-row)
+- WB-069: missing after_commit (reason quality)
+- WB-069: missing after_commit (after snapshot)
+- WB-069: missing after_commit (completed-row)
+- WB-070: missing after_commit (reason quality)
+- WB-070: missing after_commit (after snapshot)
+- WB-070: missing after_commit (completed-row)
+- WB-071: missing after_commit (reason quality)
+- WB-071: missing after_commit (after snapshot)
+- WB-071: missing after_commit (completed-row)
+- WB-072: missing after_commit (reason quality)
+- WB-072: missing after_commit (after snapshot)
+- WB-072: missing after_commit (completed-row)
+- WB-073: missing after_commit (reason quality)
+- WB-073: missing after_commit (after snapshot)
+- WB-073: missing after_commit (completed-row)
+- WB-074: missing after_commit (reason quality)
+- WB-074: missing after_commit (after snapshot)
+- WB-074: missing after_commit (completed-row)
+- WB-075: missing after_commit (reason quality)
+- WB-075: missing after_commit (after snapshot)
+- WB-075: missing after_commit (completed-row)
+- WB-076: missing after_commit (reason quality)
+- WB-076: missing after_commit (after snapshot)
+- WB-076: missing after_commit (completed-row)
+- WB-077: missing after_commit (reason quality)
+- WB-077: missing after_commit (after snapshot)
+- WB-077: missing after_commit (completed-row)
+- WB-078: missing after_commit (reason quality)
+- WB-078: missing after_commit (after snapshot)
+- WB-078: missing after_commit (completed-row)
+- WB-079: missing after_commit (reason quality)
+- WB-079: missing after_commit (after snapshot)
+- WB-079: missing after_commit (completed-row)
+- WB-080: missing after_commit (reason quality)
+- WB-080: missing after_commit (after snapshot)
+- WB-080: missing after_commit (completed-row)

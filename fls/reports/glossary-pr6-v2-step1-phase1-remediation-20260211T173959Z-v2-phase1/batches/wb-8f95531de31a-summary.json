@@ -1,0 +1,28 @@
+{
+  "wave": "WB",
+  "commit_hash": "8f95531de31ad39cef0600be7c54a09f28bf0dbc",
+  "term_count": 8,
+  "checklist_ids": [
+    "WB-002",
+    "WB-013",
+    "WB-015",
+    "WB-033",
+    "WB-050",
+    "WB-062",
+    "WB-064",
+    "WB-084"
+  ],
+  "terms": [
+    "type specification",
+    "size",
+    "safety invariant",
+    "record enum variant",
+    "renaming",
+    "self parameter",
+    "type parameter",
+    "temporary"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 8
+  }
+}

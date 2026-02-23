@@ -1,0 +1,1679 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR env var
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked checklist terms
+
+warning: glossary-entry not found in src files: outer line doc
+warning: glossary-entry not found in src files: outline module
+warning: glossary-entry not found in src files: outlives bound
+warning: glossary-entry not found in src files: output register
+warning: glossary-entry not found in src files: output register expression
+warning: glossary-entry not found in src files: overlap
+warning: glossary-entry not found in src files: owner
+warning: glossary-entry not found in src files: ownership
+warning: glossary-entry not found in src files: panic
+warning: glossary-entry not found in src files: parenthesized expression
+warning: glossary-entry not found in src files: parenthesized pattern
+warning: glossary-entry not found in src files: parenthesized type
+warning: glossary-entry not found in src files: partially hygienic
+warning: glossary-entry not found in src files: passing convention
+warning: glossary-entry not found in src files: path
+warning: glossary-entry not found in src files: path expression
+warning: glossary-entry not found in src files: path expression resolution
+warning: glossary-entry not found in src files: path pattern
+warning: glossary-entry not found in src files: path resolution
+warning: glossary-entry not found in src files: path segment
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mCheck which checklist terms are in glossary
+
+Present terms:
+outer line doc
+outline module
+outlives bound
+output register
+output register expression
+overlap
+owner
+panic
+parenthesized expression
+parenthesized pattern
+parenthesized type
+partially hygienic
+passing convention
+path
+path expression
+path pattern
+path segment
+
+Missing terms:
+ownership
+path expression resolution
+path resolution
+
+[91m[1m| [0m[90m Bash     [0mCheck extra terms presence in glossary
+
+pattern present
+pattern matching missing
+pattern-without-alternation present
+
+[91m[1m| [0m[90m Bash     [0mCheck pattern-without-range presence
+
+pattern-without-range present
+
+[91m[1m| [0m[90m Bash     [0mFind first occurrences of target terms in src RST files
+
+outer line doc
+  /home/pete.levasseur/project/fls/src/lexical-elements.rst:1589: An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
+  /home/pete.levasseur/project/fls/src/macros.rst:780: :t:`[outer block doc]s` and :t:`[outer line doc]s` contained within replaced
+
+outline module
+  /home/pete.levasseur/project/fls/src/lexical-elements.rst:536: :t:`[Name]s` of :t:`[outline module]s` that lack :t:`attribute` :c:`path`,
+  /home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:101: An :t:`outline module` is a :t:`module` with an :s:`OutlineModuleSpecification`.
+
+outlives bound
+  /home/pete.levasseur/project/fls/src/types-and-traits.rst:3477: An :t:`outlives bound` is a :t:`trait bound` which requires that a
+
+output register
+  /home/pete.levasseur/project/fls/src/inline-assembly.rst:128: An :t:`output register` is a :t:`register` whose :t:`register name` is
+
+output register expression
+  /home/pete.levasseur/project/fls/src/inline-assembly.rst:628: :t:`input-output register expression`, then the :t:`input register expression`
+
+overlap
+  /home/pete.levasseur/project/fls/src/implementations.rst:194: valid and does not overlap with another :t:`trait implementation`.
+  /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:148: refer to a :t:`value` that :t:`[overlap]s` with the :t:`referent` of the
+  /home/pete.levasseur/project/fls/src/values.rst:35: Two :t:`[value]s` :t:`overlap` when
+
+owner
+  /home/pete.levasseur/project/fls/src/index.rst:27: ownership-and-deconstruction
+  /home/pete.levasseur/project/fls/src/licenses.rst:71: "Licensor" shall mean the copyright owner or entity authorized by the copyright
+  /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:23: An :t:`owner` is a :t:`variable` that holds a :t:`value`.
+  /home/pete.levasseur/project/fls/src/types-and-traits.rst:1340: A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
+
+panic
+  /home/pete.levasseur/project/fls/src/changelog.rst:625: * `Abort on uncaught panics in \`extern "C"\` functions. <https://github.com/rust-lang/rust/pull/116088/>`_
+  /home/pete.levasseur/project/fls/src/attributes.rst:389: :t:`Attribute` :c:`panic_handler`.
+  /home/pete.levasseur/project/fls/src/exceptions-and-errors.rst:26: Erroneous behavior is signaled using :t:`macro` :std:`core::panic`.
+  /home/pete.levasseur/project/fls/src/expressions.rst:411: An invocation of the :std:`core::panic` :t:`macro` expands to a
+  /home/pete.levasseur/project/fls/src/statements.rst:216: panic!();
+
+parenthesized expression
+  /home/pete.levasseur/project/fls/src/expressions.rst:3446: A :t:`parenthesized expression` is an :t:`expression` that groups other
+  /home/pete.levasseur/project/fls/src/types-and-traits.rst:2404: The :t:`operand` of a :t:`parenthesized expression`.
+
+parenthesized pattern
+  /home/pete.levasseur/project/fls/src/patterns.rst:386: A :t:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
+
+parenthesized type
+  /home/pete.levasseur/project/fls/src/types-and-traits.rst:1680: A :t:`parenthesized type` is a :t:`type` that disambiguates the interpretation
+
+partially hygienic
+  /home/pete.levasseur/project/fls/src/macros.rst:1314: and is considered :t:`partially hygienic`.
+
+passing convention
+  /home/pete.levasseur/project/fls/src/expressions.rst:666: :t:`[passing convention]s`.
+  /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:45: :t:`passed <passing convention>` :t:`by move`, the :t:`variable` is considered
+  /home/pete.levasseur/project/fls/src/patterns.rst:1396: :t:`value` by :t:`passing <passing convention>` the :t:`value` to the :t:`place`
+
+path
+  /home/pete.levasseur/project/fls/src/changelog.rst:468: * `Support \`/\` as the path separator for \`include!()\` in all cases on Windows <https://github.com/rust-lang/rust/pull/125205>`_
+  /home/pete.levasseur/project/fls/src/associated-items.rst:106: An :t:`associated type` shall not be used in the :t:`path expression` of a
+  /home/pete.levasseur/project/fls/src/attributes.rst:371: :t:`Attribute` :c:`path`.
+  /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:30: text, usually via a :t:`field access expression` or a :t:`path`.
+  /home/pete.levasseur/project/fls/src/expressions.rst:479: diverging :t:`subexpression` on all reachable control flow paths.
+
+path expression
+  /home/pete.levasseur/project/fls/src/associated-items.rst:106: An :t:`associated type` shall not be used in the :t:`path expression` of a
+  /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:411: An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+  /home/pete.levasseur/project/fls/src/expressions.rst:548: A :t:`path expression` that resolves to a :t:`mutable static`,
+  /home/pete.levasseur/project/fls/src/generics.rst:519: :t:`path expression`, optionally encapsulated in a :t:`block expression`, within
+  /home/pete.levasseur/project/fls/src/inline-assembly.rst:790: A :dt:`sym path expression` is a way for the :t:`assembly code block` to refer either to
+
+path pattern
+  /home/pete.levasseur/project/fls/src/patterns.rst:433: A :t:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
+
+path segment
+  /home/pete.levasseur/project/fls/src/entities-and-resolution.rst:216: with a :t:`path segment` expressed by either :t:`keyword` ``crate``,
+
+pattern
+  /home/pete.levasseur/project/fls/src/index.rst:17: patterns
+  /home/pete.levasseur/project/fls/src/changelog.rst:101: - `Lower pattern bindings in the order they're written and base drop order on primary bindings' order <https://github.com/rust-lang/rust/pull/143764>`_
+  /home/pete.levasseur/project/fls/src/attributes.rst:518: patterns with calls to intrinsic functions.
+  /home/pete.levasseur/project/fls/src/expressions.rst:664: or bound :t:`by value` in a :t:`pattern` denotes the :t:`value` held in the
+  /home/pete.levasseur/project/fls/src/ffi.rst:293: An :t:`external function` shall not specify :t:`[pattern]s` other than
+
+pattern-without-alternation
+  /home/pete.levasseur/project/fls/src/macros.rst:1037: :t:`pattern-without-alternation`.
+  /home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:718: If the :t:`pattern-without-alternation` of a :t:`let statement` is an
+  /home/pete.levasseur/project/fls/src/patterns.rst:48: An :dt:`or-pattern` is a :t:`pattern` that matches on one of two or more :t:`[pattern-without-alternation]s` and or-s them using character 0x7C (vertical line, i.e. ``|``).
+  /home/pete.levasseur/project/fls/src/statements.rst:115: given by the :t:`[binding]s` produced by its :t:`pattern-without-alternation`
+
+pattern-without-range
+  /home/pete.levasseur/project/fls/src/macros.rst:813: :t:`pattern-without-range`, the output is required to constitute a
+  /home/pete.levasseur/project/fls/src/patterns.rst:60: A :t:`pattern-without-range` is a :t:`pattern-without-alternation` that
+
+
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mShow generate-glossary-entry.py help
+
+usage: generate-glossary-entry.py [-h] --term TERM [--repo-root REPO_ROOT]
+                                  [--glossary GLOSSARY]
+                                  [--glossary-line GLOSSARY_LINE]
+                                  [--glossary-text-file GLOSSARY_TEXT_FILE]
+                                  [--glossary-stdin]
+                                  [--chapter-file CHAPTER_FILE]
+                                  [--chapter-dp CHAPTER_DP]
+                                  [--chapter-line CHAPTER_LINE]
+                                  [--chapter-text-file CHAPTER_TEXT_FILE]
+                                  [--chapter-stdin]
+
+Generate a formatted glossary-entry directive for a term.
+
+options:
+  -h, --help            show this help message and exit
+  --term TERM           Glossary term
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --glossary GLOSSARY   Static glossary file
+  --glossary-line GLOSSARY_LINE
+                        Glossary text line (repeatable)
+  --glossary-text-file GLOSSARY_TEXT_FILE
+                        File with glossary body lines
+  --glossary-stdin      Read glossary body lines from stdin
+  --chapter-file CHAPTER_FILE
+                        Chapter file to extract from
+  --chapter-dp CHAPTER_DP
+                        Chapter :dp: ids to extract (repeatable)
+  --chapter-line CHAPTER_LINE
+                        Chapter text line (repeatable)
+  --chapter-text-file CHAPTER_TEXT_FILE
+                        File with chapter body lines
+  --chapter-stdin       Read chapter body lines from stdin
+
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mFind glossary entry for outlives bound
+
+4793:outlives bound
+4797:An :dt:`outlives bound` is a :t:`trait bound` which requires that a
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[91m[1m| [0m[90m Bash     [0mFind output register expression in inline-assembly
+
+628::t:`input-output register expression`, then the :t:`input register expression`
+629:and the :t:`output register expression` shall have the same :t:`type`.
+759:An :t:`output register expression` is an :t:`expression` that is assigned the
+765:.. glossary-entry:: input-output register expression
+769:     An :dt:`input-output register expression` is a :t:`construct` that specifies
+770:     both an :t:`input register expression` and an :t:`output register expression`.
+776:     An :t:`input-output register expression` is a :t:`construct` that specifies
+777:     both an :t:`input register expression` and an :t:`output register expression`.
+784:A :t:`register expression` is either an :t:`input-output register expression`, a :t:`simple register expression` or a :t:`const register expression`.
+795::t:`output register expression`, or :t:`simple register expression` shall
+967::t:`input-output register expression`, then
+975:  is assigned to the place indicated by the :t:`output register expression`.
+976:  The :t:`output register expression` shall be a :t:`place expression`.
+979:  If the :t:`output register expression` is an :t:`underscore expression`, then
+990::t:`input-output register expression`, then the :t:`register argument` behaves
+1005:  If a :t:`register argument` has an :t:`input-output register expression`,
+1012:     The :t:`output register expression` is evaluated.
+
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[91m[1m| [0m[90m Bash     [0mFind overlap glossary entry
+
+3108:valid and does not overlap with another :t:`trait implementation`.
+4824:overlap
+4828:Two :t:`[value]s` :dt:`overlap` when their memory locations overlap, or both
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mCheck glossary header presence for missing terms
+
+ownership True
+path expression resolution True
+path resolution True
+
+[91m[1m| [0m[90m Bash     [0mSearch for passing convention definition references
+
+/home/pete.levasseur/project/fls/src/patterns.rst:1396::t:`value` by :t:`passing <passing convention>` the :t:`value` to the :t:`place`
+/home/pete.levasseur/project/fls/src/expressions.rst:666::t:`[passing convention]s`.
+/home/pete.levasseur/project/fls/src/expressions.rst:2873:   The :t:`value` of the :t:`value operand` is :t:`passed <passing convention>`
+/home/pete.levasseur/project/fls/src/expressions.rst:2986:   The :t:`value` of the :t:`value operand` is :t:`passed <passing convention>`
+/home/pete.levasseur/project/fls/src/expressions.rst:3600:   :t:`passed <passing convention>` :t:`by copy` :t:`[size operand]'s`
+/home/pete.levasseur/project/fls/src/expressions.rst:4042::t:`field` of the :t:`base initializer` is :t:`passed <passing convention>` to
+/home/pete.levasseur/project/fls/src/expressions.rst:5992:      The :t:`value` of the :t:`operand` is :t:`passed <passing convention>`
+/home/pete.levasseur/project/fls/src/expressions.rst:6339::t:`passes <passing convention>` the :t:`value` of the :t:`capture target` into
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:45::t:`passed <passing convention>` :t:`by move`, the :t:`variable` is considered
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:113:A :t:`referent` shall not be :t:`passed <passing convention>` :t:`by move` while
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:310:A :t:`passing convention` is the mechanism that defines how a :t:`value` is
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:325:A :t:`value` of a :t:`copy type` is :t:`passed <passing convention>`
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:341:A :t:`value` of a :t:`move type` is :t:`passed <passing convention>`
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:346::t:`passed <passing convention>` :t:`by move` only when it denotes:
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:350:  :t:`passed <passing convention>` :t:`by move` and whose :t:`type` does not
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:361::t:`passed <passing convention>` :t:`by move`.
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:364:A :t:`value` not subject to :t:`by copy` or :t:`by move` :t:`passing convention`
+/home/pete.levasseur/project/fls/src/ownership-and-deconstruction.rst:365:shall not be :t:`passed <passing convention>` between :t:`[place]s`.
+
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mFind path resolution in entities-and-resolution
+
+342:A :t:`path` is subject to :t:`path resolution`.
+393:A :t:`simple path` is subject to :t:`simple path resolution`.
+420:A :t:`type path` is subject to :t:`type path resolution`.
+1696::t:`path resolution` by restricting the number of
+1789::t:`path resolution` kind, where the :t:`name` of the
+1804::t:`Simple path resolution` is a kind of :t:`path resolution` that applies to
+1808:The :t:`namespace context` of :t:`simple path resolution` is determined as
+1827::t:`path resolution`. The remaining :t:`[path segment]s` are resolved in
+1853::t:`Path expression resolution` is a form of :t:`path resolution` that applies
+1862:general :t:`path resolution`. The remaining :t:`[path segment]s` are resolved
+1987::t:`Type path resolution` is a form of :t:`path resolution` that applies to
+1991:The :t:`namespace context` of :t:`type path resolution` is the
+1996::t:`path resolution`. The remaining :t:`[path segment]s` are resolved in
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mList path resolution occurrences
+
+342:A :t:`path` is subject to :t:`path resolution`.
+393:A :t:`simple path` is subject to :t:`simple path resolution`.
+420:A :t:`type path` is subject to :t:`type path resolution`.
+1696::t:`path resolution` by restricting the number of
+1789::t:`path resolution` kind, where the :t:`name` of the
+1804::t:`Simple path resolution` is a kind of :t:`path resolution` that applies to
+1808:The :t:`namespace context` of :t:`simple path resolution` is determined as
+1827::t:`path resolution`. The remaining :t:`[path segment]s` are resolved in
+1853::t:`Path expression resolution` is a form of :t:`path resolution` that applies
+1862:general :t:`path resolution`. The remaining :t:`[path segment]s` are resolved
+1987::t:`Type path resolution` is a form of :t:`path resolution` that applies to
+1991:The :t:`namespace context` of :t:`type path resolution` is the
+1996::t:`path resolution`. The remaining :t:`[path segment]s` are resolved in
+
+[91m[1m| [0m[90m Bash     [0mFind Path Resolution section heading
+
+1658:Path Resolution
+1798:Simple Path Resolution
+1981:Type Path Resolution
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mFind path resolution in glossary static
+
+4937::dt:`Path expression resolution` is a form of :t:`path resolution` that applies
+4955:path resolution
+6231:simple path resolution
+6235::dt:`Simple path resolution` is a kind of :t:`path resolution` that applies to
+7125:type path resolution
+7129::dt:`Type path resolution` is a form of :t:`path resolution` that applies to
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[91m[1m| [0m[90m Bash     [0mFind path expression definition in expressions
+
+548:  A :t:`path expression` that resolves to a :t:`mutable static`,
+551:  A :t:`path expression` that resolves to a :t:`mutable variable` that is not
+752:A :t:`path expression` is an :t:`expression` that denotes a :t:`path`.
+755:A :t:`path expression` shall resolve to either a :t:`constant parameter`, a
+761:A :t:`path expression` that resolves to a :t:`mutable static` shall require
+765:The :t:`type` of a :t:`path expression` is the :t:`type` of the :t:`entity` that
+769:The :t:`value` of a :t:`path expression` is the :t:`entity` that it resolved to.
+3564:or the :t:`repeat operand` shall be a :t:`path expression` resolving to a
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[91m[1m| [0m[90m Bash     [0mFind path expression in glossary static
+
+4922:path expression
+4926:A :dt:`path expression` is a :t:`path` that acts as an :t:`expression`.
+4933:path expression resolution
+4938:to a :t:`path expression`.
+5194:qualified path expression
+5198:A :dt:`qualified path expression` is a :t:`path expression` that resolves
+7449:unqualified path expression
+7453:An :dt:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[91m[1m| [0m[90m Bash     [0mFind path entry in glossary static
+
+2787:global path
+4300:multi segment path
+4913:path
+5219:qualified type path
+5467:reachable control flow path
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[91m[1m| [0m[90m Bash     [0mFind panic definition
+
+/bin/bash: -c: line 1: unexpected EOF while looking for matching ``'
+
+[91m[1m| [0m[90m Bash     [0mSearch for panic in exceptions-and-errors
+
+26:  Erroneous behavior is signaled using :t:`macro` :std:`core::panic`.
+46:A :t:`panic` is an abnormal program state caused by invoking :t:`macro`
+47::std:`core::panic`.
+52:Invoking :t:`macro` :std:`core::panic` has the following runtime effects:
+59:   :t:`function` subject to :t:`attribute` :c:`panic_handler`.
+65:   panic!("This was a terrible mistake!");
+
+[96m[1m| [0m[90m Read     [0msrc/exceptions-and-errors.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[91m[1m| [0m[90m Bash     [0mFind partially hygienic in macros.rst
+
+1314:       and is considered :t:`partially hygienic`.
+1320:         considered :dt:`partially hygienic`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for outer line doc
+
+.. glossary-entry:: outer line doc
+   
+   :glossary:
+     :dp:`fls_m3u30fu8uac3`
+     An :dt:`outer line doc` is a :t:`line comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+     
+     :dp:`fls_1ppwidw7szk5`
+     See :s:`OuterLineDoc`.
+   :chapter:
+     :dp:`fls_scko7crha0um`
+     An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+     
+     .. glossary-entry:: outer doc comment
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for outer line doc with manual chapter lines
+
+/bin/bash: line 1: fls_scko7crha0um: command not found
+/bin/bash: line 1: outer: command not found
+/bin/bash: line 1: line: command not found
+/bin/bash: line 1: non-[comment]: command not found
+/bin/bash: line 1: construct: command not found
+.. glossary-entry:: outer line doc
+   
+   :glossary:
+     :dp:`fls_m3u30fu8uac3`
+     An :dt:`outer line doc` is a :t:`line comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+     
+     :dp:`fls_1ppwidw7szk5`
+     See :s:`OuterLineDoc`.
+   :chapter:
+     :dp:
+     An :t: is a :t: that applies to a subsequent
+     :t: :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for outer line doc with proper quoting
+
+.. glossary-entry:: outer line doc
+   
+   :glossary:
+     :dp:`fls_m3u30fu8uac3`
+     An :dt:`outer line doc` is a :t:`line comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+     
+     :dp:`fls_1ppwidw7szk5`
+     See :s:`OuterLineDoc`.
+   :chapter:
+     :dp:`fls_scko7crha0um`
+     An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
+     :t:`non-[comment]` :t:`construct`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for outline module
+
+.. glossary-entry:: outline module
+   
+   :glossary:
+     :dp:`fls_xhe5gmr0r9zn`
+     An :dt:`outline module` is a :t:`module` with an
+     :s:`OutlineModuleSpecification`.
+     
+     :dp:`fls_wu5wqylzx9ke`
+     See :s:`OutlineModuleSpecification`.
+   :chapter:
+     :dp:`fls_cavwpr1ybk37`
+     An :t:`outline module` is a :t:`module` with an :s:`OutlineModuleSpecification`.
+     
+     :dp:`fls_plepew2319g4`
+     An :t:`outline module` loads a :t:`source file` and considers the text of the
+     :t:`source file` to be inlined within the context of the :t:`outline module`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for outlives bound with manual chapter lines
+
+/bin/bash: -c: line 1: unexpected EOF while looking for matching `''
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for outlives bound with manual chapter lines
+
+.. glossary-entry:: outlives bound
+   
+   :glossary:
+     :dp:`fls_J5dt34II7Pm6`
+     An :dt:`outlives bound` is a :t:`trait bound` which requires that a
+     :t:`generic parameter` outlives a :t:`lifetime parameter`.
+   :chapter:
+     :dp:`fls_1Sm2Yq1Ow76f`
+     An :t:`outlives bound` is a :t:`trait bound` which requires that a
+     :t:`lifetime parameter` or :t:`type` outlives a :t:`lifetime parameter`.
+     
+     :dp:`fls_tx4uspewnk7w`
+     :t:`Outlives bound` ``'a: 'b`` indicates that ``'a`` outlives ``'b``.
+     
+     :dp:`fls_5kj8bmvb8xfc`
+     :t:`Outlives bound` ``T: 'a`` indicates that all :t:`[lifetime parameter]s` of
+     ``T`` outlive ``'a``.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for output register
+
+.. glossary-entry:: output register
+   
+   :glossary:
+     :dp:`fls_4METI8qE9JiY`
+     An :dt:`output register` is a :t:`register` whose :t:`register name` is
+     used in a :t:`register argument` subject to :t:`direction modifier` ``out``,
+     ``lateout``, ``inout``, or ``inlateout``.
+   :chapter:
+     :dp:`fls_5ruu8n6r9mvp`
+     An :t:`output register` is a :t:`register` whose :t:`register name` is
+     used in a :t:`register argument` subject to :t:`direction modifier` ``out``,
+     ``lateout``, ``inout``, or ``inlateout``.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for output register expression
+
+.. glossary-entry:: output register expression
+   
+   :glossary:
+     :dp:`fls_w95YRZ4JjBxl`
+     An :dt:`output register expression` is an :t:`expression` that is assigned the
+     :t:`value` of a :t:`register`.
+     
+     :dp:`fls_8B3ldFZVy7PA`
+     See :s:`OutputRegisterExpression`.
+   :chapter:
+     :dp:`fls_sopiivuae0x7`
+     An :t:`output register expression` is an :t:`expression` that is assigned the
+     :t:`value` of a :t:`register`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for overlap with manual chapter lines
+
+.. glossary-entry:: overlap
+   
+   :glossary:
+     :dp:`fls_itkz9y19923k`
+     Two :t:`[value]s` :dt:`overlap` when their memory locations overlap, or both
+     values are elements of the same :t:`array`.
+   :chapter:
+     :dp:`fls_rixdyyc525xp`
+     Two :t:`[value]s` :t:`overlap` when
+     
+     * :dp:`fls_m6ctqq70vcxr`
+       Both :t:`[value]s` are the same, or
+     
+     * :dp:`fls_s231d18x5eay`
+       One :t:`value` is of an :t:`abstract data type` and the other denotes a
+       :t:`field` of the same :t:`value`, or
+     
+     * :dp:`fls_dfr4yqo93fsn`
+       One :t:`value` denotes an :t:`array` and the other denotes an element of the
+       same :t:`value`, or
+     
+     * :dp:`fls_eoak5mdl6ma`
+       Both :t:`[value]s` are elements of the same :t:`array`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for ownership
+
+.. glossary-entry:: ownership
+   
+   :glossary:
+     :dp:`fls_tu4zt8twucsz`
+     :dt:`Ownership` is a property of :t:`[value]s` that is central to the resource
+     management model of Rust.
+   :chapter:
+     :dp:`fls_wt81sbsecmu0`
+     :t:`Ownership` is a property of :t:`[value]s` that is central to the resource
+     management model of Rust.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for owner
+
+.. glossary-entry:: owner
+   
+   :glossary:
+     :dp:`fls_7vwwhberexeb`
+     An :dt:`owner` is a :t:`variable` that holds a :t:`value`.
+   :chapter:
+     :dp:`fls_ckcnkbb6y3cq`
+     An :t:`owner` is a :t:`variable` that holds a :t:`value`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for passing convention with manual chapter lines
+
+.. glossary-entry:: passing convention
+   
+   :glossary:
+     :dp:`fls_eqgsg8j9btic`
+     A :dt:`passing convention` is the mechanism that defines how a :t:`value` is
+     transferred between :t:`[place]s`.
+   :chapter:
+     :dp:`fls_fvwx2ufeyzcs`
+     A :t:`passing convention` is the mechanism that defines how a :t:`value` is
+     transferred between :t:`[place]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for panic with manual chapter lines
+
+.. glossary-entry:: panic
+   
+   :glossary:
+     :dp:`fls_t3kpbnmohtp6`
+     A :dt:`panic` is an abnormal program state caused by invoking :t:`macro`
+     :std:`core::panic`.
+   :chapter:
+     :dp:`fls_a554v4n0khye`
+     A :t:`panic` is an abnormal program state caused by invoking :t:`macro`
+     :std:`core::panic`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/exceptions-and-errors.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for parenthesized expression
+
+.. glossary-entry:: parenthesized expression
+   
+   :glossary:
+     :dp:`fls_yu1x2rr7cewa`
+     A :dt:`parenthesized expression` is an :t:`expression` that groups other
+     expressions.
+     
+     :dp:`fls_p9exa6fpplfu`
+     See :s:`ParenthesizedExpression`.
+   :chapter:
+     :dp:`fls_jhazc75w5vj`
+     A :t:`parenthesized expression` is an :t:`expression` that groups other
+     :t:`[expression]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for path expression
+
+.. glossary-entry:: path expression
+   
+   :glossary:
+     :dp:`fls_4ik66nmvx5hn`
+     A :dt:`path expression` is a :t:`path` that acts as an :t:`expression`.
+     
+     :dp:`fls_3qjpjqm0legc`
+     See :s:`PathExpression`.
+   :chapter:
+     :dp:`fls_gvanx4874ycy`
+     A :t:`path expression` is an :t:`expression` that denotes a :t:`path`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for parenthesized pattern
+
+.. glossary-entry:: parenthesized pattern
+   
+   :glossary:
+     :dp:`fls_7j12dwsx9ghg`
+     A :dt:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
+     its :t:`[subpattern]s`.
+     
+     :dp:`fls_rwt31e8m694i`
+     See :s:`ParenthesizedPattern`.
+   :chapter:
+     :dp:`fls_kvqzmt7my5dh`
+     A :t:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
+     its :t:`[subpattern]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for path pattern
+
+.. glossary-entry:: path pattern
+   
+   :glossary:
+     :dp:`fls_vacvk3t26ctg`
+     A :dt:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
+     :t:`unit enum variant`, or a :t:`unit struct constant` indicated by a
+     :t:`path`.
+     
+     :dp:`fls_9fudbxoyq8k4`
+     See :s:`PathPattern`.
+   :chapter:
+     :dp:`fls_1crq0mexo5r1`
+     A :t:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
+     :t:`unit enum variant`, or a :t:`unit struct constant` indicated by a :t:`path`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for parenthesized type with manual chapter lines
+
+.. glossary-entry:: parenthesized type
+   
+   :glossary:
+     :dp:`fls_pamypc7t7l5n`
+     A :dt:`parenthesized type` is a :t:`type` that disambiguates the interpretation
+     of :t:`[lexical element]s`.
+     
+     :dp:`fls_lovkvqoni3xs`
+     See :s:`ParenthesizedTypeSpecification`.
+   :chapter:
+     :dp:`fls_1dvo1epstrdv`
+     A :t:`parenthesized type` is a :t:`type` that disambiguates the interpretation
+     of :t:`[lexical element]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for partially hygienic (glossary-only)
+
+.. glossary-entry:: partially hygienic
+   
+   :glossary:
+     :dp:`fls_Qh8V0Y08dNoa`
+     An :t:`identifier` is :dt:`partially hygienic` when it has
+     :t:`mixed site hygiene`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for path
+
+.. glossary-entry:: path
+   
+   :glossary:
+     :dp:`fls_u3jyud6mhy1f`
+     A :dt:`path` is a sequence of :t:`[path segment]s` logically separated by
+     :dt:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
+   :chapter:
+     :dp:`fls_klcltwcwrw6i`
+     A :t:`path` is a sequence of :t:`[path segment]s` logically separated by
+     :t:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for path segment
+
+.. glossary-entry:: path segment
+   
+   :glossary:
+     :dp:`fls_gsumebjc2bsp`
+     A :dt:`path segment` is a constituent of a :t:`path`.
+     
+     :dp:`fls_m067uq7fo66i`
+     See :s:`PathSegment`, :s:`SimplePathSegment`, :s:`TypePathSegment`.
+   :chapter:
+     :dp:`fls_y1z7kougmahd`
+     A :t:`path segment` is an element of a :t:`path`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for path resolution
+
+.. glossary-entry:: path resolution
+   
+   :glossary:
+     :dp:`fls_uy9Ai9vwTkjB`
+     :dt:`Path resolution` is a form of :t:`resolution` that applies to a :t:`path`.
+   :chapter:
+     :dp:`fls_8slvisr3jfja`
+     :t:`Path resolution` is a form of :t:`resolution` that applies to a :t:`path`.
+     
+     :dp:`fls_nmev0tnzgw35`
+     :t:`Path resolution` resolves a :t:`path` by resolving individual
+     :t:`[path segment]s` in sequence, starting from the leftmost :t:`path segment`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for path expression resolution
+
+.. glossary-entry:: path expression resolution
+   
+   :glossary:
+     :dp:`fls_WYcEVyc3SHuK`
+     :dt:`Path expression resolution` is a form of :t:`path resolution` that applies
+     to a :t:`path expression`.
+   :chapter:
+     :dp:`fls_akjlqm3a2lb1`
+     :t:`Path expression resolution` is a form of :t:`path resolution` that applies
+     to a :t:`unqualified path expression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for 20 glossary terms
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary, diff against static, verify HTML diff
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow git status summary
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 3]
+ M src/entities-and-resolution.rst
+ M src/exceptions-and-errors.rst
+ M src/expressions.rst
+ M src/inline-assembly.rst
+ M src/lexical-elements.rst
+ M src/macros.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/program-structure-and-compilation.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+6d3a2bc docs(glossary): migrate next 20 glossary terms
+ec49426 docs(glossary): migrate mutable and named terms
+d6c89e6 docs(glossary): migrate macro and method glossary entries
+0be1c7e docs(glossary): migrate loop and macro glossary entries
+c862c56 docs(glossary): migrate batch 18 entries
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged changes
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 7f64b76..cb1b220 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -331,12 +331,28 @@ Paths
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_klcltwcwrw6i`
+-A :t:`path` is a sequence of :t:`[path segment]s` logically separated by
+-:t:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
++.. glossary-entry:: path
++   
++   :glossary:
++     :dp:`fls_u3jyud6mhy1f`
++     A :dt:`path` is a sequence of :t:`[path segment]s` logically separated by
++     :dt:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
++   :chapter:
++     :dp:`fls_klcltwcwrw6i`
++     A :t:`path` is a sequence of :t:`[path segment]s` logically separated by
++     :t:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
+ 
+-:dp:`fls_y1z7kougmahd`
+-A :t:`path segment` is an element of a :t:`path`.
++.. glossary-entry:: path segment
++   
++   :glossary:
++     :dp:`fls_gsumebjc2bsp`
++     A :dt:`path segment` is a constituent of a :t:`path`.
++     
++     :dp:`fls_m067uq7fo66i`
++     See :s:`PathSegment`, :s:`SimplePathSegment`, :s:`TypePathSegment`.
++   :chapter:
++     :dp:`fls_y1z7kougmahd`
++     A :t:`path segment` is an element of a :t:`path`.
+ 
+ :dp:`fls_8q8nqfpSz7Ly`
+ A :t:`path` is subject to :t:`path resolution`.
+@@ -1660,12 +1676,18 @@ Path Resolution
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_8slvisr3jfja`
+-:t:`Path resolution` is a form of :t:`resolution` that applies to a :t:`path`.
+-
+-:dp:`fls_nmev0tnzgw35`
+-:t:`Path resolution` resolves a :t:`path` by resolving individual
+-:t:`[path segment]s` in sequence, starting from the leftmost :t:`path segment`.
++.. glossary-entry:: path resolution
++   
++   :glossary:
++     :dp:`fls_uy9Ai9vwTkjB`
++     :dt:`Path resolution` is a form of :t:`resolution` that applies to a :t:`path`.
++   :chapter:
++     :dp:`fls_8slvisr3jfja`
++     :t:`Path resolution` is a form of :t:`resolution` that applies to a :t:`path`.
++     
++     :dp:`fls_nmev0tnzgw35`
++     :t:`Path resolution` resolves a :t:`path` by resolving individual
++     :t:`[path segment]s` in sequence, starting from the leftmost :t:`path segment`.
+ 
+ :dp:`fls_p23q1ob2qitz`
+ A :t:`path segment` shall resolve to exactly one :t:`entity`.
+@@ -1849,9 +1871,16 @@ Path Expression Resolution
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_akjlqm3a2lb1`
+-:t:`Path expression resolution` is a form of :t:`path resolution` that applies
+-to a :t:`unqualified path expression`.
++.. glossary-entry:: path expression resolution
++   
++   :glossary:
++     :dp:`fls_WYcEVyc3SHuK`
++     :dt:`Path expression resolution` is a form of :t:`path resolution` that applies
++     to a :t:`path expression`.
++   :chapter:
++     :dp:`fls_akjlqm3a2lb1`
++     :t:`Path expression resolution` is a form of :t:`path resolution` that applies
++     to a :t:`unqualified path expression`.
+ 
+ :dp:`fls_xyzdajtf4u2t`
+ The :t:`namespace context` of :t:`path expression resolution` is the
+diff --git a/src/exceptions-and-errors.rst b/src/exceptions-and-errors.rst
+index 8d2e14a..11656ea 100644
+--- a/src/exceptions-and-errors.rst
++++ b/src/exceptions-and-errors.rst
+@@ -42,9 +42,16 @@ Panic
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_a554v4n0khye`
+-A :t:`panic` is an abnormal program state caused by invoking :t:`macro`
+-:std:`core::panic`.
++.. glossary-entry:: panic
++   
++   :glossary:
++     :dp:`fls_t3kpbnmohtp6`
++     A :dt:`panic` is an abnormal program state caused by invoking :t:`macro`
++     :std:`core::panic`.
++   :chapter:
++     :dp:`fls_a554v4n0khye`
++     A :t:`panic` is an abnormal program state caused by invoking :t:`macro`
++     :std:`core::panic`.
+ 
+ .. rubric:: Dynamic Semantics
+ 
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 28b0b0e..ff6ae3f 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -748,8 +748,17 @@ Path Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_gvanx4874ycy`
+-A :t:`path expression` is an :t:`expression` that denotes a :t:`path`.
++.. glossary-entry:: path expression
++   
++   :glossary:
++     :dp:`fls_4ik66nmvx5hn`
++     A :dt:`path expression` is a :t:`path` that acts as an :t:`expression`.
++     
++     :dp:`fls_3qjpjqm0legc`
++     See :s:`PathExpression`.
++   :chapter:
++     :dp:`fls_gvanx4874ycy`
++     A :t:`path expression` is an :t:`expression` that denotes a :t:`path`.
+ 
+ :dp:`fls_EOkrcIj9CuhV`
+ A :t:`path expression` shall resolve to either a :t:`constant parameter`, a
+@@ -3442,9 +3451,19 @@ Parenthesized Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_jhazc75w5vj`
+-A :t:`parenthesized expression` is an :t:`expression` that groups other
+-:t:`[expression]s`.
++.. glossary-entry:: parenthesized expression
++   
++   :glossary:
++     :dp:`fls_yu1x2rr7cewa`
++     A :dt:`parenthesized expression` is an :t:`expression` that groups other
++     expressions.
++     
++     :dp:`fls_p9exa6fpplfu`
++     See :s:`ParenthesizedExpression`.
++   :chapter:
++     :dp:`fls_jhazc75w5vj`
++     A :t:`parenthesized expression` is an :t:`expression` that groups other
++     :t:`[expression]s`.
+ 
+ :dp:`fls_5d66h7naoup6`
+ The :t:`type` of a :t:`parenthesized expression` is the :t:`type` of its
+diff --git a/src/inline-assembly.rst b/src/inline-assembly.rst
+index b25e897..0d06775 100644
+--- a/src/inline-assembly.rst
++++ b/src/inline-assembly.rst
+@@ -124,10 +124,18 @@ read and written.
+      a :t:`register argument` subject to :t:`direction modifier` ``in``, ``inout``,
+      or ``inlateout``.
+ 
+-:dp:`fls_5ruu8n6r9mvp`
+-An :t:`output register` is a :t:`register` whose :t:`register name` is
+-used in a :t:`register argument` subject to :t:`direction modifier` ``out``,
+-``lateout``, ``inout``, or ``inlateout``.
++.. glossary-entry:: output register
++   
++   :glossary:
++     :dp:`fls_4METI8qE9JiY`
++     An :dt:`output register` is a :t:`register` whose :t:`register name` is
++     used in a :t:`register argument` subject to :t:`direction modifier` ``out``,
++     ``lateout``, ``inout``, or ``inlateout``.
++   :chapter:
++     :dp:`fls_5ruu8n6r9mvp`
++     An :t:`output register` is a :t:`register` whose :t:`register name` is
++     used in a :t:`register argument` subject to :t:`direction modifier` ``out``,
++     ``lateout``, ``inout``, or ``inlateout``.
+ 
+ :dp:`fls_HV3Y1A2xn0zr`
+ A :t:`register` that is not specified as an :t:`output register` shall have the
+@@ -755,9 +763,19 @@ A :t:`register class argument` causes an assembler to select a suitable
+      An :t:`input register expression` is an :t:`expression` that provides the
+      initial :t:`value` of a :t:`register`.
+ 
+-:dp:`fls_sopiivuae0x7`
+-An :t:`output register expression` is an :t:`expression` that is assigned the
+-:t:`value` of a :t:`register`.
++.. glossary-entry:: output register expression
++   
++   :glossary:
++     :dp:`fls_w95YRZ4JjBxl`
++     An :dt:`output register expression` is an :t:`expression` that is assigned the
++     :t:`value` of a :t:`register`.
++     
++     :dp:`fls_8B3ldFZVy7PA`
++     See :s:`OutputRegisterExpression`.
++   :chapter:
++     :dp:`fls_sopiivuae0x7`
++     An :t:`output register expression` is an :t:`expression` that is assigned the
++     :t:`value` of a :t:`register`.
+ 
+ :dp:`fls_81Ju1TEqJ48K`
+ A :dt:`const register expression` is an :t:`expression` that is evaluated at compile-time.
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index fbf83a3..7042fe7 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -1585,9 +1585,19 @@ Comments
+      An :t:`outer block doc` is a :t:`block comment` that applies to a subsequent
+      :t:`non-[comment]` :t:`construct`.
+ 
+-:dp:`fls_scko7crha0um`
+-An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
+-:t:`non-[comment]` :t:`construct`.
++.. glossary-entry:: outer line doc
++   
++   :glossary:
++     :dp:`fls_m3u30fu8uac3`
++     An :dt:`outer line doc` is a :t:`line comment` that applies to a subsequent
++     :t:`non-[comment]` :t:`construct`.
++     
++     :dp:`fls_1ppwidw7szk5`
++     See :s:`OuterLineDoc`.
++   :chapter:
++     :dp:`fls_scko7crha0um`
++     An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
++     :t:`non-[comment]` :t:`construct`.
+ 
+ .. glossary-entry:: outer doc comment
+    
+diff --git a/src/macros.rst b/src/macros.rst
+index 9c5ffe2..444c7f7 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -1319,6 +1319,13 @@ within them, which aims to eliminate the syntactic interference between a
+          :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is
+          considered :dt:`partially hygienic`.
+ 
++.. glossary-entry:: partially hygienic
++   
++   :glossary:
++     :dp:`fls_Qh8V0Y08dNoa`
++     An :t:`identifier` is :dt:`partially hygienic` when it has
++     :t:`mixed site hygiene`.
++
+ :dp:`fls_yxqcr19dig18`
+ Every :t:`macro` has associated :t:`hygiene` that depends on its kind:
+ 
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index b275620..356dc26 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -15,12 +15,25 @@ Ownership
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_wt81sbsecmu0`
+-:t:`Ownership` is a property of :t:`[value]s` that is central to the resource
+-management model of Rust.
++.. glossary-entry:: ownership
++   
++   :glossary:
++     :dp:`fls_tu4zt8twucsz`
++     :dt:`Ownership` is a property of :t:`[value]s` that is central to the resource
++     management model of Rust.
++   :chapter:
++     :dp:`fls_wt81sbsecmu0`
++     :t:`Ownership` is a property of :t:`[value]s` that is central to the resource
++     management model of Rust.
+ 
+-:dp:`fls_ckcnkbb6y3cq`
+-An :t:`owner` is a :t:`variable` that holds a :t:`value`.
++.. glossary-entry:: owner
++   
++   :glossary:
++     :dp:`fls_7vwwhberexeb`
++     An :dt:`owner` is a :t:`variable` that holds a :t:`value`.
++   :chapter:
++     :dp:`fls_ckcnkbb6y3cq`
++     An :t:`owner` is a :t:`variable` that holds a :t:`value`.
+ 
+ :dp:`fls_ze0u9gfylmhn`
+ A :t:`value` shall have only one :t:`owner`.
+@@ -306,9 +319,16 @@ Passing Conventions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fvwx2ufeyzcs`
+-A :t:`passing convention` is the mechanism that defines how a :t:`value` is
+-transferred between :t:`[place]s`.
++.. glossary-entry:: passing convention
++   
++   :glossary:
++     :dp:`fls_eqgsg8j9btic`
++     A :dt:`passing convention` is the mechanism that defines how a :t:`value` is
++     transferred between :t:`[place]s`.
++   :chapter:
++     :dp:`fls_fvwx2ufeyzcs`
++     A :t:`passing convention` is the mechanism that defines how a :t:`value` is
++     transferred between :t:`[place]s`.
+ 
+ .. glossary-entry:: copy type
+    
+diff --git a/src/patterns.rst b/src/patterns.rst
+index f8f1e4e..c8af461 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -382,9 +382,19 @@ Parenthesized Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_kvqzmt7my5dh`
+-A :t:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
+-its :t:`[subpattern]s`.
++.. glossary-entry:: parenthesized pattern
++   
++   :glossary:
++     :dp:`fls_7j12dwsx9ghg`
++     A :dt:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
++     its :t:`[subpattern]s`.
++     
++     :dp:`fls_rwt31e8m694i`
++     See :s:`ParenthesizedPattern`.
++   :chapter:
++     :dp:`fls_kvqzmt7my5dh`
++     A :t:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
++     its :t:`[subpattern]s`.
+ 
+ :dp:`fls_mrjhpiq5refe`
+ A :t:`parenthesized pattern` is an :t:`irrefutable pattern` when its nested
+@@ -429,9 +439,20 @@ Path Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_1crq0mexo5r1`
+-A :t:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
+-:t:`unit enum variant`, or a :t:`unit struct constant` indicated by a :t:`path`.
++.. glossary-entry:: path pattern
++   
++   :glossary:
++     :dp:`fls_vacvk3t26ctg`
++     A :dt:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
++     :t:`unit enum variant`, or a :t:`unit struct constant` indicated by a
++     :t:`path`.
++     
++     :dp:`fls_9fudbxoyq8k4`
++     See :s:`PathPattern`.
++   :chapter:
++     :dp:`fls_1crq0mexo5r1`
++     A :t:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
++     :t:`unit enum variant`, or a :t:`unit struct constant` indicated by a :t:`path`.
+ 
+ :dp:`fls_xz5otkhogn31`
+ A :t:`path pattern` expressed as a :t:`path expression` shall refer to either
+diff --git a/src/program-structure-and-compilation.rst b/src/program-structure-and-compilation.rst
+index 383bca4..c5b0719 100644
+--- a/src/program-structure-and-compilation.rst
++++ b/src/program-structure-and-compilation.rst
+@@ -97,12 +97,22 @@ be consumed by :t:`[macro]s`.
+      :dp:`fls_qypjjpcf8uwq`
+      An :t:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.
+ 
+-:dp:`fls_cavwpr1ybk37`
+-An :t:`outline module` is a :t:`module` with an :s:`OutlineModuleSpecification`.
+-
+-:dp:`fls_plepew2319g4`
+-An :t:`outline module` loads a :t:`source file` and considers the text of the
+-:t:`source file` to be inlined within the context of the :t:`outline module`.
++.. glossary-entry:: outline module
++   
++   :glossary:
++     :dp:`fls_xhe5gmr0r9zn`
++     An :dt:`outline module` is a :t:`module` with an
++     :s:`OutlineModuleSpecification`.
++     
++     :dp:`fls_wu5wqylzx9ke`
++     See :s:`OutlineModuleSpecification`.
++   :chapter:
++     :dp:`fls_cavwpr1ybk37`
++     An :t:`outline module` is a :t:`module` with an :s:`OutlineModuleSpecification`.
++     
++     :dp:`fls_plepew2319g4`
++     An :t:`outline module` loads a :t:`source file` and considers the text of the
++     :t:`source file` to be inlined within the context of the :t:`outline module`.
+ 
+ :dp:`fls_1aruwps62c4p`
+ The location of a :t:`module` :t:`source file` can be specified using
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 1840fef..623435a 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -1676,9 +1676,19 @@ Parenthesized Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_1dvo1epstrdv`
+-A :t:`parenthesized type` is a :t:`type` that disambiguates the interpretation
+-of :t:`[lexical element]s`.
++.. glossary-entry:: parenthesized type
++   
++   :glossary:
++     :dp:`fls_pamypc7t7l5n`
++     A :dt:`parenthesized type` is a :t:`type` that disambiguates the interpretation
++     of :t:`[lexical element]s`.
++     
++     :dp:`fls_lovkvqoni3xs`
++     See :s:`ParenthesizedTypeSpecification`.
++   :chapter:
++     :dp:`fls_1dvo1epstrdv`
++     A :t:`parenthesized type` is a :t:`type` that disambiguates the interpretation
++     of :t:`[lexical element]s`.
+ 
+ .. rubric:: Examples
+ 
+@@ -3473,16 +3483,23 @@ A :s:`ForGenericParameterList` shall not specify :s:`[ConstantParameter]s` or
+      An :t:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
+      that nullifies an implicitly added :t:`trait bound`.
+ 
+-:dp:`fls_1Sm2Yq1Ow76f`
+-An :t:`outlives bound` is a :t:`trait bound` which requires that a
+-:t:`lifetime parameter` or :t:`type` outlives a :t:`lifetime parameter`.
+-
+-:dp:`fls_tx4uspewnk7w`
+-:t:`Outlives bound` ``'a: 'b`` indicates that ``'a`` outlives ``'b``.
+-
+-:dp:`fls_5kj8bmvb8xfc`
+-:t:`Outlives bound` ``T: 'a`` indicates that all :t:`[lifetime parameter]s` of
+-``T`` outlive ``'a``.
++.. glossary-entry:: outlives bound
++   
++   :glossary:
++     :dp:`fls_J5dt34II7Pm6`
++     An :dt:`outlives bound` is a :t:`trait bound` which requires that a
++     :t:`generic parameter` outlives a :t:`lifetime parameter`.
++   :chapter:
++     :dp:`fls_1Sm2Yq1Ow76f`
++     An :t:`outlives bound` is a :t:`trait bound` which requires that a
++     :t:`lifetime parameter` or :t:`type` outlives a :t:`lifetime parameter`.
++     
++     :dp:`fls_tx4uspewnk7w`
++     :t:`Outlives bound` ``'a: 'b`` indicates that ``'a`` outlives ``'b``.
++     
++     :dp:`fls_5kj8bmvb8xfc`
++     :t:`Outlives bound` ``T: 'a`` indicates that all :t:`[lifetime parameter]s` of
++     ``T`` outlive ``'a``.
+ 
+ .. glossary-entry:: implied bound
+    
+diff --git a/src/values.rst b/src/values.rst
+index 377cd57..c0da7c8 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -31,22 +31,29 @@ the object is stored.
+ An :t:`[allocated object]s` :dt:`memory size` is the number of bytes the object
+ spans in memory from its :t:`base address`.
+ 
+-:dp:`fls_rixdyyc525xp`
+-Two :t:`[value]s` :t:`overlap` when
+-
+-* :dp:`fls_m6ctqq70vcxr`
+-  Both :t:`[value]s` are the same, or
+-
+-* :dp:`fls_s231d18x5eay`
+-  One :t:`value` is of an :t:`abstract data type` and the other denotes a
+-  :t:`field` of the same :t:`value`, or
+-
+-* :dp:`fls_dfr4yqo93fsn`
+-  One :t:`value` denotes an :t:`array` and the other denotes an element of the
+-  same :t:`value`, or
+-
+-* :dp:`fls_eoak5mdl6ma`
+-  Both :t:`[value]s` are elements of the same :t:`array`.
++.. glossary-entry:: overlap
++   
++   :glossary:
++     :dp:`fls_itkz9y19923k`
++     Two :t:`[value]s` :dt:`overlap` when their memory locations overlap, or both
++     values are elements of the same :t:`array`.
++   :chapter:
++     :dp:`fls_rixdyyc525xp`
++     Two :t:`[value]s` :t:`overlap` when
++     
++     * :dp:`fls_m6ctqq70vcxr`
++       Both :t:`[value]s` are the same, or
++     
++     * :dp:`fls_s231d18x5eay`
++       One :t:`value` is of an :t:`abstract data type` and the other denotes a
++       :t:`field` of the same :t:`value`, or
++     
++     * :dp:`fls_dfr4yqo93fsn`
++       One :t:`value` denotes an :t:`array` and the other denotes an element of the
++       same :t:`value`, or
++     
++     * :dp:`fls_eoak5mdl6ma`
++       Both :t:`[value]s` are elements of the same :t:`array`.
+ 
+ .. glossary-entry:: null
+    
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration updates
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch and show status
+
+[glossary-single-source-phase1 cee165a] docs(glossary): migrate outer/path glossary entries
+ 11 files changed, 246 insertions(+), 81 deletions(-)
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 4]
+
+Migrated the next 20 glossary terms into chapter `.. glossary-entry::` blocks, keeping glossary text identical and adding a glossary-only block for `partially hygienic` to preserve the macros hygiene narrative. Updates span the relevant chapters where each term is defined, using dual blocks where chapter definitions exist and glossary-only where they do not.
+
+- Updated term metadata at `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl` and marked the batch complete in `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`.
+- Verified generated glossary parity and HTML output are unchanged.
+
+Tests
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit
+- `docs(glossary): migrate outer/path glossary entries`
+
+Next steps
+1) Push the branch when you’re ready.  
+2) Continue with the next 20 unchecked terms in the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

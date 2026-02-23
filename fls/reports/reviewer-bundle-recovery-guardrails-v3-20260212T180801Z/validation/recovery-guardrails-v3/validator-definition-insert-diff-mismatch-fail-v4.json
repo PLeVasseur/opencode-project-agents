@@ -1,0 +1,31 @@
+{
+  "errors": [
+    "FAILED_INSERT_DIFF_MISMATCH: WA-001: definition_operation=insert did not show qualifying insertion (mode=fallback, evidence=git show --numstat 9393733730ae3de4a1e756fe3ed109990e691ff0 -- src/values.rst)"
+  ],
+  "summary": {
+    "baseline_rows": 1,
+    "checklist": {
+      "parent_checked": 1,
+      "parent_total": 1,
+      "parent_unchecked": 0,
+      "sub_checked": 6,
+      "sub_total": 6,
+      "sub_unchecked": 0
+    },
+    "completed_rows": 1,
+    "error_count": 1,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 6,
+    "insert_diff_modes": {
+      "WA-001": "fallback"
+    },
+    "ledger_rows": 1,
+    "mode": "gate",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 1,
+    "warning_count": 0
+  },
+  "warnings": []
+}

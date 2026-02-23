@@ -1,0 +1,19 @@
+{
+  "batch_sizes": {
+    "WA": 20,
+    "WB": 20,
+    "WC": 40,
+    "WD": 40
+  },
+  "batches": [],
+  "end_head": "00ad8917bb407f976793f6dae384512cb6690549",
+  "expected_branch": "glossary-single-source-phase1",
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": null,
+  "run_id": "v3",
+  "session_id": null,
+  "start_head": "00ad8917bb407f976793f6dae384512cb6690549",
+  "started_at": "20260211T223137Z",
+  "updated_at": "20260211T224737Z",
+  "workdir": "/home/pete.levasseur/project/fls"
+}

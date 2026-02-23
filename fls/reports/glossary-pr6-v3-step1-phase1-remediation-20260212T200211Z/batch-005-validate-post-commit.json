@@ -1,0 +1,34 @@
+{
+  "errors": [
+    "FAILED_INSERT_DIFF_MISMATCH: WA-007: definition_operation=insert did not show qualifying insertion (mode=hunk, evidence=/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-005-diff-audit.json, insert_net=0, swap_detected=true)"
+  ],
+  "summary": {
+    "baseline_rows": 104,
+    "checklist": {
+      "parent_checked": 9,
+      "parent_total": 104,
+      "parent_unchecked": 95,
+      "sub_checked": 54,
+      "sub_total": 624,
+      "sub_unchecked": 570
+    },
+    "completed_rows": 9,
+    "error_count": 1,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 624,
+    "insert_diff_modes": {
+      "WA-001": "hunk",
+      "WA-007": "hunk",
+      "WA-008": "hunk",
+      "WA-009": "hunk"
+    },
+    "ledger_rows": 104,
+    "mode": "progress",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 9,
+    "warning_count": 0
+  },
+  "warnings": []
+}

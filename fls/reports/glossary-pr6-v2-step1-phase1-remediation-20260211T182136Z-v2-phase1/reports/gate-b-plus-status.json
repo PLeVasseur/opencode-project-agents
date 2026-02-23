@@ -1,0 +1,10 @@
+{
+  "checksums": {},
+  "missing": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/inputs/v3/fls-pr6-updated-analysis-v3.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/inputs/v3/fls-pr6-placement-fitness-v3.json",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/inputs/v3/fls-pr6-definition-divergence-v3.json"
+  ],
+  "status": "blocked-missing-v3",
+  "timestamp": "20260211T190233Z"
+}

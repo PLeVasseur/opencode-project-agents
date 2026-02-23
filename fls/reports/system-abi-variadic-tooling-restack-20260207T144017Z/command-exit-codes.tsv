@@ -1,0 +1,196 @@
+bootstrap_printenv	0	printenv OPENCODE_CONFIG_DIR
+bootstrap_git_fetch	0	git fetch origin
+bootstrap_uv_sync	0	uv sync
+integration_status_before	0	git status --short --branch
+integration_tooling_diff_before	0	git diff -- tools/changelog_assistant.py
+integration_changelog_diff_before	0	git diff -- src/changelog.rst
+integration_copy_tooling_before	0	cp tools/changelog_assistant.py '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/integration-before.changelog_assistant.py'
+integration_copy_changelog_before	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/integration-before.changelog.rst'
+integration_capture_tooling_patch	0	git diff -- tools/changelog_assistant.py > '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling.patch'
+tooling_worktree_create	0	ls '/home/pete.levasseur/project' && git worktree add -b 'changelog-assistant-paragraph-buckets-inline-tags-on-dedupe-20260207T144017Z' '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' changelog-assistant-upstream-pr-anchor-title-preserve-on-dedupe
+tooling_status_initial	0	git -C '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' status --short --branch
+tooling_head_initial	0	git -C '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' rev-parse HEAD
+tooling_apply_patch	0	git -C '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' apply '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling.patch'
+tooling_status_after_apply	0	git -C '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' status --short --branch
+tooling_diff_after_apply	0	git -C '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' diff -- tools/changelog_assistant.py
+tooling_py_compile	0	uv run python -m py_compile tools/changelog_assistant.py
+tooling_help	0	uv run python tools/changelog_assistant.py --help
+tooling_verifier_compare	0	uv run python tools/changelog_tag_verifier.py --mode compare --report-dir build/changelog-tag-verification/restack-compare
+tooling_verifier_extract	0	uv run python tools/changelog_tag_verifier.py --mode extract --report-dir build/changelog-tag-verification/restack-extract
+tooling_baseline_capture	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-baseline.changelog.rst'
+tooling_default_update	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-default'
+tooling_default_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-default.json'))['update_action'])"
+tooling_default_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+tooling_default_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+tooling_default_diff	0	git diff -- src/changelog.rst
+tooling_default_structure_assert	0	uv run python - <<'PY'
+from pathlib import Path
+TICK = chr(96)
+TOP = '- ' + TICK
+P = ':p:' + TICK
+lines = Path('src/changelog.rst').read_text(encoding='utf-8').splitlines()
+start = next(i for i, line in enumerate(lines) if line.startswith(TOP) and 'https://github.com/rust-lang/rust/pull/145954' in line)
+end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith(TOP)), len(lines))
+entry = lines[start:end]
+headers = [line[4:-1] for line in entry if line.startswith('  - ') and line.endswith(':') and not line.startswith('  - Change tags:')]
+allowed = {'Added paragraphs', 'Removed paragraphs', 'Changed paragraphs'}
+legacy = sorted(set(headers) - allowed)
+section = None
+added = []
+removed = []
+changed = []
+for line in entry:
+    if line == '  - Added paragraphs:':
+        section = 'added'; continue
+    if line == '  - Removed paragraphs:':
+        section = 'removed'; continue
+    if line == '  - Changed paragraphs:':
+        section = 'changed'; continue
+    if line.startswith('  - ') and line.endswith(':'):
+        section = None; continue
+    if not line.startswith('    - '):
+        continue
+    item = line[6:]
+    if section == 'added':
+        added.append(item)
+    elif section == 'removed':
+        removed.append(item)
+    elif section == 'changed':
+        changed.append(item)
+ok = True
+if legacy:
+    ok = False
+if any(('(' in item or ')' in item) for item in added + removed):
+    ok = False
+if changed and any(('(' not in item or ')' not in item) for item in changed):
+    ok = False
+
+def extract_id(item):
+    pos = item.find(P)
+    if pos < 0:
+        return None
+    begin = pos + len(P)
+    end = item.find(TICK, begin)
+    if end < 0:
+        return None
+    return item[begin:end]
+
+def has_dups(items):
+    seen = set()
+    for item in items:
+        pid = extract_id(item)
+        if not pid:
+            continue
+        if pid in seen:
+            return True
+        seen.add(pid)
+    return False
+if has_dups(added) or has_dups(removed) or has_dups(changed):
+    ok = False
+print('headers:', headers)
+print('legacy_headers:', legacy)
+print('added:', len(added), 'removed:', len(removed), 'changed:', len(changed))
+print('status:', 'pass' if ok else 'fail')
+raise SystemExit(0 if ok else 1)
+PY
+tooling_restore_baseline_1	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-baseline.changelog.rst' src/changelog.rst
+tooling_replace_update	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --replace-title --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-replace'
+tooling_replace_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-replace.json'))['update_action'])"
+tooling_replace_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+tooling_replace_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+tooling_replace_diff	0	git diff -- src/changelog.rst
+tooling_missing_strict	1	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/999999' --title 'Anchor replace validation title override probe' --require-anchor --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-missing-strict'
+tooling_restore_baseline_2	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-baseline.changelog.rst' src/changelog.rst
+tooling_missing_default	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/999999' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-missing-default'
+tooling_missing_default_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-missing-default.json'))['update_action'])"
+tooling_missing_default_count	0	rg -c 'https://github.com/rust-lang/rust/pull/999999' src/changelog.rst
+tooling_restore_baseline_3	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/tooling-baseline.changelog.rst' src/changelog.rst
+tooling_status_after_validation	0	git status --short --branch
+tooling_commit_stage	0	git add tools/changelog_assistant.py
+tooling_commit_create	0	git commit -m 'refactor(changelog-assistant): render paragraph lifecycle buckets'
+tooling_commit_sha	0	git rev-parse HEAD
+tooling_status_after_commit	0	git status --short --branch
+integration_restore_tooling_local_edit	0	git restore tools/changelog_assistant.py
+integration_status_after_restore_tooling	0	git status --short --branch
+integration_tooling_diff_after_restore	0	git diff -- tools/changelog_assistant.py
+integration_restore_changelog_before_pick	0	git restore src/changelog.rst
+integration_status_pre_cherry_pick	0	git status --short --branch
+integration_cherry_pick_tooling_commit	0	git cherry-pick '0c590c4f6143b958b73fd793d19855f1e53c1880'
+integration_head_after_cherry_pick	0	git rev-parse HEAD
+integration_status_after_cherry_pick	0	git status --short --branch
+integration_regen_abi_entry_dedupe_base	0	uv run python tools/changelog_assistant.py --update --base '0165ee6ad6e7e6a54705458d491810b0481b7df4' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Stabilize declaration of C-style variadic functions for the system ABI' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/integration-abi-dedupe-base'
+integration_abi_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/integration-abi-dedupe-base.json'))['update_action'])"
+integration_abi_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+integration_abi_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+integration_abi_diff	0	git diff -- src/changelog.rst
+integration_abi_structure_assert	0	uv run python - <<'PY'
+from pathlib import Path
+TICK = chr(96)
+TOP = '- ' + TICK
+P = ':p:' + TICK
+lines = Path('src/changelog.rst').read_text(encoding='utf-8').splitlines()
+start = next(i for i, line in enumerate(lines) if line.startswith(TOP) and 'https://github.com/rust-lang/rust/pull/145954' in line)
+end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith(TOP)), len(lines))
+entry = lines[start:end]
+headers = [line[4:-1] for line in entry if line.startswith('  - ') and line.endswith(':') and not line.startswith('  - Change tags:')]
+allowed = {'Added paragraphs', 'Removed paragraphs', 'Changed paragraphs'}
+legacy = sorted(set(headers) - allowed)
+section = None
+added = []
+removed = []
+changed = []
+for line in entry:
+    if line == '  - Added paragraphs:':
+        section = 'added'; continue
+    if line == '  - Removed paragraphs:':
+        section = 'removed'; continue
+    if line == '  - Changed paragraphs:':
+        section = 'changed'; continue
+    if line.startswith('  - ') and line.endswith(':'):
+        section = None; continue
+    if not line.startswith('    - '):
+        continue
+    item = line[6:]
+    if section == 'added':
+        added.append(item)
+    elif section == 'removed':
+        removed.append(item)
+    elif section == 'changed':
+        changed.append(item)
+ok = True
+if legacy:
+    ok = False
+if any(('(' in item or ')' in item) for item in added + removed):
+    ok = False
+if changed and any(('(' not in item or ')' not in item) for item in changed):
+    ok = False
+print('headers:', headers)
+print('legacy_headers:', legacy)
+print('added:', len(added), 'removed:', len(removed), 'changed:', len(changed))
+print('status:', 'pass' if ok else 'fail')
+raise SystemExit(0 if ok else 1)
+PY
+integration_compare_origin_main_vs_dedupe_base	0	uv run python - <<'PY'
+import json
+from collections import Counter
+from pathlib import Path
+old = json.loads(Path('/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/final-state-title-preserved.json').read_text())
+new = json.loads(Path('/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/integration-abi-dedupe-base.json').read_text())
+old_map = {json.dumps(c, sort_keys=True): c for c in old['changes']}
+new_map = {json.dumps(c, sort_keys=True): c for c in new['changes']}
+removed = [old_map[k] for k in sorted(set(old_map) - set(new_map))]
+added = [new_map[k] for k in sorted(set(new_map) - set(old_map))]
+print('old_base', old['base'])
+print('new_base', new['base'])
+print('old_total', len(old['changes']), 'new_total', len(new['changes']))
+print('removed_records', len(removed), 'added_records', len(added))
+print('removed_by_type', dict(sorted(Counter(c['type'] for c in removed).items())))
+print('added_by_type', dict(sorted(Counter(c['type'] for c in added).items())))
+removed_ids = sorted({c.get('paragraph_id') for c in removed if c.get('paragraph_id')})
+print('removed_paragraph_ids', removed_ids)
+PY
+integration_post_regen_status	0	git status --short --branch
+integration_recent_log	0	git log -8 --oneline
+integration_tooling_file_diff_against_head	0	git diff -- tools/changelog_assistant.py
+tooling_branch_head	0	git -C '/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z' rev-parse HEAD
+integration_branch_head	0	git -C '/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z' rev-parse HEAD

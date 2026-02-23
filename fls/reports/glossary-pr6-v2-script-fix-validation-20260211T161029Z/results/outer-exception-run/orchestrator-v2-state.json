@@ -1,0 +1,29 @@
+{
+  "batch_sizes": {
+    "WA": 1,
+    "WB": 1,
+    "WC": 1,
+    "WD": 1
+  },
+  "batches": [],
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "failed_batches": [
+    {
+      "batch_number": 1,
+      "error": "validator failed in mode=progress (exit 1)\nstdout:\nmode=progress\nparent_total=2 parent_checked=1 parent_unchecked=1 sub_total=12 sub_checked=6 sub_unchecked=6\nledger_rows=2 baseline_rows=2 completed_rows=1 resolved_high_rows=1 errors=3\nERROR: WA-001: missing after_commit (reason quality)\nERROR: WA-001: missing after_commit (after snapshot)\nERROR: WA-001: missing after_commit (completed-row)\n\nstderr:\n",
+      "ids": [
+        "WA-001"
+      ],
+      "reason": "batch exception",
+      "timestamp": "20260211T161206Z",
+      "wave": "WA"
+    }
+  ],
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": "fake-session",
+  "run_id": "run",
+  "session_id": null,
+  "started_at": "20260211T161205Z",
+  "updated_at": "20260211T161206Z",
+  "workdir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/sandbox-repo"
+}

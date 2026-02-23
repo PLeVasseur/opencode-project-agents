@@ -1,0 +1,32 @@
+{
+  "errors": [
+    "WA-001: missing after_commit (reason quality)",
+    "WA-001: missing after_commit (after snapshot)",
+    "WA-001: missing after_commit (completed-row)",
+    "FAILED_GLOSSARY_ALIGNMENT: WA-001: missing after_commit for mode=gate"
+  ],
+  "summary": {
+    "baseline_rows": 1,
+    "checklist": {
+      "parent_checked": 1,
+      "parent_total": 1,
+      "parent_unchecked": 0,
+      "sub_checked": 6,
+      "sub_total": 6,
+      "sub_unchecked": 0
+    },
+    "completed_rows": 1,
+    "error_count": 4,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 6,
+    "insert_diff_modes": {},
+    "ledger_rows": 1,
+    "mode": "gate",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 1,
+    "warning_count": 0
+  },
+  "warnings": []
+}

@@ -1,0 +1,820 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms from checklist
+
+warning: glossary-entry not found in src files: function body
+warning: glossary-entry not found in src files: function item type
+warning: glossary-entry not found in src files: function lifetime elision
+warning: glossary-entry not found in src files: function parameter
+warning: glossary-entry not found in src files: function pointer type
+warning: glossary-entry not found in src files: function pointer type parameter
+warning: glossary-entry not found in src files: function qualifier
+warning: glossary-entry not found in src files: function signature
+warning: glossary-entry not found in src files: function type
+warning: glossary-entry not found in src files: function-like macro
+warning: glossary-entry not found in src files: fundamental
+warning: glossary-entry not found in src files: future
+warning: glossary-entry not found in src files: future operand
+warning: glossary-entry not found in src files: generic argument
+warning: glossary-entry not found in src files: generic associated type
+warning: glossary-entry not found in src files: generic conformance
+warning: glossary-entry not found in src files: generic enum
+warning: glossary-entry not found in src files: generic function
+warning: glossary-entry not found in src files: generic implementation
+warning: glossary-entry not found in src files: generic parameter
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mDry-run term map to display next terms
+
+warning: glossary-entry not found in src files: function body
+warning: glossary-entry not found in src files: function item type
+warning: glossary-entry not found in src files: function lifetime elision
+warning: glossary-entry not found in src files: function parameter
+warning: glossary-entry not found in src files: function pointer type
+warning: glossary-entry not found in src files: function pointer type parameter
+warning: glossary-entry not found in src files: function qualifier
+warning: glossary-entry not found in src files: function signature
+warning: glossary-entry not found in src files: function type
+warning: glossary-entry not found in src files: function-like macro
+warning: glossary-entry not found in src files: fundamental
+warning: glossary-entry not found in src files: future
+warning: glossary-entry not found in src files: future operand
+warning: glossary-entry not found in src files: generic argument
+warning: glossary-entry not found in src files: generic associated type
+warning: glossary-entry not found in src files: generic conformance
+warning: glossary-entry not found in src files: generic enum
+warning: glossary-entry not found in src files: generic function
+warning: glossary-entry not found in src files: generic implementation
+warning: glossary-entry not found in src files: generic parameter
+warning: no new term-map entries to write
+
+[94m[1m| [0m[90m Grep     [0m:dt:`(function body|function item type|function lifetime elision|function parameter|function pointer type parameter|function pointer type|function qualifier|function signature|function type|function-like macro|fundamental|future operand|future|generic argument|generic associated type|generic conformance|generic enum|generic function|generic implementation|generic parameter)`
+[94m[1m| [0m[90m Grep     [0mfunction lifetime elision
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mfunction body
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[94m[1m| [0m[90m Grep     [0mfunction item type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mfunction pointer type parameter
+[94m[1m| [0m[90m Grep     [0mfunction qualifier
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[94m[1m| [0m[90m Grep     [0mfunction type
+[94m[1m| [0m[90m Grep     [0mFunction Types
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mfunction type is
+[94m[1m| [0m[90m Grep     [0mfunction lifetime elision
+[94m[1m| [0m[90m Grep     [0mfunction-like macro
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mfundamental
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[94m[1m| [0m[90m Grep     [0mfuture operand|future`
+[96m[1m| [0m[90m Read     [0msrc/concurrency.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mgeneric argument
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[94m[1m| [0m[90m Grep     [0mgeneric associated type|generic conformance|generic enum|generic function|generic implementation|generic parameter
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[96m[1m| [0m[90m Read     [0msrc/associated-items.rst
+[94m[1m| [0m[90m Grep     [0mgeneric conformance
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[94m[1m| [0m[90m Grep     [0mlifetime elision
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function qualifier
+
+.. glossary-entry:: function qualifier
+   
+   :glossary:
+     :dp:`fls_8cux22275v8r`
+     A :dt:`function qualifier` is a :t:`construct` that determines the role of
+     a :t:`function`.
+     
+     :dp:`fls_3td9tztnj2jq`
+     See :s:`FunctionQualifierList`.
+   :chapter:
+     :dp:`fls_87jnkimc15gi`
+     A :t:`function qualifier` is a :t:`construct` that determines the role of
+     a :t:`function`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function parameter
+
+.. glossary-entry:: function parameter
+   
+   :glossary:
+     :dp:`fls_2feq1ky9pla1`
+     A :dt:`function parameter` is a :t:`construct` that yields a set of
+     :t:`[binding]s` that bind matched input :t:`[value]s` to :t:`[name]s` at the
+     site of a :t:`call expression` or a :t:`method call expression`.
+     
+     :dp:`fls_4tf20svi3rjx`
+     See :s:`FunctionParameter`.
+   :chapter:
+     :dp:`fls_uwuthzfgslif`
+     A :t:`function parameter` is a :t:`construct` that yields a set of
+     :t:`[binding]s` that bind matched input :t:`[value]s` to :t:`[name]s` at the
+     site of a :t:`call expression` or a :t:`method call expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function body
+
+.. glossary-entry:: function body
+   
+   :glossary:
+     :dp:`fls_y5ha4123alik`
+     A :dt:`function body` is the :t:`block expression` of a :t:`function`.
+     
+     :dp:`fls_r0g0i730x6x4`
+     See :s:`FunctionBody`.
+   :chapter:
+     :dp:`fls_927nfm5mkbsp`
+     A :t:`function body` is the :t:`block expression` of a :t:`function`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function signature
+
+.. glossary-entry:: function signature
+   
+   :glossary:
+     :dp:`fls_ndld48kg6o8d`
+     A :dt:`function signature` is a unique identification of a :t:`function`
+     that encompasses of its :t:`[function qualifier]s`, :t:`name`,
+     :t:`[generic parameter]s`, :t:`[function parameter]s`, :t:`return type`, and
+     :t:`where clause`.
+   :chapter:
+     :dp:`fls_owdlsaaygtho`
+     A :t:`function signature` is a unique identification of a :t:`function`
+     that encompasses of its :t:`[function qualifier]s`, :t:`name`,
+     :t:`[generic parameter]s`, :t:`[function parameter]s`, :t:`return type`, and
+     :t:`where clause`.
+     
+     .. glossary-entry:: constant function
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function item type
+
+.. glossary-entry:: function item type
+   
+   :glossary:
+     :dp:`fls_rfvfo8x42dh8`
+     A :dt:`function item type` is a unique anonymous :t:`function type` that
+     identifies a :t:`function`.
+   :chapter:
+     :dp:`fls_t24iojx7yc23`
+     A :t:`function item type` is a unique anonymous :t:`function type` that
+     identifies a :t:`function`.
+     
+     .. glossary-entry:: external function item type
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function pointer type
+
+.. glossary-entry:: function pointer type
+   
+   :glossary:
+     :dp:`fls_lcawg25xhblx`
+     A :dt:`function pointer type` is an :t:`indirection type` that refers to a
+     :t:`function`.
+     
+     :dp:`fls_t50umpk5abjy`
+     See :s:`FunctionPointerTypeSpecification`.
+   :chapter:
+     :dp:`fls_v2wrytr3t04h`
+     A :t:`function pointer type` is an :t:`indirection type` that refers to a
+     :t:`function`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function lifetime elision
+
+.. glossary-entry:: function lifetime elision
+   
+   :glossary:
+     :dp:`fls_tZMmRHua1S8K`
+     :dt:`Function lifetime elision` is a form of :t:`lifetime elision` that applies
+     to :t:`[function]s`, :t:`[function pointer type parameter]s` and :t:`[path]s`
+     resolving to one of the :std:`core::ops::Fn`, :std:`core::ops::FnMut`, and
+     :std:`core::ops::FnOnce` :t:`[trait]s`.
+   :chapter:
+     :dp:`fls_lAdIRCFFlydD`
+     :t:`Function lifetime elision` is a form of :t:`lifetime elision` that applies
+     to :t:`[function]s`, :t:`[function pointer type parameter]s`, and :t:`[path]s`
+     that resolve to one of the :std:`core::ops::Fn`, :std:`core::ops::FnMut`, and
+     :std:`core::ops::FnOnce` :t:`[trait]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function pointer type parameter
+
+.. glossary-entry:: function pointer type parameter
+   
+   :glossary:
+     :dp:`fls_nF1k90JJWq2K`
+     A :dt:`function pointer type parameter` is a :t:`function parameter` of a
+     :t:`function pointer type`.
+     
+     :dp:`fls_vvy6qogy0xnb`
+     See :s:`FunctionPointerTypeParameter`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function type
+
+.. glossary-entry:: function type
+   
+   :glossary:
+     :dp:`fls_4e19116glgtv`
+     A :dt:`function type` is either a :t:`closure type` or a
+     :t:`function item type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for function-like macro
+
+.. glossary-entry:: function-like macro
+   
+   :glossary:
+     :dp:`fls_psnab9cuq4bu`
+     A :dt:`function-like macro` is a :t:`procedural macro` that consumes a stream
+     of :t:`[token]s` and produces a stream of tokens, and is invoked directly.
+   :chapter:
+     :dp:`fls_utd3zqczix`
+     A :t:`function-like macro` is a :t:`procedural macro` that consumes a stream of
+     :t:`[token]s` and produces a stream of :t:`[token]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for fundamental
+
+.. glossary-entry:: fundamental
+   
+   :glossary:
+     :dp:`fls_e0dRD4NTE0UP`
+     A :t:`trait` or :t:`type` is :dt:`fundamental` when its
+     :t:`implementation coherence` rules are relaxed and the :t:`trait` or :t:`type`
+     is always treated as if it was a :t:`local trait` or a :t:`local type`.
+   :chapter:
+     :dp:`fls_UkQhjEWSJpDq`
+     A :t:`trait` or :t:`type` is :t:`fundamental` when its
+     :t:`implementation coherence` rules are relaxed and the :t:`trait` or :t:`type`
+     is always treated as if it was a :t:`local trait` or a :t:`local type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for future
+
+.. glossary-entry:: future
+   
+   :glossary:
+     :dp:`fls_pvigospl4n3g`
+     A :dt:`future` represents a :t:`value` of a :t:`type` that implements the
+     :std:`core::future::Future` :t:`trait` which may not have finished computing
+     yet.
+   :chapter:
+     :dp:`fls_fte085hi1yqj`
+     A :t:`future` represents a :t:`value` of a :t:`type` that implements the
+     :std:`core::future::Future` :t:`trait` which may not have finished computing
+     yet.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for future operand
+
+.. glossary-entry:: future operand
+   
+   :glossary:
+     :dp:`fls_fold1inh5jev`
+     A :dt:`future operand` is an :t:`operand` whose :t:`future` is being awaited by
+     an :t:`await expression`.
+     
+     :dp:`fls_tbfpowv90u5w`
+     See :s:`FutureOperand`.
+   :chapter:
+     :dp:`fls_vhchgab59jvd`
+     A :t:`future operand` is an :t:`operand` whose :t:`future` is being awaited by
+     an :t:`await expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic argument
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic associated type
+
+.. glossary-entry:: generic associated type
+   
+   :glossary:
+     :dp:`fls_O4wckPZPmree`
+     A :dt:`generic associated type` is an :t:`associated type` with
+     :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_PeD0DzjK57be`
+     A :t:`generic associated type` is an :t:`associated type` with
+     :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic conformance
+
+.. glossary-entry:: generic conformance
+   
+   :glossary:
+     :dp:`fls_PfvELNsNySLT`
+     :dt:`Generic conformance` measures the compatibility between a set of
+     :t:`[generic parameter]s` and a set of :t:`[generic argument]s`.
+   :chapter:
+     :dp:`fls_CBWyxBJeYeb2`
+     :t:`Generic conformance` measures the compatibility between a set of
+     :t:`[generic parameter]s` and a set of :t:`[generic argument]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic enum
+
+.. glossary-entry:: generic enum
+   
+   :glossary:
+     :dp:`fls_pnu8w26uexaq`
+     A :dt:`generic enum` is an :t:`enum` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_pi6eukz7kc99`
+     A :t:`generic enum` is an :t:`enum` with :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic function
+
+.. glossary-entry:: generic function
+   
+   :glossary:
+     :dp:`fls_rfkbc967d48h`
+     A :dt:`generic function` is a :t:`function` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_ixmgqupxvf73`
+     A :t:`generic function` is a :t:`function` with :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic implementation
+
+.. glossary-entry:: generic implementation
+   
+   :glossary:
+     :dp:`fls_jic937ujpnar`
+     A :dt:`generic implementation` is an :t:`implementation` with
+     :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_z311nxou9yi3`
+     A :t:`generic implementation` is an :t:`implementation` with
+     :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic parameter
+
+.. glossary-entry:: generic parameter
+   
+   :glossary:
+     :dp:`fls_61e6br8jy1v2`
+     A :dt:`generic parameter` is a placeholder for a :t:`constant`, a
+     :t:`lifetime`, or a :t:`type` whose :t:`value` is supplied statically by a
+     :t:`generic argument`.
+     
+     :dp:`fls_jvxpoob39632`
+     See :s:`GenericParameterList`.
+   :chapter:
+     :dp:`fls_sye3d17l9bf5`
+     A :t:`generic parameter` is a placeholder for a :t:`constant`, a :t:`lifetime`,
+     or a :t:`type`, whose :t:`constant`, :t:`lifetime`, or :t:`type` is supplied
+     statically by a :t:`generic argument`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for generic argument
+
+.. glossary-entry:: generic argument
+   
+   :glossary:
+     :dp:`fls_meimxi20p51a`
+     A :dt:`generic argument` supplies a static input for an
+     :t:`associated trait type` or a :t:`generic parameter`.
+     
+     :dp:`fls_8bvdmdgbu17l`
+     See :s:`GenericArgumentList`.
+   :chapter:
+     :dp:`fls_3x6qd8vt5uus`
+     A :t:`generic argument` supplies a static input for an
+     :t:`associated trait type` or a :t:`generic parameter`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/functions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/implementations.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/concurrency.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/associated-items.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: function signature
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[91m[1m| [0m[90m Bash     [0mAppend term map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mCompare generated glossary with static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report is empty
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow git status short
+
+ M src/associated-items.rst
+ M src/concurrency.rst
+ M src/expressions.rst
+ M src/functions.rst
+ M src/generics.rst
+ M src/implementations.rst
+ M src/macros.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged git diff
+[91m[1m| [0m[90m Bash     [0mShow recent git commits
+
+200bda3 docs(glossary): migrate batch 11 entries
+862a461 docs(glossary): migrate batch 10 entries
+9a978c3 docs(glossary): migrate batch 09 entries
+869af9c docs(glossary): migrate phase 2 batch for glossary parity
+441f3fd docs(glossary): migrate batch 08 entries
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration edits
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch
+
+[glossary-single-source-phase1 5c37a48] docs(glossary): migrate batch 12 entries
+ 8 files changed, 228 insertions(+), 60 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShow git status after commit
+Migrated the next 20 glossary terms into `.. glossary-entry::` directives, preserving chapter text and adding glossary-only entries where no chapter definition exists (e.g., function type and function pointer type parameter). Updates are spread across the relevant chapters for functions, generics, macros, types/traits, concurrency, expressions, implementations, and associated items.
+
+- Updated term directives in `src/functions.rst`, `src/types-and-traits.rst`, `src/generics.rst`, `src/macros.rst`, `src/implementations.rst`, `src/concurrency.rst`, `src/expressions.rst`, `src/associated-items.rst`.
+- Generated glossary output and verified parity.
+- Checklist updated at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`; term-map appended under `/home/pete.levasseur/opencode-project-agents/fls/reports/`.
+
+**Verification**
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (no differences)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (no differences; report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`)
+
+Commit created: `docs(glossary): migrate batch 12 entries`.
+
+Next steps:
+1. Start the next batch of 20 terms.
+2. Push the branch if you want this ready for PR.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

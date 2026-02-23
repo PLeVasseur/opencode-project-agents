@@ -1,0 +1,60 @@
+{
+  "batch_number": 6,
+  "commit_hash": "7b8d1eb9dd185fb5bacb2a6d93f2736287a5621b",
+  "deviation_permit_count": 0,
+  "diff_audit_index_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/reports/diff-audit-index.json",
+  "diff_audit_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-diff-audit.json",
+  "high_medium_count": 2,
+  "ids": [
+    "WA-007",
+    "WA-008",
+    "WA-009"
+  ],
+  "insert_diff_modes": {
+    "WA-008": "hunk",
+    "WA-009": "hunk"
+  },
+  "max_rationale_similarity": 0.3088235294117647,
+  "max_rationale_similarity_pair": [
+    "WA-008",
+    "WA-009"
+  ],
+  "moved_term_count": 2,
+  "moved_terms": [
+    {
+      "checklist_id": "WA-008",
+      "term": "item"
+    },
+    {
+      "checklist_id": "WA-009",
+      "term": "field"
+    }
+  ],
+  "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-opencode.jsonl",
+  "passed_ids": [
+    "WA-008",
+    "WA-009"
+  ],
+  "pending_deviation_count": 0,
+  "quarantined_ids": [
+    "WA-007"
+  ],
+  "rationale_patterns_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-rationale-patterns.json",
+  "rationale_patterns_md": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-rationale-patterns.md",
+  "recommendation_compliance_rate": 1.0,
+  "recommendation_compliant_count": 2,
+  "session_id": "ses_3ac42b48effeCc4WE2cqZp0nYr",
+  "strict_post": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-strict-post.json",
+  "strict_pre": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-strict-pre.json",
+  "terms": [
+    "name",
+    "item",
+    "field"
+  ],
+  "timestamp": "20260212T212749Z",
+  "validator_failure_codes": [],
+  "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-validate-post-commit.json",
+  "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-validate-progress.json",
+  "validator_progress_post_quarantine": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-006-validate-progress-post-quarantine.json",
+  "wave": "WA"
+}

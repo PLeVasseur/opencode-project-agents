@@ -1,0 +1,13 @@
+{
+  "batch_number": 1,
+  "error": "validator failed in mode=progress (exit 1)\nstdout:\nmode=progress\nparent_total=2 parent_checked=1 parent_unchecked=1 sub_total=12 sub_checked=6 sub_unchecked=6\nledger_rows=2 baseline_rows=2 completed_rows=1 resolved_high_rows=1 errors=3\nERROR: WA-001: missing after_commit (reason quality)\nERROR: WA-001: missing after_commit (after snapshot)\nERROR: WA-001: missing after_commit (completed-row)\n\nstderr:\n",
+  "ids": [
+    "WA-001"
+  ],
+  "rolled_back": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/outer-exception-run/manual-placement-checklist-v2.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/outer-exception-run/manual-placement-ledger-v2.csv"
+  ],
+  "timestamp": "20260211T161206Z",
+  "wave": "WA"
+}

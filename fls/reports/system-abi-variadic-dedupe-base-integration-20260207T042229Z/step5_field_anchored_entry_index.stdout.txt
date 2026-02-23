@@ -1,0 +1,6 @@
+582:            "anchored_entry_index": anchor["entry_index"],
+590:            "anchored_entry_index": None,
+612:        "anchored_entry_index": update_metadata.get("anchored_entry_index"),
+649:        if report["anchored_entry_index"] is not None:
+650:            lines.append(f"- anchored entry index: `{report['anchored_entry_index']}`")
+745:                f"(entry {update_metadata['anchored_entry_index']}, line {update_metadata['anchored_entry_line']})"

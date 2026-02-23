@@ -1,0 +1,13 @@
+case: fls_imr2jx6cbuzq
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/fls_imr2jx6cbuzq/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/fls_imr2jx6cbuzq/head.json
+
+observed tags:
+- paragraph-changed
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

@@ -1,0 +1,28 @@
+{
+  "algorithm_version": 1,
+  "run_id": "pr1-20260215T221903Z",
+  "seed": "prewarm-pr1-20260215T221903Z",
+  "selected_probe_ids": [
+    "negative-001",
+    "negative-002",
+    "src-001",
+    "src-002",
+    "src-003",
+    "src-100",
+    "tables-001",
+    "tables-002",
+    "tables-003",
+    "tables-100",
+    "text-001",
+    "text-002",
+    "text-003",
+    "text-100"
+  ],
+  "signature": "8f9a12d6beada90439feffcecd0ac557fec63a9e9da188a0030da4973ea1d504",
+  "source_selectors": {
+    "src": "src/index.md",
+    "tables": "src/tables/table-01.yaml",
+    "text": "src/iso26262_rust_mapping.md"
+  },
+  "timestamp_utc": "2026-02-15T23:03:53Z"
+}

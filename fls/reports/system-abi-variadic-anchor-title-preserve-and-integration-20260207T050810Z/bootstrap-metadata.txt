@@ -1,0 +1,7 @@
+utc_timestamp=2026-02-07T05:08:48Z
+repo_path=/home/pete.levasseur/project/fls
+current_branch=changelog-assistant-upstream-pr-anchor
+head_sha=e1f5fcbf7236ac7f86482fccf77b993b917b3121
+origin_main_sha=f1b193f5197f48686bd56fe881633bb62fad7f27
+origin_dedupe_sha=0165ee6ad6e7e6a54705458d491810b0481b7df4
+report_root=/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z

@@ -1,0 +1,3 @@
+   Compiling example-streamer-uses v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/example-streamer-uses)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 8.89s
+     Running `target/debug/zenoh_service`

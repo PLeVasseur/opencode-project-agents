@@ -1,0 +1,141 @@
+diff --git a/src/macros.rst b/src/macros.rst
+index 859a75e..b5c1115 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -1356,57 +1356,54 @@ within them, which aims to eliminate the syntactic interference between a
+ :dp:`fls_3axjf28xb1nt`
+ :t:`Hygiene` is categorized as follows:
+ 
+-*
+-  .. glossary-entry:: definition site hygiene
+-     :glossary-dp: fls_FrfnICpg81sr
+-     
+-     :glossary:
+-       :dp:`fls_2Y1Dpw5ZEqT3`
+-       :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+-       :s:`MacroRulesDeclaration` site. :t:`[Identifier]s` with
+-       :t:`definition site hygiene` cannot reference the environment of the
+-       :s:`MacroRulesDeclaration`, cannot be referenced by the environment of a
+-       :s:`MacroInvocation`, and are considered :t:`hygienic`.
+-     :chapter:
+-       * :dp:`fls_dz2mvodl818d`
+-         :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+-         site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
+-         the environment of the :s:`MacroRulesDeclaration`, cannot be referenced by the
+-         environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
+-
+-*
+-  .. glossary-entry:: call site hygiene
+-     :glossary-dp: fls_AK8mL1LeftO0
+-     
+-     :glossary:
+-       :dp:`fls_YTQmXotFOXWU`
+-       :dt:`Call site hygiene` is a type of :t:`hygiene` which resolves to the
+-       :s:`MacroInvocation` site. :t:`[Identifier]s` with :t:`call site hygiene` can
+-       reference the environment of the :s:`MacroRulesDeclaration`, can reference the
+-       environment of the :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+-     :chapter:
+-       * :dp:`fls_puqhytfzfsg6`
+-         :t:`Call site hygiene`, which resolves to a :s:`MacroInvocation` site.
+-         :t:`[Identifier]s` with :t:`call site hygiene` can reference the environment
+-         of the :s:`MacroRulesDeclaration`, can reference the environment of the
+-         :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+-
+-*
+-  .. glossary-entry:: mixed site hygiene
+-     :glossary-dp: fls_2FFRdj5cO0ks
+-     
+-     :glossary:
+-       :dp:`fls_hjJpNmKiZxlT`
+-       :dt:`Mixed site hygiene` is a type of :t:`hygiene` which resolves to the
+-       :s:`MacroRulesDeclaration` site for :t:`[variable]s`, :t:`[label]s`, and the
+-       ``$crate`` :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise,
+-       and is considered :t:`partially hygienic`.
+-     :chapter:
+-       * :dp:`fls_uyvnq88y9gk3`
+-         :t:`Mixed site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+-         site for :t:`[label]s`, :t:`[variable]s`, and the ``$crate``
+-         :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is
+-         considered :dt:`partially hygienic`.
++.. glossary-entry:: definition site hygiene
++   :glossary-dp: fls_FrfnICpg81sr
++   
++   :glossary:
++     :dp:`fls_2Y1Dpw5ZEqT3`
++     :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
++     :s:`MacroRulesDeclaration` site. :t:`[Identifier]s` with
++     :t:`definition site hygiene` cannot reference the environment of the
++     :s:`MacroRulesDeclaration`, cannot be referenced by the environment of a
++     :s:`MacroInvocation`, and are considered :t:`hygienic`.
++   :chapter:
++     * :dp:`fls_dz2mvodl818d`
++       :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
++       site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
++       the environment of the :s:`MacroRulesDeclaration`, cannot be referenced by the
++       environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
++
++.. glossary-entry:: call site hygiene
++   :glossary-dp: fls_AK8mL1LeftO0
++   
++   :glossary:
++     :dp:`fls_YTQmXotFOXWU`
++     :dt:`Call site hygiene` is a type of :t:`hygiene` which resolves to the
++     :s:`MacroInvocation` site. :t:`[Identifier]s` with :t:`call site hygiene` can
++     reference the environment of the :s:`MacroRulesDeclaration`, can reference the
++     environment of the :s:`MacroInvocation`, and are considered :t:`unhygienic`.
++   :chapter:
++     * :dp:`fls_puqhytfzfsg6`
++       :t:`Call site hygiene`, which resolves to a :s:`MacroInvocation` site.
++       :t:`[Identifier]s` with :t:`call site hygiene` can reference the environment
++       of the :s:`MacroRulesDeclaration`, can reference the environment of the
++       :s:`MacroInvocation`, and are considered :t:`unhygienic`.
++
++.. glossary-entry:: mixed site hygiene
++   :glossary-dp: fls_2FFRdj5cO0ks
++   
++   :glossary:
++     :dp:`fls_hjJpNmKiZxlT`
++     :dt:`Mixed site hygiene` is a type of :t:`hygiene` which resolves to the
++     :s:`MacroRulesDeclaration` site for :t:`[variable]s`, :t:`[label]s`, and the
++     ``$crate`` :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise,
++     and is considered :t:`partially hygienic`.
++   :chapter:
++     * :dp:`fls_uyvnq88y9gk3`
++       :t:`Mixed site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
++       site for :t:`[label]s`, :t:`[variable]s`, and the ``$crate``
++       :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is
++       considered :dt:`partially hygienic`.
+ 
+ .. glossary-entry:: partially hygienic
+    :glossary-dp: fls_fULM1oCKSakS
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 9945512..9520e7e 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -2663,7 +2663,7 @@ subject to :t:`C representation`, :t:`default representation`, or
+    :glossary-dp: fls_a0ezuPLtENme
+    
+    :glossary:
+-     :dp:`fls_t4yeovFm83Wo`
++     :dp:`fls_kqdvWGi9cglm`
+      A :dt:`discriminant type` is the :t:`type` of a :t:`discriminant`.
+    :chapter:
+      :dp:`fls_s9c0a0lg6c0p`
+@@ -2672,7 +2672,7 @@ subject to :t:`C representation`, :t:`default representation`, or
+      :t:`ABI`.
+ 
+ .. glossary-entry:: C signed int type
+-   :glossary-dp: fls_J0xUy4Mcxoe6
++   :glossary-dp: fls_fls_J0xUy4Mcxoe6
+    
+    :glossary:
+      :dp:`fls_8QIcvapJehqY`
+@@ -4061,7 +4061,7 @@ Within a :t:`trait`, the :t:`type` :c:`Self` acts as a placeholder for a
+    :glossary-dp: fls_bYpBl5zfTibF
+    
+    :glossary:
+-     :dp:`fls_I9JaKZelMiby`
++     :dp:`fls_H5vkbMFvzrFs`
+      A :dt:`local trait` is a :t:`trait` that is defined in the current :t:`crate`.
+    :chapter:
+      :dp:`fls_AdbbUZZgMEsQ`

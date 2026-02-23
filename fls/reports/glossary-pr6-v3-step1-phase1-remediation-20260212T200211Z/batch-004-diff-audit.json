@@ -1,0 +1,61 @@
+{
+  "batch_number": 4,
+  "commit_hash": "c05c97ad04d3bd0265ef74c2663e85ffc45c544e",
+  "terms": [
+    {
+      "after_file": "types-and-traits.rst",
+      "after_file_repo_path": "src/types-and-traits.rst",
+      "checklist_id": "WA-004",
+      "definition_operation": "promote",
+      "file_added_lines": 0,
+      "file_deleted_lines": 0,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "trait"
+    },
+    {
+      "after_file": "entities-and-resolution.rst",
+      "after_file_repo_path": "src/entities-and-resolution.rst",
+      "checklist_id": "WA-005",
+      "definition_operation": "promote",
+      "file_added_lines": 0,
+      "file_deleted_lines": 0,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "construct"
+    },
+    {
+      "after_file": "entities-and-resolution.rst",
+      "after_file_repo_path": "src/entities-and-resolution.rst",
+      "checklist_id": "WA-006",
+      "definition_operation": "promote",
+      "file_added_lines": 0,
+      "file_deleted_lines": 0,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "entity"
+    }
+  ],
+  "timestamp": "20260212T201534Z"
+}

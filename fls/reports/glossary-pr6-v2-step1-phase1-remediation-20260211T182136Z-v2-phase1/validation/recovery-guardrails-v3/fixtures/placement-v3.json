@@ -1,0 +1,15 @@
+{
+  "metadata": {},
+  "terms": [
+    {
+      "term": "value",
+      "relocation_priority": "high",
+      "fitness_rating": "poor",
+      "recommended_location": {
+        "file": "values.rst",
+        "section": "Values",
+        "reason": "Concept belongs in Values chapter."
+      }
+    }
+  ]
+}

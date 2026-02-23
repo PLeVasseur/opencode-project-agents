@@ -1,0 +1,28 @@
+{
+  "batches_completed": 0,
+  "batches_completed_total": 0,
+  "batches_failed": 0,
+  "canonical_checklist_template": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/fixtures/checklist-unchecked.md",
+  "changed_src_files": [],
+  "end_head": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "events_jsonl": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun/reports/rationale-events.jsonl",
+  "execution_integrity_report": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun/reports/execution-integrity.json",
+  "execution_integrity_verdict": "pass",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": null,
+  "new_commit_count": 0,
+  "new_commit_hashes": [],
+  "recovery_guardrails": false,
+  "remaining_parent_ids": [
+    "WA-001"
+  ],
+  "remediation_dir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun",
+  "run_id": "dryrun",
+  "run_local_checklist": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun/manual-placement-checklist-v2.md",
+  "run_local_ledger": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun/manual-placement-ledger-v2.csv",
+  "start_head": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "timestamp": "20260211T215409Z",
+  "wave_a_end_head": null,
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

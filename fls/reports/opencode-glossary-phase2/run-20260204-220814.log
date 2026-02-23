@@ -1,0 +1,1633 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked checklist terms
+
+warning: glossary-entry not found in src files: range-to-inclusive expression
+warning: glossary-entry not found in src files: raw borrow expression
+warning: glossary-entry not found in src files: raw byte string literal
+warning: glossary-entry not found in src files: raw c string literal
+warning: glossary-entry not found in src files: raw pointer
+warning: glossary-entry not found in src files: raw pointer type
+warning: glossary-entry not found in src files: raw string literal
+warning: glossary-entry not found in src files: reachable control flow path
+warning: glossary-entry not found in src files: receiver operand
+warning: glossary-entry not found in src files: receiver type
+warning: glossary-entry not found in src files: record enum variant
+warning: glossary-entry not found in src files: record struct
+warning: glossary-entry not found in src files: record struct field
+warning: glossary-entry not found in src files: record struct pattern
+warning: glossary-entry not found in src files: record struct type
+warning: glossary-entry not found in src files: record struct value
+warning: glossary-entry not found in src files: recursive type
+warning: glossary-entry not found in src files: reference
+warning: glossary-entry not found in src files: reference identifier pattern
+warning: glossary-entry not found in src files: reference pattern
+warning: no new term-map entries to write
+
+[94m[1m| [0m[90m Grep     [0mrange-to-inclusive expression|raw borrow expression|raw byte string literal|raw c string literal|raw pointer type|raw pointer|raw string literal|reachable control flow path|receiver operand|receiver type|record enum variant|record struct field|record struct pattern|record struct type|record struct value|record struct|recursive type|reference identifier pattern|reference pattern|reference\b
+[94m[1m| [0m[90m Grep     [0mrange-to-inclusive expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mraw borrow expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mraw byte string literal
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mraw c string literal
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mraw string literal
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mraw pointer type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mraw pointer` is
+[94m[1m| [0m[90m Grep     [0mraw pointer` is
+[94m[1m| [0m[90m Grep     [0m:t:`raw pointer`
+[94m[1m| [0m[90m Grep     [0mraw pointer
+[94m[1m| [0m[90m Grep     [0mreceiver operand
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mrecord enum variant
+[94m[1m| [0m[90m Grep     [0m:dt:`record
+[94m[1m| [0m[90m Grep     [0mrecord struct
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mrecord enum variant` is
+[94m[1m| [0m[90m Grep     [0mrecord struct` is
+[94m[1m| [0m[90m Grep     [0mRecordStruct
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mrecord struct field` is
+[94m[1m| [0m[90m Grep     [0mrecord struct value
+[94m[1m| [0m[90m Grep     [0mrecord struct type
+[94m[1m| [0m[90m Grep     [0mrecursive type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mreference type` is
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m:t:`reference` is
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m Grep     [0mreference identifier pattern
+[94m[1m| [0m[90m Grep     [0m:dt:`reference identifier pattern`
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mreference pattern
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mreachable control flow path
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[94m[1m| [0m[90m Grep     [0mStruct Types|Structs|Record Struct
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mEnum Types
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: enum variant
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: struct
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: struct type|glossary-entry:: struct
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for range-to-inclusive expression
+
+.. glossary-entry:: range-to-inclusive expression
+   
+   :glossary:
+     :dp:`fls_t4fjanjvkd69`
+     A :dt:`range-to-inclusive expression` is a :t:`range expression` that specifies
+     an included :t:`range expression high bound`.
+     
+     :dp:`fls_krei7lc6lo8q`
+     See :s:`RangeToInclusiveExpression`.
+   :chapter:
+     :dp:`fls_1gc436ee1nzm`
+     A :t:`range-to-inclusive expression` is a :t:`range expression` that specifies
+     an included :t:`range expression high bound`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for raw borrow expression
+
+.. glossary-entry:: raw borrow expression
+   
+   :glossary:
+     :dp:`fls_Fe39wLb0vvEg`
+     A :dt:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
+     
+     :dp:`fls_I71jq8BGyLqi`
+     See :s:`RawBorrowExpression`.
+   :chapter:
+     :dp:`fls_TS6DvMon5h27`
+     A :t:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for receiver operand
+
+.. glossary-entry:: receiver operand
+   
+   :glossary:
+     :dp:`fls_odbg4bizvqxq`
+     A :dt:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
+     :t:`method` is being invoked by a :t:`method call expression`.
+     
+     :dp:`fls_4rme1x6romeg`
+     See :s:`ReceiverOperand`.
+   :chapter:
+     :dp:`fls_jx3ryre0xs88`
+     A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
+     :t:`method` is being invoked by a :t:`method call expression`.
+     
+     .. glossary-entry:: method operand
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for raw byte string literal
+
+.. glossary-entry:: raw byte string literal
+   
+   :glossary:
+     :dp:`fls_8v5k3wemy4tl`
+     A :dt:`raw byte string literal` is a :t:`simple byte string literal` that does
+     not recognize :t:`[escaped character]s`.
+     
+     :dp:`fls_5x71i3ay3na2`
+     See :s:`RawByteStringLiteral`.
+   :chapter:
+     :dp:`fls_yyw7nv651580`
+     A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
+     recognize :t:`[escaped character]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for raw c string literal
+
+.. glossary-entry:: raw c string literal
+   
+   :glossary:
+     :dp:`fls_qhWBzqoYZL0e`
+     A :dt:`raw c string literal` is a :t:`simple c string literal` that does not
+     recognize :t:`[escaped character]s`.
+     
+     :dp:`fls_WpFJyq6q4k6E`
+     See :s:`RawCStringLiteral`.
+   :chapter:
+     :dp:`fls_gLrei65i8Uzq`
+     A :t:`raw c string literal` is a :t:`simple c string literal` that does not
+     recognize :t:`[escaped character]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for raw string literal
+
+.. glossary-entry:: raw string literal
+   
+   :glossary:
+     :dp:`fls_48t4v316951j`
+     A :dt:`raw string literal` is a :t:`simple string literal` that does not
+     recognize :t:`[escaped character]s`.
+     
+     :dp:`fls_26ol7lrnux94`
+     See :s:`RawStringLiteral`.
+   :chapter:
+     :dp:`fls_36suwhbwmq1t`
+     A :t:`raw string literal` is a :t:`simple string literal` that does not
+     recognize :t:`[escaped character]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for raw pointer type
+
+.. glossary-entry:: raw pointer type
+   
+   :glossary:
+     :dp:`fls_wspawcoqxfbh`
+     A :dt:`raw pointer type` is an :t:`indirection type` without safety and
+     liveness guarantees.
+     
+     :dp:`fls_ctksliaxhzo9`
+     See :s:`RawPointerTypeSpecification`.
+   :chapter:
+     :dp:`fls_rpbhr0xukbx9`
+     A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
+     
+     .. glossary-entry:: mutable raw pointer type
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for reference type
+
+.. glossary-entry:: reference type
+   
+   :glossary:
+     :dp:`fls_l3knopsdlyf2`
+     A :dt:`reference type` is an :t:`indirection type` with :t:`ownership`.
+     
+     :dp:`fls_jzjatdpxqt9u`
+     See :s:`ReferenceTypeSpecification`.
+   :chapter:
+     :dp:`fls_twhq24s8kchh`
+     A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for recursive type
+
+.. glossary-entry:: recursive type
+   
+   :glossary:
+     :dp:`fls_2t8qom6dhcjb`
+     A :dt:`recursive type` is a :t:`type` that may define other types within its
+     :t:`type specification`.
+   :chapter:
+     :dp:`fls_z22std1crl49`
+     A :t:`recursive type` is a :t:`type` whose contained :t:`[type]s` refer back to
+     the containing :t:`type`, either directly or by referring to another :t:`type`
+     which refers back to the original :t:`recursive type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for reference
+
+.. glossary-entry:: reference
+   
+   :glossary:
+     :dp:`fls_s82y4hsuytiq`
+     A :dt:`reference` is a :t:`value` of a :t:`reference type`.
+   :chapter:
+     :dp:`fls_7x9pi2o7pee7`
+     A :t:`reference` is a :t:`value` of a :t:`reference type`. A :t:`reference`
+     can be obtained explicitly by using a :t:`borrow expression` or implicitly in
+     certain scenarios.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for reference identifier pattern
+
+.. glossary-entry:: reference identifier pattern
+   
+   :glossary:
+     :dp:`fls_jQs6oJ4RFBPN`
+     A :dt:`reference identifier pattern` is an :t:`identifier pattern` with
+     :t:`keyword` ``ref``.
+   :chapter:
+     :dp:`fls_joIQdDn44oIT`
+     An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
+     :t:`reference identifier pattern`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for reference pattern
+
+.. glossary-entry:: reference pattern
+   
+   :glossary:
+     :dp:`fls_ebshqnhmwgow`
+     A :dt:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer`
+     that is being matched.
+     
+     :dp:`fls_rghv5drrqxs1`
+     See :s:`ReferencePattern`.
+   :chapter:
+     :dp:`fls_fhahcc1mz2qh`
+     A :t:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer` that
+     is being matched.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for record struct pattern
+
+.. glossary-entry:: record struct pattern
+   
+   :glossary:
+     :dp:`fls_q7njznxhmmw`
+     A :dt:`record struct pattern` is a :t:`pattern` that matches a
+     :t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
+     
+     :dp:`fls_viwieu1p3hds`
+     See :s:`RecordStructPattern`.
+   :chapter:
+     :dp:`fls_g6dytd6aq62d`
+     A :t:`record struct pattern` is a :t:`pattern` that matches a
+     :t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for receiver type
+
+.. glossary-entry:: receiver type
+   
+   :glossary:
+     :dp:`fls_vgQmMlpFas5t`
+     A :dt:`receiver type` is the :t:`type` of a :t:`receiver operand`.
+   :chapter:
+     :dp:`fls_mbdS0xiNlj92`
+     A :dt:`receiver type` is the :t:`type` of the :t:`receiver operand`
+     of a :t:`method call expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for raw pointer
+
+.. glossary-entry:: raw pointer
+   
+   :glossary:
+     :dp:`fls_rbdilcmt2cns`
+     A :dt:`raw pointer` is a pointer of a :t:`raw pointer type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for record enum variant
+
+.. glossary-entry:: record enum variant
+   
+   :glossary:
+     :dp:`fls_NWyvPQmOIjo2`
+     A :dt:`record enum variant` is an :t:`enum variant` with a
+     :s:`RecordStructFieldList`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for record struct
+
+.. glossary-entry:: record struct
+   
+   :glossary:
+     :dp:`fls_qyd7kqnpjs2`
+     A :dt:`record struct` is a :t:`struct` with a :s:`RecordStructFieldList`.
+     
+     :dp:`fls_rqs5rdnhkwnx`
+     See :s:`RecordStructDeclaration`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for record struct field
+
+.. glossary-entry:: record struct field
+   
+   :glossary:
+     :dp:`fls_lb0t10evec6z`
+     A :dt:`record struct field` is a :t:`field` of a :t:`record struct type`.
+     
+     :dp:`fls_bjwmhxf3ae14`
+     See :s:`RecordStructField`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for record struct type
+
+.. glossary-entry:: record struct type
+   
+   :glossary:
+     :dp:`fls_mgrz3o51gbis`
+     A :dt:`record struct type` is the :t:`type` of a :t:`record struct`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for record struct value
+
+.. glossary-entry:: record struct value
+   
+   :glossary:
+     :dp:`fls_SMBIc0JMck1H`
+     A :dt:`record struct value` is a :t:`value` of a :t:`record struct type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for reachable control flow path
+
+.. glossary-entry:: reachable control flow path
+   
+   :glossary:
+     :dp:`fls_IxrvzuBg8j3E`
+     A :dt:`reachable control flow path` is a control flow path that can be
+     taken by the execution of a program between two given points in the program.
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output file
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report is empty
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow git status with short format
+[91m[1m| [0m[90m Bash     [0mShow unstaged git diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 5b9f600..a548e0c 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -1587,9 +1587,15 @@ Method Resolution
+      :t:`Method resolution` is a kind of :t:`resolution` that applies to a
+      :t:`method call expression`.
+ 
+-:dp:`fls_mbdS0xiNlj92`
+-A :dt:`receiver type` is the :t:`type` of the :t:`receiver operand`
+-of a :t:`method call expression`.
++.. glossary-entry:: receiver type
++   
++   :glossary:
++     :dp:`fls_vgQmMlpFas5t`
++     A :dt:`receiver type` is the :t:`type` of a :t:`receiver operand`.
++   :chapter:
++     :dp:`fls_mbdS0xiNlj92`
++     A :dt:`receiver type` is the :t:`type` of the :t:`receiver operand`
++     of a :t:`method call expression`.
+ 
+ :dp:`fls_z80ylmlu1f3q`
+ A :dt:`candidate receiver type` is the :t:`type` of the :t:`receiver operand`
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 649356b..062fddf 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1259,8 +1259,17 @@ Raw Borrow Expression
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_TS6DvMon5h27`
+-A :t:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
++.. glossary-entry:: raw borrow expression
++   
++   :glossary:
++     :dp:`fls_Fe39wLb0vvEg`
++     A :dt:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
++     
++     :dp:`fls_I71jq8BGyLqi`
++     See :s:`RawBorrowExpression`.
++   :chapter:
++     :dp:`fls_TS6DvMon5h27`
++     A :t:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
+ 
+ :dp:`fls_UtjWrE2qeplQ`
+ An :dt:`immutable raw borrow expression` is a :t:`raw borrow expression` that has :t:`keyword` ``const``.
+@@ -4357,9 +4366,19 @@ Method Call Expressions
+      A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`
+      of a :t:`variable`.
+ 
+-:dp:`fls_jx3ryre0xs88`
+-A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
+-:t:`method` is being invoked by a :t:`method call expression`.
++.. glossary-entry:: receiver operand
++   
++   :glossary:
++     :dp:`fls_odbg4bizvqxq`
++     A :dt:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
++     :t:`method` is being invoked by a :t:`method call expression`.
++     
++     :dp:`fls_4rme1x6romeg`
++     See :s:`ReceiverOperand`.
++   :chapter:
++     :dp:`fls_jx3ryre0xs88`
++     A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
++     :t:`method` is being invoked by a :t:`method call expression`.
+ 
+ .. glossary-entry:: method operand
+    
+@@ -5592,9 +5611,19 @@ The :t:`type` of a :t:`range-to expression` is :std:`core::ops::RangeTo`.
+ The :t:`value` of a :t:`range-to expression` is
+ ``core::ops::RangeTo { end: range_expression_high_bound }``.
+ 
+-:dp:`fls_1gc436ee1nzm`
+-A :t:`range-to-inclusive expression` is a :t:`range expression` that specifies
+-an included :t:`range expression high bound`.
++.. glossary-entry:: range-to-inclusive expression
++   
++   :glossary:
++     :dp:`fls_t4fjanjvkd69`
++     A :dt:`range-to-inclusive expression` is a :t:`range expression` that specifies
++     an included :t:`range expression high bound`.
++     
++     :dp:`fls_krei7lc6lo8q`
++     See :s:`RangeToInclusiveExpression`.
++   :chapter:
++     :dp:`fls_1gc436ee1nzm`
++     A :t:`range-to-inclusive expression` is a :t:`range expression` that specifies
++     an included :t:`range expression high bound`.
+ 
+ :dp:`fls_8sfjw83irpre`
+ The :t:`type` of a :t:`range-to-inclusive expression` is
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 2c97f90..7ab2893 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -768,9 +768,19 @@ Raw Byte String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_yyw7nv651580`
+-A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
+-recognize :t:`[escaped character]s`.
++.. glossary-entry:: raw byte string literal
++   
++   :glossary:
++     :dp:`fls_8v5k3wemy4tl`
++     A :dt:`raw byte string literal` is a :t:`simple byte string literal` that does
++     not recognize :t:`[escaped character]s`.
++     
++     :dp:`fls_5x71i3ay3na2`
++     See :s:`RawByteStringLiteral`.
++   :chapter:
++     :dp:`fls_yyw7nv651580`
++     A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
++     recognize :t:`[escaped character]s`.
+ 
+ :dp:`fls_5ybq0euwya42`
+ The :t:`type` of a :t:`raw byte string literal` of size ``N`` is ``&'static
+@@ -885,9 +895,19 @@ Raw C String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_gLrei65i8Uzq`
+-A :t:`raw c string literal` is a :t:`simple c string literal` that does not
+-recognize :t:`[escaped character]s`.
++.. glossary-entry:: raw c string literal
++   
++   :glossary:
++     :dp:`fls_qhWBzqoYZL0e`
++     A :dt:`raw c string literal` is a :t:`simple c string literal` that does not
++     recognize :t:`[escaped character]s`.
++     
++     :dp:`fls_WpFJyq6q4k6E`
++     See :s:`RawCStringLiteral`.
++   :chapter:
++     :dp:`fls_gLrei65i8Uzq`
++     A :t:`raw c string literal` is a :t:`simple c string literal` that does not
++     recognize :t:`[escaped character]s`.
+ 
+ :dp:`fls_9nJHsg9dCi66`
+ The :t:`type` of a :t:`simple string literal` is :std:`&'static
+@@ -1416,9 +1436,19 @@ Raw String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_36suwhbwmq1t`
+-A :t:`raw string literal` is a :t:`simple string literal` that does not
+-recognize :t:`[escaped character]s`.
++.. glossary-entry:: raw string literal
++   
++   :glossary:
++     :dp:`fls_48t4v316951j`
++     A :dt:`raw string literal` is a :t:`simple string literal` that does not
++     recognize :t:`[escaped character]s`.
++     
++     :dp:`fls_26ol7lrnux94`
++     See :s:`RawStringLiteral`.
++   :chapter:
++     :dp:`fls_36suwhbwmq1t`
++     A :t:`raw string literal` is a :t:`simple string literal` that does not
++     recognize :t:`[escaped character]s`.
+ 
+ :dp:`fls_ms43w1towz40`
+ The :t:`type` of a :t:`raw string literal` is ``&'static str``.
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index 356dc26..895e422 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -102,10 +102,16 @@ References
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_7x9pi2o7pee7`
+-A :t:`reference` is a :t:`value` of a :t:`reference type`. A :t:`reference`
+-can be obtained explicitly by using a :t:`borrow expression` or implicitly in
+-certain scenarios.
++.. glossary-entry:: reference
++   
++   :glossary:
++     :dp:`fls_s82y4hsuytiq`
++     A :dt:`reference` is a :t:`value` of a :t:`reference type`.
++   :chapter:
++     :dp:`fls_7x9pi2o7pee7`
++     A :t:`reference` is a :t:`value` of a :t:`reference type`. A :t:`reference`
++     can be obtained explicitly by using a :t:`borrow expression` or implicitly in
++     certain scenarios.
+ 
+ :dp:`fls_tsqvr3fmcel`
+ A :t:`referent` is the :t:`value` pointed-to by a :t:`reference`.
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 336d596..7a3698f 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -240,9 +240,16 @@ with :t:`keyword` ``mut`` yields a :t:`mutable binding`.
+      :dp:`fls_v2pGKVaQjtcl`
+      A :dt:`mutable binding` is a :t:`binding` whose :t:`value` can be modified.
+ 
+-:dp:`fls_joIQdDn44oIT`
+-An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
+-:t:`reference identifier pattern`.
++.. glossary-entry:: reference identifier pattern
++   
++   :glossary:
++     :dp:`fls_jQs6oJ4RFBPN`
++     A :dt:`reference identifier pattern` is an :t:`identifier pattern` with
++     :t:`keyword` ``ref``.
++   :chapter:
++     :dp:`fls_joIQdDn44oIT`
++     An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
++     :t:`reference identifier pattern`.
+ 
+ :dp:`fls_24c95c56tugl`
+ The :t:`identifier pattern` enters its :t:`binding` into :t:`binding scope` in
+@@ -775,9 +782,19 @@ Reference Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fhahcc1mz2qh`
+-A :t:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer` that
+-is being matched.
++.. glossary-entry:: reference pattern
++   
++   :glossary:
++     :dp:`fls_ebshqnhmwgow`
++     A :dt:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer`
++     that is being matched.
++     
++     :dp:`fls_rghv5drrqxs1`
++     See :s:`ReferencePattern`.
++   :chapter:
++     :dp:`fls_fhahcc1mz2qh`
++     A :t:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer` that
++     is being matched.
+ 
+ :dp:`fls_x0bmzl1315gq`
+ A :t:`reference pattern` is an :t:`irrefutable pattern` when its nested :t:`pattern` itself is an :t:`irrefutable pattern`.
+@@ -1021,9 +1038,19 @@ Record Struct Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_g6dytd6aq62d`
+-A :t:`record struct pattern` is a :t:`pattern` that matches a
+-:t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
++.. glossary-entry:: record struct pattern
++   
++   :glossary:
++     :dp:`fls_q7njznxhmmw`
++     A :dt:`record struct pattern` is a :t:`pattern` that matches a
++     :t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
++     
++     :dp:`fls_viwieu1p3hds`
++     See :s:`RecordStructPattern`.
++   :chapter:
++     :dp:`fls_g6dytd6aq62d`
++     A :t:`record struct pattern` is a :t:`pattern` that matches a
++     :t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
+ 
+ :dp:`fls_3px4oiweg9dm`
+ The :t:`deconstructee` of a :t:`record struct pattern` shall resolve to an
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index ae4c6b5..0b28284 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -811,6 +811,13 @@ A :t:`zero-variant enum type` has no :t:`[value]s`.
+      An :t:`enum variant` is a :t:`construct` that declares one of the
+      possible variations of an :t:`enum`.
+ 
++.. glossary-entry:: record enum variant
++   
++   :glossary:
++     :dp:`fls_NWyvPQmOIjo2`
++     A :dt:`record enum variant` is an :t:`enum variant` with a
++     :s:`RecordStructFieldList`.
++
+ .. glossary-entry:: enum field
+    
+    :glossary:
+@@ -958,6 +965,36 @@ Struct Types
+    UnitStructDeclaration ::=
+        $$struct$$ Name GenericParameterList? WhereClause? $$;$$
+ 
++.. glossary-entry:: record struct
++   
++   :glossary:
++     :dp:`fls_qyd7kqnpjs2`
++     A :dt:`record struct` is a :t:`struct` with a :s:`RecordStructFieldList`.
++     
++     :dp:`fls_rqs5rdnhkwnx`
++     See :s:`RecordStructDeclaration`.
++
++.. glossary-entry:: record struct type
++   
++   :glossary:
++     :dp:`fls_mgrz3o51gbis`
++     A :dt:`record struct type` is the :t:`type` of a :t:`record struct`.
++
++.. glossary-entry:: record struct field
++   
++   :glossary:
++     :dp:`fls_lb0t10evec6z`
++     A :dt:`record struct field` is a :t:`field` of a :t:`record struct type`.
++     
++     :dp:`fls_bjwmhxf3ae14`
++     See :s:`RecordStructField`.
++
++.. glossary-entry:: record struct value
++   
++   :glossary:
++     :dp:`fls_SMBIc0JMck1H`
++     A :dt:`record struct value` is a :t:`value` of a :t:`record struct type`.
++
+ .. rubric:: Legality Rules
+ 
+ .. glossary-entry:: field
+@@ -1294,8 +1331,24 @@ Raw Pointer Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_rpbhr0xukbx9`
+-A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
++.. glossary-entry:: raw pointer
++   
++   :glossary:
++     :dp:`fls_rbdilcmt2cns`
++     A :dt:`raw pointer` is a pointer of a :t:`raw pointer type`.
++
++.. glossary-entry:: raw pointer type
++   
++   :glossary:
++     :dp:`fls_wspawcoqxfbh`
++     A :dt:`raw pointer type` is an :t:`indirection type` without safety and
++     liveness guarantees.
++     
++     :dp:`fls_ctksliaxhzo9`
++     See :s:`RawPointerTypeSpecification`.
++   :chapter:
++     :dp:`fls_rpbhr0xukbx9`
++     A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
+ 
+ .. glossary-entry:: mutable raw pointer type
+    
+@@ -1348,8 +1401,17 @@ Reference Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_twhq24s8kchh`
+-A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
++.. glossary-entry:: reference type
++   
++   :glossary:
++     :dp:`fls_l3knopsdlyf2`
++     A :dt:`reference type` is an :t:`indirection type` with :t:`ownership`.
++     
++     :dp:`fls_jzjatdpxqt9u`
++     See :s:`ReferenceTypeSpecification`.
++   :chapter:
++     :dp:`fls_twhq24s8kchh`
++     A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
+ 
+ :dp:`fls_w4NbA7WhZfR2`
+ A :t:`shared reference type` is a :t:`reference type` not subject to
+@@ -2159,10 +2221,17 @@ Recursive Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_z22std1crl49`
+-A :t:`recursive type` is a :t:`type` whose contained :t:`[type]s` refer back to
+-the containing :t:`type`, either directly or by referring to another :t:`type`
+-which refers back to the original :t:`recursive type`.
++.. glossary-entry:: recursive type
++   
++   :glossary:
++     :dp:`fls_2t8qom6dhcjb`
++     A :dt:`recursive type` is a :t:`type` that may define other types within its
++     :t:`type specification`.
++   :chapter:
++     :dp:`fls_z22std1crl49`
++     A :t:`recursive type` is a :t:`type` whose contained :t:`[type]s` refer back to
++     the containing :t:`type`, either directly or by referring to another :t:`type`
++     which refers back to the original :t:`recursive type`.
+ 
+ :dp:`fls_eddnwlr0rz59`
+ A :t:`type` that is not an :t:`abstract data type` shall not be recursive.
+diff --git a/src/values.rst b/src/values.rst
+index c0da7c8..fc90eb8 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -331,6 +331,13 @@ The following :t:`[construct]s` are :t:`[variable]s`:
+ A :t:`variable` shall be used only after it has been initialized through all
+ :t:`[reachable control flow path]s` up to the point of its usage.
+ 
++.. glossary-entry:: reachable control flow path
++   
++   :glossary:
++     :dp:`fls_IxrvzuBg8j3E`
++     A :dt:`reachable control flow path` is a control flow path that can be
++     taken by the execution of a program between two given points in the program.
++
+ .. rubric:: Dynamic Semantics
+ 
+ :dp:`fls_g8etd5lsgn9j`
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+7f4ea48 docs(glossary): migrate next 20 glossary terms
+cf13066 docs(glossary): migrate pattern and prelude glossary terms
+cee165a docs(glossary): migrate outer/path glossary entries
+6d3a2bc docs(glossary): migrate next 20 glossary terms
+ec49426 docs(glossary): migrate mutable and named terms
+
+[91m[1m| [0m[90m Bash     [0mShow git status short
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/lexical-elements.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mStage updated glossary directive files
+[91m[1m| [0m[90m Bash     [0mShow staged changes
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 5b9f600..a548e0c 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -1587,9 +1587,15 @@ Method Resolution
+      :t:`Method resolution` is a kind of :t:`resolution` that applies to a
+      :t:`method call expression`.
+ 
+-:dp:`fls_mbdS0xiNlj92`
+-A :dt:`receiver type` is the :t:`type` of the :t:`receiver operand`
+-of a :t:`method call expression`.
++.. glossary-entry:: receiver type
++   
++   :glossary:
++     :dp:`fls_vgQmMlpFas5t`
++     A :dt:`receiver type` is the :t:`type` of a :t:`receiver operand`.
++   :chapter:
++     :dp:`fls_mbdS0xiNlj92`
++     A :dt:`receiver type` is the :t:`type` of the :t:`receiver operand`
++     of a :t:`method call expression`.
+ 
+ :dp:`fls_z80ylmlu1f3q`
+ A :dt:`candidate receiver type` is the :t:`type` of the :t:`receiver operand`
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 649356b..062fddf 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1259,8 +1259,17 @@ Raw Borrow Expression
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_TS6DvMon5h27`
+-A :t:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
++.. glossary-entry:: raw borrow expression
++   
++   :glossary:
++     :dp:`fls_Fe39wLb0vvEg`
++     A :dt:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
++     
++     :dp:`fls_I71jq8BGyLqi`
++     See :s:`RawBorrowExpression`.
++   :chapter:
++     :dp:`fls_TS6DvMon5h27`
++     A :t:`raw borrow expression` is an :t:`expression` that creates a :t:`raw pointer` to the memory location of its :t:`operand` without incurring a :t:`borrow`.
+ 
+ :dp:`fls_UtjWrE2qeplQ`
+ An :dt:`immutable raw borrow expression` is a :t:`raw borrow expression` that has :t:`keyword` ``const``.
+@@ -4357,9 +4366,19 @@ Method Call Expressions
+      A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`
+      of a :t:`variable`.
+ 
+-:dp:`fls_jx3ryre0xs88`
+-A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
+-:t:`method` is being invoked by a :t:`method call expression`.
++.. glossary-entry:: receiver operand
++   
++   :glossary:
++     :dp:`fls_odbg4bizvqxq`
++     A :dt:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
++     :t:`method` is being invoked by a :t:`method call expression`.
++     
++     :dp:`fls_4rme1x6romeg`
++     See :s:`ReceiverOperand`.
++   :chapter:
++     :dp:`fls_jx3ryre0xs88`
++     A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
++     :t:`method` is being invoked by a :t:`method call expression`.
+ 
+ .. glossary-entry:: method operand
+    
+@@ -5592,9 +5611,19 @@ The :t:`type` of a :t:`range-to expression` is :std:`core::ops::RangeTo`.
+ The :t:`value` of a :t:`range-to expression` is
+ ``core::ops::RangeTo { end: range_expression_high_bound }``.
+ 
+-:dp:`fls_1gc436ee1nzm`
+-A :t:`range-to-inclusive expression` is a :t:`range expression` that specifies
+-an included :t:`range expression high bound`.
++.. glossary-entry:: range-to-inclusive expression
++   
++   :glossary:
++     :dp:`fls_t4fjanjvkd69`
++     A :dt:`range-to-inclusive expression` is a :t:`range expression` that specifies
++     an included :t:`range expression high bound`.
++     
++     :dp:`fls_krei7lc6lo8q`
++     See :s:`RangeToInclusiveExpression`.
++   :chapter:
++     :dp:`fls_1gc436ee1nzm`
++     A :t:`range-to-inclusive expression` is a :t:`range expression` that specifies
++     an included :t:`range expression high bound`.
+ 
+ :dp:`fls_8sfjw83irpre`
+ The :t:`type` of a :t:`range-to-inclusive expression` is
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 2c97f90..7ab2893 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -768,9 +768,19 @@ Raw Byte String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_yyw7nv651580`
+-A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
+-recognize :t:`[escaped character]s`.
++.. glossary-entry:: raw byte string literal
++   
++   :glossary:
++     :dp:`fls_8v5k3wemy4tl`
++     A :dt:`raw byte string literal` is a :t:`simple byte string literal` that does
++     not recognize :t:`[escaped character]s`.
++     
++     :dp:`fls_5x71i3ay3na2`
++     See :s:`RawByteStringLiteral`.
++   :chapter:
++     :dp:`fls_yyw7nv651580`
++     A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
++     recognize :t:`[escaped character]s`.
+ 
+ :dp:`fls_5ybq0euwya42`
+ The :t:`type` of a :t:`raw byte string literal` of size ``N`` is ``&'static
+@@ -885,9 +895,19 @@ Raw C String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_gLrei65i8Uzq`
+-A :t:`raw c string literal` is a :t:`simple c string literal` that does not
+-recognize :t:`[escaped character]s`.
++.. glossary-entry:: raw c string literal
++   
++   :glossary:
++     :dp:`fls_qhWBzqoYZL0e`
++     A :dt:`raw c string literal` is a :t:`simple c string literal` that does not
++     recognize :t:`[escaped character]s`.
++     
++     :dp:`fls_WpFJyq6q4k6E`
++     See :s:`RawCStringLiteral`.
++   :chapter:
++     :dp:`fls_gLrei65i8Uzq`
++     A :t:`raw c string literal` is a :t:`simple c string literal` that does not
++     recognize :t:`[escaped character]s`.
+ 
+ :dp:`fls_9nJHsg9dCi66`
+ The :t:`type` of a :t:`simple string literal` is :std:`&'static
+@@ -1416,9 +1436,19 @@ Raw String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_36suwhbwmq1t`
+-A :t:`raw string literal` is a :t:`simple string literal` that does not
+-recognize :t:`[escaped character]s`.
++.. glossary-entry:: raw string literal
++   
++   :glossary:
++     :dp:`fls_48t4v316951j`
++     A :dt:`raw string literal` is a :t:`simple string literal` that does not
++     recognize :t:`[escaped character]s`.
++     
++     :dp:`fls_26ol7lrnux94`
++     See :s:`RawStringLiteral`.
++   :chapter:
++     :dp:`fls_36suwhbwmq1t`
++     A :t:`raw string literal` is a :t:`simple string literal` that does not
++     recognize :t:`[escaped character]s`.
+ 
+ :dp:`fls_ms43w1towz40`
+ The :t:`type` of a :t:`raw string literal` is ``&'static str``.
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index 356dc26..895e422 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -102,10 +102,16 @@ References
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_7x9pi2o7pee7`
+-A :t:`reference` is a :t:`value` of a :t:`reference type`. A :t:`reference`
+-can be obtained explicitly by using a :t:`borrow expression` or implicitly in
+-certain scenarios.
++.. glossary-entry:: reference
++   
++   :glossary:
++     :dp:`fls_s82y4hsuytiq`
++     A :dt:`reference` is a :t:`value` of a :t:`reference type`.
++   :chapter:
++     :dp:`fls_7x9pi2o7pee7`
++     A :t:`reference` is a :t:`value` of a :t:`reference type`. A :t:`reference`
++     can be obtained explicitly by using a :t:`borrow expression` or implicitly in
++     certain scenarios.
+ 
+ :dp:`fls_tsqvr3fmcel`
+ A :t:`referent` is the :t:`value` pointed-to by a :t:`reference`.
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 336d596..7a3698f 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -240,9 +240,16 @@ with :t:`keyword` ``mut`` yields a :t:`mutable binding`.
+      :dp:`fls_v2pGKVaQjtcl`
+      A :dt:`mutable binding` is a :t:`binding` whose :t:`value` can be modified.
+ 
+-:dp:`fls_joIQdDn44oIT`
+-An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
+-:t:`reference identifier pattern`.
++.. glossary-entry:: reference identifier pattern
++   
++   :glossary:
++     :dp:`fls_jQs6oJ4RFBPN`
++     A :dt:`reference identifier pattern` is an :t:`identifier pattern` with
++     :t:`keyword` ``ref``.
++   :chapter:
++     :dp:`fls_joIQdDn44oIT`
++     An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
++     :t:`reference identifier pattern`.
+ 
+ :dp:`fls_24c95c56tugl`
+ The :t:`identifier pattern` enters its :t:`binding` into :t:`binding scope` in
+@@ -775,9 +782,19 @@ Reference Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fhahcc1mz2qh`
+-A :t:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer` that
+-is being matched.
++.. glossary-entry:: reference pattern
++   
++   :glossary:
++     :dp:`fls_ebshqnhmwgow`
++     A :dt:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer`
++     that is being matched.
++     
++     :dp:`fls_rghv5drrqxs1`
++     See :s:`ReferencePattern`.
++   :chapter:
++     :dp:`fls_fhahcc1mz2qh`
++     A :t:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer` that
++     is being matched.
+ 
+ :dp:`fls_x0bmzl1315gq`
+ A :t:`reference pattern` is an :t:`irrefutable pattern` when its nested :t:`pattern` itself is an :t:`irrefutable pattern`.
+@@ -1021,9 +1038,19 @@ Record Struct Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_g6dytd6aq62d`
+-A :t:`record struct pattern` is a :t:`pattern` that matches a
+-:t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
++.. glossary-entry:: record struct pattern
++   
++   :glossary:
++     :dp:`fls_q7njznxhmmw`
++     A :dt:`record struct pattern` is a :t:`pattern` that matches a
++     :t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
++     
++     :dp:`fls_viwieu1p3hds`
++     See :s:`RecordStructPattern`.
++   :chapter:
++     :dp:`fls_g6dytd6aq62d`
++     A :t:`record struct pattern` is a :t:`pattern` that matches a
++     :t:`enum variant value`, a :t:`struct value`, or a :t:`union value`.
+ 
+ :dp:`fls_3px4oiweg9dm`
+ The :t:`deconstructee` of a :t:`record struct pattern` shall resolve to an
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index ae4c6b5..0b28284 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -811,6 +811,13 @@ A :t:`zero-variant enum type` has no :t:`[value]s`.
+      An :t:`enum variant` is a :t:`construct` that declares one of the
+      possible variations of an :t:`enum`.
+ 
++.. glossary-entry:: record enum variant
++   
++   :glossary:
++     :dp:`fls_NWyvPQmOIjo2`
++     A :dt:`record enum variant` is an :t:`enum variant` with a
++     :s:`RecordStructFieldList`.
++
+ .. glossary-entry:: enum field
+    
+    :glossary:
+@@ -958,6 +965,36 @@ Struct Types
+    UnitStructDeclaration ::=
+        $$struct$$ Name GenericParameterList? WhereClause? $$;$$
+ 
++.. glossary-entry:: record struct
++   
++   :glossary:
++     :dp:`fls_qyd7kqnpjs2`
++     A :dt:`record struct` is a :t:`struct` with a :s:`RecordStructFieldList`.
++     
++     :dp:`fls_rqs5rdnhkwnx`
++     See :s:`RecordStructDeclaration`.
++
++.. glossary-entry:: record struct type
++   
++   :glossary:
++     :dp:`fls_mgrz3o51gbis`
++     A :dt:`record struct type` is the :t:`type` of a :t:`record struct`.
++
++.. glossary-entry:: record struct field
++   
++   :glossary:
++     :dp:`fls_lb0t10evec6z`
++     A :dt:`record struct field` is a :t:`field` of a :t:`record struct type`.
++     
++     :dp:`fls_bjwmhxf3ae14`
++     See :s:`RecordStructField`.
++
++.. glossary-entry:: record struct value
++   
++   :glossary:
++     :dp:`fls_SMBIc0JMck1H`
++     A :dt:`record struct value` is a :t:`value` of a :t:`record struct type`.
++
+ .. rubric:: Legality Rules
+ 
+ .. glossary-entry:: field
+@@ -1294,8 +1331,24 @@ Raw Pointer Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_rpbhr0xukbx9`
+-A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
++.. glossary-entry:: raw pointer
++   
++   :glossary:
++     :dp:`fls_rbdilcmt2cns`
++     A :dt:`raw pointer` is a pointer of a :t:`raw pointer type`.
++
++.. glossary-entry:: raw pointer type
++   
++   :glossary:
++     :dp:`fls_wspawcoqxfbh`
++     A :dt:`raw pointer type` is an :t:`indirection type` without safety and
++     liveness guarantees.
++     
++     :dp:`fls_ctksliaxhzo9`
++     See :s:`RawPointerTypeSpecification`.
++   :chapter:
++     :dp:`fls_rpbhr0xukbx9`
++     A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
+ 
+ .. glossary-entry:: mutable raw pointer type
+    
+@@ -1348,8 +1401,17 @@ Reference Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_twhq24s8kchh`
+-A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
++.. glossary-entry:: reference type
++   
++   :glossary:
++     :dp:`fls_l3knopsdlyf2`
++     A :dt:`reference type` is an :t:`indirection type` with :t:`ownership`.
++     
++     :dp:`fls_jzjatdpxqt9u`
++     See :s:`ReferenceTypeSpecification`.
++   :chapter:
++     :dp:`fls_twhq24s8kchh`
++     A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
+ 
+ :dp:`fls_w4NbA7WhZfR2`
+ A :t:`shared reference type` is a :t:`reference type` not subject to
+@@ -2159,10 +2221,17 @@ Recursive Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_z22std1crl49`
+-A :t:`recursive type` is a :t:`type` whose contained :t:`[type]s` refer back to
+-the containing :t:`type`, either directly or by referring to another :t:`type`
+-which refers back to the original :t:`recursive type`.
++.. glossary-entry:: recursive type
++   
++   :glossary:
++     :dp:`fls_2t8qom6dhcjb`
++     A :dt:`recursive type` is a :t:`type` that may define other types within its
++     :t:`type specification`.
++   :chapter:
++     :dp:`fls_z22std1crl49`
++     A :t:`recursive type` is a :t:`type` whose contained :t:`[type]s` refer back to
++     the containing :t:`type`, either directly or by referring to another :t:`type`
++     which refers back to the original :t:`recursive type`.
+ 
+ :dp:`fls_eddnwlr0rz59`
+ A :t:`type` that is not an :t:`abstract data type` shall not be recursive.
+diff --git a/src/values.rst b/src/values.rst
+index c0da7c8..fc90eb8 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -331,6 +331,13 @@ The following :t:`[construct]s` are :t:`[variable]s`:
+ A :t:`variable` shall be used only after it has been initialized through all
+ :t:`[reachable control flow path]s` up to the point of its usage.
+ 
++.. glossary-entry:: reachable control flow path
++   
++   :glossary:
++     :dp:`fls_IxrvzuBg8j3E`
++     A :dt:`reachable control flow path` is a control flow path that can be
++     taken by the execution of a program between two given points in the program.
++
+ .. rubric:: Dynamic Semantics
+ 
+ :dp:`fls_g8etd5lsgn9j`
+
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration and show status
+
+[glossary-single-source-phase1 3bff43b] docs(glossary): migrate next 20 glossary terms
+ 7 files changed, 215 insertions(+), 41 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mConfirm working tree clean
+Migrated the next 20 glossary terms into chapter `.. glossary-entry::` blocks, keeping generated glossary output identical to the static baseline and placing glossary-only entries near their relevant sections. Updated checklist and term-map metadata outside the repo.
+
+Files updated:
+- `src/expressions.rst`
+- `src/lexical-elements.rst`
+- `src/entities-and-resolution.rst`
+- `src/patterns.rst`
+- `src/types-and-traits.rst`
+- `src/ownership-and-deconstruction.rst`
+- `src/values.rst`
+
+External updates:
+- `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`
+- `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`
+- `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`
+
+Tests/verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit:
+- `docs(glossary): migrate next 20 glossary terms` (3bff43b)
+
+If you want, I can:
+1) push the branch to your fork
+2) start the next batch of 20 terms
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

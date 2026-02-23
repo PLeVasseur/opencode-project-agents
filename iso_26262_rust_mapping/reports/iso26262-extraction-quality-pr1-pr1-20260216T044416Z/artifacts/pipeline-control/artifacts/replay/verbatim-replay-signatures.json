@@ -1,0 +1,17 @@
+{
+  "anchor_text_links": {
+    "records": 2403,
+    "signature": "2c0a756e5d95b4dc699611bb99285ea95a1c2a425b66b8d8a5c68fb3bc9c4fae"
+  },
+  "mismatch_count": 0,
+  "page_text": {
+    "records": 176,
+    "signature": "db180c0607fa1bec322c891b49833a81d62b74a23c13c2eb3737da3c02622121"
+  },
+  "run_id": "pr1-20260216T044416Z",
+  "timestamp_utc": "2026-02-16T04:45:26Z",
+  "unit_slices": {
+    "records": 2403,
+    "signature": "01d1502cbd7fb40c26d0a739305192a03a8af43ab77ec8731b02fe263de75187"
+  }
+}

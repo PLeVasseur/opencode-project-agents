@@ -1,0 +1,7 @@
+timestamp_utc=2026-02-07T03:14:59Z
+head_sha=a291b351420f7f45eded6cf5bf86688f31500cb3
+branch=changelog-assistant-upstream-pr-anchor
+base_ref=eaafc97e1db8f4a3d153db1abe96ececacf1be2c
+release=1.93.0
+canonical_upstream_pr=https://github.com/rust-lang/rust/pull/145954
+missing_upstream_pr=https://github.com/rust-lang/rust/pull/999999

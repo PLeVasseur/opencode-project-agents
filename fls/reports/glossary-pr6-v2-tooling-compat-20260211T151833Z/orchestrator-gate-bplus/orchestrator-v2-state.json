@@ -1,0 +1,22 @@
+{
+  "batch_sizes": {
+    "WA": 20,
+    "WB": 20,
+    "WC": 40,
+    "WD": 40
+  },
+  "batches": [],
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_missing": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-tooling-compat-20260211T151833Z/orchestrator-gate-bplus/inputs/v3/fls-pr6-updated-analysis-v3.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-tooling-compat-20260211T151833Z/orchestrator-gate-bplus/inputs/v3/fls-pr6-placement-fitness-v3.json",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-tooling-compat-20260211T151833Z/orchestrator-gate-bplus/inputs/v3/fls-pr6-definition-divergence-v3.json"
+  ],
+  "gate_b_plus_status": "blocked-missing-v3",
+  "last_session_id": null,
+  "run_id": "bplus",
+  "session_id": null,
+  "started_at": "20260211T151930Z",
+  "updated_at": "20260211T151930Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

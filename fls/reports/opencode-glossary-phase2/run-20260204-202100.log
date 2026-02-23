@@ -1,0 +1,1608 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR env var
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked checklist terms
+
+warning: glossary-entry not found in src files: macro expansion
+warning: glossary-entry not found in src files: macro matching
+warning: glossary-entry not found in src files: macro transcription
+warning: glossary-entry not found in src files: metavariable
+warning: glossary-entry not found in src files: metavariable indication
+warning: glossary-entry not found in src files: method
+warning: glossary-entry not found in src files: method call expression
+warning: glossary-entry not found in src files: method operand
+warning: glossary-entry not found in src files: method resolution
+warning: glossary-entry not found in src files: mixed site hygiene
+warning: glossary-entry not found in src files: modifying operand
+warning: glossary-entry not found in src files: module
+warning: glossary-entry not found in src files: move type
+warning: glossary-entry not found in src files: multi segment path
+warning: glossary-entry not found in src files: multiplication assignment
+warning: glossary-entry not found in src files: multiplication assignment expression
+warning: glossary-entry not found in src files: multiplication expression
+warning: glossary-entry not found in src files: mutability
+warning: glossary-entry not found in src files: mutable
+warning: glossary-entry not found in src files: mutable assignee expression
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mCheck terms in glossary static file
+
+Missing: []
+
+[91m[1m| [0m[90m Bash     [0mFind term occurrences in chapter files
+
+macro expansion:
+   ('src/attributes.rst', 1774, ':t:`macro expansion` and :t:`auto-dereferencing`.')
+   ('src/general.rst', 171, 'Legality Rules are verified after :t:`macro expansion` takes place.')
+   ('src/items.rst', 56, 'The :t:`macro expansion` of a :t:`terminated macro invocation` is treated as')
+macro matching:
+   ('src/macros.rst', 307, 'matched zero or multiple times during :t:`macro matching`.')
+   ('src/macros.rst', 314, 'zero or multiple times during :t:`macro matching`.')
+   ('src/macros.rst', 1074, 'leftover :t:`[token]s` after :t:`macro matching`.')
+macro transcription:
+   ('src/macros.rst', 200, ':t:`macro transcription`.')
+   ('src/macros.rst', 321, 'transcribed zero or multiple times during :t:`macro transcription`.')
+   ('src/macros.rst', 328, 'transcribed zero or multiple times during :t:`macro transcription`.')
+metavariable:
+   ('src/macros.rst', 203, 'A :t:`metavariable` is a :t:`macro match` that describes a :t:`variable`.')
+   ('src/macros.rst', 206, 'A :t:`metavariable` is visible in the :t:`macro transcriber` of the')
+   ('src/macros.rst', 214, 'a :t:`metavariable`.')
+   ('src/macros.rst', 221, 'a :t:`metavariable`.')
+   ('src/macros.rst', 236, '``>``, ``>>``, ``[``, ``{``, ``as``, ``where``, or a :t:`metavariable` with')
+   ('src/macros.rst', 248, '``>``, ``>>``, ``[``, ``{``, ``as``, ``where``, or a :t:`metavariable` with')
+   ('src/macros.rst', 254, ':t:`metavariable` with the ``ident``, ``ty`` or ``block``')
+   ('src/macros.rst', 262, ':t:`metavariable`.')
+   ('src/macros.rst', 945, 'candidate :t:`macro matcher` fails while parsing into a :t:`metavariable` and')
+   ('src/macros.rst', 946, 'having consumed at least one :t:`token` while parsing the :t:`metavariable`.')
+   ('src/macros.rst', 971, 'A :t:`metavariable` in a :t:`macro matcher` is matched against a sequence of')
+   ('src/macros.rst', 1023, 'Once a :t:`metavariable` is matched, the matching sequence of :t:`[token]s` is')
+   ('src/macros.rst', 1024, 'bound to that :t:`metavariable`.')
+   ('src/macros.rst', 1054, 'Once a :t:`metavariable` is matched, the matching sequence of :t:`[token]s` is')
+   ('src/macros.rst', 1065, 'Each matched :t:`metavariable` in a :t:`macro repetition in matching` is bound')
+   ('src/macros.rst', 1093, 'the matched sequence of :t:`[token]s` of the :t:`metavariable`.')
+   ('src/macros.rst', 1129, 'corresponding :t:`metavariable` appears in the :t:`macro matcher`.')
+   ('src/macros.rst', 1144, 'iteration of the repetition :t:`metavariable` taken from the ordered collection.')
+   ('src/macros.rst', 1172, 'Given a :t:`macro invocation` with ``N`` :t:`metavariable` arguments, a')
+   ('src/macros.rst', 1195, 'where the :t:`metavariable` of the :t:`macro repetition in matching` are')
+   ('src/macros.rst', 1198, 'a :t:`macro` relates the first :t:`metavariable` argument of the')
+   ('src/macros.rst', 1199, ':t:`macro invocation` with the first :t:`metavariable` of the')
+   ('src/macros.rst', 1200, ':t:`macro repetition in matching`, the second :t:`metavariable` argument with')
+   ('src/macros.rst', 1201, 'the second :t:`metavariable`, and so on.')
+   ('src/macros.rst', 1268, ':t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is')
+   ('src/macros.rst', 1283, "The :t:`metavariable` ``$crate`` in a :t:`declarative macro`'s expansion refers")
+metavariable indication:
+   ('src/macros.rst', 261, 'A :t:`metavariable indication` is a :t:`construct` that indicates a')
+   ('src/macros.rst', 1091, 'Every :t:`metavariable indication` found in the :s:`DelimitedTokenTree` of the')
+   ('src/macros.rst', 1122, 'A :t:`metavariable indication` that is matched inside of a')
+   ('src/macros.rst', 1127, 'A :t:`metavariable indication` shall be used in a')
+   ('src/macros.rst', 1132, 'A :t:`metavariable indication` within a :t:`macro repetition in transcription`')
+   ('src/macros.rst', 1141, 'When transcribing a :t:`metavariable indication` in a')
+   ('src/macros.rst', 1142, ':t:`macro repetition in transcription`, the :t:`metavariable indication` is')
+   ('src/macros.rst', 1147, 'A :t:`metavariable indication` in a :t:`macro repetition in transcription` shall')
+method:
+   ('src/associated-items.rst', 290, 'A :t:`method` is an :t:`associated function` with a :t:`self parameter`.')
+   ('src/entities-and-resolution.rst', 1563, 'A :t:`method call expression` shall resolve to exactly one :t:`method`.')
+   ('src/expressions.rst', 4190, 'A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`')
+   ('src/expressions.rst', 4195, ':t:`method` is being invoked by a :t:`method call expression`.')
+   ('src/expressions.rst', 4198, 'A :t:`method operand` is an :t:`operand` that denotes the :t:`method` being')
+   ('src/expressions.rst', 4203, 'invoked :t:`method`.')
+   ('src/expressions.rst', 4207, 'the invoked :t:`method`.')
+   ('src/expressions.rst', 4224, 'The :t:`method` is invoked.')
+   ('src/expressions.rst', 4252, ':t:`call operand` is the resolved :t:`method` and the adjusted')
+   ('src/types-and-traits.rst', 1507, ':t:`trait object type` permits late binding of :t:`[method]s`. A :t:`method`')
+   ('src/types-and-traits.rst', 3302, 'Is a :t:`method` that does not use :c:`Self` in its :t:`function signature`')
+   ('src/types-and-traits.rst', 3670, ':t:`method`.')
+   ('src/types-and-traits.rst', 3701, 'Any :t:`type coercion` resulting in a :t:`method` invocation imposes the same')
+   ('src/types-and-traits.rst', 3702, ':t:`subtyping` requirements as an explicit invocation of that :t:`method` would.')
+method call expression:
+   ('src/entities-and-resolution.rst', 1316, ':t:`field access expression`, a :t:`method call expression`, a :t:`call')
+   ('src/entities-and-resolution.rst', 1445, ':t:`method call expression`.')
+   ('src/entities-and-resolution.rst', 1449, 'of a :t:`method call expression`.')
+   ('src/entities-and-resolution.rst', 1453, 'of a :t:`method call expression` :t:`under resolution`.')
+   ('src/entities-and-resolution.rst', 1459, ':t:`method call expression` :t:`under resolution`. From then on, the')
+   ('src/entities-and-resolution.rst', 1464, 'is visible from the location of the :t:`method call expression`')
+   ('src/entities-and-resolution.rst', 1535, ':t:`method call expression` resolves to that :t:`candidate method` and')
+   ('src/entities-and-resolution.rst', 1559, ':t:`method call expression` resolves to that :t:`candidate method` and')
+   ('src/entities-and-resolution.rst', 1563, 'A :t:`method call expression` shall resolve to exactly one :t:`method`.')
+   ('src/expressions.rst', 4016, ':t:`call expression` or a :t:`method call expression`.')
+   ('src/expressions.rst', 4020, ':t:`call expression` or a :t:`method call expression`.')
+   ('src/expressions.rst', 4190, 'A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`')
+   ('src/expressions.rst', 4195, ':t:`method` is being invoked by a :t:`method call expression`.')
+   ('src/expressions.rst', 4199, 'invoked by a :t:`method call expression`.')
+   ('src/expressions.rst', 4202, 'The :t:`type` of a :t:`method call expression` is the :t:`return type` of the')
+   ('src/expressions.rst', 4206, 'The :t:`value` of a :t:`method call expression` is the :t:`value` returned by')
+   ('src/expressions.rst', 4210, 'A :t:`method call expression` is subject to :t:`method resolution`.')
+   ('src/expressions.rst', 4215, 'The :t:`evaluation` of a :t:`method call expression` proceeds as follows:')
+   ('src/expressions.rst', 4251, 'A :t:`method call expression` is equivalent to a :t:`call expression` where the')
+   ('src/expressions.rst', 4522, 'site of a :t:`call expression` or a :t:`method call expression`.')
+   ('src/expressions.rst', 4530, 'site of a :t:`call expression` or a :t:`method call expression`.')
+   ('src/functions.rst', 90, 'site of a :t:`call expression` or a :t:`method call expression`.')
+   ('src/functions.rst', 98, 'site of a :t:`call expression` or a :t:`method call expression`.')
+   ('src/ownership-and-deconstruction.rst', 214, 'The :t:`receiver operand` of a :t:`method call expression`.')
+   ('src/types-and-traits.rst', 2334, ':t:`method call expression`.')
+   ('src/types-and-traits.rst', 3682, 'A :t:`call expression` or :t:`method call expression` requires that the')
+method operand:
+   ('src/expressions.rst', 4198, 'A :t:`method operand` is an :t:`operand` that denotes the :t:`method` being')
+method resolution:
+   ('src/entities-and-resolution.rst', 1536, ':t:`method resolution` stops.')
+   ('src/entities-and-resolution.rst', 1560, ':t:`method resolution` stops.')
+   ('src/expressions.rst', 4210, 'A :t:`method call expression` is subject to :t:`method resolution`.')
+   ('src/types-and-traits.rst', 2125, 'for compatibility between two :t:`[type]s` during :t:`method resolution`.')
+mixed site hygiene:
+   ('src/macros.rst', 1275, ':t:`[Declarative macro]s` have :t:`mixed site hygiene`.')
+   ('src/macros.rst', 1279, ':t:`mixed site hygiene` depending on the implementation of the')
+modifying operand:
+   ('src/expressions.rst', 3133, 'A :t:`modifying operand` is an :t:`operand` that supplies the :t:`value` that')
+   ('src/expressions.rst', 3153, 'the :t:`modifying operand` is the :t:`trait implementation` :t:`type parameter`.')
+   ('src/expressions.rst', 3158, 'the :t:`modifying operand` is the :t:`trait implementation` :t:`type parameter`.')
+   ('src/expressions.rst', 3163, 'the :t:`modifying operand` is the :t:`trait implementation` :t:`type parameter`.')
+   ('src/expressions.rst', 3168, ':t:`modifying operand` is the :t:`trait implementation` :t:`type parameter`.')
+   ('src/expressions.rst', 3173, 'of the :t:`modifying operand` is the :t:`trait implementation`')
+   ('src/expressions.rst', 3179, ':t:`modifying operand` is the :t:`trait implementation` :t:`type parameter`.')
+   ('src/expressions.rst', 3184, ':t:`modifying operand` is the :t:`trait implementation` :t:`type parameter`.')
+   ('src/expressions.rst', 3189, 'of the :t:`modifying operand` is the :t:`trait implementation`')
+   ('src/expressions.rst', 3195, 'of the :t:`modifying operand` is the :t:`trait implementation`')
+   ('src/expressions.rst', 3207, 'The :t:`modifying operand` is evaluated.')
+   ('src/expressions.rst', 3222, 'The :t:`modifying operand` is evaluated.')
+   ('src/types-and-traits.rst', 3073, 'the :t:`modifying operand`.')
+module:
+   ('src/attributes.rst', 1928, 'When applied to a :t:`module`, :t:`attribute` :c:`macro_use` extends the')
+   ('src/attributes.rst', 2075, ':t:`module` as a :t:`string literal`.')
+   ('src/concurrency.rst', 89, 'An :dt:`atomic type` is a :t:`type` defined in :t:`module`')
+   ('src/concurrency.rst', 93, 'An :t:`atomic type` is a :t:`type` defined in :t:`module`')
+   ('src/concurrency.rst', 151, ':t:`module` :std:`core::task` and the :std:`core::future::Future` :t:`trait`.')
+   ('src/entities-and-resolution.rst', 170, 'to be referred to from arbitrary :t:`module` ``M`` as long as the ancestor')
+   ('src/entities-and-resolution.rst', 175, 'to be referred to only by the current :t:`module` of the :t:`entity`, and its')
+   ('src/entities-and-resolution.rst', 212, 'an ancestor :t:`module` of the current :t:`module` or the current :t:`module`')
+   ('src/entities-and-resolution.rst', 221, ':t:`name` :t:`public visibility` within the parent :t:`module` only. A')
+   ('src/entities-and-resolution.rst', 649, 'An :t:`item` declared within a :t:`module` is :t:`in scope` within the')
+   ('src/entities-and-resolution.rst', 650, 'related :t:`module`. Such an :t:`item` is not :t:`in scope` within nested')
+   ('src/entities-and-resolution.rst', 723, ':t:`module` where the :t:`macro` declaration appears.')
+   ('src/entities-and-resolution.rst', 726, 'If the :t:`textual macro scope` is introduced by a :t:`module` and the')
+   ('src/entities-and-resolution.rst', 727, ':t:`module` is subject to :t:`attribute` :c:`macro_use`, then the')
+   ('src/entities-and-resolution.rst', 729, 'the enclosing :t:`block expression` or :t:`module`.')
+   ('src/entities-and-resolution.rst', 850, 'The :t:`declaration` of a :t:`module` introduces an :t:`item scope` into the')
+   ('src/entities-and-resolution.rst', 1020, 'brought :t:`in scope` of every :t:`module` in a :t:`crate`. Such')
+   ('src/entities-and-resolution.rst', 1027, ':t:`module` all re-exported :t:`entities <entity>` from the')
+   ('src/entities-and-resolution.rst', 1028, ':std:`core::prelude::rust_2021` :t:`module`.')
+   ('src/entities-and-resolution.rst', 1041, ':t:`module` the following :t:`entities <entity>`:')
+   ('src/entities-and-resolution.rst', 1100, ':t:`block expression` of an :t:`expression-with-block` or :t:`module` where the')
+   ('src/entities-and-resolution.rst', 1151, 'exported by the :t:`module` or :t:`enum` its :t:`import path prefix` resolves to')
+   ('src/entities-and-resolution.rst', 1155, 'An :t:`import path prefix` shall resolve to a :t:`module` or :t:`enum`.')
+   ('src/entities-and-resolution.rst', 1161, 'If the :t:`import path prefix` resolves to a :t:`module`, bring all')
+   ('src/entities-and-resolution.rst', 1162, ':t:`[name]s` in the :t:`module` that are visible from the location of the')
+   ('src/entities-and-resolution.rst', 1186, 'Otherwise bring the containing :t:`module` into :t:`scope`.')
+   ('src/entities-and-resolution.rst', 1289, ':t:`[prelude]s` are included in a :t:`module`. The order of shadowing is as')
+   ('src/entities-and-resolution.rst', 1666, ':t:`resolution context` is the :t:`entity` of the current :t:`module`.')
+   ('src/entities-and-resolution.rst', 1688, ':t:`resolution context` is the :t:`entity` of the parent :t:`module` of the')
+   ('src/entities-and-resolution.rst', 1689, 'current :t:`module`.')
+   ('src/entities-and-resolution.rst', 1706, 'If the :t:`candidate direct entity` is a :t:`module`, and the')
+   ('src/entities-and-resolution.rst', 1782, ':t:`resolution context` is the :t:`entity` of the parent :t:`module` of the')
+   ('src/entities-and-resolution.rst', 1817, ':t:`resolution context` is the :t:`entity` of the parent :t:`module` of the')
+   ('src/entities-and-resolution.rst', 1834, ':t:`module`, then try to find a :t:`candidate selected entity` whose')
+   ('src/entities-and-resolution.rst', 1836, 'that :t:`module`. What the current :t:`path segment` resolves to and its')
+   ('src/entities-and-resolution.rst', 1850, ':t:`module`, then try to find a :t:`candidate selected entity` whose')
+   ('src/entities-and-resolution.rst', 1852, 'that :t:`module`, where the :t:`resolution context` is restricted to the')
+   ('src/entities-and-resolution.rst', 1951, ':t:`resolution context` is the :t:`entity` of the parent :t:`module` of the')
+   ('src/entities-and-resolution.rst', 1956, ':t:`module`, then try to find a :t:`candidate selected entity` whose')
+   ('src/entities-and-resolution.rst', 1958, 'that :t:`module`. What the current :t:`path segment` resolves to and its')
+   ('src/inline-assembly.rst', 1052, 'defined in :t:`module` :std:`std::fmt`, and contain zero or more')
+   ('src/macros.rst', 869, ':t:`block expression` or :t:`module` where the related :s:`EnumDeclaration`,')
+   ('src/program-structure-and-compilation.rst', 73, 'A :t:`module` is a container for zero or more :t:`[item]s`.')
+   ('src/program-structure-and-compilation.rst', 76, 'The ``unsafe`` :t:`keyword` of a :t:`module` is rejected, but may still')
+   ('src/program-structure-and-compilation.rst', 83, 'An :dt:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.')
+   ('src/program-structure-and-compilation.rst', 89, 'An :t:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.')
+   ('src/program-structure-and-compilation.rst', 92, 'An :t:`outline module` is a :t:`module` with an :s:`OutlineModuleSpecification`.')
+   ('src/program-structure-and-compilation.rst', 99, 'The location of a :t:`module` :t:`source file` can be specified using')
+   ('src/program-structure-and-compilation.rst', 271, 'A :dt:`crate root module` is the root of the nested :t:`module` tree of a')
+   ('src/program-structure-and-compilation.rst', 275, 'A :t:`crate root module` is the root of the nested :t:`module` tree of a')
+move type:
+   ('src/ownership-and-deconstruction.rst', 317, 'A :t:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`')
+   ('src/ownership-and-deconstruction.rst', 321, 'A :t:`value` of a :t:`move type` is :t:`passed <passing convention>`')
+multi segment path:
+   ('src/entities-and-resolution.rst', 391, 'A :t:`multi segment path` is a :t:`path` consisting of more than one')
+multiplication assignment:
+   ('src/expressions.rst', 3171, 'The :t:`type` of the :t:`assigned operand` of a :t:`multiplication assignment`')
+   ('src/expressions.rst', 3253, 'For a :t:`multiplication assignment`,')
+multiplication assignment expression:
+   ('src/expressions.rst', 3099, 'A :t:`multiplication assignment expression` is a')
+multiplication expression:
+   ('src/expressions.rst', 1664, 'A :t:`multiplication expression` is an :t:`arithmetic expression` that uses')
+   ('src/expressions.rst', 1668, 'The :t:`type` of the :t:`left operand` of a :t:`multiplication expression`')
+   ('src/expressions.rst', 1673, 'The :t:`type` of a :t:`multiplication expression` is :t:`associated type`')
+   ('src/expressions.rst', 1677, 'The :t:`value` of a :t:`multiplication expression` is the result of')
+   ('src/expressions.rst', 1768, 'The :t:`evaluation` of a :t:`multiplication expression` proceeds as follows:')
+   ('src/expressions.rst', 1778, ':t:`floating-point type`, then the :t:`multiplication expression` evaluates')
+mutability:
+   ('src/types-and-traits.rst', 2272, 'The :t:`mutability` is the same, and')
+   ('src/types-and-traits.rst', 2281, 'The :t:`mutability` is the same, and')
+mutable:
+   ('src/expressions.rst', 3615, 'If the :t:`indexed operand` is :t:`mutable` and the :t:`index expression` is')
+mutable assignee expression:
+   ('src/expressions.rst', 3137, 'An :t:`assigned operand` shall denote a :t:`mutable assignee expression`.')
+
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`macro transcription`|A :t:`macro matching`|A :t:`macro expansion`
+[94m[1m| [0m[90m Grep     [0mmacro transcription
+[94m[1m| [0m[90m Grep     [0mmacro matching
+[94m[1m| [0m[90m Grep     [0mmacro expansion
+[96m[1m| [0m[90m Read     [0msrc/associated-items.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`method resolution`
+[94m[1m| [0m[90m Grep     [0mmixed site hygiene
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mmutable assignee expression
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`mutable`
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[94m[1m| [0m[90m Grep     [0mMacro Expansion
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mMacro matching
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mMacro transcription
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mMethod Resolution
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mExtract glossary entries for selected terms
+
+
+=== macro expansion ===
+None
+
+=== macro matching ===
+None
+
+=== macro transcription ===
+None
+
+=== metavariable ===
+:dp:`fls_fu1esz5i9mt`
+A :dt:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
+
+:dp:`fls_k4xaw93z8x33`
+See :s:`MacroMetavariable`.
+
+.. _fls_5P2594jy7uDE:
+
+metavariable indication
+^^^^^^^^^^^^^^^^^^^^^^^
+
+
+=== metavariable indication ===
+:dp:`fls_r1FxbWffC9Wt`
+A :dt:`metavariable indication` is a :t:`construct` that indicates a
+:t:`metavariable`.
+
+:dp:`fls_bcMO2a0e0gXJ`
+See :s:`MacroMetavariableIndication`.
+
+.. _fls_bi3g8xkk9ekf:
+
+method
+^^^^^^
+
+
+=== method ===
+:dp:`fls_n4opbiofu9q6`
+A :dt:`method` is an :t:`associated function` with a :t:`self parameter`.
+
+.. _fls_l4wel2551cw9:
+
+method call expression
+^^^^^^^^^^^^^^^^^^^^^^
+
+
+=== method call expression ===
+:dp:`fls_367sod24edts`
+A :dt:`method call expression` is an :t:`expression` that invokes a :t:`method`
+of a :t:`variable`.
+
+:dp:`fls_ohhcvxcaqv11`
+See :s:`MethodCallExpression`.
+
+.. _fls_l6eJxvmplLqQ:
+
+method operand
+^^^^^^^^^^^^^^
+
+
+=== method operand ===
+:dp:`fls_VLLAFjAxCfkE`
+A :dt:`method operand` is an :t:`operand` that denotes the :t:`method` being
+invoked by a :t:`method call expression`.
+
+:dp:`fls_Pkgr4fJQZpJ6`
+See :s:`MethodOperand`.
+
+.. _fls_05yFh5Ud0YkW:
+
+method resolution
+^^^^^^^^^^^^^^^^^
+
+
+=== method resolution ===
+None
+
+=== mixed site hygiene ===
+None
+
+=== modifying operand ===
+:dp:`fls_9wt2l5gg06pb`
+A :dt:`modifying operand` is an :t:`operand` that supplies the :t:`value` that
+is used in the calculation of a :t:`compound assignment expression`.
+
+:dp:`fls_qnwbrwdnv7n0`
+See :s:`ModifyingOperand`.
+
+.. _fls_kbxk78vm564e:
+
+module
+^^^^^^
+
+
+=== module ===
+:dp:`fls_ujlsg58bskl5`
+A :dt:`module` is a container for zero or more :t:`[item]s`.
+
+:dp:`fls_os60q6vvm71c`
+See :s:`ModuleDeclaration`.
+
+.. _fls_gnucgrytswa4:
+
+move type
+^^^^^^^^^
+
+
+=== move type ===
+:dp:`fls_ri37ez31gai8`
+A :dt:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`
+:t:`trait` and that is not a :t:`copy type`.
+
+.. _fls_iw2vYgmLhlsg:
+
+multi segment path
+^^^^^^^^^^^^^^^^^^
+
+
+=== multi segment path ===
+:dp:`fls_T4Xd6W6EqPSb`
+A :dt:`multi segment path` is a :t:`path` consisting of more than one
+:t:`path segment`.
+
+.. _fls_lpSCLhnaxeCg:
+
+multiplication assignment
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+=== multiplication assignment ===
+:dp:`fls_llUb5VHKjwW4`
+For :dt:`multiplication assignment`, see
+:t:`multiplication assignment expression`.
+
+.. _fls_yo4k6lk0tizn:
+
+multiplication assignment expression
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+=== multiplication assignment expression ===
+:dp:`fls_eo9gx05n5ru3`
+A :dt:`multiplication assignment expression` is a
+:t:`compound assignment expression` that uses multiplication.
+
+:dp:`fls_b0dc5lec1mdc`
+See :s:`MultiplicationAssignmentExpression`.
+
+.. _fls_bgtznqqgtmd8:
+
+multiplication expression
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+=== multiplication expression ===
+:dp:`fls_324qh8wz474b`
+A :dt:`multiplication expression` is an :t:`arithmetic expression` that uses
+multiplication.
+
+:dp:`fls_34bkl5i75q5`
+See :s:`MultiplicationExpression`.
+
+.. _fls_yM11Bcxn4p7c:
+
+mutability
+^^^^^^^^^^
+
+
+=== mutability ===
+None
+
+=== mutable ===
+:dp:`fls_dqm58deu1orn`
+A :t:`value` is :dt:`mutable` when it can be modified.
+
+.. _fls_TEVPHHiCMByO:
+
+mutable assignee expression
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+=== mutable assignee expression ===
+:dp:`fls_0RSlFbwrB3gp`
+A :dt:`mutable assignee expression` is an :t:`assignee expression` whose
+:t:`value` can be modified.
+
+.. _fls_ntaA0NtJ9z5h:
+
+mutable binding
+^^^^^^^^^^^^^^^
+
+
+[94m[1m| [0m[90m Grep     [0mMacro expansion|macro expansion
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mMutability
+[94m[1m| [0m[90m Grep     [0mmutable binding
+[94m[1m| [0m[90m Grep     [0mMutable
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mmixed site hygiene
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mmutability
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for macro expansion
+
+.. glossary-entry:: macro expansion
+   
+   :glossary:
+     :dp:`fls_t383uo1l4h8x`
+     :dt:`Macro expansion` is the process of statically executing a
+     :t:`macro invocation` and replacing it with the produced output of the
+     :t:`macro invocation`.
+   :chapter:
+     :dp:`fls_xscdaxvs4wx4`
+     :t:`Macro expansion` is the process of statically executing a
+     :t:`macro invocation` and replacing it with the produced output of the
+     :t:`macro invocation`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for macro matching
+
+.. glossary-entry:: macro matching
+   
+   :glossary:
+     :dp:`fls_RrDmFXuZrhFT`
+     :dt:`Macro matching` is the process of performing :t:`rule matching` and
+     :t:`token matching`.
+   :chapter:
+     :dp:`fls_ZmQZ8HQWv77L`
+     :t:`Macro matching` is the process of performing :t:`rule matching` and
+     :t:`token matching`.
+     
+     .. _fls_n3ktmjqf87qb:
+     
+     Rule Matching
+     ^^^^^^^^^^^^^
+     
+     .. rubric:: Legality Rules
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for macro transcription
+
+.. glossary-entry:: macro transcription
+   
+   :glossary:
+     :dp:`fls_nouiggbpipg`
+     :dt:`Macro transcription` is the process of producing the expansion of a
+     :t:`declarative macro`.
+   :chapter:
+     :dp:`fls_y21i8062mft0`
+     :t:`Macro transcription` is the process of producing the expansion of a
+     :t:`declarative macro`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for metavariable
+
+.. glossary-entry:: metavariable
+   
+   :glossary:
+     :dp:`fls_fu1esz5i9mt`
+     A :dt:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
+     
+     :dp:`fls_k4xaw93z8x33`
+     See :s:`MacroMetavariable`.
+   :chapter:
+     :dp:`fls_4zdait30exvn`
+     A :t:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for metavariable indication
+
+.. glossary-entry:: metavariable indication
+   
+   :glossary:
+     :dp:`fls_r1FxbWffC9Wt`
+     A :dt:`metavariable indication` is a :t:`construct` that indicates a
+     :t:`metavariable`.
+     
+     :dp:`fls_bcMO2a0e0gXJ`
+     See :s:`MacroMetavariableIndication`.
+   :chapter:
+     :dp:`fls_ephlmLsGTMgw`
+     A :t:`metavariable indication` is a :t:`construct` that indicates a
+     :t:`metavariable`.
+     
+     .. rubric:: Examples
+     
+     .. code-block:: rust
+     
+        macro_rules! square {
+            ($e:expr) => { $e * $e };
+        }
+     
+     .. _fls_k01lsksqtq1r:
+     
+     Repetition
+     ~~~~~~~~~~
+     
+     .. rubric:: Syntax
+     
+     .. syntax::
+     
+        MacroRepetitionMatch ::=
+            $$$$$ $$($$ MacroRepetitionMatchContent $$)$$ MacroRepetitionSeparator? MacroRepetitionOperator
+     
+        MacroRepetitionMatchContent ::=
+            MacroMatch*
+     
+        MacroRepetitionTranscriber ::=
+            $$$$$ $$($$ TokenTree* $$)$$ MacroRepetitionSeparator? MacroRepetitionOperator
+     
+        MacroRepetitionOperator ::=
+            $$+$$
+          | $$*$$
+          | $$?$$
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for mixed site hygiene
+
+.. glossary-entry:: mixed site hygiene
+   
+   :glossary:
+     :dp:`fls_hjJpNmKiZxlT`
+     :dt:`Mixed site hygiene` is a type of :t:`hygiene` which resolves to the
+     :s:`MacroRulesDeclaration` site for :t:`[variable]s`, :t:`[label]s`, and the
+     ``$crate`` :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise,
+     and is considered :t:`partially hygienic`.
+   :chapter:
+     * :dp:`fls_uyvnq88y9gk3`
+       :t:`Mixed site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+       site for :t:`[label]s`, :t:`[variable]s`, and the ``$crate``
+       :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is
+       considered :dt:`partially hygienic`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for method
+
+.. glossary-entry:: method
+   
+   :glossary:
+     :dp:`fls_n4opbiofu9q6`
+     A :dt:`method` is an :t:`associated function` with a :t:`self parameter`.
+   :chapter:
+     :dp:`fls_oy92gzxgc273`
+     A :t:`method` is an :t:`associated function` with a :t:`self parameter`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for method call expression
+
+.. glossary-entry:: method call expression
+   
+   :glossary:
+     :dp:`fls_367sod24edts`
+     A :dt:`method call expression` is an :t:`expression` that invokes a :t:`method`
+     of a :t:`variable`.
+     
+     :dp:`fls_ohhcvxcaqv11`
+     See :s:`MethodCallExpression`.
+   :chapter:
+     :dp:`fls_b7i26954j1hc`
+     A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`
+     of a :t:`variable`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for method operand
+
+.. glossary-entry:: method operand
+   
+   :glossary:
+     :dp:`fls_VLLAFjAxCfkE`
+     A :dt:`method operand` is an :t:`operand` that denotes the :t:`method` being
+     invoked by a :t:`method call expression`.
+     
+     :dp:`fls_Pkgr4fJQZpJ6`
+     See :s:`MethodOperand`.
+   :chapter:
+     :dp:`fls_3AQUOBo7akXu`
+     A :t:`method operand` is an :t:`operand` that denotes the :t:`method` being
+     invoked by a :t:`method call expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for method resolution
+
+.. glossary-entry:: method resolution
+   
+   :glossary:
+     :dp:`fls_LbW4z6OTuD1l`
+     :dt:`Method resolution` is a kind of :t:`resolution` that applies to a
+     :t:`method call expression`.
+   :chapter:
+     :dp:`fls_e5a5z5yht26l`
+     :t:`Method resolution` is a kind of :t:`resolution` that applies to a
+     :t:`method call expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for modifying operand
+
+.. glossary-entry:: modifying operand
+   
+   :glossary:
+     :dp:`fls_9wt2l5gg06pb`
+     A :dt:`modifying operand` is an :t:`operand` that supplies the :t:`value` that
+     is used in the calculation of a :t:`compound assignment expression`.
+     
+     :dp:`fls_qnwbrwdnv7n0`
+     See :s:`ModifyingOperand`.
+   :chapter:
+     :dp:`fls_9v09ayi2azpe`
+     A :t:`modifying operand` is an :t:`operand` that supplies the :t:`value` that
+     is used in the calculation of a :t:`compound assignment expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for module
+
+.. glossary-entry:: module
+   
+   :glossary:
+     :dp:`fls_ujlsg58bskl5`
+     A :dt:`module` is a container for zero or more :t:`[item]s`.
+     
+     :dp:`fls_os60q6vvm71c`
+     See :s:`ModuleDeclaration`.
+   :chapter:
+     :dp:`fls_odd1hj3y1mgu`
+     A :t:`module` is a container for zero or more :t:`[item]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for move type
+
+.. glossary-entry:: move type
+   
+   :glossary:
+     :dp:`fls_ri37ez31gai8`
+     A :dt:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`
+     :t:`trait` and that is not a :t:`copy type`.
+   :chapter:
+     :dp:`fls_6ul3f6v0foma`
+     A :t:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`
+     :t:`trait` and is not a :t:`copy type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for multi segment path
+
+.. glossary-entry:: multi segment path
+   
+   :glossary:
+     :dp:`fls_T4Xd6W6EqPSb`
+     A :dt:`multi segment path` is a :t:`path` consisting of more than one
+     :t:`path segment`.
+   :chapter:
+     :dp:`fls_wm61yeclairz`
+     A :t:`multi segment path` is a :t:`path` consisting of more than one
+     :t:`path segment`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for multiplication assignment expression
+
+.. glossary-entry:: multiplication assignment expression
+   
+   :glossary:
+     :dp:`fls_eo9gx05n5ru3`
+     A :dt:`multiplication assignment expression` is a
+     :t:`compound assignment expression` that uses multiplication.
+     
+     :dp:`fls_b0dc5lec1mdc`
+     See :s:`MultiplicationAssignmentExpression`.
+   :chapter:
+     :dp:`fls_ndlv3k9uclz2`
+     A :t:`multiplication assignment expression` is a
+     :t:`compound assignment expression` that uses multiplication.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for multiplication expression
+
+.. glossary-entry:: multiplication expression
+   
+   :glossary:
+     :dp:`fls_324qh8wz474b`
+     A :dt:`multiplication expression` is an :t:`arithmetic expression` that uses
+     multiplication.
+     
+     :dp:`fls_34bkl5i75q5`
+     See :s:`MultiplicationExpression`.
+   :chapter:
+     :dp:`fls_kf41bphvlse3`
+     A :t:`multiplication expression` is an :t:`arithmetic expression` that uses
+     multiplication.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for multiplication assignment (glossary-only)
+
+.. glossary-entry:: multiplication assignment
+   
+   :glossary:
+     :dp:`fls_llUb5VHKjwW4`
+     For :dt:`multiplication assignment`, see
+     :t:`multiplication assignment expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for mutability (glossary-only)
+
+.. glossary-entry:: mutability
+   
+   :glossary:
+     :dp:`fls_lBrXj9lo4s6o`
+     :dt:`Mutability` determines whether a :t:`construct` can modify a :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for mutable (glossary-only)
+
+.. glossary-entry:: mutable
+   
+   :glossary:
+     :dp:`fls_dqm58deu1orn`
+     A :t:`value` is :dt:`mutable` when it can be modified.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for mutable assignee expression (glossary-only)
+
+.. glossary-entry:: mutable assignee expression
+   
+   :glossary:
+     :dp:`fls_0RSlFbwrB3gp`
+     A :dt:`mutable assignee expression` is an :t:`assignee expression` whose
+     :t:`value` can be modified.
+
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/associated-items.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output file
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static baseline
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/associated-items.rst
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/macros.rst
+ M src/ownership-and-deconstruction.rst
+ M src/program-structure-and-compilation.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent git commits
+
+0be1c7e docs(glossary): migrate loop and macro glossary entries
+c862c56 docs(glossary): migrate batch 18 entries
+bc069fd docs(glossary): migrate batch 17 entries
+59827bd docs(glossary): migrate batch 16 entries
+2cd6855 docs(glossary): migrate batch 15 entries
+
+[91m[1m| [0m[90m Bash     [0mShow git diff for all changes
+
+diff --git a/src/associated-items.rst b/src/associated-items.rst
+index ce0abd7..72b01f8 100644
+--- a/src/associated-items.rst
++++ b/src/associated-items.rst
+@@ -286,8 +286,14 @@ Every occurrence of an :t:`impl trait type` in the :t:`return type` of an
+ corresponding :t:`associated trait type` of the corresponding :t:`associated
+ trait function`.
+ 
+-:dp:`fls_oy92gzxgc273`
+-A :t:`method` is an :t:`associated function` with a :t:`self parameter`.
++.. glossary-entry:: method
++   
++   :glossary:
++     :dp:`fls_n4opbiofu9q6`
++     A :dt:`method` is an :t:`associated function` with a :t:`self parameter`.
++   :chapter:
++     :dp:`fls_oy92gzxgc273`
++     A :t:`method` is an :t:`associated function` with a :t:`self parameter`.
+ 
+ :dp:`fls_WXnCWfJGoQx3`
+ The type of a :t:`self parameter` shall be one of the following:
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index c3f7c94..ad2a424 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -387,9 +387,16 @@ A :t:`simple path` is subject to :t:`simple path resolution`.
+ A :t:`single segment path` is a :t:`path` consisting of exactly one
+ :t:`path segment`.
+ 
+-:dp:`fls_wm61yeclairz`
+-A :t:`multi segment path` is a :t:`path` consisting of more than one
+-:t:`path segment`.
++.. glossary-entry:: multi segment path
++   
++   :glossary:
++     :dp:`fls_T4Xd6W6EqPSb`
++     A :dt:`multi segment path` is a :t:`path` consisting of more than one
++     :t:`path segment`.
++   :chapter:
++     :dp:`fls_wm61yeclairz`
++     A :t:`multi segment path` is a :t:`path` consisting of more than one
++     :t:`path segment`.
+ 
+ :dp:`fls_nRgjCLYZL3iX`
+ An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+@@ -1440,9 +1447,16 @@ Method Resolution
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_e5a5z5yht26l`
+-:t:`Method resolution` is a kind of :t:`resolution` that applies to a
+-:t:`method call expression`.
++.. glossary-entry:: method resolution
++   
++   :glossary:
++     :dp:`fls_LbW4z6OTuD1l`
++     :dt:`Method resolution` is a kind of :t:`resolution` that applies to a
++     :t:`method call expression`.
++   :chapter:
++     :dp:`fls_e5a5z5yht26l`
++     :t:`Method resolution` is a kind of :t:`resolution` that applies to a
++     :t:`method call expression`.
+ 
+ :dp:`fls_mbdS0xiNlj92`
+ A :dt:`receiver type` is the :t:`type` of the :t:`receiver operand`
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 82ff688..5c351d7 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1660,9 +1660,19 @@ The :t:`type` of a :t:`division expression` is :t:`associated type`
+ The :t:`value` of a :t:`division expression` is the result of
+ ``core::ops::Div::div(left_operand, right_operand)``.
+ 
+-:dp:`fls_kf41bphvlse3`
+-A :t:`multiplication expression` is an :t:`arithmetic expression` that uses
+-multiplication.
++.. glossary-entry:: multiplication expression
++   
++   :glossary:
++     :dp:`fls_324qh8wz474b`
++     A :dt:`multiplication expression` is an :t:`arithmetic expression` that uses
++     multiplication.
++     
++     :dp:`fls_34bkl5i75q5`
++     See :s:`MultiplicationExpression`.
++   :chapter:
++     :dp:`fls_kf41bphvlse3`
++     A :t:`multiplication expression` is an :t:`arithmetic expression` that uses
++     multiplication.
+ 
+ :dp:`fls_hrml95g2txcj`
+ The :t:`type` of the :t:`left operand` of a :t:`multiplication expression`
+@@ -3095,9 +3105,26 @@ Compound Assignment Expressions
+      A :t:`division assignment expression` is a :t:`compound assignment expression`
+      that uses division.
+ 
+-:dp:`fls_ndlv3k9uclz2`
+-A :t:`multiplication assignment expression` is a
+-:t:`compound assignment expression` that uses multiplication.
++.. glossary-entry:: multiplication assignment
++   
++   :glossary:
++     :dp:`fls_llUb5VHKjwW4`
++     For :dt:`multiplication assignment`, see
++     :t:`multiplication assignment expression`.
++
++.. glossary-entry:: multiplication assignment expression
++   
++   :glossary:
++     :dp:`fls_eo9gx05n5ru3`
++     A :dt:`multiplication assignment expression` is a
++     :t:`compound assignment expression` that uses multiplication.
++     
++     :dp:`fls_b0dc5lec1mdc`
++     See :s:`MultiplicationAssignmentExpression`.
++   :chapter:
++     :dp:`fls_ndlv3k9uclz2`
++     A :t:`multiplication assignment expression` is a
++     :t:`compound assignment expression` that uses multiplication.
+ 
+ :dp:`fls_fbp5dojti27r`
+ A :t:`remainder assignment expression` is a :t:`compound assignment expression`
+@@ -3129,9 +3156,26 @@ A :t:`subtraction assignment expression` is a
+      An :t:`assigned operand` is the target :t:`operand` of a
+      :t:`compound assignment expression`.
+ 
+-:dp:`fls_9v09ayi2azpe`
+-A :t:`modifying operand` is an :t:`operand` that supplies the :t:`value` that
+-is used in the calculation of a :t:`compound assignment expression`.
++.. glossary-entry:: modifying operand
++   
++   :glossary:
++     :dp:`fls_9wt2l5gg06pb`
++     A :dt:`modifying operand` is an :t:`operand` that supplies the :t:`value` that
++     is used in the calculation of a :t:`compound assignment expression`.
++     
++     :dp:`fls_qnwbrwdnv7n0`
++     See :s:`ModifyingOperand`.
++   :chapter:
++     :dp:`fls_9v09ayi2azpe`
++     A :t:`modifying operand` is an :t:`operand` that supplies the :t:`value` that
++     is used in the calculation of a :t:`compound assignment expression`.
++
++.. glossary-entry:: mutable assignee expression
++   
++   :glossary:
++     :dp:`fls_0RSlFbwrB3gp`
++     A :dt:`mutable assignee expression` is an :t:`assignee expression` whose
++     :t:`value` can be modified.
+ 
+ :dp:`fls_row7saf53vwd`
+ An :t:`assigned operand` shall denote a :t:`mutable assignee expression`.
+@@ -4186,17 +4230,37 @@ Method Call Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_b7i26954j1hc`
+-A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`
+-of a :t:`variable`.
++.. glossary-entry:: method call expression
++   
++   :glossary:
++     :dp:`fls_367sod24edts`
++     A :dt:`method call expression` is an :t:`expression` that invokes a :t:`method`
++     of a :t:`variable`.
++     
++     :dp:`fls_ohhcvxcaqv11`
++     See :s:`MethodCallExpression`.
++   :chapter:
++     :dp:`fls_b7i26954j1hc`
++     A :t:`method call expression` is an :t:`expression` that invokes a :t:`method`
++     of a :t:`variable`.
+ 
+ :dp:`fls_jx3ryre0xs88`
+ A :t:`receiver operand` is an :t:`operand` that denotes the :t:`value` whose
+ :t:`method` is being invoked by a :t:`method call expression`.
+ 
+-:dp:`fls_3AQUOBo7akXu`
+-A :t:`method operand` is an :t:`operand` that denotes the :t:`method` being
+-invoked by a :t:`method call expression`.
++.. glossary-entry:: method operand
++   
++   :glossary:
++     :dp:`fls_VLLAFjAxCfkE`
++     A :dt:`method operand` is an :t:`operand` that denotes the :t:`method` being
++     invoked by a :t:`method call expression`.
++     
++     :dp:`fls_Pkgr4fJQZpJ6`
++     See :s:`MethodOperand`.
++   :chapter:
++     :dp:`fls_3AQUOBo7akXu`
++     A :t:`method operand` is an :t:`operand` that denotes the :t:`method` being
++     invoked by a :t:`method call expression`.
+ 
+ :dp:`fls_11glzggtbgb3`
+ The :t:`type` of a :t:`method call expression` is the :t:`return type` of the
+diff --git a/src/macros.rst b/src/macros.rst
+index 1ee0d8e..9c5ffe2 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -199,8 +199,17 @@ Metavariables
+ a particular kind and bind its :t:`value` to a name for use during
+ :t:`macro transcription`.
+ 
+-:dp:`fls_4zdait30exvn`
+-A :t:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
++.. glossary-entry:: metavariable
++   
++   :glossary:
++     :dp:`fls_fu1esz5i9mt`
++     A :dt:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
++     
++     :dp:`fls_k4xaw93z8x33`
++     See :s:`MacroMetavariable`.
++   :chapter:
++     :dp:`fls_4zdait30exvn`
++     A :t:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
+ 
+ :dp:`fls_2HguXbL7DjKH`
+ A :t:`metavariable` is visible in the :t:`macro transcriber` of the
+@@ -257,9 +266,19 @@ A :t:`metavariable` is visible in the :t:`macro transcriber` of the
+ * :dp:`fls_lZ8F1zUJju33`
+   Any other kind may be followed by any token.
+ 
+-:dp:`fls_ephlmLsGTMgw`
+-A :t:`metavariable indication` is a :t:`construct` that indicates a
+-:t:`metavariable`.
++.. glossary-entry:: metavariable indication
++   
++   :glossary:
++     :dp:`fls_r1FxbWffC9Wt`
++     A :dt:`metavariable indication` is a :t:`construct` that indicates a
++     :t:`metavariable`.
++     
++     :dp:`fls_bcMO2a0e0gXJ`
++     See :s:`MacroMetavariableIndication`.
++   :chapter:
++     :dp:`fls_ephlmLsGTMgw`
++     A :t:`metavariable indication` is a :t:`construct` that indicates a
++     :t:`metavariable`.
+ 
+ .. rubric:: Examples
+ 
+@@ -740,10 +759,18 @@ Macro Expansion
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_xscdaxvs4wx4`
+-:t:`Macro expansion` is the process of statically executing a
+-:t:`macro invocation` and replacing it with the produced output of the
+-:t:`macro invocation`.
++.. glossary-entry:: macro expansion
++   
++   :glossary:
++     :dp:`fls_t383uo1l4h8x`
++     :dt:`Macro expansion` is the process of statically executing a
++     :t:`macro invocation` and replacing it with the produced output of the
++     :t:`macro invocation`.
++   :chapter:
++     :dp:`fls_xscdaxvs4wx4`
++     :t:`Macro expansion` is the process of statically executing a
++     :t:`macro invocation` and replacing it with the produced output of the
++     :t:`macro invocation`.
+ 
+ :dp:`fls_nz5stwcc41gk`
+ :t:`Macro expansion` of :t:`[declarative macro]s` proceeds as follows:
+@@ -911,9 +938,16 @@ Macro Matching
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ZmQZ8HQWv77L`
+-:t:`Macro matching` is the process of performing :t:`rule matching` and
+-:t:`token matching`.
++.. glossary-entry:: macro matching
++   
++   :glossary:
++     :dp:`fls_RrDmFXuZrhFT`
++     :dt:`Macro matching` is the process of performing :t:`rule matching` and
++     :t:`token matching`.
++   :chapter:
++     :dp:`fls_ZmQZ8HQWv77L`
++     :t:`Macro matching` is the process of performing :t:`rule matching` and
++     :t:`token matching`.
+ 
+ .. _fls_n3ktmjqf87qb:
+ 
+@@ -1080,9 +1114,16 @@ Macro Transcription
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_y21i8062mft0`
+-:t:`Macro transcription` is the process of producing the expansion of a
+-:t:`declarative macro`.
++.. glossary-entry:: macro transcription
++   
++   :glossary:
++     :dp:`fls_nouiggbpipg`
++     :dt:`Macro transcription` is the process of producing the expansion of a
++     :t:`declarative macro`.
++   :chapter:
++     :dp:`fls_y21i8062mft0`
++     :t:`Macro transcription` is the process of producing the expansion of a
++     :t:`declarative macro`.
+ 
+ :dp:`fls_n2dx4ug5nd5w`
+ :t:`Macro transcription` proceeds as follows:
+@@ -1262,11 +1303,21 @@ within them, which aims to eliminate the syntactic interference between a
+          of the :s:`MacroRulesDeclaration`, can reference the environment of the
+          :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+ 
+-* :dp:`fls_uyvnq88y9gk3`
+-  :t:`Mixed site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+-  site for :t:`[label]s`, :t:`[variable]s`, and the ``$crate``
+-  :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is
+-  considered :dt:`partially hygienic`.
++*
++  .. glossary-entry:: mixed site hygiene
++     
++     :glossary:
++       :dp:`fls_hjJpNmKiZxlT`
++       :dt:`Mixed site hygiene` is a type of :t:`hygiene` which resolves to the
++       :s:`MacroRulesDeclaration` site for :t:`[variable]s`, :t:`[label]s`, and the
++       ``$crate`` :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise,
++       and is considered :t:`partially hygienic`.
++     :chapter:
++       * :dp:`fls_uyvnq88y9gk3`
++         :t:`Mixed site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
++         site for :t:`[label]s`, :t:`[variable]s`, and the ``$crate``
++         :t:`metavariable`, and to the :s:`MacroInvocation` site otherwise, and is
++         considered :dt:`partially hygienic`.
+ 
+ :dp:`fls_yxqcr19dig18`
+ Every :t:`macro` has associated :t:`hygiene` that depends on its kind:
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index 3d7b693..0f726b5 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -313,9 +313,16 @@ A :t:`value` of a :t:`copy type` is :t:`passed <passing convention>`
+ :dt:`by copy`. Passing :t:`by copy` does not change the :t:`owner` of the
+ :t:`value`.
+ 
+-:dp:`fls_6ul3f6v0foma`
+-A :t:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`
+-:t:`trait` and is not a :t:`copy type`.
++.. glossary-entry:: move type
++   
++   :glossary:
++     :dp:`fls_ri37ez31gai8`
++     A :dt:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`
++     :t:`trait` and that is not a :t:`copy type`.
++   :chapter:
++     :dp:`fls_6ul3f6v0foma`
++     A :t:`move type` is a :t:`type` that implements the :std:`core::marker::Sized`
++     :t:`trait` and is not a :t:`copy type`.
+ 
+ :dp:`fls_3ztdz02efeoc`
+ A :t:`value` of a :t:`move type` is :t:`passed <passing convention>`
+diff --git a/src/program-structure-and-compilation.rst b/src/program-structure-and-compilation.rst
+index 575df6f..383bca4 100644
+--- a/src/program-structure-and-compilation.rst
++++ b/src/program-structure-and-compilation.rst
+@@ -69,8 +69,17 @@ Modules
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_odd1hj3y1mgu`
+-A :t:`module` is a container for zero or more :t:`[item]s`.
++.. glossary-entry:: module
++   
++   :glossary:
++     :dp:`fls_ujlsg58bskl5`
++     A :dt:`module` is a container for zero or more :t:`[item]s`.
++     
++     :dp:`fls_os60q6vvm71c`
++     See :s:`ModuleDeclaration`.
++   :chapter:
++     :dp:`fls_odd1hj3y1mgu`
++     A :t:`module` is a container for zero or more :t:`[item]s`.
+ 
+ :dp:`fls_whgv72emrm47`
+ The ``unsafe`` :t:`keyword` of a :t:`module` is rejected, but may still
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index d286394..f1b1375 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -2264,6 +2264,18 @@ A :t:`function pointer type` is unifiable only with another
+ * :dp:`fls_5dh8c5gg0hmk`
+   The :t:`[return type]s` are unifiable.
+ 
++.. glossary-entry:: mutability
++   
++   :glossary:
++     :dp:`fls_lBrXj9lo4s6o`
++     :dt:`Mutability` determines whether a :t:`construct` can modify a :t:`value`.
++
++.. glossary-entry:: mutable
++   
++   :glossary:
++     :dp:`fls_dqm58deu1orn`
++     A :t:`value` is :dt:`mutable` when it can be modified.
++
+ :dp:`fls_ismr7wwvek4q`
+ A :t:`raw pointer type` is unifiable only with another :t:`raw pointer type`
+ when:
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration edits
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch changes
+
+[glossary-single-source-phase1 d6c89e6] docs(glossary): migrate macro and method glossary entries
+ 7 files changed, 211 insertions(+), 48 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShow git status after commit
+Inserted glossary-entry directives for the next 20 terms, replacing chapter definitions where present and adding glossary-only blocks for the rest across `src/macros.rst`, `src/expressions.rst`, `src/entities-and-resolution.rst`, `src/associated-items.rst`, `src/program-structure-and-compilation.rst`, `src/ownership-and-deconstruction.rst`, and `src/types-and-traits.rst` to keep generated glossary output identical to the static baseline. Updated the batch checklist in `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md` and appended term-map entries via `/home/pete.levasseur/opencode-project-agents/fls/glossary-term-map.py`.
+
+Verification
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (report: `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`)
+
+Commit
+- `docs(glossary): migrate macro and method glossary entries` (`d6c89e6`)
+
+Notes
+- Term-map report updated at `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`
+
+Next steps
+1) Start the next batch of 20 unchecked terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

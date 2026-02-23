@@ -1,0 +1,33 @@
+S3 generator/backfill smoke started at 2026-02-15T02:12:33Z
+
+=== generator_non_interactive ===
+COMMAND: python3 tools/traceability/generate_irm_ids.py --mode myst-preface --count 2 --trace-status unmapped_with_rationale --no-prompt
+RETURN_CODE: 0
+STDOUT:
+{dp}`irm_0gPGL8cRwvgy` {ts}`unmapped_with_rationale`
+{dp}`irm_NLXu46MFmVMy` {ts}`unmapped_with_rationale`
+
+=== generator_interactive ===
+COMMAND: python3 tools/traceability/generate_irm_ids.py
+RETURN_CODE: 0
+STDOUT:
+What output do you need?
+  1) myst-preface
+  2) yaml-cell
+  3) yaml-row
+  4) raw
+> How many IRM IDs do you need? > How should trace status be assigned?
+  1) single
+  2) per-entry
+> Choose trace status:
+  1) mapped
+  2) unmapped_with_rationale
+  3) out_of_scope_with_rationale
+> Relation value (required for mapped): > Anchor IDs (comma-separated for mapped statements): > {dp}`irm_nl92Z9PgqFs5` {ts}`mapped` {rel}`maps_to` {a}`iso_26262_clause_1`
+
+=== backfill_dry_run ===
+COMMAND: python3 tools/traceability/backfill_irm_ids.py --repo-root . --mapping-json /home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s4/id-mapping.json --summary-json /home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s3/backfill-dry-run-summary.json --artifact-root /home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/traceability/id-backfill
+RETURN_CODE: 0
+STDOUT:
+MAPPING_JSON=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s4/id-mapping.json
+DRY_RUN_SUMMARY=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s3/backfill-dry-run-summary.json

@@ -1,0 +1,6 @@
+ANCHOR_REBASED_BRANCH=changelog-assistant-upstream-pr-anchor-title-preserve-on-dedupe
+ANCHOR_REBASED_WT=/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z
+ANCHOR_PRE_SHA=24b86678cc39b015e4e86a0e3f53a408bb1587d6
+ANCHOR_PRE_BASE_MAIN=eaafc97e1db8f4a3d153db1abe96ececacf1be2c
+ANCHOR_POST_SHA=216668c99002757486ccdfb3b9242504a6ab5789
+ANCHOR_POST_BASE_DEDUPE=0165ee6ad6e7e6a54705458d491810b0481b7df4

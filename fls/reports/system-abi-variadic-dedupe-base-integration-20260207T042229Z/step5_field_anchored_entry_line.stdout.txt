@@ -1,0 +1,6 @@
+581:            "anchored_entry_line": anchor["line"],
+589:            "anchored_entry_line": None,
+611:        "anchored_entry_line": update_metadata.get("anchored_entry_line"),
+647:        if report["anchored_entry_line"] is not None:
+648:            lines.append(f"- anchored entry line: `{report['anchored_entry_line']}`")
+745:                f"(entry {update_metadata['anchored_entry_index']}, line {update_metadata['anchored_entry_line']})"

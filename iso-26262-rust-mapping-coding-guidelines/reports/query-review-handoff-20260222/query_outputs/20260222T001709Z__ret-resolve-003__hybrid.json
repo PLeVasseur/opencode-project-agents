@@ -1,0 +1,357 @@
+{
+  "generated_at": "2026-02-22T00:19:17+00:00",
+  "prompt_id": "RET-RESOLVE-003",
+  "query": {
+    "allow_degraded": false,
+    "candidate_limit": 200,
+    "include_score_breakdown": true,
+    "mode": "hybrid",
+    "query_text": "How do ownership and lifetimes mitigate memory safety concerns?",
+    "row_marker": "",
+    "top_k": 8
+  },
+  "response": {
+    "degraded": false,
+    "duration_ms": 34278.285,
+    "executed_mode": "hybrid",
+    "preflight": {
+      "base_url": "http://127.0.0.1:8080",
+      "checks": [
+        {
+          "base_url": "http://127.0.0.1:19080",
+          "endpoint": "/health",
+          "name": "health_embed",
+          "status": "pass"
+        },
+        {
+          "base_url": "http://127.0.0.1:19081",
+          "endpoint": "/health",
+          "name": "health_rerank",
+          "status": "pass"
+        },
+        {
+          "name": "embed",
+          "status": "pass",
+          "vector_dim": 2560
+        },
+        {
+          "name": "rerank",
+          "score_count": 2,
+          "status": "pass"
+        }
+      ],
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "ok": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3"
+    },
+    "query_text": "How do ownership and lifetimes mitigate memory safety concerns?",
+    "requested_mode": "hybrid",
+    "row_count": 8,
+    "row_marker": "",
+    "row_projection": [
+      {
+        "evidence_hits": 4,
+        "evidence_trace": [
+          {
+            "contribution": 0.096212,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:011"
+          },
+          {
+            "contribution": 0.042061,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafety.html#unsafety",
+            "statement_id": "doc::unsafety.md::section:0001::statement:001"
+          },
+          {
+            "contribution": 0.028524,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:009"
+          },
+          {
+            "contribution": 0.020619,
+            "source_anchor": "https://doc.rust-lang.org/reference/lifetime-elision.html#lifetime-elision",
+            "statement_id": "doc::lifetime-elision.md::section:0001::statement:001"
+          }
+        ],
+        "row_marker": "1i",
+        "score": 0.187416,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "top_statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:011"
+      },
+      {
+        "evidence_hits": 1,
+        "evidence_trace": [
+          {
+            "contribution": 0.088856,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:006"
+          }
+        ],
+        "row_marker": "1h",
+        "score": 0.088856,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:006"
+      },
+      {
+        "evidence_hits": 1,
+        "evidence_trace": [
+          {
+            "contribution": 0.024605,
+            "source_anchor": "https://doc.rust-lang.org/reference/items/unions.html#references-to-union-fields",
+            "statement_id": "doc::items::unions.md::section:0014::statement:002"
+          }
+        ],
+        "row_marker": "1e",
+        "score": 0.024605,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/items/unions.html#references-to-union-fields",
+        "top_statement_id": "doc::items::unions.md::section:0014::statement:002"
+      }
+    ],
+    "rows": [
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.6902807650409863,
+        "reranker_score": 1.0,
+        "row_marker_scores": [],
+        "row_markers": [],
+        "section_heading": "Trait object lifetime bounds",
+        "semantic_score": 0.9611230601639453,
+        "semantic_score_raw": 0.8319344993988728,
+        "source_anchor": "https://doc.rust-lang.org/reference/types/trait-object.html#trait-object-lifetime-bounds",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::types::trait-object.md::section:0002::statement:003",
+        "statement_text": "There are [defaults] that allow this lifetime to usually be inferred with a sensible choice.",
+        "text_sha256": "cd9430a2904ec17590bff19cb53eb3ab8bd335160d8eefeaac88222df47b949d",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.6469689201380828,
+        "reranker_score": 0.9417672200773598,
+        "row_marker_scores": [],
+        "row_markers": [],
+        "section_heading": "`const` and `static` elision",
+        "semantic_score": 0.8926946844130837,
+        "semantic_score_raw": 0.804654581990922,
+        "source_anchor": "https://doc.rust-lang.org/reference/lifetime-elision.html#const-and-static-elision",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::lifetime-elision.md::section:0013::statement:003",
+        "statement_text": "If it is unable to resolve the lifetimes by its usual rules, then it will error.",
+        "text_sha256": "e4293a4ca5b0e72ddd1160f764907131d08e3d9fa55c08891c136a702fc28049",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5567024357496362,
+        "reranker_score": 0.7415984101791001,
+        "row_marker_scores": [
+          {
+            "overlap_count": 5,
+            "row_marker": "1i",
+            "score": 0.518476
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.8919326046761644,
+        "semantic_score_raw": 0.8043507683748116,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:011",
+        "statement_text": "The exact liveness duration is not specified, but some bounds exist: * For references, the liveness duration is upper-bounded by the syntactic lifetime assigned by the borrow checker; it cannot be live any *longer* than that lifetime. * Each time a reference or box is dereferenced or reborrowed, it is considered live. * Each time a reference or box is passed to or returned from a function, it is considered live. * When a reference (but not a `Box`!) is passed to a function, it is live at least as long as that function call, again except if the `&T` contains an [`UnsafeCell<U>`].",
+        "text_sha256": "6a94ecc0ad73044c821d0515d21b5a5f897e887d8145813649bbc3e8bada232c",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5026456278583205,
+        "reranker_score": 0.5963117168465282,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1h",
+            "score": 0.707107
+          }
+        ],
+        "row_markers": [
+          "1h"
+        ],
+        "section_heading": "Unsafe blocks (`unsafe {}`)",
+        "semantic_score": 0.9372214211095312,
+        "semantic_score_raw": 0.8224057807618407,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0003::statement:006",
+        "statement_text": "For example, Rust provides the language features necessary to implement memory-safe concurrency in the language but the implementation of threads and message passing in the standard library uses unsafe blocks.",
+        "text_sha256": "c7cf232dd85791173e835dff432dbbcc814540369419800879fb576c18087b24",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.4971072797853162,
+        "reranker_score": 0.6117842820211025,
+        "row_marker_scores": [
+          {
+            "overlap_count": 2,
+            "row_marker": "1i",
+            "score": 0.20739
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Lifetime elision",
+        "semantic_score": 0.8872174115032806,
+        "semantic_score_raw": 0.8024709914707516,
+        "source_anchor": "https://doc.rust-lang.org/reference/lifetime-elision.html#lifetime-elision",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::lifetime-elision.md::section:0001::statement:001",
+        "statement_text": "Rust has rules that allow lifetimes to be elided in various places where the compiler can infer a sensible default choice. r[lifetime-elision.function]",
+        "text_sha256": "480af07ef23e417e0ffb921668e78baacf35d93147a0a1bd697b7d771149bccf",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 1.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.4867431852853846,
+        "reranker_score": 0.0,
+        "row_marker_scores": [
+          {
+            "overlap_count": 5,
+            "row_marker": "1i",
+            "score": 0.518476
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Unsafety",
+        "semantic_score": 0.7469727411415386,
+        "semantic_score_raw": 0.7465605159933992,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafety.html#unsafety",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafety.md::section:0001::statement:001",
+        "statement_text": "r[safety.intro] Unsafe operations are those that can potentially violate the memory-safety guarantees of Rust's static semantics. r[safety.unsafe-ops] The following language level features cannot be used in the safe subset of Rust: r[safety.unsafe-deref] - Dereferencing a [raw pointer]. r[safety.unsafe-static] - Reading or writing a [mutable] or unsafe [external] static variable. r[safety.unsafe-union-access] - Accessing a field of a [`union`], other than to assign to it. r[safety.unsafe-call] - Calling an unsafe function. r[safety.unsafe-target-feature-call] - Calling a safe function marked with a [`target_feature`][attributes.codegen.target_feature] from a function that does not have a `target_feature` attribute enabling the same features (see [attributes.codegen.target_feature.safety-restrictions]). r[safety.unsafe-impl] - Implementing an [unsafe trait]. r[safety.unsafe-extern] - Declaring an [`extern`] block[^extern-2024]. r[safety.unsafe-attribute] - Applying an [unsafe attribute] to an item.",
+        "text_sha256": "6c11438d84df3f1d41d52fd559098d82b75861cbf860b760599c8c15e965c383",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.4813745622902771,
+        "reranker_score": 0.5793935309376911,
+        "row_marker_scores": [
+          {
+            "overlap_count": 4,
+            "row_marker": "1i",
+            "score": 0.414781
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.8825898934732642,
+        "semantic_score_raw": 0.8006261674737264,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:009",
+        "statement_text": "The exact aliasing rules are not determined yet, but here is an outline of the general principles: `&T` must point to memory that is not mutated while they are live (except for data inside an [`UnsafeCell<U>`]), and `&mut T` must point to memory that is not read or written by any pointer not derived from the reference and that no other reference points to while they are live.",
+        "text_sha256": "0e098e98cc0f18a9168a478cee930c8b85790669164edd3c65620a2de7ec2527",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.4401432542204585,
+        "reranker_score": 0.48242836939208733,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1e",
+            "score": 0.447214
+          }
+        ],
+        "row_markers": [
+          "1e"
+        ],
+        "section_heading": "References to union fields",
+        "semantic_score": 0.892201951976077,
+        "semantic_score_raw": 0.8044581473972572,
+        "source_anchor": "https://doc.rust-lang.org/reference/items/unions.html#references-to-union-fields",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::items::unions.md::section:0014::statement:002",
+        "statement_text": "As a result, if one field of a union is borrowed, all its remaining fields are borrowed as well for the same lifetime.",
+        "text_sha256": "ce1c14612c131b14fb84baa0e6bb58a5aabfb4d7d91188bbed5fb4c991170182",
+        "token_overlap_count": 0
+      }
+    ],
+    "semantic_retry_events": [
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "query embedding",
+        "retry_count": 0,
+        "status": "pass"
+      },
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "reranker scoring",
+        "retry_count": 0,
+        "status": "pass"
+      }
+    ]
+  },
+  "runtime": {
+    "backend_profile": "unknown",
+    "contract_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/config/sqlite_query_contracts/rust_reference.yaml",
+    "db_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/current/rust_reference.sqlite",
+    "query_log_root": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/query_logs/rust_reference",
+    "semantic": {
+      "allow_online_corpus_embedding": false,
+      "base_url": "http://127.0.0.1:8080",
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "persist_semantic_cache": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3",
+      "semantic_retries": 0,
+      "timeout_sec": 120.0
+    }
+  },
+  "schema_version": 1
+}

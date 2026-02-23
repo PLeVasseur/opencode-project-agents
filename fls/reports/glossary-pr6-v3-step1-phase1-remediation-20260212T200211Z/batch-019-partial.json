@@ -1,0 +1,18 @@
+{
+  "batch_number": 19,
+  "passed_ids": [
+    "WB-081",
+    "WB-083",
+    "WB-085",
+    "WB-086",
+    "WB-087",
+    "WB-088"
+  ],
+  "quarantined": {
+    "WB-082": "parent row is not checked",
+    "WB-084": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)",
+    "WB-089": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)"
+  },
+  "timestamp": "20260213T005400Z",
+  "wave": "WB"
+}

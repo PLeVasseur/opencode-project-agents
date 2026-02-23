@@ -1,0 +1,11 @@
+{
+  "domain": "trace",
+  "roles": [
+    "dp",
+    "ts",
+    "a",
+    "rel",
+    "p"
+  ],
+  "status": "pass"
+}

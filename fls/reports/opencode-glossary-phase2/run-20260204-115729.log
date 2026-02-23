@@ -1,0 +1,1251 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms from checklist
+
+warning: glossary-entry not found in src files: implementation conformance
+warning: glossary-entry not found in src files: implemented trait
+warning: glossary-entry not found in src files: implementing type
+warning: glossary-entry not found in src files: implicit borrow
+warning: glossary-entry not found in src files: implicitly declared entity
+warning: glossary-entry not found in src files: implied bound
+warning: glossary-entry not found in src files: in scope
+warning: glossary-entry not found in src files: inclusive range pattern
+warning: glossary-entry not found in src files: incomplete associated constant
+warning: glossary-entry not found in src files: incomplete associated function
+warning: glossary-entry not found in src files: incomplete associated type
+warning: glossary-entry not found in src files: index expression
+warning: glossary-entry not found in src files: indexable type
+warning: glossary-entry not found in src files: indexed deconstructor
+warning: glossary-entry not found in src files: indexed field selector
+warning: glossary-entry not found in src files: indexed initializer
+warning: glossary-entry not found in src files: indexed operand
+warning: glossary-entry not found in src files: indexing operand
+warning: glossary-entry not found in src files: indirection type
+warning: glossary-entry not found in src files: inert attribute
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mShow glossary term map helper usage
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+
+Append missing glossary migration metadata entries to term-map.jsonl.
+
+options:
+  -h, --help            show this help message and exit
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --src SRC             Source directory
+  --glossary GLOSSARY   Static glossary file
+  --term-map TERM_MAP   Term map JSONL path
+  --checklist CHECKLIST
+                        Checklist file for term selection
+  --count COUNT         Number of unchecked terms to take from checklist
+  --terms [TERMS ...]   Explicit term list
+  --status STATUS       Status value for term-map entries
+  --dry-run             Print JSONL entries without writing
+
+[94m[1m| [0m[90m Grep     [0mimplementation conformance|implemented trait|implementing type|implicit borrow|implicitly declared entity|implied bound|in scope|inclusive range pattern|incomplete associated constant|incomplete associated function|incomplete associated type|index expression|indexable type|indexed deconstructor|indexed field selector|indexed initializer|indexed operand|indexing operand|indirection type|inert attribute
+[91m[1m| [0m[90m Bash     [0mCheck terms exist in static glossary
+
+missing:
+implementation conformance
+
+[91m[1m| [0m[90m Bash     [0mSelect next 20 unchecked terms present in glossary
+
+selected:
+implemented trait
+implementing type
+implicit borrow
+implicitly declared entity
+implied bound
+in scope
+inclusive range pattern
+incomplete associated constant
+incomplete associated function
+incomplete associated type
+index expression
+indexable type
+indexed deconstructor
+indexed field selector
+indexed initializer
+indexed operand
+indexing operand
+indirection type
+inert attribute
+inferred type
+
+missing (skipped until 20 collected):
+implementation conformance
+
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0min scope
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mindexed field selector
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mindexed field selector
+[94m[1m| [0m[90m Grep     [0mincomplete associated constant|incomplete associated function|incomplete associated type
+[94m[1m| [0m[90m Grep     [0mAssociated constant|associated constant|Associated function|associated function|Associated type|associated type
+[94m[1m| [0m[90m Grep     [0mAssociated Items|Associated items
+[96m[1m| [0m[90m Read     [0msrc/associated-items.rst
+[94m[1m| [0m[90m Grep     [0mfield selector
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mindexed field
+[94m[1m| [0m[90m Grep     [0mindirection type
+[94m[1m| [0m[90m Grep     [0mindirection type is
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0minferred type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0minert attribute
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`in scope`
+[94m[1m| [0m[90m Grep     [0mIndirection
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for implementing type
+
+.. glossary-entry:: implementing type
+   
+   :glossary:
+     :dp:`fls_vs5ia3uupdcc`
+     An :dt:`implementing type` is the :t:`type` that the :t:`[associated item]s` of
+     an :t:`implementation` are associated with.
+     
+     :dp:`fls_9ixcwh6to74g`
+     See :s:`ImplementingType`.
+   :chapter:
+     :dp:`fls_yopmjbnw8tbl`
+     An :t:`implementing type` is the :t:`type` that the :t:`[associated item]s` of
+     an :t:`implementation` are associated with.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for implemented trait
+
+.. glossary-entry:: implemented trait
+   
+   :glossary:
+     :dp:`fls_7twlizi3v8cb`
+     An :dt:`implemented trait` is a :t:`trait` whose functionality has been
+     implemented by an :t:`implementing type`.
+     
+     :dp:`fls_2brvfx5wmvkf`
+     See :s:`ImplementedTrait`.
+   :chapter:
+     :dp:`fls_47x0ep8of8wr`
+     An :t:`implemented trait` is a :t:`trait` whose functionality has been
+     implemented by an :t:`implementing type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for implicit borrow
+
+.. glossary-entry:: implicit borrow
+   
+   :glossary:
+     :dp:`fls_q2v9ejpcvtwg`
+     An :dt:`implicit borrow` is a :t:`borrow` that is not present syntactically in
+     program text.
+   :chapter:
+     :dp:`fls_zepwytjwy049`
+     An :t:`implicit borrow` is a :t:`borrow` that is not present syntactically in
+     program text. An :t:`implicit borrow` occurs in the following contexts:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for implicitly declared entity
+
+.. glossary-entry:: implicitly declared entity
+   
+   :glossary:
+     :dp:`fls_VQs1jd4Nx3qR`
+     An :dt:`implicitly declared entity` is an :t:`entity` that lacks an explicit
+     :t:`declaration`.
+   :chapter:
+     :dp:`fls_ig1l38gpy5gy`
+     An :t:`implicitly declared entity` is an :t:`entity` that lacks an explicit
+     :t:`declaration`. The following :t:`entities <entity>` are
+     :t:`implicitly declared entities <implicitly declared entity>`:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for in scope
+
+.. glossary-entry:: in scope
+   
+   :glossary:
+     :dp:`fls_sy380geqvf2l`
+     A :t:`name` is :dt:`in scope` when it can be referred to.
+   :chapter:
+     :dp:`fls_5x5xykocwyiy`
+     A :t:`scope` is a region of program text where an :t:`entity` can be referred
+     to. An :t:`entity` is :t:`in scope` when it can be referred to.
+     
+     .. _fls_6ozthochxz1i:
+     
+     Binding Scopes
+     ~~~~~~~~~~~~~~
+     
+     .. rubric:: Legality Rules
+     
+     .. glossary-entry:: binding scope
+        
+        :glossary:
+
+[94m[1m| [0m[90m Grep     [0min scope when it can be referred to
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for implied bound
+
+.. glossary-entry:: implied bound
+   
+   :glossary:
+     :dp:`fls_t77d8xwG1l9Q`
+     An :dt:`implied bound` is a :t:`bound` that is not expressed in syntax, but is the byproduct of relations between :t:`[lifetime parameter]s` and :t:`[function parameter]s`, between :t:`[lifetime parameter]s` and a :t:`return type`, and between :t:`[lifetime parameter]s` and :t:`[field]s`.
+   :chapter:
+     :dp:`fls_J9DEsd06Ttu9`
+     An :t:`implied bound` is a :t:`bound` that is not expressed in syntax, but is
+     is the byproduct of relations between :t:`[lifetime parameter]s` and
+     :t:`[function parameter]s`, between :t:`[lifetime parameter]s` and a
+     :t:`return type`, and between :t:`[lifetime parameter]s` and :t:`[field]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for inclusive range pattern
+
+.. glossary-entry:: inclusive range pattern
+   
+   :glossary:
+     :dp:`fls_olfeuvwkosse`
+     An :dt:`inclusive range pattern` is a :t:`range pattern` with both a
+     :t:`range pattern low bound` and a :t:`range pattern high bound`.
+     
+     :dp:`fls_9bdxsn6nasjr`
+     See :s:`InclusiveRangePattern`.
+   :chapter:
+     :dp:`fls_q86j23iiqv8w`
+     An :t:`inclusive range pattern` is a :t:`range pattern` with both a
+     :t:`range pattern low bound` and a :t:`range pattern high bound`.
+     
+     .. glossary-entry:: exclusive range pattern
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for indexed deconstructor
+
+.. glossary-entry:: indexed deconstructor
+   
+   :glossary:
+     :dp:`fls_q7eta38vw0ig`
+     An :dt:`indexed deconstructor` is a :t:`construct` that matches the position of
+     a :t:`tuple field`.
+     
+     :dp:`fls_gryv4audvann`
+     See :s:`IndexedDeconstructor`.
+   :chapter:
+     :dp:`fls_mnh35ehva8tx`
+     An :t:`indexed deconstructor` is a :t:`construct` that matches the position of
+     a :t:`field`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for index expression
+
+.. glossary-entry:: index expression
+   
+   :glossary:
+     :dp:`fls_1f7e9q8n431n`
+     An :dt:`index expression` is an :t:`expression` that indexes into a :t:`value`
+     of a :t:`type`.
+     
+     :dp:`fls_xm2er7vuo07g`
+     See :s:`IndexExpression`.
+   :chapter:
+     :dp:`fls_42ijvuqqqlvh`
+     An :t:`index expression` is an :t:`expression` that indexes into a :t:`value`
+     of an :t:`indexable type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for indexable type
+
+.. glossary-entry:: indexable type
+   
+   :glossary:
+     :dp:`fls_AdVGyKZFvvUS`
+     A :dt:`indexable type` is a :t:`type` that implements the
+     :std:`core::ops::Index` :t:`trait`.
+   :chapter:
+     :dp:`fls_X9kdEAPTqsAe`
+     An :t:`indexable type` is a :t:`type` that implements the
+     :std:`core::ops::Index` :t:`trait`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for indexed operand
+
+.. glossary-entry:: indexed operand
+   
+   :glossary:
+     :dp:`fls_dvmm47wnl33e`
+     An :dt:`indexed operand` is an :t:`operand` which indicates the :t:`value` of a
+     :t:`type` implementing :std:`core::ops::Index` being indexed into by an
+     :t:`index expression`.
+     
+     :dp:`fls_je8eh3a02riq`
+     See :s:`IndexedOperand`.
+   :chapter:
+     :dp:`fls_pc0c22asgzvw`
+     An :t:`indexed operand` is an :t:`operand` which indicates the :t:`value`
+     being indexed into by an :t:`index expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for indexing operand
+
+.. glossary-entry:: indexing operand
+   
+   :glossary:
+     :dp:`fls_ipw4tfrserbu`
+     An :dt:`indexing operand` is an :t:`operand` which specifies the index for the
+     :t:`indexed operand` being indexed into by an :t:`index expression`.
+     
+     :dp:`fls_t2j8vzlrlvb0`
+     See :s:`IndexingOperand`.
+   :chapter:
+     :dp:`fls_ff3sgpldn52o`
+     An :t:`indexing operand` is an :t:`operand` which specifies the index of an
+     :t:`index expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for indexed initializer
+
+.. glossary-entry:: indexed initializer
+   
+   :glossary:
+     :dp:`fls_oonqolgqyrq1`
+     An :dt:`indexed initializer` is a :t:`construct` that specifies the index and
+     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+     
+     :dp:`fls_werlw98l3ra0`
+     See :s:`IndexedInitializer`.
+   :chapter:
+     :dp:`fls_ph7fsphbpbv4`
+     An :t:`indexed initializer` is a :t:`construct` that specifies the index and
+     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for inert attribute
+
+.. glossary-entry:: inert attribute
+   
+   :glossary:
+     :dp:`fls_o4e3tyjz7l1h`
+     An :dt:`inert attribute` is an :t:`attribute` that remains with the :t:`item`
+     it decorates.
+   :chapter:
+     :dp:`fls_xk7lb2g02sy7`
+     An :t:`inert attribute` is an :t:`attribute` that remains with the :t:`item`
+     it decorates.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary directive for inferred type
+
+.. glossary-entry:: inferred type
+   
+   :glossary:
+     :dp:`fls_9xgfexeqr4ed`
+     An :dt:`inferred type` is a placeholder for a :t:`type` deduced by
+     :t:`type inference`.
+     
+     :dp:`fls_z2p8378sd93z`
+     See :s:`InferredType`.
+   :chapter:
+     :dp:`fls_xdtgr5toulpb`
+     An :t:`inferred type` is a placeholder for a :t:`type` deduced by
+     :t:`type inference`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for in scope
+
+.. glossary-entry:: in scope
+   
+   :glossary:
+     :dp:`fls_sy380geqvf2l`
+     A :t:`name` is :dt:`in scope` when it can be referred to.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for incomplete associated constant
+
+.. glossary-entry:: incomplete associated constant
+   
+   :glossary:
+     :dp:`fls_bq48gl84bul0`
+     An :dt:`incomplete associated constant` is an :t:`associated constant` without
+     a :t:`constant initializer`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for incomplete associated function
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for incomplete associated type
+
+.. glossary-entry:: incomplete associated type
+   
+   :glossary:
+     :dp:`fls_tka0gth8rc9x`
+     An :dt:`incomplete associated type` is an :t:`associated type` without an
+     :t:`initialization type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for incomplete associated function
+
+.. glossary-entry:: incomplete associated function
+   
+   :glossary:
+     :dp:`fls_iboondra204w`
+     An :dt:`incomplete associated function` is an :t:`associated function` without
+     a :t:`function body`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for indexed field selector
+
+.. glossary-entry:: indexed field selector
+   
+   :glossary:
+     :dp:`fls_u6mh5yediub`
+     An :dt:`indexed field selector` is a :t:`field selector` where the selected
+     :t:`field` is indicated by an index.
+     
+     :dp:`fls_wbbyf2szc8a7`
+     See :s:`IndexedFieldSelector`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only directive for indirection type
+
+.. glossary-entry:: indirection type
+   
+   :glossary:
+     :dp:`fls_8so1phpdjyk8`
+     An :dt:`indirection type` is a :t:`type` whose :t:`[value]s` refer to memory
+     locations.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/implementations.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/associated-items.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGenerate glossary, diff against static, verify HTML diff
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow working tree status
+
+ M src/associated-items.rst
+ M src/attributes.rst
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/implementations.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+d9a148b docs(glossary): migrate batch 14 entries
+90e1385 docs(glossary): migrate batch 13 entries
+5c37a48 docs(glossary): migrate batch 12 entries
+200bda3 docs(glossary): migrate batch 11 entries
+862a461 docs(glossary): migrate batch 10 entries
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged diffs
+
+diff --git a/src/associated-items.rst b/src/associated-items.rst
+index 2d49e99..faee30e 100644
+--- a/src/associated-items.rst
++++ b/src/associated-items.rst
+@@ -49,6 +49,13 @@ Associated Items
+      An :t:`associated constant` is a :t:`constant` that appears as an
+      :t:`associated item`.
+ 
++.. glossary-entry:: incomplete associated constant
++   
++   :glossary:
++     :dp:`fls_bq48gl84bul0`
++     An :dt:`incomplete associated constant` is an :t:`associated constant` without
++     a :t:`constant initializer`.
++
+ .. glossary-entry:: associated function
+    
+    :glossary:
+@@ -60,6 +67,13 @@ Associated Items
+      An :t:`associated function` is a :t:`function` that appears as an
+      :t:`associated item`.
+ 
++.. glossary-entry:: incomplete associated function
++   
++   :glossary:
++     :dp:`fls_iboondra204w`
++     An :dt:`incomplete associated function` is an :t:`associated function` without
++     a :t:`function body`.
++
+ .. glossary-entry:: associated type
+    
+    :glossary:
+@@ -71,6 +85,13 @@ Associated Items
+      An :t:`associated type` is a :t:`type alias` that appears as an
+      :t:`associated item`.
+ 
++.. glossary-entry:: incomplete associated type
++   
++   :glossary:
++     :dp:`fls_tka0gth8rc9x`
++     An :dt:`incomplete associated type` is an :t:`associated type` without an
++     :t:`initialization type`.
++
+ :dp:`fls_w8nu8suy7t5`
+ An :t:`associated type` shall not be used in the :t:`path expression` of a
+ :t:`struct expression`.
+diff --git a/src/attributes.rst b/src/attributes.rst
+index 4628b0a..cf78f3e 100644
+--- a/src/attributes.rst
++++ b/src/attributes.rst
+@@ -104,9 +104,16 @@ Attribute Properties
+      An :t:`active attribute` is an :t:`attribute` that is removed from the :t:`item`
+      it decorates.
+ 
+-:dp:`fls_xk7lb2g02sy7`
+-An :t:`inert attribute` is an :t:`attribute` that remains with the :t:`item`
+-it decorates.
++.. glossary-entry:: inert attribute
++   
++   :glossary:
++     :dp:`fls_o4e3tyjz7l1h`
++     An :dt:`inert attribute` is an :t:`attribute` that remains with the :t:`item`
++     it decorates.
++   :chapter:
++     :dp:`fls_xk7lb2g02sy7`
++     An :t:`inert attribute` is an :t:`attribute` that remains with the :t:`item`
++     it decorates.
+ 
+ :dp:`fls_q8wl7pidx2za`
+ The following :t:`[attribute]s` are :t:`[active attribute]s`:
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 80b0573..23bcf4a 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -110,10 +110,17 @@ A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+ * :dp:`fls_v7w8ptbyxv9w`
+   :t:`[Union type]s`.
+ 
+-:dp:`fls_ig1l38gpy5gy`
+-An :t:`implicitly declared entity` is an :t:`entity` that lacks an explicit
+-:t:`declaration`. The following :t:`entities <entity>` are
+-:t:`implicitly declared entities <implicitly declared entity>`:
++.. glossary-entry:: implicitly declared entity
++   
++   :glossary:
++     :dp:`fls_VQs1jd4Nx3qR`
++     An :dt:`implicitly declared entity` is an :t:`entity` that lacks an explicit
++     :t:`declaration`.
++   :chapter:
++     :dp:`fls_ig1l38gpy5gy`
++     An :t:`implicitly declared entity` is an :t:`entity` that lacks an explicit
++     :t:`declaration`. The following :t:`entities <entity>` are
++     :t:`implicitly declared entities <implicitly declared entity>`:
+ 
+ * :dp:`fls_ed0t6u7fo3fi`
+   :t:`[Built-in attribute]s`.
+@@ -507,6 +514,12 @@ Scopes
+ A :t:`scope` is a region of program text where an :t:`entity` can be referred
+ to. An :t:`entity` is :t:`in scope` when it can be referred to.
+ 
++.. glossary-entry:: in scope
++   
++   :glossary:
++     :dp:`fls_sy380geqvf2l`
++     A :t:`name` is :dt:`in scope` when it can be referred to.
++
+ .. _fls_6ozthochxz1i:
+ 
+ Binding Scopes
+diff --git a/src/expressions.rst b/src/expressions.rst
+index dd815b7..467225a 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -3460,21 +3460,59 @@ Indexing Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_X9kdEAPTqsAe`
+-An :t:`indexable type` is a :t:`type` that implements the
+-:std:`core::ops::Index` :t:`trait`.
++.. glossary-entry:: indexable type
++   
++   :glossary:
++     :dp:`fls_AdVGyKZFvvUS`
++     A :dt:`indexable type` is a :t:`type` that implements the
++     :std:`core::ops::Index` :t:`trait`.
++   :chapter:
++     :dp:`fls_X9kdEAPTqsAe`
++     An :t:`indexable type` is a :t:`type` that implements the
++     :std:`core::ops::Index` :t:`trait`.
+ 
+-:dp:`fls_42ijvuqqqlvh`
+-An :t:`index expression` is an :t:`expression` that indexes into a :t:`value`
+-of an :t:`indexable type`.
++.. glossary-entry:: index expression
++   
++   :glossary:
++     :dp:`fls_1f7e9q8n431n`
++     An :dt:`index expression` is an :t:`expression` that indexes into a :t:`value`
++     of a :t:`type`.
++     
++     :dp:`fls_xm2er7vuo07g`
++     See :s:`IndexExpression`.
++   :chapter:
++     :dp:`fls_42ijvuqqqlvh`
++     An :t:`index expression` is an :t:`expression` that indexes into a :t:`value`
++     of an :t:`indexable type`.
+ 
+-:dp:`fls_pc0c22asgzvw`
+-An :t:`indexed operand` is an :t:`operand` which indicates the :t:`value`
+-being indexed into by an :t:`index expression`.
++.. glossary-entry:: indexed operand
++   
++   :glossary:
++     :dp:`fls_dvmm47wnl33e`
++     An :dt:`indexed operand` is an :t:`operand` which indicates the :t:`value` of a
++     :t:`type` implementing :std:`core::ops::Index` being indexed into by an
++     :t:`index expression`.
++     
++     :dp:`fls_je8eh3a02riq`
++     See :s:`IndexedOperand`.
++   :chapter:
++     :dp:`fls_pc0c22asgzvw`
++     An :t:`indexed operand` is an :t:`operand` which indicates the :t:`value`
++     being indexed into by an :t:`index expression`.
+ 
+-:dp:`fls_ff3sgpldn52o`
+-An :t:`indexing operand` is an :t:`operand` which specifies the index of an
+-:t:`index expression`.
++.. glossary-entry:: indexing operand
++   
++   :glossary:
++     :dp:`fls_ipw4tfrserbu`
++     An :dt:`indexing operand` is an :t:`operand` which specifies the index for the
++     :t:`indexed operand` being indexed into by an :t:`index expression`.
++     
++     :dp:`fls_t2j8vzlrlvb0`
++     See :s:`IndexingOperand`.
++   :chapter:
++     :dp:`fls_ff3sgpldn52o`
++     An :t:`indexing operand` is an :t:`operand` which specifies the index of an
++     :t:`index expression`.
+ 
+ :dp:`fls_w96p9oyv5mqt`
+ An :t:`index expression` is a :t:`constant expression` if the
+@@ -3670,9 +3708,19 @@ The :t:`type` of a :t:`base initializer` is the :t:`type` of its :t:`operand`.
+ The :t:`type` of a :t:`base initializer` shall be the same as the :t:`type` of
+ the :t:`constructee`.
+ 
+-:dp:`fls_ph7fsphbpbv4`
+-An :t:`indexed initializer` is a :t:`construct` that specifies the index and
+-initial :t:`value` of a :t:`field` in a :t:`struct expression`.
++.. glossary-entry:: indexed initializer
++   
++   :glossary:
++     :dp:`fls_oonqolgqyrq1`
++     An :dt:`indexed initializer` is a :t:`construct` that specifies the index and
++     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
++     
++     :dp:`fls_werlw98l3ra0`
++     See :s:`IndexedInitializer`.
++   :chapter:
++     :dp:`fls_ph7fsphbpbv4`
++     An :t:`indexed initializer` is a :t:`construct` that specifies the index and
++     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+ 
+ :dp:`fls_y3p6rtm7ek3l`
+ An :t:`indexed initializer` matches a :t:`field` of the :t:`constructee`
+@@ -4211,6 +4259,16 @@ Field Access Expressions
+      A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+      accessed in a :t:`field access expression`.
+ 
++.. glossary-entry:: indexed field selector
++   
++   :glossary:
++     :dp:`fls_u6mh5yediub`
++     An :dt:`indexed field selector` is a :t:`field selector` where the selected
++     :t:`field` is indicated by an index.
++     
++     :dp:`fls_wbbyf2szc8a7`
++     See :s:`IndexedFieldSelector`.
++
+ .. glossary-entry:: field index
+    
+    :glossary:
+diff --git a/src/implementations.rst b/src/implementations.rst
+index 80215e7..0875701 100644
+--- a/src/implementations.rst
++++ b/src/implementations.rst
+@@ -50,9 +50,19 @@ Implementations
+      An :t:`implementation` is an :t:`item` that supplements an
+      :t:`implementing type` by extending its functionality.
+ 
+-:dp:`fls_yopmjbnw8tbl`
+-An :t:`implementing type` is the :t:`type` that the :t:`[associated item]s` of
+-an :t:`implementation` are associated with.
++.. glossary-entry:: implementing type
++   
++   :glossary:
++     :dp:`fls_vs5ia3uupdcc`
++     An :dt:`implementing type` is the :t:`type` that the :t:`[associated item]s` of
++     an :t:`implementation` are associated with.
++     
++     :dp:`fls_9ixcwh6to74g`
++     See :s:`ImplementingType`.
++   :chapter:
++     :dp:`fls_yopmjbnw8tbl`
++     An :t:`implementing type` is the :t:`type` that the :t:`[associated item]s` of
++     an :t:`implementation` are associated with.
+ 
+ :dp:`fls_eIHc8Y9fBtr0`
+ Within an :t:`implementation`, the :t:`type` :c:`Self` acts as a :t:`type alias`
+@@ -90,9 +100,19 @@ specified by a :t:`trait`.
+ An :t:`unsafe trait implementation` is a :t:`trait implementation` subject to
+ :t:`keyword` ``unsafe``.
+ 
+-:dp:`fls_47x0ep8of8wr`
+-An :t:`implemented trait` is a :t:`trait` whose functionality has been
+-implemented by an :t:`implementing type`.
++.. glossary-entry:: implemented trait
++   
++   :glossary:
++     :dp:`fls_7twlizi3v8cb`
++     An :dt:`implemented trait` is a :t:`trait` whose functionality has been
++     implemented by an :t:`implementing type`.
++     
++     :dp:`fls_2brvfx5wmvkf`
++     See :s:`ImplementedTrait`.
++   :chapter:
++     :dp:`fls_47x0ep8of8wr`
++     An :t:`implemented trait` is a :t:`trait` whose functionality has been
++     implemented by an :t:`implementing type`.
+ 
+ :dp:`fls_agitlryvyc16`
+ The :t:`type path` of a :t:`trait implementation` shall resolve to a :t:`trait`.
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index f01c554..3d7b693 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -181,9 +181,16 @@ Borrowing
+      :dp:`fls_j9kof0px3l7s`
+      A :t:`borrow` is a :t:`reference` produced by :t:`borrowing`.
+ 
+-:dp:`fls_zepwytjwy049`
+-An :t:`implicit borrow` is a :t:`borrow` that is not present syntactically in
+-program text. An :t:`implicit borrow` occurs in the following contexts:
++.. glossary-entry:: implicit borrow
++   
++   :glossary:
++     :dp:`fls_q2v9ejpcvtwg`
++     An :dt:`implicit borrow` is a :t:`borrow` that is not present syntactically in
++     program text.
++   :chapter:
++     :dp:`fls_zepwytjwy049`
++     An :t:`implicit borrow` is a :t:`borrow` that is not present syntactically in
++     program text. An :t:`implicit borrow` occurs in the following contexts:
+ 
+ * :dp:`fls_nordokzfy36d`
+   The :t:`call operand` of a :t:`call expression`,
+diff --git a/src/patterns.rst b/src/patterns.rst
+index b93c927..d159c9f 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -513,9 +513,19 @@ within a range.
+      A :t:`half-open range pattern` is a :t:`range pattern` with only a
+      :t:`range pattern low bound`.
+ 
+-:dp:`fls_q86j23iiqv8w`
+-An :t:`inclusive range pattern` is a :t:`range pattern` with both a
+-:t:`range pattern low bound` and a :t:`range pattern high bound`.
++.. glossary-entry:: inclusive range pattern
++   
++   :glossary:
++     :dp:`fls_olfeuvwkosse`
++     An :dt:`inclusive range pattern` is a :t:`range pattern` with both a
++     :t:`range pattern low bound` and a :t:`range pattern high bound`.
++     
++     :dp:`fls_9bdxsn6nasjr`
++     See :s:`InclusiveRangePattern`.
++   :chapter:
++     :dp:`fls_q86j23iiqv8w`
++     An :t:`inclusive range pattern` is a :t:`range pattern` with both a
++     :t:`range pattern low bound` and a :t:`range pattern high bound`.
+ 
+ .. glossary-entry:: exclusive range pattern
+    
+@@ -871,9 +881,19 @@ A :t:`record struct pattern` is a :t:`pattern` that matches a
+ The :t:`deconstructee` of a :t:`record struct pattern` shall resolve to an
+ :t:`enum variant`, a :t:`struct type`, or a :t:`union type`.
+ 
+-:dp:`fls_mnh35ehva8tx`
+-An :t:`indexed deconstructor` is a :t:`construct` that matches the position of
+-a :t:`field`.
++.. glossary-entry:: indexed deconstructor
++   
++   :glossary:
++     :dp:`fls_q7eta38vw0ig`
++     An :dt:`indexed deconstructor` is a :t:`construct` that matches the position of
++     a :t:`tuple field`.
++     
++     :dp:`fls_gryv4audvann`
++     See :s:`IndexedDeconstructor`.
++   :chapter:
++     :dp:`fls_mnh35ehva8tx`
++     An :t:`indexed deconstructor` is a :t:`construct` that matches the position of
++     a :t:`field`.
+ 
+ :dp:`fls_p2rjnlbvifaa`
+ An :t:`indexed deconstructor` matches a :t:`field` of the :t:`deconstructee`
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 13eff2c..3832cb6 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -1151,6 +1151,13 @@ the :std:`core::marker::Send` :t:`trait`, and the :std:`core::marker::Sync`
+ Indirection Types
+ -----------------
+ 
++.. glossary-entry:: indirection type
++   
++   :glossary:
++     :dp:`fls_8so1phpdjyk8`
++     An :dt:`indirection type` is a :t:`type` whose :t:`[value]s` refer to memory
++     locations.
++
+ .. _fls_xztr1kebz8bo:
+ 
+ Function Pointer Types
+@@ -1507,9 +1514,19 @@ Inferred Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_xdtgr5toulpb`
+-An :t:`inferred type` is a placeholder for a :t:`type` deduced by
+-:t:`type inference`.
++.. glossary-entry:: inferred type
++   
++   :glossary:
++     :dp:`fls_9xgfexeqr4ed`
++     An :dt:`inferred type` is a placeholder for a :t:`type` deduced by
++     :t:`type inference`.
++     
++     :dp:`fls_z2p8378sd93z`
++     See :s:`InferredType`.
++   :chapter:
++     :dp:`fls_xdtgr5toulpb`
++     An :t:`inferred type` is a placeholder for a :t:`type` deduced by
++     :t:`type inference`.
+ 
+ :dp:`fls_3abhsuaa8nas`
+ An :t:`inferred type` shall not appear in the following positions:
+@@ -3340,11 +3357,17 @@ An :t:`outlives bound` is a :t:`trait bound` which requires that a
+ :t:`Outlives bound` ``T: 'a`` indicates that all :t:`[lifetime parameter]s` of
+ ``T`` outlive ``'a``.
+ 
+-:dp:`fls_J9DEsd06Ttu9`
+-An :t:`implied bound` is a :t:`bound` that is not expressed in syntax, but is
+-is the byproduct of relations between :t:`[lifetime parameter]s` and
+-:t:`[function parameter]s`, between :t:`[lifetime parameter]s` and a
+-:t:`return type`, and between :t:`[lifetime parameter]s` and :t:`[field]s`.
++.. glossary-entry:: implied bound
++   
++   :glossary:
++     :dp:`fls_t77d8xwG1l9Q`
++     An :dt:`implied bound` is a :t:`bound` that is not expressed in syntax, but is the byproduct of relations between :t:`[lifetime parameter]s` and :t:`[function parameter]s`, between :t:`[lifetime parameter]s` and a :t:`return type`, and between :t:`[lifetime parameter]s` and :t:`[field]s`.
++   :chapter:
++     :dp:`fls_J9DEsd06Ttu9`
++     An :t:`implied bound` is a :t:`bound` that is not expressed in syntax, but is
++     is the byproduct of relations between :t:`[lifetime parameter]s` and
++     :t:`[function parameter]s`, between :t:`[lifetime parameter]s` and a
++     :t:`return type`, and between :t:`[lifetime parameter]s` and :t:`[field]s`.
+ 
+ :dp:`fls_IfHRxSasGAih`
+ A :t:`reference` of the form ``&'a T``, where ``'a`` is a
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration edits
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch
+
+[glossary-single-source-phase1 2cd6855] docs(glossary): migrate batch 15 entries
+ 8 files changed, 214 insertions(+), 45 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShow working tree status after commit
+Migrated the next 20 checklist terms into `.. glossary-entry::` blocks, keeping chapter wording intact where definitions exist and adding glossary-only blocks where they don’t. Updated the associated-item section with incomplete-* entries and inserted indirection type/in scope/indexed field selector entries near their most relevant sections. Files touched: `src/implementations.rst`, `src/ownership-and-deconstruction.rst`, `src/entities-and-resolution.rst`, `src/patterns.rst`, `src/expressions.rst`, `src/attributes.rst`, `src/types-and-traits.rst`, `src/associated-items.rst`.
+
+Notes
+- Skipped `implementation conformance` because it is not present in `src/glossary.static.rst.inc`; used `inferred type` to complete the 20-term batch.
+- Updated the checklist and term-map under `/home/pete.levasseur/opencode-project-agents/fls/` (not staged or committed).
+
+Tests
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next steps
+1) Continue with the next 20 unchecked terms in the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

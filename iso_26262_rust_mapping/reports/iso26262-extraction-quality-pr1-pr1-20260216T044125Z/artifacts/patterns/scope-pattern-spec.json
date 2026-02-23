@@ -1,0 +1,23 @@
+{
+  "run_id": "pr1-20260216T044125Z",
+  "schema_version": 2,
+  "scope_types": {
+    "clause": {
+      "rules": [
+        "clause_heading_numbered"
+      ]
+    },
+    "section": {
+      "rules": [
+        "section_heading_numbered"
+      ]
+    },
+    "table": {
+      "rules": [
+        "table_caption_pattern",
+        "table_row_detection"
+      ]
+    }
+  },
+  "status": "implemented"
+}

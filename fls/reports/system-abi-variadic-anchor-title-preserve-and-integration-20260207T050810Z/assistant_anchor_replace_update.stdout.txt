@@ -1,0 +1,3 @@
+no src changes detected
+update action: replace (entry 2, line 29)
+report: /home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-anchor-title-preserve-and-integration-20260207T050810Z/assistant-anchor-replace.json

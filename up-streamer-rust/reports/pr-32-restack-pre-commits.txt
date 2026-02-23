@@ -1,0 +1,6 @@
+1642795 refactor: modernize up-streamer domain architecture boundaries
+7b2a4ec refactor: complete USubscription and route identity contract migration
+15dbd20 perf+obs: optimize worker/runtime paths and structured tracing coverage
+650d9f5 feat(ci): add benchmark guardrail harness and advisory workflow
+7c4f7ef feat(smoke): add deterministic cross-transport smoke suite, claims, and matrix workflow
+1ed5614 chore: align new-file copyright headers to 2026

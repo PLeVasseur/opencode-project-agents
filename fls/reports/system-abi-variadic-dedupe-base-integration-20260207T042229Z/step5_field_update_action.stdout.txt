@@ -1,0 +1,6 @@
+579:            "update_action": "replace",
+587:            "update_action": "append",
+609:        "update_action": update_metadata.get("update_action"),
+643:    if report["update_action"]:
+644:        lines.append(f"- action: `{report['update_action']}`")
+741:        action = update_metadata["update_action"]

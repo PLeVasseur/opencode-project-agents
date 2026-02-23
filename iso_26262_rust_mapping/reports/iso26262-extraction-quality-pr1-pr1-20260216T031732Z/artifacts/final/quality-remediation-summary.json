@@ -1,0 +1,246 @@
+{
+  "BASELINE_RUN_ID": "pr1-20260215T221903Z",
+  "CONTROL_RUN_ROOT": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z",
+  "CURRENT_STAGE": {
+    "after": "EQ12",
+    "before": "EQ11"
+  },
+  "MODE": "resume-explicit-pr1",
+  "PR_BASE_BRANCH": "main",
+  "PR_HEAD_BRANCH": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "PR_NUMBER": 1,
+  "PR_URL": "https://github.com/PLeVasseur/iso-26262-rust-mapping/pull/1",
+  "QUALITY_DATA_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z",
+  "REPO_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping",
+  "RUN_ID": "pr1-20260216T031732Z",
+  "STOP_REASON": "blocked_by_stop_condition",
+  "baseline_pathology_summary": {
+    "by_part": {
+      "P06": {
+        "oversized_paragraph_rate_pct": 9.090909090909092,
+        "paragraph_fragment_end_rate_pct": 24.242424242424242,
+        "paragraph_fragment_start_rate_pct": 54.54545454545454,
+        "paragraph_singleton_page_rate_pct": 100.0,
+        "residual_legal_boilerplate_hit_count": 1,
+        "triad_source_set_identity_rate_pct": 100.0,
+        "unit_type_provenance_overlap_rate_pct": 100.0
+      },
+      "P08": {
+        "oversized_paragraph_rate_pct": 2.857142857142857,
+        "paragraph_fragment_end_rate_pct": 24.285714285714285,
+        "paragraph_fragment_start_rate_pct": 54.285714285714285,
+        "paragraph_singleton_page_rate_pct": 100.0,
+        "residual_legal_boilerplate_hit_count": 1,
+        "triad_source_set_identity_rate_pct": 100.0,
+        "unit_type_provenance_overlap_rate_pct": 100.0
+      },
+      "P09": {
+        "oversized_paragraph_rate_pct": 5.263157894736842,
+        "paragraph_fragment_end_rate_pct": 31.57894736842105,
+        "paragraph_fragment_start_rate_pct": 42.10526315789473,
+        "paragraph_singleton_page_rate_pct": 100.0,
+        "residual_legal_boilerplate_hit_count": 1,
+        "triad_source_set_identity_rate_pct": 100.0,
+        "unit_type_provenance_overlap_rate_pct": 100.0
+      }
+    },
+    "overall": {
+      "oversized_paragraph_rate_pct": 5.747126436781609,
+      "paragraph_fragment_end_rate_pct": 25.862068965517242,
+      "paragraph_fragment_start_rate_pct": 51.724137931034484,
+      "paragraph_singleton_page_rate_pct": 100.0,
+      "residual_legal_boilerplate_hit_count": 3,
+      "triad_source_set_identity_rate_pct": 100.0,
+      "unit_type_provenance_overlap_rate_pct": 100.0
+    }
+  },
+  "blockers": [
+    "EQ12 hard gate failure: P06:paragraph_boundary_f1, P06:paragraph_fragment_end, P06:paragraph_fragment_start, P06:paragraph_singleton_page, P06:residual_legal_zero, P06:triad_source_set_identity, P06:unit_type_provenance_overlap, P08:paragraph_boundary_f1, P08:paragraph_fragment_end, P08:paragraph_fragment_start, P08:paragraph_singleton_page, P08:residual_legal_zero, P08:triad_source_set_identity, P08:unit_type_provenance_overlap, P09:paragraph_boundary_f1, P09:paragraph_fragment_end, P09:paragraph_fragment_start, P09:paragraph_meaningful, P09:paragraph_singleton_page, P09:residual_legal_zero, P09:triad_source_set_identity, P09:unit_type_provenance_overlap, overall:paragraph_fragment_end, overall:paragraph_fragment_start, overall:paragraph_singleton_page, overall:residual_legal_zero, overall:triad_source_set_identity, overall:unit_type_provenance_overlap, percent:P06.scope_extraction.table_scope_detection_recall_pct=766.6666666666667, percent:P08.scope_extraction.table_scope_detection_recall_pct=766.6666666666667, percent:P09.scope_extraction.table_scope_detection_recall_pct=766.6666666666667, percent:overall.scope_extraction.table_scope_detection_recall_pct=766.6666666666667"
+  ],
+  "checkpoints_written_this_invocation": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/checkpoints/EQ11.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/checkpoints/EQ12.acceptance-audit.json"
+  ],
+  "compatibility_gaps_found_fixed_this_invocation": {
+    "fixed": [
+      "tokenized_config_env_key_strings_in_runner_messages"
+    ],
+    "found": [
+      "verify_env_token_reference:tools/traceability/mining/execute_quality_remediation.py"
+    ]
+  },
+  "current_pathology_summary": {
+    "by_part": {
+      "P06": {
+        "oversized_paragraph_rate_pct": 9.090909090909092,
+        "paragraph_fragment_end_rate_pct": 24.242424242424242,
+        "paragraph_fragment_start_rate_pct": 54.54545454545454,
+        "paragraph_singleton_page_rate_pct": 100.0,
+        "residual_legal_boilerplate_hit_count": 1,
+        "triad_source_set_identity_rate_pct": 100.0,
+        "unit_type_provenance_overlap_rate_pct": 100.0
+      },
+      "P08": {
+        "oversized_paragraph_rate_pct": 2.857142857142857,
+        "paragraph_fragment_end_rate_pct": 24.285714285714285,
+        "paragraph_fragment_start_rate_pct": 54.285714285714285,
+        "paragraph_singleton_page_rate_pct": 100.0,
+        "residual_legal_boilerplate_hit_count": 1,
+        "triad_source_set_identity_rate_pct": 100.0,
+        "unit_type_provenance_overlap_rate_pct": 100.0
+      },
+      "P09": {
+        "oversized_paragraph_rate_pct": 5.263157894736842,
+        "paragraph_fragment_end_rate_pct": 31.57894736842105,
+        "paragraph_fragment_start_rate_pct": 42.10526315789473,
+        "paragraph_singleton_page_rate_pct": 100.0,
+        "residual_legal_boilerplate_hit_count": 1,
+        "triad_source_set_identity_rate_pct": 100.0,
+        "unit_type_provenance_overlap_rate_pct": 100.0
+      }
+    },
+    "overall": {
+      "oversized_paragraph_rate_pct": 5.747126436781609,
+      "paragraph_fragment_end_rate_pct": 25.862068965517242,
+      "paragraph_fragment_start_rate_pct": 51.724137931034484,
+      "paragraph_singleton_page_rate_pct": 100.0,
+      "residual_legal_boilerplate_hit_count": 3,
+      "triad_source_set_identity_rate_pct": 100.0,
+      "unit_type_provenance_overlap_rate_pct": 100.0
+    }
+  },
+  "effective_threshold_profile": {
+    "THRESHOLD_CLAUSE_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_CLAUSE_BOUNDARY_F1_MIN": 0.95,
+    "THRESHOLD_DEHYPHENATION_PRECISION_MIN_PCT": 95.0,
+    "THRESHOLD_FOOTNOTE_MARKER_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_LINE_WRAP_PRECISION_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_BOILERPLATE_MAX_PCT": 5.0,
+    "THRESHOLD_LIST_CONTINUATION_CAPTURE_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_LICENSE_MAX_PCT": 5.0,
+    "THRESHOLD_LIST_MARKER_VALIDITY_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_MEANINGFUL_MIN_PCT": 85.0,
+    "THRESHOLD_OVERSIZED_PARAGRAPH_MAX_PCT": 20.0,
+    "THRESHOLD_PARAGRAPH_BOILERPLATE_MAX_PCT": 5.0,
+    "THRESHOLD_PARAGRAPH_FRAGMENT_END_MAX_PCT": 10.0,
+    "THRESHOLD_PARAGRAPH_FRAGMENT_START_MAX_PCT": 10.0,
+    "THRESHOLD_PARAGRAPH_LICENSE_MAX_PCT": 5.0,
+    "THRESHOLD_PARAGRAPH_MEANINGFUL_MIN_PCT": 90.0,
+    "THRESHOLD_PARAGRAPH_PATTERN_CONFORMANCE_MIN_PCT": 95.0,
+    "THRESHOLD_PARAGRAPH_SINGLETON_PAGE_MAX_PCT": 85.0,
+    "THRESHOLD_REPLAY_SIGNATURE_MATCH_MIN_PCT": 100.0,
+    "THRESHOLD_SECTION_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_SECTION_BOUNDARY_F1_MIN": 0.95,
+    "THRESHOLD_SUBSCRIPT_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_SUPERSCRIPT_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_TABLE_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_TABLE_BOILERPLATE_MAX_PCT": 10.0,
+    "THRESHOLD_TABLE_LICENSE_MAX_PCT": 10.0,
+    "THRESHOLD_TABLE_MEANINGFUL_MIN_PCT": 70.0,
+    "THRESHOLD_TABLE_PATTERN_CONFORMANCE_MIN_PCT": 90.0,
+    "THRESHOLD_TABLE_SCOPE_RECALL_MIN_PCT": 95.0,
+    "THRESHOLD_TABLE_STRUCTURAL_VALIDITY_MIN_PCT": 90.0,
+    "THRESHOLD_TRIAD_SOURCE_SET_IDENTITY_MAX_PCT": 5.0,
+    "THRESHOLD_UNIT_ANCHOR_LINKAGE_MIN_PCT": 100.0,
+    "THRESHOLD_UNIT_PARENT_SCOPE_LINKAGE_MIN_PCT": 100.0,
+    "THRESHOLD_UNIT_TYPE_PROVENANCE_OVERLAP_MAX_PCT": 10.0
+  },
+  "legacy_quality_summary": {
+    "failed_metrics": [],
+    "overall_pass": true,
+    "threshold_results": {
+      "clause_anchor": true,
+      "clause_boundary": true,
+      "dehyphenation": true,
+      "footnote": true,
+      "line_wrap": true,
+      "list_continuation": true,
+      "list_license": true,
+      "list_marker": true,
+      "list_meaningful": true,
+      "paragraph_license": true,
+      "paragraph_meaningful": true,
+      "paragraph_pattern": true,
+      "replay": true,
+      "section_anchor": true,
+      "section_boundary": true,
+      "subscript": true,
+      "superscript": true,
+      "table_anchor": true,
+      "table_license": true,
+      "table_meaningful": true,
+      "table_pattern": true,
+      "table_scope": true,
+      "table_structural": true,
+      "unit_anchor": true,
+      "unit_parent_scope": true
+    }
+  },
+  "pass_fail_by_category": {
+    "contamination": {
+      "details": {
+        "list_boilerplate": true,
+        "list_license": true,
+        "paragraph_boilerplate": true,
+        "paragraph_license": true,
+        "table_boilerplate": true,
+        "table_license": true
+      },
+      "pass": true
+    },
+    "lineage": {
+      "pass": true
+    },
+    "pathology": {
+      "details": {
+        "list_boundary_f1": true,
+        "oversized_paragraph": true,
+        "paragraph_boundary_f1": true,
+        "paragraph_fragment_end": false,
+        "paragraph_fragment_start": false,
+        "paragraph_singleton_page": false,
+        "residual_legal_zero": false,
+        "table_cell_boundary_f1": true,
+        "triad_source_set_identity": false,
+        "unit_type_provenance_overlap": false
+      },
+      "pass": false
+    },
+    "pattern": {
+      "pass": true
+    },
+    "replay": {
+      "pass": true
+    },
+    "scope": {
+      "pass": true
+    },
+    "semantic": {
+      "pass": true
+    },
+    "supsub": {
+      "pass": true
+    },
+    "wrap": {
+      "pass": true
+    }
+  },
+  "representative_evidence_paths": {
+    "acceptance_audit": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/checkpoints/EQ12.acceptance-audit.json",
+    "baseline_pathology": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/baseline/pathology-baseline.json",
+    "candidate_pools": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/diagnostics/candidate-pools.jsonl",
+    "compatibility": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/diagnostics/compatibility-gap-remediation.json",
+    "final_summary": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/final/quality-remediation-summary.json",
+    "goldset_manifest": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/fixtures/boundary-goldset-manifest.json",
+    "metric_contract": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/quality/metric-contract-v2.json",
+    "quality_scorecard": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/quality/quality-scorecard.json",
+    "verify_summary": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/verify/verify-summary.json"
+  },
+  "resume_hint": {
+    "command": "OPENCODE_CONFIG_DIR=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping RUN_ID=pr1-20260216T031732Z START_STAGE=EQ12 MAX_STAGES=all uv run python tools/traceability/mining/execute_quality_remediation.py",
+    "prompt": "RUN_ID=pr1-20260216T031732Z START_STAGE=EQ12 MAX_STAGES=all OPENCODE_CONFIG_DIR=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping opencode prompt \"Execute ISO 26262 Unit Boundary Pathology Diagnosis and Remediation (Resumable + One-Shot)\""
+  },
+  "stages_completed_this_invocation": [
+    "EQ11"
+  ]
+}

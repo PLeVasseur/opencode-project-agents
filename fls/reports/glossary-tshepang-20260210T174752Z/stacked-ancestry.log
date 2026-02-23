@@ -1,0 +1,4 @@
+PASS glossary-step-1-main-text-coverage -> glossary-step-2-align-duplicate-text
+PASS glossary-step-2-align-duplicate-text -> glossary-step-3-dt-main-only
+PASS glossary-step-3-dt-main-only -> glossary-step-4-remove-see-paragraphs
+PASS glossary-step-4-remove-see-paragraphs -> glossary-step-5-generated-glossary-parity

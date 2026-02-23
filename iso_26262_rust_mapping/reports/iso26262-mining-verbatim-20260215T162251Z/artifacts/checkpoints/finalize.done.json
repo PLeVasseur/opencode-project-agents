@@ -1,0 +1,11 @@
+{
+  "canonical_checksum": "17bffd31d0acce46f01ba0811cb54093737be22b13e05da88f5d112dda3ff222",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/scaffold/finalize.marker.json"
+  ],
+  "phase": 4,
+  "run_id": "20260215T162251Z",
+  "stage": "finalize",
+  "timestamp_utc": "2026-02-15T16:48:28Z"
+}

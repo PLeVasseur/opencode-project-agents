@@ -1,0 +1,16 @@
+{
+  "generated_at": "2026-02-11T23:45:23Z",
+  "permits": [
+    {
+      "approved_by": "reviewer-alpha",
+      "checklist_id": "WA-001",
+      "permit_path": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails-v3/fixtures/deviation-permits/deviation-permit-WA-001.json",
+      "status": "approved",
+      "term": "value"
+    }
+  ],
+  "total_approved": 1,
+  "total_filed": 1,
+  "total_pending": 0,
+  "total_rejected": 0
+}

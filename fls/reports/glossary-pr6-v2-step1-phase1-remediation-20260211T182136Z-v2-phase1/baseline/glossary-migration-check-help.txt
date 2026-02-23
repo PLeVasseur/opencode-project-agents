@@ -1,0 +1,8 @@
+usage: glossary-migration-check.py [-h] --phase {1,2,3,4,5} [--strict]
+                                   [--report REPORT]
+
+options:
+  -h, --help           show this help message and exit
+  --phase {1,2,3,4,5}
+  --strict
+  --report REPORT

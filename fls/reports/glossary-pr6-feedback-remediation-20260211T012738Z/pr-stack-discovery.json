@@ -1,0 +1,32 @@
+[
+  {
+    "baseRefName": "glossary-step-4-remove-see-paragraphs",
+    "headRefName": "glossary-step-5-generated-glossary-parity",
+    "number": 10,
+    "url": "https://github.com/PLeVasseur/fls/pull/10"
+  },
+  {
+    "baseRefName": "glossary-step-3-dt-main-only",
+    "headRefName": "glossary-step-4-remove-see-paragraphs",
+    "number": 9,
+    "url": "https://github.com/PLeVasseur/fls/pull/9"
+  },
+  {
+    "baseRefName": "glossary-step-2-align-duplicate-text",
+    "headRefName": "glossary-step-3-dt-main-only",
+    "number": 8,
+    "url": "https://github.com/PLeVasseur/fls/pull/8"
+  },
+  {
+    "baseRefName": "glossary-step-1-main-text-coverage",
+    "headRefName": "glossary-step-2-align-duplicate-text",
+    "number": 7,
+    "url": "https://github.com/PLeVasseur/fls/pull/7"
+  },
+  {
+    "baseRefName": "main",
+    "headRefName": "glossary-step-1-main-text-coverage",
+    "number": 6,
+    "url": "https://github.com/PLeVasseur/fls/pull/6"
+  }
+]

@@ -1,0 +1,135 @@
+[
+  {
+    "wave": "WA",
+    "commit_hash": "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+    "term_count": "3",
+    "checklist_ids": "WA-002 WA-005 WA-009",
+    "terms": "construct | expression | field"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+    "term_count": "13",
+    "checklist_ids": "WB-006 WB-008 WB-018 WB-022 WB-025 WB-029 WB-030 WB-031 WB-036 WB-042 WB-059 WB-071 WB-082",
+    "terms": "[unifiable type]s | arity | associated trait constant | attribute content | borrowed | c | code point | container operand | dangling | enum variant value | field index | function | function body"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "69af449c36447c82f24e1ec8021f28ed6ac5f57f",
+    "term_count": "4",
+    "checklist_ids": "WA-007 WA-008 WA-011 WA-012",
+    "terms": "implementation | item | method | name"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "69af449c36447c82f24e1ec8021f28ed6ac5f57f",
+    "term_count": "8",
+    "checklist_ids": "WB-020 WB-026 WB-037 WB-040 WB-047 WB-057 WB-073 WB-085",
+    "terms": "generic substitution | immutable | mutable | mutable static | mutable variable | pattern-without-alternation | pattern-without-range | pointer"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "8f95531de31ad39cef0600be7c54a09f28bf0dbc",
+    "term_count": "2",
+    "checklist_ids": "WA-004 WA-015",
+    "terms": "statement | trait"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "8f95531de31ad39cef0600be7c54a09f28bf0dbc",
+    "term_count": "8",
+    "checklist_ids": "WB-002 WB-013 WB-015 WB-033 WB-050 WB-062 WB-064 WB-084",
+    "terms": "record enum variant | renaming | safety invariant | self parameter | size | temporary | type parameter | type specification"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "3e76012a8b3c70058bfbdcddb7156b1dbd284cb0",
+    "term_count": "1",
+    "checklist_ids": "WA-001",
+    "terms": "value"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "3e76012a8b3c70058bfbdcddb7156b1dbd284cb0",
+    "term_count": "6",
+    "checklist_ids": "WB-005 WB-010 WB-017 WB-048 WB-049 WB-079",
+    "terms": "associated constant | associated function | unit enum variant | unsafe context | variable | where clause"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "347ef54c342c3dad2121f1b7a4a737a1a4c9a5a0",
+    "term_count": "8",
+    "checklist_ids": "WB-003 WB-012 WB-054 WB-066 WB-067 WB-072 WB-075 WB-081",
+    "terms": "associated item | associated trait function | associated type | binary crate | binding argument | concrete type | constant parameter | constant parameter initializer"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "3c513af76bfe06a66ce8a8bb283a56a6cf639c95",
+    "term_count": "2",
+    "checklist_ids": "WA-006 WA-013",
+    "terms": "crate | entity"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "3c513af76bfe06a66ce8a8bb283a56a6cf639c95",
+    "term_count": "13",
+    "checklist_ids": "WB-011 WB-021 WB-024 WB-028 WB-039 WB-041 WB-043 WB-044 WB-045 WB-046 WB-055 WB-056 WB-077",
+    "terms": "crate root module | destructor | discriminant | discriminant initializer | elaboration | element type | escaped character | evaluation | execution | exported function | expression-with-block | external function | external function item type"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "63675ef2e903e465618ce0f58a45874e945a4b57",
+    "term_count": "10",
+    "checklist_ids": "WB-001 WB-004 WB-014 WB-032 WB-035 WB-061 WB-065 WB-068 WB-076 WB-078",
+    "terms": "external static | field list | floating-point type | future | generic function | immutable reference | implementation body | implicit borrow | inherent implementation | irrefutable pattern"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "4033caf781e53b582d3349e6983694e5c9e371bb",
+    "term_count": "1",
+    "checklist_ids": "WA-014",
+    "terms": "module"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "4033caf781e53b582d3349e6983694e5c9e371bb",
+    "term_count": "2",
+    "checklist_ids": "WB-069 WB-086",
+    "terms": "label | qualified type"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "cf1d449c54f72aebf5f22d78f1a2376dccb02988",
+    "term_count": "1",
+    "checklist_ids": "WA-010",
+    "terms": "reference"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "cf1d449c54f72aebf5f22d78f1a2376dccb02988",
+    "term_count": "8",
+    "checklist_ids": "WB-009 WB-023 WB-027 WB-034 WB-051 WB-052 WB-070 WB-074",
+    "terms": "receiver operand | scalar type | separator | signed integer type | static | static initializer | struct pattern | structurally equal"
+  },
+  {
+    "wave": "WA",
+    "commit_hash": "26e6f487a9270d75b1ff58d17e6bf82f81f89405",
+    "term_count": "1",
+    "checklist_ids": "WA-003",
+    "terms": "type"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "26e6f487a9270d75b1ff58d17e6bf82f81f89405",
+    "term_count": "10",
+    "checklist_ids": "WB-016 WB-019 WB-038 WB-053 WB-058 WB-060 WB-063 WB-080 WB-087 WB-088",
+    "terms": "trait body | trait implementation | tuple | tuple enum variant | tuple struct | tuple struct type | type path | underscore expression | union value | unit struct"
+  },
+  {
+    "wave": "WB",
+    "commit_hash": "19e75856eac5694e5d613c7c59b429848d333992",
+    "term_count": "3",
+    "checklist_ids": "WB-007 WB-083 WB-089",
+    "terms": "base initializer | qualifying trait | undefined behavior"
+  }
+]

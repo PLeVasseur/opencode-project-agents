@@ -1,0 +1,332 @@
+bootstrap_printenv	0	printenv OPENCODE_CONFIG_DIR
+bootstrap_git_fetch	0	git fetch origin
+bootstrap_uv_sync	0	uv sync
+baseline_git_status	0	git status --short --branch
+baseline_entry_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+baseline_changelog_diff	0	git diff -- src/changelog.rst
+baseline_assistant_diff	0	git diff -- tools/changelog_assistant.py
+readiness_py_compile	0	uv run python -m py_compile tools/changelog_assistant.py
+readiness_help	0	uv run python tools/changelog_assistant.py --help
+readiness_compare	0	uv run python tools/changelog_tag_verifier.py --mode compare --report-dir build/changelog-tag-verification/paragraph-buckets-compare
+readiness_extract	0	uv run python tools/changelog_tag_verifier.py --mode extract --report-dir build/changelog-tag-verification/paragraph-buckets-extract
+validation_baseline_capture	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/changelog-baseline.rst'
+validation_canonical_before_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_canonical_before_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_pre_check	0	uv run python tools/changelog_assistant.py --check --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/pre-check'
+validation_default_update	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/canonical-default'
+validation_default_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/canonical-default.json'))['update_action'])"
+validation_default_after_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_default_after_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_default_diff	0	git diff -- src/changelog.rst
+validation_default_structure_check	1	uv run python - <<'PY'
+from pathlib import Path
+import re
+text = Path('src/changelog.rst').read_text(encoding='utf-8')
+start = text.index('https://github.com/rust-lang/rust/pull/145954')
+lines = text[:].splitlines()
+start_idx = next(i for i,l in enumerate(lines) if 'https://github.com/rust-lang/rust/pull/145954' in l and l.startswith('- ')), len(lines))
+entry = lines[start_idx:end_idx]
+headers = [l.strip()[2:-1] for l in entry if l.startswith('  - ') and l.endswith(':') and not l.startswith('  - Change tags:')]
+legacy = [h for h in headers if h not in {'Added paragraphs','Removed paragraphs','Changed paragraphs'}]
+changed_lines = [l.strip() for l in entry if l.startswith('    - :p:'):
+        all_changed_section_lines.append(l.strip())
+added_or_removed_tagged = []
+in_added = False
+in_removed = False
+for l in entry:
+    if l.startswith('  - Added paragraphs:'):
+        in_added = True
+        in_removed = False
+        continue
+    if l.startswith('  - Removed paragraphs:'):
+        in_removed = True
+        in_added = False
+        continue
+    if l.startswith('  - ') and l.endswith(':') and not l.startswith('  - Added paragraphs:') and not l.startswith('  - Removed paragraphs:'):
+        in_added = False
+        in_removed = False
+    if (in_added or in_removed) and '(' in l and ')' in l:
+        added_or_removed_tagged.append(l.strip())
+ok = True
+print('headers=', headers)
+print('legacy_headers=', legacy)
+print('changed_lines=', len(all_changed_section_lines))
+print('changed_with_parenthesized_tags=', len(changed_lines))
+print('added_or_removed_tagged=', added_or_removed_tagged)
+if legacy:
+    ok = False
+if all_changed_section_lines and len(changed_lines) != len(all_changed_section_lines):
+    ok = False
+if added_or_removed_tagged:
+    ok = False
+print('status=', 'pass' if ok else 'fail')
+raise SystemExit(0 if ok else 1)
+PY
+validation_restore_baseline	0	cp '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/changelog-baseline.rst' src/changelog.rst
+validation_replace_update	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --replace-title --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/canonical-replace'
+validation_replace_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/canonical-replace.json'))['update_action'])"
+validation_replace_after_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_replace_after_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_replace_diff	0	git diff -- src/changelog.rst
+validation_replace_snapshot_1	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/changelog-replace-pass1.rst'
+validation_replace_rerun	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/145954' --title 'Anchor replace validation title override probe' --replace-title --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/canonical-replace-rerun'
+validation_replace_snapshot_2	0	cp src/changelog.rst '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/changelog-replace-pass2.rst'
+validation_replace_idempotence	1	diff -u '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/changelog-replace-pass1.rst' '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/changelog-replace-pass2.rst'
+validation_replace_rerun_count	0	rg -c 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+validation_missing_strict	1	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/999999' --title 'Anchor replace validation title override probe' --require-anchor --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/missing-strict'
+validation_missing_default	0	uv run python tools/changelog_assistant.py --update --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --upstream-pr 'https://github.com/rust-lang/rust/pull/999999' --title 'Anchor replace validation title override probe' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/missing-default'
+validation_missing_default_action	0	uv run python -c "import json; print(json.load(open('/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/missing-default.json'))['update_action'])"
+validation_missing_default_count	0	rg -c 'https://github.com/rust-lang/rust/pull/999999' src/changelog.rst
+validation_post_check	0	uv run python tools/changelog_assistant.py --check --base 'f1b193f5197f48686bd56fe881633bb62fad7f27' --emit-report '/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z/post-check'
+validation_structure_check_retry2	1	uv run python - <<'PY'
+from pathlib import Path
+import re
+
+TICK = chr(96)
+TOP_BULLET = '- ' + TICK
+P_REF = ':p:' + TICK
+
+def parse_entry(lines):
+    start = next(i for i, line in enumerate(lines) if line.startswith(TOP_BULLET) and 'https://github.com/rust-lang/rust/pull/145954' in line)
+    end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith(TOP_BULLET)), len(lines))
+    return lines[start:end]
+
+def collect_section_items(entry, section):
+    header = f'  - {section}:'
+    items = []
+    active = False
+    for line in entry:
+        if line == header:
+            active = True
+            continue
+        if active and line.startswith('  - ') and line.endswith(':'):
+            break
+        if active and line.startswith('    - '):
+            items.append(line[6:])
+    return items
+
+lines = Path('src/changelog.rst').read_text(encoding='utf-8').splitlines()
+entry = parse_entry(lines)
+headers = [line[4:-1] for line in entry if line.startswith('  - ') and line.endswith(':') and not line.startswith('  - Change tags:')]
+allowed = {'Added paragraphs', 'Removed paragraphs', 'Changed paragraphs'}
+legacy = sorted(set(headers) - allowed)
+
+added = collect_section_items(entry, 'Added paragraphs')
+removed = collect_section_items(entry, 'Removed paragraphs')
+changed = collect_section_items(entry, 'Changed paragraphs')
+
+changed_missing_inline = [line for line in changed if '(' not in line or ')' not in line]
+added_or_removed_with_inline = [line for line in added + removed if '(' in line or ')' in line]
+id_pattern = re.compile(re.escape(P_REF) + r'([^')
+
+def duplicate_ids(items):
+    seen = set()
+    dups = []
+    for item in items:
+        match = id_pattern.search(item)
+        if not match:
+            continue
+        pid = match.group(1)
+        if pid in seen:
+            dups.append(pid)
+        seen.add(pid)
+    return sorted(set(dups))
+
+added_dups = duplicate_ids(added)
+removed_dups = duplicate_ids(removed)
+changed_dups = duplicate_ids(changed)
+
+ok = True
+if legacy:
+    ok = False
+if changed_missing_inline:
+    ok = False
+if added_or_removed_with_inline:
+    ok = False
+if added_dups or removed_dups or changed_dups:
+    ok = False
+
+print('headers:', headers)
+print('legacy_headers:', legacy)
+print('added_count:', len(added), 'removed_count:', len(removed), 'changed_count:', len(changed))
+print('changed_missing_inline:', changed_missing_inline)
+print('added_or_removed_with_inline:', added_or_removed_with_inline)
+print('duplicates_added:', added_dups)
+print('duplicates_removed:', removed_dups)
+print('duplicates_changed:', changed_dups)
+print('status:', 'pass' if ok else 'fail')
+raise SystemExit(0 if ok else 1)
+PY
+validation_structure_check_retry3	0	uv run python - <<'PY'
+from pathlib import Path
+
+TICK = chr(96)
+TOP_BULLET = '- ' + TICK
+P_MARKER = ':p:' + TICK
+
+
+def parse_entry(lines):
+    start = next(i for i, line in enumerate(lines) if line.startswith(TOP_BULLET) and 'https://github.com/rust-lang/rust/pull/145954' in line)
+    end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith(TOP_BULLET)), len(lines))
+    return lines[start:end]
+
+
+def collect_section_items(entry, section):
+    header = f'  - {section}:'
+    items = []
+    active = False
+    for line in entry:
+        if line == header:
+            active = True
+            continue
+        if active and line.startswith('  - ') and line.endswith(':'):
+            break
+        if active and line.startswith('    - '):
+            items.append(line[6:])
+    return items
+
+
+def extract_paragraph_id(item):
+    pos = item.find(P_MARKER)
+    if pos < 0:
+        return None
+    start = pos + len(P_MARKER)
+    end = item.find(TICK, start)
+    if end < 0:
+        return None
+    return item[start:end]
+
+
+def duplicate_ids(items):
+    seen = set()
+    dups = []
+    for item in items:
+        pid = extract_paragraph_id(item)
+        if not pid:
+            continue
+        if pid in seen:
+            dups.append(pid)
+        seen.add(pid)
+    return sorted(set(dups))
+
+
+lines = Path('src/changelog.rst').read_text(encoding='utf-8').splitlines()
+entry = parse_entry(lines)
+headers = [line[4:-1] for line in entry if line.startswith('  - ') and line.endswith(':') and not line.startswith('  - Change tags:')]
+allowed = {'Added paragraphs', 'Removed paragraphs', 'Changed paragraphs'}
+legacy = sorted(set(headers) - allowed)
+
+added = collect_section_items(entry, 'Added paragraphs')
+removed = collect_section_items(entry, 'Removed paragraphs')
+changed = collect_section_items(entry, 'Changed paragraphs')
+
+changed_missing_inline = [line for line in changed if '(' not in line or ')' not in line]
+added_or_removed_with_inline = [line for line in added + removed if '(' in line or ')' in line]
+added_dups = duplicate_ids(added)
+removed_dups = duplicate_ids(removed)
+changed_dups = duplicate_ids(changed)
+
+ok = True
+if legacy:
+    ok = False
+if changed_missing_inline:
+    ok = False
+if added_or_removed_with_inline:
+    ok = False
+if added_dups or removed_dups or changed_dups:
+    ok = False
+
+print('headers:', headers)
+print('legacy_headers:', legacy)
+print('added_count:', len(added), 'removed_count:', len(removed), 'changed_count:', len(changed))
+print('changed_missing_inline:', changed_missing_inline)
+print('added_or_removed_with_inline:', added_or_removed_with_inline)
+print('duplicates_added:', added_dups)
+print('duplicates_removed:', removed_dups)
+print('duplicates_changed:', changed_dups)
+print('status:', 'pass' if ok else 'fail')
+raise SystemExit(0 if ok else 1)
+PY
+final_git_status	0	git status --short --branch
+final_changelog_line	0	rg -n 'https://github.com/rust-lang/rust/pull/145954' src/changelog.rst
+final_changelog_diff	0	git diff -- src/changelog.rst
+final_assistant_diff	0	git diff -- tools/changelog_assistant.py
+final_structure_check	0	uv run python - <<'PY'
+from pathlib import Path
+
+TICK = chr(96)
+TOP = '- ' + TICK
+P = ':p:' + TICK
+
+lines = Path('src/changelog.rst').read_text(encoding='utf-8').splitlines()
+start = next(i for i, line in enumerate(lines) if line.startswith(TOP) and 'https://github.com/rust-lang/rust/pull/145954' in line)
+end = next((i for i in range(start + 1, len(lines)) if lines[i].startswith(TOP)), len(lines))
+entry = lines[start:end]
+headers = [line[4:-1] for line in entry if line.startswith('  - ') and line.endswith(':') and not line.startswith('  - Change tags:')]
+allowed = {'Added paragraphs', 'Removed paragraphs', 'Changed paragraphs'}
+legacy = sorted(set(headers) - allowed)
+
+changed_items = []
+added_items = []
+removed_items = []
+section = None
+for line in entry:
+    if line == '  - Added paragraphs:':
+        section = 'added'
+        continue
+    if line == '  - Removed paragraphs:':
+        section = 'removed'
+        continue
+    if line == '  - Changed paragraphs:':
+        section = 'changed'
+        continue
+    if line.startswith('  - ') and line.endswith(':'):
+        section = None
+        continue
+    if not line.startswith('    - '):
+        continue
+    if section == 'added':
+        added_items.append(line[6:])
+    elif section == 'removed':
+        removed_items.append(line[6:])
+    elif section == 'changed':
+        changed_items.append(line[6:])
+
+ok = True
+if legacy:
+    ok = False
+if any('(' in item or ')' in item for item in added_items + removed_items):
+    ok = False
+if any(('(' not in item or ')' not in item) for item in changed_items):
+    ok = False
+
+def extract_id(item):
+    pos = item.find(P)
+    if pos < 0:
+        return None
+    begin = pos + len(P)
+    finish = item.find(TICK, begin)
+    if finish < 0:
+        return None
+    return item[begin:finish]
+
+def has_dups(items):
+    seen = set()
+    for item in items:
+        pid = extract_id(item)
+        if not pid:
+            continue
+        if pid in seen:
+            return True
+        seen.add(pid)
+    return False
+
+if has_dups(added_items) or has_dups(removed_items) or has_dups(changed_items):
+    ok = False
+
+print('headers:', headers)
+print('legacy_headers:', legacy)
+print('added:', len(added_items), 'removed:', len(removed_items), 'changed:', len(changed_items))
+print('status:', 'pass' if ok else 'fail')
+raise SystemExit(0 if ok else 1)
+PY

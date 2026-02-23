@@ -1,0 +1,27 @@
+{
+  "gate_checked_at_utc": "2026-02-15T02:47:17Z",
+  "gate_results": {
+    "black": true,
+    "build": true,
+    "flake8": true,
+    "trace-validate": true,
+    "validate": true
+  },
+  "idempotent_preview": {
+    "markdown_replacements": {
+      "dp": 0,
+      "p": 0
+    },
+    "table_replacements": {},
+    "total_table_updates": 0,
+    "touched_files": []
+  },
+  "idempotent_reapply": true,
+  "invalid_metadata_ids": [],
+  "invalid_reference_ids": [],
+  "metadata_id_count": 2156,
+  "reference_id_count": 0,
+  "remaining_source_id_keys": 0,
+  "unresolved_reference_ids": [],
+  "valid": true
+}

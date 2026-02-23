@@ -1,0 +1,1605 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR env var
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+warning: glossary-entry not found in src files: referent
+warning: glossary-entry not found in src files: refutability
+warning: glossary-entry not found in src files: refutable constant
+warning: glossary-entry not found in src files: refutable pattern
+warning: glossary-entry not found in src files: refutable type
+warning: glossary-entry not found in src files: register
+warning: glossary-entry not found in src files: register argument
+warning: glossary-entry not found in src files: register class
+warning: glossary-entry not found in src files: register class argument
+warning: glossary-entry not found in src files: register class name
+warning: glossary-entry not found in src files: register expression
+warning: glossary-entry not found in src files: register name
+warning: glossary-entry not found in src files: register parameter
+warning: glossary-entry not found in src files: register parameter modifier
+warning: glossary-entry not found in src files: remainder assignment
+warning: glossary-entry not found in src files: remainder assignment expression
+warning: glossary-entry not found in src files: remainder expression
+warning: glossary-entry not found in src files: renaming
+warning: glossary-entry not found in src files: repeat operand
+
+[91m[1m| [0m[90m Bash     [0mShow glossary-term-map.py help
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+
+Append missing glossary migration metadata entries to term-map.jsonl.
+
+options:
+  -h, --help            show this help message and exit
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --src SRC             Source directory
+  --glossary GLOSSARY   Static glossary file
+  --term-map TERM_MAP   Term map JSONL path
+  --checklist CHECKLIST
+                        Checklist file for term selection
+  --count COUNT         Number of unchecked terms to take from checklist
+  --terms [TERMS ...]   Explicit term list
+  --status STATUS       Status value for term-map entries
+  --dry-run             Print JSONL entries without writing
+
+[94m[1m| [0m[90m Grep     [0m:dt:`(reference type|referent|refutability|refutable constant|refutable pattern|refutable type|register|register argument|register class|register class argument|register class name|register expression|register name|register parameter|register parameter modifier|remainder assignment|remainder assignment expression|remainder expression|renaming|repeat operand)`
+[94m[1m| [0m[90m Grep     [0m:dt:`repetition operator`
+[94m[1m| [0m[90m Grep     [0m:t:`reference type`
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m\.\. glossary-entry:: (reference type|referent|refutable constant|refutable pattern|refutable type|register|register argument|register class|register class argument|register class name|register expression|register name|register parameter|register parameter modifier|remainder assignment|remainder assignment expression|remainder expression|renaming|repeat operand|repetition operator)
+[94m[1m| [0m[90m Grep     [0mregister class
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0m:t:`referent`|:dt:`referent`
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m Grep     [0m:t:`refutable constant`|:dt:`refutable constant`
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0m:t:`refutable type`|:dt:`refutable type`
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[94m[1m| [0m[90m Grep     [0mA :t:`register` is
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0m:t:`register argument` is
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0m:t:`register parameter`
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0mremainder assignment
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mremainder expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0m:t:`renaming`|:dt:`renaming`
+[94m[1m| [0m[90m Grep     [0mA :t:`renaming`
+[94m[1m| [0m[90m Grep     [0mrenaming provides|:t:`renaming` provides|:dt:`renaming`
+[94m[1m| [0m[90m Grep     [0m^Renaming
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mrepeat operand
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mrepetition operator
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for referent
+
+.. glossary-entry:: referent
+   
+   :glossary:
+     :dp:`fls_78ipj8avpwzl`
+     A :dt:`referent` is the :t:`value` pointed-to by a :t:`reference`.
+   :chapter:
+     :dp:`fls_tsqvr3fmcel`
+     A :t:`referent` is the :t:`value` pointed-to by a :t:`reference`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for refutable constant
+
+.. glossary-entry:: refutable constant
+   
+   :glossary:
+     :dp:`fls_mc6hsomq08uu`
+     A :dt:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+   :chapter:
+     :dp:`fls_lh0d85tl4qvy`
+     A :t:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+     
+     .. rubric:: Examples
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for refutable constant with manual chapter lines
+
+/bin/bash: line 1: fls_lh0d85tl4qvy: command not found
+/bin/bash: line 1: refutable: command not found
+/bin/bash: line 1: constant: command not found
+/bin/bash: line 1: refutable: command not found
+.. glossary-entry:: refutable constant
+   
+   :glossary:
+     :dp:`fls_mc6hsomq08uu`
+     A :dt:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+   :chapter:
+     :dp:
+     A :t: is a :t: of a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for refutable constant with proper quoting
+
+.. glossary-entry:: refutable constant
+   
+   :glossary:
+     :dp:`fls_mc6hsomq08uu`
+     A :dt:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+   :chapter:
+     :dp:`fls_lh0d85tl4qvy`
+     A :t:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for refutable pattern with manual chapter lines
+
+.. glossary-entry:: refutable pattern
+   
+   :glossary:
+     :dp:`fls_re7qz78koman`
+     A :dt:`refutable pattern` is a :t:`pattern` that has a possibility of not
+     matching the :t:`value` it is being matched against.
+   :chapter:
+     :dp:`fls_uq7ftuuq1sig`
+     A :t:`refutable pattern` is a :t:`pattern` that has a possibility of not
+     matching a :t:`value` of its :t:`type`
+     :dp:`fls_mnbyt7jfYAZ9`
+     A :t:`pattern` that is not an :t:`irrefutable pattern` is a
+     :t:`refutable pattern`.
+
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for refutable pattern with blank line
+
+.. glossary-entry:: refutable pattern
+   
+   :glossary:
+     :dp:`fls_re7qz78koman`
+     A :dt:`refutable pattern` is a :t:`pattern` that has a possibility of not
+     matching the :t:`value` it is being matched against.
+   :chapter:
+     :dp:`fls_uq7ftuuq1sig`
+     A :t:`refutable pattern` is a :t:`pattern` that has a possibility of not
+     matching a :t:`value` of its :t:`type`
+     
+     :dp:`fls_mnbyt7jfYAZ9`
+     A :t:`pattern` that is not an :t:`irrefutable pattern` is a
+     :t:`refutable pattern`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only entry for refutable type
+
+.. glossary-entry:: refutable type
+   
+   :glossary:
+     :dp:`fls_l2yz6jeehm52`
+     A :dt:`refutable type` is a :t:`type` that has more than one :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register with manual chapter lines
+
+.. glossary-entry:: register
+   
+   :glossary:
+     :dp:`fls_fVdSybu8DW8w`
+     A :dt:`register` is a hardware component capable of holding data that can be
+     read and written.
+   :chapter:
+     :dp:`fls_w5a6rybvptn6`
+     A :t:`register` is a hardware component capable of holding data that can be
+     read and written.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register argument
+
+.. glossary-entry:: register argument
+   
+   :glossary:
+     :dp:`fls_rNoFdCKbVmRC`
+     A :dt:`register argument` is a :t:`construct` that configures the input
+     and output of a :t:`register`, and optionally binds the configuration to an
+     :t:`identifier`.
+     
+     :dp:`fls_aof7O9XREo2S`
+     See :s:`RegisterArgument`.
+   :chapter:
+     :dp:`fls_455dmnp4cxqv`
+     A :t:`register argument` is a :t:`construct` that configures the input
+     and output of a :t:`register`, and optionally binds the configuration to an
+     :t:`identifier`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register class
+
+.. glossary-entry:: register class
+   
+   :glossary:
+     :dp:`fls_2H0OYS733VJl`
+     A :dt:`register class` represents a set of :t:`[register]s`.
+   :chapter:
+     :dp:`fls_7gxb7ztpuofj`
+     A :t:`register class` represents a set of :t:`[register]s`.
+
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register class argument with manual chapter lines
+
+.. glossary-entry:: register class argument
+   
+   :glossary:
+     :dp:`fls_ksLXAyPLx9IL`
+     A :dt:`register class argument` is a :t:`register argument` that uses a
+     :t:`register class name`.
+   :chapter:
+     :dp:`fls_9hhtcey2d4t6`
+     A :t:`register class argument` is a :t:`register argument` that uses a
+     :t:`register class name`.
+     
+     :dp:`fls_8aynifgq02gt`
+     A :t:`register class argument` causes an assembler to select a suitable
+     :t:`register` from the related :t:`register class`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register class name
+
+.. glossary-entry:: register class name
+   
+   :glossary:
+     :dp:`fls_QsSFoL0UyRRB`
+     A :dt:`register class name` is a target-specific string that identifies a
+     :t:`register class`.
+     
+     :dp:`fls_Y1ZpiFAV2c1A`
+     See :s:`RegisterClassName`.
+   :chapter:
+     :dp:`fls_on0i2cpk254y`
+     A :t:`register class name` is a target-specific string that identifies a
+     :t:`register class`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register expression
+
+.. glossary-entry:: register expression
+   
+   :glossary:
+     :dp:`fls_2cVy6XfOQ4QG`
+     A :dt:`register expression` is either an :t:`input-output register expression`
+     or a :t:`simple register expression`.
+     
+     :dp:`fls_YEzo09cqWUUy`
+     See :s:`RegisterExpression`.
+   :chapter:
+     :dp:`fls_j9XOoXDmN5Dq`
+     A :t:`register expression` is either an :t:`input-output register expression`, a :t:`simple register expression` or a :t:`const register expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register name with manual chapter lines
+
+.. glossary-entry:: register name
+   
+   :glossary:
+     :dp:`fls_U5r8Ypnjah5E`
+     A :dt:`register name` is either the :t:`explicit register name` of a
+     :t:`register`, or the :t:`register class name` of the :t:`register class` a
+     :t:`register` belongs to.
+     
+     :dp:`fls_WeyiFrnGgWPn`
+     See :s:`RegisterName`.
+   :chapter:
+     :dp:`fls_vesfzh8h6qzu`
+     A :t:`register name` is either the :t:`explicit register name` of a
+     :t:`register`, or the :t:`register class name` of the :t:`register class` a
+     :t:`register` belongs to.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register parameter
+
+.. glossary-entry:: register parameter
+   
+   :glossary:
+     :dp:`fls_JicHMIj5dlxJ`
+     A :dt:`register parameter` is a substring delimited by characters 0x7B (left
+     curly bracket) and 0x7D (right curly bracket) that is substituted with a
+     :t:`register argument` in an :t:`assembly instruction`.
+   :chapter:
+     :dp:`fls_xugsn2ghh73c`
+     A :t:`register parameter` is a substring delimited by characters 0x7B (left
+     curly bracket) and 0x7D (right curly bracket) that is substituted with a
+     :t:`register argument` in an :t:`assembly instruction`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for register parameter modifier
+
+.. glossary-entry:: register parameter modifier
+   
+   :glossary:
+     :dp:`fls_8BdOnxHZS0Qi`
+     A :dt:`register parameter modifier` is a substring that starts with character
+     0x3A (colon), follows a :t:`register parameter`, and changes the formatting of
+     the related :t:`register parameter`.
+   :chapter:
+     :dp:`fls_2xilifichdqu`
+     A :t:`register parameter modifier` is a substring that starts with character
+     0x3A (colon), follows a :t:`register parameter`, and changes the formatting of
+     the related :t:`register parameter`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only entry for remainder assignment
+
+.. glossary-entry:: remainder assignment
+   
+   :glossary:
+     :dp:`fls_58eDC2XtQcaR`
+     For :dt:`remainder assignment`, see :t:`remainder assignment expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for remainder assignment expression
+
+.. glossary-entry:: remainder assignment expression
+   
+   :glossary:
+     :dp:`fls_en7ytqvefw7j`
+     A :dt:`remainder assignment expression` is a
+     :t:`compound assignment expression` that uses remainder division.
+     
+     :dp:`fls_rkk80quk8uzc`
+     See :s:`RemainderAssignmentExpression`.
+   :chapter:
+     :dp:`fls_fbp5dojti27r`
+     A :t:`remainder assignment expression` is a :t:`compound assignment expression`
+     that uses remainder division.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for remainder expression
+
+.. glossary-entry:: remainder expression
+   
+   :glossary:
+     :dp:`fls_l6muwnclm1do`
+     A :dt:`remainder expression` is an :t:`arithmetic expression` that uses
+     remainder division.
+     
+     :dp:`fls_h98qlby2uiru`
+     See :s:`RemainderExpression`.
+   :chapter:
+     :dp:`fls_3de9ulyzuoa`
+     A :t:`remainder expression` is an :t:`arithmetic expression` that uses remainder
+     division.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only entry for renaming
+
+.. glossary-entry:: renaming
+   
+   :glossary:
+     :dp:`fls_cp8u9kq44o8a`
+     A :dt:`renaming` provides an alternative :t:`name` for an existing name.
+     
+     :dp:`fls_8inznqig2ibr`
+     See :s:`Renaming`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for repeat operand
+
+.. glossary-entry:: repeat operand
+   
+   :glossary:
+     :dp:`fls_ol2y1og2jwss`
+     A :dt:`repeat operand` is an :t:`operand` that specifies the element being
+     repeated in an :t:`array repetition constructor`.
+     
+     :dp:`fls_r4acyux78txu`
+     See :s:`RepeatOperand`.
+   :chapter:
+     :dp:`fls_3y69y9ga4at7`
+     A :t:`repeat operand` is an :t:`operand` that specifies the element being
+     repeated in an :t:`array repetition constructor`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for repetition operator
+
+.. glossary-entry:: repetition operator
+   
+   :glossary:
+     :dp:`fls_67907pk7uogl`
+     A :dt:`repetition operator` is a :t:`construct` that indicates the number
+     of times a :t:`macro repetition in matching` or a
+     :t:`macro repetition in transcription` can be repeated.
+     
+     :dp:`fls_hiasmmpr2jks`
+     See :s:`MacroRepetitionOperator`.
+   :chapter:
+     :dp:`fls_u86j0zm2jshf`
+     A :t:`repetition operator` is a :t:`construct` that indicates the number
+     of times a :t:`macro repetition in matching` or a
+     :t:`macro repetition in transcription` can be repeated.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList reports directory for term map
+
+finalize-20260202-190345Z.log
+glossary-auto-generation
+glossary-auto-migration
+glossary-html-baseline
+glossary-html-diff.txt
+glossary-html-generated
+glossary-migration-phase2
+glossary-quality
+glossary-quality-report.md
+html-baseline
+html-diff.txt
+html-generated
+issue-646
+issue-646.md
+issue-647
+issue-647.md
+issue-648
+issue-648.md
+issue-649
+issue-649.md
+mixed-s-t-roles-report.md
+opencode-glossary-phase2
+parallel-heartbeat-20260202-182414Z.log
+parallel-heartbeat-20260202-184545Z.log
+parallel-heartbeat-20260202-185716Z.log
+parallel-heartbeat-20260202-185928Z.log
+parallel-heartbeat-20260202-190119Z.log
+parallel-heartbeat-20260202-190345Z.log
+parallel-heartbeat-20260202-211253Z.log
+parallel-launch-latest.log
+
+[91m[1m| [0m[90m Bash     [0mList glossary migration phase2 report files
+
+chapter-program-entry-point.txt
+chapter-public-visibility.txt
+chapter-pure-identifier.txt
+chapter-qualified-path-expression.txt
+chapter-qualified-type-path.txt
+chapter-qualified-type.txt
+chapter-qualifying-trait.txt
+chapter-range-expression-high-bound.txt
+chapter-range-expression-low-bound.txt
+chapter-range-expression.txt
+chapter-range-from-expression.txt
+chapter-range-from-to-expression.txt
+chapter-range-full-expression.txt
+chapter-range-inclusive-expression.txt
+chapter-range-pattern-bound.txt
+chapter-range-pattern-high-bound.txt
+chapter-range-pattern-low-bound.txt
+chapter-range-pattern.txt
+chapter-range-to-expression.txt
+term-map.jsonl
+tmp-program-entry-point.rst
+tmp-public-visibility.rst
+tmp-punctuator.rst
+tmp-pure-identifier.rst
+tmp-qualified-path-expression.rst
+tmp-qualified-type-path.rst
+tmp-qualified-type.rst
+tmp-qualifying-trait.rst
+tmp-range-expression-high-bound.rst
+tmp-range-expression-low-bound.rst
+tmp-range-expression.rst
+tmp-range-from-expression.rst
+tmp-range-from-to-expression.rst
+tmp-range-full-expression.rst
+tmp-range-inclusive-expression.rst
+tmp-range-pattern-bound.rst
+tmp-range-pattern-high-bound.rst
+tmp-range-pattern-low-bound.rst
+tmp-range-pattern.rst
+tmp-range-to-expression.rst
+
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for new glossary terms
+
+warning: term already present in term-map: reference type
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output file
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report is empty
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/inline-assembly.rst
+ M src/macros.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged git diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index a548e0c..ca8f8b9 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -1247,6 +1247,15 @@ An :dt:`import path prefix` is the fully constructed :t:`path` prefix of a
+    :t:`import path prefix`. Repeat this step with the :t:`nesting import` as
+    the current :t:`use import`.
+ 
++.. glossary-entry:: renaming
++   
++   :glossary:
++     :dp:`fls_cp8u9kq44o8a`
++     A :dt:`renaming` provides an alternative :t:`name` for an existing name.
++     
++     :dp:`fls_8inznqig2ibr`
++     See :s:`Renaming`.
++
+ :dp:`fls_2bkcn83smy2y`
+ A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
+ it refers to into scope, optionally with a different
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 062fddf..b3386ac 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1779,9 +1779,19 @@ The :t:`type` of a :t:`multiplication expression` is :t:`associated type`
+ The :t:`value` of a :t:`multiplication expression` is the result of
+ ``core::ops::Mul::mul(left_operand, right_operand)``.
+ 
+-:dp:`fls_3de9ulyzuoa`
+-A :t:`remainder expression` is an :t:`arithmetic expression` that uses remainder
+-division.
++.. glossary-entry:: remainder expression
++   
++   :glossary:
++     :dp:`fls_l6muwnclm1do`
++     A :dt:`remainder expression` is an :t:`arithmetic expression` that uses
++     remainder division.
++     
++     :dp:`fls_h98qlby2uiru`
++     See :s:`RemainderExpression`.
++   :chapter:
++     :dp:`fls_3de9ulyzuoa`
++     A :t:`remainder expression` is an :t:`arithmetic expression` that uses remainder
++     division.
+ 
+ :dp:`fls_8fbhreyynhid`
+ The :t:`type` of the :t:`left operand` of a :t:`remainder expression` shall
+@@ -3228,9 +3238,25 @@ Compound Assignment Expressions
+      A :t:`multiplication assignment expression` is a
+      :t:`compound assignment expression` that uses multiplication.
+ 
+-:dp:`fls_fbp5dojti27r`
+-A :t:`remainder assignment expression` is a :t:`compound assignment expression`
+-that uses remainder division.
++.. glossary-entry:: remainder assignment
++   
++   :glossary:
++     :dp:`fls_58eDC2XtQcaR`
++     For :dt:`remainder assignment`, see :t:`remainder assignment expression`.
++
++.. glossary-entry:: remainder assignment expression
++   
++   :glossary:
++     :dp:`fls_en7ytqvefw7j`
++     A :dt:`remainder assignment expression` is a
++     :t:`compound assignment expression` that uses remainder division.
++     
++     :dp:`fls_rkk80quk8uzc`
++     See :s:`RemainderAssignmentExpression`.
++   :chapter:
++     :dp:`fls_fbp5dojti27r`
++     A :t:`remainder assignment expression` is a :t:`compound assignment expression`
++     that uses remainder division.
+ 
+ :dp:`fls_oy9ur11k78t`
+ A :t:`shift left assignment expression` is a :t:`compound assignment expression`
+@@ -3591,9 +3617,19 @@ Array Expressions
+      An :t:`array repetition constructor` is an :t:`array expression` that specifies
+      how many times an element is repeated in the :t:`array` being constructed.
+ 
+-:dp:`fls_3y69y9ga4at7`
+-A :t:`repeat operand` is an :t:`operand` that specifies the element being
+-repeated in an :t:`array repetition constructor`.
++.. glossary-entry:: repeat operand
++   
++   :glossary:
++     :dp:`fls_ol2y1og2jwss`
++     A :dt:`repeat operand` is an :t:`operand` that specifies the element being
++     repeated in an :t:`array repetition constructor`.
++     
++     :dp:`fls_r4acyux78txu`
++     See :s:`RepeatOperand`.
++   :chapter:
++     :dp:`fls_3y69y9ga4at7`
++     A :t:`repeat operand` is an :t:`operand` that specifies the element being
++     repeated in an :t:`array repetition constructor`.
+ 
+ :dp:`fls_2l9objtb23zn`
+ A :t:`size operand` is an :t:`operand` that specifies the size of an :t:`array`
+diff --git a/src/inline-assembly.rst b/src/inline-assembly.rst
+index 0f916db..d88586b 100644
+--- a/src/inline-assembly.rst
++++ b/src/inline-assembly.rst
+@@ -107,9 +107,16 @@ Registers
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_w5a6rybvptn6`
+-A :t:`register` is a hardware component capable of holding data that can be
+-read and written.
++.. glossary-entry:: register
++   
++   :glossary:
++     :dp:`fls_fVdSybu8DW8w`
++     A :dt:`register` is a hardware component capable of holding data that can be
++     read and written.
++   :chapter:
++     :dp:`fls_w5a6rybvptn6`
++     A :t:`register` is a hardware component capable of holding data that can be
++     read and written.
+ 
+ .. glossary-entry:: input register
+    
+@@ -142,10 +149,21 @@ A :t:`register` that is not specified as an :t:`output register` shall have the
+ same :t:`value` upon exit from an :t:`assembly code block` as it did upon entry
+ into the :t:`assembly code block`.
+ 
+-:dp:`fls_vesfzh8h6qzu`
+-A :t:`register name` is either the :t:`explicit register name` of a
+-:t:`register`, or the :t:`register class name` of the :t:`register class` a
+-:t:`register` belongs to.
++.. glossary-entry:: register name
++   
++   :glossary:
++     :dp:`fls_U5r8Ypnjah5E`
++     A :dt:`register name` is either the :t:`explicit register name` of a
++     :t:`register`, or the :t:`register class name` of the :t:`register class` a
++     :t:`register` belongs to.
++     
++     :dp:`fls_WeyiFrnGgWPn`
++     See :s:`RegisterName`.
++   :chapter:
++     :dp:`fls_vesfzh8h6qzu`
++     A :t:`register name` is either the :t:`explicit register name` of a
++     :t:`register`, or the :t:`register class name` of the :t:`register class` a
++     :t:`register` belongs to.
+ 
+ .. glossary-entry:: explicit register name
+    
+@@ -475,12 +493,28 @@ Register Classes
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_7gxb7ztpuofj`
+-A :t:`register class` represents a set of :t:`[register]s`.
++.. glossary-entry:: register class
++   
++   :glossary:
++     :dp:`fls_2H0OYS733VJl`
++     A :dt:`register class` represents a set of :t:`[register]s`.
++   :chapter:
++     :dp:`fls_7gxb7ztpuofj`
++     A :t:`register class` represents a set of :t:`[register]s`.
+ 
+-:dp:`fls_on0i2cpk254y`
+-A :t:`register class name` is a target-specific string that identifies a
+-:t:`register class`.
++.. glossary-entry:: register class name
++   
++   :glossary:
++     :dp:`fls_QsSFoL0UyRRB`
++     A :dt:`register class name` is a target-specific string that identifies a
++     :t:`register class`.
++     
++     :dp:`fls_Y1ZpiFAV2c1A`
++     See :s:`RegisterClassName`.
++   :chapter:
++     :dp:`fls_on0i2cpk254y`
++     A :t:`register class name` is a target-specific string that identifies a
++     :t:`register class`.
+ 
+ :dp:`fls_40ksem5g5xx9`
+ :t:`[Register]s` are organized into :t:`[register class]es` as follows:
+@@ -683,10 +717,21 @@ Register Arguments
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_455dmnp4cxqv`
+-A :t:`register argument` is a :t:`construct` that configures the input
+-and output of a :t:`register`, and optionally binds the configuration to an
+-:t:`identifier`.
++.. glossary-entry:: register argument
++   
++   :glossary:
++     :dp:`fls_rNoFdCKbVmRC`
++     A :dt:`register argument` is a :t:`construct` that configures the input
++     and output of a :t:`register`, and optionally binds the configuration to an
++     :t:`identifier`.
++     
++     :dp:`fls_aof7O9XREo2S`
++     See :s:`RegisterArgument`.
++   :chapter:
++     :dp:`fls_455dmnp4cxqv`
++     A :t:`register argument` is a :t:`construct` that configures the input
++     and output of a :t:`register`, and optionally binds the configuration to an
++     :t:`identifier`.
+ 
+ :dp:`fls_6bv3s8be5xif`
+ A :t:`register argument` shall be used within an :t:`assembly instruction`.
+@@ -732,13 +777,20 @@ A :t:`named register argument` shall appear after a
+ An :t:`explicit register argument` shall appear after a
+ :t:`named register argument`.
+ 
+-:dp:`fls_9hhtcey2d4t6`
+-A :t:`register class argument` is a :t:`register argument` that uses a
+-:t:`register class name`.
+-
+-:dp:`fls_8aynifgq02gt`
+-A :t:`register class argument` causes an assembler to select a suitable
+-:t:`register` from the related :t:`register class`.
++.. glossary-entry:: register class argument
++   
++   :glossary:
++     :dp:`fls_ksLXAyPLx9IL`
++     A :dt:`register class argument` is a :t:`register argument` that uses a
++     :t:`register class name`.
++   :chapter:
++     :dp:`fls_9hhtcey2d4t6`
++     A :t:`register class argument` is a :t:`register argument` that uses a
++     :t:`register class name`.
++     
++     :dp:`fls_8aynifgq02gt`
++     A :t:`register class argument` causes an assembler to select a suitable
++     :t:`register` from the related :t:`register class`.
+ 
+ .. glossary-entry:: direction modifier
+    
+@@ -805,8 +857,18 @@ A :dt:`const register expression` is an :t:`expression` that is evaluated at com
+ A :t:`simple register expression` is either an :t:`expression` or an
+ :t:`underscore expression`.
+ 
+-:dp:`fls_j9XOoXDmN5Dq`
+-A :t:`register expression` is either an :t:`input-output register expression`, a :t:`simple register expression` or a :t:`const register expression`.
++.. glossary-entry:: register expression
++   
++   :glossary:
++     :dp:`fls_2cVy6XfOQ4QG`
++     A :dt:`register expression` is either an :t:`input-output register expression`
++     or a :t:`simple register expression`.
++     
++     :dp:`fls_YEzo09cqWUUy`
++     See :s:`RegisterExpression`.
++   :chapter:
++     :dp:`fls_j9XOoXDmN5Dq`
++     A :t:`register expression` is either an :t:`input-output register expression`, a :t:`simple register expression` or a :t:`const register expression`.
+ 
+ :dp:`fls_jU8zg4k8dFsY`
+ The :t:`type` of a :t:`const register expression` shall be an :t:`integer type`.
+@@ -1122,10 +1184,18 @@ A tool is not required to guarantee that two :t:`[assembly code block]s`
+ appear in the same declarative order in the final assembly output, or appear
+ contiguously in successive addresses.
+ 
+-:dp:`fls_xugsn2ghh73c`
+-A :t:`register parameter` is a substring delimited by characters 0x7B (left
+-curly bracket) and 0x7D (right curly bracket) that is substituted with a
+-:t:`register argument` in an :t:`assembly instruction`.
++.. glossary-entry:: register parameter
++   
++   :glossary:
++     :dp:`fls_JicHMIj5dlxJ`
++     A :dt:`register parameter` is a substring delimited by characters 0x7B (left
++     curly bracket) and 0x7D (right curly bracket) that is substituted with a
++     :t:`register argument` in an :t:`assembly instruction`.
++   :chapter:
++     :dp:`fls_xugsn2ghh73c`
++     A :t:`register parameter` is a substring delimited by characters 0x7B (left
++     curly bracket) and 0x7D (right curly bracket) that is substituted with a
++     :t:`register argument` in an :t:`assembly instruction`.
+ 
+ :dp:`fls_opnxq5kyw9jo`
+ On x86 architectures, direction flag ``DF`` in :t:`register` ``EFLAGS`` shall
+@@ -1150,10 +1220,18 @@ Register Parameter Modifiers
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_2xilifichdqu`
+-A :t:`register parameter modifier` is a substring that starts with character
+-0x3A (colon), follows a :t:`register parameter`, and changes the formatting of
+-the related :t:`register parameter`.
++.. glossary-entry:: register parameter modifier
++   
++   :glossary:
++     :dp:`fls_8BdOnxHZS0Qi`
++     A :dt:`register parameter modifier` is a substring that starts with character
++     0x3A (colon), follows a :t:`register parameter`, and changes the formatting of
++     the related :t:`register parameter`.
++   :chapter:
++     :dp:`fls_2xilifichdqu`
++     A :t:`register parameter modifier` is a substring that starts with character
++     0x3A (colon), follows a :t:`register parameter`, and changes the formatting of
++     the related :t:`register parameter`.
+ 
+ :dp:`fls_o3fx9397ib74`
+ The effects of a :t:`register parameter modifier` depends on the architecture
+diff --git a/src/macros.rst b/src/macros.rst
+index 6a681d3..91ffbca 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -357,10 +357,21 @@ A :ds:`MacroRepetitionSeparator` is any :t:`lexical element` in category
+      A :t:`macro repetition` is either a :t:`macro repetition in matching` or a
+      :t:`macro repetition in transcription`.
+ 
+-:dp:`fls_u86j0zm2jshf`
+-A :t:`repetition operator` is a :t:`construct` that indicates the number
+-of times a :t:`macro repetition in matching` or a
+-:t:`macro repetition in transcription` can be repeated.
++.. glossary-entry:: repetition operator
++   
++   :glossary:
++     :dp:`fls_67907pk7uogl`
++     A :dt:`repetition operator` is a :t:`construct` that indicates the number
++     of times a :t:`macro repetition in matching` or a
++     :t:`macro repetition in transcription` can be repeated.
++     
++     :dp:`fls_hiasmmpr2jks`
++     See :s:`MacroRepetitionOperator`.
++   :chapter:
++     :dp:`fls_u86j0zm2jshf`
++     A :t:`repetition operator` is a :t:`construct` that indicates the number
++     of times a :t:`macro repetition in matching` or a
++     :t:`macro repetition in transcription` can be repeated.
+ 
+ :dp:`fls_h5f8x4jdnvbu`
+ The effects of a :t:`repetition operator` are as follows:
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index 895e422..8dc0b35 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -113,8 +113,14 @@ References
+      can be obtained explicitly by using a :t:`borrow expression` or implicitly in
+      certain scenarios.
+ 
+-:dp:`fls_tsqvr3fmcel`
+-A :t:`referent` is the :t:`value` pointed-to by a :t:`reference`.
++.. glossary-entry:: referent
++   
++   :glossary:
++     :dp:`fls_78ipj8avpwzl`
++     A :dt:`referent` is the :t:`value` pointed-to by a :t:`reference`.
++   :chapter:
++     :dp:`fls_tsqvr3fmcel`
++     A :t:`referent` is the :t:`value` pointed-to by a :t:`reference`.
+ 
+ :dp:`fls_ev4a82fdhwr8`
+ A :t:`reference` shall point to an :t:`initialized` :t:`referent`.
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 7a3698f..2e11f28 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -146,13 +146,26 @@ match all possible values of a :t:`type`.
+      :dp:`fls_9fjspnefoyvz`
+      An :t:`irrefutable pattern` is a :t:`pattern` that always matches any :t:`value` of its :t:`type`.
+ 
+-:dp:`fls_uq7ftuuq1sig`
+-A :t:`refutable pattern` is a :t:`pattern` that has a possibility of not
+-matching a :t:`value` of its :t:`type`
++.. glossary-entry:: refutable pattern
++   
++   :glossary:
++     :dp:`fls_re7qz78koman`
++     A :dt:`refutable pattern` is a :t:`pattern` that has a possibility of not
++     matching the :t:`value` it is being matched against.
++   :chapter:
++     :dp:`fls_uq7ftuuq1sig`
++     A :t:`refutable pattern` is a :t:`pattern` that has a possibility of not
++     matching a :t:`value` of its :t:`type`
++     
++     :dp:`fls_mnbyt7jfYAZ9`
++     A :t:`pattern` that is not an :t:`irrefutable pattern` is a
++     :t:`refutable pattern`.
+ 
+-:dp:`fls_mnbyt7jfYAZ9`
+-A :t:`pattern` that is not an :t:`irrefutable pattern` is a
+-:t:`refutable pattern`.
++.. glossary-entry:: refutable type
++   
++   :glossary:
++     :dp:`fls_l2yz6jeehm52`
++     A :dt:`refutable type` is a :t:`type` that has more than one :t:`value`.
+ 
+ .. glossary-entry:: irrefutable constant
+    
+@@ -165,8 +178,14 @@ A :t:`pattern` that is not an :t:`irrefutable pattern` is a
+      An :t:`irrefutable constant` is a :t:`constant` of a :t:`type` that has at most
+      one :t:`value`.
+ 
+-:dp:`fls_lh0d85tl4qvy`
+-A :t:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
++.. glossary-entry:: refutable constant
++   
++   :glossary:
++     :dp:`fls_mc6hsomq08uu`
++     A :dt:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
++   :chapter:
++     :dp:`fls_lh0d85tl4qvy`
++     A :t:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+ 
+ .. rubric:: Examples
+ 
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+3bff43b docs(glossary): migrate next 20 glossary terms
+7f4ea48 docs(glossary): migrate next 20 glossary terms
+cf13066 docs(glossary): migrate pattern and prelude glossary terms
+cee165a docs(glossary): migrate outer/path glossary entries
+6d3a2bc docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mStage changes, commit, and show status
+
+[glossary-single-source-phase1 e5bd283] docs(glossary): migrate register and remainder terms
+ 6 files changed, 215 insertions(+), 56 deletions(-)
+
+[94m[1m| [0m[90m Grep     [0mrefutability
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-only entry for refutability
+
+.. glossary-entry:: refutability
+   
+   :glossary:
+     :dp:`fls_gzjrfx19fg40`
+     :dt:`Refutability` is a property of :t:`[pattern]s` that expresses the ability
+     to match all possible :t:`[value]s` of a :t:`type`.
+
+[94m[1m| [0m[90m Grep     [0mrepetition operator
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entry for refutability
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary, diff, and verify HTML
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/macros.rst
+ M src/patterns.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged git diff
+
+diff --git a/src/macros.rst b/src/macros.rst
+index 91ffbca..6a681d3 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -357,21 +357,10 @@ A :ds:`MacroRepetitionSeparator` is any :t:`lexical element` in category
+      A :t:`macro repetition` is either a :t:`macro repetition in matching` or a
+      :t:`macro repetition in transcription`.
+ 
+-.. glossary-entry:: repetition operator
+-   
+-   :glossary:
+-     :dp:`fls_67907pk7uogl`
+-     A :dt:`repetition operator` is a :t:`construct` that indicates the number
+-     of times a :t:`macro repetition in matching` or a
+-     :t:`macro repetition in transcription` can be repeated.
+-     
+-     :dp:`fls_hiasmmpr2jks`
+-     See :s:`MacroRepetitionOperator`.
+-   :chapter:
+-     :dp:`fls_u86j0zm2jshf`
+-     A :t:`repetition operator` is a :t:`construct` that indicates the number
+-     of times a :t:`macro repetition in matching` or a
+-     :t:`macro repetition in transcription` can be repeated.
++:dp:`fls_u86j0zm2jshf`
++A :t:`repetition operator` is a :t:`construct` that indicates the number
++of times a :t:`macro repetition in matching` or a
++:t:`macro repetition in transcription` can be repeated.
+ 
+ :dp:`fls_h5f8x4jdnvbu`
+ The effects of a :t:`repetition operator` are as follows:
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 2e11f28..883ceae 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -146,6 +146,13 @@ match all possible values of a :t:`type`.
+      :dp:`fls_9fjspnefoyvz`
+      An :t:`irrefutable pattern` is a :t:`pattern` that always matches any :t:`value` of its :t:`type`.
+ 
++.. glossary-entry:: refutability
++   
++   :glossary:
++     :dp:`fls_gzjrfx19fg40`
++     :dt:`Refutability` is a property of :t:`[pattern]s` that expresses the ability
++     to match all possible :t:`[value]s` of a :t:`type`.
++
+ .. glossary-entry:: refutable pattern
+    
+    :glossary:
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+e5bd283 docs(glossary): migrate register and remainder terms
+3bff43b docs(glossary): migrate next 20 glossary terms
+7f4ea48 docs(glossary): migrate next 20 glossary terms
+cf13066 docs(glossary): migrate pattern and prelude glossary terms
+cee165a docs(glossary): migrate outer/path glossary entries
+
+[91m[1m| [0m[90m Bash     [0mStage fixes, commit, and show status
+
+[glossary-single-source-phase1 764f095] docs(glossary): migrate refutability glossary entry
+ 2 files changed, 11 insertions(+), 15 deletions(-)
+
+Completed the next 20‑term batch by adding glossary-entry directives (including refutability) and keeping repetition operator for the next batch, so the checklist order stays correct. Updates span the definition sites for patterns, expressions, inline assembly, ownership, and imports.
+
+Details
+- Added glossary-only `refutability` and migrated refutable pattern/constant/type in `src/patterns.rst`.
+- Migrated referent, register/argument/class/name/expression/parameter terms in `src/ownership-and-deconstruction.rst` and `src/inline-assembly.rst`.
+- Migrated remainder assignment/expression and repeat operand in `src/expressions.rst`.
+- Added glossary-only `renaming` in `src/entities-and-resolution.rst`.
+- Left `repetition operator` for the next batch (reverted its migration) in `src/macros.rst`.
+
+Commands run
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commits
+- `docs(glossary): migrate register and remainder terms`
+- `docs(glossary): migrate refutability glossary entry`
+
+Checklist + term-map updated in `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md` and `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl` (refutability checked; repetition operator left unchecked).
+
+Next steps
+1) Start the next batch with `repetition operator` (it’s now the next unchecked term).
+2) If you want a single commit for this batch, I can squash the two commits.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

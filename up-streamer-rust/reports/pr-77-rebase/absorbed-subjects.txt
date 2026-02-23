@@ -1,0 +1,25 @@
+chore: raise workspace MSRV to 1.88
+chore: upgrade up-rust and transport dependency matrix
+refactor: migrate zenoh transport usage to 0.9 builder API
+fix: align feature wiring and compile after transport upgrades
+docs: update migration notes and validation results
+fix: gate plugin config module for lint
+fix: align plugin runtime API with zenoh 1.7
+chore: remove repo-local plans and validation artifacts
+ci: run standard tests in PR workflows
+ci: add nightly coverage workflow
+ci: deduplicate unbundled lint validation
+ci: add Rust caches to compile-heavy jobs
+ci: split doctest and test invocations in PR jobs
+ci: isolate rust cache keys and enforce lint-only writes
+ci: add manual cargo timings profiling workflow
+ci: parallelize bundled lint behind aggregator check
+ci: stabilize bundled lint shard aggregation and vsomeip linking
+ci: enable cargo timings profiling run on PR changes
+ci: rebuild bundled vsomeip artifacts after cache restore
+ci: avoid vendored OpenSSL in required CI paths
+ci: de-duplicate bundled feature lint compilation
+ci: harden bundled lint cleanup for vsomeip artifacts
+ci: trim unbundled lint apt deps
+ci: simplify bundled lint aggregator checks
+Update copyright year on new file to 2026

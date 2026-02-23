@@ -1,0 +1,15 @@
+[phase1]
+be247a8 docs(glossary): add chapter-side coverage for glossary terms
+43198d6 chore(glossary): add phased migration guardrail checks
+
+[phase2]
+d9fd295 docs(glossary): align glossary and chapter definitions
+
+[phase3]
+918daee docs(glossary): keep dt roles in chapter documents only
+
+[phase4]
+788ef48 docs(glossary): remove redundant glossary see paragraphs
+
+[phase5]
+f617c1b feat(glossary): generate glossary artifact from chapter definitions

@@ -53,5 +53,6 @@ If it is ambiguous whether it should be shipped, ask.
 - Issue fix: `skills/issue-fix/SKILL.md`
 - Batch issue fix: `skills/batch-issue-fix/SKILL.md`
 - FLS spec lock audit: `skills/fls-audit/SKILL.md`
+- FLS spec lock remediation: `skills/fls-spec-lock-remediation/SKILL.md`
 - Coding guideline review: `skills/coding-guideline-review/SKILL.md`
 - Stale branch fix: `skills/stale-branch-fix/SKILL.md`

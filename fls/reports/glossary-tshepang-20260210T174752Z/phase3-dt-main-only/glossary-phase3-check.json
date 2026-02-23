@@ -1,0 +1,56 @@
+{
+  "artifacts": {
+    "mismatch_report": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/mismatch-report.json",
+    "missing_terms": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/missing-terms.json",
+    "term_inventory": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/term-inventory.json",
+    "term_target_validation": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/term-target-validation.json"
+  },
+  "checks": [
+    {
+      "details": {
+        "violations": []
+      },
+      "name": "no-disallowed-directives",
+      "passed": true
+    },
+    {
+      "details": {
+        "missing_count": 0
+      },
+      "name": "glossary-terms-covered-by-chapters",
+      "passed": true
+    },
+    {
+      "details": {
+        "mismatch_count": 0
+      },
+      "name": "glossary-chapter-definition-match",
+      "passed": true
+    },
+    {
+      "details": {
+        "violations": []
+      },
+      "name": "no-dt-in-glossary-source",
+      "passed": true
+    },
+    {
+      "details": {
+        "count": 0,
+        "sample": []
+      },
+      "name": "no-term-definitions-in-glossary-doctree",
+      "passed": true
+    },
+    {
+      "details": {
+        "glossary_owned": [],
+        "unresolved": []
+      },
+      "name": "canonical-term-targets-non-glossary",
+      "passed": true
+    }
+  ],
+  "phase": 3,
+  "strict": true
+}

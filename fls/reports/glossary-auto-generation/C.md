@@ -14,6 +14,7 @@
 ## Term checklist
 - [x] C (c)
 - [x] C representation (c_representation)
+- [x] C signed int type (c_signed_int_type)
 - [x] c string literal (c_string_literal)
 - [x] Call conformance (call_conformance)
 - [x] call expression (call_expression)
@@ -77,6 +78,11 @@
 - Placement: src/types-and-traits.rst
 - Action: Upgraded definition to :dt:.
 - Rationale: Type Representation section specifies layout semantics for C representation.
+
+## C signed int type (c_signed_int_type)
+- Placement: src/types-and-traits.rst
+- Action: Added a definition paragraph in Enum Type Representation.
+- Rationale: Enum discriminant rules refer to the target platform's C signed int type.
 
 ## c string literal (c_string_literal)
 - Placement: src/lexical-elements.rst

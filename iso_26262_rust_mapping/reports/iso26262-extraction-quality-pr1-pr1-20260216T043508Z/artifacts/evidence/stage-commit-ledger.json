@@ -1,0 +1,245 @@
+{
+  "schema_version": 1,
+  "stages": {
+    "EQ0": {
+      "changed_files": [
+        "traceability/iso26262/corpus/2018-ed2/p06/clause-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p06/list_bullet-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p06/paragraph-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p06/part-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p06/table_cell-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p08/clause-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p08/list_bullet-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p08/paragraph-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p08/part-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p08/table_cell-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p09/clause-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p09/list_bullet-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p09/paragraph-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p09/part-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p09/table_cell-0001.jsonl",
+        "traceability/iso26262/index/anchor-registry.jsonc",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "7938e13f5c9ad447fe777b9f6152139be7850690"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:10Z"
+    },
+    "EQ1": {
+      "changed_files": [
+        "traceability/iso26262/corpus/2018-ed2/p06/clause-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p06/list_bullet-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p06/paragraph-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p06/part-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p06/table_cell-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p08/clause-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p08/list_bullet-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p08/paragraph-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p08/part-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p08/table_cell-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p09/clause-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p09/list_bullet-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p09/paragraph-0001.jsonl",
+        "traceability/iso26262/corpus/2018-ed2/p09/part-manifest.jsonc",
+        "traceability/iso26262/corpus/2018-ed2/p09/table_cell-0001.jsonl",
+        "traceability/iso26262/index/anchor-registry.jsonc",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "7938e13f5c9ad447fe777b9f6152139be7850690"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:11Z"
+    },
+    "EQ10": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [
+        {
+          "command": "mining-cli ingest",
+          "exit_code": 0,
+          "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T043508Z/artifacts/quality/pipeline-ingest.log"
+        },
+        {
+          "command": "mining-cli extract",
+          "exit_code": 0,
+          "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T043508Z/artifacts/quality/pipeline-extract.log"
+        },
+        {
+          "command": "mining-cli normalize",
+          "exit_code": 0,
+          "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T043508Z/artifacts/quality/pipeline-normalize.log"
+        },
+        {
+          "command": "mining-cli anchor",
+          "exit_code": 0,
+          "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T043508Z/artifacts/quality/pipeline-anchor.log"
+        }
+      ],
+      "timestamp_utc": "2026-02-16T04:35:18Z"
+    },
+    "EQ11": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [
+        {
+          "command": "mining-cli publish",
+          "exit_code": 0,
+          "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T043508Z/artifacts/quality/pipeline-publish.log"
+        },
+        {
+          "command": "mining-cli verify",
+          "exit_code": 0,
+          "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T043508Z/artifacts/quality/pipeline-verify.log"
+        }
+      ],
+      "timestamp_utc": "2026-02-16T04:37:05Z"
+    },
+    "EQ12": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:37:48Z"
+    },
+    "EQ2": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:12Z"
+    },
+    "EQ3": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:13Z"
+    },
+    "EQ4": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:14Z"
+    },
+    "EQ5": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:14Z"
+    },
+    "EQ6": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:15Z"
+    },
+    "EQ7": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:16Z"
+    },
+    "EQ8": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:17Z"
+    },
+    "EQ9": {
+      "changed_files": [
+        "tools/traceability/mining/execute_quality_remediation.py",
+        "tools/traceability/mining/normalize.py",
+        "tools/traceability/mining/quality_metrics.py",
+        "traceability/iso26262/index/corpus-manifest.jsonc"
+      ],
+      "commit_shas": [
+        "35826b4e0d479b05864157ba751688b1ba2bd282"
+      ],
+      "metrics_delta": {},
+      "tests_run": [],
+      "timestamp_utc": "2026-02-16T04:35:17Z"
+    }
+  }
+}

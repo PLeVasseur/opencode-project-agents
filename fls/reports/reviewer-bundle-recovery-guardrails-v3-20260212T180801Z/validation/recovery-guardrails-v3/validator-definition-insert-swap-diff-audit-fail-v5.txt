@@ -1,0 +1,4 @@
+mode=gate
+parent_total=1 parent_checked=1 parent_unchecked=0 sub_total=6 sub_checked=6 sub_unchecked=0
+ledger_rows=1 baseline_rows=1 completed_rows=1 resolved_high_rows=1 pending_deviation_count=0 errors=1
+ERROR: FAILED_INSERT_DIFF_MISMATCH: WA-001: definition_operation=insert did not show qualifying insertion (mode=hunk, evidence=fixture-diff-audit, insert_net=0, swap_detected=true)

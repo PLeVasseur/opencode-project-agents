@@ -1,0 +1,8 @@
+README.rst
+exts/ferrocene_spec/README.rst
+exts/ferrocene_spec/__init__.py
+exts/ferrocene_spec/glossary.py
+generate-glossary-entry.py
+generate-glossary.py
+make.py
+src/glossary.prelude.rst.inc

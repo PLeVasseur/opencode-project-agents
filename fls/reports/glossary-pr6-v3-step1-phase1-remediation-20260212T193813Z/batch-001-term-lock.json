@@ -1,0 +1,175 @@
+{
+  "batch_number": 1,
+  "batch_prefix": "batch-001",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WA-001",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "First reference at lexical-elements.rst:34 precedes definition",
+      "recommended_section": "Character Set",
+      "relocation_priority": "high",
+      "term": "value"
+    },
+    {
+      "checklist_id": "WA-002",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "macros.rst",
+      "recommended_reason": "First reference at macros.rst:648 precedes definition",
+      "recommended_section": "Macro Expansion",
+      "relocation_priority": "high",
+      "term": "expression"
+    },
+    {
+      "checklist_id": "WA-003",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "acceptable",
+      "recommended_file": null,
+      "recommended_reason": null,
+      "recommended_section": null,
+      "relocation_priority": "none",
+      "term": "type"
+    },
+    {
+      "checklist_id": "WA-004",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:222 precedes definition",
+      "recommended_section": "Constant Expressions",
+      "relocation_priority": "high",
+      "term": "trait"
+    },
+    {
+      "checklist_id": "WA-005",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "Most referenced here (6/75 refs)",
+      "recommended_section": "Comments",
+      "relocation_priority": "low_forward_ref",
+      "term": "construct"
+    },
+    {
+      "checklist_id": "WA-006",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:665 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "low_forward_ref",
+      "term": "entity"
+    },
+    {
+      "checklist_id": "WA-007",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "First reference at lexical-elements.rst:488 precedes definition",
+      "recommended_section": "Identifiers",
+      "relocation_priority": "low_forward_ref",
+      "term": "name"
+    },
+    {
+      "checklist_id": "WA-008",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "macros.rst",
+      "recommended_reason": "Most referenced here (7/35 refs)",
+      "recommended_section": "Macro Expansion",
+      "relocation_priority": "high",
+      "term": "item"
+    },
+    {
+      "checklist_id": "WA-009",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:1039 precedes definition",
+      "recommended_section": "Borrow Expression",
+      "relocation_priority": "high",
+      "term": "field"
+    },
+    {
+      "checklist_id": "WA-010",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "ownership-and-deconstruction.rst",
+      "recommended_reason": "Most referenced here (12/25 refs)",
+      "recommended_section": "References",
+      "relocation_priority": "high",
+      "term": "reference"
+    },
+    {
+      "checklist_id": "WA-011",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:1457 precedes definition",
+      "recommended_section": "Arithmetic Expressions",
+      "relocation_priority": "high",
+      "term": "implementation"
+    },
+    {
+      "checklist_id": "WA-012",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "good",
+      "recommended_file": null,
+      "recommended_reason": null,
+      "recommended_section": null,
+      "relocation_priority": "none",
+      "term": "method"
+    },
+    {
+      "checklist_id": "WA-013",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "program-structure-and-compilation.rst",
+      "recommended_reason": "Most referenced here (10/40 refs)",
+      "recommended_section": "Crates",
+      "relocation_priority": "high",
+      "term": "crate"
+    },
+    {
+      "checklist_id": "WA-014",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "Most referenced here (6/49 refs)",
+      "recommended_section": "Visibility",
+      "relocation_priority": "low_forward_ref",
+      "term": "module"
+    },
+    {
+      "checklist_id": "WA-015",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "statements.rst",
+      "recommended_reason": "Most referenced here (5/17 refs)",
+      "recommended_section": "Statements",
+      "relocation_priority": "medium",
+      "term": "statement"
+    }
+  ],
+  "timestamp": "20260212T193814Z",
+  "wave": "WA"
+}

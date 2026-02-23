@@ -1,0 +1,11 @@
+{
+  "deterministic_replay_pass": true,
+  "expected_signature": "2b9cf79a0a21802d3fd593c8946f0b1e8329c9235616419c63fe95685e56657a",
+  "extra_unit_count": 0,
+  "generated_at_utc": "2026-02-15T15:18:05Z",
+  "missing_unit_count": 0,
+  "published_signature": "2b9cf79a0a21802d3fd593c8946f0b1e8329c9235616419c63fe95685e56657a",
+  "run_id": "20260215T143525Z",
+  "sample_extra": [],
+  "sample_missing": []
+}

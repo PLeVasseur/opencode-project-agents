@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-02-10T11:27:08.965796823+00:00",
+  "criterion_root": "target/criterion",
+  "baseline": "ergonomics_baseline",
+  "candidate": "ergonomics_candidate_slice_a",
+  "thresholds": {
+    "throughput_threshold_pct": 3.0,
+    "latency_threshold_pct": 5.0,
+    "alloc_proxy_threshold_pct": 5.0
+  },
+  "pass": true,
+  "failures": [],
+  "results": [
+    {
+      "benchmark_id": "routing_lookup/exact_authority",
+      "metric_kind": "latency",
+      "baseline_ns_per_iter": 62252.75148600814,
+      "candidate_ns_per_iter": 62969.67123786408,
+      "delta_pct": 1.1516274136366031,
+      "threshold_pct": 5.0,
+      "pass": true
+    },
+    {
+      "benchmark_id": "routing_lookup/wildcard_authority",
+      "metric_kind": "alloc_proxy",
+      "baseline_ns_per_iter": 67483.12092013888,
+      "candidate_ns_per_iter": 65000.67645896657,
+      "delta_pct": -3.6786153742209087,
+      "threshold_pct": 5.0,
+      "pass": true
+    },
+    {
+      "benchmark_id": "publish_resolution/source_filter_derivation",
+      "metric_kind": "alloc_proxy",
+      "baseline_ns_per_iter": 84742.4027771898,
+      "candidate_ns_per_iter": 80356.13770325202,
+      "delta_pct": -5.175998001225459,
+      "threshold_pct": 5.0,
+      "pass": true
+    },
+    {
+      "benchmark_id": "ingress_registry/register_route",
+      "metric_kind": "throughput",
+      "baseline_ns_per_iter": 1123153.1653685411,
+      "candidate_ns_per_iter": 1107680.361528822,
+      "delta_pct": -1.396865411458916,
+      "threshold_pct": 3.0,
+      "pass": true
+    },
+    {
+      "benchmark_id": "ingress_registry/unregister_route",
+      "metric_kind": "throughput",
+      "baseline_ns_per_iter": 1108094.9336601307,
+      "candidate_ns_per_iter": 1121446.062088274,
+      "delta_pct": 1.1905279156522033,
+      "threshold_pct": 3.0,
+      "pass": true
+    },
+    {
+      "benchmark_id": "egress_forwarding/single_route_dispatch",
+      "metric_kind": "throughput",
+      "baseline_ns_per_iter": 235.04510445765,
+      "candidate_ns_per_iter": 235.7781225361071,
+      "delta_pct": 0.3108931696344522,
+      "threshold_pct": 3.0,
+      "pass": true
+    }
+  ]
+}

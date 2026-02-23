@@ -1,0 +1,43 @@
+{
+  "batch_number": 2,
+  "batch_prefix": "batch-002",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WA-004",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:222 precedes definition",
+      "recommended_section": "Constant Expressions",
+      "relocation_priority": "high",
+      "term": "trait"
+    },
+    {
+      "checklist_id": "WA-005",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "Most referenced here (6/75 refs)",
+      "recommended_section": "Comments",
+      "relocation_priority": "low_forward_ref",
+      "term": "construct"
+    },
+    {
+      "checklist_id": "WA-006",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:665 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "low_forward_ref",
+      "term": "entity"
+    }
+  ],
+  "timestamp": "20260212T200605Z",
+  "wave": "WA"
+}

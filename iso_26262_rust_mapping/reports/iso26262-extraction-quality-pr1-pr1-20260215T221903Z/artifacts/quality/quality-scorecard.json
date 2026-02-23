@@ -1,0 +1,123 @@
+{
+  "baseline_run_id": "20260215T162251Z",
+  "generated_at_utc": "2026-02-15T23:05:51Z",
+  "input_signature": "64fcda97f38a29c8093e0a0c04250bcfbf72c14212ef6bb157c4e5585586573d",
+  "metrics": {
+    "contamination": {
+      "list_bullet": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 0.0,
+        "repeated_header_footer_contamination_rate_pct": 0.0
+      },
+      "paragraph": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 0.0,
+        "repeated_header_footer_contamination_rate_pct": 0.0
+      },
+      "table_cell": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 0.0,
+        "repeated_header_footer_contamination_rate_pct": 0.0
+      }
+    },
+    "lineage": {
+      "clause_anchor_resolution_rate_pct": 100.0,
+      "section_anchor_resolution_rate_pct": 100.0,
+      "table_anchor_resolution_rate_pct": 100.0,
+      "unit_to_anchor_link_completeness_pct": 100.0,
+      "unit_to_page_link_completeness_pct": 100.0,
+      "unit_to_parent_scope_link_completeness_pct": 100.0
+    },
+    "replay": {
+      "replay_signature_match_rate_pct": 100.0
+    },
+    "scope_extraction": {
+      "clause_boundary_f1": 1.0,
+      "section_boundary_f1": 1.0,
+      "table_scope_detection_recall_pct": 766.6666666666667
+    },
+    "semantic_and_pattern": {
+      "list_bullet_continuation_capture_rate_pct": 100.0,
+      "list_bullet_marker_validity_rate_pct": 100.0,
+      "list_meaningful_unit_ratio_pct": 91.17647058823529,
+      "paragraph_meaningful_unit_ratio_pct": 91.37931034482759,
+      "paragraph_pattern_conformance_rate_pct": 100.0,
+      "table_cell_pattern_conformance_rate_pct": 100.0,
+      "table_cell_structural_validity_rate_pct": 100.0,
+      "table_meaningful_unit_ratio_pct": 87.01298701298701
+    },
+    "typography": {
+      "footnote_marker_retention_rate_pct": 100.0,
+      "subscript_retention_rate_pct": 100.0,
+      "superscript_retention_rate_pct": 100.0
+    },
+    "wrap_and_dehyphenation": {
+      "dehyphenation_precision_pct": 100.0,
+      "line_wrap_repair_precision_pct": 100.0,
+      "paragraph_boundary_f1": 0.9886363636363636
+    }
+  },
+  "mode": "remediation_assessment",
+  "overall_pass": true,
+  "required_parts": [
+    "P06",
+    "P08",
+    "P09"
+  ],
+  "run_id": "pr1-20260215T221903Z",
+  "schema_version": 1,
+  "threshold_profile": {
+    "THRESHOLD_CLAUSE_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_CLAUSE_BOUNDARY_F1_MIN": 0.95,
+    "THRESHOLD_DEHYPHENATION_PRECISION_MIN_PCT": 95.0,
+    "THRESHOLD_FOOTNOTE_MARKER_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_LINE_WRAP_PRECISION_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_CONTINUATION_CAPTURE_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_LICENSE_MAX_PCT": 5.0,
+    "THRESHOLD_LIST_MARKER_VALIDITY_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_MEANINGFUL_MIN_PCT": 85.0,
+    "THRESHOLD_PARAGRAPH_LICENSE_MAX_PCT": 5.0,
+    "THRESHOLD_PARAGRAPH_MEANINGFUL_MIN_PCT": 90.0,
+    "THRESHOLD_PARAGRAPH_PATTERN_CONFORMANCE_MIN_PCT": 95.0,
+    "THRESHOLD_REPLAY_SIGNATURE_MATCH_MIN_PCT": 100.0,
+    "THRESHOLD_SECTION_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_SECTION_BOUNDARY_F1_MIN": 0.95,
+    "THRESHOLD_SUBSCRIPT_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_SUPERSCRIPT_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_TABLE_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_TABLE_LICENSE_MAX_PCT": 10.0,
+    "THRESHOLD_TABLE_MEANINGFUL_MIN_PCT": 70.0,
+    "THRESHOLD_TABLE_PATTERN_CONFORMANCE_MIN_PCT": 90.0,
+    "THRESHOLD_TABLE_SCOPE_RECALL_MIN_PCT": 95.0,
+    "THRESHOLD_TABLE_STRUCTURAL_VALIDITY_MIN_PCT": 90.0,
+    "THRESHOLD_UNIT_ANCHOR_LINKAGE_MIN_PCT": 100.0,
+    "THRESHOLD_UNIT_PARENT_SCOPE_LINKAGE_MIN_PCT": 100.0
+  },
+  "threshold_results": {
+    "clause_anchor": true,
+    "clause_boundary": true,
+    "dehyphenation": true,
+    "footnote": true,
+    "line_wrap": true,
+    "list_continuation": true,
+    "list_license": true,
+    "list_marker": true,
+    "list_meaningful": true,
+    "paragraph_license": true,
+    "paragraph_meaningful": true,
+    "paragraph_pattern": true,
+    "replay": true,
+    "section_anchor": true,
+    "section_boundary": true,
+    "subscript": true,
+    "superscript": true,
+    "table_anchor": true,
+    "table_license": true,
+    "table_meaningful": true,
+    "table_pattern": true,
+    "table_scope": true,
+    "table_structural": true,
+    "unit_anchor": true,
+    "unit_parent_scope": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "errors": [
+    "FAILED_RATIONALE_MONOCULTURE: WA: action+reason concentration 1.000 exceeds 0.600",
+    "FAILED_RATIONALE_MONOCULTURE: WA: reason_why similarity 0.853 exceeds 0.800 for WA-001 vs WA-002"
+  ],
+  "summary": {
+    "baseline_rows": 2,
+    "checklist": {
+      "parent_checked": 2,
+      "parent_total": 2,
+      "parent_unchecked": 0,
+      "sub_checked": 12,
+      "sub_total": 12,
+      "sub_unchecked": 0
+    },
+    "completed_rows": 2,
+    "error_count": 2,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 12,
+    "ledger_rows": 2,
+    "mode": "gate",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 2
+  }
+}

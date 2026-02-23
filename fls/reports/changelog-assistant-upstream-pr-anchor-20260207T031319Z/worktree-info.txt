@@ -1,0 +1,3 @@
+worktree=/home/pete.levasseur/project/fls
+branch=changelog-assistant-upstream-pr-anchor
+head=a291b351420f7f45eded6cf5bf86688f31500cb3

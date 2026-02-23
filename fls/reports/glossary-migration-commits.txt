@@ -1,0 +1,41 @@
+2dfc847a722423358b918a6836760a3a11b5cb96 docs(glossary): migrate remaining glossary terms
+66a1099560705cbf09a1a0ce96f8eeb318085b76 docs(glossary): migrate next 20 glossary terms
+31ccd8534dc29d58e9a37eeb005dace8db822a8d docs(glossary): migrate next 20 glossary terms
+ba1d4b9508e877d0bdcb75a99661163a9bffbae2 docs(glossary): migrate next 20 glossary terms
+cf11e81e0115b4f4234b6f113802fe2ece9b146e docs(glossary): migrate next 20 glossary terms
+52d13394ed3976cbeadc5bc15115cd2570586ec3 docs(glossary): migrate next 20 glossary terms
+dc774c9d0b2a6ae1dff7a9cd4e1d8a84b3489ceb docs(glossary): migrate next 20 glossary terms
+6f91bcd7e628612db9af159d58fc072e5f1867eb docs(glossary): migrate struct and sub* terms
+6cc6e9f1f6cb14ffe8cdc156ba852ef171bcc767 docs(glossary): migrate next 20 glossary terms
+bc8919fbbd8d4666fda0758018f0510370466334 docs(glossary): migrate next 20 glossary terms
+3925cc1fb6bb7f1d87d9b2d6b611be59eab141d8 docs(glossary): migrate next 20 glossary terms
+764f095e70e4cf8836ffda3ed3f8e5f78f685ad5 docs(glossary): migrate refutability glossary entry
+e5bd283aaeb404147ba83c2dc3fb49b413e9313f docs(glossary): migrate register and remainder terms
+3bff43ba3ae891942ed0511e29cd95174c621c92 docs(glossary): migrate next 20 glossary terms
+7f4ea487fa34478672e9c3c7cd6e239c788a1fce docs(glossary): migrate next 20 glossary terms
+cf130665cd12450ccfd9e04b533c178a86e2b4f6 docs(glossary): migrate pattern and prelude glossary terms
+cee165a9aacc28c14a1f74f573d44a90537d0dab docs(glossary): migrate outer/path glossary entries
+6d3a2bc1710e8df4fd2a8737c1b74399bb9226ab docs(glossary): migrate next 20 glossary terms
+ec494261fe9c8659a7414bc1f5810f5381c4b303 docs(glossary): migrate mutable and named terms
+d6c89e6ea6fc940b9837807548bb9b4e3d8e999b docs(glossary): migrate macro and method glossary entries
+0be1c7edc60b50ad00fc75e381e1185cf41e4d66 docs(glossary): migrate loop and macro glossary entries
+c862c565cd8bd0fdb98c0ceb25de6192c61169dc docs(glossary): migrate batch 18 entries
+bc069fd463a2b1db5851cad4c7b9bb28e1eb9e4e docs(glossary): migrate batch 17 entries
+59827bd9324eed4f4c29ed86c4861e79c94f3a1a docs(glossary): migrate batch 16 entries
+2cd6855f0662e0356bc09075d2967bc0a7ab724d docs(glossary): migrate batch 15 entries
+d9a148b646fdf290cf100acab764502eb84d2180 docs(glossary): migrate batch 14 entries
+90e13856aa69709b8d3aee337224a1893ce13c47 docs(glossary): migrate batch 13 entries
+5c37a4870b5bc04d6efb8b8ae2509a2fe02424ba docs(glossary): migrate batch 12 entries
+200bda31f096cf2c311953ddbd51a7cbd2957307 docs(glossary): migrate batch 11 entries
+862a461cc68af536cc2c77e242b5ceb330e641c2 docs(glossary): migrate batch 10 entries
+9a978c3837abf7f7ac0c77834d8f0ae4e52e11a5 docs(glossary): migrate batch 09 entries
+869af9cc64a5433bcd5231e13ad53210e88a97ff docs(glossary): migrate phase 2 batch for glossary parity
+441f3fd3c0241e9e5d92b270603f7d9aa8e30195 docs(glossary): migrate batch 08 entries
+7a54fff856ad2552c39e0671562f762f893cbbde docs(glossary): migrate batch 07 entries
+00dc1831813a3212fa587b2ab379dae2b23ed81a docs(glossary): migrate batch 06 entries
+98e97a8daf186436df9b7b6622aab89132b9697a docs(glossary): migrate batch 05 entries
+48ae27979c3ba216ba39d0e1bd634784063db0d2 docs(glossary): migrate batch 04 entries
+1e900d9c4d1925a2ffb01e7d179e5a657c5a4015 docs(glossary): migrate batch 03 entries
+73607e097ae56fe9f9e53a1b59f40bad73e0dc4a docs(glossary): migrate batch 02 entries
+e090b1deb8cce93cfb34507604463c588bb2b7c2 docs(glossary): migrate glossary-only terms
+290841f2052b17e4a95428886ad4c10ccf097483 docs(glossary): migrate batch 01 entries

@@ -1,0 +1,26 @@
+{
+  "cases": [
+    {
+      "type": "fragmented_paragraph",
+      "unit_id": "p06-p0014-par-001"
+    },
+    {
+      "part": "P06",
+      "type": "contamination_prone_page"
+    },
+    {
+      "part": "P08",
+      "type": "contamination_prone_page"
+    },
+    {
+      "part": "P09",
+      "type": "contamination_prone_page"
+    },
+    {
+      "description": "historical full-pool provenance reuse",
+      "type": "mixed_list_table_prose_page"
+    }
+  ],
+  "run_id": "pr1-20260216T043508Z",
+  "timestamp_utc": "2026-02-16T04:35:17Z"
+}

@@ -1,0 +1,1023 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0munit struct value|unit tuple|unit type|unit value|unnamed constant|unnamed lifetime|unqualified path expression|unsafe block expression|unsafe block|unsafe context|unsafe external block|unsafe function item type|unsafe function pointer type|unsafe function|unsafe operation|unsafe Rust|unsafe trait implementation|unsafe trait|unsafety|unsigned integer type
+[94m[1m| [0m[90m Grep     [0munit struct value|unit tuple|unit type|unit value|unnamed constant|unnamed lifetime|unqualified path expression|unsafe block expression|unsafe block|unsafe context|unsafe external block|unsafe function item type|unsafe function pointer type|unsafe function|unsafe operation|unsafe Rust|unsafe trait implementation|unsafe trait|unsafety|unsigned integer type
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0munnamed lifetime
+[94m[1m| [0m[90m Grep     [0munnamed lifetime
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/unsafety.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`unsafe Rust`|:t:`unsafe Rust`
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[94m[1m| [0m[90m Grep     [0munsafe trait
+[94m[1m| [0m[90m Grep     [0munsafe trait
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[96m[1m| [0m[90m Read     [0msrc/ffi.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0munsigned integer type
+[94m[1m| [0m[90m Grep     [0mUnit
+[94m[1m| [0m[90m Grep     [0mTuple Types|Tuple type|tuple type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0munit struct
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mInteger Types
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for unqualified path expression
+
+.. glossary-entry:: unqualified path expression
+   
+   :glossary:
+     :dp:`fls_9xKgP8uVsOaR`
+     An :dt:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+   :chapter:
+     :dp:`fls_nRgjCLYZL3iX`
+     An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe block expression
+
+.. glossary-entry:: unsafe block expression
+   
+   :glossary:
+     :dp:`fls_et2h89jyivhs`
+     An :dt:`unsafe block expression` is a :t:`block expression` that is specified
+     with :t:`keyword` ``unsafe``.
+     
+     :dp:`fls_c94rudunhp5b`
+     See :s:`UnsafeBlockExpression`.
+   :chapter:
+     :dp:`fls_2az5huhcxzzy`
+     An :t:`unsafe block expression` is a :t:`block expression` that is specified
+     with :t:`keyword` ``unsafe``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe context
+
+.. glossary-entry:: unsafe context
+   
+   :glossary:
+     :dp:`fls_qn1s845ejbu0`
+     An :dt:`unsafe context` is either an :t:`unsafe block` or an
+     :t:`unsafe function`.
+   :chapter:
+     :dp:`fls_jb6krd90tjmc`
+     An :t:`unsafe context` is either an :t:`unsafe block` or an
+     :t:`unsafe function`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe external block
+
+.. glossary-entry:: unsafe external block
+   
+   :glossary:
+     :dp:`fls_pkfgas34msas`
+     An :dt:`unsafe external block` is an :t:`external block` subject to keyword ``unsafe``.
+   :chapter:
+     :dp:`fls_8ltVLtAfvy0m`
+     An :t:`unsafe external block` is an :t:`external block` subject to keyword ``unsafe``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe function
+
+.. glossary-entry:: unsafe function
+   
+   :glossary:
+     :dp:`fls_2ht13dgtxi1o`
+     An :dt:`unsafe function` is a :t:`function` subject to :t:`keyword` ``unsafe``.
+   :chapter:
+     :dp:`fls_7ucwmzqtittv`
+     An :t:`unsafe function` is a :t:`function` subject to an :s:`ItemSafety` with :t:`keyword` ``unsafe``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe function item type
+
+.. glossary-entry:: unsafe function item type
+   
+   :glossary:
+     :dp:`fls_r91tuwi55nu7`
+     An :dt:`unsafe function item type` is a :t:`function item type` where the
+     related :t:`function` is an :t:`unsafe function`.
+   :chapter:
+     :dp:`fls_liwnzwu1el1i`
+     An :t:`unsafe function item type` is a :t:`function item type` where the related
+     :t:`function` is an :t:`unsafe function`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe function pointer type
+
+.. glossary-entry:: unsafe function pointer type
+   
+   :glossary:
+     :dp:`fls_tiluwa2v4l6d`
+     An :dt:`unsafe function pointer type` is a function pointer type subject to
+     :t:`keyword` ``unsafe``.
+   :chapter:
+     :dp:`fls_5dd7icjcl3nt`
+     An :t:`unsafe function pointer type` is a function pointer type subject to
+     :t:`keyword` ``unsafe``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe operation
+
+.. glossary-entry:: unsafe operation
+   
+   :glossary:
+     :dp:`fls_34h60ubicgsj`
+     An :dt:`unsafe operation` is an operation that may result in
+     :t:`undefined behavior` that is not diagnosed as a static error.
+     :t:`[Unsafe operation]s` are referred to as :t:`unsafe Rust`.
+   :chapter:
+     :dp:`fls_ovn9czwnwxue`
+     An :t:`unsafe operation` is an operation that may result in
+     :t:`undefined behavior` that is not diagnosed as a static error.
+     :t:`[Unsafe operation]s` are referred to as :t:`unsafe Rust`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafety
+
+.. glossary-entry:: unsafety
+   
+   :glossary:
+     :dp:`fls_742ycx5181n`
+     :dt:`Unsafety` is the presence of :t:`[unsafe operation]s` in program text.
+   :chapter:
+     :dp:`fls_8kqo952gjhaf`
+     :t:`Unsafety` is the presence of :t:`[unsafe operation]s` and :t:`[unsafe trait
+     implementation]s` in program text.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe trait implementation
+
+.. glossary-entry:: unsafe trait implementation
+   
+   :glossary:
+     :dp:`fls_kqwcv076dzie`
+     An :dt:`unsafe trait implementation` is a :t:`trait implementation` subject to
+     :t:`keyword` ``unsafe``.
+   :chapter:
+     :dp:`fls_8pwr7ibvhmhu`
+     An :t:`unsafe trait implementation` is a :t:`trait implementation` subject to
+     :t:`keyword` ``unsafe``.
+     
+     .. glossary-entry:: implemented trait
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unnamed constant
+
+.. glossary-entry:: unnamed constant
+   
+   :glossary:
+     :dp:`fls_ufj01cxxsv1w`
+     An :dt:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
+     line).
+   :chapter:
+     :dp:`fls_3mhj0kkupwuz`
+     An :t:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
+     line).
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe block
+
+.. glossary-entry:: unsafe block
+   
+   :glossary:
+     :dp:`fls_8tkolhmd6xfp`
+     For :dt:`unsafe block`, see :t:`unsafe block expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unit struct value
+
+.. glossary-entry:: unit struct value
+   
+   :glossary:
+     :dp:`fls_Kr9nGIjx3N4R`
+     A :dt:`unit struct value` is a :t:`value` of a :t:`unit struct type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unit tuple
+
+.. glossary-entry:: unit tuple
+   
+   :glossary:
+     :dp:`fls_vo1jw6rmu4yy`
+     A :dt:`unit tuple` is a :t:`value` of the :t:`unit type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unit type
+
+.. glossary-entry:: unit type
+   
+   :glossary:
+     :dp:`fls_jtdtv3q2ls05`
+     The :dt:`unit type` is a :t:`tuple type` of zero :t:`arity`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unit value
+
+.. glossary-entry:: unit value
+   
+   :glossary:
+     :dp:`fls_ycdv4nvsdyx`
+     The :dt:`unit value` is the :t:`value` of a :t:`unit type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unnamed lifetime
+
+.. glossary-entry:: unnamed lifetime
+   
+   :glossary:
+     :dp:`fls_4iy6zpq66mit`
+     An :dt:`unnamed lifetime` is a :t:`lifetime` declared with character 0x5F (low
+     line).
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe Rust
+
+.. glossary-entry:: unsafe Rust
+   
+   :glossary:
+     :dp:`fls_30asi010yf1a`
+     For :dt:`unsafe Rust`, see :t:`[unsafe operation]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsafe trait
+
+.. glossary-entry:: unsafe trait
+   
+   :glossary:
+     :dp:`fls_w6zlsf2ye457`
+     An :dt:`unsafe trait` is a :t:`trait` subject to :t:`keyword` ``unsafe``
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unsigned integer type
+
+.. glossary-entry:: unsigned integer type
+   
+   :glossary:
+     :dp:`fls_dxnf79qemlg6`
+     An :dt:`unsigned integer type` is an :t:`integer type` whose :t:`[value]s`
+     denote zero and positive whole numbers.
+
+[94m[1m| [0m[90m Grep     [0mTraits
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/unsafety.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ffi.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/functions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/implementations.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 terms from checklist
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output file
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static baseline
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff against generated glossary
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/ffi.rst
+ M src/functions.rst
+ M src/implementations.rst
+ M src/types-and-traits.rst
+ M src/unsafety.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+ba1d4b9 docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged changes
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index e712bb4..67735a4 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -496,8 +496,14 @@ A :t:`simple path` is subject to :t:`simple path resolution`.
+      A :t:`multi segment path` is a :t:`path` consisting of more than one
+      :t:`path segment`.
+ 
+-:dp:`fls_nRgjCLYZL3iX`
+-An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
++.. glossary-entry:: unqualified path expression
++   
++   :glossary:
++     :dp:`fls_9xKgP8uVsOaR`
++     An :dt:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
++   :chapter:
++     :dp:`fls_nRgjCLYZL3iX`
++     An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+ 
+ :dp:`fls_tvvycup09b51`
+ A :t:`path expression` is subject to :t:`path expression resolution`.
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 1d2e9ca..e52de47 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1116,9 +1116,25 @@ Unsafe Blocks
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_2az5huhcxzzy`
+-An :t:`unsafe block expression` is a :t:`block expression` that is specified
+-with :t:`keyword` ``unsafe``.
++.. glossary-entry:: unsafe block
++   
++   :glossary:
++     :dp:`fls_8tkolhmd6xfp`
++     For :dt:`unsafe block`, see :t:`unsafe block expression`.
++
++.. glossary-entry:: unsafe block expression
++   
++   :glossary:
++     :dp:`fls_et2h89jyivhs`
++     An :dt:`unsafe block expression` is a :t:`block expression` that is specified
++     with :t:`keyword` ``unsafe``.
++     
++     :dp:`fls_c94rudunhp5b`
++     See :s:`UnsafeBlockExpression`.
++   :chapter:
++     :dp:`fls_2az5huhcxzzy`
++     An :t:`unsafe block expression` is a :t:`block expression` that is specified
++     with :t:`keyword` ``unsafe``.
+ 
+ :dp:`fls_5ucvvja4dzoc`
+ An :t:`unsafe block expression` allows :t:`unsafety`.
+diff --git a/src/ffi.rst b/src/ffi.rst
+index 5329886..8731e82 100644
+--- a/src/ffi.rst
++++ b/src/ffi.rst
+@@ -229,8 +229,14 @@ External Blocks
+      An :t:`external block` is a :t:`construct` that provides the declarations of
+      :t:`[external function]s` and :t:`[external static]s` as unchecked imports.
+ 
+-:dp:`fls_8ltVLtAfvy0m`
+-An :t:`unsafe external block` is an :t:`external block` subject to keyword ``unsafe``.
++.. glossary-entry:: unsafe external block
++   
++   :glossary:
++     :dp:`fls_pkfgas34msas`
++     An :dt:`unsafe external block` is an :t:`external block` subject to keyword ``unsafe``.
++   :chapter:
++     :dp:`fls_8ltVLtAfvy0m`
++     An :t:`unsafe external block` is an :t:`external block` subject to keyword ``unsafe``.
+ 
+ :dp:`fls_Nz0l16hMxqTd`
+ The :t:`ABI` of an :t:`external block` is determined as follows:
+diff --git a/src/functions.rst b/src/functions.rst
+index 07ec1f3..28ab3a5 100644
+--- a/src/functions.rst
++++ b/src/functions.rst
+@@ -291,8 +291,14 @@ A :t:`constant function` shall be callable from a :t:`constant context`.
+             }
+         }
+ 
+-:dp:`fls_7ucwmzqtittv`
+-An :t:`unsafe function` is a :t:`function` subject to an :s:`ItemSafety` with :t:`keyword` ``unsafe``.
++.. glossary-entry:: unsafe function
++   
++   :glossary:
++     :dp:`fls_2ht13dgtxi1o`
++     An :dt:`unsafe function` is a :t:`function` subject to :t:`keyword` ``unsafe``.
++   :chapter:
++     :dp:`fls_7ucwmzqtittv`
++     An :t:`unsafe function` is a :t:`function` subject to an :s:`ItemSafety` with :t:`keyword` ``unsafe``.
+ 
+ :dp:`fls_nUADhgcfvvGC`
+ A :t:`function` shall only be subject to an :s:`ItemSafety` with :t:`keyword` ``safe`` if it is an :t:`external function` in an :t:`unsafe external block`.
+diff --git a/src/implementations.rst b/src/implementations.rst
+index 4d1e8c5..c647409 100644
+--- a/src/implementations.rst
++++ b/src/implementations.rst
+@@ -116,9 +116,16 @@ defined within the same :t:`crate`.
+      A :t:`trait implementation` is an :t:`implementation` that adds functionality
+      specified by a :t:`trait`.
+ 
+-:dp:`fls_8pwr7ibvhmhu`
+-An :t:`unsafe trait implementation` is a :t:`trait implementation` subject to
+-:t:`keyword` ``unsafe``.
++.. glossary-entry:: unsafe trait implementation
++   
++   :glossary:
++     :dp:`fls_kqwcv076dzie`
++     An :dt:`unsafe trait implementation` is a :t:`trait implementation` subject to
++     :t:`keyword` ``unsafe``.
++   :chapter:
++     :dp:`fls_8pwr7ibvhmhu`
++     An :t:`unsafe trait implementation` is a :t:`trait implementation` subject to
++     :t:`keyword` ``unsafe``.
+ 
+ .. glossary-entry:: implemented trait
+    
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 3f46389..845d853 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -489,6 +489,13 @@ Integer Types
+      An :dt:`integer type` is a :t:`numeric type` whose :t:`[value]s` denote whole
+      numbers.
+ 
++.. glossary-entry:: unsigned integer type
++   
++   :glossary:
++     :dp:`fls_dxnf79qemlg6`
++     An :dt:`unsigned integer type` is an :t:`integer type` whose :t:`[value]s`
++     denote zero and positive whole numbers.
++
+ :dp:`fls_cokwseo3nnr`
+ :t:`[Unsigned integer type]s` define the following inclusive ranges over the
+ domain of whole numbers:
+@@ -861,6 +868,24 @@ Tuple Types
+      :dp:`fls_dl2gkip00bua`
+      An :dt:`arity` is the number of :t:`[tuple field]s` in a :t:`tuple type`.
+ 
++.. glossary-entry:: unit type
++   
++   :glossary:
++     :dp:`fls_jtdtv3q2ls05`
++     The :dt:`unit type` is a :t:`tuple type` of zero :t:`arity`.
++
++.. glossary-entry:: unit tuple
++   
++   :glossary:
++     :dp:`fls_vo1jw6rmu4yy`
++     A :dt:`unit tuple` is a :t:`value` of the :t:`unit type`.
++
++.. glossary-entry:: unit value
++   
++   :glossary:
++     :dp:`fls_ycdv4nvsdyx`
++     The :dt:`unit value` is the :t:`value` of a :t:`unit type`.
++
+ :dp:`fls_s9a36zsrfqew`
+ If the :t:`type` of a :t:`tuple field` is a :t:`dynamically-sized type`, then
+ the :t:`tuple field` shall be the last :t:`tuple field` in the
+@@ -1211,6 +1236,12 @@ Struct Types
+      :dp:`fls_oIzmvACNeQpE`
+      A :dt:`unit struct type` is the :t:`type` of a :t:`unit struct`.
+ 
++.. glossary-entry:: unit struct value
++   
++   :glossary:
++     :dp:`fls_Kr9nGIjx3N4R`
++     A :dt:`unit struct value` is a :t:`value` of a :t:`unit struct type`.
++
+ .. glossary-entry:: struct field
+    
+    :glossary:
+@@ -1460,9 +1491,16 @@ Function Item Types
+      An :t:`external function item type` is a :t:`function item type` where the
+      related :t:`function` is an :t:`external function`.
+ 
+-:dp:`fls_liwnzwu1el1i`
+-An :t:`unsafe function item type` is a :t:`function item type` where the related
+-:t:`function` is an :t:`unsafe function`.
++.. glossary-entry:: unsafe function item type
++   
++   :glossary:
++     :dp:`fls_r91tuwi55nu7`
++     An :dt:`unsafe function item type` is a :t:`function item type` where the
++     related :t:`function` is an :t:`unsafe function`.
++   :chapter:
++     :dp:`fls_liwnzwu1el1i`
++     An :t:`unsafe function item type` is a :t:`function item type` where the related
++     :t:`function` is an :t:`unsafe function`.
+ 
+ :dp:`fls_e9x4f7qxvvjv`
+ A :t:`function item type` is coercible to a :t:`function pointer type`.
+@@ -1550,9 +1588,16 @@ Function Pointer Types
+      A :t:`function pointer type` is an :t:`indirection type` that refers to a
+      :t:`function`.
+ 
+-:dp:`fls_5dd7icjcl3nt`
+-An :t:`unsafe function pointer type` is a function pointer type subject to
+-:t:`keyword` ``unsafe``.
++.. glossary-entry:: unsafe function pointer type
++   
++   :glossary:
++     :dp:`fls_tiluwa2v4l6d`
++     An :dt:`unsafe function pointer type` is a function pointer type subject to
++     :t:`keyword` ``unsafe``.
++   :chapter:
++     :dp:`fls_5dd7icjcl3nt`
++     An :t:`unsafe function pointer type` is a function pointer type subject to
++     :t:`keyword` ``unsafe``.
+ 
+ :dp:`fls_B0SMXRqQMS1E`
+ A :t:`variadic part` indicates the presence of :t:`C`-like optional
+@@ -3742,6 +3787,12 @@ Traits
+      A :t:`trait` is an :t:`item` that describes an interface a :t:`type` can
+      implement.
+ 
++.. glossary-entry:: unsafe trait
++   
++   :glossary:
++     :dp:`fls_w6zlsf2ye457`
++     An :dt:`unsafe trait` is a :t:`trait` subject to :t:`keyword` ``unsafe``
++
+ .. glossary-entry:: built-in trait
+    
+    :glossary:
+@@ -4479,6 +4530,13 @@ An :dt:`output lifetime` is one of the following :t:`[lifetime]s`:
+   :std:`core::ops::Fn`, :std:`core::ops::FnMut`, and :std:`core::ops::FnOnce`
+   :t:`[trait]s`.
+ 
++.. glossary-entry:: unnamed lifetime
++   
++   :glossary:
++     :dp:`fls_4iy6zpq66mit`
++     An :dt:`unnamed lifetime` is a :t:`lifetime` declared with character 0x5F (low
++     line).
++
+ .. glossary-entry:: elided lifetime
+    
+    :glossary:
+diff --git a/src/unsafety.rst b/src/unsafety.rst
+index 1ede11b..a272bb1 100644
+--- a/src/unsafety.rst
++++ b/src/unsafety.rst
+@@ -10,14 +10,34 @@ Unsafety
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_8kqo952gjhaf`
+-:t:`Unsafety` is the presence of :t:`[unsafe operation]s` and :t:`[unsafe trait
+-implementation]s` in program text.
+-
+-:dp:`fls_ovn9czwnwxue`
+-An :t:`unsafe operation` is an operation that may result in
+-:t:`undefined behavior` that is not diagnosed as a static error.
+-:t:`[Unsafe operation]s` are referred to as :t:`unsafe Rust`.
++.. glossary-entry:: unsafety
++   
++   :glossary:
++     :dp:`fls_742ycx5181n`
++     :dt:`Unsafety` is the presence of :t:`[unsafe operation]s` in program text.
++   :chapter:
++     :dp:`fls_8kqo952gjhaf`
++     :t:`Unsafety` is the presence of :t:`[unsafe operation]s` and :t:`[unsafe trait
++     implementation]s` in program text.
++
++.. glossary-entry:: unsafe operation
++   
++   :glossary:
++     :dp:`fls_34h60ubicgsj`
++     An :dt:`unsafe operation` is an operation that may result in
++     :t:`undefined behavior` that is not diagnosed as a static error.
++     :t:`[Unsafe operation]s` are referred to as :t:`unsafe Rust`.
++   :chapter:
++     :dp:`fls_ovn9czwnwxue`
++     An :t:`unsafe operation` is an operation that may result in
++     :t:`undefined behavior` that is not diagnosed as a static error.
++     :t:`[Unsafe operation]s` are referred to as :t:`unsafe Rust`.
++
++.. glossary-entry:: unsafe Rust
++   
++   :glossary:
++     :dp:`fls_30asi010yf1a`
++     For :dt:`unsafe Rust`, see :t:`[unsafe operation]s`.
+ 
+ :dp:`fls_pfhmcafsjyf7`
+ The :t:`[unsafe operation]s` are:
+@@ -40,10 +60,16 @@ The :t:`[unsafe operation]s` are:
+ * :dp:`fls_s5nfhBFOk8Bu`
+   Calling :t:`macro` :std:`core::arch::asm`.
+ 
+-:dp:`fls_jb6krd90tjmc`
+-An :t:`unsafe context` is either an :t:`unsafe block` or an
+-:t:`unsafe function`.
++.. glossary-entry:: unsafe context
++   
++   :glossary:
++     :dp:`fls_qn1s845ejbu0`
++     An :dt:`unsafe context` is either an :t:`unsafe block` or an
++     :t:`unsafe function`.
++   :chapter:
++     :dp:`fls_jb6krd90tjmc`
++     An :t:`unsafe context` is either an :t:`unsafe block` or an
++     :t:`unsafe function`.
+ 
+ :dp:`fls_ybnpe7ppq1vh`
+ An :t:`unsafe operation` shall be used only within an :t:`unsafe context`.
+-
+diff --git a/src/values.rst b/src/values.rst
+index 0605b5f..e5321a2 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -112,9 +112,16 @@ Constants
+      A :t:`constant` is an :t:`immutable` :t:`value expression` whose uses are substituted by
+      the :t:`value`.
+ 
+-:dp:`fls_3mhj0kkupwuz`
+-An :t:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
+-line).
++.. glossary-entry:: unnamed constant
++   
++   :glossary:
++     :dp:`fls_ufj01cxxsv1w`
++     An :dt:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
++     line).
++   :chapter:
++     :dp:`fls_3mhj0kkupwuz`
++     An :t:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
++     line).
+ 
+ :dp:`fls_ka4y2yd100dx`
+ The :t:`type specification` of a :t:`constant` shall have ``'static``
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration files and commit
+
+[glossary-single-source-phase1 31ccd85] docs(glossary): migrate next 20 glossary terms
+ 8 files changed, 165 insertions(+), 33 deletions(-)
+
+Migrated the next 20 terms into chapter `.. glossary-entry::` directives, replacing in-chapter definitions where present and adding glossary-only blocks where not. The main updates are in `src/types-and-traits.rst`, `src/unsafety.rst`, `src/expressions.rst`, `src/functions.rst`, `src/ffi.rst`, `src/implementations.rst`, `src/entities-and-resolution.rst`, and `src/values.rst`, covering unit/unsafe/unnamed/unqualified/unsigned terms.
+
+- Generated glossary output matches the static baseline (`diff -u build/generated.glossary.rst src/glossary.static.rst.inc` was empty).
+- HTML diff check passed; report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`.
+- Term map appended via `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl` and checklist updated at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md` (both outside the repo, not committed).
+- Commit created: `docs(glossary): migrate next 20 glossary terms` (31ccd85).
+
+Commands run:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next steps:
+1) Push the commit if you want it on your branch.
+2) Continue with the next 20 unchecked terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

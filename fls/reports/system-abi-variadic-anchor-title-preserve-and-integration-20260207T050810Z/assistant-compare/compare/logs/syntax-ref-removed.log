@@ -1,0 +1,14 @@
+case: syntax-ref-removed
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/syntax-ref-removed/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/syntax-ref-removed/head.json
+
+observed tags:
+- role-change
+- syntax-ref-removed
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

@@ -1,0 +1,110 @@
+{
+  "table_schema_count": 26,
+  "tables": [
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-01.schema.json"
+    },
+    {
+      "column_count": 5,
+      "schema": "src/schemas/table-02.schema.json"
+    },
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-03.schema.json"
+    },
+    {
+      "column_count": 5,
+      "schema": "src/schemas/table-04.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-05.schema.json"
+    },
+    {
+      "column_count": 5,
+      "schema": "src/schemas/table-06.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-07.schema.json"
+    },
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-08.schema.json"
+    },
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-09.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-10.schema.json"
+    },
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-11.schema.json"
+    },
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-12.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-13.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-14.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-15.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-16.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-17.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-18.schema.json"
+    },
+    {
+      "column_count": 7,
+      "schema": "src/schemas/table-19.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-20.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-21.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-22.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-23.schema.json"
+    },
+    {
+      "column_count": 4,
+      "schema": "src/schemas/table-24.schema.json"
+    },
+    {
+      "column_count": 3,
+      "schema": "src/schemas/table-25.schema.json"
+    },
+    {
+      "column_count": 6,
+      "schema": "src/schemas/table-26.schema.json"
+    }
+  ],
+  "updated_common_schema": "src/schemas/table_common.schema.json"
+}

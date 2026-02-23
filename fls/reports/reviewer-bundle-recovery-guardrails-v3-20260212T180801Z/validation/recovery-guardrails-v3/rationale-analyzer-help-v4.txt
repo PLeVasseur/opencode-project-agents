@@ -1,0 +1,13 @@
+usage: analyze-rationale-patterns-v3.py [-h] --ledger LEDGER --json-out
+                                        JSON_OUT --markdown-out MARKDOWN_OUT
+                                        [--min-glossary-similarity MIN_GLOSSARY_SIMILARITY]
+
+Analyze rationale and definition-alignment signals for v3 ledger
+
+options:
+  -h, --help            show this help message and exit
+  --ledger LEDGER
+  --json-out JSON_OUT
+  --markdown-out MARKDOWN_OUT
+  --min-glossary-similarity MIN_GLOSSARY_SIMILARITY
+                        Threshold used for low-similarity reporting

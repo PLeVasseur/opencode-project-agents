@@ -1,0 +1,563 @@
+# ISO 26262 Hierarchical PDF Mining and Corpus Build Plan (Hardened)
+
+Date: 2026-02-15
+Status: Draft execution plan (fresh-session hardened)
+Priority: High
+Plan type: Data-mining and traceability corpus plan
+
+## 0) Locked decisions (non-negotiable)
+- [ ] Use a strict two-tier storage model.
+  - [ ] Run-scoped raw mining artifacts (including copyrighted/verbatim/OCR/debug) live only under repo-local `.cache/` data-plane run roots.
+  - [ ] Repo-scoped committed corpus remains non-verbatim and anchor-ready under `traceability/iso26262/`.
+  - [ ] No raw/verbatim extraction payload is committed.
+- [ ] Keep mining tooling fully decoupled from `make.py`.
+  - [ ] Mining is invoked only through standalone CLI tools under `tools/traceability/`.
+  - [ ] `make.py` does not gain mining commands, wrappers, aliases, or passthrough entrypoints.
+  - [ ] CI and runbooks invoke mining CLI directly.
+- [ ] Use resumable-execution control plane for crash resilience.
+  - [ ] Treat resumable-execution skill workflow as mandatory for mining runs.
+  - [ ] Keep durable control-plane state under `$OPENCODE_CONFIG_DIR/reports/<task>-<run_id>/`.
+  - [ ] Keep raw data-plane extraction artifacts under `.cache/` run roots only.
+  - [ ] Enforce single-writer lock discipline for control-plane run roots.
+  - [ ] Keep control-plane artifacts metadata-only (no copyrighted/verbatim extracted text).
+- [ ] Lock extraction stack policy for deterministic quality.
+  - [ ] Use Poppler/text-layout extraction as primary path.
+  - [ ] Do not OCR pages that already pass primary extraction gates (no "OCR over top" double-pass by default).
+  - [ ] Use OCR only as deterministic fallback for pages that fail primary extraction gates.
+  - [ ] Lock primary extraction hard-fail triggers per page.
+    - [ ] `non_blank && extracted_char_count == 0`.
+    - [ ] `non_blank && text_bearing_expected && extracted_char_count < 80`.
+    - [ ] `replacement_char_ratio > 0.005`.
+    - [ ] `control_char_ratio > 0.01`.
+    - [ ] parser/schema structural extraction error.
+  - [ ] Record per-page extraction method (`primary`, `ocr_fallback`) with decision reason and quality metrics in run artifacts.
+- [ ] Lock CI/legal policy for licensed PDFs.
+  - [ ] Do not place licensed PDFs in shared CI environments.
+  - [ ] Use fixture-only checks in shared CI.
+  - [ ] Run licensed end-to-end mining only in controlled local/self-hosted environments with hash verification.
+- [ ] Keep high-resolution locator fidelity for every pointed ISO unit.
+  - [ ] Every pointer resolves at least to part/section/clause/subclause and to exact unit kind.
+  - [ ] List pointers resolve to exact list and nested bullet path.
+  - [ ] Table pointers resolve to exact table, row, and column.
+  - [ ] Notes and footnotes resolve to exact parent context.
+- [ ] Keep hierarchy sharded to avoid context explosion.
+  - [ ] Use manifests and shard files, never one monolithic corpus file.
+  - [ ] Keep root indexes lightweight and generated from shards.
+  - [ ] Enforce deterministic shard split rules and stable naming.
+- [ ] Lock must-succeed coverage policy for required parts.
+  - [ ] Required parts are exactly those in `traceability/iso26262/index/relevant-pdf-policy.jsonc` `in_scope_parts`.
+  - [ ] Current required set is `P06`, `P08`, `P09`.
+  - [ ] Every parseable unit in required parts must be parsed and validated (no non-blocking exceptions for required parts).
+
+## 1) Fresh-session bootstrap contract
+- [ ] Define zero-context operator preflight.
+  - [ ] Verify repo root and Python tooling (`uv sync`, `uv run python --version`).
+  - [ ] Verify mining CLI help (`uv run python tools/traceability/mine_iso_corpus.py --help`).
+  - [ ] Verify required external binaries with version capture (`pdftotext --version`, `tesseract --version` when OCR is enabled).
+  - [ ] Verify execution mode (`fixture_ci` or `licensed_local`) before selecting input PDFs.
+  - [ ] Verify control-plane root is writable under `$OPENCODE_CONFIG_DIR/reports/`.
+- [ ] Define required environment variables and defaults.
+  - [ ] `OPENCODE_CONFIG_DIR` must be set and writable for control-plane run state.
+  - [ ] Default repo-local data-plane run root format: `.cache/iso26262/mining/runs/<run_id>`.
+  - [ ] Default repo-local PDF source root: `.cache/iso26262`.
+  - [ ] Optional structured PDF subdirectory `.cache/iso26262/source-pdfs` is supported only when explicitly passed via `--pdf-root`.
+  - [ ] Mining CLI is path-driven (`--pdf-root`, `--run-root`, `--control-run-root`), with no in-code `OPENCODE*` default resolution.
+  - [ ] `run_id` format is fixed to UTC timestamp: `YYYYMMDDTHHMMSSZ`.
+- [ ] Bootstrap resumable control-plane run root before stage execution.
+  - [ ] Runbook/launcher-resolved control-plane root: `$OPENCODE_CONFIG_DIR/reports/iso26262-mining-<run_id>/`, passed explicitly via `--control-run-root`.
+  - [ ] Initialize `state.env` from built-in schema defaults (no external template-path dependency).
+  - [ ] Initialize `checklist.state.env` from the canonical checklist key catalog in section `6C`.
+  - [ ] Record initial state/checklist file checksums in `run.log`.
+  - [ ] Create `run.log`, `artifacts/`, and `lock/` structures.
+  - [ ] Initialize immutable contract keys before any mutating stage work.
+- [ ] Define operator command sequence for first run.
+  - [ ] Run Phase 0 source-hash baseline first (`C0`) with `--lock-source-hashes` to eliminate required-part `sha256: PENDING` values.
+  - [ ] Run stage pipeline in canonical order (`ingest -> extract -> normalize -> anchor -> publish -> verify -> finalize`).
+  - [ ] Archive run manifest and stage logs as primary evidence for that run.
+  - [ ] Acquire run lock before executing stage transitions.
+
+## 2) Directory and file architecture
+- [ ] Define run-scoped control-plane layout (durable, resumable).
+  - [ ] `$OPENCODE_CONFIG_DIR/reports/iso26262-mining-<run_id>/state.env` for machine-readable run state.
+  - [ ] `$OPENCODE_CONFIG_DIR/reports/iso26262-mining-<run_id>/checklist.state.env` for explicit stage checklist gates.
+  - [ ] `$OPENCODE_CONFIG_DIR/reports/iso26262-mining-<run_id>/run.log` for human-readable timeline.
+  - [ ] `$OPENCODE_CONFIG_DIR/reports/iso26262-mining-<run_id>/artifacts/` for evidence and reports.
+  - [ ] `$OPENCODE_CONFIG_DIR/reports/iso26262-mining-<run_id>/lock/active.lock` for single-writer enforcement.
+  - [ ] Control-plane files store metadata only and never include copyrighted/verbatim extracted content.
+- [ ] Bind control-plane and data-plane roots by shared `run_id`.
+  - [ ] Record both roots in `state.env` (`CONTROL_RUN_ROOT`, `RUN_ROOT`).
+  - [ ] Reject resumes where control-plane `run_id` and data-plane `run_id` diverge.
+- [ ] Define run-scoped data-plane cache layout (untracked).
+  - [ ] `.cache/iso26262/` (default `--pdf-root`) for licensed source PDFs.
+  - [ ] `.cache/iso26262/source-pdfs/` is optional when explicitly selected as `--pdf-root`.
+  - [ ] `.cache/iso26262/mining/runs/<run_id>/ingest/` for source receipts and PDF fingerprints.
+  - [ ] `.cache/iso26262/mining/runs/<run_id>/extract/` for raw parser/OCR/layout outputs.
+  - [ ] `.cache/iso26262/mining/runs/<run_id>/normalize/` for atomic unit candidates.
+  - [ ] `.cache/iso26262/mining/runs/<run_id>/qa/` for ambiguity queue and adjudication ledgers.
+  - [ ] `.cache/iso26262/mining/runs/<run_id>/publish-preview/` for non-committed preview artifacts.
+  - [ ] `.cache/iso26262/mining/runs/<run_id>/logs/` for stage logs and replay diagnostics.
+- [ ] Define committed normalized corpus layout (tracked).
+  - [ ] `traceability/iso26262/index/` for root manifests and generated flat runtime indexes.
+  - [ ] `traceability/iso26262/corpus/2018-ed2/p06/`, `p08/`, `p09/` as per-part roots.
+  - [ ] Per-part `part-manifest.jsonc` and per-clause `clause-manifest.jsonc` are required before leaf shards.
+  - [ ] Leaf records are stored in `.jsonl` shards by unit type (`paragraph`, `list_item`, `table_cell`, `table_note`, `footnote`).
+  - [ ] Structural units (`section`, `clause`, `table`, `table_row`, `figure`, annex containers) are represented in manifests with deterministic IDs and counts.
+  - [ ] `traceability/iso26262/schema/` remains authoritative for all corpus schemas.
+
+## 3) Locator resolution contract (explicit "enough detail")
+- [ ] Define canonical structured locator schema (`source_locator`).
+  - [ ] Required common fields: `edition`, `part`, `section`, `clause`, `subclause_path`, `unit_type`.
+  - [ ] Required list fields: `list_id`, `bullet_path`, `bullet_index`, `nesting_level`.
+  - [ ] Required table fields: `table_id`, `table_label`, `row_id`, `row_index`, `col_key`, `col_index`.
+  - [ ] Required note fields: `note_id` and parent object pointer.
+  - [ ] Required footnote fields: `footnote_id` and parent object pointer.
+  - [ ] Required pagination fields: `page_start`, `page_end`.
+  - [ ] Optional geometry fields: normalized bbox/region ids for reproducibility.
+- [ ] Define assessor-readable locator string (`display_locator`).
+  - [ ] List format example: `P06 / Clause 3.2 / List L1 / Bullet 2.3`.
+  - [ ] Table format example: `P08 / Table 4 / Row r0012 / Column asil_d`.
+  - [ ] Footnote format example: `P09 / Clause 6.4 / Footnote F3`.
+- [ ] Define stability metadata for locators.
+  - [ ] Store `source_pdf_sha256` and `source_pdfset_id` on each record.
+  - [ ] Store `extractor_version`, `normalizer_version`, and `locator_confidence`.
+  - [ ] Store `review_state` with enum values (`auto_confirmed`, `manual_confirmed`, `needs_review`).
+
+## 3A) In-scope and must-succeed policy (authoritative)
+- [ ] Define authoritative in-scope rule.
+  - [ ] Load `required_parts` from `traceability/iso26262/index/relevant-pdf-policy.jsonc` field `in_scope_parts`.
+  - [ ] Compute `in_scope(unit) := unit.part in required_parts`.
+  - [ ] Treat units from parts outside `required_parts` as `out_of_scope` for release gating.
+- [ ] Define must-succeed rule (no ambiguity).
+  - [ ] Compute `must_succeed(unit) := in_scope(unit)`.
+  - [ ] Do not use a reduced critical-subset unit list for required parts.
+  - [ ] Parse and validate all supported unit types in required parts, including at least: `section`, `clause`, `paragraph`, `list_item`, `table`, `table_row`, `table_cell`, `table_note`, `footnote`, `figure`, `figure_note`, and annex-scoped equivalents.
+  - [ ] Define a unit-catalog map that binds each unit type to a storage class (`manifest_record` or `leaf_shard_record`) so completeness checks are unambiguous.
+- [ ] Define hard gate criteria for required parts.
+  - [ ] `publish` and `verify` fail if any required-part unit is missing, unresolved, or rejected.
+  - [ ] `publish` and `verify` fail if any required-part unit has locator/schema/integrity defects.
+  - [ ] `publish` and `verify` fail if any required-part QA item remains unresolved.
+- [ ] Define explicit "nice-to-have" boundary.
+  - [ ] Nice-to-have behavior applies only to units where `in_scope(unit) == false`.
+  - [ ] Nice-to-have units are still reported, but never used to pass/fail required-part completeness.
+
+## 4) Record model and schema contract
+- [ ] Add/extend normalized schema files.
+  - [ ] `traceability/iso26262/schema/corpus-record.schema.json`.
+  - [ ] `traceability/iso26262/schema/part-manifest.schema.json`.
+  - [ ] `traceability/iso26262/schema/clause-manifest.schema.json`.
+  - [ ] `traceability/iso26262/schema/corpus-manifest.schema.json`.
+  - [ ] `traceability/iso26262/schema/qa-adjudication.schema.json`.
+- [ ] Define required fields for every leaf record.
+  - [ ] `anchor_id`.
+  - [ ] `unit_type`.
+  - [ ] `source_locator`.
+  - [ ] `display_locator`.
+  - [ ] `fingerprint` (normalized checksum + shape stats).
+  - [ ] `provenance` (run id, pdf hash, tool versions).
+  - [ ] `status` (`mapped`, `unmapped_with_rationale`, `out_of_scope_with_rationale`).
+  - [ ] `notes` (non-verbatim rationale only).
+- [ ] Enforce anti-leak schema constraints.
+  - [ ] Prohibit raw-text fields (`raw_text`, `paragraph_text`, `cell_text`, `quote`, `excerpt`).
+  - [ ] Cap freeform note length.
+  - [ ] Validate against watermark/license/order/email leakage patterns.
+
+## 5) Deterministic mining CLI contract (standalone)
+- [ ] Implement canonical entrypoint script.
+  - [ ] Create `tools/traceability/mine_iso_corpus.py` as the only orchestrator entrypoint.
+  - [ ] Keep implementation modular under `tools/traceability/mining/` for stage logic.
+  - [ ] Expose machine-readable `--help` with complete argument descriptions.
+- [ ] Lock subcommands and sequence.
+  - [ ] `ingest`.
+  - [ ] `extract`.
+  - [ ] `normalize`.
+  - [ ] `anchor`.
+  - [ ] `publish`.
+  - [ ] `verify`.
+  - [ ] `finalize`.
+  - [ ] `replay`.
+  - [ ] `qa-list` and `qa-apply`.
+- [ ] Lock common CLI arguments.
+  - [ ] `--run-root <path>` (optional; defaults to repo-local `.cache/iso26262/mining/runs/<run_id>`).
+  - [ ] `--pdf-root <path>` (optional; defaults to repo-local `.cache/iso26262`).
+  - [ ] `--control-run-root <path>` (required; no in-code default).
+  - [ ] Runbook/launcher computes control-root from `$OPENCODE_CONFIG_DIR` and passes it explicitly.
+  - [ ] Path precedence is deterministic: explicit CLI arg > default path for optional args; `--control-run-root` must always be explicit.
+  - [ ] `--resume-run <run_id|path>` to resume an existing run from durable control-plane state.
+  - [ ] `--no-resume` to force a fresh run and reject existing state.
+  - [ ] `--lock-timeout-seconds <int>` with deterministic stale-lock policy.
+  - [ ] `--source-pdfset <path>` defaulting to `traceability/iso26262/index/source-pdfset.jsonc`.
+  - [ ] `--relevant-policy <path>` defaulting to `traceability/iso26262/index/relevant-pdf-policy.jsonc`.
+  - [ ] `--extraction-policy <path>` defaulting to `tools/traceability/mining/config/extraction_policy_v1.jsonc`.
+  - [ ] `--lock-source-hashes` (ingest-only): compute and persist missing required-part `sha256` values in `source-pdfset` during Phase 0.
+  - [ ] `--edition <id>` (required for publish/verify flows).
+  - [ ] `--parts <csv>` allowed only for non-publish exploratory runs unless it exactly matches policy `in_scope_parts`.
+  - [ ] `--mode fixture_ci|licensed_local` to lock legal/operational behavior.
+  - [ ] `--dry-run` for non-committing stage behavior.
+  - [ ] `--fail-on-qa` defaults true and cannot be disabled for required parts.
+  - [ ] `--allow-partial-scope` is forbidden for `publish` and `verify`.
+- [ ] Lock CLI exit codes for automation.
+  - [ ] `0` success.
+  - [ ] `2` usage/config error.
+  - [ ] `3` ingest/extraction failure.
+  - [ ] `4` schema or validation failure.
+  - [ ] `5` determinism replay mismatch.
+  - [ ] `6` unresolved QA queue blocking publish/verify.
+  - [ ] `7` run lock active (single-writer contention).
+  - [ ] `8` immutable contract drift on resume.
+  - [ ] `9` resumable stop-condition failure (state/checklist/artifact inconsistency).
+
+## 6) Determinism controls and reproducibility
+- [ ] Freeze execution context.
+  - [ ] Require `TZ=UTC`, `LC_ALL=C.UTF-8`, `PYTHONHASHSEED=0` for deterministic runs.
+  - [ ] Capture Python version, OS, and binary versions into run manifest.
+  - [ ] Pin dependency versions in project metadata and lockfile before rollout.
+- [ ] Enforce deterministic ordering and serialization.
+  - [ ] Sort units by canonical locator tuple before any write.
+  - [ ] Derive anchor IDs from locator grammar only.
+  - [ ] Serialize JSON/JSONL with stable key ordering and newline policy.
+  - [ ] Exclude volatile fields (host path, wall-clock timestamp) from committed corpus records.
+- [ ] Enforce deterministic sharding.
+  - [ ] Split by clause, then unit type, then deterministic chunk index.
+  - [ ] Use fixed shard limits (target 250, hard cap 500 records).
+  - [ ] Keep shard filenames stable and deterministic.
+- [ ] Add replay verification.
+  - [ ] Write `run-manifest.json` with input hashes, args, tool versions, and output checksums.
+  - [ ] `replay` reruns stages from locked manifest.
+  - [ ] Fail replay when any committed-bound output checksum differs.
+  - [ ] Treat timestamps as informational only; replay checks compare canonical payload hashes that exclude volatile time fields.
+- [ ] Enforce atomic state persistence for resumable control files.
+  - [ ] Never edit `state.env` or `checklist.state.env` in place.
+  - [ ] Write to `*.tmp`, parse-check, then atomically rename.
+  - [ ] Include explicit schema keys (`STATE_SCHEMA_VERSION`, `CHECKLIST_SCHEMA_VERSION`).
+
+## 6A) Primary extraction vs OCR fallback policy (concrete)
+- [ ] Define deterministic page state metrics.
+  - [ ] Compute `ink_coverage_ratio` (black/ink pixels over total pixels) from page raster.
+  - [ ] Compute `extracted_char_count` from primary extraction output.
+  - [ ] Compute `pdf_text_object_count` from primary PDF text extraction primitives.
+  - [ ] Compute `layout_text_region_count` from primary layout analysis (paragraph/list/table text regions).
+  - [ ] Compute `list_or_table_text_marker_count` from detected list/table textual markers.
+  - [ ] Compute `replacement_char_ratio` as `U+FFFD count / extracted_char_count`.
+  - [ ] Compute `control_char_ratio` as non-whitespace control chars over extracted chars.
+  - [ ] Compute `orientation_conf` when orientation detection is performed.
+- [ ] Lock page non-blank rule.
+  - [ ] `non_blank(page) := ink_coverage_ratio >= 0.005`.
+  - [ ] Pages with `non_blank == false` may produce zero text/units without fallback.
+- [ ] Lock text-bearing expectation rule.
+  - [ ] `text_bearing_expected(page) := (pdf_text_object_count >= 3) || (layout_text_region_count >= 1) || (list_or_table_text_marker_count >= 1)`.
+  - [ ] Non-blank pages with `text_bearing_expected == false` may remain primary-only when no other hard-fail conditions trigger.
+  - [ ] This avoids unnecessary fallback on figure-heavy, separator, or low-text pages.
+- [ ] Lock primary extraction hard-fail rule.
+  - [ ] Trigger OCR fallback when any hard-fail condition is true.
+    - [ ] `non_blank && extracted_char_count == 0`.
+    - [ ] `non_blank && text_bearing_expected && extracted_char_count < 80`.
+    - [ ] `replacement_char_ratio > 0.005`.
+    - [ ] `control_char_ratio > 0.01`.
+    - [ ] structural parser/schema error.
+  - [ ] Do not trigger OCR fallback when none of the hard-fail conditions are true.
+  - [ ] Do not trigger OCR fallback for `non_blank && !text_bearing_expected && extracted_char_count < 80` when no other hard-fail condition is true.
+- [ ] Lock OCR orientation handling.
+  - [ ] Auto-rotate OCR input page only when `orientation_conf >= 15.0`.
+  - [ ] Keep original orientation and add QA item when `orientation_conf < 15.0`.
+- [ ] Lock OCR quality outcome bands for fallback pages.
+  - [ ] `pass` when `mean_word_conf >= 85` and `p25_word_conf >= 70` and `low_conf_ratio_lt50 <= 0.10`.
+  - [ ] `needs_review` when `mean_word_conf >= 75` and `p25_word_conf >= 55` and `low_conf_ratio_lt50 <= 0.25` but not `pass`.
+  - [ ] `fail` otherwise.
+  - [ ] For required parts (`P06`, `P08`, `P09`), `needs_review` and `fail` must be fully resolved before publish/verify.
+- [ ] Lock extraction policy surface as versioned config.
+  - [ ] Store threshold constants in versioned config file (`tools/traceability/mining/config/extraction_policy_v1.jsonc`).
+  - [ ] Record policy version id in `run-manifest.json`.
+  - [ ] Require replay to use identical policy version and constants.
+
+## 6B) Resumable execution and crash-recovery contract
+- [ ] Enforce immutable run contract in control-plane state.
+  - [ ] Initialize and persist immutable keys before any mutating stage: `RUN_ID`, `TASK_NAME`, `RUN_ROOT`, `PDF_ROOT`, `CONTROL_RUN_ROOT`, `REPO_ROOT`, `PLAN_PATH`, `ARTIFACT_ROOT`, `LOCK_FILE`.
+  - [ ] Persist immutable input contract keys: edition, required parts, source-pdfset path/hash, relevant-policy path/hash, extraction-policy path/hash.
+  - [ ] On resume, fail with contract-drift error if any immutable key differs.
+- [ ] Enforce single-writer lock discipline.
+  - [ ] Acquire lock file before stage execution; store `pid`, `host`, `user`, and timestamp metadata.
+  - [ ] If active lock is valid, fail immediately with lock-contention exit code.
+  - [ ] If lock is stale, append prior lock contents to `run.log`, replace lock, and continue.
+  - [ ] Remove lock on both normal and failure exits.
+- [ ] Enforce stage pointer and checklist gates.
+  - [ ] Maintain one stage pointer key `CURRENT_STAGE` with ordered values (`ingest`, `extract`, `normalize`, `anchor`, `publish`, `verify`, `finalize`).
+  - [ ] Maintain per-stage done keys (`S_INGEST_DONE`, `S_EXTRACT_DONE`, `S_NORMALIZE_DONE`, `S_ANCHOR_DONE`, `S_PUBLISH_DONE`, `S_VERIFY_DONE`, `S_FINALIZE_DONE`).
+  - [ ] Maintain explicit checklist keys (`CB_<STAGE>_<ITEM>=0|1`) for each required child gate.
+  - [ ] Forbid setting any `S_*_DONE=1` when required `CB_*` keys for that stage are incomplete.
+- [ ] Enforce commit-boundary reconciliation as part of resumable state.
+  - [ ] Track `LAST_COMMITTED_PHASE`, `LAST_COMMITTED_SHA`, and `LAST_COMMITTED_CHECKPOINT` in `state.env`.
+  - [ ] Allow phase commits only when required stage gates and checkpoint artifacts for that phase are complete.
+  - [ ] On resume, reconcile `git HEAD` with committed state markers before continuing.
+  - [ ] Stop if commit markers and checkpoint artifacts disagree.
+- [ ] Define crash-resume reconciliation windows and behavior.
+  - [ ] Window A: crash before mutation -> resume from current stage start.
+  - [ ] Window B: crash after mutation but before verification -> rerun verification first, then continue.
+  - [ ] Window C: crash during publish with unknown completion -> reconcile manifests/checksums against expected outputs before deciding rerun.
+  - [ ] Window D: crash after verify but before finalization -> skip completed stages and run idempotent finalization only.
+  - [ ] Resume always starts from earliest incomplete safe stage proven by checklist + artifact evidence.
+- [ ] Define mandatory stop conditions.
+  - [ ] Dirty worktree at mutation boundaries when writing tracked corpus outputs.
+  - [ ] Any attempt to stage or commit raw `.cache/` mining artifacts.
+  - [ ] Any required part still has `sha256: PENDING` at or beyond ingest phase boundary.
+  - [ ] Missing or unparsable `state.env` or `checklist.state.env`.
+  - [ ] Stage marked done while required checklist keys remain incomplete.
+  - [ ] Missing required artifacts for a stage marked done.
+  - [ ] Commit marker mismatch (`LAST_COMMITTED_SHA` does not match `git HEAD`) at resume boundary.
+  - [ ] Immutable contract drift on resume.
+  - [ ] Active non-stale lock held by another process.
+- [ ] Define idempotent finalization contract.
+  - [ ] Track explicit finalization flags: `CANONICAL_STATE_UPDATED`, `REPORT_APPENDED`, `RUN_SUMMARY_UPDATED`.
+  - [ ] Append final summary block with unique `RUN_ID` marker and skip duplicate append on resume.
+  - [ ] Finalization must not rewrite completed stage outputs except to repair missing finalization metadata.
+  - [ ] Finalization and all control-plane reports must remain metadata-only and copyright-clean.
+
+## 6C) Checklist key catalog (canonical)
+- [ ] Define a fixed checklist-key catalog for deterministic stage gating.
+  - [ ] `ingest` required keys: `CB_INGEST_SOURCE_PDFSET_VALID`, `CB_INGEST_REQUIRED_PARTS_FOUND`, `CB_INGEST_HASHES_VERIFIED`, `CB_INGEST_STATE_INITIALIZED`, `CB_INGEST_SUMMARY_WRITTEN`.
+  - [ ] `extract` required keys: `CB_EXTRACT_PRIMARY_EVAL_COMPLETE`, `CB_EXTRACT_FALLBACK_COMPLETE`, `CB_EXTRACT_PAGE_DECISIONS_WRITTEN`, `CB_EXTRACT_SUMMARY_WRITTEN`.
+  - [ ] `normalize` required keys: `CB_NORMALIZE_UNITS_WRITTEN`, `CB_NORMALIZE_COVERAGE_COMPUTED`, `CB_NORMALIZE_QA_QUEUE_WRITTEN`, `CB_NORMALIZE_SUMMARY_WRITTEN`.
+  - [ ] `anchor` required keys: `CB_ANCHOR_IDS_WRITTEN`, `CB_ANCHOR_DEDUP_CHECK_PASS`, `CB_ANCHOR_SUMMARY_WRITTEN`.
+  - [ ] `publish` required keys: `CB_PUBLISH_SHARDS_WRITTEN`, `CB_PUBLISH_REGISTRY_WRITTEN`, `CB_PUBLISH_QA_GATE_PASS`, `CB_PUBLISH_TRANSACTION_COMMIT`.
+  - [ ] `verify` required keys: `CB_VERIFY_SCHEMA_PASS`, `CB_VERIFY_INTEGRITY_PASS`, `CB_VERIFY_REQUIRED_PARTS_PASS`, `CB_VERIFY_REPORT_CONTENT_PASS`, `CB_VERIFY_SUMMARY_WRITTEN`.
+  - [ ] `finalize` required keys: `CB_FINALIZE_REPORT_APPENDED`, `CB_FINALIZE_STATE_FLAGS_WRITTEN`, `CB_FINALIZE_LOCK_RELEASED`.
+- [ ] Define deterministic checklist validation behavior.
+  - [ ] Missing required `CB_*` key is treated as `0` and blocks stage completion.
+  - [ ] Unknown `CB_*` keys are ignored for gating but logged for diagnostics.
+  - [ ] Stage transitions are rejected unless all required keys for current stage are `1`.
+
+## 7) Stage artifact contracts
+- [ ] Apply resumable stage protocol to every stage.
+  - [ ] Verify active lock ownership before entering each stage.
+  - [ ] Set `CURRENT_STAGE=<stage>` before running stage logic.
+  - [ ] Initialize/reset required `CB_<STAGE>_<ITEM>` keys from section `6C` catalog to `0` at stage start.
+  - [ ] Write stage outputs first, then verify required artifacts, then set checklist keys to `1`.
+  - [ ] Set `S_<STAGE>_DONE=1` only after all required checklist keys are `1`.
+  - [ ] Persist state/checklist updates atomically and append stage transition entries to `run.log`.
+  - [ ] On resume, reconcile `S_<STAGE>_DONE` against required artifacts; if mismatch, clear done flag and rerun stage.
+- [ ] Emit deterministic checkpoint artifacts per stage and per phase.
+  - [ ] Stage checkpoint path: `$CONTROL_RUN_ROOT/artifacts/checkpoints/<stage>.done.json`.
+  - [ ] Phase checkpoint path: `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-<n>.done.json`.
+  - [ ] Checkpoint payload includes run id, stage/phase id, input hashes, output checksums, and timestamp in UTC.
+  - [ ] Checkpoint checksum is computed over canonical checkpoint payload excluding timestamp fields.
+  - [ ] Replay/verification compares canonical checkpoint checksums, not raw timestamp values.
+  - [ ] Do not mark stage/phase done until corresponding checkpoint file is written and checksum-verified.
+- [ ] Stage `ingest` contract.
+  - [ ] Validate `source-pdfset` schema.
+  - [ ] In Phase 0 (`--lock-source-hashes`), compute and persist missing required-part hashes.
+  - [ ] Outside Phase 0, fail if any selected required part has `sha256: PENDING`.
+  - [ ] Resolve input PDF location from `--pdf-root` (default `.cache/iso26262`).
+  - [ ] Use deterministic part-to-file matching rules before hashing.
+    - [ ] `P06` preferred exact filename: `ISO 26262-6;2018 ed.2 (en).pdf`.
+    - [ ] `P08` preferred exact filename: `ISO 26262-8;2018 ed.2 (en).pdf`.
+    - [ ] `P09` preferred exact filename: `ISO 26262-9;2018 ed.2 (en).pdf`.
+    - [ ] `P06` fallback regex: `(?i)^ISO\s*26262[-; ]6.*2018.*ed\.?\s*2.*\.pdf$`.
+    - [ ] `P08` fallback regex: `(?i)^ISO\s*26262[-; ]8.*2018.*ed\.?\s*2.*\.pdf$`.
+    - [ ] `P09` fallback regex: `(?i)^ISO\s*26262[-; ]9.*2018.*ed\.?\s*2.*\.pdf$`.
+    - [ ] Fail on ambiguous matches (more than one candidate for a required part).
+  - [ ] Detect required-part PDFs (`P06`, `P08`, `P09` per current policy) before hashing or downstream processing.
+  - [ ] Fail fast with clear diagnostics for missing inputs (missing part ids, resolved `--pdf-root`, and expected filename/pattern candidates).
+  - [ ] Persist resolved file path per required part in `ingest-summary.json`.
+  - [ ] Verify local PDF bytes match declared hashes.
+  - [ ] Verify `required_parts` from policy are resolvable and present for non-exploratory runs.
+  - [ ] Validate extraction policy file schema and record policy checksum/version in run manifest.
+  - [ ] Initialize immutable contract keys in `state.env` and validate immutable contract on resume.
+  - [ ] Initialize stage/checklist key catalog in `checklist.state.env`.
+  - [ ] Emit `ingest-summary.json` with input file inventory.
+- [ ] Stage `extract` contract.
+  - [ ] Emit page-level structural extraction artifacts under run root.
+  - [ ] Emit extraction confidence metrics and anomaly counts.
+  - [ ] Compute and emit `text_bearing_expected` decision inputs (`pdf_text_object_count`, `layout_text_region_count`, `list_or_table_text_marker_count`) per page.
+  - [ ] Evaluate primary extraction hard-fail conditions per page using section `6A` thresholds.
+  - [ ] Execute OCR fallback only for pages flagged as primary hard-fail.
+  - [ ] Emit per-page extraction decision record (`primary` vs `ocr_fallback`) with reason codes and metrics.
+  - [ ] Emit OCR quality band (`pass`, `needs_review`, `fail`) for pages that used fallback.
+  - [ ] Emit `extract-summary.json` with per-part page/structure counts.
+  - [ ] Emit `extract-page-decisions.jsonl` with one deterministic record per page.
+- [ ] Stage `normalize` contract.
+  - [ ] Emit atomic unit candidates with high-resolution locators.
+  - [ ] Emit unresolved ambiguities into `qa/queue.jsonl`.
+  - [ ] Emit per-part/per-unit-type expected-vs-normalized counts.
+  - [ ] Fail when required-part coverage is below 100% for any required unit type.
+  - [ ] Compute coverage as `normalized_count(unit_type, part) / expected_count(unit_type, part)` where expected counts come from `extract` and normalized counts come from `normalize` outputs.
+  - [ ] Ensure every page from required parts has exactly one extraction decision record carried forward from `extract-page-decisions.jsonl`.
+  - [ ] Emit `normalize-summary.json` with per-unit-type counts.
+- [ ] Stage `anchor` contract.
+  - [ ] Mint deterministic anchors for every normalized unit.
+  - [ ] Detect and fail on duplicate anchors.
+  - [ ] Fail when any required-part normalized unit does not yield a valid anchor.
+  - [ ] Emit `anchor-summary.json` with dedup stats.
+- [ ] Stage `publish` contract.
+  - [ ] Write tracked non-verbatim corpus shards and manifests only.
+  - [ ] Generate `traceability/iso26262/index/anchor-registry.jsonc` from shard manifests.
+  - [ ] Refuse publish when any required-part QA item remains unresolved.
+  - [ ] Refuse publish when any required-part completeness metric is below 100%.
+  - [ ] Refuse publish when any required-part page has extraction decision outcome `needs_review` or `fail` without resolved adjudication.
+  - [ ] Use publish transaction markers (`publish.begin`, `publish.commit`) to support crash reconciliation.
+  - [ ] On resume after interrupted publish, reconcile manifest/checksum state before deciding rerun or continue.
+- [ ] Stage `verify` contract.
+  - [ ] Validate all schemas and link integrity across manifests/shards.
+  - [ ] Validate anti-leak policy and unknown-anchor checks.
+  - [ ] Validate control-plane reports/state contain no copyrighted/verbatim extraction text.
+  - [ ] Validate raw `.cache/` mining artifacts are not part of tracked/committed outputs.
+  - [ ] Validate mining implementation files do not hardcode `OPENCODE*` defaults or config references.
+  - [ ] Validate `required_parts` completeness: every parseable required-part unit is present and valid.
+  - [ ] Validate unresolved QA count equals zero for required parts.
+  - [ ] Validate every required-part page has extraction outcome `pass` or manually adjudicated equivalent.
+  - [ ] Emit `verify-summary.json` and non-zero exit on failure.
+  - [ ] Set finalization prerequisites in state when verify succeeds.
+- [ ] Stage `finalize` contract.
+  - [ ] Write idempotent final reports and summary markers in control-plane artifacts.
+  - [ ] Set `CANONICAL_STATE_UPDATED=1`, `REPORT_APPENDED=1`, and `RUN_SUMMARY_UPDATED=1` only after successful writes.
+  - [ ] Set `S_FINALIZE_DONE=1` and release lock.
+
+## 8) QA adjudication and manual-review contract
+- [ ] Define deterministic QA queue schema.
+  - [ ] Every queued item has stable `qa_item_id` derived from locator and fingerprint.
+  - [ ] Queue entries include reason code, confidence score, and impacted stage.
+  - [ ] Queue entries include recommended action placeholder.
+  - [ ] Queue reason codes include extraction policy reasons from section `6A`.
+    - [ ] `primary_zero_text_nonblank`.
+    - [ ] `primary_low_char_count_text_bearing`.
+    - [ ] `primary_replacement_char_ratio_high`.
+    - [ ] `primary_control_char_ratio_high`.
+    - [ ] `ocr_orientation_low_conf`.
+    - [ ] `ocr_quality_needs_review`.
+    - [ ] `ocr_quality_fail`.
+- [ ] Define adjudication workflow.
+  - [ ] `qa-list` exports unresolved items grouped by part/clause/unit type.
+  - [ ] `qa-apply` consumes a ledger file and updates run-scoped adjudication state.
+  - [ ] Adjudication outcomes are explicit (`accept`, `reject`, `override_locator`, `mark_out_of_scope`).
+  - [ ] `mark_out_of_scope` is rejected for units in required parts (`P06`, `P08`, `P09`).
+- [ ] Define persistence and replay behavior.
+  - [ ] Adjudication ledger is stored under data-plane run root (`.cache/.../qa/adjudication-ledger.json`).
+  - [ ] Control-plane state stores pointer and checksum for adjudication ledger.
+  - [ ] Replay applies the same adjudication ledger deterministically.
+  - [ ] Publish/verify fail if required adjudications are missing or stale.
+  - [ ] Publish/verify fail if any required-part QA item remains open after adjudication replay.
+  - [ ] Adjudication entries for extraction quality must include explicit corrected locator/structure references when overrides are applied.
+
+## 9) Runtime compatibility and integration contract
+- [ ] Preserve compatibility with current Sphinx extension loader.
+  - [ ] Continue emitting `traceability/iso26262/index/anchor-registry.jsonc` in schema-compatible format.
+  - [ ] Map shard fields to required registry fields (`anchor_id`, `part`, `unit`, `status`, optional `notes`).
+  - [ ] Keep `anchor-registry` sorted deterministically for stable diffs.
+- [ ] Preserve current validation behavior.
+  - [ ] `traceability/iso26262/schema/anchor-registry.schema.json` remains pass/fail contract.
+  - [ ] Existing trace-reference linting remains authoritative for mapped anchors.
+  - [ ] Unknown-anchor checks remain hard failures for mapped records.
+
+## 10) CI, runbook, and evidence contract
+- [ ] Add explicit runbook for fresh sessions.
+  - [ ] Include copy/paste bootstrap commands and expected outputs.
+  - [ ] Include control-plane bootstrap commands that initialize resumable state files under `$OPENCODE_CONFIG_DIR/reports/...`.
+  - [ ] Include canonical first-run command sequence that passes `--control-run-root` explicitly and executes phase order (`C0 -> C1+`).
+  - [ ] Include explicit warning that `$OPENCODE_CONFIG_DIR/reports/...` may be in a committed repo and must remain metadata-only.
+  - [ ] Include explicit forbidden-report-content list (no OCR text, no extracted paragraph text, no table/list/cell verbatim payloads, no page images).
+  - [ ] Include lock acquisition/release behavior and stale-lock recovery procedure.
+  - [ ] Include phase/commit resume reconciliation procedure using phase checkpoints and `LAST_COMMITTED_*` state markers.
+  - [ ] Include dry-run and publish command examples.
+  - [ ] Include replay command examples and mismatch triage steps.
+  - [ ] Include explicit resume command examples for interrupted runs (`--resume-run`).
+  - [ ] Include explicit mode selection guidance for `fixture_ci` vs `licensed_local`.
+  - [ ] Include explicit extraction behavior statement: primary extraction first, OCR fallback only for hard-fail pages.
+  - [ ] Include threshold table from section `6A` and examples for interpreting pass/needs_review/fail bands.
+  - [ ] Document optional audit mode (if enabled later) as non-blocking and disabled by default.
+- [ ] Add CI jobs for deterministic mining.
+  - [ ] Shared CI Job A (no licensed PDFs): schema + anti-leak + link integrity verify on fixture corpus only.
+  - [ ] Shared CI Job B (no licensed PDFs): deterministic replay check on fixed fixture subset.
+  - [ ] Shared CI Job C (no licensed PDFs): compatibility generation check for `anchor-registry.jsonc` from fixture shards.
+  - [ ] Shared CI Job D (code hygiene): fail if mining implementation files contain `OPENCODE` or `OPENCODE_CONFIG_DIR` references.
+  - [ ] Scope Job D to implementation paths only (for example `tools/traceability/**/*.py`, runtime configs), excluding plans/docs.
+  - [ ] Controlled local/self-hosted Job E (licensed PDFs allowed): full required-parts end-to-end mining and verify.
+  - [ ] Controlled resilience Job F: inject crash at each stage boundary and assert successful deterministic resume.
+  - [ ] Controlled resilience Job G: lock-contention test and stale-lock recovery test.
+- [ ] Define evidence outputs.
+  - [ ] Archive `run-manifest.json`, stage summaries, and QA ledger as build artifacts.
+  - [ ] Archive `state.env`, `checklist.state.env`, and `run.log` from control-plane run root.
+  - [ ] Archive stage and phase checkpoint files from `$CONTROL_RUN_ROOT/artifacts/checkpoints/`.
+  - [ ] Archive replay diff report when replay mismatch occurs.
+  - [ ] Archive corpus coverage report by part/clause/unit type.
+  - [ ] Archive required-parts completeness report with explicit pass/fail for `P06`, `P08`, and `P09`.
+  - [ ] Archive resume reconciliation reports for crash-window scenarios A/B/C/D.
+  - [ ] Run report-content scrub checks before archiving control-plane artifacts.
+
+## 11) Integrated phase, stage, and commit execution
+- [ ] Execute one ordered, resumable pipeline where phase gates, stage gates, and commit boundaries are coupled.
+  - [ ] Treat each phase as complete only when stage gates, commit batch, verification subset, and phase checkpoint all pass.
+  - [ ] Persist and reconcile phase completion markers in `state.env` (`LAST_COMMITTED_PHASE`, `LAST_COMMITTED_SHA`, `LAST_COMMITTED_CHECKPOINT`).
+  - [ ] On resume, restart from the earliest phase with missing or mismatched commit marker, stage gate, or checkpoint artifact.
+- [ ] Phase 0: Input hash baseline and source lock (`C0`).
+  - [ ] `C0` `chore(trace-data): lock required-part source PDF hash baseline`.
+  - [ ] Run ingest in hash-lock mode (`--lock-source-hashes`) to populate missing required-part hashes.
+  - [ ] Populate/refresh `source-pdfset` hashes for `P06`, `P08`, and `P09` from resolved input files.
+  - [ ] Required stage/gate conditions: ingest preflight completes with no `sha256: PENDING` for required parts.
+  - [ ] Required artifacts/checkpoint: source-hash evidence + `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-0.done.json`.
+- [ ] Phase 1: Foundation and resumability (`C1`-`C2`).
+  - [ ] `C1` `chore(trace-miner): scaffold standalone mining CLI and stage framework`.
+  - [ ] `C2` `feat(trace-miner): implement resumable control-plane state machine`.
+  - [ ] Required stage/gate conditions: control-plane lock lifecycle, atomic state persistence, schema keys, explicit `--control-run-root`.
+  - [ ] Required artifacts/checkpoint: control-plane bootstrap evidence + `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-1.done.json`.
+- [ ] Phase 2: Inputs and extraction (`C3`-`C5`).
+  - [ ] `C3` `feat(trace-miner): implement ingest stage and required-part PDF discovery`.
+  - [ ] `C4` `feat(trace-miner): implement deterministic extraction policy metrics and page decisions`.
+  - [ ] `C5` `feat(trace-miner): implement OCR fallback and quality banding`.
+  - [ ] Required stage/gate conditions: `S_INGEST_DONE=1`, `S_EXTRACT_DONE=1`, required-part input detection pass, source-hash verification pass.
+  - [ ] Required artifacts/checkpoint: `ingest-summary.json`, `extract-summary.json`, `extract-page-decisions.jsonl`, `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-2.done.json`.
+  - [ ] Pilot tuning requirement: tune segmentation and QA reason codes before phase close.
+- [ ] Phase 3: Normalize, anchor, and publish (`C6`-`C8`).
+  - [ ] `C6` `feat(trace-miner): implement normalize stage and locator model`.
+  - [ ] `C7` `feat(trace-miner): implement deterministic anchoring and sharded corpus writers`.
+  - [ ] `C8` `feat(trace-miner): implement publish stage and compatibility registry generation`.
+  - [ ] Required stage/gate conditions: `S_NORMALIZE_DONE=1`, `S_ANCHOR_DONE=1`, `S_PUBLISH_DONE=1`, publish blockers zero for required parts.
+  - [ ] Required artifacts/checkpoint: normalize/anchor summaries, shard manifests, generated `traceability/iso26262/index/anchor-registry.jsonc`, `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-3.done.json`.
+- [ ] Phase 4: Verify, operations, and pilot acceptance (`C9`-`C12`).
+  - [ ] `C9` `feat(trace-miner): implement verify gates and compliance checks`.
+  - [ ] `C10` `chore(ci,docs): add CI jobs and operator runbook workflows`.
+  - [ ] `C11` `chore(trace-data): refresh required-part source hash evidence and lock provenance`.
+  - [ ] `C12` `feat(trace-data): publish pilot normalized corpus and evidence`.
+  - [ ] Required stage/gate conditions: `S_VERIFY_DONE=1`, `S_FINALIZE_DONE=1`, zero unresolved required-part QA for pilot slice.
+  - [ ] Required artifacts/checkpoint: verify summary, CI evidence bundle, source-hash evidence, pilot coverage evidence, `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-4.done.json`.
+- [ ] Phase 5: Full required-part rollout and stabilization (`C13+` repeatable data commits).
+  - [ ] Publish remaining in-scope units for `P06`, `P08`, and `P09` using bounded `feat(trace-data): publish required-part corpus batch <n>` commits.
+  - [ ] Run replay checks on representative fixtures and resilience drills (crash windows A/B/C/D, lock contention, stale-lock recovery).
+  - [ ] Close all remaining required-part QA items and unresolved locator defects.
+  - [ ] Confirm 100% completeness and zero unresolved QA for `P06`, `P08`, and `P09`.
+  - [ ] Required artifacts/checkpoint: rollout coverage evidence + `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-5.done.json`.
+- [ ] Enforce phase-level commit discipline.
+  - [ ] Keep commit order strict (`C0 -> C1 -> C2 -> ...`) and never reorder commits on resume.
+  - [ ] Run relevant verify subset after each commit and full phase verify before writing phase checkpoint.
+  - [ ] Do not start next phase if prior phase checkpoint, commit marker, or required artifacts are missing/mismatched.
+
+## 12) Resolved owner decisions (implemented as policy)
+- [ ] Extraction stack decision is locked and implemented.
+  - [ ] Primary extraction is Poppler/text-layout.
+  - [ ] OCR is fallback-only based on deterministic hard-fail gates; successful primary pages are not OCR double-processed.
+  - [ ] Fallback thresholds are locked (`char_count` with `text_bearing_expected` guard, replacement/control char ratios, orientation confidence, OCR quality bands).
+- [ ] CI/legal provisioning decision is locked and implemented.
+  - [ ] Licensed PDFs are never stored or processed in shared CI.
+  - [ ] Shared CI uses fixtures only.
+  - [ ] Full licensed runs are executed only in controlled local/self-hosted environments.
+- [ ] QA/completeness decision is locked and implemented.
+  - [ ] Required parts are exactly `P06`, `P08`, `P09` from policy.
+  - [ ] Every parseable unit in required parts must be parsed and validated.
+  - [ ] Zero unresolved QA items are permitted for required parts at publish/verify.
+- [ ] Resumability decision is locked and implemented.
+  - [ ] Use dual-run-root model: control-plane under `$OPENCODE_CONFIG_DIR/reports/...` and data-plane under `.cache/...`.
+  - [ ] Keep licensed PDFs and raw/OCR/debug mining artifacts in repo-local `.cache/...` data-plane paths.
+  - [ ] Use single-writer locks, atomic state updates, and crash-window reconciliation.
+  - [ ] Use idempotent finalize with explicit completion flags.
+  - [ ] Keep control-plane reports/state metadata-only so no copyrighted/verbatim content exists under `$OPENCODE_CONFIG_DIR/reports/...`.
+
+## 13) Definition of done
+- [ ] Documents of interest are mined comprehensively to paragraph, list-bullet, and table-cell granularity.
+- [ ] Required parts `P06`, `P08`, and `P09` achieve 100% parse completeness across all supported unit types.
+- [ ] Required parts `P06`, `P08`, and `P09` have zero unresolved QA items at publish and verify.
+- [ ] Primary extraction vs OCR fallback decisions are fully traceable per page with locked threshold policy and deterministic reason codes.
+- [ ] Every committed anchor has high-resolution locators sufficient for exact back-reference.
+- [ ] Corpus is shard-based and index-driven, with no monolithic context explosion.
+- [ ] Run-scoped verbatim artifacts are isolated to repo-local `.cache/` data-plane paths and never committed.
+- [ ] Control-plane reports under `$OPENCODE_CONFIG_DIR/reports/...` are metadata-only and contain no copyrighted/verbatim extracted content.
+- [ ] Standalone mining `verify` passes and repository trace-validation gates pass with corpus-integrity and anti-leak checks enabled.
+- [ ] Deterministic replay succeeds without checksum drift for the same manifest inputs.
+- [ ] Interrupted runs can resume from durable control-plane state without redoing completed safe stages.
+- [ ] Crash-resume drills pass for all defined crash windows and lock scenarios.

@@ -1,0 +1,24 @@
+{
+  "baseline_gate_mode": "report_only",
+  "decision": "continue",
+  "failed_metrics": [
+    "paragraph_license",
+    "list_license",
+    "table_license",
+    "list_meaningful",
+    "table_meaningful",
+    "paragraph_pattern",
+    "list_marker",
+    "table_structural",
+    "table_pattern",
+    "section_boundary",
+    "clause_boundary",
+    "table_scope",
+    "section_anchor",
+    "clause_anchor",
+    "unit_parent_scope"
+  ],
+  "run_id": "pr1-20260215T221903Z",
+  "stage": "EQ1",
+  "timestamp_utc": "2026-02-15T22:40:45Z"
+}

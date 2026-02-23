@@ -1,0 +1,522 @@
+# ISO 26262 PDF Extraction Quality and Unitization Remediation Plan (Resumable, Metrics-First)
+
+Date: 2026-02-16
+Status: Draft execution plan
+Priority: Critical
+Plan type: Extraction-quality hardening and unitization remediation
+
+## 0) Locked decisions (non-negotiable)
+- [ ] Quality remediation is mandatory before claiming extraction/unit-link reliability.
+- [ ] Execution branch is locked to PR #1 head branch `docs/iso26262-sphinx-traceability-migration-20260214T184350Z`.
+  - [ ] Do not create or switch to an ad-hoc feature branch during this run.
+  - [ ] Stop immediately if current branch drifts from the locked PR head branch.
+- [ ] Use a fresh PR1-scoped control run root for this remediation wave.
+  - [ ] Default `RUN_ID` is `pr1-20260215T221903Z`.
+  - [ ] Default `CONTROL_RUN_ROOT` is `$OPENCODE_CONFIG_DIR/reports/iso26262-extraction-quality-pr1-$RUN_ID`.
+  - [ ] Do not auto-resume or mutate unrelated older extraction-quality run roots.
+- [ ] Use resumable-execution discipline for the full remediation run.
+  - [ ] Single-writer lock, immutable contract, atomic state/checklist updates.
+  - [ ] Crash-window reconciliation and idempotent finalization.
+- [ ] Stage completion requires implementation evidence, not stage bookkeeping.
+  - [ ] For every stage `EQ0..EQ13`, write `artifacts/evidence/EQx.implementation-evidence.json` and block completion if missing.
+  - [ ] `EQ2..EQ11` require at least one stage-tagged implementation commit (`[EQx]`) on `TARGET_BRANCH` before `S_EQx_DONE=1`.
+  - [ ] A stage commit that only touches `reports/**`, `.cache/**`, `run.log`, `state.env`, or `checklist.state.env` is invalid.
+  - [ ] Stage checkpoints must record commit SHAs, changed files, tests run, and metric deltas.
+  - [ ] Do not mark any stage done when evidence is placeholder/scaffold-only.
+- [ ] Keep storage boundaries strict.
+  - [ ] Verbatim artifacts remain data-plane only (`.cache/...`).
+  - [ ] Control-plane under `$OPENCODE_CONFIG_DIR/reports/...` stays metadata-only.
+  - [ ] Control-plane run artifacts must contain remediation evidence only (no copied workspace build/lint clutter).
+  - [ ] Checked-in outputs remain non-verbatim.
+- [ ] No fallback-to-boilerplate for required unit types.
+  - [ ] If meaningful `paragraph`/`list_bullet`/`table_cell` cannot be extracted with confidence, fail the stage.
+- [ ] Quality scorecards are hard gates, not informational notes.
+- [ ] Required unit types remain `paragraph`, `list_bullet`, `table_cell` and must meet semantic quality thresholds.
+- [ ] Unit-type pattern definitions are explicit and versioned.
+  - [ ] `paragraph`, `list_bullet`, `table_cell` each get positive/negative pattern rules, confidence features, and fixture coverage.
+- [ ] Larger structural scopes are extracted and anchored during the same run.
+  - [ ] `section`, `clause`, and `table` scopes must be detected before final unit publication.
+  - [ ] Unit-level anchors must include parent scope linkage (`unit -> table/clause -> section -> part`).
+
+## 1) Problem statement and baseline (observed)
+- [ ] Current extraction has unacceptable contamination from page headers/license text in unit-level outputs.
+- [ ] Baseline contamination snapshot (from recent run evidence):
+  - [ ] `paragraph`: very high boilerplate contamination.
+  - [ ] `table_cell`: very high boilerplate contamination.
+  - [ ] `list_bullet`: mixed quality (some good, substantial contamination).
+- [ ] Structural extraction defects to address:
+  - [ ] poor header/footer suppression,
+  - [ ] rough line wrapping and dehyphenation,
+  - [ ] weak superscript/subscript handling,
+  - [ ] weak table-cell segmentation,
+  - [ ] brittle fallback strategy that picks first non-empty line,
+  - [ ] weak and underspecified pattern definitions for `paragraph`/`list_bullet`/`table_cell`,
+  - [ ] missing robust section/clause/table boundary extraction,
+  - [ ] synthetic page-derived clause anchors instead of structural anchors.
+
+## 2) Objectives and success criteria
+- [ ] Extract meaningful unit text at `paragraph`/`list_bullet`/`table_cell` granularity.
+- [ ] Define deterministic pattern contracts for required unit types.
+  - [ ] each unit type has deterministic inclusion/exclusion rules,
+  - [ ] each unit type has confidence scoring and rejection criteria,
+  - [ ] each unit type has fixture-backed acceptance tests.
+- [ ] Preserve typographic semantics critical for technical meaning:
+  - [ ] superscript/subscript, footnote markers, ordinal markers, table symbol markers.
+- [ ] Improve line reconstruction quality:
+  - [ ] line wrapping recovery,
+  - [ ] dehyphenation,
+  - [ ] paragraph continuation correctness.
+- [ ] Extract and preserve larger structural scopes:
+  - [ ] section boundaries and canonical section identifiers,
+  - [ ] clause boundaries and canonical clause identifiers,
+  - [ ] table boundaries/captions and canonical table identifiers.
+- [ ] Keep deterministic anchor lineage stable and verifiable.
+- [ ] Introduce hierarchical anchors and linkage checks.
+  - [ ] Every unit links to exactly one parent scope path where applicable,
+  - [ ] every parent scope anchor resolves in registry and checked-in manifests.
+- [ ] Provide machine-verifiable grading report with before/after metrics and explicit pass/fail thresholds.
+
+## 3) What an expert in PDF extraction would do (reference approach)
+- [ ] Use multi-signal extraction, not single-string fallback.
+  - [ ] Parse text spans with geometry (x/y, font size, baseline, style) using robust PDF libraries.
+  - [ ] Keep parser provenance and confidence per span/line/block.
+- [ ] Build a layout-aware normalization pipeline.
+  - [ ] Detect repeated headers/footers by cross-page frequency + y-band clustering.
+  - [ ] Reconstruct reading order with geometric/topological ordering, not raw dump order.
+  - [ ] Reflow wrapped lines using indentation, punctuation, and style continuity heuristics.
+- [ ] Preserve meaningful typography.
+  - [ ] Detect superscript/subscript from baseline offset and relative font size.
+  - [ ] Encode text with deterministic markers where direct Unicode superscript/subscript cannot be safely preserved.
+- [ ] Perform table-aware extraction.
+  - [ ] Detect table regions using rulings/alignment and token-grid structure.
+  - [ ] Segment rows/cells explicitly and map tokens to cell coordinates.
+  - [ ] Reject weak table-cell candidates rather than falling back to boilerplate.
+- [ ] Specify explicit extraction grammars for unit types.
+  - [ ] `paragraph`: contiguous prose lines with continuity cues (indentation, punctuation, vertical spacing, style) and exclusion of heading/list/table signatures.
+  - [ ] `list_bullet`: recognized marker grammar (numeric/alpha/roman/symbol), continuation-capture rules, nested depth policy.
+  - [ ] `table_cell`: must originate from a detected table region with stable row/column coordinates and optional spanning metadata.
+- [ ] Build hierarchical structure graph before final unitization.
+  - [ ] Detect sections/clauses by numbering/title patterns and geometry.
+  - [ ] Detect table scopes from caption + region extents.
+  - [ ] Persist parent-child graph (`part -> section -> clause -> table? -> unit`).
+- [ ] Anchor top-down, then attach units.
+  - [ ] Mint canonical anchors for section/clause/table scopes first.
+  - [ ] Attach unit anchors with parent scope IDs and resolver checks.
+- [ ] Add quality scoring + gold-set validation.
+  - [ ] Run deterministic fixture set (paragraph/list/table, positive+negative).
+  - [ ] Measure semantic quality and contamination rates.
+  - [ ] Gate promotion on thresholds.
+
+## 4) Self-grading metrics (required)
+- [ ] Define and persist `quality-scorecard.json` with metric values and pass/fail.
+- [ ] Required contamination metrics (by unit type and overall):
+  - [ ] `license_header_contamination_rate`
+  - [ ] `repeated_header_footer_contamination_rate`
+  - [ ] `boilerplate_phrase_contamination_rate`
+- [ ] Required semantic metrics:
+  - [ ] `meaningful_unit_ratio` (non-trivial lexical density and semantic token diversity)
+  - [ ] `paragraph_pattern_conformance_rate`
+  - [ ] `table_cell_structural_validity_rate` (cell candidates truly from table regions)
+  - [ ] `table_cell_pattern_conformance_rate`
+  - [ ] `list_bullet_marker_validity_rate` (bullet/number marker consistency)
+  - [ ] `list_bullet_continuation_capture_rate`
+- [ ] Required text reconstruction metrics:
+  - [ ] `line_wrap_repair_precision`
+  - [ ] `dehyphenation_precision`
+  - [ ] `paragraph_boundary_f1`
+- [ ] Required scope extraction metrics:
+  - [ ] `section_boundary_f1`
+  - [ ] `clause_boundary_f1`
+  - [ ] `table_scope_detection_recall`
+- [ ] Required typography metrics:
+  - [ ] `superscript_retention_rate`
+  - [ ] `subscript_retention_rate`
+  - [ ] `footnote_marker_retention_rate`
+- [ ] Required lineage metrics:
+  - [ ] `unit_to_page_link_completeness`
+  - [ ] `unit_to_anchor_link_completeness`
+  - [ ] `unit_to_parent_scope_link_completeness`
+  - [ ] `section_anchor_resolution_rate`
+  - [ ] `clause_anchor_resolution_rate`
+  - [ ] `table_anchor_resolution_rate`
+  - [ ] `anchor_registry_resolution_rate`
+  - [ ] `replay_signature_match_rate`
+
+## 5) Minimum threshold gates (hard fail at EQ12 acceptance)
+- [ ] EQ1 baseline grading is report-only: record full pass/fail inventory and continue.
+- [ ] Section 5 thresholds are enforced as hard-fail only at `EQ12` acceptance.
+- [ ] `license_header_contamination_rate`:
+  - [ ] `paragraph <= 5%`
+  - [ ] `list_bullet <= 5%`
+  - [ ] `table_cell <= 10%`
+- [ ] `meaningful_unit_ratio`:
+  - [ ] `paragraph >= 90%`
+  - [ ] `list_bullet >= 85%`
+  - [ ] `table_cell >= 70%`
+- [ ] `paragraph_pattern_conformance_rate >= 95%`.
+- [ ] `list_bullet_marker_validity_rate >= 95%` and `list_bullet_continuation_capture_rate >= 95%`.
+- [ ] `table_cell_structural_validity_rate >= 90%`.
+- [ ] `table_cell_pattern_conformance_rate >= 90%`.
+- [ ] `line_wrap_repair_precision >= 95%`.
+- [ ] `dehyphenation_precision >= 95%`.
+- [ ] `section_boundary_f1 >= 0.95` and `clause_boundary_f1 >= 0.95`.
+- [ ] `table_scope_detection_recall >= 95%`.
+- [ ] `superscript_retention_rate >= 95%` and `subscript_retention_rate >= 95%`.
+- [ ] `section_anchor_resolution_rate = 100%`, `clause_anchor_resolution_rate = 100%`, `table_anchor_resolution_rate = 100%` for required parts.
+- [ ] `unit_to_parent_scope_link_completeness = 100%` for required parts.
+- [ ] `unit_to_anchor_link_completeness = 100%` for required parts (`P06`, `P08`, `P09`).
+- [ ] `replay_signature_match_rate = 100%`.
+
+## 6) Scope
+- [ ] In scope:
+  - [ ] extraction and normalization stages for unit generation,
+  - [ ] formal unit-pattern definition assets and fixture-backed validation,
+  - [ ] section/clause/table scope extraction and parent-child structure graph,
+  - [ ] hierarchical anchor generation and resolver audits,
+  - [ ] table/list/paragraph unitization heuristics,
+  - [ ] quality scoring harness and fixtures,
+  - [ ] verification gates and reports,
+  - [ ] deterministic lineage and replay checks.
+- [ ] Out of scope:
+  - [ ] changing required-part policy,
+  - [ ] relaxing anti-leak boundaries,
+  - [ ] introducing nondeterministic model-only extraction without deterministic fallback/audit trail.
+
+## 7) Resumable execution contract (mandatory)
+- [ ] Run root: `$OPENCODE_CONFIG_DIR/reports/iso26262-extraction-quality-pr1-<run-id>/`.
+- [ ] Active default run for this wave: `RUN_ID=pr1-20260215T221903Z`.
+- [ ] Durable files:
+  - [ ] `state.env`
+  - [ ] `checklist.state.env`
+  - [ ] `run.log`
+  - [ ] `artifacts/`
+- [ ] Immutable contract keys include:
+  - [ ] `RUN_ID`, `TASK_NAME`, `REPO_ROOT`, `PLAN_PATH`, `RUN_ROOT`, `CONTROL_RUN_ROOT`, `LOCK_FILE`
+  - [ ] `PR_URL`, `PR_NUMBER`, `PR_HEAD_BRANCH`, `PR_BASE_BRANCH`
+  - [ ] `BASELINE_RUN_ID`, `BASELINE_CONTROL_RUN_ROOT`, `BASELINE_DATA_RUN_ROOT`
+  - [ ] `PDF_ROOT`, `SOURCE_PDFSET_PATH`, `RELEVANT_POLICY_PATH`, `EXTRACTION_POLICY_PATH`
+  - [ ] `UNIT_PATTERN_SPEC_PATH`, `SCOPE_PATTERN_SPEC_PATH`
+  - [ ] `UNIT_QUALITY_SCORECARD_PATH`, `UNIT_QUALITY_FIXTURE_MANIFEST_PATH`
+  - [ ] `SCOPE_FIXTURE_MANIFEST_PATH`, `HIERARCHICAL_ANCHOR_AUDIT_PATH`
+  - [ ] `SUPERSUB_FIXTURE_PATH`, `WRAP_FIXTURE_PATH`, `TABLE_FIXTURE_PATH`
+  - [ ] `TARGET_BRANCH`, `BASE_PIN_SHA`
+- [ ] Lock discipline:
+  - [ ] active lock => stop,
+  - [ ] stale lock => log then replace,
+  - [ ] release on all exits.
+- [ ] Resume reconciliation rules:
+  - [ ] stage marked done but missing artifacts/checklist => reopen stage,
+  - [ ] stage outputs present but scorecard/checkpoint mismatch => stop and reconcile,
+  - [ ] commit/checkpoint mismatch => stop and reconcile,
+  - [ ] current branch differs from `PR_HEAD_BRANCH`/`TARGET_BRANCH` => stop before stage mutation.
+
+## 7A) Run reset protocol (before re-execution)
+- [ ] If previous run state is invalid, reset run identity before execution.
+  - [ ] archive old control run root to `.../iso26262-extraction-quality-pr1-$RUN_ID.reset-<timestamp>/`.
+  - [ ] archive old quality data root to `.cache/iso26262/mining/quality-runs/$RUN_ID.reset-<timestamp>/`.
+  - [ ] do not delete prior evidence without explicit instruction.
+  - [ ] next invocation must detect kickoff mode at `EQ0` for the reset `RUN_ID`.
+
+## 8) Stage map (quality remediation)
+- [ ] `EQ0` Bootstrap + PR branch lock + immutable contract + baseline capture.
+- [ ] `EQ1` Baseline grading and failure inventory (report-only gate).
+- [ ] `EQ2` Header/footer and boilerplate detector implementation.
+- [ ] `EQ3` Line-wrap/dehyphenation reconstruction hardening.
+- [ ] `EQ4` Superscript/subscript/footnote retention handling.
+- [ ] `EQ5` Paragraph pattern specification + segmentation and continuation reconstruction.
+- [ ] `EQ6` List-bullet pattern specification + hierarchy/continuation handling.
+- [ ] `EQ7` Table scope detection + cell segmentation pattern hardening.
+- [ ] `EQ8` Section/clause/table scope extraction + hierarchical anchor graph.
+- [ ] `EQ9` Unit selector rewrite + parent-scope linkage enforcement (remove first-non-empty fallbacks).
+- [ ] `EQ10` Quality harness + fixture corpus + scoring reports.
+- [ ] `EQ11` End-to-end rerun on required parts + lineage replay checks.
+- [ ] `EQ12` Acceptance audit and evidence report (hard-threshold enforcement).
+- [ ] `EQ13` Finalize and handoff.
+
+## 8A) Per-stage evidence and commit contract (hard gate at every stage)
+- [ ] A stage may transition to done only when all stage evidence gates pass.
+  - [ ] `CB_EQx_STAGE_START=1` and all stage-required checklist keys are explicit `1`.
+  - [ ] `artifacts/checkpoints/EQx.done.json` exists and references evidence artifact digest.
+  - [ ] `artifacts/evidence/EQx.implementation-evidence.json` exists and validates.
+- [ ] Required evidence payload schema for `artifacts/evidence/EQx.implementation-evidence.json`:
+  - [ ] `run_id`, `stage`, `timestamp_utc`, `target_branch`, `base_branch`, `base_pin_sha`.
+  - [ ] `commit_shas[]` (non-empty for `EQ2..EQ11`; optional for `EQ0/EQ1/EQ12/EQ13`).
+  - [ ] `commit_messages[]` and every implementation commit contains `[EQx]` token.
+  - [ ] `changed_files[]`, `changed_file_count`, `required_paths_touched[]`, `required_paths_gate_pass`.
+  - [ ] `tests_run[]` with `command`, `exit_code`, and `output_artifact_path`.
+  - [ ] `metrics_before`, `metrics_after`, `metrics_delta`, `targeted_metric_improvement_pass`.
+  - [ ] `blockers[]` and `justification` when a targeted metric cannot improve.
+- [ ] Commit discipline is mandatory for implementation stages.
+  - [ ] `EQ2..EQ11` require at least one implementation commit each; zero-commit stage completion is forbidden.
+  - [ ] Cross-stage commits are forbidden; one commit may not satisfy multiple stages.
+  - [ ] Stage commit must be created after stage start marker and reachable from `TARGET_BRANCH` HEAD.
+  - [ ] Commit messages follow Conventional Commits and include stage tag (`[EQ2]` ... `[EQ11]`).
+  - [ ] Do not use synthetic/empty commits to satisfy this rule.
+- [ ] Placeholder/scaffold evidence is explicitly forbidden.
+  - [ ] Forbidden statuses: `scaffold_only`, `pending_eq*`, `drafted` without implementation commit evidence.
+  - [ ] Empty fixture files cannot be sole evidence of stage completion.
+  - [ ] Reusing/copied scorecards without recomputation signature is invalid.
+- [ ] Stage-targeted metric movement requirements.
+  - [ ] `EQ2..EQ11` must show improvement or maintained pass state for that stage's targeted metrics.
+  - [ ] `EQ1` is baseline report-only and records failures without blocking.
+  - [ ] `EQ12` enforces full hard thresholds from section 5.
+  - [ ] `EQ13` may finalize only if no regression versus `EQ12` accepted metrics.
+
+## 8B) Stage-to-path and metric matrix (enforced)
+- [ ] `EQ0` Bootstrap evidence:
+  - [ ] required evidence paths: `state.env`, `checklist.state.env`, `run.log`, `artifacts/checkpoints/EQ0.done.json`.
+  - [ ] required quality signal: immutable contract hash and lock acquisition evidence.
+- [ ] `EQ1` Baseline evidence:
+  - [ ] required evidence paths: `artifacts/baseline/*`, `artifacts/checkpoints/EQ1.baseline-gate.json`.
+  - [ ] required quality signal: baseline scorecard and failed-metric inventory.
+- [ ] `EQ2` Boilerplate suppression evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/extract.py`, `tools/traceability/mining/normalize.py`, `tools/traceability/mining/config/*`.
+  - [ ] targeted metrics: `license_header_contamination_rate`, `repeated_header_footer_contamination_rate`, `boilerplate_phrase_contamination_rate`.
+- [ ] `EQ3` Line reconstruction evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/extract.py`, `tools/traceability/mining/normalize.py`.
+  - [ ] targeted metrics: `line_wrap_repair_precision`, `dehyphenation_precision`, `paragraph_boundary_f1`.
+- [ ] `EQ4` Sup/sub evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/extract.py`, `tools/traceability/mining/normalize.py`.
+  - [ ] targeted metrics: `superscript_retention_rate`, `subscript_retention_rate`, `footnote_marker_retention_rate`.
+- [ ] `EQ5` Paragraph segmentation evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/normalize.py`, `tools/traceability/mining/config/*`.
+  - [ ] targeted metrics: `paragraph_meaningful_unit_ratio`, `paragraph_pattern_conformance_rate`.
+- [ ] `EQ6` List extraction evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/normalize.py`, `tools/traceability/mining/config/*`.
+  - [ ] targeted metrics: `list_bullet_marker_validity_rate`, `list_bullet_continuation_capture_rate`, `meaningful_unit_ratio(list_bullet)`.
+- [ ] `EQ7` Table extraction evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/extract.py`, `tools/traceability/mining/normalize.py`, `tools/traceability/mining/config/*`.
+  - [ ] targeted metrics: `table_cell_structural_validity_rate`, `table_cell_pattern_conformance_rate`, `meaningful_unit_ratio(table_cell)`, `table_scope_detection_recall`.
+- [ ] `EQ8` Scope extraction evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/anchor.py`, `tools/traceability/mining/publish.py`, `tools/traceability/mining/normalize.py`.
+  - [ ] targeted metrics: `section_boundary_f1`, `clause_boundary_f1`, `section_anchor_resolution_rate`, `clause_anchor_resolution_rate`, `table_anchor_resolution_rate`.
+- [ ] `EQ9` Unit selector/linkage evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/normalize.py`, `tools/traceability/mining/anchor.py`, `tools/traceability/mining/publish.py`.
+  - [ ] targeted metrics: `unit_to_parent_scope_link_completeness`, `unit_to_anchor_link_completeness`.
+- [ ] `EQ10` Harness/fixtures evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/verify.py`, `tools/traceability/mining/stages.py`, `tools/traceability/mining/framework.py`.
+  - [ ] targeted metrics: scorecard completeness and deterministic scorer consistency signature.
+- [ ] `EQ11` End-to-end replay evidence:
+  - [ ] required implementation paths include at least one of: `tools/traceability/mining/cli.py`, `tools/traceability/mining/verify.py`, `tools/traceability/mining/publish.py`.
+  - [ ] targeted metrics: `replay_signature_match_rate`, linkage completeness, anchor resolution rates.
+- [ ] `EQ12` Acceptance evidence:
+  - [ ] required evidence paths: acceptance audit with full pass/fail list and hard-threshold decision.
+  - [ ] required quality signal: all section 5 thresholds pass.
+- [ ] `EQ13` Finalization evidence:
+  - [ ] required evidence paths: final summary and finalization flags.
+  - [ ] required quality signal: no regression from accepted `EQ12` metrics.
+
+## 8C) Commit chunk map (mandatory execution order)
+- [ ] Commit chunks are predeclared and must be executed in order; skipping or merging chunks requires explicit blocker record.
+- [ ] Commit message format for implementation chunks:
+  - [ ] `type(scope): [EQx][Cx] <why-focused summary>` using Conventional Commits.
+  - [ ] `EQx` is stage tag, `Cx` is chunk tag (example: `[EQ5][C2]`).
+  - [ ] Each chunk commit must include a short `why` statement and targeted metrics in body.
+- [ ] Commit chunk file-set rule (mandatory):
+  - [ ] every `EQx-Cy` commit must touch at least one stage-required implementation path from section `8B`.
+  - [ ] every `EQx-Cy` commit must also touch at least one validation asset path (`artifacts/fixtures/**`, scorer/harness code, or stage verification tests).
+  - [ ] commits that change docs/checkpoints only are invalid for `EQ2..EQ11`.
+- [ ] `EQ2` commit chunks:
+  - [ ] `EQ2-C1`: repeated header/footer detector (cross-page/y-band frequency), suppression decisions, audit counters.
+  - [ ] `EQ2-C2`: legal/license boilerplate pattern rules + deterministic exceptions + fixture tests.
+- [ ] `EQ3` commit chunks:
+  - [ ] `EQ3-C1`: line-wrap merge heuristics using indentation/punctuation/style continuity.
+  - [ ] `EQ3-C2`: soft/hard hyphen repair rules + dehyphenation confidence tagging + fixtures.
+- [ ] `EQ4` commit chunks:
+  - [ ] `EQ4-C1`: superscript/subscript detection from geometry and baseline offset.
+  - [ ] `EQ4-C2`: deterministic retention encoding + footnote marker handling + retention tests.
+- [ ] `EQ5` commit chunks:
+  - [ ] `EQ5-C1`: paragraph positive/negative pattern spec and confidence policy.
+  - [ ] `EQ5-C2`: paragraph segmentation/continuation reconstruction + boilerplate/list/table exclusion gates.
+- [ ] `EQ6` commit chunks:
+  - [ ] `EQ6-C1`: list marker grammar (numeric/alpha/roman/symbol) + hierarchy depth metadata.
+  - [ ] `EQ6-C2`: wrapped-list continuation capture/merge logic + continuation fixtures.
+- [ ] `EQ7` commit chunks:
+  - [ ] `EQ7-C1`: table region detection and stable row/column segmentation.
+  - [ ] `EQ7-C2`: table-cell pattern conformance, span metadata (`row_span`, `col_span`), confidence rejection.
+- [ ] `EQ8` commit chunks:
+  - [ ] `EQ8-C1`: section/clause/table boundary extraction and canonical IDs.
+  - [ ] `EQ8-C2`: hierarchical scope graph and canonical scope anchor minting + resolver checks.
+- [ ] `EQ9` commit chunks:
+  - [ ] `EQ9-C1`: remove first-non-empty fallback selector for `list_bullet` and `table_cell`.
+  - [ ] `EQ9-C2`: enforce `unit -> parent_scope -> anchor` linkage and hard-fail on incomplete linkage.
+- [ ] `EQ10` commit chunks:
+  - [ ] `EQ10-C1`: fixture manifest expansion (paragraph/list/table/scope/supsub/wrap) + deterministic scorer inputs.
+  - [ ] `EQ10-C2`: scorecard and anomaly reporting with targeted-metric before/after deltas.
+- [ ] `EQ11` commit chunks:
+  - [ ] `EQ11-C1`: end-to-end rerun wiring and deterministic replay signature generation.
+  - [ ] `EQ11-C2`: linkage/completeness audits and anchor resolution checks for required parts.
+- [ ] Chunk completion checklist (applies to every `EQx-Cy`):
+  - [ ] implementation code changed in required paths,
+  - [ ] stage-targeted tests passed,
+  - [ ] targeted metrics improved or remained passing,
+  - [ ] chunk evidence appended to stage evidence artifact,
+  - [ ] chunk commit SHA appended to stage-commit ledger.
+
+## 9) Work packages by stage
+- [ ] Global stage workflow (mandatory for every `EQx`).
+  - [ ] start stage transaction marker and set `CB_EQx_STAGE_START=1`.
+  - [ ] implement stage changes in required code paths.
+  - [ ] run stage-targeted tests/fixtures and persist outputs.
+  - [ ] compute before/after scorecard deltas for targeted metrics.
+  - [ ] create stage-tagged Conventional Commit (`[EQx]`) for `EQ2..EQ11`.
+  - [ ] write `artifacts/evidence/EQx.implementation-evidence.json`.
+  - [ ] write `artifacts/checkpoints/EQx.done.json` referencing evidence digest.
+  - [ ] only then set `S_EQx_DONE=1` and `CB_EQx_STAGE_COMPLETE=1`.
+- [ ] `EQ0` Bootstrap.
+  - [ ] resolve PR #1 head branch metadata and persist immutable `PR_*` contract keys,
+  - [ ] checkout locked PR head branch and verify branch lock before stage work,
+  - [ ] initialize state/checklist from templates,
+  - [ ] record baseline run pointers,
+  - [ ] acquire lock and write run header.
+- [ ] `EQ1` Baseline grading.
+  - [ ] compute contamination and semantic metrics from baseline run,
+  - [ ] write `artifacts/baseline/baseline-quality-scorecard.json`,
+  - [ ] write `artifacts/baseline/failure-inventory.md` with concrete examples,
+  - [ ] write baseline gate decision (`report_only`) and advance regardless of failed thresholds.
+- [ ] `EQ2` Boilerplate suppression.
+  - [ ] implement repeated-line header/footer detector,
+  - [ ] implement policy patterns for legal/license boilerplate suppression,
+  - [ ] add deterministic exceptions and audit logs.
+- [ ] `EQ3` Line reconstruction.
+  - [ ] implement line merge heuristics,
+  - [ ] implement soft-hyphen/hard-hyphen repair rules,
+  - [ ] add confidence tags for repaired segments.
+- [ ] `EQ4` Sup/sub and markers.
+  - [ ] derive superscript/subscript from geometry,
+  - [ ] preserve or encode with deterministic markers,
+  - [ ] verify fixture retention rates.
+- [ ] `EQ5` Paragraph segmentation.
+  - [ ] define explicit `paragraph` pattern rules (positive/negative),
+  - [ ] segment by indentation, spacing, punctuation, and heading cues,
+  - [ ] reject paragraphs dominated by boilerplate noise,
+  - [ ] reject candidates matching list/table/heading signatures,
+  - [ ] ensure deterministic ordering and IDs.
+- [ ] `EQ6` List extraction.
+  - [ ] define explicit `list_bullet` marker + continuation pattern rules,
+  - [ ] support alpha, numeric, Roman, and symbol bullets,
+  - [ ] preserve continuation lines for wrapped bullets,
+  - [ ] validate continuation merge correctness with fixtures,
+  - [ ] emit hierarchy metadata for sub-bullets.
+- [ ] `EQ7` Table extraction.
+  - [ ] define explicit `table_cell` inclusion rules tied to detected table scopes,
+  - [ ] detect table blocks using geometric cues,
+  - [ ] segment rows/cells with stable coordinates,
+  - [ ] capture span metadata (`row_span`, `col_span`) where present,
+  - [ ] emit explicit `table_id`, `row_index`, `col_index`, `cell_bbox` metadata.
+- [ ] `EQ8` Scope extraction + hierarchical anchors.
+  - [ ] detect and persist section boundaries + IDs,
+  - [ ] detect and persist clause boundaries + IDs,
+  - [ ] detect and persist table scopes/captions + IDs,
+  - [ ] build parent-child scope graph and mint canonical scope anchors,
+  - [ ] validate scope graph determinism across replay.
+- [ ] `EQ9` Unit selector rewrite.
+  - [ ] replace fallback-to-first-line for `table_cell` and `list_bullet`,
+  - [ ] gate extraction when confidence below threshold,
+  - [ ] enforce `unit -> parent scope` linkage on all emitted units,
+  - [ ] fail stage if required unit completeness cannot be met with quality constraints.
+- [ ] `EQ10` Quality harness.
+  - [ ] create fixture manifests for paragraph/list/table/scope/supsub/wrap,
+  - [ ] run deterministic scorer,
+  - [ ] publish scorecards and anomaly examples.
+- [ ] `EQ11` End-to-end rerun.
+  - [ ] rerun `extract -> normalize -> anchor -> publish -> verify`,
+  - [ ] verify deterministic signatures and linkage completeness,
+  - [ ] verify hierarchical scope anchors resolve in registry/manifests,
+  - [ ] verify no control-plane leakage.
+- [ ] `EQ12` Acceptance audit.
+  - [ ] produce before/after deltas for every key metric,
+  - [ ] include section/clause/table scope extraction quality deltas,
+  - [ ] include sampled evidence rows with unit->anchor->checked-in refs,
+  - [ ] include unresolved items and reasons.
+- [ ] `EQ13` Finalize.
+  - [ ] mark finalization flags,
+  - [ ] append run summary,
+  - [ ] release lock.
+
+## 10) Required artifacts
+- [ ] Stage evidence (mandatory for each stage):
+  - [ ] `artifacts/evidence/EQ0.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ1.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ2.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ3.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ4.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ5.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ6.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ7.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ8.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ9.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ10.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ11.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ12.implementation-evidence.json`
+  - [ ] `artifacts/evidence/EQ13.implementation-evidence.json`
+  - [ ] `artifacts/evidence/stage-commit-ledger.json` (maps `EQx -> commit_sha[] -> changed_files -> tests -> metrics_delta`)
+- [ ] Baseline:
+  - [ ] `artifacts/baseline/baseline-quality-scorecard.json`
+  - [ ] `artifacts/baseline/failure-inventory.md`
+  - [ ] `artifacts/checkpoints/EQ1.baseline-gate.json` (records `report_only` decision + failed metrics)
+- [ ] Fixtures and scoring:
+  - [ ] `artifacts/patterns/unit-pattern-spec.json`
+  - [ ] `artifacts/patterns/scope-pattern-spec.json`
+  - [ ] `artifacts/fixtures/unit-quality-fixture-manifest.json`
+  - [ ] `artifacts/fixtures/scope-fixture-manifest.json`
+  - [ ] `artifacts/fixtures/supersub-fixtures.jsonl`
+  - [ ] `artifacts/fixtures/wrap-fixtures.jsonl`
+  - [ ] `artifacts/fixtures/table-fixtures.jsonl`
+  - [ ] `artifacts/fixtures/scope-fixtures.jsonl`
+  - [ ] `artifacts/quality/quality-scorecard.json`
+  - [ ] `artifacts/quality/quality-anomalies.jsonl`
+- [ ] Replay and lineage:
+  - [ ] `artifacts/scopes/section-clause-table-scopes.jsonl`
+  - [ ] `artifacts/replay/replay-signatures-before.json`
+  - [ ] `artifacts/replay/replay-signatures-after.json`
+  - [ ] `artifacts/lineage/hierarchical-anchor-audit.json`
+  - [ ] `artifacts/lineage/unit-parent-scope-linkage-audit.json`
+  - [ ] `artifacts/lineage/unit-anchor-linkage-audit.json`
+- [ ] Final reports:
+  - [ ] `artifacts/final/quality-remediation-summary.json`
+  - [ ] `artifacts/final/quality-remediation-summary.md`
+
+## 11) Mandatory stop conditions
+- [ ] lock contention by active non-stale writer,
+- [ ] immutable contract drift,
+- [ ] branch drift from locked `PR_HEAD_BRANCH`/`TARGET_BRANCH`,
+- [ ] missing/unparsable state/checklist,
+- [ ] stage marked done without `artifacts/evidence/EQx.implementation-evidence.json`,
+- [ ] `EQ2..EQ11` stage marked done with zero qualifying implementation commits,
+- [ ] stage commit missing `[EQx]` tag or not reachable from `TARGET_BRANCH` HEAD,
+- [ ] stage evidence shows only report/control-plane file changes (no required code-path modifications),
+- [ ] stage evidence missing passing stage-targeted tests/fixtures,
+- [ ] stage evidence missing before/after metric deltas for targeted metrics,
+- [ ] placeholder/scaffold evidence used as completion proof,
+- [ ] stage marked done but required artifacts missing,
+- [ ] any hard threshold in section 5 fails at `EQ12` acceptance,
+- [ ] targeted metrics regress between `EQx` and `EQx+1` without explicit accepted blocker record,
+- [ ] any required-part completeness or linkage gate < 100%,
+- [ ] any required section/clause/table anchor resolution gate < 100%,
+- [ ] replay signature mismatch,
+- [ ] control-plane artifact contains disallowed verbatim text keys,
+- [ ] `.cache` artifacts staged for commit.
+
+## 12) Definition of done
+- [ ] All stages `EQ0..EQ13` complete with checkpoints.
+- [ ] All stages `EQ0..EQ13` include valid implementation evidence artifacts.
+- [ ] Every implementation stage `EQ2..EQ11` has at least one qualifying stage-tagged Conventional Commit (`[EQx]`).
+- [ ] Stage commit ledger is complete and reproducible (`artifacts/evidence/stage-commit-ledger.json`).
+- [ ] All hard metrics pass thresholds.
+- [ ] Required parts `P06/P08/P09` pass unit-level quality gates for `paragraph/list_bullet/table_cell`.
+- [ ] Required parts `P06/P08/P09` pass structural scope extraction gates for `section/clause/table`.
+- [ ] Unit->anchor->checked-in corpus linkage integrity is 100% for required types.
+- [ ] Unit->parent-scope->anchor->checked-in linkage integrity is 100% for required types.
+- [ ] Evidence reports generated and reproducible.
+
+## 13) Prompt and operations handoff
+- [ ] Execution prompt path:
+  - [ ] `$OPENCODE_CONFIG_DIR/prompts/execute-iso26262-pdf-extraction-quality-remediation-resumable.md`
+- [ ] New session checklist:
+  - [ ] resolve `OPENCODE_CONFIG_DIR` and `REPO_ROOT`,
+  - [ ] resolve PR #1 head branch and lock `TARGET_BRANCH` to that branch,
+  - [ ] use explicit PR1-scoped run id/root (`pr1-20260215T221903Z`) instead of auto-selecting newest incomplete run,
+  - [ ] reconcile resume state,
+  - [ ] enforce EQ1 baseline gate mode = `report_only`,
+  - [ ] continue from earliest incomplete safe stage.

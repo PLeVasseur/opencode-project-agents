@@ -1,0 +1,14 @@
+{
+  "anchor_text_link_count": 528,
+  "anchored_unit_count": 528,
+  "duplicate_anchor_count": 0,
+  "link_bijection_pass": true,
+  "parts": {
+    "P06": 198,
+    "P08": 216,
+    "P09": 114
+  },
+  "run_id": "20260215T162251Z",
+  "timestamp_utc": "2026-02-15T16:47:25Z",
+  "unique_anchor_count": 528
+}

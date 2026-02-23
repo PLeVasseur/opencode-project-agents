@@ -1,0 +1,22 @@
+{
+  "errors": [],
+  "summary": {
+    "baseline_rows": 104,
+    "checklist": {
+      "parent_checked": 55,
+      "parent_total": 104,
+      "parent_unchecked": 49,
+      "sub_checked": 330,
+      "sub_total": 624,
+      "sub_unchecked": 294
+    },
+    "completed_rows": 55,
+    "error_count": 0,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 624,
+    "ledger_rows": 104,
+    "mode": "progress",
+    "resolved_high_rows": 55
+  }
+}

@@ -1,0 +1,1193 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m Grep     [0m:dt:`(type ascription|type bound predicate|type cast expression|type coercion|type inference root|type inference|type parameter initializer|type parameter type|type parameter|type path resolution|type path|type representation|type specification|type unification|type variable|u8|u16|u32|u64|u128)`
+[94m[1m| [0m[90m Grep     [0m:dt:`(unary operator|undefined behavior|under resolution|underscore expression|underscore pattern|unhygienic|Unicode|unifiable types|unifiable|unified type|unify|union field|union type|union value|union|unique immutable reference|unit enum variant|unit struct constant|unit struct type|unit struct value|unit struct|unit tuple|unit type|unit value|unnamed constant|unnamed lifetime|unqualified path expression|unsafe block expression|unsafe block|unsafe context|unsafe external block|unsafe function item type|unsafe function pointer type|unsafe function|unsafe operation|unsafe Rust|unsafe trait implementation|unsafe trait|unsafety|unsigned integer type|unsized coercion|unsized type|unsuffixed float|unsuffixed integer|use capture|use import|usize|validity invariant|value expression context|value expression|value operand|value|variable|variadic part|variance|visibility modifier|visibility|visible emptiness|visible empty enum variant|visible empty type|weak keyword|where clause predicate|where clause|while let loop expression|while let loop|while loop expression|while loop|whitespace string|zero-sized type|zero-variant enum type)`
+[94m[1m| [0m[90m task     [0mFind glossary term definitions
+[94m[1m| [0m[90m Grep     [0mfls_cslGPmVjujHD|fls_95eooah0vcqx|fls_ahCqtkh0m5sR
+[94m[1m| [0m[90m Grep     [0mfls_ltioqbhl14g0|fls_pydmv629vfuu
+[94m[1m| [0m[90m Grep     [0mfls_ybvrhh96fc7y|fls_dCIIVXGhXDlO|fls_uvvn4usfsbhr|fls_67VZrx6dw68H
+[94m[1m| [0m[90m Grep     [0mfls_h2zikgmazoxx|fls_7le2vcdbtxbq
+[94m[1m| [0m[90m Grep     [0mfls_dreny9e0ei6r
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mtype ascription
+[94m[1m| [0m[90m Grep     [0munary operator
+[94m[1m| [0m[90m Grep     [0mtype specification
+[94m[1m| [0m[90m Grep     [0munhygienic
+[94m[1m| [0m[90m Grep     [0mUnicode
+[94m[1m| [0m[90m Grep     [0munifiable
+[94m[1m| [0m[90m Grep     [0munified type
+[94m[1m| [0m[90m Grep     [0munion
+[94m[1m| [0m[90m Grep     [0mType Specification|Type Specifications
+[94m[1m| [0m[90m Grep     [0mType Specification|Type Specifications
+[94m[1m| [0m[90m Grep     [0mTypeSpecification
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mUnary
+[94m[1m| [0m[90m Grep     [0mUnaryExpression|unary expression
+[94m[1m| [0m[90m Grep     [0mOperator Expressions|Operator Expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/glossary-term-map.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type bound predicate
+
+.. glossary-entry:: type bound predicate
+   
+   :glossary:
+     :dp:`fls_j6WKoybB4cep`
+     A :dt:`type bound predicate` is a :t:`construct` that specifies
+     :t:`[lifetime bound]s` and :t:`[trait bound]s` on a :t:`type`.
+     
+     :dp:`fls_oMlPNgoDjnoW`
+     See :s:`TypeBoundPredicate`.
+   :chapter:
+     :dp:`fls_cslGPmVjujHD`
+     A :t:`type bound predicate` is a :t:`construct` that specifies
+     :t:`[lifetime bound]s` and :t:`[trait bound]s` on a :t:`type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type parameter
+
+.. glossary-entry:: type parameter
+   
+   :glossary:
+     :dp:`fls_5t6510wkb67x`
+     A :dt:`type parameter` is a :t:`generic parameter` for a :t:`type`.
+     
+     :dp:`fls_vquy0tsvd93x`
+     See :s:`TypeParameter`.
+   :chapter:
+     :dp:`fls_95eooah0vcqx`
+     A :t:`type parameter` is a :t:`generic parameter` for a :t:`type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type parameter initializer
+
+.. glossary-entry:: type parameter initializer
+   
+   :glossary:
+     :dp:`fls_Xpz47JLNsOXI`
+     A :dt:`type parameter initializer` is a :t:`construct` that provides the
+     default :t:`value` of its related :t:`type parameter`.
+     
+     :dp:`fls_6Ap26AcSadP8`
+     See :s:`TypeParameterInitializer`.
+   :chapter:
+     :dp:`fls_ahCqtkh0m5sR`
+     A :t:`type parameter initializer` is a :t:`construct` that provides the
+     default :t:`value` of its related :t:`type parameter`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for underscore expression
+
+.. glossary-entry:: underscore expression
+   
+   :glossary:
+     :dp:`fls_ukl1sefb99gj`
+     An :dt:`underscore expression` is an :t:`expression` that acts as a placeholder
+     in a :t:`destructuring assignment`.
+     
+     :dp:`fls_qbo267kdjcgs`
+     See :s:`UnderscoreExpression`.
+   :chapter:
+     :dp:`fls_pydmv629vfuu`
+     An :t:`underscore expression` is an :t:`expression` that acts as a placeholder
+     in a :t:`destructuring assignment`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unary operator
+
+.. glossary-entry:: unary operator
+   
+   :glossary:
+     :dp:`fls_p6mk2zrwgwem`
+     A :dt:`unary operator` operates on one :t:`operand`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for underscore pattern
+
+.. glossary-entry:: underscore pattern
+   
+   :glossary:
+     :dp:`fls_f6yroesif1q4`
+     An :dt:`underscore pattern` is a :t:`pattern` that matches any single
+     :t:`value`.
+     
+     :dp:`fls_bktuchv7o4dd`
+     See :s:`UnderscorePattern`.
+   :chapter:
+     :dp:`fls_dreny9e0ei6r`
+     An :t:`underscore pattern` is a :t:`pattern` that matches any single :t:`value`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type path
+
+.. glossary-entry:: type path
+   
+   :glossary:
+     :dp:`fls_UBR5czHrMTrx`
+     A :dt:`type path` is a :t:`path` that acts as a :t:`type specification`.
+     
+     :dp:`fls_7CbNAZYSZayW`
+     See :s:`TypePath`.
+   :chapter:
+     :dp:`fls_h2zikgmazoxx`
+     A :t:`type path` is a :t:`path` that acts as a :t:`type specification`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for under resolution
+
+.. glossary-entry:: under resolution
+   
+   :glossary:
+     :dp:`fls_BppwXSVUWtEu`
+     A :t:`construct` that is being resolved is said to be :dt:`under resolution`.
+   :chapter:
+     :dp:`fls_7le2vcdbtxbq`
+     A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+     
+     .. glossary-entry:: dereference type
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary-entry for under resolution
+
+.. glossary-entry:: under resolution
+   
+   :glossary:
+     :dp:`fls_BppwXSVUWtEu`
+     A :t:`construct` that is being resolved is said to be :dt:`under resolution`.
+   :chapter:
+     :dp:`fls_7le2vcdbtxbq`
+     A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+     
+     .. glossary-entry:: dereference type
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for under resolution with manual chapter lines
+
+/bin/bash: line 1: fls_7le2vcdbtxbq: command not found
+/bin/bash: line 1: construct: command not found
+/bin/bash: line 1: under: command not found
+.. glossary-entry:: under resolution
+   
+   :glossary:
+     :dp:`fls_BppwXSVUWtEu`
+     A :t:`construct` that is being resolved is said to be :dt:`under resolution`.
+   :chapter:
+     :dp:
+     A :t: that is being resolved is said to be :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for under resolution with correct quoting
+
+.. glossary-entry:: under resolution
+   
+   :glossary:
+     :dp:`fls_BppwXSVUWtEu`
+     A :t:`construct` that is being resolved is said to be :dt:`under resolution`.
+   :chapter:
+     :dp:`fls_7le2vcdbtxbq`
+     A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type parameter type
+
+.. glossary-entry:: type parameter type
+   
+   :glossary:
+     :dp:`fls_EuHHxwHd0RHV`
+     A :dt:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+     to be substituted by :t:`generic substitution`.
+   :chapter:
+     :dp:`fls_dCIIVXGhXDlO`
+     A :t:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+     to be substituted by :t:`generic substitution`.
+     
+     .. glossary-entry:: generic substitution
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type parameter type with manual chapter lines
+
+.. glossary-entry:: type parameter type
+   
+   :glossary:
+     :dp:`fls_EuHHxwHd0RHV`
+     A :dt:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+     to be substituted by :t:`generic substitution`.
+   :chapter:
+     :dp:`fls_dCIIVXGhXDlO`
+     A :t:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+     to be substituted by :t:`generic substitution`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type inference root
+
+.. glossary-entry:: type inference root
+   
+   :glossary:
+     :dp:`fls_hLI7lCixs48z`
+     A :dt:`type inference root` is a :t:`construct` whose inner :t:`[expression]s`
+     and :t:`[pattern]s` are subject to :t:`type inference` independently of other
+     :t:`[type inference root]s`.
+   :chapter:
+     :dp:`fls_ybvrhh96fc7y`
+     A :t:`type inference root` is an :t:`expression` whose inner :t:`[expression]s`
+     and :t:`[pattern]s` are subject to :t:`type inference` independently of those
+     found in other :t:`[type inference root]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type variable with manual chapter lines
+
+.. glossary-entry:: type variable
+   
+   :glossary:
+     :dp:`fls_j9eusnwze4rz`
+     A :dt:`type variable` is a placeholder used during :t:`type inference` to stand
+     in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
+   :chapter:
+     :dp:`fls_uvvn4usfsbhr`
+     A :t:`type variable` is a placeholder used during :t:`type inference` to stand
+     in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unify
+
+.. glossary-entry:: unify
+   
+   :glossary:
+     :dp:`fls_mango4gffb9e`
+     A :t:`type` is said to :dt:`unify` with another type when the domains, ranges,
+     and structures of both :t:`[type]s` are compatible.
+   :chapter:
+     :dp:`fls_67VZrx6dw68H`
+     A :t:`type` is said to :t:`unify` with another :t:`type` when the domains,
+     ranges, and structures of both :t:`[type]s` are compatible according to the
+     rules detailed below.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type ascription
+
+.. glossary-entry:: type ascription
+   
+   :glossary:
+     :dp:`fls_pm5jytclqn7y`
+     A :dt:`type ascription` specifies the :t:`type` of a :t:`construct`.
+     
+     :dp:`fls_c3xtiputfxea`
+     See :s:`TypeAscription`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for type specification
+
+.. glossary-entry:: type specification
+   
+   :glossary:
+     :dp:`fls_tdjhjg9zhnv5`
+     A :dt:`type specification` describes the structure of a :t:`type`.
+     
+     :dp:`fls_a3sqjp1l8po6`
+     See :s:`TypeSpecification`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unifiable
+
+.. glossary-entry:: unifiable
+   
+   :glossary:
+     :dp:`fls_01BNTCL4u8Gn`
+     For :dt:`unifiable`, see :t:`unify`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unified type
+
+.. glossary-entry:: unified type
+   
+   :glossary:
+     :dp:`fls_tqRwIe6z3a4j`
+     A :dt:`unified type` is a :t:`type` produced by :t:`type unification`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for union
+
+.. glossary-entry:: union
+   
+   :glossary:
+     :dp:`fls_x3oibk39dvem`
+     A :dt:`union` is an :t:`item` that declares a :t:`union type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for Unicode
+
+.. glossary-entry:: Unicode
+   
+   :glossary:
+     :dp:`fls_y7gwku7pe1f4`
+     :dt:`Unicode` is the universal character encoding standard for written
+     characters and text described in the Unicode® Standard by the Unicode
+     Consortium.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for unhygienic
+
+.. glossary-entry:: unhygienic
+   
+   :glossary:
+     :dp:`fls_0t4lFZLkNieR`
+     An :t:`identifier` is :dt:`unhygienic` when it has :t:`call site hygiene`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output from directives
+[91m[1m| [0m[90m Bash     [0mCompare generated glossary with static glossary
+
+--- build/generated.glossary.rst	2026-02-04 23:48:40.364082469 +0900
++++ src/glossary.static.rst.inc	2026-02-04 03:47:44.604659134 +0900
+@@ -7042,11 +7042,11 @@
+ type cast expression
+ ^^^^^^^^^^^^^^^^^^^^
+ 
+-:dp:`fls_8k6blpCtd25q`
+-A :dt:`type cast expression` is an :t:`expression` that changes the :t:`type` of
+-an :t:`operand`.
++:dp:`fls_j6zo3rir1x76`
++A :dt:`type cast expression` is an :t:`expression` that changes the :t:`type`
++of an :t:`operand`.
+ 
+-:dp:`fls_0hQq6hcVUx8e`
++:dp:`fls_dvh1xy9w74ch`
+ See :s:`TypeCastExpression`.
+ 
+ .. _fls_6j08yuafv0vl:
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mtype cast expression
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary-entry for type cast expression
+
+.. glossary-entry:: type cast expression
+   
+   :glossary:
+     :dp:`fls_j6zo3rir1x76`
+     A :dt:`type cast expression` is an :t:`expression` that changes the :t:`type`
+     of an :t:`operand`.
+     
+     :dp:`fls_dvh1xy9w74ch`
+     See :s:`TypeCastExpression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary output after fixes
+[91m[1m| [0m[90m Bash     [0mCompare generated glossary with static after fixes
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report is empty
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow git status summary
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/generics.rst
+ M src/lexical-elements.rst
+ M src/macros.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged changes
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index c4316fa..3beac2f 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -502,8 +502,17 @@ An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qua
+ :dp:`fls_tvvycup09b51`
+ A :t:`path expression` is subject to :t:`path expression resolution`.
+ 
+-:dp:`fls_h2zikgmazoxx`
+-A :t:`type path` is a :t:`path` that acts as a :t:`type specification`.
++.. glossary-entry:: type path
++   
++   :glossary:
++     :dp:`fls_UBR5czHrMTrx`
++     A :dt:`type path` is a :t:`path` that acts as a :t:`type specification`.
++     
++     :dp:`fls_7CbNAZYSZayW`
++     See :s:`TypePath`.
++   :chapter:
++     :dp:`fls_h2zikgmazoxx`
++     A :t:`type path` is a :t:`path` that acts as a :t:`type specification`.
+ 
+ :dp:`fls_nj7s6xmzx55f`
+ A :t:`type path` is subject to :t:`type path resolution`.
+@@ -1576,8 +1585,14 @@ Resolution
+      :t:`field access expression`, a :t:`method call expression`, a :t:`call
+      expression` or a :t:`path`.
+ 
+-:dp:`fls_7le2vcdbtxbq`
+-A :t:`construct` that is being resolved is said to be :t:`under resolution`.
++.. glossary-entry:: under resolution
++   
++   :glossary:
++     :dp:`fls_BppwXSVUWtEu`
++     A :t:`construct` that is being resolved is said to be :dt:`under resolution`.
++   :chapter:
++     :dp:`fls_7le2vcdbtxbq`
++     A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+ 
+ .. glossary-entry:: dereference type
+    
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 2858205..af71501 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1182,6 +1182,12 @@ Operator Expressions
+      :dp:`fls_ursc5ynymoy`
+      An :t:`operator expression` is an :t:`expression` that involves an operator.
+ 
++.. glossary-entry:: unary operator
++   
++   :glossary:
++     :dp:`fls_p6mk2zrwgwem`
++     A :dt:`unary operator` operates on one :t:`operand`.
++
+ .. rubric:: Dynamic Semantics
+ 
+ :dp:`fls_lSxXWxJn0vMO`
+@@ -2699,9 +2705,19 @@ Type Cast Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ltioqbhl14g0`
+-A :t:`type cast expression` is an :t:`expression` that changes the :t:`type` of
+-an :t:`operand`.
++.. glossary-entry:: type cast expression
++   
++   :glossary:
++     :dp:`fls_j6zo3rir1x76`
++     A :dt:`type cast expression` is an :t:`expression` that changes the :t:`type`
++     of an :t:`operand`.
++     
++     :dp:`fls_dvh1xy9w74ch`
++     See :s:`TypeCastExpression`.
++   :chapter:
++     :dp:`fls_ltioqbhl14g0`
++     A :t:`type cast expression` is an :t:`expression` that changes the :t:`type` of
++     an :t:`operand`.
+ 
+ .. glossary-entry:: cast
+    
+@@ -3605,9 +3621,19 @@ Underscore Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_pydmv629vfuu`
+-An :t:`underscore expression` is an :t:`expression` that acts as a placeholder
+-in a :t:`destructuring assignment`.
++.. glossary-entry:: underscore expression
++   
++   :glossary:
++     :dp:`fls_ukl1sefb99gj`
++     An :dt:`underscore expression` is an :t:`expression` that acts as a placeholder
++     in a :t:`destructuring assignment`.
++     
++     :dp:`fls_qbo267kdjcgs`
++     See :s:`UnderscoreExpression`.
++   :chapter:
++     :dp:`fls_pydmv629vfuu`
++     An :t:`underscore expression` is an :t:`expression` that acts as a placeholder
++     in a :t:`destructuring assignment`.
+ 
+ :dp:`fls_wms3dbwjwyu4`
+ An :t:`underscore expression` shall appear in the :t:`assigned operand` of a
+diff --git a/src/generics.rst b/src/generics.rst
+index 90b2349..5ad66ad 100644
+--- a/src/generics.rst
++++ b/src/generics.rst
+@@ -180,12 +180,31 @@ It is a static error to use a :t:`generic parameter` in the
+ A :t:`lifetime parameter` shall not be used within a :t:`constant context`,
+ except for the ``'static`` :t:`lifetime`.
+ 
+-:dp:`fls_95eooah0vcqx`
+-A :t:`type parameter` is a :t:`generic parameter` for a :t:`type`.
++.. glossary-entry:: type parameter
++   
++   :glossary:
++     :dp:`fls_5t6510wkb67x`
++     A :dt:`type parameter` is a :t:`generic parameter` for a :t:`type`.
++     
++     :dp:`fls_vquy0tsvd93x`
++     See :s:`TypeParameter`.
++   :chapter:
++     :dp:`fls_95eooah0vcqx`
++     A :t:`type parameter` is a :t:`generic parameter` for a :t:`type`.
+ 
+-:dp:`fls_ahCqtkh0m5sR`
+-A :t:`type parameter initializer` is a :t:`construct` that provides the
+-default :t:`value` of its related :t:`type parameter`.
++.. glossary-entry:: type parameter initializer
++   
++   :glossary:
++     :dp:`fls_Xpz47JLNsOXI`
++     A :dt:`type parameter initializer` is a :t:`construct` that provides the
++     default :t:`value` of its related :t:`type parameter`.
++     
++     :dp:`fls_6Ap26AcSadP8`
++     See :s:`TypeParameterInitializer`.
++   :chapter:
++     :dp:`fls_ahCqtkh0m5sR`
++     A :t:`type parameter initializer` is a :t:`construct` that provides the
++     default :t:`value` of its related :t:`type parameter`.
+ 
+ :dp:`fls_3qZRBp9j26w3`
+ The :t:`type` of the :t:`type parameter initializer` of a :t:`type parameter`
+@@ -386,9 +405,19 @@ A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+      A :t:`lifetime bound predicate` is a :t:`construct` that specifies
+      :t:`[lifetime bound]s` on a :t:`lifetime parameter`.
+ 
+-:dp:`fls_cslGPmVjujHD`
+-A :t:`type bound predicate` is a :t:`construct` that specifies
+-:t:`[lifetime bound]s` and :t:`[trait bound]s` on a :t:`type`.
++.. glossary-entry:: type bound predicate
++   
++   :glossary:
++     :dp:`fls_j6WKoybB4cep`
++     A :dt:`type bound predicate` is a :t:`construct` that specifies
++     :t:`[lifetime bound]s` and :t:`[trait bound]s` on a :t:`type`.
++     
++     :dp:`fls_oMlPNgoDjnoW`
++     See :s:`TypeBoundPredicate`.
++   :chapter:
++     :dp:`fls_cslGPmVjujHD`
++     A :t:`type bound predicate` is a :t:`construct` that specifies
++     :t:`[lifetime bound]s` and :t:`[trait bound]s` on a :t:`type`.
+ 
+ :dp:`fls_ytk74dyxuy6d`
+ A :t:`construct` is valid when all of its :t:`[where clause predicate]s` hold
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index a4f09ca..3ba4ca0 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -25,6 +25,14 @@ Character Set
+ The program text of a Rust program is written using the :t:`Unicode` character
+ set.
+ 
++.. glossary-entry:: Unicode
++   
++   :glossary:
++     :dp:`fls_y7gwku7pe1f4`
++     :dt:`Unicode` is the universal character encoding standard for written
++     characters and text described in the Unicode® Standard by the Unicode
++     Consortium.
++
+ .. rubric:: Syntax
+ 
+ :dp:`fls_vfx8byq5zo8t`
+diff --git a/src/macros.rst b/src/macros.rst
+index 257fc01..f3aafbc 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -1318,6 +1318,12 @@ within them, which aims to eliminate the syntactic interference between a
+      :dp:`fls_hiDddAkNH5Ms`
+      An :t:`identifier` is :dt:`hygienic` when it has :t:`definition site hygiene`.
+ 
++.. glossary-entry:: unhygienic
++   
++   :glossary:
++     :dp:`fls_0t4lFZLkNieR`
++     An :t:`identifier` is :dt:`unhygienic` when it has :t:`call site hygiene`.
++
+ :dp:`fls_3axjf28xb1nt`
+ :t:`Hygiene` is categorized as follows:
+ 
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 3cead60..e3e626f 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -1535,8 +1535,18 @@ Underscore Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_dreny9e0ei6r`
+-An :t:`underscore pattern` is a :t:`pattern` that matches any single :t:`value`.
++.. glossary-entry:: underscore pattern
++   
++   :glossary:
++     :dp:`fls_f6yroesif1q4`
++     An :dt:`underscore pattern` is a :t:`pattern` that matches any single
++     :t:`value`.
++     
++     :dp:`fls_bktuchv7o4dd`
++     See :s:`UnderscorePattern`.
++   :chapter:
++     :dp:`fls_dreny9e0ei6r`
++     An :t:`underscore pattern` is a :t:`pattern` that matches any single :t:`value`.
+ 
+ :dp:`fls_42fye1v0th8l`
+ An :t:`underscore pattern` is an :t:`irrefutable pattern`.
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 34e7a49..5ed2f1b 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -46,6 +46,24 @@ Types
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: type ascription
++   
++   :glossary:
++     :dp:`fls_pm5jytclqn7y`
++     A :dt:`type ascription` specifies the :t:`type` of a :t:`construct`.
++     
++     :dp:`fls_c3xtiputfxea`
++     See :s:`TypeAscription`.
++
++.. glossary-entry:: type specification
++   
++   :glossary:
++     :dp:`fls_tdjhjg9zhnv5`
++     A :dt:`type specification` describes the structure of a :t:`type`.
++     
++     :dp:`fls_a3sqjp1l8po6`
++     See :s:`TypeSpecification`.
++
+ .. glossary-entry:: type
+    
+    :glossary:
+@@ -1216,6 +1234,12 @@ Union Types
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: union
++   
++   :glossary:
++     :dp:`fls_x3oibk39dvem`
++     A :dt:`union` is an :t:`item` that declares a :t:`union type`.
++
+ :dp:`fls_nskmnzq95yqm`
+ A :t:`union type` is an :t:`abstract data type` that is a sum of other
+ :t:`[type]s`.
+@@ -1871,9 +1895,16 @@ Type Parameters
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_dCIIVXGhXDlO`
+-A :t:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+-to be substituted by :t:`generic substitution`.
++.. glossary-entry:: type parameter type
++   
++   :glossary:
++     :dp:`fls_EuHHxwHd0RHV`
++     A :dt:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
++     to be substituted by :t:`generic substitution`.
++   :chapter:
++     :dp:`fls_dCIIVXGhXDlO`
++     A :t:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
++     to be substituted by :t:`generic substitution`.
+ 
+ .. glossary-entry:: generic substitution
+    
+@@ -2502,10 +2533,29 @@ known :t:`[type]s` across the :t:`type inference root` and assigns concrete
+ :t:`[type]s` to :t:`[type variable]s`, as well as a general mechanism to check
+ for compatibility between two :t:`[type]s` during :t:`method resolution`.
+ 
+-:dp:`fls_67VZrx6dw68H`
+-A :t:`type` is said to :t:`unify` with another :t:`type` when the domains,
+-ranges, and structures of both :t:`[type]s` are compatible according to the
+-rules detailed below.
++.. glossary-entry:: unify
++   
++   :glossary:
++     :dp:`fls_mango4gffb9e`
++     A :t:`type` is said to :dt:`unify` with another type when the domains, ranges,
++     and structures of both :t:`[type]s` are compatible.
++   :chapter:
++     :dp:`fls_67VZrx6dw68H`
++     A :t:`type` is said to :t:`unify` with another :t:`type` when the domains,
++     ranges, and structures of both :t:`[type]s` are compatible according to the
++     rules detailed below.
++
++.. glossary-entry:: unifiable
++   
++   :glossary:
++     :dp:`fls_01BNTCL4u8Gn`
++     For :dt:`unifiable`, see :t:`unify`.
++
++.. glossary-entry:: unified type
++   
++   :glossary:
++     :dp:`fls_tqRwIe6z3a4j`
++     A :dt:`unified type` is a :t:`type` produced by :t:`type unification`.
+ 
+ :dp:`fls_aie0tr62vhw5`
+ Two types that :t:`unify` are said to be :t:`[unifiable type]s`.
+@@ -3040,10 +3090,18 @@ Type Inference
+ :t:`Type inference` is the process of automatically determining the :t:`type` of
+ :t:`[expression]s` and :t:`[pattern]s` within a :t:`type inference root`.
+ 
+-:dp:`fls_ybvrhh96fc7y`
+-A :t:`type inference root` is an :t:`expression` whose inner :t:`[expression]s`
+-and :t:`[pattern]s` are subject to :t:`type inference` independently of those
+-found in other :t:`[type inference root]s`.
++.. glossary-entry:: type inference root
++   
++   :glossary:
++     :dp:`fls_hLI7lCixs48z`
++     A :dt:`type inference root` is a :t:`construct` whose inner :t:`[expression]s`
++     and :t:`[pattern]s` are subject to :t:`type inference` independently of other
++     :t:`[type inference root]s`.
++   :chapter:
++     :dp:`fls_ybvrhh96fc7y`
++     A :t:`type inference root` is an :t:`expression` whose inner :t:`[expression]s`
++     and :t:`[pattern]s` are subject to :t:`type inference` independently of those
++     found in other :t:`[type inference root]s`.
+ 
+ :dp:`fls_EWBilpepaDcX`
+ The following :t:`[expression]s` are considered :t:`[type inference root]s`:
+@@ -3110,9 +3168,16 @@ depending on the :t:`type inference root` as follows:
+   The :t:`expected type` of a :t:`size operand` of an :t:`array expression` or
+   an :t:`array type` is :c:`usize`.
+ 
+-:dp:`fls_uvvn4usfsbhr`
+-A :t:`type variable` is a placeholder used during :t:`type inference` to stand
+-in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
++.. glossary-entry:: type variable
++   
++   :glossary:
++     :dp:`fls_j9eusnwze4rz`
++     A :dt:`type variable` is a placeholder used during :t:`type inference` to stand
++     in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
++   :chapter:
++     :dp:`fls_uvvn4usfsbhr`
++     A :t:`type variable` is a placeholder used during :t:`type inference` to stand
++     in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
+ 
+ .. glossary-entry:: global type variable
+    
+
+[91m[1m| [0m[90m Bash     [0mShow recent commits for message style
+
+52d1339 docs(glossary): migrate next 20 glossary terms
+dc774c9 docs(glossary): migrate next 20 glossary terms
+6f91bcd docs(glossary): migrate struct and sub* terms
+6cc6e9f docs(glossary): migrate next 20 glossary terms
+bc8919f docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mStage migrated glossary directive changes
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration and show status
+
+[glossary-single-source-phase1 cf11e81] docs(glossary): migrate next 20 glossary terms
+ 7 files changed, 193 insertions(+), 34 deletions(-)
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 1]
+
+Moved the next 20 glossary terms into chapter `.. glossary-entry::` directives and placed glossary-only entries near the most relevant sections. This keeps generated glossary output identical to the static baseline while preserving existing chapter IDs.
+
+- Updated directives across `src/generics.rst`, `src/expressions.rst`, `src/entities-and-resolution.rst`, `src/patterns.rst`, `src/types-and-traits.rst`, `src/lexical-elements.rst`, `src/macros.rst`.
+- Updated checklist at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`.
+- Appended term-map entries at `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`.
+- HTML diff report updated at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`.
+
+Tests and verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (clean)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit:
+- `docs(glossary): migrate next 20 glossary terms` (cf11e81)
+
+Next steps:
+1. Push the branch if you want the commit on your remote.
+2. Start the next batch of 20 terms from the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

@@ -1,0 +1,3 @@
+no src changes detected
+update action: replace (entry 2, line 29)
+report: /home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-upstream-pr-anchor-20260207T031319Z/update-anchor-hit.json

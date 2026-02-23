@@ -1,0 +1,12 @@
+[2026-02-15T18:38:39Z] run_bootstrap mode=kickoff-new run_id=20260215T183839Z
+[2026-02-15T18:38:39Z] lock_acquired pid=3291549 run_id=20260215T183839Z
+[2026-02-15T18:38:40Z] stage_start stage=EQ0
+[2026-02-15T18:38:40Z] stage_complete stage=EQ0
+[2026-02-15T18:38:41Z] stage_start stage=EQ1
+[2026-02-15T18:38:41Z] stage_blocked stage=EQ1 failed_metrics=paragraph_license,list_license,table_license,paragraph_meaningful,list_meaningful,table_meaningful,paragraph_pattern,list_marker,list_continuation,table_structural,table_pattern,line_wrap,dehyphenation,section_boundary,clause_boundary,table_scope,superscript,subscript,footnote,section_anchor,clause_anchor,table_anchor
+[2026-02-15T18:38:41Z] lock_released run_id=20260215T183839Z
+[2026-02-15T21:12:17Z] run_bootstrap mode=resume-auto run_id=20260215T183839Z
+[2026-02-15T21:12:17Z] lock_acquired pid=3312494 run_id=20260215T183839Z
+[2026-02-15T21:12:18Z] stage_start stage=EQ1
+[2026-02-15T21:12:18Z] stage_blocked stage=EQ1 failed_metrics=clause_anchor,clause_boundary,dehyphenation,footnote,line_wrap,list_continuation,list_license,list_marker,list_meaningful,paragraph_license,paragraph_meaningful,paragraph_pattern,section_anchor,section_boundary,subscript,superscript,table_anchor,table_license,table_meaningful,table_pattern,table_scope,table_structural
+[2026-02-15T21:12:18Z] lock_released run_id=20260215T183839Z

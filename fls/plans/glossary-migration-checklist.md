@@ -1,0 +1,784 @@
+# Glossary migration checklist
+
+Check off terms once they are migrated into chapter `.. glossary-entry::` blocks
+and the batch is verified.
+
+- [x] ABI
+- [x] ABI clobber
+- [x] ABI kind
+- [x] abort
+- [x] abstract data type
+- [x] active attribute
+- [x] addition assignment
+- [x] addition assignment expression
+- [x] addition expression
+- [x] adjusted call operand
+- [x] alignment
+- [x] all configuration predicate
+- [x] anonymous loop expression
+- [x] anonymous return type
+- [x] anonymous type parameter
+- [x] any configuration predicate
+- [x] Application Binary Interface
+- [x] argument operand
+- [x] arithmetic expression
+- [x] arithmetic operator
+- [x] arithmetic overflow
+- [x] arity
+- [x] array
+- [x] array element constructor
+- [x] array expression
+- [x] array repetition constructor
+- [x] array type
+- [x] assembly code block
+- [x] assembly directive
+- [x] assembly instruction
+- [x] assembly option
+- [x] assigned operand
+- [x] assignee expression
+- [x] assignee operand
+- [x] assignment
+- [x] assignment expression
+- [x] associated constant
+- [x] associated function
+- [x] associated implementation constant
+- [x] associated implementation function
+- [x] associated implementation type
+- [x] associated item
+- [x] associated trait constant
+- [x] associated trait function
+- [x] associated trait implementation function
+- [x] associated trait implementation item
+- [x] associated trait item
+- [x] associated trait type
+- [x] associated type
+- [x] associated type projection
+- [x] associativity
+- [x] async block
+- [x] async block expression
+- [x] async closure expression
+- [x] async closure type
+- [x] async control flow boundary
+- [x] async function
+- [x] atomic
+- [x] atomic type
+- [x] attribute
+- [x] attribute content
+- [x] attribute macro
+- [x] auto trait
+- [x] await expression
+- [x] base initializer
+- [x] basic assignment
+- [x] binary crate
+- [x] binary literal
+- [x] binary operator
+- [x] binding
+- [x] binding argument
+- [x] binding bound argument
+- [x] binding mode
+- [x] binding pattern
+- [x] binding scope
+- [x] bit and assignment
+- [x] bit and assignment expression
+- [x] bit and expression
+- [x] bit expression
+- [x] bit or assignment
+- [x] bit or assignment expression
+- [x] bit or expression
+- [x] bit xor assignment
+- [x] bit xor assignment expression
+- [x] bit xor expression
+- [x] block comment
+- [x] block expression
+- [x] bool
+- [x] boolean literal
+- [x] borrow
+- [x] borrow expression
+- [x] borrowed
+- [x] borrowing
+- [x] bound
+- [x] bound pattern
+- [x] break expression
+- [x] break type
+- [x] break value
+- [x] built-in attribute
+- [x] built-in trait
+- [x] byte literal
+- [x] byte string literal
+- [x] C
+- [x] C representation
+- [x] C signed int type
+- [x] c string literal
+- [x] Call conformance
+- [x] call expression
+- [x] call operand
+- [x] call resolution
+- [x] call site hygiene
+- [x] callee type
+- [x] capture mode
+- [x] capture target
+- [x] capturing
+- [x] capturing environment
+- [x] capturing expression
+- [x] cast
+- [x] char
+- [x] character literal
+- [x] closure body
+- [x] closure expression
+- [x] closure parameter
+- [x] closure type
+- [x] code point
+- [x] comment
+- [x] comparison expression
+- [x] compilation root
+- [x] compound assignment
+- [x] compound assignment expression
+- [x] concrete type
+- [x] conditional compilation
+- [x] conditionally-compiled source code
+- [x] configuration predicate
+- [x] const block expression
+- [x] constant
+- [x] constant argument
+- [x] constant context
+- [x] constant expression
+- [x] constant function
+- [x] constant initializer
+- [x] constant parameter
+- [x] constant parameter initializer
+- [x] constant promotion
+- [x] constrain
+- [x] construct
+- [x] constructee
+- [x] container operand
+- [x] continue expression
+- [x] control flow boundary
+- [x] copy type
+- [x] crate
+- [x] crate import
+- [x] crate indication
+- [x] crate public modifier
+- [x] crate root
+- [x] crate root module
+- [x] crate type
+- [x] dangling
+- [x] data race
+- [x] decimal literal
+- [x] declaration
+- [x] declarative macro
+- [x] deconstructee
+- [x] default representation
+- [x] definition site hygiene
+- [x] dereference
+- [x] dereference expression
+- [x] dereference type
+- [x] dereference type chain
+- [x] derive macro
+- [x] destruction
+- [x] destructor
+- [x] destructuring assignment
+- [x] direction modifier
+- [x] discriminant
+- [x] discriminant initializer
+- [x] discriminant type
+- [x] diverging expression
+- [x] diverging type variable
+- [x] division assignment
+- [x] division assignment expression
+- [x] division expression
+- [x] doc comment
+- [x] drop construct
+- [x] drop order
+- [x] drop scope
+- [x] drop scope extension
+- [x] drop type
+- [x] dropping
+- [x] dynamically sized type
+- [x] elaboration
+- [x] element type
+- [x] elided
+- [x] elided lifetime
+- [x] else expression
+- [x] empty statement
+- [x] entity
+- [x] enum
+- [x] enum field
+- [x] enum type
+- [x] enum value
+- [x] enum variant
+- [x] enum variant value
+- [x] equals expression
+- [x] error propagation expression
+- [x] escaped character
+- [x] evaluated
+- [x] evaluation
+- [x] exclusive range pattern
+- [x] executed
+- [x] execution
+- [x] explicit register argument
+- [x] explicit register name
+- [x] explicitly declared entity
+- [x] exported function
+- [x] exported static
+- [x] expression
+- [x] expression statement
+- [x] expression-with-block
+- [x] expression-without-block
+- [x] external block
+- [x] external function
+- [x] external function item type
+- [x] external static
+- [x] f32
+- [x] f64
+- [x] fat pointer
+- [x] fat pointer type
+- [x] FFI
+- [x] field
+- [x] field access expression
+- [x] field index
+- [x] field list
+- [x] field resolution
+- [x] field selector
+- [x] final match arm
+- [x] fixed sized type
+- [x] float literal
+- [x] float suffix
+- [x] floating-point type
+- [x] floating-point type variable
+- [x] floating-point value
+- [x] for loop
+- [x] for loop expression
+- [x] Foreign Function Interface
+- [x] fragment specifier
+- [x] full range expression
+- [x] function
+- [x] function body
+- [x] function item type
+- [x] function lifetime elision
+- [x] function parameter
+- [x] function pointer type
+- [x] function pointer type parameter
+- [x] function qualifier
+- [x] function signature
+- [x] function type
+- [x] function-like macro
+- [x] fundamental
+- [x] future
+- [x] future operand
+- [x] generic argument
+- [x] generic associated type
+- [x] generic conformance
+- [x] generic enum
+- [x] generic function
+- [x] generic implementation
+- [x] generic parameter
+- [x] generic parameter scope
+- [x] generic struct
+- [x] generic substitution
+- [x] generic trait
+- [x] generic type
+- [x] generic type alias
+- [x] generic union
+- [x] glob import
+- [x] global path
+- [x] global type variable
+- [x] greater-than expression
+- [x] greater-than-or-equals expression
+- [x] half-open range pattern
+- [x] hexadecimal literal
+- [x] higher-ranked trait bound
+- [x] hygiene
+- [x] hygienic
+- [x] i8
+- [x] i16
+- [x] i32
+- [x] i64
+- [x] i128
+- [x] identifier
+- [x] identifier pattern
+- [x] if expression
+- [x] if let expression
+- [x] immutable
+- [x] immutable borrow
+- [x] immutable borrow expression
+- [x] immutable place expression
+- [x] immutable place expression context
+- [x] immutable raw pointer type
+- [x] immutable reference
+- [x] immutable static
+- [x] immutable variable
+- [x] impl header lifetime elision
+- [x] impl trait type
+- [x] implementation
+- [x] implementation body
+- [x] implementation coherence
+- [x] implementation conformance
+- [x] implemented trait
+- [x] implementing type
+- [x] implicit borrow
+- [x] implicitly declared entity
+- [x] implied bound
+- [x] in scope
+- [x] inclusive range pattern
+- [x] incomplete associated constant
+- [x] incomplete associated function
+- [x] incomplete associated type
+- [x] index expression
+- [x] indexable type
+- [x] indexed deconstructor
+- [x] indexed field selector
+- [x] indexed initializer
+- [x] indexed operand
+- [x] indexing operand
+- [x] indirection type
+- [x] inert attribute
+- [x] inferred type
+- [x] infinite loop
+- [x] infinite loop expression
+- [x] inherent implementation
+- [x] initialization
+- [x] initialization expression
+- [x] initialization type
+- [x] inline assembly
+- [x] inline module
+- [x] inner attribute
+- [x] inner block doc
+- [x] inner doc comment
+- [x] inner line doc
+- [x] input register
+- [x] input register expression
+- [x] input-output register expression
+- [x] integer literal
+- [x] integer suffix
+- [x] integer type
+- [x] integer type variable
+- [x] interior mutability
+- [x] intermediate match arm
+- [x] irrefutable constant
+- [x] irrefutable pattern
+- [x] isize
+- [x] item
+- [x] item scope
+- [x] item statement
+- [x] iteration expression
+- [x] keyword
+- [x] label
+- [x] label indication
+- [x] label scope
+- [x] layout
+- [x] lazy and expression
+- [x] lazy boolean expression
+- [x] lazy or expression
+- [x] left operand
+- [x] less-than expression
+- [x] less-than-or-equals expression
+- [x] let binding
+- [x] let initializer
+- [x] let statement
+- [x] lexical element
+- [x] library crate
+- [x] lifetime
+- [x] lifetime argument
+- [x] lifetime bound
+- [x] lifetime bound predicate
+- [x] lifetime elision
+- [x] lifetime parameter
+- [x] lifetime variable
+- [x] line
+- [x] line comment
+- [x] literal
+- [x] literal expression
+- [x] literal pattern
+- [x] local trait
+- [x] local type
+- [x] local variable
+- [x] loop
+- [x] loop body
+- [x] loop expression
+- [x] macro
+- [x] macro expansion
+- [x] macro implementation function
+- [x] macro invocation
+- [x] macro match
+- [x] macro matcher
+- [x] macro matching
+- [x] macro repetition
+- [x] macro repetition in matching
+- [x] macro repetition in transcription
+- [x] macro rule
+- [x] macro statement
+- [x] macro transcriber
+- [x] macro transcription
+- [x] main function signature
+- [x] match arm
+- [x] match arm body
+- [x] match arm guard
+- [x] match arm matcher
+- [x] match expression
+- [x] metavariable
+- [x] metavariable indication
+- [x] method
+- [x] method call expression
+- [x] method operand
+- [x] method resolution
+- [x] mixed site hygiene
+- [x] modifying operand
+- [x] module
+- [x] move type
+- [x] multi segment path
+- [x] multiplication assignment
+- [x] multiplication assignment expression
+- [x] multiplication expression
+- [x] mutability
+- [x] mutable
+- [x] mutable assignee expression
+- [x] mutable binding
+- [x] mutable borrow
+- [x] mutable borrow expression
+- [x] mutable place expression
+- [x] mutable place expression context
+- [x] mutable raw pointer type
+- [x] mutable reference
+- [x] mutable reference type
+- [x] mutable static
+- [x] mutable variable
+- [x] name
+- [x] named block expression
+- [x] named deconstructor
+- [x] named field selector
+- [x] named initializer
+- [x] named loop expression
+- [x] named register argument
+- [x] namespace
+- [x] NaN-boxing
+- [x] negation expression
+- [x] nesting import
+- [x] never type
+- [x] non-reference pattern
+- [x] not configuration predicate
+- [x] not-equals expression
+- [x] null
+- [x] numeric literal
+- [x] numeric literal pattern
+- [x] numeric type
+- [x] object safe
+- [x] object safety
+- [x] obsolete range pattern
+- [x] octal literal
+- [x] operand
+- [x] operator expression
+- [x] opt-out trait bound
+- [x] or-pattern
+- [x] outer attribute
+- [x] outer block doc
+- [x] outer doc comment
+- [x] outer line doc
+- [x] outline module
+- [x] outlives bound
+- [x] output register
+- [x] output register expression
+- [x] overlap
+- [x] owner
+- [x] ownership
+- [x] panic
+- [x] parenthesized expression
+- [x] parenthesized pattern
+- [x] parenthesized type
+- [x] partially hygienic
+- [x] passing convention
+- [x] path
+- [x] path expression
+- [x] path expression resolution
+- [x] path pattern
+- [x] path resolution
+- [x] path segment
+- [x] pattern
+- [x] pattern matching
+- [x] pattern-without-alternation
+- [x] pattern-without-range
+- [x] place
+- [x] place expression
+- [x] place expression context
+- [x] plane
+- [x] pointer
+- [x] pointer type
+- [x] positional register argument
+- [x] precedence
+- [x] prelude
+- [x] prelude entity
+- [x] prelude name
+- [x] primitive representation
+- [x] principal trait
+- [x] private visibility
+- [x] proc-macro crate
+- [x] procedural macro
+- [x] program entry point
+- [x] public visibility
+- [x] punctuator
+- [x] pure identifier
+- [x] qualified path expression
+- [x] qualified type
+- [x] qualified type path
+- [x] qualifying trait
+- [x] range expression
+- [x] range expression high bound
+- [x] range expression low bound
+- [x] range pattern
+- [x] range pattern bound
+- [x] range pattern high bound
+- [x] range pattern low bound
+- [x] range-from expression
+- [x] range-from-to expression
+- [x] range-full expression
+- [x] range-inclusive expression
+- [x] range-to expression
+- [x] range-to-inclusive expression
+- [x] raw borrow expression
+- [x] raw byte string literal
+- [x] raw c string literal
+- [x] raw pointer
+- [x] raw pointer type
+- [x] raw string literal
+- [x] reachable control flow path
+- [x] receiver operand
+- [x] receiver type
+- [x] record enum variant
+- [x] record struct
+- [x] record struct field
+- [x] record struct pattern
+- [x] record struct type
+- [x] record struct value
+- [x] recursive type
+- [x] reference
+- [x] reference identifier pattern
+- [x] reference pattern
+- [x] reference type
+- [x] referent
+- [x] refutability
+- [x] refutable constant
+- [x] refutable pattern
+- [x] refutable type
+- [x] register
+- [x] register argument
+- [x] register class
+- [x] register class argument
+- [x] register class name
+- [x] register expression
+- [x] register name
+- [x] register parameter
+- [x] register parameter modifier
+- [x] remainder assignment
+- [x] remainder assignment expression
+- [x] remainder expression
+- [x] renaming
+- [x] repeat operand
+- [x] repetition operator
+- [x] representation
+- [x] representation modifier
+- [x] reserved keyword
+- [x] resolution
+- [x] rest pattern
+- [x] return expression
+- [x] return type
+- [x] right operand
+- [x] rule matching
+- [x] rustc
+- [x] safety invariant
+- [x] scalar type
+- [x] scope
+- [x] scope hierarchy
+- [x] selected field
+- [x] Self
+- [x] self parameter
+- [x] self public modifier
+- [x] Self scope
+- [x] send type
+- [x] separator
+- [x] sequence type
+- [x] shadowing
+- [x] shared borrow
+- [x] shared reference
+- [x] shared reference type
+- [x] shift left assignment
+- [x] shift left assignment expression
+- [x] shift left expression
+- [x] shift right assignment
+- [x] shift right assignment expression
+- [x] shift right expression
+- [x] shorthand deconstructor
+- [x] shorthand initializer
+- [x] signed integer type
+- [x] simple byte string literal
+- [x] simple c string literal
+- [x] simple import
+- [x] simple path
+- [x] simple path prefix
+- [x] simple path public modifier
+- [x] simple path resolution
+- [x] simple public modifier
+- [x] simple register expression
+- [x] simple string literal
+- [x] single segment path
+- [x] size
+- [x] size operand
+- [x] sized type
+- [x] slice
+- [x] slice pattern
+- [x] slice type
+- [x] source file
+- [x] statement
+- [x] static
+- [x] static initializer
+- [x] static lifetime elision
+- [x] str
+- [x] strict keyword
+- [x] string literal
+- [x] struct
+- [x] struct expression
+- [x] struct field
+- [x] struct pattern
+- [x] struct type
+- [x] struct value
+- [x] structurally equal
+- [x] subexpression
+- [x] subject expression
+- [x] subject let expression
+- [x] subpattern
+- [x] subtraction assignment
+- [x] subtraction assignment expression
+- [x] subtraction expression
+- [x] subtrait
+- [x] subtype
+- [x] subtyping
+- [x] suffixed float
+- [x] suffixed integer
+- [x] super public modifier
+- [x] supertrait
+- [x] sync type
+- [x] syntactic category
+- [x] tail expression
+- [x] temporary
+- [x] terminated
+- [x] terminated macro invocation
+- [x] textual macro scope
+- [x] textual type
+- [x] thin pointer
+- [x] thin pointer type
+- [x] token matching
+- [x] tokens
+- [x] trait
+- [x] trait body
+- [x] trait bound
+- [x] trait implementation
+- [x] trait object lifetime elision
+- [x] trait object type
+- [x] trait type
+- [x] transparent representation
+- [x] trivial predicate
+- [x] tuple
+- [x] tuple enum variant
+- [x] tuple enum variant value
+- [x] tuple expression
+- [x] tuple field
+- [x] tuple initializer
+- [x] tuple pattern
+- [x] tuple struct
+- [x] tuple struct call expression
+- [x] tuple struct field
+- [x] tuple struct pattern
+- [x] tuple struct type
+- [x] tuple struct value
+- [x] tuple type
+- [x] type
+- [x] type alias
+- [x] type argument
+- [x] type ascription
+- [x] type bound predicate
+- [x] type cast expression
+- [x] type coercion
+- [x] type inference
+- [x] type inference root
+- [x] type parameter
+- [x] type parameter initializer
+- [x] type parameter type
+- [x] type path
+- [x] type path resolution
+- [x] type representation
+- [x] type specification
+- [x] type unification
+- [x] type variable
+- [x] u8
+- [x] u16
+- [x] u32
+- [x] u64
+- [x] u128
+- [x] unary operator
+- [x] undefined behavior
+- [x] under resolution
+- [x] underscore expression
+- [x] underscore pattern
+- [x] unhygienic
+- [x] Unicode
+- [x] unifiable
+- [x] unifiable types
+- [x] unified type
+- [x] unify
+- [x] union
+- [x] union field
+- [x] union type
+- [x] union value
+- [x] unique immutable reference
+- [x] unit enum variant
+- [x] unit struct
+- [x] unit struct constant
+- [x] unit struct type
+- [x] unit struct value
+- [x] unit tuple
+- [x] unit type
+- [x] unit value
+- [x] unnamed constant
+- [x] unnamed lifetime
+- [x] unqualified path expression
+- [x] unsafe block
+- [x] unsafe block expression
+- [x] unsafe context
+- [x] unsafe external block
+- [x] unsafe function
+- [x] unsafe function item type
+- [x] unsafe function pointer type
+- [x] unsafe operation
+- [x] unsafe Rust
+- [x] unsafe trait
+- [x] unsafe trait implementation
+- [x] unsafety
+- [x] unsigned integer type
+- [x] unsized coercion
+- [x] unsized type
+- [x] unsuffixed float
+- [x] unsuffixed integer
+- [x] use capture
+- [x] use import
+- [x] usize
+- [x] validity invariant
+- [x] value
+- [x] value expression
+- [x] value expression context
+- [x] value operand
+- [x] variable
+- [x] variadic part
+- [x] variance
+- [x] visibility
+- [x] visibility modifier
+- [x] visible emptiness
+- [x] visible empty enum variant
+- [x] visible empty type
+- [x] weak keyword
+- [x] where clause
+- [x] where clause predicate
+- [x] while let loop
+- [x] while let loop expression
+- [x] while loop
+- [x] while loop expression
+- [x] whitespace string
+- [x] zero-sized type
+- [x] zero-variant enum type

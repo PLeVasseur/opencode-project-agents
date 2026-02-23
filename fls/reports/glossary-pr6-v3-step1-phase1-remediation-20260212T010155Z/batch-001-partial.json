@@ -1,0 +1,23 @@
+{
+  "batch_number": 1,
+  "passed_ids": [],
+  "quarantined": {
+    "WA-001": "parent row is not checked",
+    "WA-002": "parent row is not checked",
+    "WA-003": "parent row is not checked",
+    "WA-004": "parent row is not checked",
+    "WA-005": "parent row is not checked",
+    "WA-006": "parent row is not checked",
+    "WA-007": "parent row is not checked",
+    "WA-008": "parent row is not checked",
+    "WA-009": "parent row is not checked",
+    "WA-010": "parent row is not checked",
+    "WA-011": "parent row is not checked",
+    "WA-012": "parent row is not checked",
+    "WA-013": "parent row is not checked",
+    "WA-014": "parent row is not checked",
+    "WA-015": "parent row is not checked"
+  },
+  "timestamp": "20260212T010512Z",
+  "wave": "WA"
+}

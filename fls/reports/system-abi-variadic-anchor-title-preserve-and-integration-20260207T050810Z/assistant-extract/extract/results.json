@@ -1,0 +1,122 @@
+{
+  "mode": "extract",
+  "generated_at": "2026-02-07T05:10:35.816940+00:00",
+  "totals": {
+    "cases": 4,
+    "passed": 4,
+    "failed": 0
+  },
+  "cases": [
+    {
+      "id": "extract-role-inventory-delta",
+      "category": "synthetic",
+      "mode": "extract",
+      "passed": true,
+      "require_tags": [
+        "paragraph-changed",
+        "role-change",
+        "term-ref-added"
+      ],
+      "forbid_tags": [
+        "paragraph-added",
+        "paragraph-removed"
+      ],
+      "observed_tags": [
+        "paragraph-changed",
+        "role-change",
+        "term-ref-added"
+      ],
+      "missing_required_tags": [],
+      "present_forbidden_tags": [],
+      "details": {
+        "assertion_failures": [],
+        "base_src": "tools/changelog_tag_fixtures/extraction/extract-role-inventory-delta/src/base.rst",
+        "head_src": "tools/changelog_tag_fixtures/extraction/extract-role-inventory-delta/src/head.rst",
+        "expected": "tools/changelog_tag_fixtures/extraction/extract-role-inventory-delta/expected.json"
+      },
+      "log": ".opencode_report_root/assistant-extract/extract/logs/extract-role-inventory-delta.log"
+    },
+    {
+      "id": "extract-list-structure-delta",
+      "category": "synthetic",
+      "mode": "extract",
+      "passed": true,
+      "require_tags": [
+        "list-structure-change"
+      ],
+      "forbid_tags": [
+        "paragraph-added",
+        "paragraph-removed",
+        "paragraph-changed"
+      ],
+      "observed_tags": [
+        "list-structure-change"
+      ],
+      "missing_required_tags": [],
+      "present_forbidden_tags": [],
+      "details": {
+        "assertion_failures": [],
+        "base_src": "tools/changelog_tag_fixtures/extraction/extract-list-structure-delta/src/base.rst",
+        "head_src": "tools/changelog_tag_fixtures/extraction/extract-list-structure-delta/src/head.rst",
+        "expected": "tools/changelog_tag_fixtures/extraction/extract-list-structure-delta/expected.json"
+      },
+      "log": ".opencode_report_root/assistant-extract/extract/logs/extract-list-structure-delta.log"
+    },
+    {
+      "id": "extract-literal-inventory-delta",
+      "category": "synthetic",
+      "mode": "extract",
+      "passed": true,
+      "require_tags": [
+        "paragraph-changed",
+        "literal-change"
+      ],
+      "forbid_tags": [
+        "paragraph-added",
+        "paragraph-removed"
+      ],
+      "observed_tags": [
+        "paragraph-changed",
+        "literal-change"
+      ],
+      "missing_required_tags": [],
+      "present_forbidden_tags": [],
+      "details": {
+        "assertion_failures": [],
+        "base_src": "tools/changelog_tag_fixtures/extraction/extract-literal-inventory-delta/src/base.rst",
+        "head_src": "tools/changelog_tag_fixtures/extraction/extract-literal-inventory-delta/src/head.rst",
+        "expected": "tools/changelog_tag_fixtures/extraction/extract-literal-inventory-delta/expected.json"
+      },
+      "log": ".opencode_report_root/assistant-extract/extract/logs/extract-literal-inventory-delta.log"
+    },
+    {
+      "id": "extract-definition-reference-mapping",
+      "category": "synthetic",
+      "mode": "extract",
+      "passed": true,
+      "require_tags": [
+        "paragraph-changed",
+        "role-change",
+        "term-ref-added"
+      ],
+      "forbid_tags": [
+        "paragraph-added",
+        "paragraph-removed"
+      ],
+      "observed_tags": [
+        "paragraph-changed",
+        "role-change",
+        "term-ref-added"
+      ],
+      "missing_required_tags": [],
+      "present_forbidden_tags": [],
+      "details": {
+        "assertion_failures": [],
+        "base_src": "tools/changelog_tag_fixtures/extraction/extract-definition-reference-mapping/src/base.rst",
+        "head_src": "tools/changelog_tag_fixtures/extraction/extract-definition-reference-mapping/src/head.rst",
+        "expected": "tools/changelog_tag_fixtures/extraction/extract-definition-reference-mapping/expected.json"
+      },
+      "log": ".opencode_report_root/assistant-extract/extract/logs/extract-definition-reference-mapping.log"
+    }
+  ]
+}

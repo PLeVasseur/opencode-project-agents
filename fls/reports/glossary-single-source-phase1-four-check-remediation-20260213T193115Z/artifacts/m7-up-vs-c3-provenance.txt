@@ -1,0 +1,7 @@
+timestamp_utc: 2026-02-13T20:34:29Z
+left_ref: fb8a46795eda1f1db5e3232002fd94a270bfbffd
+right_ref: 6716db3a49cfbffa30ccac3a51cf76ebd9ab60a7
+left_export_dir: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-debug-upstream
+right_export_dir: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-debug-commit3
+macros_diff: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-up-vs-c3-macros.diff
+searchindex_diff: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-up-vs-c3-searchindex.diff

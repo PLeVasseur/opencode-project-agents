@@ -1,0 +1,34 @@
+usage: validate-ledger-and-checklist-v2.py [-h] --checklist CHECKLIST --ledger
+                                           LEDGER --baseline BASELINE
+                                           [--mode {progress,init,gate,final}]
+                                           [--expected-parent-count EXPECTED_PARENT_COUNT]
+                                           [--expected-id-list EXPECTED_ID_LIST]
+                                           [--subitems-per-parent SUBITEMS_PER_PARENT]
+                                           [--min-reason-length MIN_REASON_LENGTH]
+                                           [--final-allowed-quality FINAL_ALLOWED_QUALITY]
+                                           [--json-out JSON_OUT]
+                                           [--markdown-out MARKDOWN_OUT]
+
+Validate v2 checklist + ledger remediation gates
+
+options:
+  -h, --help            show this help message and exit
+  --checklist CHECKLIST
+  --ledger LEDGER
+  --baseline BASELINE
+  --mode {progress,init,gate,final}
+                        init=all unchecked, gate=all checked, final=all
+                        checked + allowed final qualities
+  --expected-parent-count EXPECTED_PARENT_COUNT
+                        Optional expected parent count; if omitted checklist
+                        count is used
+  --expected-id-list EXPECTED_ID_LIST
+                        Optional file listing expected checklist IDs (one per
+                        line)
+  --subitems-per-parent SUBITEMS_PER_PARENT
+  --min-reason-length MIN_REASON_LENGTH
+  --final-allowed-quality FINAL_ALLOWED_QUALITY
+                        Allowed final_quality value(s) in final mode
+                        (repeatable)
+  --json-out JSON_OUT
+  --markdown-out MARKDOWN_OUT

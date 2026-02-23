@@ -1,0 +1,1661 @@
+{
+  "summary": {
+    "commit_count": 41,
+    "min_count_per_category": 82,
+    "sample_dual_count": 82,
+    "sample_glossary_only_count": 82,
+    "missing_dual_commits": [
+      "764f095e70e4cf8836ffda3ed3f8e5f78f685ad5",
+      "e090b1deb8cce93cfb34507604463c588bb2b7c2"
+    ],
+    "missing_glossary_only_commits": [
+      "290841f2052b17e4a95428886ad4c10ccf097483"
+    ]
+  },
+  "sample_dual": [
+    {
+      "term": "while loop expression",
+      "file": "src/expressions.rst",
+      "line": 5352,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "2dfc847a722423358b918a6836760a3a11b5cb96"
+    },
+    {
+      "term": "while let loop expression",
+      "file": "src/expressions.rst",
+      "line": 5439,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "2dfc847a722423358b918a6836760a3a11b5cb96"
+    },
+    {
+      "term": "visibility",
+      "file": "src/entities-and-resolution.rst",
+      "line": 173,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "66a1099560705cbf09a1a0ce96f8eeb318085b76"
+    },
+    {
+      "term": "visibility modifier",
+      "file": "src/entities-and-resolution.rst",
+      "line": 210,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "66a1099560705cbf09a1a0ce96f8eeb318085b76"
+    },
+    {
+      "term": "unqualified path expression",
+      "file": "src/entities-and-resolution.rst",
+      "line": 513,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "31ccd8534dc29d58e9a37eeb005dace8db822a8d"
+    },
+    {
+      "term": "unsafe block expression",
+      "file": "src/expressions.rst",
+      "line": 1138,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "31ccd8534dc29d58e9a37eeb005dace8db822a8d"
+    },
+    {
+      "term": "type path resolution",
+      "file": "src/entities-and-resolution.rst",
+      "line": 2284,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "ba1d4b9508e877d0bdcb75a99661163a9bffbae2"
+    },
+    {
+      "term": "union type",
+      "file": "src/types-and-traits.rst",
+      "line": 1364,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "ba1d4b9508e877d0bdcb75a99661163a9bffbae2"
+    },
+    {
+      "term": "type path",
+      "file": "src/entities-and-resolution.rst",
+      "line": 525,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "cf11e81e0115b4f4234b6f113802fe2ece9b146e"
+    },
+    {
+      "term": "under resolution",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1619,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "cf11e81e0115b4f4234b6f113802fe2ece9b146e"
+    },
+    {
+      "term": "tuple expression",
+      "file": "src/expressions.rst",
+      "line": 4073,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "52d13394ed3976cbeadc5bc15115cd2570586ec3"
+    },
+    {
+      "term": "tuple initializer",
+      "file": "src/expressions.rst",
+      "line": 4085,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "52d13394ed3976cbeadc5bc15115cd2570586ec3"
+    },
+    {
+      "term": "sync type",
+      "file": "src/concurrency.rst",
+      "line": 66,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "dc774c9d0b2a6ae1dff7a9cd4e1d8a84b3489ceb"
+    },
+    {
+      "term": "super public modifier",
+      "file": "src/entities-and-resolution.rst",
+      "line": 288,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "dc774c9d0b2a6ae1dff7a9cd4e1d8a84b3489ceb"
+    },
+    {
+      "term": "subject expression",
+      "file": "src/expressions.rst",
+      "line": 67,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "6f91bcd7e628612db9af159d58fc072e5f1867eb"
+    },
+    {
+      "term": "subject let expression",
+      "file": "src/expressions.rst",
+      "line": 81,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "6f91bcd7e628612db9af159d58fc072e5f1867eb"
+    },
+    {
+      "term": "simple path public modifier",
+      "file": "src/entities-and-resolution.rst",
+      "line": 250,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "6cc6e9f1f6cb14ffe8cdc156ba852ef171bcc767"
+    },
+    {
+      "term": "simple public modifier",
+      "file": "src/entities-and-resolution.rst",
+      "line": 274,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "6cc6e9f1f6cb14ffe8cdc156ba852ef171bcc767"
+    },
+    {
+      "term": "send type",
+      "file": "src/concurrency.rst",
+      "line": 46,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "bc8919fbbd8d4666fda0758018f0510370466334"
+    },
+    {
+      "term": "simple path",
+      "file": "src/entities-and-resolution.rst",
+      "line": 456,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "bc8919fbbd8d4666fda0758018f0510370466334"
+    },
+    {
+      "term": "self public modifier",
+      "file": "src/entities-and-resolution.rst",
+      "line": 234,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "3925cc1fb6bb7f1d87d9b2d6b611be59eab141d8"
+    },
+    {
+      "term": "scope",
+      "file": "src/entities-and-resolution.rst",
+      "line": 688,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "3925cc1fb6bb7f1d87d9b2d6b611be59eab141d8"
+    },
+    {
+      "term": "remainder expression",
+      "file": "src/expressions.rst",
+      "line": 1868,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "e5bd283aaeb404147ba83c2dc3fb49b413e9313f"
+    },
+    {
+      "term": "remainder assignment expression",
+      "file": "src/expressions.rst",
+      "line": 3383,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "e5bd283aaeb404147ba83c2dc3fb49b413e9313f"
+    },
+    {
+      "term": "receiver type",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1770,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "3bff43ba3ae891942ed0511e29cd95174c621c92"
+    },
+    {
+      "term": "raw borrow expression",
+      "file": "src/expressions.rst",
+      "line": 1348,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "3bff43ba3ae891942ed0511e29cd95174c621c92"
+    },
+    {
+      "term": "public visibility",
+      "file": "src/entities-and-resolution.rst",
+      "line": 184,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "7f4ea487fa34478672e9c3c7cd6e239c788a1fce"
+    },
+    {
+      "term": "qualifying trait",
+      "file": "src/entities-and-resolution.rst",
+      "line": 540,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "7f4ea487fa34478672e9c3c7cd6e239c788a1fce"
+    },
+    {
+      "term": "private visibility",
+      "file": "src/entities-and-resolution.rst",
+      "line": 197,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "cf130665cd12450ccfd9e04b533c178a86e2b4f6"
+    },
+    {
+      "term": "prelude",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1234,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "cf130665cd12450ccfd9e04b533c178a86e2b4f6"
+    },
+    {
+      "term": "path",
+      "file": "src/entities-and-resolution.rst",
+      "line": 404,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "cee165a9aacc28c14a1f74f573d44a90537d0dab"
+    },
+    {
+      "term": "path segment",
+      "file": "src/entities-and-resolution.rst",
+      "line": 415,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "cee165a9aacc28c14a1f74f573d44a90537d0dab"
+    },
+    {
+      "term": "outer attribute",
+      "file": "src/attributes.rst",
+      "line": 70,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "6d3a2bc1710e8df4fd2a8737c1b74399bb9226ab"
+    },
+    {
+      "term": "not configuration predicate",
+      "file": "src/attributes.rst",
+      "line": 1052,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "6d3a2bc1710e8df4fd2a8737c1b74399bb9226ab"
+    },
+    {
+      "term": "name",
+      "file": "src/entities-and-resolution.rst",
+      "line": 36,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "ec494261fe9c8659a7414bc1f5810f5381c4b303"
+    },
+    {
+      "term": "namespace",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1094,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "ec494261fe9c8659a7414bc1f5810f5381c4b303"
+    },
+    {
+      "term": "method",
+      "file": "src/associated-items.rst",
+      "line": 289,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "d6c89e6ea6fc940b9837807548bb9b4e3d8e999b"
+    },
+    {
+      "term": "multi segment path",
+      "file": "src/entities-and-resolution.rst",
+      "line": 502,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "d6c89e6ea6fc940b9837807548bb9b4e3d8e999b"
+    },
+    {
+      "term": "loop expression",
+      "file": "src/expressions.rst",
+      "line": 5098,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "0be1c7edc60b50ad00fc75e381e1185cf41e4d66"
+    },
+    {
+      "term": "loop body",
+      "file": "src/expressions.rst",
+      "line": 5112,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "0be1c7edc60b50ad00fc75e381e1185cf41e4d66"
+    },
+    {
+      "term": "literal expression",
+      "file": "src/expressions.rst",
+      "line": 773,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "c862c565cd8bd0fdb98c0ceb25de6192c61169dc"
+    },
+    {
+      "term": "lifetime parameter",
+      "file": "src/generics.rst",
+      "line": 167,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "c862c565cd8bd0fdb98c0ceb25de6192c61169dc"
+    },
+    {
+      "term": "item scope",
+      "file": "src/entities-and-resolution.rst",
+      "line": 815,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "bc069fd463a2b1db5851cad4c7b9bb28e1eb9e4e"
+    },
+    {
+      "term": "label scope",
+      "file": "src/entities-and-resolution.rst",
+      "line": 841,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "bc069fd463a2b1db5851cad4c7b9bb28e1eb9e4e"
+    },
+    {
+      "term": "inner attribute",
+      "file": "src/attributes.rst",
+      "line": 56,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "59827bd9324eed4f4c29ed86c4861e79c94f3a1a"
+    },
+    {
+      "term": "infinite loop expression",
+      "file": "src/expressions.rst",
+      "line": 5272,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "59827bd9324eed4f4c29ed86c4861e79c94f3a1a"
+    },
+    {
+      "term": "inert attribute",
+      "file": "src/attributes.rst",
+      "line": 127,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "2cd6855f0662e0356bc09075d2967bc0a7ab724d"
+    },
+    {
+      "term": "implicitly declared entity",
+      "file": "src/entities-and-resolution.rst",
+      "line": 122,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "2cd6855f0662e0356bc09075d2967bc0a7ab724d"
+    },
+    {
+      "term": "immutable place expression",
+      "file": "src/expressions.rst",
+      "line": 607,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "d9a148b646fdf290cf100acab764502eb84d2180"
+    },
+    {
+      "term": "immutable borrow expression",
+      "file": "src/expressions.rst",
+      "line": 1255,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "d9a148b646fdf290cf100acab764502eb84d2180"
+    },
+    {
+      "term": "global path",
+      "file": "src/entities-and-resolution.rst",
+      "line": 445,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "90e13856aa69709b8d3aee337224a1893ce13c47"
+    },
+    {
+      "term": "generic parameter scope",
+      "file": "src/entities-and-resolution.rst",
+      "line": 756,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "90e13856aa69709b8d3aee337224a1893ce13c47"
+    },
+    {
+      "term": "generic associated type",
+      "file": "src/associated-items.rst",
+      "line": 113,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "5c37a4870b5bc04d6efb8b8ae2509a2fe02424ba"
+    },
+    {
+      "term": "future",
+      "file": "src/concurrency.rst",
+      "line": 167,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "5c37a4870b5bc04d6efb8b8ae2509a2fe02424ba"
+    },
+    {
+      "term": "field resolution",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1666,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "200bda31f096cf2c311953ddbd51a7cbd2957307"
+    },
+    {
+      "term": "field access expression",
+      "file": "src/expressions.rst",
+      "line": 4775,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "200bda31f096cf2c311953ddbd51a7cbd2957307"
+    },
+    {
+      "term": "exported function",
+      "file": "src/attributes.rst",
+      "line": 1601,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "862a461cc68af536cc2c77e242b5ceb330e641c2"
+    },
+    {
+      "term": "exported static",
+      "file": "src/attributes.rst",
+      "line": 1611,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "862a461cc68af536cc2c77e242b5ceb330e641c2"
+    },
+    {
+      "term": "entity",
+      "file": "src/entities-and-resolution.rst",
+      "line": 25,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "9a978c3837abf7f7ac0c77834d8f0ae4e52e11a5"
+    },
+    {
+      "term": "evaluation",
+      "file": "src/expressions.rst",
+      "line": 202,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "9a978c3837abf7f7ac0c77834d8f0ae4e52e11a5"
+    },
+    {
+      "term": "dereference type chain",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1639,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "869af9cc64a5433bcd5231e13ad53210e88a97ff"
+    },
+    {
+      "term": "diverging expression",
+      "file": "src/expressions.rst",
+      "line": 483,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "869af9cc64a5433bcd5231e13ad53210e88a97ff"
+    },
+    {
+      "term": "data race",
+      "file": "src/concurrency.rst",
+      "line": 17,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "441f3fd3c0241e9e5d92b270603f7d9aa8e30195"
+    },
+    {
+      "term": "declaration",
+      "file": "src/entities-and-resolution.rst",
+      "line": 48,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "441f3fd3c0241e9e5d92b270603f7d9aa8e30195"
+    },
+    {
+      "term": "configuration predicate",
+      "file": "src/attributes.rst",
+      "line": 1001,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "7a54fff856ad2552c39e0671562f762f893cbbde"
+    },
+    {
+      "term": "constant expression",
+      "file": "src/expressions.rst",
+      "line": 272,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "7a54fff856ad2552c39e0671562f762f893cbbde"
+    },
+    {
+      "term": "call resolution",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1901,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "00dc1831813a3212fa587b2ab379dae2b23ed81a"
+    },
+    {
+      "term": "comparison expression",
+      "file": "src/expressions.rst",
+      "line": 2369,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "00dc1831813a3212fa587b2ab379dae2b23ed81a"
+    },
+    {
+      "term": "built-in attribute",
+      "file": "src/attributes.rst",
+      "line": 218,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "98e97a8daf186436df9b7b6622aab89132b9697a"
+    },
+    {
+      "term": "borrow expression",
+      "file": "src/expressions.rst",
+      "line": 1239,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "98e97a8daf186436df9b7b6622aab89132b9697a"
+    },
+    {
+      "term": "binding scope",
+      "file": "src/entities-and-resolution.rst",
+      "line": 711,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "48ae27979c3ba216ba39d0e1bd634784063db0d2"
+    },
+    {
+      "term": "block expression",
+      "file": "src/expressions.rst",
+      "line": 877,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "48ae27979c3ba216ba39d0e1bd634784063db0d2"
+    },
+    {
+      "term": "attribute",
+      "file": "src/attributes.rst",
+      "line": 45,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "1e900d9c4d1925a2ffb01e7d179e5a657c5a4015"
+    },
+    {
+      "term": "attribute content",
+      "file": "src/attributes.rst",
+      "line": 84,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "1e900d9c4d1925a2ffb01e7d179e5a657c5a4015"
+    },
+    {
+      "term": "associated item",
+      "file": "src/associated-items.rst",
+      "line": 27,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    },
+    {
+      "term": "associated constant",
+      "file": "src/associated-items.rst",
+      "line": 41,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    },
+    {
+      "term": "active attribute",
+      "file": "src/attributes.rst",
+      "line": 116,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "290841f2052b17e4a95428886ad4c10ccf097483"
+    },
+    {
+      "term": "all configuration predicate",
+      "file": "src/attributes.rst",
+      "line": 1015,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "290841f2052b17e4a95428886ad4c10ccf097483"
+    },
+    {
+      "term": "associated function",
+      "file": "src/associated-items.rst",
+      "line": 59,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    },
+    {
+      "term": "associated type",
+      "file": "src/associated-items.rst",
+      "line": 77,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    },
+    {
+      "term": "associated implementation constant",
+      "file": "src/associated-items.rst",
+      "line": 141,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    },
+    {
+      "term": "associated implementation function",
+      "file": "src/associated-items.rst",
+      "line": 156,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": true,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    }
+  ],
+  "sample_glossary_only": [
+    {
+      "term": "while loop",
+      "file": "src/expressions.rst",
+      "line": 5334,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "2dfc847a722423358b918a6836760a3a11b5cb96"
+    },
+    {
+      "term": "while let loop",
+      "file": "src/expressions.rst",
+      "line": 5424,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "2dfc847a722423358b918a6836760a3a11b5cb96"
+    },
+    {
+      "term": "validity invariant",
+      "file": "src/types-and-traits.rst",
+      "line": 393,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "66a1099560705cbf09a1a0ce96f8eeb318085b76"
+    },
+    {
+      "term": "unsized type",
+      "file": "src/types-and-traits.rst",
+      "line": 3078,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "66a1099560705cbf09a1a0ce96f8eeb318085b76"
+    },
+    {
+      "term": "unsafe block",
+      "file": "src/expressions.rst",
+      "line": 1132,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "31ccd8534dc29d58e9a37eeb005dace8db822a8d"
+    },
+    {
+      "term": "unsigned integer type",
+      "file": "src/types-and-traits.rst",
+      "line": 499,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "31ccd8534dc29d58e9a37eeb005dace8db822a8d"
+    },
+    {
+      "term": "unique immutable reference",
+      "file": "src/expressions.rst",
+      "line": 6857,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "ba1d4b9508e877d0bdcb75a99661163a9bffbae2"
+    },
+    {
+      "term": "u8",
+      "file": "src/types-and-traits.rst",
+      "line": 537,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "ba1d4b9508e877d0bdcb75a99661163a9bffbae2"
+    },
+    {
+      "term": "unary operator",
+      "file": "src/expressions.rst",
+      "line": 1214,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "cf11e81e0115b4f4234b6f113802fe2ece9b146e"
+    },
+    {
+      "term": "Unicode",
+      "file": "src/lexical-elements.rst",
+      "line": 28,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "cf11e81e0115b4f4234b6f113802fe2ece9b146e"
+    },
+    {
+      "term": "tuple",
+      "file": "src/types-and-traits.rst",
+      "line": 859,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "52d13394ed3976cbeadc5bc15115cd2570586ec3"
+    },
+    {
+      "term": "tuple field",
+      "file": "src/types-and-traits.rst",
+      "line": 879,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "52d13394ed3976cbeadc5bc15115cd2570586ec3"
+    },
+    {
+      "term": "syntactic category",
+      "file": "src/general.rst",
+      "line": 268,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "dc774c9d0b2a6ae1dff7a9cd4e1d8a84b3489ceb"
+    },
+    {
+      "term": "textual type",
+      "file": "src/types-and-traits.rst",
+      "line": 198,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "dc774c9d0b2a6ae1dff7a9cd4e1d8a84b3489ceb"
+    },
+    {
+      "term": "subexpression",
+      "file": "src/expressions.rst",
+      "line": 95,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "6f91bcd7e628612db9af159d58fc072e5f1867eb"
+    },
+    {
+      "term": "subtraction assignment",
+      "file": "src/expressions.rst",
+      "line": 3437,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "6f91bcd7e628612db9af159d58fc072e5f1867eb"
+    },
+    {
+      "term": "statement",
+      "file": "src/statements.rst",
+      "line": 11,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "6cc6e9f1f6cb14ffe8cdc156ba852ef171bcc767"
+    },
+    {
+      "term": "slice",
+      "file": "src/types-and-traits.rst",
+      "line": 756,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "6cc6e9f1f6cb14ffe8cdc156ba852ef171bcc767"
+    },
+    {
+      "term": "shared borrow",
+      "file": "src/expressions.rst",
+      "line": 1266,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "bc8919fbbd8d4666fda0758018f0510370466334"
+    },
+    {
+      "term": "shift left assignment",
+      "file": "src/expressions.rst",
+      "line": 3397,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "bc8919fbbd8d4666fda0758018f0510370466334"
+    },
+    {
+      "term": "Self",
+      "file": "src/entities-and-resolution.rst",
+      "line": 858,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "3925cc1fb6bb7f1d87d9b2d6b611be59eab141d8"
+    },
+    {
+      "term": "rustc",
+      "file": "src/general.rst",
+      "line": 57,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "3925cc1fb6bb7f1d87d9b2d6b611be59eab141d8"
+    },
+    {
+      "term": "refutability",
+      "file": "src/patterns.rst",
+      "line": 155,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "764f095e70e4cf8836ffda3ed3f8e5f78f685ad5"
+    },
+    {
+      "term": "renaming",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1390,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "e5bd283aaeb404147ba83c2dc3fb49b413e9313f"
+    },
+    {
+      "term": "remainder assignment",
+      "file": "src/expressions.rst",
+      "line": 3377,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "e5bd283aaeb404147ba83c2dc3fb49b413e9313f"
+    },
+    {
+      "term": "record enum variant",
+      "file": "src/types-and-traits.rst",
+      "line": 1005,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "3bff43ba3ae891942ed0511e29cd95174c621c92"
+    },
+    {
+      "term": "record struct",
+      "file": "src/types-and-traits.rst",
+      "line": 1184,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "3bff43ba3ae891942ed0511e29cd95174c621c92"
+    },
+    {
+      "term": "punctuator",
+      "file": "src/lexical-elements.rst",
+      "line": 229,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "7f4ea487fa34478672e9c3c7cd6e239c788a1fce"
+    },
+    {
+      "term": "prelude entity",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1248,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "cf130665cd12450ccfd9e04b533c178a86e2b4f6"
+    },
+    {
+      "term": "prelude name",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1254,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "cf130665cd12450ccfd9e04b533c178a86e2b4f6"
+    },
+    {
+      "term": "partially hygienic",
+      "file": "src/macros.rst",
+      "line": 1379,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "cee165a9aacc28c14a1f74f573d44a90537d0dab"
+    },
+    {
+      "term": "numeric type",
+      "file": "src/types-and-traits.rst",
+      "line": 434,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "6d3a2bc1710e8df4fd2a8737c1b74399bb9226ab"
+    },
+    {
+      "term": "object safety",
+      "file": "src/types-and-traits.rst",
+      "line": 4019,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "6d3a2bc1710e8df4fd2a8737c1b74399bb9226ab"
+    },
+    {
+      "term": "named field selector",
+      "file": "src/entities-and-resolution.rst",
+      "line": 1721,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "ec494261fe9c8659a7414bc1f5810f5381c4b303"
+    },
+    {
+      "term": "NaN-boxing",
+      "file": "src/inline-assembly.rst",
+      "line": 661,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "ec494261fe9c8659a7414bc1f5810f5381c4b303"
+    },
+    {
+      "term": "multiplication assignment",
+      "file": "src/expressions.rst",
+      "line": 3356,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "d6c89e6ea6fc940b9837807548bb9b4e3d8e999b"
+    },
+    {
+      "term": "mutable assignee expression",
+      "file": "src/expressions.rst",
+      "line": 3485,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "d6c89e6ea6fc940b9837807548bb9b4e3d8e999b"
+    },
+    {
+      "term": "loop",
+      "file": "src/expressions.rst",
+      "line": 5092,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "0be1c7edc60b50ad00fc75e381e1185cf41e4d66"
+    },
+    {
+      "term": "layout",
+      "file": "src/types-and-traits.rst",
+      "line": 2337,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "c862c565cd8bd0fdb98c0ceb25de6192c61169dc"
+    },
+    {
+      "term": "local variable",
+      "file": "src/values.rst",
+      "line": 350,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "c862c565cd8bd0fdb98c0ceb25de6192c61169dc"
+    },
+    {
+      "term": "label",
+      "file": "src/expressions.rst",
+      "line": 5511,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "bc069fd463a2b1db5851cad4c7b9bb28e1eb9e4e"
+    },
+    {
+      "term": "item",
+      "file": "src/items.rst",
+      "line": 43,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "bc069fd463a2b1db5851cad4c7b9bb28e1eb9e4e"
+    },
+    {
+      "term": "initialization type",
+      "file": "src/associated-items.rst",
+      "line": 95,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "59827bd9324eed4f4c29ed86c4861e79c94f3a1a"
+    },
+    {
+      "term": "initialization expression",
+      "file": "src/expressions.rst",
+      "line": 3127,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "59827bd9324eed4f4c29ed86c4861e79c94f3a1a"
+    },
+    {
+      "term": "incomplete associated constant",
+      "file": "src/associated-items.rst",
+      "line": 52,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "2cd6855f0662e0356bc09075d2967bc0a7ab724d"
+    },
+    {
+      "term": "incomplete associated function",
+      "file": "src/associated-items.rst",
+      "line": 70,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "2cd6855f0662e0356bc09075d2967bc0a7ab724d"
+    },
+    {
+      "term": "immutable place expression context",
+      "file": "src/expressions.rst",
+      "line": 668,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "d9a148b646fdf290cf100acab764502eb84d2180"
+    },
+    {
+      "term": "i64",
+      "file": "src/types-and-traits.rst",
+      "line": 642,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "d9a148b646fdf290cf100acab764502eb84d2180"
+    },
+    {
+      "term": "hygiene",
+      "file": "src/macros.rst",
+      "line": 1307,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "90e13856aa69709b8d3aee337224a1893ce13c47"
+    },
+    {
+      "term": "hygienic",
+      "file": "src/macros.rst",
+      "line": 1315,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "90e13856aa69709b8d3aee337224a1893ce13c47"
+    },
+    {
+      "term": "function type",
+      "file": "src/types-and-traits.rst",
+      "line": 1432,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "5c37a4870b5bc04d6efb8b8ae2509a2fe02424ba"
+    },
+    {
+      "term": "function pointer type parameter",
+      "file": "src/types-and-traits.rst",
+      "line": 1592,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "5c37a4870b5bc04d6efb8b8ae2509a2fe02424ba"
+    },
+    {
+      "term": "field index",
+      "file": "src/expressions.rst",
+      "line": 4827,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "200bda31f096cf2c311953ddbd51a7cbd2957307"
+    },
+    {
+      "term": "for loop",
+      "file": "src/expressions.rst",
+      "line": 5174,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "200bda31f096cf2c311953ddbd51a7cbd2957307"
+    },
+    {
+      "term": "executed",
+      "file": "src/statements.rst",
+      "line": 80,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "862a461cc68af536cc2c77e242b5ceb330e641c2"
+    },
+    {
+      "term": "fat pointer",
+      "file": "src/types-and-traits.rst",
+      "line": 2255,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "862a461cc68af536cc2c77e242b5ceb330e641c2"
+    },
+    {
+      "term": "evaluated",
+      "file": "src/expressions.rst",
+      "line": 213,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "9a978c3837abf7f7ac0c77834d8f0ae4e52e11a5"
+    },
+    {
+      "term": "escaped character",
+      "file": "src/general.rst",
+      "line": 275,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "9a978c3837abf7f7ac0c77834d8f0ae4e52e11a5"
+    },
+    {
+      "term": "division assignment",
+      "file": "src/expressions.rst",
+      "line": 3336,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "869af9cc64a5433bcd5231e13ad53210e88a97ff"
+    },
+    {
+      "term": "discriminant initializer",
+      "file": "src/types-and-traits.rst",
+      "line": 1063,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "869af9cc64a5433bcd5231e13ad53210e88a97ff"
+    },
+    {
+      "term": "dereference",
+      "file": "src/expressions.rst",
+      "line": 1430,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "441f3fd3c0241e9e5d92b270603f7d9aa8e30195"
+    },
+    {
+      "term": "dangling",
+      "file": "src/expressions.rst",
+      "line": 1488,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "441f3fd3c0241e9e5d92b270603f7d9aa8e30195"
+    },
+    {
+      "term": "conditional compilation",
+      "file": "src/attributes.rst",
+      "line": 941,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "7a54fff856ad2552c39e0671562f762f893cbbde"
+    },
+    {
+      "term": "conditionally-compiled source code",
+      "file": "src/attributes.rst",
+      "line": 948,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "7a54fff856ad2552c39e0671562f762f893cbbde"
+    },
+    {
+      "term": "compound assignment",
+      "file": "src/expressions.rst",
+      "line": 3270,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "00dc1831813a3212fa587b2ab379dae2b23ed81a"
+    },
+    {
+      "term": "code point",
+      "file": "src/lexical-elements.rst",
+      "line": 43,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "00dc1831813a3212fa587b2ab379dae2b23ed81a"
+    },
+    {
+      "term": "borrowed",
+      "file": "src/expressions.rst",
+      "line": 1290,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "98e97a8daf186436df9b7b6622aab89132b9697a"
+    },
+    {
+      "term": "Call conformance",
+      "file": "src/expressions.rst",
+      "line": 4480,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "98e97a8daf186436df9b7b6622aab89132b9697a"
+    },
+    {
+      "term": "bit and assignment",
+      "file": "src/expressions.rst",
+      "line": 3252,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "48ae27979c3ba216ba39d0e1bd634784063db0d2"
+    },
+    {
+      "term": "bit or assignment",
+      "file": "src/expressions.rst",
+      "line": 3258,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "48ae27979c3ba216ba39d0e1bd634784063db0d2"
+    },
+    {
+      "term": "atomic",
+      "file": "src/concurrency.rst",
+      "line": 93,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "1e900d9c4d1925a2ffb01e7d179e5a657c5a4015"
+    },
+    {
+      "term": "binary operator",
+      "file": "src/expressions.rst",
+      "line": 158,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "1e900d9c4d1925a2ffb01e7d179e5a657c5a4015"
+    },
+    {
+      "term": "assignment",
+      "file": "src/expressions.rst",
+      "line": 2953,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a"
+    },
+    {
+      "term": "arithmetic operator",
+      "file": "src/expressions.rst",
+      "line": 1770,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "e090b1deb8cce93cfb34507604463c588bb2b7c2"
+    },
+    {
+      "term": "addition assignment",
+      "file": "src/expressions.rst",
+      "line": 3236,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "e090b1deb8cce93cfb34507604463c588bb2b7c2"
+    },
+    {
+      "term": "incomplete associated type",
+      "file": "src/associated-items.rst",
+      "line": 88,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "2cd6855f0662e0356bc09075d2967bc0a7ab724d"
+    },
+    {
+      "term": "concrete type",
+      "file": "src/attributes.rst",
+      "line": 1825,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "7a54fff856ad2552c39e0671562f762f893cbbde"
+    },
+    {
+      "term": "in scope",
+      "file": "src/entities-and-resolution.rst",
+      "line": 698,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "2cd6855f0662e0356bc09075d2967bc0a7ab724d"
+    },
+    {
+      "term": "place",
+      "file": "src/expressions.rst",
+      "line": 525,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "cf130665cd12450ccfd9e04b533c178a86e2b4f6"
+    },
+    {
+      "term": "async block",
+      "file": "src/expressions.rst",
+      "line": 977,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "1e900d9c4d1925a2ffb01e7d179e5a657c5a4015"
+    },
+    {
+      "term": "addition assignment expression",
+      "file": "src/expressions.rst",
+      "line": 3242,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "e090b1deb8cce93cfb34507604463c588bb2b7c2"
+    },
+    {
+      "term": "bit xor assignment",
+      "file": "src/expressions.rst",
+      "line": 3264,
+      "indent": 0,
+      "has_glossary": true,
+      "has_chapter": false,
+      "commit": "48ae27979c3ba216ba39d0e1bd634784063db0d2"
+    }
+  ],
+  "by_commit_counts": {
+    "2dfc847a722423358b918a6836760a3a11b5cb96": {
+      "dual": 7,
+      "glossary_only": 3
+    },
+    "66a1099560705cbf09a1a0ce96f8eeb318085b76": {
+      "dual": 18,
+      "glossary_only": 2
+    },
+    "31ccd8534dc29d58e9a37eeb005dace8db822a8d": {
+      "dual": 11,
+      "glossary_only": 9
+    },
+    "ba1d4b9508e877d0bdcb75a99661163a9bffbae2": {
+      "dual": 7,
+      "glossary_only": 13
+    },
+    "cf11e81e0115b4f4234b6f113802fe2ece9b146e": {
+      "dual": 12,
+      "glossary_only": 8
+    },
+    "52d13394ed3976cbeadc5bc15115cd2570586ec3": {
+      "dual": 11,
+      "glossary_only": 9
+    },
+    "dc774c9d0b2a6ae1dff7a9cd4e1d8a84b3489ceb": {
+      "dual": 16,
+      "glossary_only": 4
+    },
+    "6f91bcd7e628612db9af159d58fc072e5f1867eb": {
+      "dual": 14,
+      "glossary_only": 6
+    },
+    "6cc6e9f1f6cb14ffe8cdc156ba852ef171bcc767": {
+      "dual": 17,
+      "glossary_only": 3
+    },
+    "bc8919fbbd8d4666fda0758018f0510370466334": {
+      "dual": 14,
+      "glossary_only": 6
+    },
+    "3925cc1fb6bb7f1d87d9b2d6b611be59eab141d8": {
+      "dual": 14,
+      "glossary_only": 6
+    },
+    "764f095e70e4cf8836ffda3ed3f8e5f78f685ad5": {
+      "dual": 0,
+      "glossary_only": 1
+    },
+    "e5bd283aaeb404147ba83c2dc3fb49b413e9313f": {
+      "dual": 15,
+      "glossary_only": 3
+    },
+    "3bff43ba3ae891942ed0511e29cd95174c621c92": {
+      "dual": 14,
+      "glossary_only": 7
+    },
+    "7f4ea487fa34478672e9c3c7cd6e239c788a1fce": {
+      "dual": 19,
+      "glossary_only": 1
+    },
+    "cf130665cd12450ccfd9e04b533c178a86e2b4f6": {
+      "dual": 14,
+      "glossary_only": 6
+    },
+    "cee165a9aacc28c14a1f74f573d44a90537d0dab": {
+      "dual": 19,
+      "glossary_only": 1
+    },
+    "6d3a2bc1710e8df4fd2a8737c1b74399bb9226ab": {
+      "dual": 17,
+      "glossary_only": 3
+    },
+    "ec494261fe9c8659a7414bc1f5810f5381c4b303": {
+      "dual": 16,
+      "glossary_only": 4
+    },
+    "d6c89e6ea6fc940b9837807548bb9b4e3d8e999b": {
+      "dual": 16,
+      "glossary_only": 4
+    },
+    "0be1c7edc60b50ad00fc75e381e1185cf41e4d66": {
+      "dual": 19,
+      "glossary_only": 1
+    },
+    "c862c565cd8bd0fdb98c0ceb25de6192c61169dc": {
+      "dual": 18,
+      "glossary_only": 2
+    },
+    "bc069fd463a2b1db5851cad4c7b9bb28e1eb9e4e": {
+      "dual": 17,
+      "glossary_only": 3
+    },
+    "59827bd9324eed4f4c29ed86c4861e79c94f3a1a": {
+      "dual": 15,
+      "glossary_only": 5
+    },
+    "2cd6855f0662e0356bc09075d2967bc0a7ab724d": {
+      "dual": 14,
+      "glossary_only": 6
+    },
+    "d9a148b646fdf290cf100acab764502eb84d2180": {
+      "dual": 15,
+      "glossary_only": 5
+    },
+    "90e13856aa69709b8d3aee337224a1893ce13c47": {
+      "dual": 13,
+      "glossary_only": 7
+    },
+    "5c37a4870b5bc04d6efb8b8ae2509a2fe02424ba": {
+      "dual": 18,
+      "glossary_only": 2
+    },
+    "200bda31f096cf2c311953ddbd51a7cbd2957307": {
+      "dual": 11,
+      "glossary_only": 9
+    },
+    "862a461cc68af536cc2c77e242b5ceb330e641c2": {
+      "dual": 18,
+      "glossary_only": 2
+    },
+    "9a978c3837abf7f7ac0c77834d8f0ae4e52e11a5": {
+      "dual": 9,
+      "glossary_only": 11
+    },
+    "869af9cc64a5433bcd5231e13ad53210e88a97ff": {
+      "dual": 18,
+      "glossary_only": 2
+    },
+    "441f3fd3c0241e9e5d92b270603f7d9aa8e30195": {
+      "dual": 16,
+      "glossary_only": 4
+    },
+    "7a54fff856ad2552c39e0671562f762f893cbbde": {
+      "dual": 15,
+      "glossary_only": 5
+    },
+    "00dc1831813a3212fa587b2ab379dae2b23ed81a": {
+      "dual": 18,
+      "glossary_only": 2
+    },
+    "98e97a8daf186436df9b7b6622aab89132b9697a": {
+      "dual": 15,
+      "glossary_only": 5
+    },
+    "48ae27979c3ba216ba39d0e1bd634784063db0d2": {
+      "dual": 16,
+      "glossary_only": 4
+    },
+    "1e900d9c4d1925a2ffb01e7d179e5a657c5a4015": {
+      "dual": 15,
+      "glossary_only": 5
+    },
+    "73607e097ae56fe9f9e53a1b59f40bad73e0dc4a": {
+      "dual": 19,
+      "glossary_only": 1
+    },
+    "e090b1deb8cce93cfb34507604463c588bb2b7c2": {
+      "dual": 0,
+      "glossary_only": 9
+    },
+    "290841f2052b17e4a95428886ad4c10ccf097483": {
+      "dual": 20,
+      "glossary_only": 0
+    }
+  }
+}

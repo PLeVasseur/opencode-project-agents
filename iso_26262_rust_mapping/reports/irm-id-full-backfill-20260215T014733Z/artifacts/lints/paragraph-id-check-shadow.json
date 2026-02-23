@@ -1,0 +1,9 @@
+{
+  "finding_count": 0,
+  "findings": [],
+  "runtime_finding_count": 0,
+  "shadow_report_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/lints/paragraph-id-check-shadow.json",
+  "source_finding_count": 0,
+  "status": "pass",
+  "strict_mode": true
+}

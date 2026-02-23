@@ -1,0 +1,40 @@
+{
+  up_streamer_config: {
+    message_queue_size: 10000,
+  },
+  streamer_uuri: {
+    authority: "authority-b",
+    ue_id: 78,
+    ue_version_major: 1,
+  },
+  usubscription_config: {
+    file_path: "/home/pete.levasseur/opencode-project-agents/up-streamer-rust/reports/issue-74/subscription_data.issue74.json",
+  },
+  transports: {
+    zenoh: {
+      config_file: "/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/configurable-streamer/ZENOH_CONFIG.json5",
+      endpoints: [
+        {
+          authority: "authority-b",
+          endpoint: "endpoint_zenoh_b",
+          forwarding: ["endpoint_mqtt_a", "endpoint_mqtt_c"],
+        },
+      ],
+    },
+    mqtt: {
+      config_file: "/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/configurable-streamer/MQTT_CONFIG.json5",
+      endpoints: [
+        {
+          authority: "authority-a",
+          endpoint: "endpoint_mqtt_a",
+          forwarding: ["endpoint_zenoh_b"],
+        },
+        {
+          authority: "authority-c",
+          endpoint: "endpoint_mqtt_c",
+          forwarding: ["endpoint_zenoh_b"],
+        },
+      ],
+    },
+  },
+}

@@ -1,0 +1,49 @@
+00029: - `Anchor replace validation (system-abi-variadic) <https://github.com/rust-lang/rust/pull/145954>`_
+00030: 
+00031:   - Change tags: paragraph-added, paragraph-changed, role-change, term-def-added, syntax-ref-added, section-added, normative-shift
+00032:   - Added paragraphs:
+00033:     - :p:`fls_9OFXj6DnKS7W`
+00034:     - :p:`fls_MpcAsy5zhCeW`
+00035:     - :p:`fls_NxhrfQzbxetN`
+00036:     - :p:`fls_TmvfmSQP65pA`
+00037:     - :p:`fls_ZbvI45Ojpte4`
+00038:     - :p:`fls_tZP7xARsjuYv`
+00039:     - :p:`fls_tuP6iLdL6Kx0`
+00040:     - :p:`fls_yjRmR5F1cL6i`
+00041:   - Changed paragraphs:
+00042:     - :p:`fls_36qrs2fxxvi7`
+00043:     - :p:`fls_6rtj6rwqxojh`
+00044:     - :p:`fls_7t7yxh94wnbl`
+00045:     - :p:`fls_CIyK8BYzzo26`
+00046:     - :p:`fls_UippZpUyYpHl`
+00047:     - :p:`fls_ccFdnlX5HIYk`
+00048:     - :p:`fls_d3nmpc5mtg27`
+00049:     - :p:`fls_dbbfqaqa80r8`
+00050:     - :p:`fls_qwchgvvnp0qe`
+00051:     - :p:`fls_sxj4vy39sj4g`
+00052:     - :p:`fls_tyjs1x4j8ovp`
+00053:     - :p:`fls_xrCRprWS13R1`
+00054:   - Role changes:
+00055:     - :p:`fls_qwchgvvnp0qe`
+00056:   - Term definitions added:
+00057:     - calling_convention
+00058:   - Syntax references added:
+00059:     - :p:`fls_qwchgvvnp0qe`
+00060:   - Sections added:
+00061:     - :ref:`fls_m9hw83dqgt6w`
+00062:   - Normative shifts:
+00063:     - :p:`fls_36qrs2fxxvi7`
+00064:     - :p:`fls_6rtj6rwqxojh`
+00065:     - :p:`fls_7t7yxh94wnbl`
+00066:     - :p:`fls_CIyK8BYzzo26`
+00067:     - :p:`fls_UippZpUyYpHl`
+00068:     - :p:`fls_ccFdnlX5HIYk`
+00069:     - :p:`fls_d3nmpc5mtg27`
+00070:     - :p:`fls_dbbfqaqa80r8`
+00071:     - :p:`fls_sxj4vy39sj4g`
+00072:     - :p:`fls_tyjs1x4j8ovp`
+00073:     - :p:`fls_xrCRprWS13R1`
+00074: 
+00075: - `Emit error when using some keyword as a cfg predicate <https://github.com/rust-lang/rust/pull/146978>`_
+00076: 
+00077:   - No change: this bug was not documented in FLS

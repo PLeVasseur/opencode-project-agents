@@ -1,0 +1,130 @@
+    Blocking waiting for file lock on build directory
+   Compiling tracing v0.1.44
+   Compiling protobuf-codegen v3.7.2
+   Compiling parse-display-derive v0.9.1
+   Compiling h2 v0.4.13
+   Compiling tower v0.5.3
+   Compiling tracing-subscriber v0.3.22
+   Compiling parse-display v0.9.1
+   Compiling up-rust v0.9.0
+   Compiling axum v0.8.8
+   Compiling tower-http v0.6.8
+   Compiling hyper v1.8.1
+   Compiling hyper-util v0.1.20
+   Compiling hyper-timeout v0.5.2
+   Compiling hyperlocal v0.9.1
+   Compiling hyper-rustls v0.27.7
+   Compiling hyper-tls v0.6.0
+   Compiling tonic v0.14.3
+   Compiling reqwest v0.12.28
+   Compiling tonic-prost v0.14.3
+   Compiling bollard-buildkit-proto v0.7.0
+   Compiling hello-world-protos v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/utils/hello-world-protos)
+   Compiling bollard-stubs v1.49.1-rc.28.4.0
+   Compiling bollard v0.19.4
+   Compiling testcontainers v0.25.2
+   Compiling up-transport-mqtt5 v0.4.0
+   Compiling example-streamer-uses v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/example-streamer-uses)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1m 15s
+     Running `target/debug/mqtt_client --broker-uri 'localhost:1883'`
+[2m2026-02-09T01:36:23.266443Z[0m [34mDEBUG[0m [2mup_transport_mqtt5::mqtt_client[0m[2m:[0m Updated ConnectionState { subscription_ids_supported: true, session_present: false }
+[2m2026-02-09T01:36:23.272755Z[0m [34mDEBUG[0m [2mup_transport_mqtt5::listener_registry[0m[2m:[0m Added listener [topic filter: authority-b/1236/0/1/421/authority-a/4321/0/1/0, subscribtion ID: 1]
+[2m2026-02-09T01:36:23.276334Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Created new subscription [topic filter: authority-b/1236/0/1/421/authority-a/4321/0/1/0, id: 1] for listener
+[2m2026-02-09T01:36:24.398100Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:25.401250Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:26.404848Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:27.409088Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:28.431190Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:29.438238Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:30.451356Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:31.464261Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:32.472205Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:33.484496Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:34.490051Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:35.495992Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:36.509045Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:37.513270Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:38.521300Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:39.553890Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:40.561177Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:41.569932Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:42.576613Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:43.581019Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:44.592707Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:45.598220Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:46.608915Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:47.619617Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:48.623283Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:49.633821Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:50.641329Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:51.652005Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:52.658661Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:53.663073Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:54.668812Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:55.672795Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:56.686383Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:57.691726Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:58.707385Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:36:59.721597Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:00.737692Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:01.745213Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:02.753987Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:03.761223Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:04.768139Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:05.774632Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:06.781002Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:07.792986Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:08.803459Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:09.805893Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:10.810984Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:11.812761Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:12.818275Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:13.827335Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:14.832816Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:15.839768Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:16.852095Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:17.856687Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:18.864389Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:19.873096Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:20.879022Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:21.883005Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:22.886793Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:23.899216Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:24.910428Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:25.915735Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:26.919933Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:27.929494Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:28.931458Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:29.935390Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:30.938896Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:31.943934Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:32.950118Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:33.953463Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:34.968571Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:35.973431Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:36.978121Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:37.985774Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:38.996739Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:39.999842Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:41.007110Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:42.011219Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:43.018580Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:44.020942Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:45.027019Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:46.041230Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:47.052298Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:48.058524Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:49.069155Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:50.075213Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:51.086552Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:52.096440Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:53.101532Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:54.105320Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:55.115506Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:56.122131Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:57.125979Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:58.128484Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:37:59.131207Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:38:00.138639Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:38:01.147220Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]
+[2m2026-02-09T01:38:02.150894Z[0m [34mDEBUG[0m [2mup_transport_mqtt5[0m[2m:[0m Successfully sent uProtocol message [MQTT topic: authority-a/4321/0/1/0/authority-b/1236/0/1/421]

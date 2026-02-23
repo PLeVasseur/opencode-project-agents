@@ -1,0 +1,22 @@
+{
+  "batch_number": 5,
+  "committed_hash": "9b68d6ae3c6c5ba49fd0d9ad0064582091ceff18",
+  "error": "failure_codes=FAILED_INSERT_DIFF_MISMATCH\nvalidator failed in mode=progress (exit 1)\nstdout:\nmode=progress\nparent_total=104 parent_checked=9 parent_unchecked=95 sub_total=624 sub_checked=54 sub_unchecked=570\nledger_rows=104 baseline_rows=104 completed_rows=9 resolved_high_rows=9 pending_deviation_count=0 errors=1\nERROR: FAILED_INSERT_DIFF_MISMATCH: WA-007: definition_operation=insert did not show qualifying insertion (mode=hunk, evidence=/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-005-diff-audit.json, insert_net=0, swap_detected=true)\n\nstderr:\n",
+  "failure_codes": [
+    "FAILED_INSERT_DIFF_MISMATCH"
+  ],
+  "ids": [
+    "WA-007",
+    "WA-008",
+    "WA-009"
+  ],
+  "revert_hash": "de4fbe5809888665a337c0ed38124b7a2edbad6c",
+  "rolled_back": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/manual-placement-checklist-v3.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/manual-placement-ledger-v3.csv",
+    "worktree (git restore)",
+    "git revert 9b68d6ae3c6c5ba49fd0d9ad0064582091ceff18 -> de4fbe5809888665a337c0ed38124b7a2edbad6c"
+  ],
+  "timestamp": "20260212T202053Z",
+  "wave": "WA"
+}

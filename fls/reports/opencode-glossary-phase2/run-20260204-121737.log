@@ -1,0 +1,1227 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShows OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mLists next 20 checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mLists next 20 unchecked checklist terms
+
+warning: glossary-entry not found in src files: interior mutability
+warning: glossary-entry not found in src files: intermediate match arm
+warning: glossary-entry not found in src files: irrefutable constant
+warning: glossary-entry not found in src files: irrefutable pattern
+warning: glossary-entry not found in src files: isize
+warning: glossary-entry not found in src files: item
+warning: glossary-entry not found in src files: item scope
+warning: glossary-entry not found in src files: item statement
+warning: glossary-entry not found in src files: iteration expression
+warning: glossary-entry not found in src files: keyword
+warning: glossary-entry not found in src files: label
+warning: glossary-entry not found in src files: label indication
+warning: glossary-entry not found in src files: label scope
+warning: glossary-entry not found in src files: layout
+warning: glossary-entry not found in src files: lazy and expression
+warning: glossary-entry not found in src files: lazy boolean expression
+warning: glossary-entry not found in src files: lazy or expression
+warning: glossary-entry not found in src files: left operand
+warning: glossary-entry not found in src files: less-than expression
+warning: glossary-entry not found in src files: less-than-or-equals expression
+warning: no new term-map entries to write
+
+[94m[1m| [0m[90m Grep     [0m:dt:`(interior mutability|intermediate match arm|irrefutable constant|irrefutable pattern|isize|item|item scope|item statement|iteration expression|keyword|label|label indication|label scope|layout|lazy and expression|lazy boolean expression|lazy or expression|left operand|less-than expression|less-than-or-equals expression)`
+[94m[1m| [0m[90m Grep     [0m:dt:`(let binding|let initializer|let statement|lexical element|library crate|lifetime)`
+[94m[1m| [0m[90m Grep     [0mirrefutable constant
+[94m[1m| [0m[90m Grep     [0mintermediate match arm
+[94m[1m| [0m[90m Grep     [0mirrefutable pattern
+[94m[1m| [0m[90m Grep     [0mitem statement
+[94m[1m| [0m[90m Grep     [0mitem scope
+[94m[1m| [0m[90m Grep     [0mAn :t:`item` is
+[94m[1m| [0m[90m Grep     [0miteration expression
+[94m[1m| [0m[90m Grep     [0mA :t:`keyword`
+[94m[1m| [0m[90m Grep     [0mA :t:`label` is
+[94m[1m| [0m[90m Grep     [0mlabel indication
+[94m[1m| [0m[90m Grep     [0mlabel scope
+[94m[1m| [0m[90m Grep     [0mitem is the most basic
+[94m[1m| [0m[90m Grep     [0m:t:`item` is
+[94m[1m| [0m[90m Grep     [0mAn :t:`item`
+[94m[1m| [0m[90m Grep     [0mA :t:`label` is
+[94m[1m| [0m[90m Grep     [0mname of a :t:`loop expression`
+[94m[1m| [0m[90m Grep     [0mlazy and expression
+[94m[1m| [0m[90m Grep     [0mlazy or expression
+[94m[1m| [0m[90m Grep     [0mlazy boolean expression
+[94m[1m| [0m[90m Grep     [0mleft operand
+[94m[1m| [0m[90m Grep     [0mless-than expression
+[94m[1m| [0m[90m Grep     [0mless-than-or-equals expression
+[94m[1m| [0m[90m Grep     [0mlet binding
+[94m[1m| [0m[90m Grep     [0mlet initializer
+[94m[1m| [0m[90m Grep     [0mlet statement
+[94m[1m| [0m[90m Grep     [0mlet binding is
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/statements.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Glob     [0m{"path":".","pattern":"src/*items*.rst"}
+[96m[1m| [0m[90m Read     [0msrc/items.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for left operand
+
+.. glossary-entry:: left operand
+   
+   :glossary:
+     :dp:`fls_m821x5195ac9`
+     A :dt:`left operand` is an :t:`operand` that appears on the left-hand side of a
+     :t:`binary operator`.
+     
+     :dp:`fls_ghlbsklg7wdb`
+     See :s:`LeftOperand`.
+   :chapter:
+     :dp:`fls_1r29rtnjlkql`
+     A :t:`left operand` is an :t:`operand` that appears on the left-hand side of a
+     :t:`binary operator`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for lazy boolean expression
+
+.. glossary-entry:: lazy boolean expression
+   
+   :glossary:
+     :dp:`fls_jpv7l86sdh6i`
+     A :dt:`lazy boolean expression` is an :t:`expression` that performs short
+     circuit Boolean arithmetic.
+     
+     :dp:`fls_9tu5x810ztbg`
+     See :s:`LazyBooleanExpression`.
+   :chapter:
+     :dp:`fls_gpbvus89iy4c`
+     A :t:`lazy boolean expression` is an :t:`expression` that performs short circuit
+     Boolean arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for lazy and expression
+
+.. glossary-entry:: lazy and expression
+   
+   :glossary:
+     :dp:`fls_v2e6t73uk6nt`
+     A :dt:`lazy and expression` is a :t:`lazy boolean expression` that uses short
+     circuit and arithmetic.
+     
+     :dp:`fls_rkthjuvems6v`
+     See :s:`LazyAndExpression`.
+   :chapter:
+     :dp:`fls_40jya46h62yi`
+     A :t:`lazy and expression` is a :t:`lazy boolean expression` that uses short
+     circuit and arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for lazy or expression
+
+.. glossary-entry:: lazy or expression
+   
+   :glossary:
+     :dp:`fls_aln8bbvx9kzm`
+     A :dt:`lazy or expression` is a :t:`lazy boolean expression` that uses short
+     circuit or arithmetic.
+     
+     :dp:`fls_jiv7e3mr86kf`
+     See :s:`LazyOrExpression`.
+   :chapter:
+     :dp:`fls_k8u77ow5bb6c`
+     A :t:`lazy or expression` is a :t:`lazy boolean expression` that uses short
+     circuit or arithmetic.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for less-than expression
+
+.. glossary-entry:: less-than expression
+   
+   :glossary:
+     :dp:`fls_9ttxqxt9ui4t`
+     A :dt:`less-than expression` is a :t:`comparison expression` that tests for a
+     less-than relationship.
+     
+     :dp:`fls_rhnbdyo2l4kp`
+     See :s:`LessThanExpression`.
+   :chapter:
+     :dp:`fls_yd4qqi39w248`
+     A :t:`less-than expression` is a :t:`comparison expression` that tests for a
+     less-than relationship.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for less-than-or-equals expression
+
+.. glossary-entry:: less-than-or-equals expression
+   
+   :glossary:
+     :dp:`fls_8pya58ug180j`
+     A :dt:`less-than-or-equals expression` is a :t:`comparison expression` that
+     tests for a less-than-or-equals relationship.
+     
+     :dp:`fls_ft5aeo4ilgwc`
+     See :s:`LessThanOrEqualsExpression`.
+   :chapter:
+     :dp:`fls_yxwe1o27u6ns`
+     A :t:`less-than-or-equals expression` is a :t:`comparison expression` that tests
+     for a less-than-or-equals relationship.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for label indication
+
+.. glossary-entry:: label indication
+   
+   :glossary:
+     :dp:`fls_sso322p7adt0`
+     A :dt:`label indication` is a :t:`construct` that indicates a :t:`label`.
+     
+     :dp:`fls_g6iqfqooz8th`
+     See :s:`LabelIndication`.
+   :chapter:
+     :dp:`fls_tx5u743391h7`
+     A :t:`label indication` is a :t:`construct` that indicates a :t:`label`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for iteration expression
+
+.. glossary-entry:: iteration expression
+   
+   :glossary:
+     :dp:`fls_suz163n1x1xm`
+     An :dt:`iteration expression` is an :t:`expression` that provides the criterion
+     of a :t:`while loop expression`.
+     
+     :dp:`fls_jw5lj2hgjl8v`
+     See :s:`IterationExpression`.
+   :chapter:
+     :dp:`fls_13hmhzqz82v6`
+     An :t:`iteration expression` is an :t:`expression` that provides the criterion
+     of a :t:`while loop expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for intermediate match arm
+
+.. glossary-entry:: intermediate match arm
+   
+   :glossary:
+     :dp:`fls_l6pemxmdllvl`
+     An :dt:`intermediate match arm` is any :t:`non-[final match arm]` of a
+     :t:`match expression`.
+     
+     :dp:`fls_8713j5lrwqvs`
+     See :s:`IntermediateMatchArm`.
+   :chapter:
+     :dp:`fls_d9gerg12hm2d`
+     An :t:`intermediate match arm` is any :t:`non-[final match arm]` of a
+     :t:`match expression`.
+     
+     .. glossary-entry:: final match arm
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mRegenerates glossary-entry for intermediate match arm
+
+.. glossary-entry:: intermediate match arm
+   
+   :glossary:
+     :dp:`fls_l6pemxmdllvl`
+     An :dt:`intermediate match arm` is any :t:`non-[final match arm]` of a
+     :t:`match expression`.
+     
+     :dp:`fls_8713j5lrwqvs`
+     See :s:`IntermediateMatchArm`.
+   :chapter:
+     :dp:`fls_d9gerg12hm2d`
+     An :t:`intermediate match arm` is any :t:`non-[final match arm]` of a
+     :t:`match expression`.
+     
+     .. glossary-entry:: final match arm
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for irrefutable pattern
+
+.. glossary-entry:: irrefutable pattern
+   
+   :glossary:
+     :dp:`fls_y421hdrbs6ak`
+     An :dt:`irrefutable pattern` is a :t:`pattern` that always matches the
+     :t:`value` it is being matched against.
+   :chapter:
+     :dp:`fls_9fjspnefoyvz`
+     An :t:`irrefutable pattern` is a :t:`pattern` that always matches any :t:`value` of its :t:`type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for irrefutable constant
+
+.. glossary-entry:: irrefutable constant
+   
+   :glossary:
+     :dp:`fls_hd02jah50qzl`
+     An :dt:`irrefutable constant` is a :t:`constant` of a :t:`type` that has at most
+     one :t:`value`.
+   :chapter:
+     :dp:`fls_l76ycteulo8e`
+     An :t:`irrefutable constant` is a :t:`constant` of a :t:`type` that has at most
+     one :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for item scope
+
+.. glossary-entry:: item scope
+   
+   :glossary:
+     :dp:`fls_mW7IwWGSjrl2`
+     An :dt:`item scope` is a :t:`scope` for :t:`[item]s`.
+   :chapter:
+     :dp:`fls_p5o243hhe1y3`
+     An :t:`item scope` is a :t:`scope` for :t:`[item]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for label scope
+
+.. glossary-entry:: label scope
+   
+   :glossary:
+     :dp:`fls_2H6HkQ102hVS`
+     A :dt:`label scope` is a :t:`scope` for :t:`[label]s`.
+   :chapter:
+     :dp:`fls_96kczd4zhpco`
+     A :t:`label scope` is a :t:`scope` for :t:`[label]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for item statement
+
+.. glossary-entry:: item statement
+   
+   :glossary:
+     :dp:`fls_r0crucpuhtj`
+     An :dt:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
+   :chapter:
+     :dp:`fls_kdxe1ukmgl1`
+     An :t:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
+     
+     .. glossary-entry:: empty statement
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for let statement
+
+.. glossary-entry:: let statement
+   
+   :glossary:
+     :dp:`fls_yh7hn6jjv3ur`
+     A :dt:`let statement` is a :t:`statement` that introduces new :t:`[variable]s`
+     given by the :t:`[binding]s` produced by its :t:`pattern-without-alternation`
+     that are optionally initialized to a :t:`value`.
+     
+     :dp:`fls_tsem3c6zqmh4`
+     See :s:`LetStatement`.
+   :chapter:
+     :dp:`fls_ct7pp7jnfr86`
+     A :t:`let statement` is a :t:`statement` that introduces new :t:`[binding]s`
+     produced by its :t:`pattern-without-alternation` that are optionally
+     initialized to a :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for let initializer
+
+.. glossary-entry:: let initializer
+   
+   :glossary:
+     :dp:`fls_jtTpBZ4ujZRc`
+     A :dt:`let initializer` is a :t:`construct` that provides the :t:`value` of
+     the :t:`[binding]s` of the :t:`let statement` using an :t:`expression`, or
+     alternatively executes a :t:`block expression`.
+     
+     :dp:`fls_GmHsJb6FICfA`
+     See :s:`LetInitializer`.
+   :chapter:
+     :dp:`fls_SR3dIgR5K0Kq`
+     A :t:`let initializer` is a :t:`construct` that provides the :t:`value` of
+     the :t:`[binding]s` of the :t:`let statement` using an :t:`expression`, or
+     alternatively executes a :t:`block expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for keyword
+
+.. glossary-entry:: keyword
+   
+   :glossary:
+     :dp:`fls_z3825koc9c1w`
+     A :dt:`keyword` is a word in program text that has special meaning.
+     
+     :dp:`fls_yvnf2mu4pr75`
+     See :s:`Keyword`.
+   :chapter:
+     :dp:`fls_dti0uu7rz81w`
+     A :t:`keyword` is a word in program text that has special meaning.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-only entry for item
+
+.. glossary-entry:: item
+   
+   :glossary:
+     :dp:`fls_2ghaujiqkhyy`
+     An :dt:`item` is the most basic semantic element in program text. An item
+     defines the compile- and run-time semantics of a program.
+     
+     :dp:`fls_xd997kd2i73a`
+     See :s:`Item`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-only entry for label
+
+.. glossary-entry:: label
+   
+   :glossary:
+     :dp:`fls_iAAf2rLmgmGQ`
+     A :dt:`label` is the :t:`name` of a :t:`loop expression`.
+     
+     :dp:`fls_HicurdHIiLX2`
+     See :s:`Label`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-only entry for let binding
+
+.. glossary-entry:: let binding
+   
+   :glossary:
+     :dp:`fls_sw6HrsxsnG2y`
+     A :dt:`let binding` is the :t:`binding` introduced by a :t:`let statement`, an :t:`if let expression`, or a :t:`while let loop expression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/statements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/statements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/items.rst
+[91m[1m| [0m[90m Bash     [0mAppends term map entries for batch
+[91m[1m| [0m[90m Bash     [0mGenerates glossary and diffs against static
+[91m[1m| [0m[90m Bash     [0mRuns HTML diff verification script
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShows short git status
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/items.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/statements.rst
+
+[91m[1m| [0m[90m Bash     [0mShows git diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 23bcf4a..c3f7c94 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -631,8 +631,14 @@ Item Scope
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_p5o243hhe1y3`
+-An :t:`item scope` is a :t:`scope` for :t:`[item]s`.
++.. glossary-entry:: item scope
++   
++   :glossary:
++     :dp:`fls_mW7IwWGSjrl2`
++     An :dt:`item scope` is a :t:`scope` for :t:`[item]s`.
++   :chapter:
++     :dp:`fls_p5o243hhe1y3`
++     An :t:`item scope` is a :t:`scope` for :t:`[item]s`.
+ 
+ :dp:`fls_huvo0mp2i6fb`
+ An :t:`item` declared within the :t:`block expression` of an
+@@ -651,8 +657,14 @@ Label Scope
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_96kczd4zhpco`
+-A :t:`label scope` is a :t:`scope` for :t:`[label]s`.
++.. glossary-entry:: label scope
++   
++   :glossary:
++     :dp:`fls_2H6HkQ102hVS`
++     A :dt:`label scope` is a :t:`scope` for :t:`[label]s`.
++   :chapter:
++     :dp:`fls_96kczd4zhpco`
++     A :t:`label scope` is a :t:`scope` for :t:`[label]s`.
+ 
+ :dp:`fls_8sevg1sa82h4`
+ A :t:`label` is :t:`in scope` within the :t:`block expression` of the related
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 10feb22..048f0c5 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -125,9 +125,19 @@ An :t:`operand` is an :t:`expression` nested within an :t:`expression`.
+      :dp:`fls_v0he0zp9ph7a`
+      A :dt:`binary operator` is an operator that operates on two :t:`[operand]s`.
+ 
+-:dp:`fls_1r29rtnjlkql`
+-A :t:`left operand` is an :t:`operand` that appears on the left-hand side of a
+-:t:`binary operator`.
++.. glossary-entry:: left operand
++   
++   :glossary:
++     :dp:`fls_m821x5195ac9`
++     A :dt:`left operand` is an :t:`operand` that appears on the left-hand side of a
++     :t:`binary operator`.
++     
++     :dp:`fls_ghlbsklg7wdb`
++     See :s:`LeftOperand`.
++   :chapter:
++     :dp:`fls_1r29rtnjlkql`
++     A :t:`left operand` is an :t:`operand` that appears on the left-hand side of a
++     :t:`binary operator`.
+ 
+ :dp:`fls_qxdpyf4u3hbz`
+ A :t:`right operand` is an :t:`operand` that appears on the right-hand side of a
+@@ -2208,9 +2218,19 @@ The :t:`type` of the :t:`left operand` of a
+ The :t:`value` of a :t:`greater-than-or-equals expression` is the result of
+ ``core::cmp::PartialOrd::ge(&left_operand, &right_operand)``.
+ 
+-:dp:`fls_yd4qqi39w248`
+-A :t:`less-than expression` is a :t:`comparison expression` that tests for a
+-less-than relationship.
++.. glossary-entry:: less-than expression
++   
++   :glossary:
++     :dp:`fls_9ttxqxt9ui4t`
++     A :dt:`less-than expression` is a :t:`comparison expression` that tests for a
++     less-than relationship.
++     
++     :dp:`fls_rhnbdyo2l4kp`
++     See :s:`LessThanExpression`.
++   :chapter:
++     :dp:`fls_yd4qqi39w248`
++     A :t:`less-than expression` is a :t:`comparison expression` that tests for a
++     less-than relationship.
+ 
+ :dp:`fls_ynibdcke3etb`
+ The :t:`type` of the :t:`left operand` of a :t:`less-than expression` shall
+@@ -2221,9 +2241,19 @@ the :t:`right operand` is the :t:`trait implementation` :t:`type parameter`.
+ The :t:`value` of a :t:`less-than expression` is the result of
+ ``core::cmp::PartialOrd::lt(&left_operand, &right_operand)``.
+ 
+-:dp:`fls_yxwe1o27u6ns`
+-A :t:`less-than-or-equals expression` is a :t:`comparison expression` that tests
+-for a less-than-or-equals relationship.
++.. glossary-entry:: less-than-or-equals expression
++   
++   :glossary:
++     :dp:`fls_8pya58ug180j`
++     A :dt:`less-than-or-equals expression` is a :t:`comparison expression` that
++     tests for a less-than-or-equals relationship.
++     
++     :dp:`fls_ft5aeo4ilgwc`
++     See :s:`LessThanOrEqualsExpression`.
++   :chapter:
++     :dp:`fls_yxwe1o27u6ns`
++     A :t:`less-than-or-equals expression` is a :t:`comparison expression` that tests
++     for a less-than-or-equals relationship.
+ 
+ :dp:`fls_6dgfieyxdan0`
+ The :t:`type` of the :t:`left operand` of a :t:`less-than-or-equals expression`
+@@ -2355,17 +2385,47 @@ Lazy Boolean Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_gpbvus89iy4c`
+-A :t:`lazy boolean expression` is an :t:`expression` that performs short circuit
+-Boolean arithmetic.
++.. glossary-entry:: lazy boolean expression
++   
++   :glossary:
++     :dp:`fls_jpv7l86sdh6i`
++     A :dt:`lazy boolean expression` is an :t:`expression` that performs short
++     circuit Boolean arithmetic.
++     
++     :dp:`fls_9tu5x810ztbg`
++     See :s:`LazyBooleanExpression`.
++   :chapter:
++     :dp:`fls_gpbvus89iy4c`
++     A :t:`lazy boolean expression` is an :t:`expression` that performs short circuit
++     Boolean arithmetic.
+ 
+-:dp:`fls_40jya46h62yi`
+-A :t:`lazy and expression` is a :t:`lazy boolean expression` that uses short
+-circuit and arithmetic.
++.. glossary-entry:: lazy and expression
++   
++   :glossary:
++     :dp:`fls_v2e6t73uk6nt`
++     A :dt:`lazy and expression` is a :t:`lazy boolean expression` that uses short
++     circuit and arithmetic.
++     
++     :dp:`fls_rkthjuvems6v`
++     See :s:`LazyAndExpression`.
++   :chapter:
++     :dp:`fls_40jya46h62yi`
++     A :t:`lazy and expression` is a :t:`lazy boolean expression` that uses short
++     circuit and arithmetic.
+ 
+-:dp:`fls_k8u77ow5bb6c`
+-A :t:`lazy or expression` is a :t:`lazy boolean expression` that uses short
+-circuit or arithmetic.
++.. glossary-entry:: lazy or expression
++   
++   :glossary:
++     :dp:`fls_aln8bbvx9kzm`
++     A :dt:`lazy or expression` is a :t:`lazy boolean expression` that uses short
++     circuit or arithmetic.
++     
++     :dp:`fls_jiv7e3mr86kf`
++     See :s:`LazyOrExpression`.
++   :chapter:
++     :dp:`fls_k8u77ow5bb6c`
++     A :t:`lazy or expression` is a :t:`lazy boolean expression` that uses short
++     circuit or arithmetic.
+ 
+ :dp:`fls_u0gwo0s2l0tn`
+ The :t:`[type]s` of the :t:`[operand]s` of a :t:`lazy boolean expression` shall
+@@ -4755,9 +4815,19 @@ A :t:`while loop expression` is a :t:`loop expression` that continues to
+ evaluate its :t:`loop body` as long as its :t:`iteration expression` holds
+ true.
+ 
+-:dp:`fls_13hmhzqz82v6`
+-An :t:`iteration expression` is an :t:`expression` that provides the criterion
+-of a :t:`while loop expression`.
++.. glossary-entry:: iteration expression
++   
++   :glossary:
++     :dp:`fls_suz163n1x1xm`
++     An :dt:`iteration expression` is an :t:`expression` that provides the criterion
++     of a :t:`while loop expression`.
++     
++     :dp:`fls_jw5lj2hgjl8v`
++     See :s:`IterationExpression`.
++   :chapter:
++     :dp:`fls_13hmhzqz82v6`
++     An :t:`iteration expression` is an :t:`expression` that provides the criterion
++     of a :t:`while loop expression`.
+ 
+ :dp:`fls_d7ofrq3777kq`
+ The :t:`type` of an :t:`iteration expression` shall be :t:`type` :c:`bool`.
+@@ -4871,8 +4941,26 @@ Loop Labels
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_tx5u743391h7`
+-A :t:`label indication` is a :t:`construct` that indicates a :t:`label`.
++.. glossary-entry:: label
++   
++   :glossary:
++     :dp:`fls_iAAf2rLmgmGQ`
++     A :dt:`label` is the :t:`name` of a :t:`loop expression`.
++     
++     :dp:`fls_HicurdHIiLX2`
++     See :s:`Label`.
++
++.. glossary-entry:: label indication
++   
++   :glossary:
++     :dp:`fls_sso322p7adt0`
++     A :dt:`label indication` is a :t:`construct` that indicates a :t:`label`.
++     
++     :dp:`fls_g6iqfqooz8th`
++     See :s:`LabelIndication`.
++   :chapter:
++     :dp:`fls_tx5u743391h7`
++     A :t:`label indication` is a :t:`construct` that indicates a :t:`label`.
+ 
+ :dp:`fls_7hc8yboeaho0`
+ A :t:`label indication` shall indicate a :t:`label` of an enclosing
+@@ -5485,9 +5573,19 @@ evaluates an :t:`operand`.
+ A :t:`match arm` is a :t:`construct` that consists of a :t:`match arm matcher`
+ and a :t:`match arm body`.
+ 
+-:dp:`fls_d9gerg12hm2d`
+-An :t:`intermediate match arm` is any :t:`non-[final match arm]` of a
+-:t:`match expression`.
++.. glossary-entry:: intermediate match arm
++   
++   :glossary:
++     :dp:`fls_l6pemxmdllvl`
++     An :dt:`intermediate match arm` is any :t:`non-[final match arm]` of a
++     :t:`match expression`.
++     
++     :dp:`fls_8713j5lrwqvs`
++     See :s:`IntermediateMatchArm`.
++   :chapter:
++     :dp:`fls_d9gerg12hm2d`
++     An :t:`intermediate match arm` is any :t:`non-[final match arm]` of a
++     :t:`match expression`.
+ 
+ .. glossary-entry:: final match arm
+    
+diff --git a/src/items.rst b/src/items.rst
+index 0bd9c6d..6de6cdf 100644
+--- a/src/items.rst
++++ b/src/items.rst
+@@ -40,6 +40,16 @@ Items
+        $$unsafe$$
+      | $$safe$$
+ 
++.. glossary-entry:: item
++   
++   :glossary:
++     :dp:`fls_2ghaujiqkhyy`
++     An :dt:`item` is the most basic semantic element in program text. An item
++     defines the compile- and run-time semantics of a program.
++     
++     :dp:`fls_xd997kd2i73a`
++     See :s:`Item`.
++
+ .. rubric:: Legality Rules
+ 
+ :dp:`fls_s3b1cba9lfj5`
+@@ -52,4 +62,3 @@ an :t:`item`.
+ :dp:`fls_hil5f7y4xdhe`
+ :t:`Elaboration` is the process by which a :t:`declaration` achieves its runtime
+ effects.
+-
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 5f59336..db21e3a 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -1621,8 +1621,17 @@ Keywords
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_dti0uu7rz81w`
+-A :t:`keyword` is a word in program text that has special meaning.
++.. glossary-entry:: keyword
++   
++   :glossary:
++     :dp:`fls_z3825koc9c1w`
++     A :dt:`keyword` is a word in program text that has special meaning.
++     
++     :dp:`fls_yvnf2mu4pr75`
++     See :s:`Keyword`.
++   :chapter:
++     :dp:`fls_dti0uu7rz81w`
++     A :t:`keyword` is a word in program text that has special meaning.
+ 
+ :dp:`fls_sxg1o4oxql51`
+ :t:`[Keyword]s` are case sensitive.
+diff --git a/src/patterns.rst b/src/patterns.rst
+index d159c9f..ff7ae15 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -98,8 +98,15 @@ Refutability
+ :t:`Refutability` is a property of :t:`[pattern]s` that expresses the ability to
+ match all possible values of a :t:`type`.
+ 
+-:dp:`fls_9fjspnefoyvz`
+-An :t:`irrefutable pattern` is a :t:`pattern` that always matches any :t:`value` of its :t:`type`.
++.. glossary-entry:: irrefutable pattern
++   
++   :glossary:
++     :dp:`fls_y421hdrbs6ak`
++     An :dt:`irrefutable pattern` is a :t:`pattern` that always matches the
++     :t:`value` it is being matched against.
++   :chapter:
++     :dp:`fls_9fjspnefoyvz`
++     An :t:`irrefutable pattern` is a :t:`pattern` that always matches any :t:`value` of its :t:`type`.
+ 
+ :dp:`fls_uq7ftuuq1sig`
+ A :t:`refutable pattern` is a :t:`pattern` that has a possibility of not
+@@ -109,9 +116,16 @@ matching a :t:`value` of its :t:`type`
+ A :t:`pattern` that is not an :t:`irrefutable pattern` is a
+ :t:`refutable pattern`.
+ 
+-:dp:`fls_l76ycteulo8e`
+-An :t:`irrefutable constant` is a :t:`constant` of a :t:`type` that has at most
+-one :t:`value`.
++.. glossary-entry:: irrefutable constant
++   
++   :glossary:
++     :dp:`fls_hd02jah50qzl`
++     An :dt:`irrefutable constant` is a :t:`constant` of a :t:`type` that has at most
++     one :t:`value`.
++   :chapter:
++     :dp:`fls_l76ycteulo8e`
++     An :t:`irrefutable constant` is a :t:`constant` of a :t:`type` that has at most
++     one :t:`value`.
+ 
+ :dp:`fls_lh0d85tl4qvy`
+ A :t:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+diff --git a/src/statements.rst b/src/statements.rst
+index 7f3c5fe..31b2a4e 100644
+--- a/src/statements.rst
++++ b/src/statements.rst
+@@ -24,8 +24,14 @@ Statements
+ :dp:`fls_7zh6ziglo5iy`
+ An :t:`expression statement` is an :t:`expression` whose result is ignored.
+ 
+-:dp:`fls_kdxe1ukmgl1`
+-An :t:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
++.. glossary-entry:: item statement
++   
++   :glossary:
++     :dp:`fls_r0crucpuhtj`
++     An :dt:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
++   :chapter:
++     :dp:`fls_kdxe1ukmgl1`
++     An :t:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
+ 
+ .. glossary-entry:: empty statement
+    
+@@ -88,15 +94,43 @@ Let Statements
+      :dt:`Initialization` is the act of supplying an initial :t:`value` to a
+      :t:`constant`, a :t:`static`, or a :t:`variable`.
+ 
+-:dp:`fls_ct7pp7jnfr86`
+-A :t:`let statement` is a :t:`statement` that introduces new :t:`[binding]s`
+-produced by its :t:`pattern-without-alternation` that are optionally
+-initialized to a :t:`value`.
++.. glossary-entry:: let binding
++   
++   :glossary:
++     :dp:`fls_sw6HrsxsnG2y`
++     A :dt:`let binding` is the :t:`binding` introduced by a :t:`let statement`, an :t:`if let expression`, or a :t:`while let loop expression`.
++
++.. glossary-entry:: let statement
++   
++   :glossary:
++     :dp:`fls_yh7hn6jjv3ur`
++     A :dt:`let statement` is a :t:`statement` that introduces new :t:`[variable]s`
++     given by the :t:`[binding]s` produced by its :t:`pattern-without-alternation`
++     that are optionally initialized to a :t:`value`.
++     
++     :dp:`fls_tsem3c6zqmh4`
++     See :s:`LetStatement`.
++   :chapter:
++     :dp:`fls_ct7pp7jnfr86`
++     A :t:`let statement` is a :t:`statement` that introduces new :t:`[binding]s`
++     produced by its :t:`pattern-without-alternation` that are optionally
++     initialized to a :t:`value`.
+ 
+-:dp:`fls_SR3dIgR5K0Kq`
+-A :t:`let initializer` is a :t:`construct` that provides the :t:`value` of
+-the :t:`[binding]s` of the :t:`let statement` using an :t:`expression`, or
+-alternatively executes a :t:`block expression`.
++.. glossary-entry:: let initializer
++   
++   :glossary:
++     :dp:`fls_jtTpBZ4ujZRc`
++     A :dt:`let initializer` is a :t:`construct` that provides the :t:`value` of
++     the :t:`[binding]s` of the :t:`let statement` using an :t:`expression`, or
++     alternatively executes a :t:`block expression`.
++     
++     :dp:`fls_GmHsJb6FICfA`
++     See :s:`LetInitializer`.
++   :chapter:
++     :dp:`fls_SR3dIgR5K0Kq`
++     A :t:`let initializer` is a :t:`construct` that provides the :t:`value` of
++     the :t:`[binding]s` of the :t:`let statement` using an :t:`expression`, or
++     alternatively executes a :t:`block expression`.
+ 
+ :dp:`fls_iqar7vvtw22c`
+ If a :t:`let statement` lacks a :t:`block expression`, then the :t:`pattern` of
+
+[91m[1m| [0m[90m Bash     [0mShows recent commit messages
+
+59827bd docs(glossary): migrate batch 16 entries
+2cd6855 docs(glossary): migrate batch 15 entries
+d9a148b docs(glossary): migrate batch 14 entries
+90e1385 docs(glossary): migrate batch 13 entries
+5c37a48 docs(glossary): migrate batch 12 entries
+
+[91m[1m| [0m[90m Bash     [0mStages glossary migration edits
+[91m[1m| [0m[90m Bash     [0mCommits glossary migration batch
+
+[glossary-single-source-phase1 bc069fd] docs(glossary): migrate batch 17 entries
+ 6 files changed, 224 insertions(+), 48 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShows working tree status after commit
+Migrated the next 20 checklist terms into `.. glossary-entry::` directives (dual blocks where chapter defs exist, glossary-only for item/label/let binding) and updated the Phase 2 checklist + term map; interior mutability, isize, and layout remain unchecked because they are not in `src/glossary.static.rst.inc`.
+
+Changed files:
+- `src/expressions.rst`
+- `src/patterns.rst`
+- `src/statements.rst`
+- `src/entities-and-resolution.rst`
+- `src/lexical-elements.rst`
+- `src/items.rst`
+
+Verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (no diff)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (no differences; report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`)
+
+Checklist updated in `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`.  
+Commit created: `bc069fd` with message `docs(glossary): migrate batch 17 entries`.
+
+Next steps (pick one):
+1) Start the next batch of 20 terms.
+2) Push the branch and open a PR.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

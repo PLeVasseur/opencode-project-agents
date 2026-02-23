@@ -1,0 +1,72 @@
+{
+  "expected_total_units": 2633,
+  "expected_unit_type_totals": {
+    "list_bullet": 494,
+    "paragraph": 176,
+    "table_cell": 1963
+  },
+  "extra_unit_count": 0,
+  "generated_at_utc": "2026-02-15T15:18:05Z",
+  "missing_unit_count": 0,
+  "published_total_units": 2633,
+  "published_unit_type_totals": {
+    "list_bullet": 494,
+    "paragraph": 176,
+    "table_cell": 1963
+  },
+  "required_parts": {
+    "P06": {
+      "expected_total_units": 1177,
+      "expected_unit_type_counts": {
+        "list_bullet": 168,
+        "paragraph": 66,
+        "table_cell": 943
+      },
+      "parse_completeness_ratio": 1.0,
+      "published_total_units": 1177,
+      "published_unit_type_counts": {
+        "list_bullet": 168,
+        "paragraph": 66,
+        "table_cell": 943
+      }
+    },
+    "P08": {
+      "expected_total_units": 910,
+      "expected_unit_type_counts": {
+        "list_bullet": 254,
+        "paragraph": 72,
+        "table_cell": 584
+      },
+      "parse_completeness_ratio": 1.0,
+      "published_total_units": 910,
+      "published_unit_type_counts": {
+        "list_bullet": 254,
+        "paragraph": 72,
+        "table_cell": 584
+      }
+    },
+    "P09": {
+      "expected_total_units": 546,
+      "expected_unit_type_counts": {
+        "list_bullet": 72,
+        "paragraph": 38,
+        "table_cell": 436
+      },
+      "parse_completeness_ratio": 1.0,
+      "published_total_units": 546,
+      "published_unit_type_counts": {
+        "list_bullet": 72,
+        "paragraph": 38,
+        "table_cell": 436
+      }
+    }
+  },
+  "required_parts_completeness": "3/3",
+  "run_id": "20260215T143525Z",
+  "supported_unit_types": [
+    "paragraph",
+    "list_bullet",
+    "table_cell"
+  ],
+  "unresolved_qa_count": 0
+}

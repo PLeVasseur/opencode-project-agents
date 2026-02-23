@@ -1,0 +1,10 @@
+test routing_lookup/exact_authority ... bench:       62552 ns/iter (+/- 1895)
+test routing_lookup/wildcard_authority ... bench:       64904 ns/iter (+/- 3750)
+
+test publish_resolution/source_filter_derivation ... bench:       80222 ns/iter (+/- 1227)
+
+test ingress_registry/register_route ... bench:     1093139 ns/iter (+/- 18549)
+test ingress_registry/unregister_route ... bench:     1096659 ns/iter (+/- 11436)
+
+test egress_forwarding/single_route_dispatch ... bench:         236 ns/iter (+/- 1)
+

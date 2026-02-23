@@ -1,0 +1,425 @@
+# ISO 26262 Verbatim Prewarm Cache Integration Plan (Resumable + Hardened)
+
+Date: 2026-02-16
+Status: Draft execution plan
+Priority: High
+Plan type: Mining-pipeline integration and data-plane prewarm plan
+
+## 0) Locked decisions (non-negotiable)
+- [ ] Keep the strict two-tier storage model from prior mining plans.
+  - [ ] Verbatim/raw/OCR/debug artifacts are run-scoped and live only under repo-local `.cache/` data-plane roots.
+  - [ ] Control-plane artifacts under `$OPENCODE_CONFIG_DIR/reports/...` stay metadata-only.
+  - [ ] Committed corpus under `traceability/iso26262/...` remains non-verbatim.
+- [ ] Integrate prewarmed verbatim caching into the mining stages, not as an afterthought script.
+  - [ ] `extract` writes deterministic page/block verbatim cache `.jsonl` files.
+  - [ ] `normalize` writes deterministic unit-slice verbatim cache `.jsonl` files.
+  - [ ] `anchor` writes deterministic anchor-to-verbatim linkage index artifacts.
+- [ ] Every required-part mapped anchor must have traceable lineage to prewarmed data-plane text cache entries.
+  - [ ] Required parts remain exactly `P06`, `P08`, `P09` from `relevant-pdf-policy.jsonc`.
+  - [ ] Linkage must be deterministic and replayable.
+- [ ] Keep resumable-execution behavior mandatory.
+  - [ ] Single-writer lock discipline.
+  - [ ] Atomic state/checklist writes.
+  - [ ] Crash-window reconciliation before stage execution.
+  - [ ] Idempotent finalization markers.
+- [ ] Keep anti-leak policy hard.
+  - [ ] No verbatim text in control-plane reports/state.
+  - [ ] No `.cache` artifacts staged or committed.
+  - [ ] No raw/verbatim fields in committed corpus records.
+- [ ] Treat verification as first-class phase work, not best-effort checks.
+  - [ ] Prewarm cache build quality (normalization/artifact hygiene) has dedicated pass/fail phase gates.
+  - [ ] Query behavior validation (word/phrase probes from existing tables/text and `src/`) has dedicated pass/fail phase gates.
+- [ ] Probe insertion policy is explicit and safe by default.
+  - [ ] `C23` probe-driven `src/` edits are validation fixtures, auto-reverted by default after `make.py verify`.
+  - [ ] This does not prohibit normal/persistent authoring updates to `src/`.
+  - [ ] Persistent source edits use a separate explicit promotion path (opt-in), not implicit probe side-effects.
+- [ ] Deterministic probe freezing is mandatory.
+  - [ ] Probe selection is frozen by manifest/signature and reused across resumptions unless explicitly rotated.
+- [ ] Resource guardrail fields are optional/documentation-only for now.
+  - [ ] Query/index/build limits may be recorded and reported when configured.
+
+## 1) Scope, objective, and prerequisites
+- [ ] Objective: make prewarmed verbatim text readily available in `.cache/...` and deterministically linked to extracted anchors.
+- [ ] Scope: integrate cache writing and linkage into the normal stage flow (`ingest -> extract -> normalize -> anchor -> publish -> verify -> finalize`).
+- [ ] Prerequisite baseline:
+  - [ ] Existing mining pipeline is already in place from prior plan (`C0` through at least pilot publish/verify).
+  - [ ] Required-part source hash lock is already enforced.
+  - [ ] Anchor registry schema contract remains unchanged for committed outputs.
+
+## 2) Data-plane architecture for prewarmed verbatim caches
+- [ ] Use run-scoped data-plane root: `.cache/iso26262/mining/runs/<run_id>/`.
+- [ ] Add deterministic prewarm/cache layout:
+  - [ ] `extract/verbatim/page-text.jsonl` (one record per page extraction output).
+  - [ ] `extract/verbatim/page-blocks.jsonl` (stable block segmentation for slicing).
+  - [ ] `extract/verbatim/page-index.json` (part/page to record-id index).
+  - [ ] `extract/verbatim/page-signatures.jsonl` (text checksums and counts).
+  - [ ] `normalize/verbatim/unit-slices.jsonl` (unit-level verbatim slices).
+  - [ ] `normalize/verbatim/unit-text-links.jsonl` (unit to page/block refs).
+  - [ ] `anchor/verbatim/anchor-text-links.jsonl` (anchor to unit/text refs).
+  - [ ] `anchor/verbatim/anchor-link-index.json` (lookup index for anchor->cache refs).
+  - [ ] `query/inverted-index/` (token to slice and anchor refs, sharded).
+  - [ ] `query/phrase-index/` (phrase-key to slice and anchor refs, sharded).
+  - [ ] `query/query-snapshots/` (optional deterministic query output captures for replay/debug).
+  - [ ] `qa/verbatim/adjudication-ledger.json` (optional adjudication updates for required QA).
+  - [ ] `logs/verbatim-replay-diff.json` (written only when replay mismatch occurs).
+- [ ] Keep file naming stable and deterministic across replay runs.
+
+## 3) Verbatim cache schema and lineage contract
+- [ ] Anchor semantics are explicit.
+  - [ ] An anchor is the checked-in unit-level identifier used to pinpoint and validate mappings at `paragraph`, `list_bullet`, and `table_cell` granularity.
+  - [ ] Every mapped unit in these required unit types must resolve to exactly one checked-in `anchor_id` and corresponding lineage refs.
+- [ ] Define `page-text.jsonl` record contract.
+  - [ ] Required keys: `run_id`, `part`, `page`, `record_id`, `extract_method`, `source_pdf_sha256`, `text`, `text_sha256`, `char_count`.
+  - [ ] `record_id` is deterministic from `(part,page,extract_method,text_sha256)`.
+- [ ] Define `page-blocks.jsonl` record contract.
+  - [ ] Required keys: `run_id`, `part`, `page`, `block_id`, `block_ordinal`, `char_start`, `char_end`, `text`, `text_sha256`.
+  - [ ] Block order is stable and deterministic.
+- [ ] Define `unit-slices.jsonl` record contract.
+  - [ ] Required keys: `unit_id`, `unit_type`, `part`, `page`, `slice_id`, `text`, `text_sha256`, `source_block_refs`, `source_locator`.
+  - [ ] Required unit types for must-succeed coverage: `paragraph`, `list_bullet`, `table_cell`.
+- [ ] Define `unit-text-links.jsonl` contract.
+  - [ ] Required keys: `unit_id`, `part`, `unit_type`, `slice_ids`, `page_record_ids`, `coverage_status`, `link_fingerprint`.
+- [ ] Define `anchor-text-links.jsonl` contract.
+  - [ ] Required keys: `anchor_id`, `unit_id`, `part`, `unit_type`, `slice_ids`, `text_sha256_set`, `link_fingerprint`.
+  - [ ] Exactly one `anchor_id` per mapped unit.
+  - [ ] Every mapped required-part anchor resolves to at least one slice reference.
+- [ ] Define deterministic ordering contract.
+  - [ ] Sort records by `(part, page, unit_type, unit_id, slice_id)` for stable diffs and replay signatures.
+
+## 3A) Query tool and index contract (word/phrase search)
+- [ ] Add repository query CLI entrypoint for prewarmed cache lookups.
+  - [ ] Tool path: `tools/traceability/query_iso_prewarm_cache.py` (or equivalent package module with this entrypoint).
+  - [ ] Subcommands include at minimum: `index`, `search`, `explain`.
+- [ ] Define `search` behavior for words and phrases.
+  - [ ] `--term <word>` supports token lookups.
+  - [ ] `--phrase "<text>"` supports exact normalized phrase lookups.
+  - [ ] Filters include `--part`, `--unit-type`, `--clause`, `--page`, `--anchor-id`.
+  - [ ] Output includes deterministic ranked matches with `anchor_id`, `unit_id`, `part`, `source_locator`, and cache refs (`slice_id`/`record_id`).
+  - [ ] Output includes deterministic checked-in lookup pointers for each hit:
+    - [ ] `anchor_registry_path` (`traceability/iso26262/index/anchor-registry.jsonc`),
+    - [ ] `corpus_manifest_path` (`traceability/iso26262/index/corpus-manifest.jsonc`),
+    - [ ] per-part manifest and shard path under `traceability/iso26262/corpus/2018-ed2/<part>/...`,
+    - [ ] required row locator (`jsonl_row_hint` for `.jsonl`) or required JSON pointer (`json_pointer_hint` for `.jsonc`).
+  - [ ] Before any locations or quoted snippets are shown, output a compliance preface stating:
+    - [ ] traceability status (`{ts}`) must be used appropriately in downstream authored outputs,
+    - [ ] guideline reference path: `docs/traceability-ts-and-quotation-guidelines.md`.
+  - [ ] If quote mode is enabled, include an explicit fair-use notice and keep quotes brief.
+    - [ ] Quote output defaults to disabled unless explicitly requested.
+    - [ ] Max quote length and line limits are deterministic and enforced by CLI guards.
+    - [ ] Deterministic quote limits are defined in `docs/traceability-ts-and-quotation-guidelines.md` and mirrored in CLI defaults.
+    - [ ] Quote output includes a machine-readable guardrail marker (for example `fair_use_brief_quote=true`).
+- [ ] Define `{ts}` authoring instruction contract in query output.
+  - [ ] Query output provides a `ts_authoring_bundle` per actionable hit.
+  - [ ] `ts_authoring_bundle` includes:
+    - [ ] `ts_token` (allowed: `mapped`, `unmapped_with_rationale`, `out_of_scope_with_rationale`),
+    - [ ] required companion roles and values (`dp`, `rel`, `a`) for mapped cases,
+    - [ ] concrete MyST preface snippet template for insertion.
+  - [ ] For mapped hits, snippet is emitted in parser-compatible role form (example):
+    - [ ] `{dp}`<source_id>` {ts}`mapped` {rel}`direct` {a}`<anchor_id>`.
+  - [ ] For unmapped/out-of-scope guidance, snippet is emitted with explicit rationale placeholder and without false anchor claims.
+- [ ] Define deterministic normalization for query/index.
+  - [ ] Canonical lowercase normalization with stable whitespace collapsing.
+  - [ ] Deterministic tokenization and phrase key generation.
+  - [ ] Stable sort for output records when scores tie.
+- [ ] Define query index artifacts in data-plane only.
+  - [ ] `query/inverted-index/*.jsonl` records include token, posting refs, and checksum.
+  - [ ] `query/phrase-index/*.jsonl` records include phrase key, posting refs, and checksum.
+  - [ ] `query/index-manifest.json` includes shard list, counts, schema version, and signature.
+- [ ] Define actionability contract.
+  - [ ] Search output can be consumed by QA/adjudication tooling without additional transformation.
+  - [ ] `explain` returns lineage from query hit -> slice -> unit -> anchor.
+  - [ ] `explain` includes pointer to `{ts}` and quotation guidance path when showing citation-ready output.
+
+## 3B) Source integration and make.py validation contract
+- [ ] Define deterministic source-integration validation scope in `src/`.
+  - [ ] Include paragraph text cases in markdown under `src/`.
+  - [ ] Include bullet/list entry cases in markdown under `src/`.
+  - [ ] Include table cell/row cases in source tables under `src/`.
+  - [ ] Ensure validation set spans multiple parts and anchor types where possible.
+- [ ] Define insertion workflow from query output.
+  - [ ] Query for words/phrases sampled from existing `src/` text/tables.
+  - [ ] Insert returned `ts_authoring_bundle` snippets into selected `src/` cases.
+  - [ ] Preserve deterministic fixture list of modified source locations.
+  - [ ] Record a source-integration transaction manifest with pre/post checksums for touched files.
+  - [ ] Use transaction markers (`src-integration.begin`, `src-integration.commit`) in control-plane artifacts.
+  - [ ] Post-validation handling policy (default): auto-revert probe fixture edits in `src/` after evidence capture.
+  - [ ] Post-validation handling policy (optional): retain probe edits only when explicit `RETAIN_PROBE_INSERTIONS=1` is set.
+  - [ ] Persistent authoring updates are allowed via explicit promotion workflow and are not blocked by probe auto-revert policy.
+- [ ] Define build validation workflow.
+  - [ ] Run `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` after insertion and treat failures as hard failures.
+  - [ ] Capture machine-readable build/validation report in control-plane artifacts.
+  - [ ] Require pass across paragraph/list/table integrations before phase completion.
+
+## 3C) Verification probe corpus contract (for query validation)
+- [ ] Build deterministic probe sets for query verification.
+  - [ ] `probe-set/tables.jsonl`: phrases/terms sampled from existing table-like content in tracked project sources.
+  - [ ] `probe-set/text.jsonl`: phrases/terms sampled from existing narrative text in tracked project sources.
+  - [ ] `probe-set/src.jsonl`: phrases/terms sampled from `src/` when present (or equivalent source tree configured in run state).
+  - [ ] `probe-set/negative.jsonl`: expected-miss probes for false-positive control.
+- [ ] Probe-set records are deterministic and traceable.
+  - [ ] Required keys: `probe_id`, `probe_kind`, `query_mode` (`word`/`phrase`), `query_text`, `source_path`, `source_locator`, `expected_part` (optional), `expected_anchor_hint` (optional).
+  - [ ] Probe set generation stores stable signatures and counts per file.
+  - [ ] Probe-set artifacts remain metadata-only in control-plane and verbatim-bearing in data-plane only.
+- [ ] Probe freezing contract.
+  - [ ] Write frozen manifest: `artifacts/probes/probeset-freeze-manifest.json` (control-plane metadata only).
+  - [ ] Manifest includes selected probe IDs, source selectors, seed/signature, and generation algorithm version.
+  - [ ] Resume uses frozen manifest by default; implicit re-sampling is forbidden.
+  - [ ] Probe rotation requires explicit operator intent and creates a new signed manifest artifact.
+
+## 3D) Cross-source `{ts}` mapping contract (markdown + tables)
+- [ ] Define markdown insertion mapping.
+  - [ ] Query output emits parser-compatible MyST role snippet (`{dp}`, `{ts}`, `{rel}`, `{a}`) for mapped cases.
+  - [ ] For non-mapped cases, query output emits `{dp}` + `{ts}` with rationale placeholder and no false anchor claim.
+- [ ] Define table YAML insertion mapping.
+  - [ ] Query output emits deterministic patch bundle for `cell_trace` updates:
+    - [ ] `trace_status` from `{ts}` token,
+    - [ ] `anchor_ids` from resolved anchor set,
+    - [ ] `relation` from `{rel}` token,
+    - [ ] `irm_id` behavior (preserve existing unless explicit creation/update policy is invoked).
+  - [ ] Table patch bundle must include exact table/cell locator (`table_id`, `row_id`, `column_key`).
+- [ ] Define compatibility checks.
+  - [ ] Updated markdown and table YAML must pass existing parser/validator contracts used by `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify`.
+  - [ ] Any mismatch between markdown role representation and table trace representation is a hard failure.
+
+## 3E) Resource guardrail notes (optional)
+- [ ] Define optional guardrails for indexing/query/build operations.
+  - [ ] `QUERY_INDEX_MAX_SHARD_BYTES` (max bytes per query index shard).
+  - [ ] `QUERY_INDEX_MAX_POSTINGS_PER_TOKEN` (max postings per token entry).
+  - [ ] `QUERY_MAX_HITS` (max returned results per query invocation).
+  - [ ] `QUERY_MAX_QUOTE_BYTES` (max bytes in quote mode output).
+  - [ ] `MAKEPY_VERIFY_TIMEOUT_SECONDS` (max duration for `make.py verify` gate).
+- [ ] Guardrail reporting behavior.
+  - [ ] Threshold overruns are reported to control-plane artifacts with deterministic fields.
+  - [ ] Overruns are advisory unless explicitly promoted to hard gates in a future revision.
+
+## 4) Stage integration contract
+- [ ] `ingest` stage additions.
+  - [ ] Confirm prewarm cache directories exist under run root.
+  - [ ] Persist prewarm schema/version paths in immutable run state.
+- [ ] `extract` stage additions.
+  - [ ] Continue page-level extraction decision generation (`primary` or `ocr_fallback`).
+  - [ ] Write `extract/verbatim/page-text.jsonl` and `extract/verbatim/page-blocks.jsonl`.
+  - [ ] Write `extract/verbatim/page-index.json` and `extract/verbatim/page-signatures.jsonl`.
+  - [ ] Guarantee exactly one page-text record per required-part page.
+- [ ] `normalize` stage additions.
+  - [ ] Derive unit candidates from deterministic page/block cache inputs.
+  - [ ] Write `normalize/verbatim/unit-slices.jsonl` and `normalize/verbatim/unit-text-links.jsonl`.
+  - [ ] Write/update query-ready token/phrase source rows used by `index`.
+  - [ ] Compute required-part coverage by unit type and fail below 100%.
+  - [ ] Write unresolved items to `qa/queue.jsonl` and block publish if required-part unresolved items remain.
+- [ ] `anchor` stage additions.
+  - [ ] Mint deterministic anchors as before.
+  - [ ] Write `anchor/verbatim/anchor-text-links.jsonl` and `anchor/verbatim/anchor-link-index.json`.
+  - [ ] Enforce bijection checks: every mapped required-part unit has one anchor and one anchor-text-link record.
+  - [ ] Emit query lineage index bindings (`query/index-manifest.json` references anchor-link inputs).
+- [ ] `publish` stage additions.
+  - [ ] Publish only non-verbatim tracked corpus shards and indexes.
+  - [ ] Persist metadata-only cache reference summary in control-plane artifacts.
+  - [ ] Never publish/cache-copy verbatim text into tracked paths.
+- [ ] `verify` stage additions.
+  - [ ] Validate prewarm cache completeness for required parts.
+  - [ ] Validate anchor-to-verbatim linkage completeness and determinism.
+  - [ ] Validate prewarm cache text normalization quality.
+  - [ ] Validate prewarm cache artifact hygiene (strip/flag parser artifacts, garble patterns, pathological control-char clusters).
+  - [ ] Validate query index completeness and linkage back to anchors.
+  - [ ] Run deterministic query smoke checks for words and phrases against fixture expectations.
+  - [ ] Run deterministic query probes from `probe-set/tables.jsonl`, `probe-set/text.jsonl`, and `probe-set/src.jsonl`.
+  - [ ] Enforce expected-match and expected-miss thresholds from probe definitions.
+  - [ ] Validate query output guardrails.
+    - [ ] Compliance preface appears before locations/quotes.
+    - [ ] Preface includes `{ts}` usage reminder and guideline path.
+    - [ ] Quote mode enforces deterministic brief-quote limits and fair-use marker.
+  - [ ] Validate `ts_authoring_bundle` correctness.
+    - [ ] `ts_token` is in allowed enum and parser-compatible.
+    - [ ] mapped bundles include `dp`/`rel`/`a` companion role values.
+    - [ ] checked-in lookup pointers resolve to existing `.jsonc`/`.jsonl` files.
+  - [ ] Validate end-to-end source integration and build.
+    - [ ] injected paragraph/list/table cases in `src/` parse and validate correctly,
+    - [ ] `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` completes successfully with expected traceability validation passes.
+    - [ ] source integration transaction manifest is closed (`src-integration.commit`) before verify stage can be marked done.
+  - [ ] Validate control-plane metadata contains no verbatim text fields.
+  - [ ] Validate no `.cache` artifacts are tracked or staged.
+  - [ ] Validate replay signatures for page/unit/anchor linkage sets.
+- [ ] `finalize` stage additions.
+  - [ ] Append idempotent prewarm summary block with run marker.
+  - [ ] Set finalization flags only after summary and state updates succeed.
+
+## 5) Resumable execution and crash-recovery contract
+- [ ] Keep the same run-mode model (`kickoff-new`, `kickoff-explicit`, `resume-auto`, `resume-explicit`).
+- [ ] Lock contract remains unchanged.
+  - [ ] Lock payload keys: `pid`, `host`, `user`, `run_id`, `acquired_at_utc`.
+  - [ ] Active lock blocks mutation.
+  - [ ] Stale lock replacement logs previous payload.
+- [ ] Immutable contract must include new prewarm keys.
+  - [ ] `VERBATIM_PREWARM_ENABLED`
+  - [ ] `VERBATIM_CACHE_ROOT`
+  - [ ] `VERBATIM_SCHEMA_VERSION`
+  - [ ] `PAGE_TEXT_SCHEMA_PATH`
+  - [ ] `UNIT_SLICE_SCHEMA_PATH`
+  - [ ] `ANCHOR_TEXT_LINK_SCHEMA_PATH`
+  - [ ] `QUERY_TOOL_PATH`
+  - [ ] `QUERY_INDEX_SCHEMA_VERSION`
+  - [ ] `QUERY_INDEX_MANIFEST_PATH`
+  - [ ] `TS_GUIDELINES_PATH`
+  - [ ] `MAKEPY_VERIFY_COMMAND`
+  - [ ] `SRC_INTEGRATION_MANIFEST_PATH`
+  - [ ] `PROBESET_FREEZE_MANIFEST_PATH`
+  - [ ] `PROBESET_FREEZE_SIGNATURE`
+  - [ ] `RETAIN_PROBE_INSERTIONS`
+  - [ ] Optional guardrail settings may be recorded when configured (`RESOURCE_GUARDRAILS_VERSION`, `QUERY_INDEX_MAX_SHARD_BYTES`, `QUERY_INDEX_MAX_POSTINGS_PER_TOKEN`, `QUERY_MAX_HITS`, `QUERY_MAX_QUOTE_BYTES`, `MAKEPY_VERIFY_TIMEOUT_SECONDS`).
+- [ ] Reconciliation rules before stage execution.
+  - [ ] Stage marked done but required prewarm artifacts missing -> reopen stage.
+  - [ ] Stage checkpoint exists but required checklist keys incomplete -> reopen stage.
+  - [ ] Commit marker/checkpoint mismatch -> hard stop.
+  - [ ] Unit-text-link/anchor-link counts mismatch -> hard stop and reconcile.
+  - [ ] `src-integration.begin` present without `src-integration.commit` -> reconcile touched files from manifest and rerun source integration phase.
+  - [ ] Source integration manifest checksum mismatch against working tree at resume boundary -> hard stop and reconcile.
+  - [ ] Probe freeze manifest/signature mismatch at resume boundary -> hard stop and reconcile.
+- [ ] Crash windows to validate.
+  - [ ] A: before mutation.
+  - [ ] B: after mutation, before verification.
+  - [ ] C: publish attempted, outcome unknown.
+  - [ ] D: verify complete, finalize incomplete.
+  - [ ] E: anchor-link files partially written.
+  - [ ] F: source insertion interrupted after partial `src/` edits.
+  - [ ] G: `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` started but outcome unknown.
+
+## 6) Canonical state and checklist key catalog (authoritative)
+- [ ] Stage pointer and done flags.
+  - [ ] `CURRENT_STAGE` in (`ingest`, `extract`, `normalize`, `anchor`, `publish`, `verify`, `finalize`).
+  - [ ] `S_INGEST_DONE`, `S_EXTRACT_DONE`, `S_NORMALIZE_DONE`, `S_ANCHOR_DONE`, `S_PUBLISH_DONE`, `S_VERIFY_DONE`, `S_FINALIZE_DONE` (`0|1`).
+- [ ] Checklist keys (required, explicit `0|1`).
+  - [ ] Ingest: `CB_INGEST_SOURCE_PDFSET_VALID`, `CB_INGEST_REQUIRED_PARTS_FOUND`, `CB_INGEST_HASHES_VERIFIED`, `CB_INGEST_VERBATIM_ROOT_READY`, `CB_INGEST_SCHEMA_PATHS_LOCKED`.
+  - [ ] Extract: `CB_EXTRACT_PRIMARY_EVAL_COMPLETE`, `CB_EXTRACT_FALLBACK_COMPLETE`, `CB_EXTRACT_PAGE_DECISIONS_WRITTEN`, `CB_EXTRACT_PAGE_TEXT_WRITTEN`, `CB_EXTRACT_PAGE_BLOCKS_WRITTEN`, `CB_EXTRACT_PAGE_INDEX_WRITTEN`.
+  - [ ] Normalize: `CB_NORMALIZE_UNITS_WRITTEN`, `CB_NORMALIZE_UNIT_SLICES_WRITTEN`, `CB_NORMALIZE_UNIT_TEXT_LINKS_WRITTEN`, `CB_NORMALIZE_QUERY_SOURCE_ROWS_WRITTEN`, `CB_NORMALIZE_COVERAGE_COMPUTED`, `CB_NORMALIZE_QA_QUEUE_WRITTEN`.
+  - [ ] Anchor: `CB_ANCHOR_IDS_WRITTEN`, `CB_ANCHOR_TEXT_LINKS_WRITTEN`, `CB_ANCHOR_LINK_INDEX_WRITTEN`, `CB_ANCHOR_QUERY_INDEX_BOUND`, `CB_ANCHOR_LINK_BIJECTION_PASS`, `CB_ANCHOR_SUMMARY_WRITTEN`.
+  - [ ] Publish: `CB_PUBLISH_SHARDS_WRITTEN`, `CB_PUBLISH_REGISTRY_WRITTEN`, `CB_PUBLISH_NON_VERBATIM_ONLY_PASS`, `CB_PUBLISH_QA_GATE_PASS`, `CB_PUBLISH_TRANSACTION_COMMIT`.
+  - [ ] Verify: `CB_VERIFY_SCHEMA_PASS`, `CB_VERIFY_INTEGRITY_PASS`, `CB_VERIFY_VERBATIM_CACHE_COMPLETENESS_PASS`, `CB_VERIFY_PREWARM_TEXT_NORMALIZATION_PASS`, `CB_VERIFY_PREWARM_ARTIFACT_HYGIENE_PASS`, `CB_VERIFY_ANCHOR_LINK_COMPLETENESS_PASS`, `CB_VERIFY_QUERY_INDEX_COMPLETENESS_PASS`, `CB_VERIFY_QUERY_TOOL_SMOKE_PASS`, `CB_VERIFY_QUERY_PROBESET_TABLES_PASS`, `CB_VERIFY_QUERY_PROBESET_TEXT_PASS`, `CB_VERIFY_QUERY_PROBESET_SRC_PASS`, `CB_VERIFY_QUERY_PROBESET_NEGATIVE_PASS`, `CB_VERIFY_PROBESET_FREEZE_PASS`, `CB_VERIFY_QUERY_OUTPUT_GUARDRAILS_PASS`, `CB_VERIFY_QUERY_QUOTE_FAIR_USE_PASS`, `CB_VERIFY_TS_AUTHORING_BUNDLE_PASS`, `CB_VERIFY_TS_JSON_LOOKUP_POINTERS_PASS`, `CB_VERIFY_TS_GUIDELINES_PATH_PASS`, `CB_VERIFY_SRC_PARAGRAPH_INTEGRATION_PASS`, `CB_VERIFY_SRC_LIST_INTEGRATION_PASS`, `CB_VERIFY_SRC_TABLE_INTEGRATION_PASS`, `CB_VERIFY_SRC_INTEGRATION_MANIFEST_PASS`, `CB_VERIFY_SRC_REVERT_CLEAN_PASS`, `CB_VERIFY_MAKEPY_E2E_PASS`, `CB_VERIFY_CONTROL_PLANE_NO_TEXT_PASS`, `CB_VERIFY_NO_CACHE_TRACKED_PASS`, `CB_VERIFY_REPLAY_SIGNATURE_PASS`, `CB_VERIFY_SUMMARY_WRITTEN`.
+  - [ ] Finalize: `CB_FINALIZE_VERBATIM_SUMMARY_WRITTEN`, `CB_FINALIZE_STATE_FLAGS_WRITTEN`, `CB_FINALIZE_LOCK_RELEASED`.
+
+## 7) Integrated phase map and commit checkpoints
+- [ ] Phase 0 (`C14`): prewarm schema and extract cache write path.
+  - [ ] Commit: `feat(trace-miner): add data-plane verbatim page prewarm cache writers`.
+  - [ ] Required outputs: extract verbatim page/block/index/signature artifacts.
+- [ ] Phase 1 (`C15`): normalize integration for unit slices and unit text links.
+  - [ ] Commit: `feat(trace-miner): integrate normalize unit-slice verbatim cache links`.
+  - [ ] Required outputs: unit slices/links and required-part unit-type coverage summaries.
+- [ ] Phase 2 (`C16`): anchor linkage integration.
+  - [ ] Commit: `feat(trace-miner): integrate anchor-to-verbatim linkage index`.
+  - [ ] Required outputs: anchor-text-links and anchor-link index with bijection checks.
+- [ ] Phase 3 (`C17`): replay/checkpoint and deterministic verification of prewarm caches.
+  - [ ] Commit: `feat(trace-miner): add replay and checkpoint verification for verbatim caches`.
+  - [ ] Required outputs: replay signatures and reconciliation summary artifacts.
+- [ ] Phase 4 (`C18`): query-tool planning and contract lock.
+  - [ ] Commit: `docs(trace-miner): specify prewarm cache query interface and lineage contracts`.
+  - [ ] Required outputs: query CLI command contract, index schemas, replay/smoke expectations, `{ts}`/quotation guidance doc path and policy, and baseline `docs/traceability-ts-and-quotation-guidelines.md`.
+- [ ] Phase 5 (`C19`): query-tool implementation and deterministic indexing.
+  - [ ] Commit: `feat(trace-miner): add prewarm cache query CLI for words and phrases`.
+  - [ ] Required outputs: query CLI under `tools/traceability/`, data-plane query index artifacts, smoke query evidence, enforced output preface/fair-use quote guards, parser-compatible `{ts}` authoring bundles, and checked-in JSON lookup pointers.
+- [ ] Phase 6 (`C20`): prewarm cache build-quality verification phase.
+  - [ ] Commit: `test(trace-miner): verify prewarm cache normalization and artifact hygiene gates`.
+  - [ ] Required outputs: build-quality verification report, anomaly ledger, and pass/fail summary.
+- [ ] Phase 7 (`C21`): query verification phase using source probes.
+  - [ ] Commit: `test(trace-miner): verify prewarm cache query behavior with source probes`.
+  - [ ] Required outputs: probe-set manifests, probe-freeze manifest/signature, query result evidence, deterministic ranking/signature report.
+- [ ] Phase 8 (`C22`): source integration helper implementation.
+  - [ ] Commit: `feat(trace-miner): add source insertion helpers for ts-guided query results`.
+  - [ ] Required outputs: deterministic source integration helper workflow and transaction-manifest support.
+- [ ] Phase 9 (`C23`): full end-to-end `src` + `make.py` validation.
+  - [ ] Commit: `test(trace-miner): validate ts references end-to-end via src insertion and make.py`.
+  - [ ] Required outputs:
+    - [ ] sampled query -> insertion -> build pipeline evidence,
+    - [ ] paragraph/list/table integration pass reports,
+    - [ ] `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` pass artifact summary.
+    - [ ] post-validation source cleanup report (`auto_revert=true` by default, or retained-by-flag evidence).
+- [ ] Phase 10 (`C24`): CI/runbook and policy hardening.
+  - [ ] Commit: `chore(ci,docs): add prewarm cache query checks and operator runbook`.
+  - [ ] Required outputs: CI workflow updates and operator guidance including query usage, `{ts}` insertion guidance, make.py replay steps, and canonical let-it-rip mode.
+- [ ] Phase 11 (`C25+`): required-part rollout batches.
+  - [ ] Commit template: `feat(trace-data): generate required-part verbatim prewarm cache batch <n>`.
+  - [ ] Each batch must also refresh query index shards/signatures for new or changed prewarm cache units.
+  - [ ] Each batch must rerun `{ts}` probe insertion and `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` e2e validation across representative paragraph/list/table cases.
+  - [ ] Continue until required parts (`P06`,`P08`,`P09`) reach 100% parse completeness across `paragraph`,`list_bullet`,`table_cell` and unresolved QA is zero.
+- [ ] Checkpoint requirements.
+  - [ ] Stage checkpoint: `$CONTROL_RUN_ROOT/artifacts/checkpoints/<stage>.done.json`.
+  - [ ] Phase checkpoint: `$CONTROL_RUN_ROOT/artifacts/checkpoints/phase-<n>.done.json`.
+  - [ ] Canonical checksum excludes volatile timestamp fields.
+
+## 8) Mandatory stop conditions
+- [ ] Active valid lock owned by another process.
+- [ ] Immutable contract drift on resume.
+- [ ] `LAST_COMMITTED_SHA` mismatch with `git HEAD` at resume boundary.
+- [ ] Stage marked done while required checklist keys are incomplete.
+- [ ] Missing required stage/phase checkpoint artifacts.
+- [ ] Missing required prewarm files for a done stage.
+- [ ] Required-part page count mismatch between decisions and prewarm page-text records.
+- [ ] Required-part unit-text-link or anchor-text-link completeness below 100%.
+- [ ] Required query index files missing or stale for the committed prewarm cache state.
+- [ ] Query smoke checks fail for required deterministic fixture queries.
+- [ ] Prewarm text normalization verification fails (for example control-char/replacement-char/hygiene gates).
+- [ ] Query probe verification fails for tables/text/src deterministic probe suites.
+- [ ] Probe-freeze manifest/signature is missing or does not match the active run contract.
+- [ ] Query output guardrail verification fails (`{ts}` reminder/guideline pointer missing or quote limits exceeded).
+- [ ] `ts_authoring_bundle` verification fails (invalid `ts` token, missing companion roles, or unresolved JSON lookup pointers).
+- [ ] End-to-end source integration fails for paragraph/list/table case types.
+- [ ] `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` fails after query-driven `src` insertions.
+- [ ] Probe fixture edits remain in `src/` after C23 when `RETAIN_PROBE_INSERTIONS=0`.
+- [ ] `TS_GUIDELINES_PATH` is missing or unreadable when query guardrails are active (phase `C19` and later).
+- [ ] `MAKEPY_VERIFY_COMMAND` cannot be executed reproducibly at resume boundary when source integration/build validation phases are active (phase `C23` and later).
+- [ ] Source integration transaction manifest missing or inconsistent when stage state indicates completion.
+- [ ] Any unresolved required-part QA item at publish/verify.
+- [ ] Any staged/tracked `.cache` artifact.
+- [ ] Any verbatim text field found in control-plane artifacts.
+
+## 9) CI, runbook, and evidence outputs
+- [ ] Shared CI (fixture-only) verifies schema + anti-leak + deterministic replay signatures.
+- [ ] Shared CI (fixture-only) runs deterministic query smoke checks for word and phrase search.
+- [ ] Controlled local/self-hosted runs verify licensed required-part end-to-end flow.
+- [ ] Resilience jobs validate crash windows A/B/C/D/E/F/G and lock contention/stale-lock behavior.
+- [ ] Required archived evidence in control-plane artifacts:
+  - [ ] prewarm cache summary by part/page/unit type.
+  - [ ] prewarm build-quality verification report and anomaly ledger.
+  - [ ] linkage completeness summary (`unit -> anchor -> text ref`).
+  - [ ] replay signature report and mismatch diff (if any).
+  - [ ] query index manifest and query smoke report.
+  - [ ] query probe-set manifests and probe result reports (`tables`, `text`, `src`, `negative`).
+  - [ ] probe-freeze manifest/signature report and rotation history (if any).
+  - [ ] query output guardrail report (preface presence, guideline pointer path, quote-limit/fair-use checks).
+  - [ ] `ts` authoring bundle validation report (token/role/pointer checks).
+  - [ ] source integration report covering paragraph/list/table insertions.
+  - [ ] source integration transaction report (`src-integration.begin/commit`, manifest checksum, reconciled files).
+  - [ ] source cleanup report (auto-revert status, retained-by-flag status, residual-diff check).
+  - [ ] `make.py` e2e validation report with pass/fail and failing file pointers (if any).
+  - [ ] resilience drill report.
+  - [ ] verify summary and phase checkpoints.
+
+## 10) Definition of done
+- [ ] Required parts `P06`, `P08`, `P09` are mined with 100% completeness for required unit types (`paragraph`, `list_bullet`, `table_cell`).
+- [ ] Data-plane `.jsonl` prewarm caches are present and deterministic for page, unit, and anchor linkage layers.
+- [ ] Every mapped required-part anchor is linked to deterministic prewarm cache references.
+- [ ] Query tool can search prewarmed cache by word and phrase and return anchor-linked results deterministically.
+- [ ] Query results include actionable lineage (`anchor_id`, `unit_id`, cache refs) suitable for downstream QA and mapping updates.
+- [ ] Query output always presents `{ts}` usage reminder and guideline location before locations/quotes are shown.
+- [ ] `docs/traceability-ts-and-quotation-guidelines.md` exists, is versioned, and matches enforced query guardrail behavior.
+- [ ] Any direct quotes are brief, guardrail-limited, and explicitly marked for fair-use bounded handling.
+- [ ] Query output provides parser-compatible `ts` authoring bundles that resolve directly to checked-in corpus/index `.jsonc`/`.jsonl` pointers.
+- [ ] End-to-end query -> insertion into `src` (paragraph/list/table) -> `SPHINX_MIGRATION_RUN_ROOT="$CONTROL_RUN_ROOT" ./make.py verify` validation passes deterministically.
+- [ ] Markdown role and table YAML trace mappings remain consistent for equivalent mapped statements.
+- [ ] Probe insertion fixtures are auto-reverted by default after e2e validation (`RETAIN_PROBE_INSERTIONS=0`), with no residual unintended `src/` diffs.
+- [ ] Persistent `src` content updates remain allowed via explicit non-probe authoring/promotion workflow.
+- [ ] Prewarm cache build-quality verification passes with no unresolved critical normalization/artifact issues.
+- [ ] Query verification passes for deterministic probes sampled from existing tables/text and `src/` sources.
+- [ ] Required parts have zero unresolved QA items at publish/verify.
+- [ ] Control-plane artifacts remain metadata-only and contain no verbatim extraction content.
+- [ ] Repository tracked outputs remain non-verbatim and `.cache` remains untracked.
+- [ ] Deterministic replay signatures match for expected and produced linkage sets.
+- [ ] Crash-resume and lock resilience drills pass.
+
+## 11) Canonical operator mode (let-it-rip)
+- [ ] Canonical run mode is always available for copy/paste execution.
+  - [ ] If an incomplete run exists, use `resume-auto`; otherwise `kickoff-new`.
+  - [ ] `START_PHASE` defaults to earliest incomplete safe phase.
+  - [ ] `MAX_PHASES` defaults to run-to-completion behavior (`all`).
+  - [ ] `MODE` defaults to `licensed_local` for local operator sessions.
+  - [ ] `RETAIN_PROBE_INSERTIONS` defaults to `0` (auto-revert fixtures).
+- [ ] Runbook includes exact one-shot invocation guidance for canonical mode.

@@ -1,0 +1,7 @@
+update_action_present=False
+anchored_pr_url_present=False
+anchored_entry_line_present=False
+anchored_entry_index_present=False
+update_action_value=None
+anchored_pr_url_value=None
+anchored_pr_url_matches_canonical=False

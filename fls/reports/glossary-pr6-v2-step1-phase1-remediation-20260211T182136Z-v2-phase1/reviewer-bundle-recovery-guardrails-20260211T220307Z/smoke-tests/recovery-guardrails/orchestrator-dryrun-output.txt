@@ -1,0 +1,6 @@
+
+=== batch-001 WA: WA-001 .. WA-001 (1 IDs) ===
+- WA-001: value
+Orchestration complete.
+Run directory: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun
+Summary: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails/orchestrator-dryrun/orchestrator-summary.json

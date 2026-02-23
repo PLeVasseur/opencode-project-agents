@@ -1,0 +1,381 @@
+{
+  "generated_at": "2026-02-22T00:19:41+00:00",
+  "prompt_id": "RET-RESOLVE-004",
+  "query": {
+    "allow_degraded": false,
+    "candidate_limit": 200,
+    "include_score_breakdown": true,
+    "mode": "hybrid",
+    "query_text": "What practices keep unsafe code boundaries controlled?",
+    "row_marker": "",
+    "top_k": 8
+  },
+  "response": {
+    "degraded": false,
+    "duration_ms": 23545.377,
+    "executed_mode": "hybrid",
+    "preflight": {
+      "base_url": "http://127.0.0.1:8080",
+      "checks": [
+        {
+          "base_url": "http://127.0.0.1:19080",
+          "endpoint": "/health",
+          "name": "health_embed",
+          "status": "pass"
+        },
+        {
+          "base_url": "http://127.0.0.1:19081",
+          "endpoint": "/health",
+          "name": "health_rerank",
+          "status": "pass"
+        },
+        {
+          "name": "embed",
+          "status": "pass",
+          "vector_dim": 2560
+        },
+        {
+          "name": "rerank",
+          "score_count": 2,
+          "status": "pass"
+        }
+      ],
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "ok": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3"
+    },
+    "query_text": "What practices keep unsafe code boundaries controlled?",
+    "requested_mode": "hybrid",
+    "row_count": 8,
+    "row_marker": "",
+    "row_projection": [
+      {
+        "evidence_hits": 6,
+        "evidence_trace": [
+          {
+            "contribution": 0.199648,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:002"
+          },
+          {
+            "contribution": 0.198545,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:004"
+          },
+          {
+            "contribution": 0.130637,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#the-unsafe-keyword",
+            "statement_id": "doc::unsafe-keyword.md::section:0001::statement:002"
+          },
+          {
+            "contribution": 0.072802,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:003"
+          },
+          {
+            "contribution": 0.044128,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:005"
+          },
+          {
+            "contribution": 0.039734,
+            "source_anchor": "https://doc.rust-lang.org/reference/inline-assembly.html#correctness-and-validity",
+            "statement_id": "doc::inline-assembly.md::section:0161::statement:009"
+          }
+        ],
+        "row_marker": "1i",
+        "score": 0.685494,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "top_statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:002"
+      },
+      {
+        "evidence_hits": 1,
+        "evidence_trace": [
+          {
+            "contribution": 0.057251,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:005"
+          }
+        ],
+        "row_marker": "1b",
+        "score": 0.057251,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:005"
+      },
+      {
+        "evidence_hits": 1,
+        "evidence_trace": [
+          {
+            "contribution": 0.046746,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:005"
+          }
+        ],
+        "row_marker": "1g",
+        "score": 0.046746,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:005"
+      }
+    ],
+    "rows": [
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 1.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.9626683663176756,
+        "reranker_score": 0.9645444680414531,
+        "row_marker_scores": [
+          {
+            "overlap_count": 2,
+            "row_marker": "1i",
+            "score": 0.20739
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.9144934227960866,
+        "semantic_score_raw": 0.8127253936060105,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:002",
+        "statement_text": "This includes code within `unsafe` blocks and `unsafe` functions.",
+        "text_sha256": "5958a0b15fb9f100c060a9c75875d90b083079e4ac4f5cf5677194f8f50f3b11",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.9017165077382037,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.9573507584803991,
+        "reranker_score": 1.0,
+        "row_marker_scores": [
+          {
+            "overlap_count": 4,
+            "row_marker": "1i",
+            "score": 0.414781
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.9473432246357523,
+        "semantic_score_raw": 0.8257687438262756,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:004",
+        "statement_text": "`unsafe` code that satisfies this property for any safe client is called *sound*; if `unsafe` code can be misused by safe code to exhibit undefined behavior, it is *unsound*. > [!WARNING] > The following list is not exhaustive; it may grow or shrink.",
+        "text_sha256": "5108c7e80b467053cecacbdaa6e152621458eaa9cd61f406b8a9793a439eeb47",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.9973204714697913,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.9448647992083893,
+        "reranker_score": 0.9543582936426155,
+        "row_marker_scores": [
+          {
+            "overlap_count": 4,
+            "row_marker": "1i",
+            "score": 0.414781
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "The `unsafe` keyword",
+        "semantic_score": 0.8648297025130999,
+        "semantic_score_raw": 0.7930059048841609,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#the-unsafe-keyword",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0001::statement:002",
+        "statement_text": "Specifically: - It is used to mark code that *defines* extra safety conditions that must be upheld elsewhere. - This includes `unsafe fn`, `unsafe static`, and `unsafe trait`. - It is used to mark code that the programmer *asserts* satisfies safety conditions defined elsewhere. - This includes `unsafe {}`, `unsafe impl`, `unsafe fn` without [`unsafe_op_in_unsafe_fn`], `unsafe extern`, and `#[unsafe(attr)]`.",
+        "text_sha256": "96e6dc576eceb9f88e9c84ebef5146c7746e128d5867d9a9a13102b2166ab664",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.8952218922234954,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.9360989775593314,
+        "reranker_score": 0.9844067890575936,
+        "row_marker_scores": [
+          {
+            "overlap_count": 3,
+            "row_marker": "1i",
+            "score": 0.311086
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.8981974192654628,
+        "semantic_score_raw": 0.8062548985242427,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:003",
+        "statement_text": "`unsafe` only means that avoiding undefined behavior is on the programmer; it does not change anything about the fact that Rust programs must never cause undefined behavior. r[undefined.soundness] It is the programmer's responsibility when writing `unsafe` code to ensure that any safe code interacting with the `unsafe` code cannot trigger these behaviors.",
+        "text_sha256": "3f3d5a56a01619034816dd6a940359b267ff48a27613457cdb0e76722bd509d4",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.9923743202298182,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.927672002631976,
+        "reranker_score": 0.8982873731343073,
+        "row_marker_scores": [],
+        "row_markers": [],
+        "section_heading": "`unsafe` blocks",
+        "semantic_score": 0.9029215546103692,
+        "semantic_score_raw": 0.8081306648406514,
+        "source_anchor": "https://doc.rust-lang.org/reference/expressions/block-expr.html#unsafe-blocks",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::expressions::block-expr.md::section:0013::statement:002",
+        "statement_text": "A block of code can be prefixed with the `unsafe` keyword to permit [unsafe operations].",
+        "text_sha256": "dbc5ef9700e717635419ce2ffec4f1569e04f8e2f19f9324df5e1f1224a8b660",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.7266531680820469,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.8511022725388303,
+        "reranker_score": 0.8821307184063117,
+        "row_marker_scores": [
+          {
+            "overlap_count": 3,
+            "row_marker": "1i",
+            "score": 0.311086
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.9445899953255038,
+        "semantic_score_raw": 0.8246755459340769,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:005",
+        "statement_text": "There is no formal model of Rust's semantics for what is and is not allowed in unsafe code, so there may be more behavior considered unsafe.",
+        "text_sha256": "5d6cc104c878bcc7874729046bd4952bcb57995debb39e7b98f290783836c645",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.6705696338480107,
+        "reranker_score": 0.9345991863289127,
+        "row_marker_scores": [
+          {
+            "overlap_count": 4,
+            "row_marker": "1i",
+            "score": 0.414781
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Correctness and validity",
+        "semantic_score": 1.0,
+        "semantic_score_raw": 0.8466766557186508,
+        "source_anchor": "https://doc.rust-lang.org/reference/inline-assembly.html#correctness-and-validity",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::inline-assembly.md::section:0161::statement:009",
+        "statement_text": "Programmers should exercise appropriate care, as invoking this `unsafe` capability comes with assuming the responsibility of not violating rules of both the compiler or the architecture. r[asm.directives]",
+        "text_sha256": "cc8ff57e2fd00996378763ab4d76be7a8dfe6b36883af54e289a6d0e8d878d88",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.6477256777665557,
+        "reranker_score": 0.9241072344372917,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1b",
+            "score": 0.707107
+          },
+          {
+            "overlap_count": 1,
+            "row_marker": "1g",
+            "score": 0.57735
+          }
+        ],
+        "row_markers": [
+          "1b",
+          "1g"
+        ],
+        "section_heading": "Unsafe blocks (`unsafe {}`)",
+        "semantic_score": 0.9275096890790975,
+        "semantic_score_raw": 0.8178936354273215,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0003::statement:005",
+        "statement_text": "Unsafe blocks are used to wrap foreign libraries, make direct use of hardware or implement features not directly present in the language.",
+        "text_sha256": "b1c2c1a5381c41302f49e1e5fda008f21b75c3c00e8f6bd257014a0e5f251f73",
+        "token_overlap_count": 0
+      }
+    ],
+    "semantic_retry_events": [
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "query embedding",
+        "retry_count": 0,
+        "status": "pass"
+      },
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "reranker scoring",
+        "retry_count": 0,
+        "status": "pass"
+      }
+    ]
+  },
+  "runtime": {
+    "backend_profile": "unknown",
+    "contract_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/config/sqlite_query_contracts/rust_reference.yaml",
+    "db_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/current/rust_reference.sqlite",
+    "query_log_root": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/query_logs/rust_reference",
+    "semantic": {
+      "allow_online_corpus_embedding": false,
+      "base_url": "http://127.0.0.1:8080",
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "persist_semantic_cache": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3",
+      "semantic_retries": 0,
+      "timeout_sec": 120.0
+    }
+  },
+  "schema_version": 1
+}

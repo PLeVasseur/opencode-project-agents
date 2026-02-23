@@ -1,0 +1,5455 @@
+[
+  {
+    "target_anchor": "term_abi",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "ABI",
+    "term_id": "abi"
+  },
+  {
+    "target_anchor": "term_abi_clobber",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "ABI clobber",
+    "term_id": "abi_clobber"
+  },
+  {
+    "target_anchor": "term_abi_kind",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "ABI kind",
+    "term_id": "abi_kind"
+  },
+  {
+    "target_anchor": "term_abort",
+    "target_doc": "exceptions-and-errors",
+    "target_kind": "term",
+    "term": "abort",
+    "term_id": "abort"
+  },
+  {
+    "target_anchor": "term_abstract_data_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "abstract data type",
+    "term_id": "abstract_data_type"
+  },
+  {
+    "target_anchor": "term_active_attribute",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "active attribute",
+    "term_id": "active_attribute"
+  },
+  {
+    "target_anchor": "term_addition_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "addition assignment",
+    "term_id": "addition_assignment"
+  },
+  {
+    "target_anchor": "term_addition_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "addition assignment expression",
+    "term_id": "addition_assignment_expression"
+  },
+  {
+    "target_anchor": "term_addition_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "addition expression",
+    "term_id": "addition_expression"
+  },
+  {
+    "target_anchor": "term_adjusted_call_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "adjusted call operand",
+    "term_id": "adjusted_call_operand"
+  },
+  {
+    "target_anchor": "term_alignment",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "alignment",
+    "term_id": "alignment"
+  },
+  {
+    "target_anchor": "term_all_configuration_predicate",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "all configuration predicate",
+    "term_id": "all_configuration_predicate"
+  },
+  {
+    "target_anchor": "term_anonymous_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "anonymous loop expression",
+    "term_id": "anonymous_loop_expression"
+  },
+  {
+    "target_anchor": "term_anonymous_return_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "anonymous return type",
+    "term_id": "anonymous_return_type"
+  },
+  {
+    "target_anchor": "term_anonymous_type_parameter",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "anonymous type parameter",
+    "term_id": "anonymous_type_parameter"
+  },
+  {
+    "target_anchor": "term_any_configuration_predicate",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "any configuration predicate",
+    "term_id": "any_configuration_predicate"
+  },
+  {
+    "target_anchor": "term_application_binary_interface",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "Application Binary Interface",
+    "term_id": "application_binary_interface"
+  },
+  {
+    "target_anchor": "term_argument_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "argument operand",
+    "term_id": "argument_operand"
+  },
+  {
+    "target_anchor": "term_arithmetic_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "arithmetic expression",
+    "term_id": "arithmetic_expression"
+  },
+  {
+    "target_anchor": "term_arithmetic_operator",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "arithmetic operator",
+    "term_id": "arithmetic_operator"
+  },
+  {
+    "target_anchor": "term_arithmetic_overflow",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "arithmetic overflow",
+    "term_id": "arithmetic_overflow"
+  },
+  {
+    "target_anchor": "term_arity",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "arity",
+    "term_id": "arity"
+  },
+  {
+    "target_anchor": "term_array",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "array",
+    "term_id": "array"
+  },
+  {
+    "target_anchor": "term_array_element_constructor",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "array element constructor",
+    "term_id": "array_element_constructor"
+  },
+  {
+    "target_anchor": "term_array_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "array expression",
+    "term_id": "array_expression"
+  },
+  {
+    "target_anchor": "term_array_repetition_constructor",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "array repetition constructor",
+    "term_id": "array_repetition_constructor"
+  },
+  {
+    "target_anchor": "term_array_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "array type",
+    "term_id": "array_type"
+  },
+  {
+    "target_anchor": "term_assembly_code_block",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "assembly code block",
+    "term_id": "assembly_code_block"
+  },
+  {
+    "target_anchor": "term_assembly_directive",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "assembly directive",
+    "term_id": "assembly_directive"
+  },
+  {
+    "target_anchor": "term_assembly_instruction",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "assembly instruction",
+    "term_id": "assembly_instruction"
+  },
+  {
+    "target_anchor": "term_assembly_option",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "assembly option",
+    "term_id": "assembly_option"
+  },
+  {
+    "target_anchor": "term_assigned_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "assigned operand",
+    "term_id": "assigned_operand"
+  },
+  {
+    "target_anchor": "term_assignee_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "assignee expression",
+    "term_id": "assignee_expression"
+  },
+  {
+    "target_anchor": "term_assignee_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "assignee operand",
+    "term_id": "assignee_operand"
+  },
+  {
+    "target_anchor": "term_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "assignment",
+    "term_id": "assignment"
+  },
+  {
+    "target_anchor": "term_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "assignment expression",
+    "term_id": "assignment_expression"
+  },
+  {
+    "target_anchor": "term_associated_constant",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated constant",
+    "term_id": "associated_constant"
+  },
+  {
+    "target_anchor": "term_associated_function",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated function",
+    "term_id": "associated_function"
+  },
+  {
+    "target_anchor": "term_associated_implementation_constant",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated implementation constant",
+    "term_id": "associated_implementation_constant"
+  },
+  {
+    "target_anchor": "term_associated_implementation_function",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated implementation function",
+    "term_id": "associated_implementation_function"
+  },
+  {
+    "target_anchor": "term_associated_implementation_type",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated implementation type",
+    "term_id": "associated_implementation_type"
+  },
+  {
+    "target_anchor": "term_associated_item",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated item",
+    "term_id": "associated_item"
+  },
+  {
+    "target_anchor": "term_associated_trait_constant",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated trait constant",
+    "term_id": "associated_trait_constant"
+  },
+  {
+    "target_anchor": "term_associated_trait_function",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated trait function",
+    "term_id": "associated_trait_function"
+  },
+  {
+    "target_anchor": "term_associated_trait_implementation_function",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated trait implementation function",
+    "term_id": "associated_trait_implementation_function"
+  },
+  {
+    "target_anchor": "term_associated_trait_implementation_item",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated trait implementation item",
+    "term_id": "associated_trait_implementation_item"
+  },
+  {
+    "target_anchor": "term_associated_trait_item",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated trait item",
+    "term_id": "associated_trait_item"
+  },
+  {
+    "target_anchor": "term_associated_trait_type",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated trait type",
+    "term_id": "associated_trait_type"
+  },
+  {
+    "target_anchor": "term_associated_type",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "associated type",
+    "term_id": "associated_type"
+  },
+  {
+    "target_anchor": "term_associated_type_projection",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "associated type projection",
+    "term_id": "associated_type_projection"
+  },
+  {
+    "target_anchor": "term_associativity",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "associativity",
+    "term_id": "associativity"
+  },
+  {
+    "target_anchor": "term_async_block",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "async block",
+    "term_id": "async_block"
+  },
+  {
+    "target_anchor": "term_async_block_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "async block expression",
+    "term_id": "async_block_expression"
+  },
+  {
+    "target_anchor": "term_async_closure_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "async closure expression",
+    "term_id": "async_closure_expression"
+  },
+  {
+    "target_anchor": "term_async_closure_type",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "async closure type",
+    "term_id": "async_closure_type"
+  },
+  {
+    "target_anchor": "term_async_control_flow_boundary",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "async control flow boundary",
+    "term_id": "async_control_flow_boundary"
+  },
+  {
+    "target_anchor": "term_async_function",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "async function",
+    "term_id": "async_function"
+  },
+  {
+    "target_anchor": "term_atomic",
+    "target_doc": "concurrency",
+    "target_kind": "term",
+    "term": "atomic",
+    "term_id": "atomic"
+  },
+  {
+    "target_anchor": "term_atomic_type",
+    "target_doc": "concurrency",
+    "target_kind": "term",
+    "term": "atomic type",
+    "term_id": "atomic_type"
+  },
+  {
+    "target_anchor": "term_attribute",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "attribute",
+    "term_id": "attribute"
+  },
+  {
+    "target_anchor": "term_attribute_content",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "attribute content",
+    "term_id": "attribute_content"
+  },
+  {
+    "target_anchor": "term_attribute_macro",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "attribute macro",
+    "term_id": "attribute_macro"
+  },
+  {
+    "target_anchor": "term_auto_trait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "auto trait",
+    "term_id": "auto_trait"
+  },
+  {
+    "target_anchor": "term_await_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "await expression",
+    "term_id": "await_expression"
+  },
+  {
+    "target_anchor": "term_base_initializer",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "base initializer",
+    "term_id": "base_initializer"
+  },
+  {
+    "target_anchor": "term_basic_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "basic assignment",
+    "term_id": "basic_assignment"
+  },
+  {
+    "target_anchor": "term_binary_crate",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "binary crate",
+    "term_id": "binary_crate"
+  },
+  {
+    "target_anchor": "term_binary_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "binary literal",
+    "term_id": "binary_literal"
+  },
+  {
+    "target_anchor": "term_binary_operator",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "binary operator",
+    "term_id": "binary_operator"
+  },
+  {
+    "target_anchor": "term_binding",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "binding",
+    "term_id": "binding"
+  },
+  {
+    "target_anchor": "term_binding_argument",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "binding argument",
+    "term_id": "binding_argument"
+  },
+  {
+    "target_anchor": "term_binding_bound_argument",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "binding bound argument",
+    "term_id": "binding_bound_argument"
+  },
+  {
+    "target_anchor": "term_binding_mode",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "binding mode",
+    "term_id": "binding_mode"
+  },
+  {
+    "target_anchor": "term_binding_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "binding pattern",
+    "term_id": "binding_pattern"
+  },
+  {
+    "target_anchor": "term_binding_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "binding scope",
+    "term_id": "binding_scope"
+  },
+  {
+    "target_anchor": "term_bit_and_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit and assignment",
+    "term_id": "bit_and_assignment"
+  },
+  {
+    "target_anchor": "term_bit_and_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit and assignment expression",
+    "term_id": "bit_and_assignment_expression"
+  },
+  {
+    "target_anchor": "term_bit_and_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit and expression",
+    "term_id": "bit_and_expression"
+  },
+  {
+    "target_anchor": "term_bit_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit expression",
+    "term_id": "bit_expression"
+  },
+  {
+    "target_anchor": "term_bit_or_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit or assignment",
+    "term_id": "bit_or_assignment"
+  },
+  {
+    "target_anchor": "term_bit_or_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit or assignment expression",
+    "term_id": "bit_or_assignment_expression"
+  },
+  {
+    "target_anchor": "term_bit_or_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit or expression",
+    "term_id": "bit_or_expression"
+  },
+  {
+    "target_anchor": "term_bit_xor_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit xor assignment",
+    "term_id": "bit_xor_assignment"
+  },
+  {
+    "target_anchor": "term_bit_xor_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit xor assignment expression",
+    "term_id": "bit_xor_assignment_expression"
+  },
+  {
+    "target_anchor": "term_bit_xor_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "bit xor expression",
+    "term_id": "bit_xor_expression"
+  },
+  {
+    "target_anchor": "term_block_comment",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "block comment",
+    "term_id": "block_comment"
+  },
+  {
+    "target_anchor": "term_block_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "block expression",
+    "term_id": "block_expression"
+  },
+  {
+    "target_anchor": "term_bool",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "bool",
+    "term_id": "bool"
+  },
+  {
+    "target_anchor": "term_boolean_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "boolean literal",
+    "term_id": "boolean_literal"
+  },
+  {
+    "target_anchor": "term_borrow",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "borrow",
+    "term_id": "borrow"
+  },
+  {
+    "target_anchor": "term_borrow_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "borrow expression",
+    "term_id": "borrow_expression"
+  },
+  {
+    "target_anchor": "term_borrowed",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "borrowed",
+    "term_id": "borrowed"
+  },
+  {
+    "target_anchor": "term_borrowing",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "borrowing",
+    "term_id": "borrowing"
+  },
+  {
+    "target_anchor": "term_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "bound",
+    "term_id": "bound"
+  },
+  {
+    "target_anchor": "term_bound_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "bound pattern",
+    "term_id": "bound_pattern"
+  },
+  {
+    "target_anchor": "term_break_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "break expression",
+    "term_id": "break_expression"
+  },
+  {
+    "target_anchor": "term_break_type",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "break type",
+    "term_id": "break_type"
+  },
+  {
+    "target_anchor": "term_break_value",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "break value",
+    "term_id": "break_value"
+  },
+  {
+    "target_anchor": "term_built_in_attribute",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "built-in attribute",
+    "term_id": "built_in_attribute"
+  },
+  {
+    "target_anchor": "term_built_in_trait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "built-in trait",
+    "term_id": "built_in_trait"
+  },
+  {
+    "target_anchor": "term_byte_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "byte literal",
+    "term_id": "byte_literal"
+  },
+  {
+    "target_anchor": "term_byte_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "byte string literal",
+    "term_id": "byte_string_literal"
+  },
+  {
+    "target_anchor": "term_c",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "C",
+    "term_id": "c"
+  },
+  {
+    "target_anchor": "term_c_representation",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "C representation",
+    "term_id": "c_representation"
+  },
+  {
+    "target_anchor": "term_c_signed_int_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "C signed int type",
+    "term_id": "c_signed_int_type"
+  },
+  {
+    "target_anchor": "term_c_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "c string literal",
+    "term_id": "c_string_literal"
+  },
+  {
+    "target_anchor": "term_call_conformance",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "Call conformance",
+    "term_id": "call_conformance"
+  },
+  {
+    "target_anchor": "term_call_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "call expression",
+    "term_id": "call_expression"
+  },
+  {
+    "target_anchor": "term_call_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "call operand",
+    "term_id": "call_operand"
+  },
+  {
+    "target_anchor": "term_call_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "call resolution",
+    "term_id": "call_resolution"
+  },
+  {
+    "target_anchor": "term_call_site_hygiene",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "call site hygiene",
+    "term_id": "call_site_hygiene"
+  },
+  {
+    "target_anchor": "term_callee_type",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "callee type",
+    "term_id": "callee_type"
+  },
+  {
+    "target_anchor": "term_capture_mode",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "capture mode",
+    "term_id": "capture_mode"
+  },
+  {
+    "target_anchor": "term_capture_target",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "capture target",
+    "term_id": "capture_target"
+  },
+  {
+    "target_anchor": "term_capturing",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "capturing",
+    "term_id": "capturing"
+  },
+  {
+    "target_anchor": "term_capturing_environment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "capturing environment",
+    "term_id": "capturing_environment"
+  },
+  {
+    "target_anchor": "term_capturing_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "capturing expression",
+    "term_id": "capturing_expression"
+  },
+  {
+    "target_anchor": "term_cast",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "cast",
+    "term_id": "cast"
+  },
+  {
+    "target_anchor": "term_char",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "char",
+    "term_id": "char"
+  },
+  {
+    "target_anchor": "term_character_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "character literal",
+    "term_id": "character_literal"
+  },
+  {
+    "target_anchor": "term_closure_body",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "closure body",
+    "term_id": "closure_body"
+  },
+  {
+    "target_anchor": "term_closure_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "closure expression",
+    "term_id": "closure_expression"
+  },
+  {
+    "target_anchor": "term_closure_parameter",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "closure parameter",
+    "term_id": "closure_parameter"
+  },
+  {
+    "target_anchor": "term_closure_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "closure type",
+    "term_id": "closure_type"
+  },
+  {
+    "target_anchor": "term_code_point",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "code point",
+    "term_id": "code_point"
+  },
+  {
+    "target_anchor": "term_comment",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "comment",
+    "term_id": "comment"
+  },
+  {
+    "target_anchor": "term_comparison_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "comparison expression",
+    "term_id": "comparison_expression"
+  },
+  {
+    "target_anchor": "term_compilation_root",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "compilation root",
+    "term_id": "compilation_root"
+  },
+  {
+    "target_anchor": "term_compound_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "compound assignment",
+    "term_id": "compound_assignment"
+  },
+  {
+    "target_anchor": "term_compound_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "compound assignment expression",
+    "term_id": "compound_assignment_expression"
+  },
+  {
+    "target_anchor": "term_concrete_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "concrete type",
+    "term_id": "concrete_type"
+  },
+  {
+    "target_anchor": "term_conditional_compilation",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "conditional compilation",
+    "term_id": "conditional_compilation"
+  },
+  {
+    "target_anchor": "term_conditionally_compiled_source_code",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "conditionally-compiled source code",
+    "term_id": "conditionally_compiled_source_code"
+  },
+  {
+    "target_anchor": "term_configuration_predicate",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "configuration predicate",
+    "term_id": "configuration_predicate"
+  },
+  {
+    "target_anchor": "term_const_block_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "const block expression",
+    "term_id": "const_block_expression"
+  },
+  {
+    "target_anchor": "term_constant",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "constant",
+    "term_id": "constant"
+  },
+  {
+    "target_anchor": "term_constant_argument",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "constant argument",
+    "term_id": "constant_argument"
+  },
+  {
+    "target_anchor": "term_constant_context",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "constant context",
+    "term_id": "constant_context"
+  },
+  {
+    "target_anchor": "term_constant_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "constant expression",
+    "term_id": "constant_expression"
+  },
+  {
+    "target_anchor": "term_constant_function",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "constant function",
+    "term_id": "constant_function"
+  },
+  {
+    "target_anchor": "term_constant_initializer",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "constant initializer",
+    "term_id": "constant_initializer"
+  },
+  {
+    "target_anchor": "term_constant_parameter",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "constant parameter",
+    "term_id": "constant_parameter"
+  },
+  {
+    "target_anchor": "term_constant_parameter_initializer",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "constant parameter initializer",
+    "term_id": "constant_parameter_initializer"
+  },
+  {
+    "target_anchor": "term_constant_promotion",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "constant promotion",
+    "term_id": "constant_promotion"
+  },
+  {
+    "target_anchor": "term_constrain",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "constrain",
+    "term_id": "constrain"
+  },
+  {
+    "target_anchor": "term_construct",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "construct",
+    "term_id": "construct"
+  },
+  {
+    "target_anchor": "term_constructee",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "constructee",
+    "term_id": "constructee"
+  },
+  {
+    "target_anchor": "term_container_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "container operand",
+    "term_id": "container_operand"
+  },
+  {
+    "target_anchor": "term_continue_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "continue expression",
+    "term_id": "continue_expression"
+  },
+  {
+    "target_anchor": "term_control_flow_boundary",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "control flow boundary",
+    "term_id": "control_flow_boundary"
+  },
+  {
+    "target_anchor": "term_copy_type",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "copy type",
+    "term_id": "copy_type"
+  },
+  {
+    "target_anchor": "term_crate",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "crate",
+    "term_id": "crate"
+  },
+  {
+    "target_anchor": "term_crate_import",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "crate import",
+    "term_id": "crate_import"
+  },
+  {
+    "target_anchor": "term_crate_indication",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "crate indication",
+    "term_id": "crate_indication"
+  },
+  {
+    "target_anchor": "term_crate_public_modifier",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "crate public modifier",
+    "term_id": "crate_public_modifier"
+  },
+  {
+    "target_anchor": "term_crate_root",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "crate root",
+    "term_id": "crate_root"
+  },
+  {
+    "target_anchor": "term_crate_root_module",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "crate root module",
+    "term_id": "crate_root_module"
+  },
+  {
+    "target_anchor": "term_crate_type",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "crate type",
+    "term_id": "crate_type"
+  },
+  {
+    "target_anchor": "term_dangling",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "dangling",
+    "term_id": "dangling"
+  },
+  {
+    "target_anchor": "term_data_race",
+    "target_doc": "concurrency",
+    "target_kind": "term",
+    "term": "data race",
+    "term_id": "data_race"
+  },
+  {
+    "target_anchor": "term_decimal_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "decimal literal",
+    "term_id": "decimal_literal"
+  },
+  {
+    "target_anchor": "term_declaration",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "declaration",
+    "term_id": "declaration"
+  },
+  {
+    "target_anchor": "term_declarative_macro",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "declarative macro",
+    "term_id": "declarative_macro"
+  },
+  {
+    "target_anchor": "term_deconstructee",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "deconstructee",
+    "term_id": "deconstructee"
+  },
+  {
+    "target_anchor": "term_default_representation",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "default representation",
+    "term_id": "default_representation"
+  },
+  {
+    "target_anchor": "term_definition_site_hygiene",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "definition site hygiene",
+    "term_id": "definition_site_hygiene"
+  },
+  {
+    "target_anchor": "term_dereference",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "dereference",
+    "term_id": "dereference"
+  },
+  {
+    "target_anchor": "term_dereference_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "dereference expression",
+    "term_id": "dereference_expression"
+  },
+  {
+    "target_anchor": "term_dereference_type",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "dereference type",
+    "term_id": "dereference_type"
+  },
+  {
+    "target_anchor": "term_dereference_type_chain",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "dereference type chain",
+    "term_id": "dereference_type_chain"
+  },
+  {
+    "target_anchor": "term_derive_macro",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "derive macro",
+    "term_id": "derive_macro"
+  },
+  {
+    "target_anchor": "term_destruction",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "destruction",
+    "term_id": "destruction"
+  },
+  {
+    "target_anchor": "term_destructor",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "destructor",
+    "term_id": "destructor"
+  },
+  {
+    "target_anchor": "term_destructuring_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "destructuring assignment",
+    "term_id": "destructuring_assignment"
+  },
+  {
+    "target_anchor": "term_direction_modifier",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "direction modifier",
+    "term_id": "direction_modifier"
+  },
+  {
+    "target_anchor": "term_discriminant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "discriminant",
+    "term_id": "discriminant"
+  },
+  {
+    "target_anchor": "term_discriminant_initializer",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "discriminant initializer",
+    "term_id": "discriminant_initializer"
+  },
+  {
+    "target_anchor": "term_discriminant_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "discriminant type",
+    "term_id": "discriminant_type"
+  },
+  {
+    "target_anchor": "term_diverging_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "diverging expression",
+    "term_id": "diverging_expression"
+  },
+  {
+    "target_anchor": "term_diverging_type_variable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "diverging type variable",
+    "term_id": "diverging_type_variable"
+  },
+  {
+    "target_anchor": "term_division_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "division assignment",
+    "term_id": "division_assignment"
+  },
+  {
+    "target_anchor": "term_division_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "division assignment expression",
+    "term_id": "division_assignment_expression"
+  },
+  {
+    "target_anchor": "term_division_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "division expression",
+    "term_id": "division_expression"
+  },
+  {
+    "target_anchor": "term_doc_comment",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "doc comment",
+    "term_id": "doc_comment"
+  },
+  {
+    "target_anchor": "term_drop_construct",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "drop construct",
+    "term_id": "drop_construct"
+  },
+  {
+    "target_anchor": "term_drop_order",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "drop order",
+    "term_id": "drop_order"
+  },
+  {
+    "target_anchor": "term_drop_scope",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "drop scope",
+    "term_id": "drop_scope"
+  },
+  {
+    "target_anchor": "term_drop_scope_extension",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "drop scope extension",
+    "term_id": "drop_scope_extension"
+  },
+  {
+    "target_anchor": "term_drop_type",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "drop type",
+    "term_id": "drop_type"
+  },
+  {
+    "target_anchor": "term_dropping",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "dropping",
+    "term_id": "dropping"
+  },
+  {
+    "target_anchor": "term_dynamically_sized_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "dynamically sized type",
+    "term_id": "dynamically_sized_type"
+  },
+  {
+    "target_anchor": "term_elaboration",
+    "target_doc": "items",
+    "target_kind": "term",
+    "term": "elaboration",
+    "term_id": "elaboration"
+  },
+  {
+    "target_anchor": "term_element_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "element type",
+    "term_id": "element_type"
+  },
+  {
+    "target_anchor": "term_elided",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "elided",
+    "term_id": "elided"
+  },
+  {
+    "target_anchor": "term_elided_lifetime",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "elided lifetime",
+    "term_id": "elided_lifetime"
+  },
+  {
+    "target_anchor": "term_else_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "else expression",
+    "term_id": "else_expression"
+  },
+  {
+    "target_anchor": "term_empty_statement",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "empty statement",
+    "term_id": "empty_statement"
+  },
+  {
+    "target_anchor": "term_entity",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "entity",
+    "term_id": "entity"
+  },
+  {
+    "target_anchor": "term_enum",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "enum",
+    "term_id": "enum"
+  },
+  {
+    "target_anchor": "term_enum_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "enum field",
+    "term_id": "enum_field"
+  },
+  {
+    "target_anchor": "term_enum_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "enum type",
+    "term_id": "enum_type"
+  },
+  {
+    "target_anchor": "term_enum_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "enum value",
+    "term_id": "enum_value"
+  },
+  {
+    "target_anchor": "term_enum_variant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "enum variant",
+    "term_id": "enum_variant"
+  },
+  {
+    "target_anchor": "term_enum_variant_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "enum variant value",
+    "term_id": "enum_variant_value"
+  },
+  {
+    "target_anchor": "term_equals_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "equals expression",
+    "term_id": "equals_expression"
+  },
+  {
+    "target_anchor": "term_error_propagation_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "error propagation expression",
+    "term_id": "error_propagation_expression"
+  },
+  {
+    "target_anchor": "term_escaped_character",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "escaped character",
+    "term_id": "escaped_character"
+  },
+  {
+    "target_anchor": "term_evaluated",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "evaluated",
+    "term_id": "evaluated"
+  },
+  {
+    "target_anchor": "term_evaluation",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "evaluation",
+    "term_id": "evaluation"
+  },
+  {
+    "target_anchor": "term_exclusive_range_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "exclusive range pattern",
+    "term_id": "exclusive_range_pattern"
+  },
+  {
+    "target_anchor": "term_executed",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "executed",
+    "term_id": "executed"
+  },
+  {
+    "target_anchor": "term_execution",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "execution",
+    "term_id": "execution"
+  },
+  {
+    "target_anchor": "term_explicit_register_argument",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "explicit register argument",
+    "term_id": "explicit_register_argument"
+  },
+  {
+    "target_anchor": "term_explicit_register_name",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "explicit register name",
+    "term_id": "explicit_register_name"
+  },
+  {
+    "target_anchor": "term_explicitly_declared_entity",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "explicitly declared entity",
+    "term_id": "explicitly_declared_entity"
+  },
+  {
+    "target_anchor": "term_exported_function",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "exported function",
+    "term_id": "exported_function"
+  },
+  {
+    "target_anchor": "term_exported_static",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "exported static",
+    "term_id": "exported_static"
+  },
+  {
+    "target_anchor": "term_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "expression",
+    "term_id": "expression"
+  },
+  {
+    "target_anchor": "term_expression_statement",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "expression statement",
+    "term_id": "expression_statement"
+  },
+  {
+    "target_anchor": "term_expression_with_block",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "expression-with-block",
+    "term_id": "expression_with_block"
+  },
+  {
+    "target_anchor": "term_expression_without_block",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "expression-without-block",
+    "term_id": "expression_without_block"
+  },
+  {
+    "target_anchor": "term_external_block",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "external block",
+    "term_id": "external_block"
+  },
+  {
+    "target_anchor": "term_external_function",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "external function",
+    "term_id": "external_function"
+  },
+  {
+    "target_anchor": "term_external_function_item_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "external function item type",
+    "term_id": "external_function_item_type"
+  },
+  {
+    "target_anchor": "term_external_static",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "external static",
+    "term_id": "external_static"
+  },
+  {
+    "target_anchor": "codeterm_f32",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "f32",
+    "term_id": "f32"
+  },
+  {
+    "target_anchor": "codeterm_f64",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "f64",
+    "term_id": "f64"
+  },
+  {
+    "target_anchor": "term_fat_pointer",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "fat pointer",
+    "term_id": "fat_pointer"
+  },
+  {
+    "target_anchor": "term_fat_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "fat pointer type",
+    "term_id": "fat_pointer_type"
+  },
+  {
+    "target_anchor": "term_ffi",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "FFI",
+    "term_id": "ffi"
+  },
+  {
+    "target_anchor": "term_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "field",
+    "term_id": "field"
+  },
+  {
+    "target_anchor": "term_field_access_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "field access expression",
+    "term_id": "field_access_expression"
+  },
+  {
+    "target_anchor": "term_field_index",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "field index",
+    "term_id": "field_index"
+  },
+  {
+    "target_anchor": "term_field_list",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "field list",
+    "term_id": "field_list"
+  },
+  {
+    "target_anchor": "term_field_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "field resolution",
+    "term_id": "field_resolution"
+  },
+  {
+    "target_anchor": "term_field_selector",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "field selector",
+    "term_id": "field_selector"
+  },
+  {
+    "target_anchor": "term_final_match_arm",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "final match arm",
+    "term_id": "final_match_arm"
+  },
+  {
+    "target_anchor": "term_fixed_sized_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "fixed sized type",
+    "term_id": "fixed_sized_type"
+  },
+  {
+    "target_anchor": "term_float_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "float literal",
+    "term_id": "float_literal"
+  },
+  {
+    "target_anchor": "term_float_suffix",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "float suffix",
+    "term_id": "float_suffix"
+  },
+  {
+    "target_anchor": "term_floating_point_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "floating-point type",
+    "term_id": "floating_point_type"
+  },
+  {
+    "target_anchor": "term_floating_point_type_variable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "floating-point type variable",
+    "term_id": "floating_point_type_variable"
+  },
+  {
+    "target_anchor": "term_floating_point_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "floating-point value",
+    "term_id": "floating_point_value"
+  },
+  {
+    "target_anchor": "term_for_loop",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "for loop",
+    "term_id": "for_loop"
+  },
+  {
+    "target_anchor": "term_for_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "for loop expression",
+    "term_id": "for_loop_expression"
+  },
+  {
+    "target_anchor": "term_foreign_function_interface",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "Foreign Function Interface",
+    "term_id": "foreign_function_interface"
+  },
+  {
+    "target_anchor": "term_fragment_specifier",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "fragment specifier",
+    "term_id": "fragment_specifier"
+  },
+  {
+    "target_anchor": "term_full_range_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "full range expression",
+    "term_id": "full_range_expression"
+  },
+  {
+    "target_anchor": "term_function",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "function",
+    "term_id": "function"
+  },
+  {
+    "target_anchor": "term_function_body",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "function body",
+    "term_id": "function_body"
+  },
+  {
+    "target_anchor": "term_function_item_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "function item type",
+    "term_id": "function_item_type"
+  },
+  {
+    "target_anchor": "term_function_lifetime_elision",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "function lifetime elision",
+    "term_id": "function_lifetime_elision"
+  },
+  {
+    "target_anchor": "term_function_parameter",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "function parameter",
+    "term_id": "function_parameter"
+  },
+  {
+    "target_anchor": "term_function_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "function pointer type",
+    "term_id": "function_pointer_type"
+  },
+  {
+    "target_anchor": "term_function_pointer_type_parameter",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "function pointer type parameter",
+    "term_id": "function_pointer_type_parameter"
+  },
+  {
+    "target_anchor": "term_function_qualifier",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "function qualifier",
+    "term_id": "function_qualifier"
+  },
+  {
+    "target_anchor": "term_function_signature",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "function signature",
+    "term_id": "function_signature"
+  },
+  {
+    "target_anchor": "term_function_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "function type",
+    "term_id": "function_type"
+  },
+  {
+    "target_anchor": "term_function_like_macro",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "function-like macro",
+    "term_id": "function_like_macro"
+  },
+  {
+    "target_anchor": "term_fundamental",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "fundamental",
+    "term_id": "fundamental"
+  },
+  {
+    "target_anchor": "term_future",
+    "target_doc": "concurrency",
+    "target_kind": "term",
+    "term": "future",
+    "term_id": "future"
+  },
+  {
+    "target_anchor": "term_future_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "future operand",
+    "term_id": "future_operand"
+  },
+  {
+    "target_anchor": "term_generic_argument",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic argument",
+    "term_id": "generic_argument"
+  },
+  {
+    "target_anchor": "term_generic_associated_type",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "generic associated type",
+    "term_id": "generic_associated_type"
+  },
+  {
+    "target_anchor": "term_generic_conformance",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic conformance",
+    "term_id": "generic_conformance"
+  },
+  {
+    "target_anchor": "term_generic_enum",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic enum",
+    "term_id": "generic_enum"
+  },
+  {
+    "target_anchor": "term_generic_function",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic function",
+    "term_id": "generic_function"
+  },
+  {
+    "target_anchor": "term_generic_implementation",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic implementation",
+    "term_id": "generic_implementation"
+  },
+  {
+    "target_anchor": "term_generic_parameter",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic parameter",
+    "term_id": "generic_parameter"
+  },
+  {
+    "target_anchor": "term_generic_parameter_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "generic parameter scope",
+    "term_id": "generic_parameter_scope"
+  },
+  {
+    "target_anchor": "term_generic_struct",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic struct",
+    "term_id": "generic_struct"
+  },
+  {
+    "target_anchor": "term_generic_substitution",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic substitution",
+    "term_id": "generic_substitution"
+  },
+  {
+    "target_anchor": "term_generic_trait",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic trait",
+    "term_id": "generic_trait"
+  },
+  {
+    "target_anchor": "term_generic_type",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic type",
+    "term_id": "generic_type"
+  },
+  {
+    "target_anchor": "term_generic_type_alias",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic type alias",
+    "term_id": "generic_type_alias"
+  },
+  {
+    "target_anchor": "term_generic_union",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "generic union",
+    "term_id": "generic_union"
+  },
+  {
+    "target_anchor": "term_glob_import",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "glob import",
+    "term_id": "glob_import"
+  },
+  {
+    "target_anchor": "term_global_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "global path",
+    "term_id": "global_path"
+  },
+  {
+    "target_anchor": "term_global_type_variable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "global type variable",
+    "term_id": "global_type_variable"
+  },
+  {
+    "target_anchor": "term_greater_than_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "greater-than expression",
+    "term_id": "greater_than_expression"
+  },
+  {
+    "target_anchor": "term_greater_than_or_equals_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "greater-than-or-equals expression",
+    "term_id": "greater_than_or_equals_expression"
+  },
+  {
+    "target_anchor": "term_half_open_range_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "half-open range pattern",
+    "term_id": "half_open_range_pattern"
+  },
+  {
+    "target_anchor": "term_hexadecimal_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "hexadecimal literal",
+    "term_id": "hexadecimal_literal"
+  },
+  {
+    "target_anchor": "term_higher_ranked_trait_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "higher-ranked trait bound",
+    "term_id": "higher_ranked_trait_bound"
+  },
+  {
+    "target_anchor": "term_hygiene",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "hygiene",
+    "term_id": "hygiene"
+  },
+  {
+    "target_anchor": "term_hygienic",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "hygienic",
+    "term_id": "hygienic"
+  },
+  {
+    "target_anchor": "codeterm_i8",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "i8",
+    "term_id": "i8"
+  },
+  {
+    "target_anchor": "codeterm_i16",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "i16",
+    "term_id": "i16"
+  },
+  {
+    "target_anchor": "codeterm_i32",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "i32",
+    "term_id": "i32"
+  },
+  {
+    "target_anchor": "codeterm_i64",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "i64",
+    "term_id": "i64"
+  },
+  {
+    "target_anchor": "codeterm_i128",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "i128",
+    "term_id": "i128"
+  },
+  {
+    "target_anchor": "term_identifier",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "identifier",
+    "term_id": "identifier"
+  },
+  {
+    "target_anchor": "term_identifier_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "identifier pattern",
+    "term_id": "identifier_pattern"
+  },
+  {
+    "target_anchor": "term_if_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "if expression",
+    "term_id": "if_expression"
+  },
+  {
+    "target_anchor": "term_if_let_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "if let expression",
+    "term_id": "if_let_expression"
+  },
+  {
+    "target_anchor": "term_immutable",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "immutable",
+    "term_id": "immutable"
+  },
+  {
+    "target_anchor": "term_immutable_borrow",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "immutable borrow",
+    "term_id": "immutable_borrow"
+  },
+  {
+    "target_anchor": "term_immutable_borrow_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "immutable borrow expression",
+    "term_id": "immutable_borrow_expression"
+  },
+  {
+    "target_anchor": "term_immutable_place_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "immutable place expression",
+    "term_id": "immutable_place_expression"
+  },
+  {
+    "target_anchor": "term_immutable_place_expression_context",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "immutable place expression context",
+    "term_id": "immutable_place_expression_context"
+  },
+  {
+    "target_anchor": "term_immutable_raw_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "immutable raw pointer type",
+    "term_id": "immutable_raw_pointer_type"
+  },
+  {
+    "target_anchor": "term_immutable_reference",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "immutable reference",
+    "term_id": "immutable_reference"
+  },
+  {
+    "target_anchor": "term_immutable_static",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "immutable static",
+    "term_id": "immutable_static"
+  },
+  {
+    "target_anchor": "term_immutable_variable",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "immutable variable",
+    "term_id": "immutable_variable"
+  },
+  {
+    "target_anchor": "term_impl_header_lifetime_elision",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "impl header lifetime elision",
+    "term_id": "impl_header_lifetime_elision"
+  },
+  {
+    "target_anchor": "term_impl_trait_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "impl trait type",
+    "term_id": "impl_trait_type"
+  },
+  {
+    "target_anchor": "term_implementation",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "implementation",
+    "term_id": "implementation"
+  },
+  {
+    "target_anchor": "term_implementation_body",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "implementation body",
+    "term_id": "implementation_body"
+  },
+  {
+    "target_anchor": "term_implementation_coherence",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "implementation coherence",
+    "term_id": "implementation_coherence"
+  },
+  {
+    "target_anchor": "term_implementation_conformance",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "implementation conformance",
+    "term_id": "implementation_conformance"
+  },
+  {
+    "target_anchor": "term_implemented_trait",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "implemented trait",
+    "term_id": "implemented_trait"
+  },
+  {
+    "target_anchor": "term_implementing_type",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "implementing type",
+    "term_id": "implementing_type"
+  },
+  {
+    "target_anchor": "term_implicit_borrow",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "implicit borrow",
+    "term_id": "implicit_borrow"
+  },
+  {
+    "target_anchor": "term_implicitly_declared_entity",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "implicitly declared entity",
+    "term_id": "implicitly_declared_entity"
+  },
+  {
+    "target_anchor": "term_implied_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "implied bound",
+    "term_id": "implied_bound"
+  },
+  {
+    "target_anchor": "term_in_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "in scope",
+    "term_id": "in_scope"
+  },
+  {
+    "target_anchor": "term_inclusive_range_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "inclusive range pattern",
+    "term_id": "inclusive_range_pattern"
+  },
+  {
+    "target_anchor": "term_incomplete_associated_constant",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "incomplete associated constant",
+    "term_id": "incomplete_associated_constant"
+  },
+  {
+    "target_anchor": "term_incomplete_associated_function",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "incomplete associated function",
+    "term_id": "incomplete_associated_function"
+  },
+  {
+    "target_anchor": "term_incomplete_associated_type",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "incomplete associated type",
+    "term_id": "incomplete_associated_type"
+  },
+  {
+    "target_anchor": "term_index_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "index expression",
+    "term_id": "index_expression"
+  },
+  {
+    "target_anchor": "term_indexable_type",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "indexable type",
+    "term_id": "indexable_type"
+  },
+  {
+    "target_anchor": "term_indexed_deconstructor",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "indexed deconstructor",
+    "term_id": "indexed_deconstructor"
+  },
+  {
+    "target_anchor": "term_indexed_field_selector",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "indexed field selector",
+    "term_id": "indexed_field_selector"
+  },
+  {
+    "target_anchor": "term_indexed_initializer",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "indexed initializer",
+    "term_id": "indexed_initializer"
+  },
+  {
+    "target_anchor": "term_indexed_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "indexed operand",
+    "term_id": "indexed_operand"
+  },
+  {
+    "target_anchor": "term_indexing_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "indexing operand",
+    "term_id": "indexing_operand"
+  },
+  {
+    "target_anchor": "term_indirection_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "indirection type",
+    "term_id": "indirection_type"
+  },
+  {
+    "target_anchor": "term_inert_attribute",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "inert attribute",
+    "term_id": "inert_attribute"
+  },
+  {
+    "target_anchor": "term_inferred_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "inferred type",
+    "term_id": "inferred_type"
+  },
+  {
+    "target_anchor": "term_infinite_loop",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "infinite loop",
+    "term_id": "infinite_loop"
+  },
+  {
+    "target_anchor": "term_infinite_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "infinite loop expression",
+    "term_id": "infinite_loop_expression"
+  },
+  {
+    "target_anchor": "term_inherent_implementation",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "inherent implementation",
+    "term_id": "inherent_implementation"
+  },
+  {
+    "target_anchor": "term_initialization",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "initialization",
+    "term_id": "initialization"
+  },
+  {
+    "target_anchor": "term_initialization_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "initialization expression",
+    "term_id": "initialization_expression"
+  },
+  {
+    "target_anchor": "term_initialization_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "initialization type",
+    "term_id": "initialization_type"
+  },
+  {
+    "target_anchor": "term_inline_assembly",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "inline assembly",
+    "term_id": "inline_assembly"
+  },
+  {
+    "target_anchor": "term_inline_module",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "inline module",
+    "term_id": "inline_module"
+  },
+  {
+    "target_anchor": "term_inner_attribute",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "inner attribute",
+    "term_id": "inner_attribute"
+  },
+  {
+    "target_anchor": "term_inner_block_doc",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "inner block doc",
+    "term_id": "inner_block_doc"
+  },
+  {
+    "target_anchor": "term_inner_doc_comment",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "inner doc comment",
+    "term_id": "inner_doc_comment"
+  },
+  {
+    "target_anchor": "term_inner_line_doc",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "inner line doc",
+    "term_id": "inner_line_doc"
+  },
+  {
+    "target_anchor": "term_input_register",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "input register",
+    "term_id": "input_register"
+  },
+  {
+    "target_anchor": "term_input_register_expression",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "input register expression",
+    "term_id": "input_register_expression"
+  },
+  {
+    "target_anchor": "term_input_output_register_expression",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "input-output register expression",
+    "term_id": "input_output_register_expression"
+  },
+  {
+    "target_anchor": "term_integer_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "integer literal",
+    "term_id": "integer_literal"
+  },
+  {
+    "target_anchor": "term_integer_suffix",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "integer suffix",
+    "term_id": "integer_suffix"
+  },
+  {
+    "target_anchor": "term_integer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "integer type",
+    "term_id": "integer_type"
+  },
+  {
+    "target_anchor": "term_integer_type_variable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "integer type variable",
+    "term_id": "integer_type_variable"
+  },
+  {
+    "target_anchor": "term_interior_mutability",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "interior mutability",
+    "term_id": "interior_mutability"
+  },
+  {
+    "target_anchor": "term_intermediate_match_arm",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "intermediate match arm",
+    "term_id": "intermediate_match_arm"
+  },
+  {
+    "target_anchor": "term_irrefutable_constant",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "irrefutable constant",
+    "term_id": "irrefutable_constant"
+  },
+  {
+    "target_anchor": "term_irrefutable_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "irrefutable pattern",
+    "term_id": "irrefutable_pattern"
+  },
+  {
+    "target_anchor": "codeterm_isize",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "isize",
+    "term_id": "isize"
+  },
+  {
+    "target_anchor": "term_item",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "item",
+    "term_id": "item"
+  },
+  {
+    "target_anchor": "term_item_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "item scope",
+    "term_id": "item_scope"
+  },
+  {
+    "target_anchor": "term_item_statement",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "item statement",
+    "term_id": "item_statement"
+  },
+  {
+    "target_anchor": "term_iteration_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "iteration expression",
+    "term_id": "iteration_expression"
+  },
+  {
+    "target_anchor": "term_keyword",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "keyword",
+    "term_id": "keyword"
+  },
+  {
+    "target_anchor": "term_label",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "label",
+    "term_id": "label"
+  },
+  {
+    "target_anchor": "term_label_indication",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "label indication",
+    "term_id": "label_indication"
+  },
+  {
+    "target_anchor": "term_label_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "label scope",
+    "term_id": "label_scope"
+  },
+  {
+    "target_anchor": "term_layout",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "layout",
+    "term_id": "layout"
+  },
+  {
+    "target_anchor": "term_lazy_and_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "lazy and expression",
+    "term_id": "lazy_and_expression"
+  },
+  {
+    "target_anchor": "term_lazy_boolean_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "lazy boolean expression",
+    "term_id": "lazy_boolean_expression"
+  },
+  {
+    "target_anchor": "term_lazy_or_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "lazy or expression",
+    "term_id": "lazy_or_expression"
+  },
+  {
+    "target_anchor": "term_left_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "left operand",
+    "term_id": "left_operand"
+  },
+  {
+    "target_anchor": "term_less_than_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "less-than expression",
+    "term_id": "less_than_expression"
+  },
+  {
+    "target_anchor": "term_less_than_or_equals_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "less-than-or-equals expression",
+    "term_id": "less_than_or_equals_expression"
+  },
+  {
+    "target_anchor": "term_let_binding",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "let binding",
+    "term_id": "let_binding"
+  },
+  {
+    "target_anchor": "term_let_initializer",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "let initializer",
+    "term_id": "let_initializer"
+  },
+  {
+    "target_anchor": "term_let_statement",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "let statement",
+    "term_id": "let_statement"
+  },
+  {
+    "target_anchor": "term_lexical_element",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "lexical element",
+    "term_id": "lexical_element"
+  },
+  {
+    "target_anchor": "term_library_crate",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "library crate",
+    "term_id": "library_crate"
+  },
+  {
+    "target_anchor": "term_lifetime",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "lifetime",
+    "term_id": "lifetime"
+  },
+  {
+    "target_anchor": "term_lifetime_argument",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "lifetime argument",
+    "term_id": "lifetime_argument"
+  },
+  {
+    "target_anchor": "term_lifetime_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "lifetime bound",
+    "term_id": "lifetime_bound"
+  },
+  {
+    "target_anchor": "term_lifetime_bound_predicate",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "lifetime bound predicate",
+    "term_id": "lifetime_bound_predicate"
+  },
+  {
+    "target_anchor": "term_lifetime_elision",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "lifetime elision",
+    "term_id": "lifetime_elision"
+  },
+  {
+    "target_anchor": "term_lifetime_parameter",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "lifetime parameter",
+    "term_id": "lifetime_parameter"
+  },
+  {
+    "target_anchor": "term_lifetime_variable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "lifetime variable",
+    "term_id": "lifetime_variable"
+  },
+  {
+    "target_anchor": "term_line",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "line",
+    "term_id": "line"
+  },
+  {
+    "target_anchor": "term_line_comment",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "line comment",
+    "term_id": "line_comment"
+  },
+  {
+    "target_anchor": "term_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "literal",
+    "term_id": "literal"
+  },
+  {
+    "target_anchor": "term_literal_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "literal expression",
+    "term_id": "literal_expression"
+  },
+  {
+    "target_anchor": "term_literal_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "literal pattern",
+    "term_id": "literal_pattern"
+  },
+  {
+    "target_anchor": "term_local_trait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "local trait",
+    "term_id": "local_trait"
+  },
+  {
+    "target_anchor": "term_local_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "local type",
+    "term_id": "local_type"
+  },
+  {
+    "target_anchor": "term_local_variable",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "local variable",
+    "term_id": "local_variable"
+  },
+  {
+    "target_anchor": "term_loop",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "loop",
+    "term_id": "loop"
+  },
+  {
+    "target_anchor": "term_loop_body",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "loop body",
+    "term_id": "loop_body"
+  },
+  {
+    "target_anchor": "term_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "loop expression",
+    "term_id": "loop_expression"
+  },
+  {
+    "target_anchor": "term_macro",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro",
+    "term_id": "macro"
+  },
+  {
+    "target_anchor": "term_macro_expansion",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro expansion",
+    "term_id": "macro_expansion"
+  },
+  {
+    "target_anchor": "term_macro_implementation_function",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro implementation function",
+    "term_id": "macro_implementation_function"
+  },
+  {
+    "target_anchor": "term_macro_invocation",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro invocation",
+    "term_id": "macro_invocation"
+  },
+  {
+    "target_anchor": "term_macro_match",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro match",
+    "term_id": "macro_match"
+  },
+  {
+    "target_anchor": "term_macro_matcher",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro matcher",
+    "term_id": "macro_matcher"
+  },
+  {
+    "target_anchor": "term_macro_matching",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro matching",
+    "term_id": "macro_matching"
+  },
+  {
+    "target_anchor": "term_macro_repetition",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro repetition",
+    "term_id": "macro_repetition"
+  },
+  {
+    "target_anchor": "term_macro_repetition_in_matching",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro repetition in matching",
+    "term_id": "macro_repetition_in_matching"
+  },
+  {
+    "target_anchor": "term_macro_repetition_in_transcription",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro repetition in transcription",
+    "term_id": "macro_repetition_in_transcription"
+  },
+  {
+    "target_anchor": "term_macro_rule",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro rule",
+    "term_id": "macro_rule"
+  },
+  {
+    "target_anchor": "term_macro_statement",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "macro statement",
+    "term_id": "macro_statement"
+  },
+  {
+    "target_anchor": "term_macro_transcriber",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro transcriber",
+    "term_id": "macro_transcriber"
+  },
+  {
+    "target_anchor": "term_macro_transcription",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "macro transcription",
+    "term_id": "macro_transcription"
+  },
+  {
+    "target_anchor": "term_main_function_signature",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "main function signature",
+    "term_id": "main_function_signature"
+  },
+  {
+    "target_anchor": "term_match_arm",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "match arm",
+    "term_id": "match_arm"
+  },
+  {
+    "target_anchor": "term_match_arm_body",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "match arm body",
+    "term_id": "match_arm_body"
+  },
+  {
+    "target_anchor": "term_match_arm_guard",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "match arm guard",
+    "term_id": "match_arm_guard"
+  },
+  {
+    "target_anchor": "term_match_arm_matcher",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "match arm matcher",
+    "term_id": "match_arm_matcher"
+  },
+  {
+    "target_anchor": "term_match_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "match expression",
+    "term_id": "match_expression"
+  },
+  {
+    "target_anchor": "term_metavariable",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "metavariable",
+    "term_id": "metavariable"
+  },
+  {
+    "target_anchor": "term_metavariable_indication",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "metavariable indication",
+    "term_id": "metavariable_indication"
+  },
+  {
+    "target_anchor": "term_method",
+    "target_doc": "associated-items",
+    "target_kind": "term",
+    "term": "method",
+    "term_id": "method"
+  },
+  {
+    "target_anchor": "term_method_call_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "method call expression",
+    "term_id": "method_call_expression"
+  },
+  {
+    "target_anchor": "term_method_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "method operand",
+    "term_id": "method_operand"
+  },
+  {
+    "target_anchor": "term_method_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "method resolution",
+    "term_id": "method_resolution"
+  },
+  {
+    "target_anchor": "term_mixed_site_hygiene",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "mixed site hygiene",
+    "term_id": "mixed_site_hygiene"
+  },
+  {
+    "target_anchor": "term_modifying_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "modifying operand",
+    "term_id": "modifying_operand"
+  },
+  {
+    "target_anchor": "term_module",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "module",
+    "term_id": "module"
+  },
+  {
+    "target_anchor": "term_move_type",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "move type",
+    "term_id": "move_type"
+  },
+  {
+    "target_anchor": "term_multi_segment_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "multi segment path",
+    "term_id": "multi_segment_path"
+  },
+  {
+    "target_anchor": "term_multiplication_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "multiplication assignment",
+    "term_id": "multiplication_assignment"
+  },
+  {
+    "target_anchor": "term_multiplication_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "multiplication assignment expression",
+    "term_id": "multiplication_assignment_expression"
+  },
+  {
+    "target_anchor": "term_multiplication_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "multiplication expression",
+    "term_id": "multiplication_expression"
+  },
+  {
+    "target_anchor": "term_mutability",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "mutability",
+    "term_id": "mutability"
+  },
+  {
+    "target_anchor": "term_mutable",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "mutable",
+    "term_id": "mutable"
+  },
+  {
+    "target_anchor": "term_mutable_assignee_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "mutable assignee expression",
+    "term_id": "mutable_assignee_expression"
+  },
+  {
+    "target_anchor": "term_mutable_binding",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "mutable binding",
+    "term_id": "mutable_binding"
+  },
+  {
+    "target_anchor": "term_mutable_borrow",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "mutable borrow",
+    "term_id": "mutable_borrow"
+  },
+  {
+    "target_anchor": "term_mutable_borrow_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "mutable borrow expression",
+    "term_id": "mutable_borrow_expression"
+  },
+  {
+    "target_anchor": "term_mutable_place_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "mutable place expression",
+    "term_id": "mutable_place_expression"
+  },
+  {
+    "target_anchor": "term_mutable_place_expression_context",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "mutable place expression context",
+    "term_id": "mutable_place_expression_context"
+  },
+  {
+    "target_anchor": "term_mutable_raw_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "mutable raw pointer type",
+    "term_id": "mutable_raw_pointer_type"
+  },
+  {
+    "target_anchor": "term_mutable_reference",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "mutable reference",
+    "term_id": "mutable_reference"
+  },
+  {
+    "target_anchor": "term_mutable_reference_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "mutable reference type",
+    "term_id": "mutable_reference_type"
+  },
+  {
+    "target_anchor": "term_mutable_static",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "mutable static",
+    "term_id": "mutable_static"
+  },
+  {
+    "target_anchor": "term_mutable_variable",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "mutable variable",
+    "term_id": "mutable_variable"
+  },
+  {
+    "target_anchor": "term_name",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "name",
+    "term_id": "name"
+  },
+  {
+    "target_anchor": "term_named_block_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "named block expression",
+    "term_id": "named_block_expression"
+  },
+  {
+    "target_anchor": "term_named_deconstructor",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "named deconstructor",
+    "term_id": "named_deconstructor"
+  },
+  {
+    "target_anchor": "term_named_field_selector",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "named field selector",
+    "term_id": "named_field_selector"
+  },
+  {
+    "target_anchor": "term_named_initializer",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "named initializer",
+    "term_id": "named_initializer"
+  },
+  {
+    "target_anchor": "term_named_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "named loop expression",
+    "term_id": "named_loop_expression"
+  },
+  {
+    "target_anchor": "term_named_register_argument",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "named register argument",
+    "term_id": "named_register_argument"
+  },
+  {
+    "target_anchor": "term_namespace",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "namespace",
+    "term_id": "namespace"
+  },
+  {
+    "target_anchor": "term_nan_boxing",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "NaN-boxing",
+    "term_id": "nan_boxing"
+  },
+  {
+    "target_anchor": "term_negation_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "negation expression",
+    "term_id": "negation_expression"
+  },
+  {
+    "target_anchor": "term_nesting_import",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "nesting import",
+    "term_id": "nesting_import"
+  },
+  {
+    "target_anchor": "term_never_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "never type",
+    "term_id": "never_type"
+  },
+  {
+    "target_anchor": "term_non_reference_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "non-reference pattern",
+    "term_id": "non_reference_pattern"
+  },
+  {
+    "target_anchor": "term_not_configuration_predicate",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "not configuration predicate",
+    "term_id": "not_configuration_predicate"
+  },
+  {
+    "target_anchor": "term_not_equals_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "not-equals expression",
+    "term_id": "not_equals_expression"
+  },
+  {
+    "target_anchor": "codeterm_null",
+    "target_doc": "values",
+    "target_kind": "code-term",
+    "term": "null",
+    "term_id": "null"
+  },
+  {
+    "target_anchor": "term_numeric_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "numeric literal",
+    "term_id": "numeric_literal"
+  },
+  {
+    "target_anchor": "term_numeric_literal_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "numeric literal pattern",
+    "term_id": "numeric_literal_pattern"
+  },
+  {
+    "target_anchor": "term_numeric_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "numeric type",
+    "term_id": "numeric_type"
+  },
+  {
+    "target_anchor": "term_object_safe",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "object safe",
+    "term_id": "object_safe"
+  },
+  {
+    "target_anchor": "term_object_safety",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "object safety",
+    "term_id": "object_safety"
+  },
+  {
+    "target_anchor": "term_obsolete_range_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "obsolete range pattern",
+    "term_id": "obsolete_range_pattern"
+  },
+  {
+    "target_anchor": "term_octal_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "octal literal",
+    "term_id": "octal_literal"
+  },
+  {
+    "target_anchor": "term_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "operand",
+    "term_id": "operand"
+  },
+  {
+    "target_anchor": "term_operator_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "operator expression",
+    "term_id": "operator_expression"
+  },
+  {
+    "target_anchor": "term_opt_out_trait_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "opt-out trait bound",
+    "term_id": "opt_out_trait_bound"
+  },
+  {
+    "target_anchor": "term_or_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "or-pattern",
+    "term_id": "or_pattern"
+  },
+  {
+    "target_anchor": "term_outer_attribute",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "outer attribute",
+    "term_id": "outer_attribute"
+  },
+  {
+    "target_anchor": "term_outer_block_doc",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "outer block doc",
+    "term_id": "outer_block_doc"
+  },
+  {
+    "target_anchor": "term_outer_doc_comment",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "outer doc comment",
+    "term_id": "outer_doc_comment"
+  },
+  {
+    "target_anchor": "term_outer_line_doc",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "outer line doc",
+    "term_id": "outer_line_doc"
+  },
+  {
+    "target_anchor": "term_outline_module",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "outline module",
+    "term_id": "outline_module"
+  },
+  {
+    "target_anchor": "term_outlives_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "outlives bound",
+    "term_id": "outlives_bound"
+  },
+  {
+    "target_anchor": "term_output_register",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "output register",
+    "term_id": "output_register"
+  },
+  {
+    "target_anchor": "term_output_register_expression",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "output register expression",
+    "term_id": "output_register_expression"
+  },
+  {
+    "target_anchor": "term_overlap",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "overlap",
+    "term_id": "overlap"
+  },
+  {
+    "target_anchor": "term_owner",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "owner",
+    "term_id": "owner"
+  },
+  {
+    "target_anchor": "term_ownership",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "ownership",
+    "term_id": "ownership"
+  },
+  {
+    "target_anchor": "term_panic",
+    "target_doc": "exceptions-and-errors",
+    "target_kind": "term",
+    "term": "panic",
+    "term_id": "panic"
+  },
+  {
+    "target_anchor": "term_parenthesized_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "parenthesized expression",
+    "term_id": "parenthesized_expression"
+  },
+  {
+    "target_anchor": "term_parenthesized_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "parenthesized pattern",
+    "term_id": "parenthesized_pattern"
+  },
+  {
+    "target_anchor": "term_parenthesized_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "parenthesized type",
+    "term_id": "parenthesized_type"
+  },
+  {
+    "target_anchor": "term_partially_hygienic",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "partially hygienic",
+    "term_id": "partially_hygienic"
+  },
+  {
+    "target_anchor": "term_passing_convention",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "passing convention",
+    "term_id": "passing_convention"
+  },
+  {
+    "target_anchor": "term_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "path",
+    "term_id": "path"
+  },
+  {
+    "target_anchor": "term_path_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "path expression",
+    "term_id": "path_expression"
+  },
+  {
+    "target_anchor": "term_path_expression_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "path expression resolution",
+    "term_id": "path_expression_resolution"
+  },
+  {
+    "target_anchor": "term_path_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "path pattern",
+    "term_id": "path_pattern"
+  },
+  {
+    "target_anchor": "term_path_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "path resolution",
+    "term_id": "path_resolution"
+  },
+  {
+    "target_anchor": "term_path_segment",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "path segment",
+    "term_id": "path_segment"
+  },
+  {
+    "target_anchor": "term_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "pattern",
+    "term_id": "pattern"
+  },
+  {
+    "target_anchor": "term_pattern_matching",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "pattern matching",
+    "term_id": "pattern_matching"
+  },
+  {
+    "target_anchor": "term_pattern_without_alternation",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "pattern-without-alternation",
+    "term_id": "pattern_without_alternation"
+  },
+  {
+    "target_anchor": "term_pattern_without_range",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "pattern-without-range",
+    "term_id": "pattern_without_range"
+  },
+  {
+    "target_anchor": "term_place",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "place",
+    "term_id": "place"
+  },
+  {
+    "target_anchor": "term_place_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "place expression",
+    "term_id": "place_expression"
+  },
+  {
+    "target_anchor": "term_place_expression_context",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "place expression context",
+    "term_id": "place_expression_context"
+  },
+  {
+    "target_anchor": "term_plane",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "plane",
+    "term_id": "plane"
+  },
+  {
+    "target_anchor": "term_pointer",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "pointer",
+    "term_id": "pointer"
+  },
+  {
+    "target_anchor": "term_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "pointer type",
+    "term_id": "pointer_type"
+  },
+  {
+    "target_anchor": "term_positional_register_argument",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "positional register argument",
+    "term_id": "positional_register_argument"
+  },
+  {
+    "target_anchor": "term_precedence",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "precedence",
+    "term_id": "precedence"
+  },
+  {
+    "target_anchor": "term_prelude",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "prelude",
+    "term_id": "prelude"
+  },
+  {
+    "target_anchor": "term_prelude_entity",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "prelude entity",
+    "term_id": "prelude_entity"
+  },
+  {
+    "target_anchor": "term_prelude_name",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "prelude name",
+    "term_id": "prelude_name"
+  },
+  {
+    "target_anchor": "term_primitive_representation",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "primitive representation",
+    "term_id": "primitive_representation"
+  },
+  {
+    "target_anchor": "term_principal_trait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "principal trait",
+    "term_id": "principal_trait"
+  },
+  {
+    "target_anchor": "term_private_visibility",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "private visibility",
+    "term_id": "private_visibility"
+  },
+  {
+    "target_anchor": "term_proc_macro_crate",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "proc-macro crate",
+    "term_id": "proc_macro_crate"
+  },
+  {
+    "target_anchor": "term_procedural_macro",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "procedural macro",
+    "term_id": "procedural_macro"
+  },
+  {
+    "target_anchor": "term_program_entry_point",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "program entry point",
+    "term_id": "program_entry_point"
+  },
+  {
+    "target_anchor": "term_public_visibility",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "public visibility",
+    "term_id": "public_visibility"
+  },
+  {
+    "target_anchor": "term_punctuator",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "punctuator",
+    "term_id": "punctuator"
+  },
+  {
+    "target_anchor": "term_pure_identifier",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "pure identifier",
+    "term_id": "pure_identifier"
+  },
+  {
+    "target_anchor": "term_qualified_path_expression",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "qualified path expression",
+    "term_id": "qualified_path_expression"
+  },
+  {
+    "target_anchor": "term_qualified_type",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "qualified type",
+    "term_id": "qualified_type"
+  },
+  {
+    "target_anchor": "term_qualified_type_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "qualified type path",
+    "term_id": "qualified_type_path"
+  },
+  {
+    "target_anchor": "term_qualifying_trait",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "qualifying trait",
+    "term_id": "qualifying_trait"
+  },
+  {
+    "target_anchor": "term_range_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range expression",
+    "term_id": "range_expression"
+  },
+  {
+    "target_anchor": "term_range_expression_high_bound",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range expression high bound",
+    "term_id": "range_expression_high_bound"
+  },
+  {
+    "target_anchor": "term_range_expression_low_bound",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range expression low bound",
+    "term_id": "range_expression_low_bound"
+  },
+  {
+    "target_anchor": "term_range_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "range pattern",
+    "term_id": "range_pattern"
+  },
+  {
+    "target_anchor": "term_range_pattern_bound",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "range pattern bound",
+    "term_id": "range_pattern_bound"
+  },
+  {
+    "target_anchor": "term_range_pattern_high_bound",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "range pattern high bound",
+    "term_id": "range_pattern_high_bound"
+  },
+  {
+    "target_anchor": "term_range_pattern_low_bound",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "range pattern low bound",
+    "term_id": "range_pattern_low_bound"
+  },
+  {
+    "target_anchor": "term_range_from_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range-from expression",
+    "term_id": "range_from_expression"
+  },
+  {
+    "target_anchor": "term_range_from_to_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range-from-to expression",
+    "term_id": "range_from_to_expression"
+  },
+  {
+    "target_anchor": "term_range_full_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range-full expression",
+    "term_id": "range_full_expression"
+  },
+  {
+    "target_anchor": "term_range_inclusive_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range-inclusive expression",
+    "term_id": "range_inclusive_expression"
+  },
+  {
+    "target_anchor": "term_range_to_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range-to expression",
+    "term_id": "range_to_expression"
+  },
+  {
+    "target_anchor": "term_range_to_inclusive_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "range-to-inclusive expression",
+    "term_id": "range_to_inclusive_expression"
+  },
+  {
+    "target_anchor": "term_raw_borrow_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "raw borrow expression",
+    "term_id": "raw_borrow_expression"
+  },
+  {
+    "target_anchor": "term_raw_byte_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "raw byte string literal",
+    "term_id": "raw_byte_string_literal"
+  },
+  {
+    "target_anchor": "term_raw_c_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "raw c string literal",
+    "term_id": "raw_c_string_literal"
+  },
+  {
+    "target_anchor": "term_raw_pointer",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "raw pointer",
+    "term_id": "raw_pointer"
+  },
+  {
+    "target_anchor": "term_raw_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "raw pointer type",
+    "term_id": "raw_pointer_type"
+  },
+  {
+    "target_anchor": "term_raw_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "raw string literal",
+    "term_id": "raw_string_literal"
+  },
+  {
+    "target_anchor": "term_reachable_control_flow_path",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "reachable control flow path",
+    "term_id": "reachable_control_flow_path"
+  },
+  {
+    "target_anchor": "term_receiver_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "receiver operand",
+    "term_id": "receiver_operand"
+  },
+  {
+    "target_anchor": "term_receiver_type",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "receiver type",
+    "term_id": "receiver_type"
+  },
+  {
+    "target_anchor": "term_record_enum_variant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "record enum variant",
+    "term_id": "record_enum_variant"
+  },
+  {
+    "target_anchor": "term_record_struct",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "record struct",
+    "term_id": "record_struct"
+  },
+  {
+    "target_anchor": "term_record_struct_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "record struct field",
+    "term_id": "record_struct_field"
+  },
+  {
+    "target_anchor": "term_record_struct_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "record struct pattern",
+    "term_id": "record_struct_pattern"
+  },
+  {
+    "target_anchor": "term_record_struct_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "record struct type",
+    "term_id": "record_struct_type"
+  },
+  {
+    "target_anchor": "term_record_struct_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "record struct value",
+    "term_id": "record_struct_value"
+  },
+  {
+    "target_anchor": "term_recursive_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "recursive type",
+    "term_id": "recursive_type"
+  },
+  {
+    "target_anchor": "term_reference",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "reference",
+    "term_id": "reference"
+  },
+  {
+    "target_anchor": "term_reference_identifier_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "reference identifier pattern",
+    "term_id": "reference_identifier_pattern"
+  },
+  {
+    "target_anchor": "term_reference_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "reference pattern",
+    "term_id": "reference_pattern"
+  },
+  {
+    "target_anchor": "term_reference_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "reference type",
+    "term_id": "reference_type"
+  },
+  {
+    "target_anchor": "term_referent",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "referent",
+    "term_id": "referent"
+  },
+  {
+    "target_anchor": "term_refutability",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "refutability",
+    "term_id": "refutability"
+  },
+  {
+    "target_anchor": "term_refutable_constant",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "refutable constant",
+    "term_id": "refutable_constant"
+  },
+  {
+    "target_anchor": "term_refutable_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "refutable pattern",
+    "term_id": "refutable_pattern"
+  },
+  {
+    "target_anchor": "term_refutable_type",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "refutable type",
+    "term_id": "refutable_type"
+  },
+  {
+    "target_anchor": "term_register",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register",
+    "term_id": "register"
+  },
+  {
+    "target_anchor": "term_register_argument",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register argument",
+    "term_id": "register_argument"
+  },
+  {
+    "target_anchor": "term_register_class",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register class",
+    "term_id": "register_class"
+  },
+  {
+    "target_anchor": "term_register_class_argument",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register class argument",
+    "term_id": "register_class_argument"
+  },
+  {
+    "target_anchor": "term_register_class_name",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register class name",
+    "term_id": "register_class_name"
+  },
+  {
+    "target_anchor": "term_register_expression",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register expression",
+    "term_id": "register_expression"
+  },
+  {
+    "target_anchor": "term_register_name",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register name",
+    "term_id": "register_name"
+  },
+  {
+    "target_anchor": "term_register_parameter",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register parameter",
+    "term_id": "register_parameter"
+  },
+  {
+    "target_anchor": "term_register_parameter_modifier",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "register parameter modifier",
+    "term_id": "register_parameter_modifier"
+  },
+  {
+    "target_anchor": "term_remainder_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "remainder assignment",
+    "term_id": "remainder_assignment"
+  },
+  {
+    "target_anchor": "term_remainder_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "remainder assignment expression",
+    "term_id": "remainder_assignment_expression"
+  },
+  {
+    "target_anchor": "term_remainder_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "remainder expression",
+    "term_id": "remainder_expression"
+  },
+  {
+    "target_anchor": "term_renaming",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "renaming",
+    "term_id": "renaming"
+  },
+  {
+    "target_anchor": "term_repeat_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "repeat operand",
+    "term_id": "repeat_operand"
+  },
+  {
+    "target_anchor": "term_repetition_operator",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "repetition operator",
+    "term_id": "repetition_operator"
+  },
+  {
+    "target_anchor": "term_representation",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "representation",
+    "term_id": "representation"
+  },
+  {
+    "target_anchor": "term_representation_modifier",
+    "target_doc": "attributes",
+    "target_kind": "term",
+    "term": "representation modifier",
+    "term_id": "representation_modifier"
+  },
+  {
+    "target_anchor": "term_reserved_keyword",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "reserved keyword",
+    "term_id": "reserved_keyword"
+  },
+  {
+    "target_anchor": "term_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "resolution",
+    "term_id": "resolution"
+  },
+  {
+    "target_anchor": "term_rest_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "rest pattern",
+    "term_id": "rest_pattern"
+  },
+  {
+    "target_anchor": "term_return_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "return expression",
+    "term_id": "return_expression"
+  },
+  {
+    "target_anchor": "term_return_type",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "return type",
+    "term_id": "return_type"
+  },
+  {
+    "target_anchor": "term_right_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "right operand",
+    "term_id": "right_operand"
+  },
+  {
+    "target_anchor": "term_rule_matching",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "rule matching",
+    "term_id": "rule_matching"
+  },
+  {
+    "target_anchor": "term_rustc",
+    "target_doc": "general",
+    "target_kind": "term",
+    "term": "rustc",
+    "term_id": "rustc"
+  },
+  {
+    "target_anchor": "term_safety_invariant",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "safety invariant",
+    "term_id": "safety_invariant"
+  },
+  {
+    "target_anchor": "term_scalar_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "scalar type",
+    "term_id": "scalar_type"
+  },
+  {
+    "target_anchor": "term_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "scope",
+    "term_id": "scope"
+  },
+  {
+    "target_anchor": "term_scope_hierarchy",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "scope hierarchy",
+    "term_id": "scope_hierarchy"
+  },
+  {
+    "target_anchor": "term_selected_field",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "selected field",
+    "term_id": "selected_field"
+  },
+  {
+    "target_anchor": "term_self",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "Self",
+    "term_id": "self"
+  },
+  {
+    "target_anchor": "term_self_parameter",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "self parameter",
+    "term_id": "self_parameter"
+  },
+  {
+    "target_anchor": "term_self_public_modifier",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "self public modifier",
+    "term_id": "self_public_modifier"
+  },
+  {
+    "target_anchor": "term_self_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "Self scope",
+    "term_id": "self_scope"
+  },
+  {
+    "target_anchor": "term_send_type",
+    "target_doc": "concurrency",
+    "target_kind": "term",
+    "term": "send type",
+    "term_id": "send_type"
+  },
+  {
+    "target_anchor": "term_separator",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "separator",
+    "term_id": "separator"
+  },
+  {
+    "target_anchor": "term_sequence_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "sequence type",
+    "term_id": "sequence_type"
+  },
+  {
+    "target_anchor": "term_shadowing",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "shadowing",
+    "term_id": "shadowing"
+  },
+  {
+    "target_anchor": "term_shared_borrow",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "shared borrow",
+    "term_id": "shared_borrow"
+  },
+  {
+    "target_anchor": "term_shared_reference",
+    "target_doc": "ownership-and-deconstruction",
+    "target_kind": "term",
+    "term": "shared reference",
+    "term_id": "shared_reference"
+  },
+  {
+    "target_anchor": "term_shared_reference_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "shared reference type",
+    "term_id": "shared_reference_type"
+  },
+  {
+    "target_anchor": "term_shift_left_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shift left assignment",
+    "term_id": "shift_left_assignment"
+  },
+  {
+    "target_anchor": "term_shift_left_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shift left assignment expression",
+    "term_id": "shift_left_assignment_expression"
+  },
+  {
+    "target_anchor": "term_shift_left_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shift left expression",
+    "term_id": "shift_left_expression"
+  },
+  {
+    "target_anchor": "term_shift_right_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shift right assignment",
+    "term_id": "shift_right_assignment"
+  },
+  {
+    "target_anchor": "term_shift_right_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shift right assignment expression",
+    "term_id": "shift_right_assignment_expression"
+  },
+  {
+    "target_anchor": "term_shift_right_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shift right expression",
+    "term_id": "shift_right_expression"
+  },
+  {
+    "target_anchor": "term_shorthand_deconstructor",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "shorthand deconstructor",
+    "term_id": "shorthand_deconstructor"
+  },
+  {
+    "target_anchor": "term_shorthand_initializer",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "shorthand initializer",
+    "term_id": "shorthand_initializer"
+  },
+  {
+    "target_anchor": "term_signed_integer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "signed integer type",
+    "term_id": "signed_integer_type"
+  },
+  {
+    "target_anchor": "term_simple_byte_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "simple byte string literal",
+    "term_id": "simple_byte_string_literal"
+  },
+  {
+    "target_anchor": "term_simple_c_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "simple c string literal",
+    "term_id": "simple_c_string_literal"
+  },
+  {
+    "target_anchor": "term_simple_import",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "simple import",
+    "term_id": "simple_import"
+  },
+  {
+    "target_anchor": "term_simple_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "simple path",
+    "term_id": "simple_path"
+  },
+  {
+    "target_anchor": "term_simple_path_prefix",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "simple path prefix",
+    "term_id": "simple_path_prefix"
+  },
+  {
+    "target_anchor": "term_simple_path_public_modifier",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "simple path public modifier",
+    "term_id": "simple_path_public_modifier"
+  },
+  {
+    "target_anchor": "term_simple_path_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "simple path resolution",
+    "term_id": "simple_path_resolution"
+  },
+  {
+    "target_anchor": "term_simple_public_modifier",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "simple public modifier",
+    "term_id": "simple_public_modifier"
+  },
+  {
+    "target_anchor": "term_simple_register_expression",
+    "target_doc": "inline-assembly",
+    "target_kind": "term",
+    "term": "simple register expression",
+    "term_id": "simple_register_expression"
+  },
+  {
+    "target_anchor": "term_simple_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "simple string literal",
+    "term_id": "simple_string_literal"
+  },
+  {
+    "target_anchor": "term_single_segment_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "single segment path",
+    "term_id": "single_segment_path"
+  },
+  {
+    "target_anchor": "term_size",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "size",
+    "term_id": "size"
+  },
+  {
+    "target_anchor": "term_size_operand",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "size operand",
+    "term_id": "size_operand"
+  },
+  {
+    "target_anchor": "term_sized_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "sized type",
+    "term_id": "sized_type"
+  },
+  {
+    "target_anchor": "term_slice",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "slice",
+    "term_id": "slice"
+  },
+  {
+    "target_anchor": "term_slice_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "slice pattern",
+    "term_id": "slice_pattern"
+  },
+  {
+    "target_anchor": "term_slice_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "slice type",
+    "term_id": "slice_type"
+  },
+  {
+    "target_anchor": "term_source_file",
+    "target_doc": "program-structure-and-compilation",
+    "target_kind": "term",
+    "term": "source file",
+    "term_id": "source_file"
+  },
+  {
+    "target_anchor": "term_statement",
+    "target_doc": "statements",
+    "target_kind": "term",
+    "term": "statement",
+    "term_id": "statement"
+  },
+  {
+    "target_anchor": "term_static",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "static",
+    "term_id": "static"
+  },
+  {
+    "target_anchor": "term_static_initializer",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "static initializer",
+    "term_id": "static_initializer"
+  },
+  {
+    "target_anchor": "term_static_lifetime_elision",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "static lifetime elision",
+    "term_id": "static_lifetime_elision"
+  },
+  {
+    "target_anchor": "term_str",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "str",
+    "term_id": "str"
+  },
+  {
+    "target_anchor": "term_strict_keyword",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "strict keyword",
+    "term_id": "strict_keyword"
+  },
+  {
+    "target_anchor": "term_string_literal",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "string literal",
+    "term_id": "string_literal"
+  },
+  {
+    "target_anchor": "term_struct",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "struct",
+    "term_id": "struct"
+  },
+  {
+    "target_anchor": "term_struct_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "struct expression",
+    "term_id": "struct_expression"
+  },
+  {
+    "target_anchor": "term_struct_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "struct field",
+    "term_id": "struct_field"
+  },
+  {
+    "target_anchor": "term_struct_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "struct pattern",
+    "term_id": "struct_pattern"
+  },
+  {
+    "target_anchor": "term_struct_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "struct type",
+    "term_id": "struct_type"
+  },
+  {
+    "target_anchor": "term_struct_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "struct value",
+    "term_id": "struct_value"
+  },
+  {
+    "target_anchor": "term_structurally_equal",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "structurally equal",
+    "term_id": "structurally_equal"
+  },
+  {
+    "target_anchor": "term_subexpression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "subexpression",
+    "term_id": "subexpression"
+  },
+  {
+    "target_anchor": "term_subject_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "subject expression",
+    "term_id": "subject_expression"
+  },
+  {
+    "target_anchor": "term_subject_let_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "subject let expression",
+    "term_id": "subject_let_expression"
+  },
+  {
+    "target_anchor": "term_subpattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "subpattern",
+    "term_id": "subpattern"
+  },
+  {
+    "target_anchor": "term_subtraction_assignment",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "subtraction assignment",
+    "term_id": "subtraction_assignment"
+  },
+  {
+    "target_anchor": "term_subtraction_assignment_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "subtraction assignment expression",
+    "term_id": "subtraction_assignment_expression"
+  },
+  {
+    "target_anchor": "term_subtraction_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "subtraction expression",
+    "term_id": "subtraction_expression"
+  },
+  {
+    "target_anchor": "term_subtrait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "subtrait",
+    "term_id": "subtrait"
+  },
+  {
+    "target_anchor": "term_subtype",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "subtype",
+    "term_id": "subtype"
+  },
+  {
+    "target_anchor": "term_subtyping",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "subtyping",
+    "term_id": "subtyping"
+  },
+  {
+    "target_anchor": "term_suffixed_float",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "suffixed float",
+    "term_id": "suffixed_float"
+  },
+  {
+    "target_anchor": "term_suffixed_integer",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "suffixed integer",
+    "term_id": "suffixed_integer"
+  },
+  {
+    "target_anchor": "term_super_public_modifier",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "super public modifier",
+    "term_id": "super_public_modifier"
+  },
+  {
+    "target_anchor": "term_supertrait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "supertrait",
+    "term_id": "supertrait"
+  },
+  {
+    "target_anchor": "term_sync_type",
+    "target_doc": "concurrency",
+    "target_kind": "term",
+    "term": "sync type",
+    "term_id": "sync_type"
+  },
+  {
+    "target_anchor": "term_syntactic_category",
+    "target_doc": "general",
+    "target_kind": "term",
+    "term": "syntactic category",
+    "term_id": "syntactic_category"
+  },
+  {
+    "target_anchor": "term_tail_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "tail expression",
+    "term_id": "tail_expression"
+  },
+  {
+    "target_anchor": "term_temporary",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "temporary",
+    "term_id": "temporary"
+  },
+  {
+    "target_anchor": "term_terminated",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "terminated",
+    "term_id": "terminated"
+  },
+  {
+    "target_anchor": "term_terminated_macro_invocation",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "terminated macro invocation",
+    "term_id": "terminated_macro_invocation"
+  },
+  {
+    "target_anchor": "term_textual_macro_scope",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "textual macro scope",
+    "term_id": "textual_macro_scope"
+  },
+  {
+    "target_anchor": "term_textual_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "textual type",
+    "term_id": "textual_type"
+  },
+  {
+    "target_anchor": "term_thin_pointer",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "thin pointer",
+    "term_id": "thin_pointer"
+  },
+  {
+    "target_anchor": "term_thin_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "thin pointer type",
+    "term_id": "thin_pointer_type"
+  },
+  {
+    "target_anchor": "term_token_matching",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "token matching",
+    "term_id": "token_matching"
+  },
+  {
+    "target_anchor": "term_token",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "tokens",
+    "term_id": "token"
+  },
+  {
+    "target_anchor": "term_trait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "trait",
+    "term_id": "trait"
+  },
+  {
+    "target_anchor": "term_trait_body",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "trait body",
+    "term_id": "trait_body"
+  },
+  {
+    "target_anchor": "term_trait_bound",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "trait bound",
+    "term_id": "trait_bound"
+  },
+  {
+    "target_anchor": "term_trait_implementation",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "trait implementation",
+    "term_id": "trait_implementation"
+  },
+  {
+    "target_anchor": "term_trait_object_lifetime_elision",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "trait object lifetime elision",
+    "term_id": "trait_object_lifetime_elision"
+  },
+  {
+    "target_anchor": "term_trait_object_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "trait object type",
+    "term_id": "trait_object_type"
+  },
+  {
+    "target_anchor": "term_trait_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "trait type",
+    "term_id": "trait_type"
+  },
+  {
+    "target_anchor": "term_transparent_representation",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "transparent representation",
+    "term_id": "transparent_representation"
+  },
+  {
+    "target_anchor": "term_trivial_predicate",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "trivial predicate",
+    "term_id": "trivial_predicate"
+  },
+  {
+    "target_anchor": "term_tuple",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple",
+    "term_id": "tuple"
+  },
+  {
+    "target_anchor": "term_tuple_enum_variant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple enum variant",
+    "term_id": "tuple_enum_variant"
+  },
+  {
+    "target_anchor": "term_tuple_enum_variant_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple enum variant value",
+    "term_id": "tuple_enum_variant_value"
+  },
+  {
+    "target_anchor": "term_tuple_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "tuple expression",
+    "term_id": "tuple_expression"
+  },
+  {
+    "target_anchor": "term_tuple_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple field",
+    "term_id": "tuple_field"
+  },
+  {
+    "target_anchor": "term_tuple_initializer",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "tuple initializer",
+    "term_id": "tuple_initializer"
+  },
+  {
+    "target_anchor": "term_tuple_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "tuple pattern",
+    "term_id": "tuple_pattern"
+  },
+  {
+    "target_anchor": "term_tuple_struct",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple struct",
+    "term_id": "tuple_struct"
+  },
+  {
+    "target_anchor": "term_tuple_struct_call_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "tuple struct call expression",
+    "term_id": "tuple_struct_call_expression"
+  },
+  {
+    "target_anchor": "term_tuple_struct_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple struct field",
+    "term_id": "tuple_struct_field"
+  },
+  {
+    "target_anchor": "term_tuple_struct_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "tuple struct pattern",
+    "term_id": "tuple_struct_pattern"
+  },
+  {
+    "target_anchor": "term_tuple_struct_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple struct type",
+    "term_id": "tuple_struct_type"
+  },
+  {
+    "target_anchor": "term_tuple_struct_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple struct value",
+    "term_id": "tuple_struct_value"
+  },
+  {
+    "target_anchor": "term_tuple_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "tuple type",
+    "term_id": "tuple_type"
+  },
+  {
+    "target_anchor": "term_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type",
+    "term_id": "type"
+  },
+  {
+    "target_anchor": "term_type_alias",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type alias",
+    "term_id": "type_alias"
+  },
+  {
+    "target_anchor": "term_type_argument",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "type argument",
+    "term_id": "type_argument"
+  },
+  {
+    "target_anchor": "term_type_ascription",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type ascription",
+    "term_id": "type_ascription"
+  },
+  {
+    "target_anchor": "term_type_bound_predicate",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "type bound predicate",
+    "term_id": "type_bound_predicate"
+  },
+  {
+    "target_anchor": "term_type_cast_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "type cast expression",
+    "term_id": "type_cast_expression"
+  },
+  {
+    "target_anchor": "term_type_coercion",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type coercion",
+    "term_id": "type_coercion"
+  },
+  {
+    "target_anchor": "term_type_inference",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type inference",
+    "term_id": "type_inference"
+  },
+  {
+    "target_anchor": "term_type_inference_root",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type inference root",
+    "term_id": "type_inference_root"
+  },
+  {
+    "target_anchor": "term_type_parameter",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "type parameter",
+    "term_id": "type_parameter"
+  },
+  {
+    "target_anchor": "term_type_parameter_initializer",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "type parameter initializer",
+    "term_id": "type_parameter_initializer"
+  },
+  {
+    "target_anchor": "term_type_parameter_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type parameter type",
+    "term_id": "type_parameter_type"
+  },
+  {
+    "target_anchor": "term_type_path",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "type path",
+    "term_id": "type_path"
+  },
+  {
+    "target_anchor": "term_type_path_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "type path resolution",
+    "term_id": "type_path_resolution"
+  },
+  {
+    "target_anchor": "term_type_representation",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type representation",
+    "term_id": "type_representation"
+  },
+  {
+    "target_anchor": "term_type_specification",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type specification",
+    "term_id": "type_specification"
+  },
+  {
+    "target_anchor": "term_type_unification",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type unification",
+    "term_id": "type_unification"
+  },
+  {
+    "target_anchor": "term_type_variable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "type variable",
+    "term_id": "type_variable"
+  },
+  {
+    "target_anchor": "codeterm_u8",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "u8",
+    "term_id": "u8"
+  },
+  {
+    "target_anchor": "codeterm_u16",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "u16",
+    "term_id": "u16"
+  },
+  {
+    "target_anchor": "codeterm_u32",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "u32",
+    "term_id": "u32"
+  },
+  {
+    "target_anchor": "codeterm_u64",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "u64",
+    "term_id": "u64"
+  },
+  {
+    "target_anchor": "codeterm_u128",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "u128",
+    "term_id": "u128"
+  },
+  {
+    "target_anchor": "term_unary_operator",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "unary operator",
+    "term_id": "unary_operator"
+  },
+  {
+    "target_anchor": "term_undefined_behavior",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "undefined behavior",
+    "term_id": "undefined_behavior"
+  },
+  {
+    "target_anchor": "term_under_resolution",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "under resolution",
+    "term_id": "under_resolution"
+  },
+  {
+    "target_anchor": "term_underscore_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "underscore expression",
+    "term_id": "underscore_expression"
+  },
+  {
+    "target_anchor": "term_underscore_pattern",
+    "target_doc": "patterns",
+    "target_kind": "term",
+    "term": "underscore pattern",
+    "term_id": "underscore_pattern"
+  },
+  {
+    "target_anchor": "term_unhygienic",
+    "target_doc": "macros",
+    "target_kind": "term",
+    "term": "unhygienic",
+    "term_id": "unhygienic"
+  },
+  {
+    "target_anchor": "term_unicode",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "Unicode",
+    "term_id": "unicode"
+  },
+  {
+    "target_anchor": "term_unifiable",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unifiable",
+    "term_id": "unifiable"
+  },
+  {
+    "target_anchor": "term_unifiable_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unifiable types",
+    "term_id": "unifiable_type"
+  },
+  {
+    "target_anchor": "term_unified_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unified type",
+    "term_id": "unified_type"
+  },
+  {
+    "target_anchor": "term_unify",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unify",
+    "term_id": "unify"
+  },
+  {
+    "target_anchor": "term_union",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "union",
+    "term_id": "union"
+  },
+  {
+    "target_anchor": "term_union_field",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "union field",
+    "term_id": "union_field"
+  },
+  {
+    "target_anchor": "term_union_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "union type",
+    "term_id": "union_type"
+  },
+  {
+    "target_anchor": "term_union_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "union value",
+    "term_id": "union_value"
+  },
+  {
+    "target_anchor": "term_unique_immutable_reference",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "unique immutable reference",
+    "term_id": "unique_immutable_reference"
+  },
+  {
+    "target_anchor": "term_unit_enum_variant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit enum variant",
+    "term_id": "unit_enum_variant"
+  },
+  {
+    "target_anchor": "term_unit_struct",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit struct",
+    "term_id": "unit_struct"
+  },
+  {
+    "target_anchor": "term_unit_struct_constant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit struct constant",
+    "term_id": "unit_struct_constant"
+  },
+  {
+    "target_anchor": "term_unit_struct_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit struct type",
+    "term_id": "unit_struct_type"
+  },
+  {
+    "target_anchor": "term_unit_struct_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit struct value",
+    "term_id": "unit_struct_value"
+  },
+  {
+    "target_anchor": "term_unit_tuple",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit tuple",
+    "term_id": "unit_tuple"
+  },
+  {
+    "target_anchor": "term_unit_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit type",
+    "term_id": "unit_type"
+  },
+  {
+    "target_anchor": "term_unit_value",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unit value",
+    "term_id": "unit_value"
+  },
+  {
+    "target_anchor": "term_unnamed_constant",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "unnamed constant",
+    "term_id": "unnamed_constant"
+  },
+  {
+    "target_anchor": "term_unnamed_lifetime",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unnamed lifetime",
+    "term_id": "unnamed_lifetime"
+  },
+  {
+    "target_anchor": "term_unqualified_path_expression",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "unqualified path expression",
+    "term_id": "unqualified_path_expression"
+  },
+  {
+    "target_anchor": "term_unsafe_block",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "unsafe block",
+    "term_id": "unsafe_block"
+  },
+  {
+    "target_anchor": "term_unsafe_block_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "unsafe block expression",
+    "term_id": "unsafe_block_expression"
+  },
+  {
+    "target_anchor": "term_unsafe_context",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "unsafe context",
+    "term_id": "unsafe_context"
+  },
+  {
+    "target_anchor": "term_unsafe_external_block",
+    "target_doc": "ffi",
+    "target_kind": "term",
+    "term": "unsafe external block",
+    "term_id": "unsafe_external_block"
+  },
+  {
+    "target_anchor": "term_unsafe_function",
+    "target_doc": "functions",
+    "target_kind": "term",
+    "term": "unsafe function",
+    "term_id": "unsafe_function"
+  },
+  {
+    "target_anchor": "term_unsafe_function_item_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unsafe function item type",
+    "term_id": "unsafe_function_item_type"
+  },
+  {
+    "target_anchor": "term_unsafe_function_pointer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unsafe function pointer type",
+    "term_id": "unsafe_function_pointer_type"
+  },
+  {
+    "target_anchor": "term_unsafe_operation",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "unsafe operation",
+    "term_id": "unsafe_operation"
+  },
+  {
+    "target_anchor": "term_unsafe_rust",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "unsafe Rust",
+    "term_id": "unsafe_rust"
+  },
+  {
+    "target_anchor": "term_unsafe_trait",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unsafe trait",
+    "term_id": "unsafe_trait"
+  },
+  {
+    "target_anchor": "term_unsafe_trait_implementation",
+    "target_doc": "implementations",
+    "target_kind": "term",
+    "term": "unsafe trait implementation",
+    "term_id": "unsafe_trait_implementation"
+  },
+  {
+    "target_anchor": "term_unsafety",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "unsafety",
+    "term_id": "unsafety"
+  },
+  {
+    "target_anchor": "term_unsigned_integer_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unsigned integer type",
+    "term_id": "unsigned_integer_type"
+  },
+  {
+    "target_anchor": "term_unsized_coercion",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unsized coercion",
+    "term_id": "unsized_coercion"
+  },
+  {
+    "target_anchor": "term_unsized_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "unsized type",
+    "term_id": "unsized_type"
+  },
+  {
+    "target_anchor": "term_unsuffixed_float",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "unsuffixed float",
+    "term_id": "unsuffixed_float"
+  },
+  {
+    "target_anchor": "term_unsuffixed_integer",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "unsuffixed integer",
+    "term_id": "unsuffixed_integer"
+  },
+  {
+    "target_anchor": "term_use_capture",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "use capture",
+    "term_id": "use_capture"
+  },
+  {
+    "target_anchor": "term_use_import",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "use import",
+    "term_id": "use_import"
+  },
+  {
+    "target_anchor": "codeterm_usize",
+    "target_doc": "types-and-traits",
+    "target_kind": "code-term",
+    "term": "usize",
+    "term_id": "usize"
+  },
+  {
+    "target_anchor": "term_validity_invariant",
+    "target_doc": "unsafety",
+    "target_kind": "term",
+    "term": "validity invariant",
+    "term_id": "validity_invariant"
+  },
+  {
+    "target_anchor": "term_value",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "value",
+    "term_id": "value"
+  },
+  {
+    "target_anchor": "term_value_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "value expression",
+    "term_id": "value_expression"
+  },
+  {
+    "target_anchor": "term_value_expression_context",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "value expression context",
+    "term_id": "value_expression_context"
+  },
+  {
+    "target_anchor": "term_value_operand",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "value operand",
+    "term_id": "value_operand"
+  },
+  {
+    "target_anchor": "term_variable",
+    "target_doc": "values",
+    "target_kind": "term",
+    "term": "variable",
+    "term_id": "variable"
+  },
+  {
+    "target_anchor": "term_variadic_part",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "variadic part",
+    "term_id": "variadic_part"
+  },
+  {
+    "target_anchor": "term_variance",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "variance",
+    "term_id": "variance"
+  },
+  {
+    "target_anchor": "term_visibility",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "visibility",
+    "term_id": "visibility"
+  },
+  {
+    "target_anchor": "term_visibility_modifier",
+    "target_doc": "entities-and-resolution",
+    "target_kind": "term",
+    "term": "visibility modifier",
+    "term_id": "visibility_modifier"
+  },
+  {
+    "target_anchor": "term_visible_emptiness",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "visible emptiness",
+    "term_id": "visible_emptiness"
+  },
+  {
+    "target_anchor": "term_visible_empty_enum_variant",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "visible empty enum variant",
+    "term_id": "visible_empty_enum_variant"
+  },
+  {
+    "target_anchor": "term_visible_empty_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "visible empty type",
+    "term_id": "visible_empty_type"
+  },
+  {
+    "target_anchor": "term_weak_keyword",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "weak keyword",
+    "term_id": "weak_keyword"
+  },
+  {
+    "target_anchor": "term_where_clause",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "where clause",
+    "term_id": "where_clause"
+  },
+  {
+    "target_anchor": "term_where_clause_predicate",
+    "target_doc": "generics",
+    "target_kind": "term",
+    "term": "where clause predicate",
+    "term_id": "where_clause_predicate"
+  },
+  {
+    "target_anchor": "term_while_let_loop",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "while let loop",
+    "term_id": "while_let_loop"
+  },
+  {
+    "target_anchor": "term_while_let_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "while let loop expression",
+    "term_id": "while_let_loop_expression"
+  },
+  {
+    "target_anchor": "term_while_loop",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "while loop",
+    "term_id": "while_loop"
+  },
+  {
+    "target_anchor": "term_while_loop_expression",
+    "target_doc": "expressions",
+    "target_kind": "term",
+    "term": "while loop expression",
+    "term_id": "while_loop_expression"
+  },
+  {
+    "target_anchor": "term_whitespace_string",
+    "target_doc": "lexical-elements",
+    "target_kind": "term",
+    "term": "whitespace string",
+    "term_id": "whitespace_string"
+  },
+  {
+    "target_anchor": "term_zero_sized_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "zero-sized type",
+    "term_id": "zero_sized_type"
+  },
+  {
+    "target_anchor": "term_zero_variant_enum_type",
+    "target_doc": "types-and-traits",
+    "target_kind": "term",
+    "term": "zero-variant enum type",
+    "term_id": "zero_variant_enum_type"
+  }
+]

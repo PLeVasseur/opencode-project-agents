@@ -1,0 +1,34 @@
+{
+  "errors": [
+    "FAILED_INSERT_DIFF_MISMATCH: WA-005: definition_operation=insert did not show qualifying insertion (mode=hunk, evidence=/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-002-diff-audit.json, insert_net=0, swap_detected=true)",
+    "FAILED_INSERT_DIFF_MISMATCH: WA-006: definition_operation=insert did not show qualifying insertion (mode=hunk, evidence=/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-002-diff-audit.json, insert_net=0, swap_detected=true)"
+  ],
+  "summary": {
+    "baseline_rows": 104,
+    "checklist": {
+      "parent_checked": 6,
+      "parent_total": 104,
+      "parent_unchecked": 98,
+      "sub_checked": 36,
+      "sub_total": 624,
+      "sub_unchecked": 588
+    },
+    "completed_rows": 6,
+    "error_count": 2,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 624,
+    "insert_diff_modes": {
+      "WA-001": "hunk",
+      "WA-005": "hunk",
+      "WA-006": "hunk"
+    },
+    "ledger_rows": 104,
+    "mode": "progress",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 6,
+    "warning_count": 0
+  },
+  "warnings": []
+}

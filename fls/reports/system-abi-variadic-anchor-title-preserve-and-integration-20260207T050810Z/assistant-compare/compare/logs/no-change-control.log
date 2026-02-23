@@ -1,0 +1,13 @@
+case: no-change-control
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/no-change-control/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/no-change-control/head.json
+
+observed tags:
+- <none>
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

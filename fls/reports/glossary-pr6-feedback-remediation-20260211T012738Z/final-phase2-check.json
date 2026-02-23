@@ -1,0 +1,25 @@
+{
+  "artifacts": {
+    "mismatch_report": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/mismatch-report.json",
+    "missing_terms": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/missing-terms.json",
+    "term_inventory": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/term-inventory.json"
+  },
+  "checks": [
+    {
+      "details": {
+        "missing_count": 0
+      },
+      "name": "glossary-terms-covered-by-chapters",
+      "passed": true
+    },
+    {
+      "details": {
+        "mismatch_count": 0
+      },
+      "name": "glossary-chapter-definition-match",
+      "passed": true
+    }
+  ],
+  "phase": 2,
+  "strict": true
+}

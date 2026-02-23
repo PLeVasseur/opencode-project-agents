@@ -1,0 +1,22 @@
+# Recovery guardrail integration summary (v3)
+
+- [x] Redesigned deviation permit lifecycle in `reports/record-rationale-v3.py`:
+  - requires `status=pending-review` for high/medium non-recommended actions,
+  - requires empty `approved_by` at filing,
+  - writes `deviation_status` into ledger/events,
+  - requires `--after-section` placement context.
+- [x] Added approval/rejection lifecycle script `reports/approve-deviation.py`:
+  - supports `approve` and `reject` decisions,
+  - updates permit + ledger + event trail,
+  - emits `deviation-review-summary.json`.
+- [x] Upgraded validator `reports/validate-ledger-and-checklist-v3.py`:
+  - requires recovery column `deviation_status`,
+  - enforces pending behavior by mode (`progress` allows, `gate/final` fails with `FAILED_PENDING_DEVIATIONS`),
+  - enforces foundational placement by file and section,
+  - blocks rejected deviations from gate/final acceptance.
+- [x] Upgraded orchestrator `reports/glossary-batch-orchestrator-v3.py`:
+  - validates `deviation_status` instead of requiring approval at write time,
+  - includes pending-deviation metrics in batch summaries,
+  - classifies pending deviations as hard-fail gate conditions.
+- [x] Upgraded rationale analyzer `reports/analyze-rationale-patterns-v3.py` with pending-deviation totals.
+- [x] Captured updated smoke-test and dry-run artifacts in this directory; no Wave A execution was started.

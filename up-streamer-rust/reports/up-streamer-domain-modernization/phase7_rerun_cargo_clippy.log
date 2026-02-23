@@ -1,0 +1,5 @@
+    Checking integration-test-utils v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/utils/integration-test-utils)
+    Checking hello-world-protos v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/utils/hello-world-protos)
+    Checking configurable-streamer v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/configurable-streamer)
+    Checking up-streamer v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 3.29s

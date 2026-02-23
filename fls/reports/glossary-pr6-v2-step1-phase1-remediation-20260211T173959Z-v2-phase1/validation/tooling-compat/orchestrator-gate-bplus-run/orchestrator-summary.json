@@ -1,0 +1,16 @@
+{
+  "batches_completed": 0,
+  "batches_failed": 0,
+  "canonical_checklist_template": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/gate-bplus-fixture/checklist-wc-only.md",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_status": "blocked-missing-v3",
+  "last_session_id": null,
+  "remaining_parent_ids": [
+    "WC-001"
+  ],
+  "remediation_dir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run",
+  "run_id": "run",
+  "run_local_checklist": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run/manual-placement-checklist-v2.md",
+  "timestamp": "20260211T174402Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

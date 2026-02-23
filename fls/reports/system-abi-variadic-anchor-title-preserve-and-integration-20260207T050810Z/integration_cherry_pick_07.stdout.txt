@@ -1,0 +1,3 @@
+[system-abi-variadic-anchor-title-preserve-integration-on-dedupe-20260207T050810Z 942eb8d] fix(changelog-assistant): preserve anchored entry title by default
+ Date: Sat Feb 7 14:11:08 2026 +0900
+ 1 file changed, 43 insertions(+), 8 deletions(-)

@@ -1,0 +1,25 @@
+Command:
+
+`cargo test -p up-streamer right_side_wildcard -- --nocapture`
+
+Output:
+
+```text
+running 2 tests
+
+thread 'ustreamer::tests::right_side_wildcard_forwards_to_registered_authorities' panicked:
+assertion `left == right` failed
+  left: 0
+ right: 2
+
+thread 'ustreamer::tests::right_side_wildcard_does_not_forward_without_rule' panicked:
+assertion `left == right` failed
+  left: 0
+ right: 2
+
+failures:
+  ustreamer::tests::right_side_wildcard_does_not_forward_without_rule
+  ustreamer::tests::right_side_wildcard_forwards_to_registered_authorities
+
+test result: FAILED. 0 passed; 2 failed
+```

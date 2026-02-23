@@ -1,0 +1,46 @@
+{
+  "batch_number": 1,
+  "ids": [
+    "WA-001",
+    "WA-002",
+    "WA-003",
+    "WA-004",
+    "WA-005",
+    "WA-006",
+    "WA-007",
+    "WA-008",
+    "WA-009",
+    "WA-010",
+    "WA-011",
+    "WA-012",
+    "WA-013",
+    "WA-014",
+    "WA-015"
+  ],
+  "passed": [],
+  "quarantined": [
+    "WA-001",
+    "WA-002",
+    "WA-003",
+    "WA-004",
+    "WA-005",
+    "WA-006",
+    "WA-007",
+    "WA-008",
+    "WA-009",
+    "WA-010",
+    "WA-011",
+    "WA-012",
+    "WA-013",
+    "WA-014",
+    "WA-015"
+  ],
+  "reason": "all terms failed",
+  "rolled_back": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T193813Z/manual-placement-checklist-v3.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T193813Z/manual-placement-ledger-v3.csv",
+    "worktree (git restore)"
+  ],
+  "timestamp": "20260212T194730Z",
+  "wave": "WA"
+}

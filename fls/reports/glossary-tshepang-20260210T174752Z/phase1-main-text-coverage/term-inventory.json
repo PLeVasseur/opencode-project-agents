@@ -1,0 +1,5455 @@
+[
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 62,
+    "glossary_line": 16,
+    "term": "ABI",
+    "term_id": "abi"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 1403,
+    "glossary_line": 24,
+    "term": "ABI clobber",
+    "term_id": "abi_clobber"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 69,
+    "glossary_line": 37,
+    "term": "ABI kind",
+    "term_id": "abi_kind"
+  },
+  {
+    "chapter_file": "src/exceptions-and-errors.rst",
+    "chapter_line": 75,
+    "glossary_line": 48,
+    "term": "abort",
+    "term_id": "abort"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 730,
+    "glossary_line": 56,
+    "term": "abstract data type",
+    "term_id": "abstract_data_type"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 81,
+    "glossary_line": 64,
+    "term": "active attribute",
+    "term_id": "active_attribute"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2665,
+    "glossary_line": 73,
+    "term": "addition assignment",
+    "term_id": "addition_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2621,
+    "glossary_line": 81,
+    "term": "addition assignment expression",
+    "term_id": "addition_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1441,
+    "glossary_line": 93,
+    "term": "addition expression",
+    "term_id": "addition_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3471,
+    "glossary_line": 105,
+    "term": "adjusted call operand",
+    "term_id": "adjusted_call_operand"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1688,
+    "glossary_line": 113,
+    "term": "alignment",
+    "term_id": "alignment"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 935,
+    "glossary_line": 122,
+    "term": "all configuration predicate",
+    "term_id": "all_configuration_predicate"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3946,
+    "glossary_line": 134,
+    "term": "anonymous loop expression",
+    "term_id": "anonymous_loop_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1397,
+    "glossary_line": 143,
+    "term": "anonymous return type",
+    "term_id": "anonymous_return_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1401,
+    "glossary_line": 152,
+    "term": "anonymous type parameter",
+    "term_id": "anonymous_type_parameter"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 944,
+    "glossary_line": 161,
+    "term": "any configuration predicate",
+    "term_id": "any_configuration_predicate"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 58,
+    "glossary_line": 173,
+    "term": "Application Binary Interface",
+    "term_id": "application_binary_interface"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3462,
+    "glossary_line": 185,
+    "term": "argument operand",
+    "term_id": "argument_operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1434,
+    "glossary_line": 194,
+    "term": "arithmetic expression",
+    "term_id": "arithmetic_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1438,
+    "glossary_line": 206,
+    "term": "arithmetic operator",
+    "term_id": "arithmetic_operator"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5314,
+    "glossary_line": 214,
+    "term": "arithmetic overflow",
+    "term_id": "arithmetic_overflow"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 708,
+    "glossary_line": 224,
+    "term": "arity",
+    "term_id": "arity"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 574,
+    "glossary_line": 232,
+    "term": "array",
+    "term_id": "array"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2957,
+    "glossary_line": 240,
+    "term": "array element constructor",
+    "term_id": "array_element_constructor"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2954,
+    "glossary_line": 252,
+    "term": "array expression",
+    "term_id": "array_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2961,
+    "glossary_line": 263,
+    "term": "array repetition constructor",
+    "term_id": "array_repetition_constructor"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 570,
+    "glossary_line": 276,
+    "term": "array type",
+    "term_id": "array_type"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 987,
+    "glossary_line": 288,
+    "term": "assembly code block",
+    "term_id": "assembly_code_block"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 1241,
+    "glossary_line": 299,
+    "term": "assembly directive",
+    "term_id": "assembly_directive"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 978,
+    "glossary_line": 308,
+    "term": "assembly instruction",
+    "term_id": "assembly_instruction"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 1497,
+    "glossary_line": 320,
+    "term": "assembly option",
+    "term_id": "assembly_option"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2661,
+    "glossary_line": 332,
+    "term": "assigned operand",
+    "term_id": "assigned_operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 141,
+    "glossary_line": 344,
+    "term": "assignee expression",
+    "term_id": "assignee_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2401,
+    "glossary_line": 353,
+    "term": "assignee operand",
+    "term_id": "assignee_operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2398,
+    "glossary_line": 365,
+    "term": "assignment",
+    "term_id": "assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2394,
+    "glossary_line": 373,
+    "term": "assignment expression",
+    "term_id": "assignment_expression"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 32,
+    "glossary_line": 385,
+    "term": "associated constant",
+    "term_id": "associated_constant"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 36,
+    "glossary_line": 394,
+    "term": "associated function",
+    "term_id": "associated_function"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 85,
+    "glossary_line": 403,
+    "term": "associated implementation constant",
+    "term_id": "associated_implementation_constant"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 93,
+    "glossary_line": 412,
+    "term": "associated implementation function",
+    "term_id": "associated_implementation_function"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 100,
+    "glossary_line": 421,
+    "term": "associated implementation type",
+    "term_id": "associated_implementation_type"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 28,
+    "glossary_line": 430,
+    "term": "associated item",
+    "term_id": "associated_item"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 115,
+    "glossary_line": 442,
+    "term": "associated trait constant",
+    "term_id": "associated_trait_constant"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 119,
+    "glossary_line": 451,
+    "term": "associated trait function",
+    "term_id": "associated_trait_function"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 160,
+    "glossary_line": 460,
+    "term": "associated trait implementation function",
+    "term_id": "associated_trait_implementation_function"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 111,
+    "glossary_line": 469,
+    "term": "associated trait implementation item",
+    "term_id": "associated_trait_implementation_item"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 107,
+    "glossary_line": 478,
+    "term": "associated trait item",
+    "term_id": "associated_trait_item"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 131,
+    "glossary_line": 487,
+    "term": "associated trait type",
+    "term_id": "associated_trait_type"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 40,
+    "glossary_line": 496,
+    "term": "associated type",
+    "term_id": "associated_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 402,
+    "glossary_line": 505,
+    "term": "associated type projection",
+    "term_id": "associated_type_projection"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5083,
+    "glossary_line": 515,
+    "term": "associativity",
+    "term_id": "associativity"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 782,
+    "glossary_line": 524,
+    "term": "async block",
+    "term_id": "async_block"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 777,
+    "glossary_line": 532,
+    "term": "async block expression",
+    "term_id": "async_block_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3822,
+    "glossary_line": 545,
+    "term": "async closure expression",
+    "term_id": "async_closure_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3825,
+    "glossary_line": 556,
+    "term": "async closure type",
+    "term_id": "async_closure_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 789,
+    "glossary_line": 566,
+    "term": "async control flow boundary",
+    "term_id": "async_control_flow_boundary"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 183,
+    "glossary_line": 575,
+    "term": "async function",
+    "term_id": "async_function"
+  },
+  {
+    "chapter_file": "src/concurrency.rst",
+    "chapter_line": 78,
+    "glossary_line": 583,
+    "term": "atomic",
+    "term_id": "atomic"
+  },
+  {
+    "chapter_file": "src/concurrency.rst",
+    "chapter_line": 73,
+    "glossary_line": 591,
+    "term": "atomic type",
+    "term_id": "atomic_type"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 47,
+    "glossary_line": 600,
+    "term": "attribute",
+    "term_id": "attribute"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 59,
+    "glossary_line": 609,
+    "term": "attribute content",
+    "term_id": "attribute_content"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 449,
+    "glossary_line": 621,
+    "term": "attribute macro",
+    "term_id": "attribute_macro"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3075,
+    "glossary_line": 631,
+    "term": "auto trait",
+    "term_id": "auto_trait"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5006,
+    "glossary_line": 641,
+    "term": "await expression",
+    "term_id": "await_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3248,
+    "glossary_line": 653,
+    "term": "base initializer",
+    "term_id": "base_initializer"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2422,
+    "glossary_line": 666,
+    "term": "basic assignment",
+    "term_id": "basic_assignment"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 129,
+    "glossary_line": 675,
+    "term": "binary crate",
+    "term_id": "binary_crate"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 934,
+    "glossary_line": 683,
+    "term": "binary literal",
+    "term_id": "binary_literal"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 105,
+    "glossary_line": 694,
+    "term": "binary operator",
+    "term_id": "binary_operator"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1232,
+    "glossary_line": 702,
+    "term": "binding",
+    "term_id": "binding"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 374,
+    "glossary_line": 714,
+    "term": "binding argument",
+    "term_id": "binding_argument"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 378,
+    "glossary_line": 723,
+    "term": "binding bound argument",
+    "term_id": "binding_bound_argument"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1239,
+    "glossary_line": 732,
+    "term": "binding mode",
+    "term_id": "binding_mode"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1228,
+    "glossary_line": 741,
+    "term": "binding pattern",
+    "term_id": "binding_pattern"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 486,
+    "glossary_line": 750,
+    "term": "binding scope",
+    "term_id": "binding_scope"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2668,
+    "glossary_line": 758,
+    "term": "bit and assignment",
+    "term_id": "bit_and_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2625,
+    "glossary_line": 766,
+    "term": "bit and assignment expression",
+    "term_id": "bit_and_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1698,
+    "glossary_line": 778,
+    "term": "bit and expression",
+    "term_id": "bit_and_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1694,
+    "glossary_line": 790,
+    "term": "bit expression",
+    "term_id": "bit_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2671,
+    "glossary_line": 802,
+    "term": "bit or assignment",
+    "term_id": "bit_or_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2629,
+    "glossary_line": 810,
+    "term": "bit or assignment expression",
+    "term_id": "bit_or_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1714,
+    "glossary_line": 822,
+    "term": "bit or expression",
+    "term_id": "bit_or_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2674,
+    "glossary_line": 833,
+    "term": "bit xor assignment",
+    "term_id": "bit_xor_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2633,
+    "glossary_line": 841,
+    "term": "bit xor assignment expression",
+    "term_id": "bit_xor_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1730,
+    "glossary_line": 853,
+    "term": "bit xor expression",
+    "term_id": "bit_xor_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1354,
+    "glossary_line": 865,
+    "term": "block comment",
+    "term_id": "block_comment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 694,
+    "glossary_line": 876,
+    "term": "block expression",
+    "term_id": "block_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 182,
+    "glossary_line": 888,
+    "term": "bool",
+    "term_id": "bool"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1291,
+    "glossary_line": 897,
+    "term": "boolean literal",
+    "term_id": "boolean_literal"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 165,
+    "glossary_line": 909,
+    "term": "borrow",
+    "term_id": "borrow"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 992,
+    "glossary_line": 917,
+    "term": "borrow expression",
+    "term_id": "borrow_expression"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 168,
+    "glossary_line": 930,
+    "term": "borrowed",
+    "term_id": "borrowed"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 161,
+    "glossary_line": 939,
+    "term": "borrowing",
+    "term_id": "borrowing"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3230,
+    "glossary_line": 948,
+    "term": "bound",
+    "term_id": "bound"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 161,
+    "glossary_line": 960,
+    "term": "bound pattern",
+    "term_id": "bound_pattern"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4268,
+    "glossary_line": 972,
+    "term": "break expression",
+    "term_id": "break_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4302,
+    "glossary_line": 984,
+    "term": "break type",
+    "term_id": "break_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4316,
+    "glossary_line": 993,
+    "term": "break value",
+    "term_id": "break_value"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 169,
+    "glossary_line": 1002,
+    "term": "built-in attribute",
+    "term_id": "built_in_attribute"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3034,
+    "glossary_line": 1013,
+    "term": "built-in trait",
+    "term_id": "built_in_trait"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 611,
+    "glossary_line": 1021,
+    "term": "byte literal",
+    "term_id": "byte_literal"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 640,
+    "glossary_line": 1032,
+    "term": "byte string literal",
+    "term_id": "byte_string_literal"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 65,
+    "glossary_line": 1044,
+    "term": "C",
+    "term_id": "c"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1823,
+    "glossary_line": 1053,
+    "term": "C representation",
+    "term_id": "c_representation"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1882,
+    "glossary_line": 1062,
+    "term": "C signed int type",
+    "term_id": "c_signed_int_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 741,
+    "glossary_line": 1070,
+    "term": "c string literal",
+    "term_id": "c_string_literal"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3573,
+    "glossary_line": 1082,
+    "term": "Call conformance",
+    "term_id": "call_conformance"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3458,
+    "glossary_line": 1092,
+    "term": "call expression",
+    "term_id": "call_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3466,
+    "glossary_line": 1104,
+    "term": "call operand",
+    "term_id": "call_operand"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1485,
+    "glossary_line": 1117,
+    "term": "call resolution",
+    "term_id": "call_resolution"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1091,
+    "glossary_line": 1127,
+    "term": "call site hygiene",
+    "term_id": "call_site_hygiene"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3479,
+    "glossary_line": 1138,
+    "term": "callee type",
+    "term_id": "callee_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5249,
+    "glossary_line": 1149,
+    "term": "capture mode",
+    "term_id": "capture_mode"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5231,
+    "glossary_line": 1157,
+    "term": "capture target",
+    "term_id": "capture_target"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5239,
+    "glossary_line": 1166,
+    "term": "capturing",
+    "term_id": "capturing"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5235,
+    "glossary_line": 1175,
+    "term": "capturing environment",
+    "term_id": "capturing_environment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5227,
+    "glossary_line": 1184,
+    "term": "capturing expression",
+    "term_id": "capturing_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2185,
+    "glossary_line": 1193,
+    "term": "cast",
+    "term_id": "cast"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 367,
+    "glossary_line": 1202,
+    "term": "char",
+    "term_id": "char"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1153,
+    "glossary_line": 1210,
+    "term": "character literal",
+    "term_id": "character_literal"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3841,
+    "glossary_line": 1222,
+    "term": "closure body",
+    "term_id": "closure_body"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3818,
+    "glossary_line": 1234,
+    "term": "closure expression",
+    "term_id": "closure_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3851,
+    "glossary_line": 1246,
+    "term": "closure parameter",
+    "term_id": "closure_parameter"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1095,
+    "glossary_line": 1259,
+    "term": "closure type",
+    "term_id": "closure_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 34,
+    "glossary_line": 1268,
+    "term": "code point",
+    "term_id": "code_point"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1350,
+    "glossary_line": 1277,
+    "term": "comment",
+    "term_id": "comment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1912,
+    "glossary_line": 1289,
+    "term": "comparison expression",
+    "term_id": "comparison_expression"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 220,
+    "glossary_line": 1301,
+    "term": "compilation root",
+    "term_id": "compilation_root"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2618,
+    "glossary_line": 1309,
+    "term": "compound assignment",
+    "term_id": "compound_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2613,
+    "glossary_line": 1317,
+    "term": "compound assignment expression",
+    "term_id": "compound_assignment_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 63,
+    "glossary_line": 1330,
+    "term": "concrete type",
+    "term_id": "concrete_type"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 236,
+    "glossary_line": 1338,
+    "term": "conditional compilation",
+    "term_id": "conditional_compilation"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 231,
+    "glossary_line": 1347,
+    "term": "conditionally-compiled source code",
+    "term_id": "conditionally_compiled_source_code"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 931,
+    "glossary_line": 1356,
+    "term": "configuration predicate",
+    "term_id": "configuration_predicate"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 837,
+    "glossary_line": 1368,
+    "term": "const block expression",
+    "term_id": "const_block_expression"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 104,
+    "glossary_line": 1378,
+    "term": "constant",
+    "term_id": "constant"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 388,
+    "glossary_line": 1390,
+    "term": "constant argument",
+    "term_id": "constant_argument"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 304,
+    "glossary_line": 1402,
+    "term": "constant context",
+    "term_id": "constant_context"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 179,
+    "glossary_line": 1411,
+    "term": "constant expression",
+    "term_id": "constant_expression"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 173,
+    "glossary_line": 1420,
+    "term": "constant function",
+    "term_id": "constant_function"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 120,
+    "glossary_line": 1428,
+    "term": "constant initializer",
+    "term_id": "constant_initializer"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 84,
+    "glossary_line": 1440,
+    "term": "constant parameter",
+    "term_id": "constant_parameter"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 87,
+    "glossary_line": 1451,
+    "term": "constant parameter initializer",
+    "term_id": "constant_parameter_initializer"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 305,
+    "glossary_line": 1463,
+    "term": "constant promotion",
+    "term_id": "constant_promotion"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 129,
+    "glossary_line": 1472,
+    "term": "constrain",
+    "term_id": "constrain"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 26,
+    "glossary_line": 1481,
+    "term": "construct",
+    "term_id": "construct"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3244,
+    "glossary_line": 1490,
+    "term": "constructee",
+    "term_id": "constructee"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3718,
+    "glossary_line": 1499,
+    "term": "container operand",
+    "term_id": "container_operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4382,
+    "glossary_line": 1511,
+    "term": "continue expression",
+    "term_id": "continue_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 785,
+    "glossary_line": 1523,
+    "term": "control flow boundary",
+    "term_id": "control_flow_boundary"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 278,
+    "glossary_line": 1533,
+    "term": "copy type",
+    "term_id": "copy_type"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 113,
+    "glossary_line": 1542,
+    "term": "crate",
+    "term_id": "crate"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 175,
+    "glossary_line": 1551,
+    "term": "crate import",
+    "term_id": "crate_import"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 178,
+    "glossary_line": 1562,
+    "term": "crate indication",
+    "term_id": "crate_indication"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 167,
+    "glossary_line": 1573,
+    "term": "crate public modifier",
+    "term_id": "crate_public_modifier"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 214,
+    "glossary_line": 1585,
+    "term": "crate root",
+    "term_id": "crate_root"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 210,
+    "glossary_line": 1593,
+    "term": "crate root module",
+    "term_id": "crate_root_module"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 1178,
+    "glossary_line": 1602,
+    "term": "crate type",
+    "term_id": "crate_type"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 62,
+    "glossary_line": 1612,
+    "term": "dangling",
+    "term_id": "dangling"
+  },
+  {
+    "chapter_file": "src/concurrency.rst",
+    "chapter_line": 18,
+    "glossary_line": 1622,
+    "term": "data race",
+    "term_id": "data_race"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 937,
+    "glossary_line": 1631,
+    "term": "decimal literal",
+    "term_id": "decimal_literal"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 46,
+    "glossary_line": 1642,
+    "term": "declaration",
+    "term_id": "declaration"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 74,
+    "glossary_line": 1651,
+    "term": "declarative macro",
+    "term_id": "declarative_macro"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 754,
+    "glossary_line": 1663,
+    "term": "deconstructee",
+    "term_id": "deconstructee"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1827,
+    "glossary_line": 1675,
+    "term": "default representation",
+    "term_id": "default_representation"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1085,
+    "glossary_line": 1684,
+    "term": "definition site hygiene",
+    "term_id": "definition_site_hygiene"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1125,
+    "glossary_line": 1696,
+    "term": "dereference",
+    "term_id": "dereference"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1121,
+    "glossary_line": 1705,
+    "term": "dereference expression",
+    "term_id": "dereference_expression"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1247,
+    "glossary_line": 1717,
+    "term": "dereference type",
+    "term_id": "dereference_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1251,
+    "glossary_line": 1726,
+    "term": "dereference type chain",
+    "term_id": "dereference_type_chain"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 387,
+    "glossary_line": 1734,
+    "term": "derive macro",
+    "term_id": "derive_macro"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 370,
+    "glossary_line": 1744,
+    "term": "destruction",
+    "term_id": "destruction"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 385,
+    "glossary_line": 1753,
+    "term": "destructor",
+    "term_id": "destructor"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2459,
+    "glossary_line": 1762,
+    "term": "destructuring assignment",
+    "term_id": "destructuring_assignment"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 687,
+    "glossary_line": 1772,
+    "term": "direction modifier",
+    "term_id": "direction_modifier"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 807,
+    "glossary_line": 1785,
+    "term": "discriminant",
+    "term_id": "discriminant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 810,
+    "glossary_line": 1793,
+    "term": "discriminant initializer",
+    "term_id": "discriminant_initializer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1869,
+    "glossary_line": 1804,
+    "term": "discriminant type",
+    "term_id": "discriminant_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 376,
+    "glossary_line": 1812,
+    "term": "diverging expression",
+    "term_id": "diverging_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2645,
+    "glossary_line": 1821,
+    "term": "diverging type variable",
+    "term_id": "diverging_type_variable"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2677,
+    "glossary_line": 1830,
+    "term": "division assignment",
+    "term_id": "division_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2637,
+    "glossary_line": 1838,
+    "term": "division assignment expression",
+    "term_id": "division_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1457,
+    "glossary_line": 1850,
+    "term": "division expression",
+    "term_id": "division_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1384,
+    "glossary_line": 1861,
+    "term": "doc comment",
+    "term_id": "doc_comment"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 485,
+    "glossary_line": 1871,
+    "term": "drop construct",
+    "term_id": "drop_construct"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 481,
+    "glossary_line": 1879,
+    "term": "drop order",
+    "term_id": "drop_order"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 475,
+    "glossary_line": 1888,
+    "term": "drop scope",
+    "term_id": "drop_scope"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 610,
+    "glossary_line": 1897,
+    "term": "drop scope extension",
+    "term_id": "drop_scope_extension"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 381,
+    "glossary_line": 1907,
+    "term": "drop type",
+    "term_id": "drop_type"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 389,
+    "glossary_line": 1916,
+    "term": "dropping",
+    "term_id": "dropping"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1675,
+    "glossary_line": 1925,
+    "term": "dynamically sized type",
+    "term_id": "dynamically_sized_type"
+  },
+  {
+    "chapter_file": "src/items.rst",
+    "chapter_line": 53,
+    "glossary_line": 1934,
+    "term": "elaboration",
+    "term_id": "elaboration"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 577,
+    "glossary_line": 1943,
+    "term": "element type",
+    "term_id": "element_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3549,
+    "glossary_line": 1955,
+    "term": "elided",
+    "term_id": "elided"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3555,
+    "glossary_line": 1963,
+    "term": "elided lifetime",
+    "term_id": "elided_lifetime"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4601,
+    "glossary_line": 1973,
+    "term": "else expression",
+    "term_id": "else_expression"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 34,
+    "glossary_line": 1985,
+    "term": "empty statement",
+    "term_id": "empty_statement"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 30,
+    "glossary_line": 1994,
+    "term": "entity",
+    "term_id": "entity"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 764,
+    "glossary_line": 2003,
+    "term": "enum",
+    "term_id": "enum"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 800,
+    "glossary_line": 2011,
+    "term": "enum field",
+    "term_id": "enum_field"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 767,
+    "glossary_line": 2019,
+    "term": "enum type",
+    "term_id": "enum_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 771,
+    "glossary_line": 2031,
+    "term": "enum value",
+    "term_id": "enum_value"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 782,
+    "glossary_line": 2039,
+    "term": "enum variant",
+    "term_id": "enum_variant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 774,
+    "glossary_line": 2051,
+    "term": "enum variant value",
+    "term_id": "enum_variant_value"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1923,
+    "glossary_line": 2060,
+    "term": "equals expression",
+    "term_id": "equals_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1209,
+    "glossary_line": 2071,
+    "term": "error propagation expression",
+    "term_id": "error_propagation_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1132,
+    "glossary_line": 2084,
+    "term": "escaped character",
+    "term_id": "escaped_character"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 126,
+    "glossary_line": 2096,
+    "term": "evaluated",
+    "term_id": "evaluated"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 122,
+    "glossary_line": 2104,
+    "term": "evaluation",
+    "term_id": "evaluation"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 494,
+    "glossary_line": 2113,
+    "term": "exclusive range pattern",
+    "term_id": "exclusive_range_pattern"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 48,
+    "glossary_line": 2125,
+    "term": "executed",
+    "term_id": "executed"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 44,
+    "glossary_line": 2133,
+    "term": "execution",
+    "term_id": "execution"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 671,
+    "glossary_line": 2142,
+    "term": "explicit register argument",
+    "term_id": "explicit_register_argument"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 128,
+    "glossary_line": 2151,
+    "term": "explicit register name",
+    "term_id": "explicit_register_name"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 50,
+    "glossary_line": 2163,
+    "term": "explicitly declared entity",
+    "term_id": "explicitly_declared_entity"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 1491,
+    "glossary_line": 2172,
+    "term": "exported function",
+    "term_id": "exported_function"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 1495,
+    "glossary_line": 2180,
+    "term": "exported static",
+    "term_id": "exported_static"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 78,
+    "glossary_line": 2188,
+    "term": "expression",
+    "term_id": "expression"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 28,
+    "glossary_line": 2200,
+    "term": "expression statement",
+    "term_id": "expression_statement"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 82,
+    "glossary_line": 2211,
+    "term": "expression-with-block",
+    "term_id": "expression_with_block"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 86,
+    "glossary_line": 2223,
+    "term": "expression-without-block",
+    "term_id": "expression_without_block"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 190,
+    "glossary_line": 2235,
+    "term": "external block",
+    "term_id": "external_block"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 228,
+    "glossary_line": 2247,
+    "term": "external function",
+    "term_id": "external_function"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1145,
+    "glossary_line": 2255,
+    "term": "external function item type",
+    "term_id": "external_function_item_type"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 263,
+    "glossary_line": 2264,
+    "term": "external static",
+    "term_id": "external_static"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 403,
+    "glossary_line": 2272,
+    "term": "f32",
+    "term_id": "f32"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 407,
+    "glossary_line": 2281,
+    "term": "f64",
+    "term_id": "f64"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1685,
+    "glossary_line": 2290,
+    "term": "fat pointer",
+    "term_id": "fat_pointer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1682,
+    "glossary_line": 2298,
+    "term": "fat pointer type",
+    "term_id": "fat_pointer_type"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 19,
+    "glossary_line": 2306,
+    "term": "FFI",
+    "term_id": "ffi"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 733,
+    "glossary_line": 2314,
+    "term": "field",
+    "term_id": "field"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3714,
+    "glossary_line": 2322,
+    "term": "field access expression",
+    "term_id": "field_access_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 977,
+    "glossary_line": 2334,
+    "term": "field index",
+    "term_id": "field_index"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 922,
+    "glossary_line": 2347,
+    "term": "field list",
+    "term_id": "field_list"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1272,
+    "glossary_line": 2355,
+    "term": "field resolution",
+    "term_id": "field_resolution"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3722,
+    "glossary_line": 2364,
+    "term": "field selector",
+    "term_id": "field_selector"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4797,
+    "glossary_line": 2376,
+    "term": "final match arm",
+    "term_id": "final_match_arm"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1668,
+    "glossary_line": 2387,
+    "term": "fixed sized type",
+    "term_id": "fixed_sized_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1057,
+    "glossary_line": 2396,
+    "term": "float literal",
+    "term_id": "float_literal"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1060,
+    "glossary_line": 2408,
+    "term": "float suffix",
+    "term_id": "float_suffix"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 396,
+    "glossary_line": 2420,
+    "term": "floating-point type",
+    "term_id": "floating_point_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2641,
+    "glossary_line": 2429,
+    "term": "floating-point type variable",
+    "term_id": "floating_point_type_variable"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 400,
+    "glossary_line": 2438,
+    "term": "floating-point value",
+    "term_id": "floating_point_value"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3973,
+    "glossary_line": 2446,
+    "term": "for loop",
+    "term_id": "for_loop"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3976,
+    "glossary_line": 2454,
+    "term": "for loop expression",
+    "term_id": "for_loop_expression"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 14,
+    "glossary_line": 2467,
+    "term": "Foreign Function Interface",
+    "term_id": "foreign_function_interface"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 154,
+    "glossary_line": 2477,
+    "term": "fragment specifier",
+    "term_id": "fragment_specifier"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4509,
+    "glossary_line": 2489,
+    "term": "full range expression",
+    "term_id": "full_range_expression"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 52,
+    "glossary_line": 2498,
+    "term": "function",
+    "term_id": "function"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 153,
+    "glossary_line": 2509,
+    "term": "function body",
+    "term_id": "function_body"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1141,
+    "glossary_line": 2520,
+    "term": "function item type",
+    "term_id": "function_item_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3593,
+    "glossary_line": 2529,
+    "term": "function lifetime elision",
+    "term_id": "function_lifetime_elision"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 66,
+    "glossary_line": 2540,
+    "term": "function parameter",
+    "term_id": "function_parameter"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1213,
+    "glossary_line": 2553,
+    "term": "function pointer type",
+    "term_id": "function_pointer_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1217,
+    "glossary_line": 2565,
+    "term": "function pointer type parameter",
+    "term_id": "function_pointer_type_parameter"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 58,
+    "glossary_line": 2577,
+    "term": "function qualifier",
+    "term_id": "function_qualifier"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 167,
+    "glossary_line": 2589,
+    "term": "function signature",
+    "term_id": "function_signature"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1084,
+    "glossary_line": 2600,
+    "term": "function type",
+    "term_id": "function_type"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 335,
+    "glossary_line": 2609,
+    "term": "function-like macro",
+    "term_id": "function_like_macro"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 167,
+    "glossary_line": 2618,
+    "term": "fundamental",
+    "term_id": "fundamental"
+  },
+  {
+    "chapter_file": "src/concurrency.rst",
+    "chapter_line": 137,
+    "glossary_line": 2628,
+    "term": "future",
+    "term_id": "future"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5010,
+    "glossary_line": 2638,
+    "term": "future operand",
+    "term_id": "future_operand"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 356,
+    "glossary_line": 2650,
+    "term": "generic argument",
+    "term_id": "generic_argument"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 64,
+    "glossary_line": 2662,
+    "term": "generic associated type",
+    "term_id": "generic_associated_type"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 437,
+    "glossary_line": 2671,
+    "term": "generic conformance",
+    "term_id": "generic_conformance"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 59,
+    "glossary_line": 2680,
+    "term": "generic enum",
+    "term_id": "generic_enum"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 62,
+    "glossary_line": 2688,
+    "term": "generic function",
+    "term_id": "generic_function"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 65,
+    "glossary_line": 2696,
+    "term": "generic implementation",
+    "term_id": "generic_implementation"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 50,
+    "glossary_line": 2705,
+    "term": "generic parameter",
+    "term_id": "generic_parameter"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 525,
+    "glossary_line": 2718,
+    "term": "generic parameter scope",
+    "term_id": "generic_parameter_scope"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 72,
+    "glossary_line": 2726,
+    "term": "generic struct",
+    "term_id": "generic_struct"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 360,
+    "glossary_line": 2734,
+    "term": "generic substitution",
+    "term_id": "generic_substitution"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 75,
+    "glossary_line": 2743,
+    "term": "generic trait",
+    "term_id": "generic_trait"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 69,
+    "glossary_line": 2751,
+    "term": "generic type",
+    "term_id": "generic_type"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 78,
+    "glossary_line": 2759,
+    "term": "generic type alias",
+    "term_id": "generic_type_alias"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 81,
+    "glossary_line": 2767,
+    "term": "generic union",
+    "term_id": "generic_union"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1074,
+    "glossary_line": 2775,
+    "term": "glob import",
+    "term_id": "glob_import"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 326,
+    "glossary_line": 2787,
+    "term": "global path",
+    "term_id": "global_path"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2633,
+    "glossary_line": 2796,
+    "term": "global type variable",
+    "term_id": "global_type_variable"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1935,
+    "glossary_line": 2805,
+    "term": "greater-than expression",
+    "term_id": "greater_than_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1948,
+    "glossary_line": 2817,
+    "term": "greater-than-or-equals expression",
+    "term_id": "greater_than_or_equals_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 486,
+    "glossary_line": 2829,
+    "term": "half-open range pattern",
+    "term_id": "half_open_range_pattern"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 940,
+    "glossary_line": 2841,
+    "term": "hexadecimal literal",
+    "term_id": "hexadecimal_literal"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3250,
+    "glossary_line": 2852,
+    "term": "higher-ranked trait bound",
+    "term_id": "higher_ranked_trait_bound"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1075,
+    "glossary_line": 2864,
+    "term": "hygiene",
+    "term_id": "hygiene"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1103,
+    "glossary_line": 2874,
+    "term": "hygienic",
+    "term_id": "hygienic"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 521,
+    "glossary_line": 2882,
+    "term": "i8",
+    "term_id": "i8"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 525,
+    "glossary_line": 2891,
+    "term": "i16",
+    "term_id": "i16"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 529,
+    "glossary_line": 2900,
+    "term": "i32",
+    "term_id": "i32"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 533,
+    "glossary_line": 2909,
+    "term": "i64",
+    "term_id": "i64"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 537,
+    "glossary_line": 2918,
+    "term": "i128",
+    "term_id": "i128"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 488,
+    "glossary_line": 2927,
+    "term": "identifier",
+    "term_id": "identifier"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 157,
+    "glossary_line": 2938,
+    "term": "identifier pattern",
+    "term_id": "identifier_pattern"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4596,
+    "glossary_line": 2950,
+    "term": "if expression",
+    "term_id": "if_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4679,
+    "glossary_line": 2963,
+    "term": "if let expression",
+    "term_id": "if_let_expression"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 21,
+    "glossary_line": 2976,
+    "term": "immutable",
+    "term_id": "immutable"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 201,
+    "glossary_line": 2984,
+    "term": "immutable borrow",
+    "term_id": "immutable_borrow"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 997,
+    "glossary_line": 2993,
+    "term": "immutable borrow expression",
+    "term_id": "immutable_borrow_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 476,
+    "glossary_line": 3002,
+    "term": "immutable place expression",
+    "term_id": "immutable_place_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 560,
+    "glossary_line": 3012,
+    "term": "immutable place expression context",
+    "term_id": "immutable_place_expression_context"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1277,
+    "glossary_line": 3021,
+    "term": "immutable raw pointer type",
+    "term_id": "immutable_raw_pointer_type"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 121,
+    "glossary_line": 3030,
+    "term": "immutable reference",
+    "term_id": "immutable_reference"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 194,
+    "glossary_line": 3039,
+    "term": "immutable static",
+    "term_id": "immutable_static"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 269,
+    "glossary_line": 3047,
+    "term": "immutable variable",
+    "term_id": "immutable_variable"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3778,
+    "glossary_line": 3056,
+    "term": "impl header lifetime elision",
+    "term_id": "impl_header_lifetime_elision"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1389,
+    "glossary_line": 3066,
+    "term": "impl trait type",
+    "term_id": "impl_trait_type"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 40,
+    "glossary_line": 3078,
+    "term": "implementation",
+    "term_id": "implementation"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 52,
+    "glossary_line": 3090,
+    "term": "implementation body",
+    "term_id": "implementation_body"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 139,
+    "glossary_line": 3103,
+    "term": "implementation coherence",
+    "term_id": "implementation_coherence"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 209,
+    "glossary_line": 3112,
+    "term": "implementation conformance",
+    "term_id": "implementation_conformance"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 73,
+    "glossary_line": 3121,
+    "term": "implemented trait",
+    "term_id": "implemented_trait"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 44,
+    "glossary_line": 3133,
+    "term": "implementing type",
+    "term_id": "implementing_type"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 172,
+    "glossary_line": 3145,
+    "term": "implicit borrow",
+    "term_id": "implicit_borrow"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 106,
+    "glossary_line": 3154,
+    "term": "implicitly declared entity",
+    "term_id": "implicitly_declared_entity"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3270,
+    "glossary_line": 3163,
+    "term": "implied bound",
+    "term_id": "implied_bound"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 476,
+    "glossary_line": 3171,
+    "term": "in scope",
+    "term_id": "in_scope"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 490,
+    "glossary_line": 3179,
+    "term": "inclusive range pattern",
+    "term_id": "inclusive_range_pattern"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 44,
+    "glossary_line": 3191,
+    "term": "incomplete associated constant",
+    "term_id": "incomplete_associated_constant"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 48,
+    "glossary_line": 3200,
+    "term": "incomplete associated function",
+    "term_id": "incomplete_associated_function"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 52,
+    "glossary_line": 3209,
+    "term": "incomplete associated type",
+    "term_id": "incomplete_associated_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3070,
+    "glossary_line": 3218,
+    "term": "index expression",
+    "term_id": "index_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3066,
+    "glossary_line": 3230,
+    "term": "indexable type",
+    "term_id": "indexable_type"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 828,
+    "glossary_line": 3239,
+    "term": "indexed deconstructor",
+    "term_id": "indexed_deconstructor"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1293,
+    "glossary_line": 3251,
+    "term": "indexed field selector",
+    "term_id": "indexed_field_selector"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3258,
+    "glossary_line": 3263,
+    "term": "indexed initializer",
+    "term_id": "indexed_initializer"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3074,
+    "glossary_line": 3275,
+    "term": "indexed operand",
+    "term_id": "indexed_operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3078,
+    "glossary_line": 3288,
+    "term": "indexing operand",
+    "term_id": "indexing_operand"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1168,
+    "glossary_line": 3300,
+    "term": "indirection type",
+    "term_id": "indirection_type"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 85,
+    "glossary_line": 3309,
+    "term": "inert attribute",
+    "term_id": "inert_attribute"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1505,
+    "glossary_line": 3318,
+    "term": "inferred type",
+    "term_id": "inferred_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4051,
+    "glossary_line": 3330,
+    "term": "infinite loop",
+    "term_id": "infinite_loop"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4054,
+    "glossary_line": 3338,
+    "term": "infinite loop expression",
+    "term_id": "infinite_loop_expression"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 57,
+    "glossary_line": 3350,
+    "term": "inherent implementation",
+    "term_id": "inherent_implementation"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 27,
+    "glossary_line": 3362,
+    "term": "initialization",
+    "term_id": "initialization"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2501,
+    "glossary_line": 3371,
+    "term": "initialization expression",
+    "term_id": "initialization_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1631,
+    "glossary_line": 3380,
+    "term": "initialization type",
+    "term_id": "initialization_type"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 16,
+    "glossary_line": 3392,
+    "term": "inline assembly",
+    "term_id": "inline_assembly"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 80,
+    "glossary_line": 3401,
+    "term": "inline module",
+    "term_id": "inline_module"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 51,
+    "glossary_line": 3412,
+    "term": "inner attribute",
+    "term_id": "inner_attribute"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1360,
+    "glossary_line": 3424,
+    "term": "inner block doc",
+    "term_id": "inner_block_doc"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1368,
+    "glossary_line": 3436,
+    "term": "inner doc comment",
+    "term_id": "inner_doc_comment"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1364,
+    "glossary_line": 3445,
+    "term": "inner line doc",
+    "term_id": "inner_line_doc"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 108,
+    "glossary_line": 3457,
+    "term": "input register",
+    "term_id": "input_register"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 692,
+    "glossary_line": 3467,
+    "term": "input register expression",
+    "term_id": "input_register_expression"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 703,
+    "glossary_line": 3479,
+    "term": "input-output register expression",
+    "term_id": "input_output_register_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 931,
+    "glossary_line": 3491,
+    "term": "integer literal",
+    "term_id": "integer_literal"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 946,
+    "glossary_line": 3502,
+    "term": "integer suffix",
+    "term_id": "integer_suffix"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 423,
+    "glossary_line": 3514,
+    "term": "integer type",
+    "term_id": "integer_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2637,
+    "glossary_line": 3523,
+    "term": "integer type variable",
+    "term_id": "integer_type_variable"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2500,
+    "glossary_line": 3532,
+    "term": "interior mutability",
+    "term_id": "interior_mutability"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4793,
+    "glossary_line": 3541,
+    "term": "intermediate match arm",
+    "term_id": "intermediate_match_arm"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 113,
+    "glossary_line": 3553,
+    "term": "irrefutable constant",
+    "term_id": "irrefutable_constant"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 102,
+    "glossary_line": 3563,
+    "term": "irrefutable pattern",
+    "term_id": "irrefutable_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 541,
+    "glossary_line": 3572,
+    "term": "isize",
+    "term_id": "isize"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 34,
+    "glossary_line": 3581,
+    "term": "item",
+    "term_id": "item"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 578,
+    "glossary_line": 3593,
+    "term": "item scope",
+    "term_id": "item_scope"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 31,
+    "glossary_line": 3601,
+    "term": "item statement",
+    "term_id": "item_statement"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4126,
+    "glossary_line": 3609,
+    "term": "iteration expression",
+    "term_id": "iteration_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1464,
+    "glossary_line": 3621,
+    "term": "keyword",
+    "term_id": "keyword"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3943,
+    "glossary_line": 3632,
+    "term": "label",
+    "term_id": "label"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4245,
+    "glossary_line": 3643,
+    "term": "label indication",
+    "term_id": "label_indication"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 598,
+    "glossary_line": 3654,
+    "term": "label scope",
+    "term_id": "label_scope"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1700,
+    "glossary_line": 3662,
+    "term": "layout",
+    "term_id": "layout"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2113,
+    "glossary_line": 3671,
+    "term": "lazy and expression",
+    "term_id": "lazy_and_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2109,
+    "glossary_line": 3683,
+    "term": "lazy boolean expression",
+    "term_id": "lazy_boolean_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2117,
+    "glossary_line": 3695,
+    "term": "lazy or expression",
+    "term_id": "lazy_or_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 97,
+    "glossary_line": 3707,
+    "term": "left operand",
+    "term_id": "left_operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1962,
+    "glossary_line": 3719,
+    "term": "less-than expression",
+    "term_id": "less_than_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1975,
+    "glossary_line": 3731,
+    "term": "less-than-or-equals expression",
+    "term_id": "less_than_or_equals_expression"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 76,
+    "glossary_line": 3744,
+    "term": "let binding",
+    "term_id": "let_binding"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 80,
+    "glossary_line": 3752,
+    "term": "let initializer",
+    "term_id": "let_initializer"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 71,
+    "glossary_line": 3765,
+    "term": "let statement",
+    "term_id": "let_statement"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 176,
+    "glossary_line": 3778,
+    "term": "lexical element",
+    "term_id": "lexical_element"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 142,
+    "glossary_line": 3787,
+    "term": "library crate",
+    "term_id": "library_crate"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3320,
+    "glossary_line": 3796,
+    "term": "lifetime",
+    "term_id": "lifetime"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 397,
+    "glossary_line": 3807,
+    "term": "lifetime argument",
+    "term_id": "lifetime_argument"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3238,
+    "glossary_line": 3819,
+    "term": "lifetime bound",
+    "term_id": "lifetime_bound"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 290,
+    "glossary_line": 3831,
+    "term": "lifetime bound predicate",
+    "term_id": "lifetime_bound_predicate"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3544,
+    "glossary_line": 3843,
+    "term": "lifetime elision",
+    "term_id": "lifetime_elision"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 98,
+    "glossary_line": 3853,
+    "term": "lifetime parameter",
+    "term_id": "lifetime_parameter"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2649,
+    "glossary_line": 3864,
+    "term": "lifetime variable",
+    "term_id": "lifetime_variable"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 182,
+    "glossary_line": 3874,
+    "term": "line",
+    "term_id": "line"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1357,
+    "glossary_line": 3883,
+    "term": "line comment",
+    "term_id": "line_comment"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 575,
+    "glossary_line": 3894,
+    "term": "literal",
+    "term_id": "literal"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 608,
+    "glossary_line": 3905,
+    "term": "literal expression",
+    "term_id": "literal_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 278,
+    "glossary_line": 3916,
+    "term": "literal pattern",
+    "term_id": "literal_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3048,
+    "glossary_line": 3927,
+    "term": "local trait",
+    "term_id": "local_trait"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 60,
+    "glossary_line": 3935,
+    "term": "local type",
+    "term_id": "local_type"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 266,
+    "glossary_line": 3943,
+    "term": "local variable",
+    "term_id": "local_variable"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3934,
+    "glossary_line": 3951,
+    "term": "loop",
+    "term_id": "loop"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3937,
+    "glossary_line": 3959,
+    "term": "loop body",
+    "term_id": "loop_body"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3930,
+    "glossary_line": 3970,
+    "term": "loop expression",
+    "term_id": "loop_expression"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 14,
+    "glossary_line": 3982,
+    "term": "macro",
+    "term_id": "macro"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 610,
+    "glossary_line": 3991,
+    "term": "macro expansion",
+    "term_id": "macro_expansion"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 320,
+    "glossary_line": 4001,
+    "term": "macro implementation function",
+    "term_id": "macro_implementation_function"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 546,
+    "glossary_line": 4010,
+    "term": "macro invocation",
+    "term_id": "macro_invocation"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 86,
+    "glossary_line": 4023,
+    "term": "macro match",
+    "term_id": "macro_match"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 82,
+    "glossary_line": 4034,
+    "term": "macro matcher",
+    "term_id": "macro_matcher"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 781,
+    "glossary_line": 4046,
+    "term": "macro matching",
+    "term_id": "macro_matching"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 245,
+    "glossary_line": 4055,
+    "term": "macro repetition",
+    "term_id": "macro_repetition"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 237,
+    "glossary_line": 4064,
+    "term": "macro repetition in matching",
+    "term_id": "macro_repetition_in_matching"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 241,
+    "glossary_line": 4076,
+    "term": "macro repetition in transcription",
+    "term_id": "macro_repetition_in_transcription"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 78,
+    "glossary_line": 4088,
+    "term": "macro rule",
+    "term_id": "macro_rule"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 38,
+    "glossary_line": 4100,
+    "term": "macro statement",
+    "term_id": "macro_statement"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 89,
+    "glossary_line": 4109,
+    "term": "macro transcriber",
+    "term_id": "macro_transcriber"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 950,
+    "glossary_line": 4121,
+    "term": "macro transcription",
+    "term_id": "macro_transcription"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 266,
+    "glossary_line": 4130,
+    "term": "main function signature",
+    "term_id": "main_function_signature"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4789,
+    "glossary_line": 4139,
+    "term": "match arm",
+    "term_id": "match_arm"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4807,
+    "glossary_line": 4148,
+    "term": "match arm body",
+    "term_id": "match_arm_body"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4810,
+    "glossary_line": 4156,
+    "term": "match arm guard",
+    "term_id": "match_arm_guard"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4800,
+    "glossary_line": 4168,
+    "term": "match arm matcher",
+    "term_id": "match_arm_matcher"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4784,
+    "glossary_line": 4180,
+    "term": "match expression",
+    "term_id": "match_expression"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 147,
+    "glossary_line": 4193,
+    "term": "metavariable",
+    "term_id": "metavariable"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 195,
+    "glossary_line": 4204,
+    "term": "metavariable indication",
+    "term_id": "metavariable_indication"
+  },
+  {
+    "chapter_file": "src/associated-items.rst",
+    "chapter_line": 170,
+    "glossary_line": 4216,
+    "term": "method",
+    "term_id": "method"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3607,
+    "glossary_line": 4224,
+    "term": "method call expression",
+    "term_id": "method_call_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3615,
+    "glossary_line": 4236,
+    "term": "method operand",
+    "term_id": "method_operand"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1356,
+    "glossary_line": 4248,
+    "term": "method resolution",
+    "term_id": "method_resolution"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1097,
+    "glossary_line": 4257,
+    "term": "mixed site hygiene",
+    "term_id": "mixed_site_hygiene"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2695,
+    "glossary_line": 4268,
+    "term": "modifying operand",
+    "term_id": "modifying_operand"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 73,
+    "glossary_line": 4280,
+    "term": "module",
+    "term_id": "module"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 287,
+    "glossary_line": 4291,
+    "term": "move type",
+    "term_id": "move_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 359,
+    "glossary_line": 4300,
+    "term": "multi segment path",
+    "term_id": "multi_segment_path"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2680,
+    "glossary_line": 4309,
+    "term": "multiplication assignment",
+    "term_id": "multiplication_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2641,
+    "glossary_line": 4318,
+    "term": "multiplication assignment expression",
+    "term_id": "multiplication_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1473,
+    "glossary_line": 4330,
+    "term": "multiplication expression",
+    "term_id": "multiplication_expression"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 18,
+    "glossary_line": 4342,
+    "term": "mutability",
+    "term_id": "mutability"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 24,
+    "glossary_line": 4350,
+    "term": "mutable",
+    "term_id": "mutable"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 164,
+    "glossary_line": 4358,
+    "term": "mutable assignee expression",
+    "term_id": "mutable_assignee_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1236,
+    "glossary_line": 4367,
+    "term": "mutable binding",
+    "term_id": "mutable_binding"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 209,
+    "glossary_line": 4375,
+    "term": "mutable borrow",
+    "term_id": "mutable_borrow"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1001,
+    "glossary_line": 4383,
+    "term": "mutable borrow expression",
+    "term_id": "mutable_borrow_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 437,
+    "glossary_line": 4392,
+    "term": "mutable place expression",
+    "term_id": "mutable_place_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 523,
+    "glossary_line": 4401,
+    "term": "mutable place expression context",
+    "term_id": "mutable_place_expression_context"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1273,
+    "glossary_line": 4410,
+    "term": "mutable raw pointer type",
+    "term_id": "mutable_raw_pointer_type"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 128,
+    "glossary_line": 4419,
+    "term": "mutable reference",
+    "term_id": "mutable_reference"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1328,
+    "glossary_line": 4428,
+    "term": "mutable reference type",
+    "term_id": "mutable_reference_type"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 187,
+    "glossary_line": 4437,
+    "term": "mutable static",
+    "term_id": "mutable_static"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 273,
+    "glossary_line": 4445,
+    "term": "mutable variable",
+    "term_id": "mutable_variable"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 38,
+    "glossary_line": 4453,
+    "term": "name",
+    "term_id": "name"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 879,
+    "glossary_line": 4464,
+    "term": "named block expression",
+    "term_id": "named_block_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 842,
+    "glossary_line": 4472,
+    "term": "named deconstructor",
+    "term_id": "named_deconstructor"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1297,
+    "glossary_line": 4484,
+    "term": "named field selector",
+    "term_id": "named_field_selector"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3276,
+    "glossary_line": 4496,
+    "term": "named initializer",
+    "term_id": "named_initializer"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3950,
+    "glossary_line": 4508,
+    "term": "named loop expression",
+    "term_id": "named_loop_expression"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 659,
+    "glossary_line": 4516,
+    "term": "named register argument",
+    "term_id": "named_register_argument"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 818,
+    "glossary_line": 4525,
+    "term": "namespace",
+    "term_id": "namespace"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 579,
+    "glossary_line": 4535,
+    "term": "NaN-boxing",
+    "term_id": "nan_boxing"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1293,
+    "glossary_line": 4544,
+    "term": "negation expression",
+    "term_id": "negation_expression"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1128,
+    "glossary_line": 4555,
+    "term": "nesting import",
+    "term_id": "nesting_import"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1568,
+    "glossary_line": 4567,
+    "term": "never type",
+    "term_id": "never_type"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1256,
+    "glossary_line": 4579,
+    "term": "non-reference pattern",
+    "term_id": "non_reference_pattern"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 952,
+    "glossary_line": 4589,
+    "term": "not configuration predicate",
+    "term_id": "not_configuration_predicate"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1988,
+    "glossary_line": 4601,
+    "term": "not-equals expression",
+    "term_id": "not_equals_expression"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 59,
+    "glossary_line": 4613,
+    "term": "null",
+    "term_id": "null"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 848,
+    "glossary_line": 4621,
+    "term": "numeric literal",
+    "term_id": "numeric_literal"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 281,
+    "glossary_line": 4632,
+    "term": "numeric literal pattern",
+    "term_id": "numeric_literal_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 386,
+    "glossary_line": 4644,
+    "term": "numeric type",
+    "term_id": "numeric_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3147,
+    "glossary_line": 4652,
+    "term": "object safe",
+    "term_id": "object_safe"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3143,
+    "glossary_line": 4661,
+    "term": "object safety",
+    "term_id": "object_safety"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 498,
+    "glossary_line": 4670,
+    "term": "obsolete range pattern",
+    "term_id": "obsolete_range_pattern"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 943,
+    "glossary_line": 4682,
+    "term": "octal literal",
+    "term_id": "octal_literal"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 90,
+    "glossary_line": 4693,
+    "term": "operand",
+    "term_id": "operand"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 970,
+    "glossary_line": 4704,
+    "term": "operator expression",
+    "term_id": "operator_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3255,
+    "glossary_line": 4715,
+    "term": "opt-out trait bound",
+    "term_id": "opt_out_trait_bound"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 45,
+    "glossary_line": 4725,
+    "term": "or-pattern",
+    "term_id": "or_pattern"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 55,
+    "glossary_line": 4736,
+    "term": "outer attribute",
+    "term_id": "outer_attribute"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1372,
+    "glossary_line": 4748,
+    "term": "outer block doc",
+    "term_id": "outer_block_doc"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1380,
+    "glossary_line": 4760,
+    "term": "outer doc comment",
+    "term_id": "outer_doc_comment"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1376,
+    "glossary_line": 4769,
+    "term": "outer line doc",
+    "term_id": "outer_line_doc"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 83,
+    "glossary_line": 4781,
+    "term": "outline module",
+    "term_id": "outline_module"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3259,
+    "glossary_line": 4793,
+    "term": "outlives bound",
+    "term_id": "outlives_bound"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 113,
+    "glossary_line": 4802,
+    "term": "output register",
+    "term_id": "output_register"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 696,
+    "glossary_line": 4812,
+    "term": "output register expression",
+    "term_id": "output_register_expression"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 42,
+    "glossary_line": 4824,
+    "term": "overlap",
+    "term_id": "overlap"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 23,
+    "glossary_line": 4833,
+    "term": "owner",
+    "term_id": "owner"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 19,
+    "glossary_line": 4841,
+    "term": "ownership",
+    "term_id": "ownership"
+  },
+  {
+    "chapter_file": "src/exceptions-and-errors.rst",
+    "chapter_line": 46,
+    "glossary_line": 4850,
+    "term": "panic",
+    "term_id": "panic"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2900,
+    "glossary_line": 4859,
+    "term": "parenthesized expression",
+    "term_id": "parenthesized_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 321,
+    "glossary_line": 4871,
+    "term": "parenthesized pattern",
+    "term_id": "parenthesized_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1600,
+    "glossary_line": 4883,
+    "term": "parenthesized type",
+    "term_id": "parenthesized_type"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1109,
+    "glossary_line": 4895,
+    "term": "partially hygienic",
+    "term_id": "partially_hygienic"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 274,
+    "glossary_line": 4904,
+    "term": "passing convention",
+    "term_id": "passing_convention"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 301,
+    "glossary_line": 4913,
+    "term": "path",
+    "term_id": "path"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 647,
+    "glossary_line": 4922,
+    "term": "path expression",
+    "term_id": "path_expression"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1707,
+    "glossary_line": 4933,
+    "term": "path expression resolution",
+    "term_id": "path_expression_resolution"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 368,
+    "glossary_line": 4942,
+    "term": "path pattern",
+    "term_id": "path_pattern"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1518,
+    "glossary_line": 4955,
+    "term": "path resolution",
+    "term_id": "path_resolution"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 305,
+    "glossary_line": 4963,
+    "term": "path segment",
+    "term_id": "path_segment"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 41,
+    "glossary_line": 4974,
+    "term": "pattern",
+    "term_id": "pattern"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1313,
+    "glossary_line": 4986,
+    "term": "pattern matching",
+    "term_id": "pattern_matching"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 48,
+    "glossary_line": 4994,
+    "term": "pattern-without-alternation",
+    "term_id": "pattern_without_alternation"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 51,
+    "glossary_line": 5005,
+    "term": "pattern-without-range",
+    "term_id": "pattern_without_range"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 411,
+    "glossary_line": 5017,
+    "term": "place",
+    "term_id": "place"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 414,
+    "glossary_line": 5025,
+    "term": "place expression",
+    "term_id": "place_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 481,
+    "glossary_line": 5034,
+    "term": "place expression context",
+    "term_id": "place_expression_context"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 38,
+    "glossary_line": 5043,
+    "term": "plane",
+    "term_id": "plane"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1175,
+    "glossary_line": 5052,
+    "term": "pointer",
+    "term_id": "pointer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1172,
+    "glossary_line": 5060,
+    "term": "pointer type",
+    "term_id": "pointer_type"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 663,
+    "glossary_line": 5068,
+    "term": "positional register argument",
+    "term_id": "positional_register_argument"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5079,
+    "glossary_line": 5077,
+    "term": "precedence",
+    "term_id": "precedence"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 950,
+    "glossary_line": 5086,
+    "term": "prelude",
+    "term_id": "prelude"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 954,
+    "glossary_line": 5095,
+    "term": "prelude entity",
+    "term_id": "prelude_entity"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 957,
+    "glossary_line": 5103,
+    "term": "prelude name",
+    "term_id": "prelude_name"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1830,
+    "glossary_line": 5111,
+    "term": "primitive representation",
+    "term_id": "primitive_representation"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1458,
+    "glossary_line": 5120,
+    "term": "principal trait",
+    "term_id": "principal_trait"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 159,
+    "glossary_line": 5128,
+    "term": "private visibility",
+    "term_id": "private_visibility"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 146,
+    "glossary_line": 5138,
+    "term": "proc-macro crate",
+    "term_id": "proc_macro_crate"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 311,
+    "glossary_line": 5148,
+    "term": "procedural macro",
+    "term_id": "procedural_macro"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 262,
+    "glossary_line": 5157,
+    "term": "program entry point",
+    "term_id": "program_entry_point"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 154,
+    "glossary_line": 5166,
+    "term": "public visibility",
+    "term_id": "public_visibility"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 193,
+    "glossary_line": 5176,
+    "term": "punctuator",
+    "term_id": "punctuator"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 491,
+    "glossary_line": 5185,
+    "term": "pure identifier",
+    "term_id": "pure_identifier"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 394,
+    "glossary_line": 5194,
+    "term": "qualified path expression",
+    "term_id": "qualified_path_expression"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 383,
+    "glossary_line": 5206,
+    "term": "qualified type",
+    "term_id": "qualified_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 398,
+    "glossary_line": 5219,
+    "term": "qualified type path",
+    "term_id": "qualified_type_path"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 376,
+    "glossary_line": 5231,
+    "term": "qualifying trait",
+    "term_id": "qualifying_trait"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4471,
+    "glossary_line": 5243,
+    "term": "range expression",
+    "term_id": "range_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4478,
+    "glossary_line": 5254,
+    "term": "range expression high bound",
+    "term_id": "range_expression_high_bound"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4474,
+    "glossary_line": 5266,
+    "term": "range expression low bound",
+    "term_id": "range_expression_low_bound"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 482,
+    "glossary_line": 5278,
+    "term": "range pattern",
+    "term_id": "range_pattern"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 502,
+    "glossary_line": 5290,
+    "term": "range pattern bound",
+    "term_id": "range_pattern_bound"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 509,
+    "glossary_line": 5302,
+    "term": "range pattern high bound",
+    "term_id": "range_pattern_high_bound"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 505,
+    "glossary_line": 5314,
+    "term": "range pattern low bound",
+    "term_id": "range_pattern_low_bound"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4486,
+    "glossary_line": 5326,
+    "term": "range-from expression",
+    "term_id": "range_from_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4497,
+    "glossary_line": 5338,
+    "term": "range-from-to expression",
+    "term_id": "range_from_to_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4519,
+    "glossary_line": 5351,
+    "term": "range-full expression",
+    "term_id": "range_full_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4522,
+    "glossary_line": 5363,
+    "term": "range-inclusive expression",
+    "term_id": "range_inclusive_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4535,
+    "glossary_line": 5376,
+    "term": "range-to expression",
+    "term_id": "range_to_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4546,
+    "glossary_line": 5388,
+    "term": "range-to-inclusive expression",
+    "term_id": "range_to_inclusive_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1062,
+    "glossary_line": 5400,
+    "term": "raw borrow expression",
+    "term_id": "raw_borrow_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 710,
+    "glossary_line": 5411,
+    "term": "raw byte string literal",
+    "term_id": "raw_byte_string_literal"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 817,
+    "glossary_line": 5423,
+    "term": "raw c string literal",
+    "term_id": "raw_c_string_literal"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1270,
+    "glossary_line": 5435,
+    "term": "raw pointer",
+    "term_id": "raw_pointer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1267,
+    "glossary_line": 5443,
+    "term": "raw pointer type",
+    "term_id": "raw_pointer_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1261,
+    "glossary_line": 5455,
+    "term": "raw string literal",
+    "term_id": "raw_string_literal"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 285,
+    "glossary_line": 5467,
+    "term": "reachable control flow path",
+    "term_id": "reachable_control_flow_path"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3611,
+    "glossary_line": 5476,
+    "term": "receiver operand",
+    "term_id": "receiver_operand"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1360,
+    "glossary_line": 5488,
+    "term": "receiver type",
+    "term_id": "receiver_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 789,
+    "glossary_line": 5496,
+    "term": "record enum variant",
+    "term_id": "record_enum_variant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 934,
+    "glossary_line": 5505,
+    "term": "record struct",
+    "term_id": "record_struct"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 943,
+    "glossary_line": 5516,
+    "term": "record struct field",
+    "term_id": "record_struct_field"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 820,
+    "glossary_line": 5527,
+    "term": "record struct pattern",
+    "term_id": "record_struct_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 937,
+    "glossary_line": 5539,
+    "term": "record struct type",
+    "term_id": "record_struct_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 940,
+    "glossary_line": 5547,
+    "term": "record struct value",
+    "term_id": "record_struct_value"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2017,
+    "glossary_line": 5555,
+    "term": "recursive type",
+    "term_id": "recursive_type"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 93,
+    "glossary_line": 5564,
+    "term": "reference",
+    "term_id": "reference"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 169,
+    "glossary_line": 5572,
+    "term": "reference identifier pattern",
+    "term_id": "reference_identifier_pattern"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 584,
+    "glossary_line": 5581,
+    "term": "reference pattern",
+    "term_id": "reference_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1310,
+    "glossary_line": 5593,
+    "term": "reference type",
+    "term_id": "reference_type"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 98,
+    "glossary_line": 5604,
+    "term": "referent",
+    "term_id": "referent"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 98,
+    "glossary_line": 5612,
+    "term": "refutability",
+    "term_id": "refutability"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 117,
+    "glossary_line": 5621,
+    "term": "refutable constant",
+    "term_id": "refutable_constant"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 105,
+    "glossary_line": 5629,
+    "term": "refutable pattern",
+    "term_id": "refutable_pattern"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 120,
+    "glossary_line": 5638,
+    "term": "refutable type",
+    "term_id": "refutable_type"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 104,
+    "glossary_line": 5646,
+    "term": "register",
+    "term_id": "register"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 651,
+    "glossary_line": 5655,
+    "term": "register argument",
+    "term_id": "register_argument"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 446,
+    "glossary_line": 5668,
+    "term": "register class",
+    "term_id": "register_class"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 679,
+    "glossary_line": 5676,
+    "term": "register class argument",
+    "term_id": "register_class_argument"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 449,
+    "glossary_line": 5685,
+    "term": "register class name",
+    "term_id": "register_class_name"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 711,
+    "glossary_line": 5697,
+    "term": "register expression",
+    "term_id": "register_expression"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 123,
+    "glossary_line": 5709,
+    "term": "register name",
+    "term_id": "register_name"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 1009,
+    "glossary_line": 5722,
+    "term": "register parameter",
+    "term_id": "register_parameter"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 1037,
+    "glossary_line": 5732,
+    "term": "register parameter modifier",
+    "term_id": "register_parameter_modifier"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2683,
+    "glossary_line": 5742,
+    "term": "remainder assignment",
+    "term_id": "remainder_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2645,
+    "glossary_line": 5750,
+    "term": "remainder assignment expression",
+    "term_id": "remainder_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1490,
+    "glossary_line": 5762,
+    "term": "remainder expression",
+    "term_id": "remainder_expression"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 181,
+    "glossary_line": 5774,
+    "term": "renaming",
+    "term_id": "renaming"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2965,
+    "glossary_line": 5785,
+    "term": "repeat operand",
+    "term_id": "repeat_operand"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 249,
+    "glossary_line": 5797,
+    "term": "repetition operator",
+    "term_id": "repetition_operator"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1805,
+    "glossary_line": 5810,
+    "term": "representation",
+    "term_id": "representation"
+  },
+  {
+    "chapter_file": "src/attributes.rst",
+    "chapter_line": 1567,
+    "glossary_line": 5818,
+    "term": "representation modifier",
+    "term_id": "representation_modifier"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1550,
+    "glossary_line": 5830,
+    "term": "reserved keyword",
+    "term_id": "reserved_keyword"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1239,
+    "glossary_line": 5841,
+    "term": "resolution",
+    "term_id": "resolution"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 633,
+    "glossary_line": 5850,
+    "term": "rest pattern",
+    "term_id": "rest_pattern"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4934,
+    "glossary_line": 5862,
+    "term": "return expression",
+    "term_id": "return_expression"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 141,
+    "glossary_line": 5874,
+    "term": "return type",
+    "term_id": "return_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 101,
+    "glossary_line": 5885,
+    "term": "right operand",
+    "term_id": "right_operand"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 792,
+    "glossary_line": 5897,
+    "term": "rule matching",
+    "term_id": "rule_matching"
+  },
+  {
+    "chapter_file": "src/general.rst",
+    "chapter_line": 58,
+    "glossary_line": 5907,
+    "term": "rustc",
+    "term_id": "rustc"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 21,
+    "glossary_line": 5915,
+    "term": "safety invariant",
+    "term_id": "safety_invariant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 171,
+    "glossary_line": 5924,
+    "term": "scalar type",
+    "term_id": "scalar_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 475,
+    "glossary_line": 5933,
+    "term": "scope",
+    "term_id": "scope"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 670,
+    "glossary_line": 5941,
+    "term": "scope hierarchy",
+    "term_id": "scope_hierarchy"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3726,
+    "glossary_line": 5950,
+    "term": "selected field",
+    "term_id": "selected_field"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3043,
+    "glossary_line": 5959,
+    "term": "Self",
+    "term_id": "self"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 71,
+    "glossary_line": 5969,
+    "term": "self parameter",
+    "term_id": "self_parameter"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 171,
+    "glossary_line": 5978,
+    "term": "self public modifier",
+    "term_id": "self_public_modifier"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 616,
+    "glossary_line": 5990,
+    "term": "Self scope",
+    "term_id": "self_scope"
+  },
+  {
+    "chapter_file": "src/concurrency.rst",
+    "chapter_line": 40,
+    "glossary_line": 5998,
+    "term": "send type",
+    "term_id": "send_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 189,
+    "glossary_line": 6007,
+    "term": "separator",
+    "term_id": "separator"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 550,
+    "glossary_line": 6016,
+    "term": "sequence type",
+    "term_id": "sequence_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 41,
+    "glossary_line": 6024,
+    "term": "shadowing",
+    "term_id": "shadowing"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 205,
+    "glossary_line": 6034,
+    "term": "shared borrow",
+    "term_id": "shared_borrow"
+  },
+  {
+    "chapter_file": "src/ownership-and-deconstruction.rst",
+    "chapter_line": 125,
+    "glossary_line": 6043,
+    "term": "shared reference",
+    "term_id": "shared_reference"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1313,
+    "glossary_line": 6051,
+    "term": "shared reference type",
+    "term_id": "shared_reference_type"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2686,
+    "glossary_line": 6060,
+    "term": "shift left assignment",
+    "term_id": "shift_left_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2649,
+    "glossary_line": 6068,
+    "term": "shift left assignment expression",
+    "term_id": "shift_left_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1747,
+    "glossary_line": 6080,
+    "term": "shift left expression",
+    "term_id": "shift_left_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2689,
+    "glossary_line": 6092,
+    "term": "shift right assignment",
+    "term_id": "shift_right_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2653,
+    "glossary_line": 6100,
+    "term": "shift right assignment expression",
+    "term_id": "shift_right_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1764,
+    "glossary_line": 6112,
+    "term": "shift right expression",
+    "term_id": "shift_right_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 855,
+    "glossary_line": 6124,
+    "term": "shorthand deconstructor",
+    "term_id": "shorthand_deconstructor"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3293,
+    "glossary_line": 6137,
+    "term": "shorthand initializer",
+    "term_id": "shorthand_initializer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 427,
+    "glossary_line": 6149,
+    "term": "signed integer type",
+    "term_id": "signed_integer_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 672,
+    "glossary_line": 6158,
+    "term": "simple byte string literal",
+    "term_id": "simple_byte_string_literal"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 774,
+    "glossary_line": 6170,
+    "term": "simple c string literal",
+    "term_id": "simple_c_string_literal"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1069,
+    "glossary_line": 6183,
+    "term": "simple import",
+    "term_id": "simple_import"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 330,
+    "glossary_line": 6195,
+    "term": "simple path",
+    "term_id": "simple_path"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1038,
+    "glossary_line": 6207,
+    "term": "simple path prefix",
+    "term_id": "simple_path_prefix"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 177,
+    "glossary_line": 6219,
+    "term": "simple path public modifier",
+    "term_id": "simple_path_public_modifier"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1658,
+    "glossary_line": 6231,
+    "term": "simple path resolution",
+    "term_id": "simple_path_resolution"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 191,
+    "glossary_line": 6240,
+    "term": "simple public modifier",
+    "term_id": "simple_public_modifier"
+  },
+  {
+    "chapter_file": "src/inline-assembly.rst",
+    "chapter_line": 707,
+    "glossary_line": 6252,
+    "term": "simple register expression",
+    "term_id": "simple_register_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1219,
+    "glossary_line": 6264,
+    "term": "simple string literal",
+    "term_id": "simple_string_literal"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 355,
+    "glossary_line": 6276,
+    "term": "single segment path",
+    "term_id": "single_segment_path"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1694,
+    "glossary_line": 6285,
+    "term": "size",
+    "term_id": "size"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 581,
+    "glossary_line": 6295,
+    "term": "size operand",
+    "term_id": "size_operand"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1664,
+    "glossary_line": 6307,
+    "term": "sized type",
+    "term_id": "sized_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 622,
+    "glossary_line": 6315,
+    "term": "slice",
+    "term_id": "slice"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 698,
+    "glossary_line": 6323,
+    "term": "slice pattern",
+    "term_id": "slice_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 618,
+    "glossary_line": 6335,
+    "term": "slice type",
+    "term_id": "slice_type"
+  },
+  {
+    "chapter_file": "src/program-structure-and-compilation.rst",
+    "chapter_line": 38,
+    "glossary_line": 6347,
+    "term": "source file",
+    "term_id": "source_file"
+  },
+  {
+    "chapter_file": "src/statements.rst",
+    "chapter_line": 25,
+    "glossary_line": 6359,
+    "term": "statement",
+    "term_id": "statement"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 168,
+    "glossary_line": 6370,
+    "term": "static",
+    "term_id": "static"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 201,
+    "glossary_line": 6382,
+    "term": "static initializer",
+    "term_id": "static_initializer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3679,
+    "glossary_line": 6394,
+    "term": "static lifetime elision",
+    "term_id": "static_lifetime_elision"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 648,
+    "glossary_line": 6403,
+    "term": "str",
+    "term_id": "str"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1521,
+    "glossary_line": 6412,
+    "term": "strict keyword",
+    "term_id": "strict_keyword"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1184,
+    "glossary_line": 6423,
+    "term": "string literal",
+    "term_id": "string_literal"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 926,
+    "glossary_line": 6434,
+    "term": "struct",
+    "term_id": "struct"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3240,
+    "glossary_line": 6442,
+    "term": "struct expression",
+    "term_id": "struct_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 971,
+    "glossary_line": 6454,
+    "term": "struct field",
+    "term_id": "struct_field"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 750,
+    "glossary_line": 6462,
+    "term": "struct pattern",
+    "term_id": "struct_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 930,
+    "glossary_line": 6474,
+    "term": "struct type",
+    "term_id": "struct_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 974,
+    "glossary_line": 6487,
+    "term": "struct value",
+    "term_id": "struct_value"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2466,
+    "glossary_line": 6495,
+    "term": "structurally equal",
+    "term_id": "structurally_equal"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 93,
+    "glossary_line": 6504,
+    "term": "subexpression",
+    "term_id": "subexpression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 112,
+    "glossary_line": 6513,
+    "term": "subject expression",
+    "term_id": "subject_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 116,
+    "glossary_line": 6525,
+    "term": "subject let expression",
+    "term_id": "subject_let_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 55,
+    "glossary_line": 6537,
+    "term": "subpattern",
+    "term_id": "subpattern"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2692,
+    "glossary_line": 6545,
+    "term": "subtraction assignment",
+    "term_id": "subtraction_assignment"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2657,
+    "glossary_line": 6553,
+    "term": "subtraction assignment expression",
+    "term_id": "subtraction_assignment_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 1507,
+    "glossary_line": 6565,
+    "term": "subtraction expression",
+    "term_id": "subtraction_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3051,
+    "glossary_line": 6577,
+    "term": "subtrait",
+    "term_id": "subtrait"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3467,
+    "glossary_line": 6585,
+    "term": "subtype",
+    "term_id": "subtype"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3463,
+    "glossary_line": 6593,
+    "term": "subtyping",
+    "term_id": "subtyping"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1064,
+    "glossary_line": 6602,
+    "term": "suffixed float",
+    "term_id": "suffixed_float"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 950,
+    "glossary_line": 6610,
+    "term": "suffixed integer",
+    "term_id": "suffixed_integer"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 195,
+    "glossary_line": 6618,
+    "term": "super public modifier",
+    "term_id": "super_public_modifier"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3054,
+    "glossary_line": 6630,
+    "term": "supertrait",
+    "term_id": "supertrait"
+  },
+  {
+    "chapter_file": "src/concurrency.rst",
+    "chapter_line": 53,
+    "glossary_line": 6639,
+    "term": "sync type",
+    "term_id": "sync_type"
+  },
+  {
+    "chapter_file": "src/general.rst",
+    "chapter_line": 262,
+    "glossary_line": 6648,
+    "term": "syntactic category",
+    "term_id": "syntactic_category"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 698,
+    "glossary_line": 6657,
+    "term": "tail expression",
+    "term_id": "tail_expression"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 251,
+    "glossary_line": 6666,
+    "term": "temporary",
+    "term_id": "temporary"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3955,
+    "glossary_line": 6675,
+    "term": "terminated",
+    "term_id": "terminated"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 551,
+    "glossary_line": 6684,
+    "term": "terminated macro invocation",
+    "term_id": "terminated_macro_invocation"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 649,
+    "glossary_line": 6696,
+    "term": "textual macro scope",
+    "term_id": "textual_macro_scope"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 659,
+    "glossary_line": 6704,
+    "term": "textual type",
+    "term_id": "textual_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1182,
+    "glossary_line": 6713,
+    "term": "thin pointer",
+    "term_id": "thin_pointer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1178,
+    "glossary_line": 6721,
+    "term": "thin pointer type",
+    "term_id": "thin_pointer_type"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 825,
+    "glossary_line": 6730,
+    "term": "token matching",
+    "term_id": "token_matching"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 28,
+    "glossary_line": 6740,
+    "term": "tokens",
+    "term_id": "token"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3027,
+    "glossary_line": 6749,
+    "term": "trait",
+    "term_id": "trait"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3038,
+    "glossary_line": 6761,
+    "term": "trait body",
+    "term_id": "trait_body"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3242,
+    "glossary_line": 6774,
+    "term": "trait bound",
+    "term_id": "trait_bound"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 65,
+    "glossary_line": 6786,
+    "term": "trait implementation",
+    "term_id": "trait_implementation"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3718,
+    "glossary_line": 6798,
+    "term": "trait object lifetime elision",
+    "term_id": "trait_object_lifetime_elision"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1454,
+    "glossary_line": 6807,
+    "term": "trait object type",
+    "term_id": "trait_object_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1358,
+    "glossary_line": 6820,
+    "term": "trait type",
+    "term_id": "trait_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1836,
+    "glossary_line": 6829,
+    "term": "transparent representation",
+    "term_id": "transparent_representation"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 302,
+    "glossary_line": 6841,
+    "term": "trivial predicate",
+    "term_id": "trivial_predicate"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 693,
+    "glossary_line": 6851,
+    "term": "tuple",
+    "term_id": "tuple"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 793,
+    "glossary_line": 6859,
+    "term": "tuple enum variant",
+    "term_id": "tuple_enum_variant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 797,
+    "glossary_line": 6868,
+    "term": "tuple enum variant value",
+    "term_id": "tuple_enum_variant_value"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3166,
+    "glossary_line": 6876,
+    "term": "tuple expression",
+    "term_id": "tuple_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 696,
+    "glossary_line": 6887,
+    "term": "tuple field",
+    "term_id": "tuple_field"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3169,
+    "glossary_line": 6895,
+    "term": "tuple initializer",
+    "term_id": "tuple_initializer"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1114,
+    "glossary_line": 6904,
+    "term": "tuple pattern",
+    "term_id": "tuple_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 946,
+    "glossary_line": 6916,
+    "term": "tuple struct",
+    "term_id": "tuple_struct"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 3475,
+    "glossary_line": 6927,
+    "term": "tuple struct call expression",
+    "term_id": "tuple_struct_call_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 955,
+    "glossary_line": 6936,
+    "term": "tuple struct field",
+    "term_id": "tuple_struct_field"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1032,
+    "glossary_line": 6947,
+    "term": "tuple struct pattern",
+    "term_id": "tuple_struct_pattern"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 949,
+    "glossary_line": 6959,
+    "term": "tuple struct type",
+    "term_id": "tuple_struct_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 952,
+    "glossary_line": 6967,
+    "term": "tuple struct value",
+    "term_id": "tuple_struct_value"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 689,
+    "glossary_line": 6975,
+    "term": "tuple type",
+    "term_id": "tuple_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 50,
+    "glossary_line": 6987,
+    "term": "type",
+    "term_id": "type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1628,
+    "glossary_line": 6996,
+    "term": "type alias",
+    "term_id": "type_alias"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 401,
+    "glossary_line": 7007,
+    "term": "type argument",
+    "term_id": "type_argument"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 57,
+    "glossary_line": 7019,
+    "term": "type ascription",
+    "term_id": "type_ascription"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 294,
+    "glossary_line": 7030,
+    "term": "type bound predicate",
+    "term_id": "type_bound_predicate"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2181,
+    "glossary_line": 7042,
+    "term": "type cast expression",
+    "term_id": "type_cast_expression"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2246,
+    "glossary_line": 7054,
+    "term": "type coercion",
+    "term_id": "type_coercion"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2555,
+    "glossary_line": 7063,
+    "term": "type inference",
+    "term_id": "type_inference"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2559,
+    "glossary_line": 7072,
+    "term": "type inference root",
+    "term_id": "type_inference_root"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 105,
+    "glossary_line": 7082,
+    "term": "type parameter",
+    "term_id": "type_parameter"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 108,
+    "glossary_line": 7093,
+    "term": "type parameter initializer",
+    "term_id": "type_parameter_initializer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1544,
+    "glossary_line": 7105,
+    "term": "type parameter type",
+    "term_id": "type_parameter_type"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 370,
+    "glossary_line": 7114,
+    "term": "type path",
+    "term_id": "type_path"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1841,
+    "glossary_line": 7125,
+    "term": "type path resolution",
+    "term_id": "type_path_resolution"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1799,
+    "glossary_line": 7134,
+    "term": "type representation",
+    "term_id": "type_representation"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 54,
+    "glossary_line": 7143,
+    "term": "type specification",
+    "term_id": "type_specification"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2041,
+    "glossary_line": 7154,
+    "term": "type unification",
+    "term_id": "type_unification"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2629,
+    "glossary_line": 7165,
+    "term": "type variable",
+    "term_id": "type_variable"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 466,
+    "glossary_line": 7174,
+    "term": "u8",
+    "term_id": "u8"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 470,
+    "glossary_line": 7183,
+    "term": "u16",
+    "term_id": "u16"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 474,
+    "glossary_line": 7192,
+    "term": "u32",
+    "term_id": "u32"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 478,
+    "glossary_line": 7201,
+    "term": "u64",
+    "term_id": "u64"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 482,
+    "glossary_line": 7210,
+    "term": "u128",
+    "term_id": "u128"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 109,
+    "glossary_line": 7219,
+    "term": "unary operator",
+    "term_id": "unary_operator"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 14,
+    "glossary_line": 7227,
+    "term": "undefined behavior",
+    "term_id": "undefined_behavior"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1244,
+    "glossary_line": 7235,
+    "term": "under resolution",
+    "term_id": "under_resolution"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2870,
+    "glossary_line": 7243,
+    "term": "underscore expression",
+    "term_id": "underscore_expression"
+  },
+  {
+    "chapter_file": "src/patterns.rst",
+    "chapter_line": 1194,
+    "glossary_line": 7255,
+    "term": "underscore pattern",
+    "term_id": "underscore_pattern"
+  },
+  {
+    "chapter_file": "src/macros.rst",
+    "chapter_line": 1106,
+    "glossary_line": 7267,
+    "term": "unhygienic",
+    "term_id": "unhygienic"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 29,
+    "glossary_line": 7275,
+    "term": "Unicode",
+    "term_id": "unicode"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2052,
+    "glossary_line": 7285,
+    "term": "unifiable",
+    "term_id": "unifiable"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2058,
+    "glossary_line": 7293,
+    "term": "unifiable types",
+    "term_id": "unifiable_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2055,
+    "glossary_line": 7301,
+    "term": "unified type",
+    "term_id": "unified_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2047,
+    "glossary_line": 7309,
+    "term": "unify",
+    "term_id": "unify"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1028,
+    "glossary_line": 7318,
+    "term": "union",
+    "term_id": "union"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1038,
+    "glossary_line": 7326,
+    "term": "union field",
+    "term_id": "union_field"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1031,
+    "glossary_line": 7334,
+    "term": "union type",
+    "term_id": "union_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1035,
+    "glossary_line": 7345,
+    "term": "union value",
+    "term_id": "union_value"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 5269,
+    "glossary_line": 7353,
+    "term": "unique immutable reference",
+    "term_id": "unique_immutable_reference"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 786,
+    "glossary_line": 7363,
+    "term": "unit enum variant",
+    "term_id": "unit_enum_variant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 958,
+    "glossary_line": 7371,
+    "term": "unit struct",
+    "term_id": "unit_struct"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 961,
+    "glossary_line": 7382,
+    "term": "unit struct constant",
+    "term_id": "unit_struct_constant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 965,
+    "glossary_line": 7391,
+    "term": "unit struct type",
+    "term_id": "unit_struct_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 968,
+    "glossary_line": 7399,
+    "term": "unit struct value",
+    "term_id": "unit_struct_value"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 702,
+    "glossary_line": 7407,
+    "term": "unit tuple",
+    "term_id": "unit_tuple"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 699,
+    "glossary_line": 7415,
+    "term": "unit type",
+    "term_id": "unit_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 705,
+    "glossary_line": 7423,
+    "term": "unit value",
+    "term_id": "unit_value"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 108,
+    "glossary_line": 7431,
+    "term": "unnamed constant",
+    "term_id": "unnamed_constant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3552,
+    "glossary_line": 7440,
+    "term": "unnamed lifetime",
+    "term_id": "unnamed_lifetime"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 363,
+    "glossary_line": 7449,
+    "term": "unqualified path expression",
+    "term_id": "unqualified_path_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 913,
+    "glossary_line": 7457,
+    "term": "unsafe block",
+    "term_id": "unsafe_block"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 916,
+    "glossary_line": 7465,
+    "term": "unsafe block expression",
+    "term_id": "unsafe_block_expression"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 57,
+    "glossary_line": 7477,
+    "term": "unsafe context",
+    "term_id": "unsafe_context"
+  },
+  {
+    "chapter_file": "src/ffi.rst",
+    "chapter_line": 194,
+    "glossary_line": 7486,
+    "term": "unsafe external block",
+    "term_id": "unsafe_external_block"
+  },
+  {
+    "chapter_file": "src/functions.rst",
+    "chapter_line": 204,
+    "glossary_line": 7494,
+    "term": "unsafe function",
+    "term_id": "unsafe_function"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1149,
+    "glossary_line": 7502,
+    "term": "unsafe function item type",
+    "term_id": "unsafe_function_item_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1221,
+    "glossary_line": 7511,
+    "term": "unsafe function pointer type",
+    "term_id": "unsafe_function_pointer_type"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 29,
+    "glossary_line": 7520,
+    "term": "unsafe operation",
+    "term_id": "unsafe_operation"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 33,
+    "glossary_line": 7530,
+    "term": "unsafe Rust",
+    "term_id": "unsafe_rust"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3031,
+    "glossary_line": 7538,
+    "term": "unsafe trait",
+    "term_id": "unsafe_trait"
+  },
+  {
+    "chapter_file": "src/implementations.rst",
+    "chapter_line": 69,
+    "glossary_line": 7546,
+    "term": "unsafe trait implementation",
+    "term_id": "unsafe_trait_implementation"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 17,
+    "glossary_line": 7555,
+    "term": "unsafety",
+    "term_id": "unsafety"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 431,
+    "glossary_line": 7563,
+    "term": "unsigned integer type",
+    "term_id": "unsigned_integer_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2354,
+    "glossary_line": 7572,
+    "term": "unsized coercion",
+    "term_id": "unsized_coercion"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1678,
+    "glossary_line": 7581,
+    "term": "unsized type",
+    "term_id": "unsized_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1067,
+    "glossary_line": 7589,
+    "term": "unsuffixed float",
+    "term_id": "unsuffixed_float"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 953,
+    "glossary_line": 7597,
+    "term": "unsuffixed integer",
+    "term_id": "unsuffixed_integer"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1419,
+    "glossary_line": 7606,
+    "term": "use capture",
+    "term_id": "use_capture"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 1033,
+    "glossary_line": 7617,
+    "term": "use import",
+    "term_id": "use_import"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 486,
+    "glossary_line": 7630,
+    "term": "usize",
+    "term_id": "usize"
+  },
+  {
+    "chapter_file": "src/unsafety.rst",
+    "chapter_line": 25,
+    "glossary_line": 7639,
+    "term": "validity invariant",
+    "term_id": "validity_invariant"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 14,
+    "glossary_line": 7648,
+    "term": "value",
+    "term_id": "value"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 580,
+    "glossary_line": 7657,
+    "term": "value expression",
+    "term_id": "value_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 585,
+    "glossary_line": 7665,
+    "term": "value expression context",
+    "term_id": "value_expression_context"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 2405,
+    "glossary_line": 7674,
+    "term": "value operand",
+    "term_id": "value_operand"
+  },
+  {
+    "chapter_file": "src/values.rst",
+    "chapter_line": 262,
+    "glossary_line": 7686,
+    "term": "variable",
+    "term_id": "variable"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1225,
+    "glossary_line": 7695,
+    "term": "variadic part",
+    "term_id": "variadic_part"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 3347,
+    "glossary_line": 7707,
+    "term": "variance",
+    "term_id": "variance"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 150,
+    "glossary_line": 7718,
+    "term": "visibility",
+    "term_id": "visibility"
+  },
+  {
+    "chapter_file": "src/entities-and-resolution.rst",
+    "chapter_line": 164,
+    "glossary_line": 7727,
+    "term": "visibility modifier",
+    "term_id": "visibility_modifier"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2515,
+    "glossary_line": 7736,
+    "term": "visible emptiness",
+    "term_id": "visible_emptiness"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2521,
+    "glossary_line": 7744,
+    "term": "visible empty enum variant",
+    "term_id": "visible_empty_enum_variant"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 2518,
+    "glossary_line": 7752,
+    "term": "visible empty type",
+    "term_id": "visible_empty_type"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 1570,
+    "glossary_line": 7760,
+    "term": "weak keyword",
+    "term_id": "weak_keyword"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 281,
+    "glossary_line": 7772,
+    "term": "where clause",
+    "term_id": "where_clause"
+  },
+  {
+    "chapter_file": "src/generics.rst",
+    "chapter_line": 286,
+    "glossary_line": 7784,
+    "term": "where clause predicate",
+    "term_id": "where_clause_predicate"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4181,
+    "glossary_line": 7796,
+    "term": "while let loop",
+    "term_id": "while_let_loop"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4184,
+    "glossary_line": 7804,
+    "term": "while let loop expression",
+    "term_id": "while_let_loop_expression"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4118,
+    "glossary_line": 7817,
+    "term": "while loop",
+    "term_id": "while_loop"
+  },
+  {
+    "chapter_file": "src/expressions.rst",
+    "chapter_line": 4121,
+    "glossary_line": 7825,
+    "term": "while loop expression",
+    "term_id": "while_loop_expression"
+  },
+  {
+    "chapter_file": "src/lexical-elements.rst",
+    "chapter_line": 85,
+    "glossary_line": 7838,
+    "term": "whitespace string",
+    "term_id": "whitespace_string"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 1672,
+    "glossary_line": 7847,
+    "term": "zero-sized type",
+    "term_id": "zero_sized_type"
+  },
+  {
+    "chapter_file": "src/types-and-traits.rst",
+    "chapter_line": 778,
+    "glossary_line": 7855,
+    "term": "zero-variant enum type",
+    "term_id": "zero_variant_enum_type"
+  }
+]

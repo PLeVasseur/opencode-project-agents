@@ -1,0 +1,1236 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR env var
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[94m[1m| [0m[90m Grep     [0m^\.\. glossary-entry::
+[94m[1m| [0m[90m Grep     [0mcontrol flow boundary
+[94m[1m| [0m[90m Grep     [0m:dt:`control flow boundary`
+[94m[1m| [0m[90m Grep     [0mcontrol flow boundary
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[94m[1m| [0m[90m Grep     [0mcopy type
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`crate`
+[94m[1m| [0m[90m Grep     [0mA :t:`crate`
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[94m[1m| [0m[90m Grep     [0mcrate root
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[94m[1m| [0m[90m Grep     [0mcrate root
+[94m[1m| [0m[90m Grep     [0mcrate root
+[94m[1m| [0m[90m Grep     [0mcrate root` is
+[94m[1m| [0m[90m Grep     [0mcrate public modifier
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mdangling
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mdata race
+[96m[1m| [0m[90m Read     [0msrc/concurrency.rst
+[94m[1m| [0m[90m Grep     [0mdecimal literal
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mdeclaration
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mdeclarative macro
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mdeconstructee
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mdefault representation
+[94m[1m| [0m[90m Grep     [0mdefault representation` is
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mdefinition site hygiene
+[94m[1m| [0m[90m Grep     [0m:dt:`definition site hygiene`
+[94m[1m| [0m[90m Grep     [0mdefinition site hygiene
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mdereference expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mdereference type
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`dereference`
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/glossary-term-map.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for control flow boundary
+
+.. glossary-entry:: control flow boundary
+   
+   :glossary:
+     :dp:`fls_SmipZJDp02ij`
+     A :dt:`control flow boundary` is a :t:`construct` that limits control flow from
+     returning beyond the :t:`construct`, and acts as the target of control flow
+     returning operations.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/functions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for copy type
+
+.. glossary-entry:: copy type
+   
+   :glossary:
+     :dp:`fls_j7r33ecacyh`
+     A :dt:`copy type` is a :t:`type` that implements the
+     :std:`core::marker::Copy` :t:`trait`.
+   :chapter:
+     :dp:`fls_h2pgsij1rbms`
+     A :t:`copy type` is a :t:`type` that implements the :std:`core::marker::Copy`
+     :t:`trait`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate
+
+.. glossary-entry:: crate
+   
+   :glossary:
+     :dp:`fls_qplsjzb2uyim`
+     A :dt:`crate` is a unit of compilation and linking that contains a tree of
+     nested :t:`[module]s`.
+   :chapter:
+     :dp:`fls_qwghk79ok5h0`
+     A :t:`crate` is a unit of compilation and linking that contains a tree of
+     nested :t:`[module]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate type
+
+.. glossary-entry:: crate type
+   
+   :glossary:
+     :dp:`fls_eaxsgPMFNH7f`
+     The :dt:`crate type` of a :t:`crate` is the value of the :t:`attribute`
+     ``crate_type`` of a :t:`crate` or the value of ``--crate-type`` flag passed to
+     the tool compiling the :t:`crate`.
+   :chapter:
+     :dp:`fls_unxalgMqIr3v`
+     The :t:`crate type` of a :t:`crate` is the value of the :t:`attribute`
+     ``crate_type`` of a :t:`crate` or the value of ``--crate-type`` flag passed to
+     the tool compiling the :t:`crate`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate import
+
+.. glossary-entry:: crate import
+   
+   :glossary:
+     :dp:`fls_y91ja1a87g7a`
+     A :dt:`crate import` specifies a dependency on an external :t:`crate`.
+     
+     :dp:`fls_nmdxagg39hz6`
+     See :s:`ExternalCrateImport`.
+   :chapter:
+     :dp:`fls_d0pa807s5d5h`
+     A :t:`crate import` specifies a required dependency on an external :t:`crate`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate indication
+
+.. glossary-entry:: crate indication
+   
+   :glossary:
+     :dp:`fls_XUSFUErxQRRA`
+     A :dt:`crate indication` is a :t:`construct` that indicates a :t:`crate`.
+     
+     :dp:`fls_s1eFklbzjLxQ`
+     See :s:`CrateIndication`.
+   :chapter:
+     :dp:`fls_vfam3wzeAiah`
+     A :t:`crate indication` is a :t:`construct` that indicates a :t:`crate`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate root module
+
+.. glossary-entry:: crate root module
+   
+   :glossary:
+     :dp:`fls_oo4nmqv78wno`
+     A :dt:`crate root module` is the root of the nested :t:`module` tree of a
+     :t:`crate`.
+   :chapter:
+     :dp:`fls_fhiqvgdamq5`
+     A :t:`crate root module` is the root of the nested :t:`module` tree of a
+     :t:`crate`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate root
+
+.. glossary-entry:: crate root
+   
+   :glossary:
+     :dp:`fls_yxcgiuybqqy8`
+     A :dt:`crate root` is an entry point into a :t:`crate`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for crate public modifier
+
+.. glossary-entry:: crate public modifier
+   
+   :glossary:
+     :dp:`fls_dj7fmrqhbhsv`
+     A :dt:`crate public modifier` is a :t:`visibility modifier` that grants a
+     :t:`name` :t:`public visibility` within the current :t:`crate` only.
+     
+     :dp:`fls_wjfupeyeczp0`
+     See :s:`CratePublicModifier`.
+   :chapter:
+     :dp:`fls_aa4f3rvir9lm`
+     A :t:`crate public modifier` is a :t:`visibility modifier` that grants a
+     :t:`name` :t:`public visibility` within the current :t:`crate` only.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for declaration
+
+.. glossary-entry:: declaration
+   
+   :glossary:
+     :dp:`fls_kct7ducpli6k`
+     A :dt:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+     :t:`entity`.
+   :chapter:
+     :dp:`fls_lcca91wjwnpx`
+     A :t:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+     :t:`entity`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for dereference type
+
+.. glossary-entry:: dereference type
+   
+   :glossary:
+     :dp:`fls_HfuUQ7IaoI5j`
+     A :dt:`dereference type` is either a :t:`reference type` or a :t:`type` that
+     implements the :std:`core::ops::Deref` :t:`trait`.
+   :chapter:
+     :dp:`fls_x3alg07yd7hx`
+     A :t:`dereference type` is either a :t:`reference type` or a :t:`type` that
+     implements the :std:`core::ops::Deref` :t:`trait`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for data race
+
+.. glossary-entry:: data race
+   
+   :glossary:
+     :dp:`fls_v2s1b57e3r7n`
+     A :dt:`data race` is a scenario where two or more threads access a shared
+     memory location concurrently.
+   :chapter:
+     :dp:`fls_tx4b8r6i93n4`
+     A :t:`data race` is a scenario where two or more threads access a shared memory
+     location concurrently without any synchronization, where one of the accesses is
+     a modification.
+     
+     .. rubric:: Undefined Behavior
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/concurrency.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for decimal literal
+
+.. glossary-entry:: decimal literal
+   
+   :glossary:
+     :dp:`fls_lwv823lih69m`
+     A :dt:`decimal literal` is an :t:`integer literal` in base 10.
+     
+     :dp:`fls_pxiba4se64y4`
+     See :s:`DecimalLiteral`.
+   :chapter:
+     :dp:`fls_rn8xfd66yvst`
+     A :t:`decimal literal` is an :t:`integer literal` in base 10.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for declarative macro
+
+.. glossary-entry:: declarative macro
+   
+   :glossary:
+     :dp:`fls_pe12lfffaoqt`
+     A :dt:`declarative macro` is a :t:`macro` that associates a :t:`name` with a
+     set of syntactic transformation rules.
+     
+     :dp:`fls_1te2kfi9lt6c`
+     See :s:`MacroRulesDeclaration`.
+   :chapter:
+     :dp:`fls_w44hav7mw3ao`
+     A :t:`declarative macro` is a :t:`macro` that associates a :t:`name` with a set
+     of syntactic transformation :t:`[macro rule]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for definition site hygiene
+
+.. glossary-entry:: definition site hygiene
+   
+   :glossary:
+     :dp:`fls_2Y1Dpw5ZEqT3`
+     :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+     :s:`MacroRulesDeclaration` site. :t:`[Identifier]s` with
+     :t:`definition site hygiene` cannot reference the environment of the
+     :s:`MacroRulesDeclaration`, cannot be referenced by the environment of a
+     :s:`MacroInvocation`, and are considered :t:`hygienic`.
+   :chapter:
+     * :dp:`fls_dz2mvodl818d`
+       :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+       site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
+       the environment of the :s:`MacroRulesDeclaration`, cannot be referenced by the
+       environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
+     
+     *
+       .. glossary-entry:: call site hygiene
+          
+          :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for definition site hygiene with manual chapter lines
+
+/bin/bash: line 1: fls_dz2mvodl818d: command not found
+/bin/bash: line 1: Definition: command not found
+/bin/bash: line 1: MacroRulesDeclaration: command not found
+/bin/bash: line 1: [Identifier]s: command not found
+/bin/bash: line 1: definition: command not found
+/bin/bash: line 1: MacroRulesDeclaration: command not found
+/bin/bash: line 1: MacroInvocation: command not found
+/bin/bash: line 1: hygienic: command not found
+.. glossary-entry:: definition site hygiene
+   
+   :glossary:
+     :dp:`fls_2Y1Dpw5ZEqT3`
+     :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+     :s:`MacroRulesDeclaration` site. :t:`[Identifier]s` with
+     :t:`definition site hygiene` cannot reference the environment of the
+     :s:`MacroRulesDeclaration`, cannot be referenced by the environment of a
+     :s:`MacroInvocation`, and are considered :t:`hygienic`.
+   :chapter:
+     * :dp:
+       :t:, which resolves to a :s:
+       site. :t: with :t: cannot reference
+       the environment of the :s:, cannot be referenced by the
+       environment of a :s:, and are considered :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for definition site hygiene with quoted chapter lines
+
+.. glossary-entry:: definition site hygiene
+   
+   :glossary:
+     :dp:`fls_2Y1Dpw5ZEqT3`
+     :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+     :s:`MacroRulesDeclaration` site. :t:`[Identifier]s` with
+     :t:`definition site hygiene` cannot reference the environment of the
+     :s:`MacroRulesDeclaration`, cannot be referenced by the environment of a
+     :s:`MacroInvocation`, and are considered :t:`hygienic`.
+   :chapter:
+     * :dp:`fls_dz2mvodl818d`
+       :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+       site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
+       the environment of the :s:`MacroRulesDeclaration`, cannot be referenced by the
+       environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for deconstructee
+
+.. glossary-entry:: deconstructee
+   
+   :glossary:
+     :dp:`fls_QsvWOdoFWtUO`
+     A :dt:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is
+     being deconstructed by a :t:`struct pattern`.
+     
+     :dp:`fls_TkFjmV7AR7lp`
+     See :s:`Deconstructee`.
+   :chapter:
+     :dp:`fls_6o3x101wo478`
+     A :t:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is being
+     deconstructed by a :t:`struct pattern`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for default representation
+
+.. glossary-entry:: default representation
+   
+   :glossary:
+     :dp:`fls_e85fsp10acnh`
+     :dt:`Default representation` is a :t:`type representation` that does not make
+     any guarantees about :t:`layout`.
+   :chapter:
+     :dp:`fls_b005bktrkrxy`
+     :t:`Default representation` makes no guarantees about the :t:`layout`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for dangling
+
+.. glossary-entry:: dangling
+   
+   :glossary:
+     :dp:`fls_lq2urzh7bzxx`
+     A :t:`value` of an :t:`indirection type` is :dt:`dangling` if it is either
+     :c:`null` or not all of the bytes at the referred memory location are part of
+     the same allocation.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for dereference expression
+
+.. glossary-entry:: dereference expression
+   
+   :glossary:
+     :dp:`fls_3cuyhbh2llei`
+     A :dt:`dereference expression` is an :t:`expression` that obtains the
+     pointed-to memory location of its :t:`operand`.
+     
+     :dp:`fls_hx0jwahdb1nf`
+     See :s:`DereferenceExpression`.
+   :chapter:
+     :dp:`fls_f6wktzofzdn1`
+     A :t:`dereference expression` is an :t:`expression` that obtains the pointed-to
+     memory location of its :t:`operand`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for dereference
+
+.. glossary-entry:: dereference
+   
+   :glossary:
+     :dp:`fls_hk97pb1qt04y`
+     A :dt:`dereference` is the memory location produced by evaluating a
+     :t:`dereference expression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 checklist terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output from directives
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report for glossary migration
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow working tree status
+
+ M src/concurrency.rst
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/functions.rst
+ M src/lexical-elements.rst
+ M src/macros.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/program-structure-and-compilation.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+7a54fff docs(glossary): migrate batch 07 entries
+00dc183 docs(glossary): migrate batch 06 entries
+98e97a8 docs(glossary): migrate batch 05 entries
+48ae279 docs(glossary): migrate batch 04 entries
+e377a80 add script to generate glossary directives
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged changes
+
+diff --git a/src/concurrency.rst b/src/concurrency.rst
+index 8f19a96..9143589 100644
+--- a/src/concurrency.rst
++++ b/src/concurrency.rst
+@@ -14,12 +14,19 @@ without :t:`[data race]s`, whose rules are presented in this chapter.
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_tx4b8r6i93n4`
+-A :t:`data race` is a scenario where two or more threads access a shared memory
+-location concurrently without any synchronization, where one of the accesses is
+-a modification.
+-
+-.. rubric:: Undefined Behavior
++.. glossary-entry:: data race
++   
++   :glossary:
++     :dp:`fls_v2s1b57e3r7n`
++     A :dt:`data race` is a scenario where two or more threads access a shared
++     memory location concurrently.
++   :chapter:
++     :dp:`fls_tx4b8r6i93n4`
++     A :t:`data race` is a scenario where two or more threads access a shared memory
++     location concurrently without any synchronization, where one of the accesses is
++     a modification.
++     
++     .. rubric:: Undefined Behavior
+ 
+ :dp:`fls_isypweqewe78`
+ It is undefined behavior if two or more threads engage in a :t:`data race`.
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index d989125..470dac5 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -29,9 +29,16 @@ usually via a :t:`field access expression` or a :t:`path`.
+ :dp:`fls_40d2g0hvq2il`
+ A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+ 
+-:dp:`fls_lcca91wjwnpx`
+-A :t:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+-:t:`entity`.
++.. glossary-entry:: declaration
++   
++   :glossary:
++     :dp:`fls_kct7ducpli6k`
++     A :dt:`declaration` is a :t:`construct` that introduces a :t:`name` for an
++     :t:`entity`.
++   :chapter:
++     :dp:`fls_lcca91wjwnpx`
++     A :t:`declaration` is a :t:`construct` that introduces a :t:`name` for an
++     :t:`entity`.
+ 
+ :dp:`fls_94l2d7ti0hjw`
+ An :t:`explicitly declared entity` is an :t:`entity` that has a
+@@ -150,9 +157,19 @@ descendant :t:`[module]s`.
+ :dp:`fls_t7i4n19qdgn4`
+ A :t:`visibility modifier` sets the :t:`visibility` of a :t:`name`.
+ 
+-:dp:`fls_aa4f3rvir9lm`
+-A :t:`crate public modifier` is a :t:`visibility modifier` that grants a
+-:t:`name` :t:`public visibility` within the current :t:`crate` only.
++.. glossary-entry:: crate public modifier
++   
++   :glossary:
++     :dp:`fls_dj7fmrqhbhsv`
++     A :dt:`crate public modifier` is a :t:`visibility modifier` that grants a
++     :t:`name` :t:`public visibility` within the current :t:`crate` only.
++     
++     :dp:`fls_wjfupeyeczp0`
++     See :s:`CratePublicModifier`.
++   :chapter:
++     :dp:`fls_aa4f3rvir9lm`
++     A :t:`crate public modifier` is a :t:`visibility modifier` that grants a
++     :t:`name` :t:`public visibility` within the current :t:`crate` only.
+ 
+ :dp:`fls_tnh7o3pb4e22`
+ A :t:`self public modifier` is a :t:`visibility modifier` that grants a
+@@ -1240,9 +1257,16 @@ expression` or a :t:`path`.
+ :dp:`fls_7le2vcdbtxbq`
+ A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+ 
+-:dp:`fls_x3alg07yd7hx`
+-A :t:`dereference type` is either a :t:`reference type` or a :t:`type` that
+-implements the :std:`core::ops::Deref` :t:`trait`.
++.. glossary-entry:: dereference type
++   
++   :glossary:
++     :dp:`fls_HfuUQ7IaoI5j`
++     A :dt:`dereference type` is either a :t:`reference type` or a :t:`type` that
++     implements the :std:`core::ops::Deref` :t:`trait`.
++   :chapter:
++     :dp:`fls_x3alg07yd7hx`
++     A :t:`dereference type` is either a :t:`reference type` or a :t:`type` that
++     implements the :std:`core::ops::Deref` :t:`trait`.
+ 
+ :dp:`fls_4hulwazdu20i`
+ A :t:`dereference type chain` is a sequence of :t:`[dereference type]s`. A
+diff --git a/src/expressions.rst b/src/expressions.rst
+index c0a260a..3e77804 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -1154,9 +1154,26 @@ Dereference Expression
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_f6wktzofzdn1`
+-A :t:`dereference expression` is an :t:`expression` that obtains the pointed-to
+-memory location of its :t:`operand`.
++.. glossary-entry:: dereference expression
++   
++   :glossary:
++     :dp:`fls_3cuyhbh2llei`
++     A :dt:`dereference expression` is an :t:`expression` that obtains the
++     pointed-to memory location of its :t:`operand`.
++     
++     :dp:`fls_hx0jwahdb1nf`
++     See :s:`DereferenceExpression`.
++   :chapter:
++     :dp:`fls_f6wktzofzdn1`
++     A :t:`dereference expression` is an :t:`expression` that obtains the pointed-to
++     memory location of its :t:`operand`.
++
++.. glossary-entry:: dereference
++   
++   :glossary:
++     :dp:`fls_hk97pb1qt04y`
++     A :dt:`dereference` is the memory location produced by evaluating a
++     :t:`dereference expression`.
+ 
+ :dp:`fls_aeh5pzpcjveq`
+ When the :t:`operand` of a :t:`dereference expression` is of a :t:`pointer
+@@ -1209,6 +1226,14 @@ The :t:`value` of a :t:`dereference expression` is determined as follows:
+ :dp:`fls_72bpdsxxbgeq`
+ The :t:`evaluation` of a :t:`dereference expression` evaluates its :t:`operand`.
+ 
++.. glossary-entry:: dangling
++   
++   :glossary:
++     :dp:`fls_lq2urzh7bzxx`
++     A :t:`value` of an :t:`indirection type` is :dt:`dangling` if it is either
++     :c:`null` or not all of the bytes at the referred memory location are part of
++     the same allocation.
++
+ .. rubric:: Undefined Behavior
+ 
+ :dp:`fls_9wgldua1u8yt`
+diff --git a/src/functions.rst b/src/functions.rst
+index 6326d1e..195837b 100644
+--- a/src/functions.rst
++++ b/src/functions.rst
+@@ -159,6 +159,14 @@ A :t:`function` shall have a :t:`function body` unless it is an
+ :dp:`fls_bHwy8FLzEUi3`
+ A :t:`function body` denotes a :t:`control flow boundary`.
+ 
++.. glossary-entry:: control flow boundary
++   
++   :glossary:
++     :dp:`fls_SmipZJDp02ij`
++     A :dt:`control flow boundary` is a :t:`construct` that limits control flow from
++     returning beyond the :t:`construct`, and acts as the target of control flow
++     returning operations.
++
+ .. glossary-entry:: async control flow boundary
+    
+    :glossary:
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 2e0e528..4115dc7 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -961,8 +961,17 @@ An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+      :dp:`fls_nxqncu5yq4eu`
+      A :t:`binary literal` is an :t:`integer literal` in base 2.
+ 
+-:dp:`fls_rn8xfd66yvst`
+-A :t:`decimal literal` is an :t:`integer literal` in base 10.
++.. glossary-entry:: decimal literal
++   
++   :glossary:
++     :dp:`fls_lwv823lih69m`
++     A :dt:`decimal literal` is an :t:`integer literal` in base 10.
++     
++     :dp:`fls_pxiba4se64y4`
++     See :s:`DecimalLiteral`.
++   :chapter:
++     :dp:`fls_rn8xfd66yvst`
++     A :t:`decimal literal` is an :t:`integer literal` in base 10.
+ 
+ :dp:`fls_2268lchxkzjp`
+ A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
+diff --git a/src/macros.rst b/src/macros.rst
+index 0d4e088..ac2b6cc 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -70,9 +70,19 @@ A :ds:`MacroMatchToken` is any :t:`lexical element` in category
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_w44hav7mw3ao`
+-A :t:`declarative macro` is a :t:`macro` that associates a :t:`name` with a set
+-of syntactic transformation :t:`[macro rule]s`.
++.. glossary-entry:: declarative macro
++   
++   :glossary:
++     :dp:`fls_pe12lfffaoqt`
++     A :dt:`declarative macro` is a :t:`macro` that associates a :t:`name` with a
++     set of syntactic transformation rules.
++     
++     :dp:`fls_1te2kfi9lt6c`
++     See :s:`MacroRulesDeclaration`.
++   :chapter:
++     :dp:`fls_w44hav7mw3ao`
++     A :t:`declarative macro` is a :t:`macro` that associates a :t:`name` with a set
++     of syntactic transformation :t:`[macro rule]s`.
+ 
+ :dp:`fls_dw1nq4r9ghhd`
+ A :t:`macro rule` is a :t:`construct` that consists of a :t:`macro matcher` and
+@@ -1089,11 +1099,22 @@ within them, which aims to eliminate the syntactic interference between a
+ :dp:`fls_3axjf28xb1nt`
+ :t:`Hygiene` is categorized as follows:
+ 
+-* :dp:`fls_dz2mvodl818d`
+-  :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+-  site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
+-  the environment of the :s:`MacroRulesDeclaration`, cannot be referenced by the
+-  environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
++*
++  .. glossary-entry:: definition site hygiene
++     
++     :glossary:
++       :dp:`fls_2Y1Dpw5ZEqT3`
++       :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
++       :s:`MacroRulesDeclaration` site. :t:`[Identifier]s` with
++       :t:`definition site hygiene` cannot reference the environment of the
++       :s:`MacroRulesDeclaration`, cannot be referenced by the environment of a
++       :s:`MacroInvocation`, and are considered :t:`hygienic`.
++     :chapter:
++       * :dp:`fls_dz2mvodl818d`
++         :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
++         site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
++         the environment of the :s:`MacroRulesDeclaration`, cannot be referenced by the
++         environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
+ 
+ *
+   .. glossary-entry:: call site hygiene
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index a75949d..ccdd8aa 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -276,9 +276,16 @@ Passing Conventions
+ A :t:`passing convention` is the mechanism that defines how a :t:`value` is
+ transferred between :t:`[place]s`.
+ 
+-:dp:`fls_h2pgsij1rbms`
+-A :t:`copy type` is a :t:`type` that implements the :std:`core::marker::Copy`
+-:t:`trait`.
++.. glossary-entry:: copy type
++   
++   :glossary:
++     :dp:`fls_j7r33ecacyh`
++     A :dt:`copy type` is a :t:`type` that implements the
++     :std:`core::marker::Copy` :t:`trait`.
++   :chapter:
++     :dp:`fls_h2pgsij1rbms`
++     A :t:`copy type` is a :t:`type` that implements the :std:`core::marker::Copy`
++     :t:`trait`.
+ 
+ :dp:`fls_yx2knbby70fy`
+ A :t:`value` of a :t:`copy type` is :t:`passed <passing convention>`
+diff --git a/src/patterns.rst b/src/patterns.rst
+index ffb213e..a191f75 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -757,9 +757,19 @@ Struct Patterns
+ A :t:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
+ :t:`struct value`, or a :t:`union value`.
+ 
+-:dp:`fls_6o3x101wo478`
+-A :t:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is being
+-deconstructed by a :t:`struct pattern`.
++.. glossary-entry:: deconstructee
++   
++   :glossary:
++     :dp:`fls_QsvWOdoFWtUO`
++     A :dt:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is
++     being deconstructed by a :t:`struct pattern`.
++     
++     :dp:`fls_TkFjmV7AR7lp`
++     See :s:`Deconstructee`.
++   :chapter:
++     :dp:`fls_6o3x101wo478`
++     A :t:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is being
++     deconstructed by a :t:`struct pattern`.
+ 
+ :dp:`fls_k9zih9s0oe5h`
+ A :t:`struct pattern` is interpreted based on the :t:`deconstructee`. It is a
+diff --git a/src/program-structure-and-compilation.rst b/src/program-structure-and-compilation.rst
+index 7090f78..72332fc 100644
+--- a/src/program-structure-and-compilation.rst
++++ b/src/program-structure-and-compilation.rst
+@@ -109,14 +109,29 @@ Crates
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_qwghk79ok5h0`
+-A :t:`crate` is a unit of compilation and linking that contains a tree of
+-nested :t:`[module]s`.
++.. glossary-entry:: crate
++   
++   :glossary:
++     :dp:`fls_qplsjzb2uyim`
++     A :dt:`crate` is a unit of compilation and linking that contains a tree of
++     nested :t:`[module]s`.
++   :chapter:
++     :dp:`fls_qwghk79ok5h0`
++     A :t:`crate` is a unit of compilation and linking that contains a tree of
++     nested :t:`[module]s`.
+ 
+-:dp:`fls_unxalgMqIr3v`
+-The :t:`crate type` of a :t:`crate` is the value of the :t:`attribute`
+-``crate_type`` of a :t:`crate` or the value of ``--crate-type`` flag passed to
+-the tool compiling the :t:`crate`.
++.. glossary-entry:: crate type
++   
++   :glossary:
++     :dp:`fls_eaxsgPMFNH7f`
++     The :dt:`crate type` of a :t:`crate` is the value of the :t:`attribute`
++     ``crate_type`` of a :t:`crate` or the value of ``--crate-type`` flag passed to
++     the tool compiling the :t:`crate`.
++   :chapter:
++     :dp:`fls_unxalgMqIr3v`
++     The :t:`crate type` of a :t:`crate` is the value of the :t:`attribute`
++     ``crate_type`` of a :t:`crate` or the value of ``--crate-type`` flag passed to
++     the tool compiling the :t:`crate`.
+ 
+ :dp:`fls_e7jGvXvTsFpC`
+ The :t:`crate type` of a :t:`crate` if not specified is ``bin``.
+@@ -177,11 +192,29 @@ Crate Imports
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_d0pa807s5d5h`
+-A :t:`crate import` specifies a required dependency on an external :t:`crate`.
++.. glossary-entry:: crate import
++   
++   :glossary:
++     :dp:`fls_y91ja1a87g7a`
++     A :dt:`crate import` specifies a dependency on an external :t:`crate`.
++     
++     :dp:`fls_nmdxagg39hz6`
++     See :s:`ExternalCrateImport`.
++   :chapter:
++     :dp:`fls_d0pa807s5d5h`
++     A :t:`crate import` specifies a required dependency on an external :t:`crate`.
+ 
+-:dp:`fls_vfam3wzeAiah`
+-A :t:`crate indication` is a :t:`construct` that indicates a :t:`crate`.
++.. glossary-entry:: crate indication
++   
++   :glossary:
++     :dp:`fls_XUSFUErxQRRA`
++     A :dt:`crate indication` is a :t:`construct` that indicates a :t:`crate`.
++     
++     :dp:`fls_s1eFklbzjLxQ`
++     See :s:`CrateIndication`.
++   :chapter:
++     :dp:`fls_vfam3wzeAiah`
++     A :t:`crate indication` is a :t:`construct` that indicates a :t:`crate`.
+ 
+ :dp:`fls_ft860vkz0lkc`
+ A :t:`crate import` binds an external :t:`crate` to its :t:`crate indication`.
+@@ -209,9 +242,22 @@ Compilation Roots
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fhiqvgdamq5`
+-A :t:`crate root module` is the root of the nested :t:`module` tree of a
+-:t:`crate`.
++.. glossary-entry:: crate root
++   
++   :glossary:
++     :dp:`fls_yxcgiuybqqy8`
++     A :dt:`crate root` is an entry point into a :t:`crate`.
++
++.. glossary-entry:: crate root module
++   
++   :glossary:
++     :dp:`fls_oo4nmqv78wno`
++     A :dt:`crate root module` is the root of the nested :t:`module` tree of a
++     :t:`crate`.
++   :chapter:
++     :dp:`fls_fhiqvgdamq5`
++     A :t:`crate root module` is the root of the nested :t:`module` tree of a
++     :t:`crate`.
+ 
+ :dp:`fls_tk8tl2e0a34`
+ A tool can define a :t:`crate root module` for a single :t:`crate`.
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 52b5e1c..51b1d98 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -1612,8 +1612,15 @@ does not change the :t:`layout` of the :t:`[field]s` themselves.
+      :t:`C representation` lays out a :t:`type` such that the :t:`type` is
+      interoperable with the :t:`C` language.
+ 
+-:dp:`fls_b005bktrkrxy`
+-:t:`Default representation` makes no guarantees about the :t:`layout`.
++.. glossary-entry:: default representation
++   
++   :glossary:
++     :dp:`fls_e85fsp10acnh`
++     :dt:`Default representation` is a :t:`type representation` that does not make
++     any guarantees about :t:`layout`.
++   :chapter:
++     :dp:`fls_b005bktrkrxy`
++     :t:`Default representation` makes no guarantees about the :t:`layout`.
+ 
+ :dp:`fls_7plbkqlmed0r`
+ :t:`Primitive representation` is the :t:`type representation` of individual
+
+[91m[1m| [0m[90m Bash     [0mStage glossary changes, commit, and show status
+
+[glossary-single-source-phase1 441f3fd] docs(glossary): migrate batch 08 entries
+ 10 files changed, 214 insertions(+), 50 deletions(-)
+
+Inserted glossary-entry directives for the next 20 terms across the relevant chapters, keeping glossary text verbatim and using glossary-only blocks for terms without chapter definitions. Updates are in `src/functions.rst`, `src/ownership-and-deconstruction.rst`, `src/program-structure-and-compilation.rst`, `src/entities-and-resolution.rst`, `src/concurrency.rst`, `src/lexical-elements.rst`, `src/macros.rst`, `src/patterns.rst`, `src/types-and-traits.rst`, and `src/expressions.rst`.
+
+- Checklist updated at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md` (outside repo)
+- Term map updated at `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl` (outside repo)
+- Commit created: `docs(glossary): migrate batch 08 entries`
+
+Tests and verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next steps:
+1) Proceed with the next batch of 20 terms.
+2) Run `./make.py --check-links` if you want an extra validation pass.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

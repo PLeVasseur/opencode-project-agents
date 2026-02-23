@@ -1,0 +1,49 @@
+{
+  "canonical_checksum": "a18c07868b5c64bb430f2bfc481c35d65eaf8658eab7fc9a93c59e7deddd4899",
+  "checkpoint": "phase-3.done",
+  "input_hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/normalize.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/anchor.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/publish.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/normalize/normalize-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/normalize/normalized-units.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/qa/queue.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/anchor/anchor-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/anchor/anchored-units.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/publish/publish.begin",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/publish/publish-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/publish/publish.commit",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/anchor-registry.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/corpus-manifest.jsonc"
+  ],
+  "phase": 3,
+  "phase_commits": [
+    {
+      "id": "C6",
+      "sha": "811e089cf5d1a4846ea0b3b91b49e91835606dd6",
+      "subject": "feat(trace-miner): implement normalize stage and locator model"
+    },
+    {
+      "id": "C7",
+      "sha": "0b4070cc45899b3f70ad63c9f7733622b7c9e4fc",
+      "subject": "feat(trace-miner): implement deterministic anchoring and sharded corpus writers"
+    },
+    {
+      "id": "C8",
+      "sha": "ec9abaddf7d03db05551acce86a9f1b5504d6c2b",
+      "subject": "feat(trace-miner): implement publish stage and compatibility registry generation"
+    }
+  ],
+  "run_id": "20260215T143525Z",
+  "stage_set": [
+    "normalize",
+    "anchor",
+    "publish"
+  ],
+  "timestamp_utc": "2026-02-15T15:00:01Z"
+}

@@ -1,0 +1,23 @@
+{
+  "classifications": {
+    "contamination_bleed": {
+      "signal": 3
+    },
+    "mis_type": {
+      "signal": 100.0
+    },
+    "over_merge": {
+      "signal": 100.0,
+      "status": "high"
+    },
+    "over_split": {
+      "signal": 25.862068965517242,
+      "status": "high"
+    },
+    "provenance_overlap": {
+      "signal": 100.0
+    }
+  },
+  "run_id": "pr1-20260216T041431Z",
+  "timestamp_utc": "2026-02-16T04:14:36Z"
+}

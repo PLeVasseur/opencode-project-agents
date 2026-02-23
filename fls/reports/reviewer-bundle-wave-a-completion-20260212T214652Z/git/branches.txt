@@ -1,0 +1,32 @@
++ changelog-assistant-paragraph-buckets-inline-tags-on-dedupe-20260207T144017Z     0c590c4 (/home/pete.levasseur/project/fls-changelog-assistant-paragraph-buckets-20260207T144017Z) refactor(changelog-assistant): render paragraph lifecycle buckets
+  changelog-assistant-upstream-pr-anchor                                           24b8667 fix(changelog-assistant): preserve anchored entry title by default
++ changelog-assistant-upstream-pr-anchor-on-dedupe                                 02937b5 (/home/pete.levasseur/project/fls-anchor-on-dedupe-20260207T042229Z) ci(changelog-assistant): run coverage checks in pull requests
++ changelog-assistant-upstream-pr-anchor-title-preserve-on-dedupe                  216668c (/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z) fix(changelog-assistant): preserve anchored entry title by default
+  changelog-automation-mainline                                                    a291b35 [origin/changelog-automation-mainline: ahead 3] ci(changelog-tags): run verifier in PR and nightly
+  const-eval-pointer-copy                                                          46116fe [origin/const-eval-pointer-copy] docs(changelog): note const-eval pointer copy scope
++ dedupe-paragraph-ids-mainline                                                    30df352 (/home/pete.levasseur/project/fls-paragraph-id-dedup-mainline) [origin/dedupe-paragraph-ids-mainline] docs(changelog): add maintenance note for deduplicated glossary IDs
+  feat/add-issue-template                                                          cefd25d [origin/feat/add-issue-template: gone] fix: modify SPDX-FileCopyRightText to Rust Project standards
+  feat/drop-order-in-or-patterns                                                   614b9f8 [origin/feat/drop-order-in-or-patterns] chore: move pattern matching definition out of glossary
+  glossary-Q                                                                       15d9550 docs(glossary): checkpoint Q migration
+  glossary-R                                                                       901fae0 docs(glossary): checkpoint R migration
+  glossary-S                                                                       db42d83 docs(glossary): checkpoint S migration
+  glossary-T                                                                       c283a1a docs(glossary): checkpoint T migration
++ glossary-U                                                                       ec946a3 (/home/pete.levasseur/project/fls-glossary-U) docs(glossary): checkpoint U migration
++ glossary-V                                                                       308d2c4 (/home/pete.levasseur/project/fls-glossary-V) docs(glossary): checkpoint V migration
++ glossary-W                                                                       873aaca (/home/pete.levasseur/project/fls-glossary-W) docs(glossary): checkpoint W migration
++ glossary-X                                                                       f119687 (/home/pete.levasseur/project/fls-glossary-X) docs(glossary): fix paragraph id placement
++ glossary-Y                                                                       f119687 (/home/pete.levasseur/project/fls-glossary-Y) docs(glossary): fix paragraph id placement
++ glossary-Z                                                                       b7393af (/home/pete.levasseur/project/fls-glossary-Z) docs(glossary): checkpoint Z migration
++ glossary-single-source-phase1                                                    00ad891 (/home/pete.levasseur/project/fls) [origin/glossary-single-source-phase1] chore(glossary): fix flake8 in generator
+* glossary-step-1-main-text-coverage                                               e498c8d [origin/glossary-step-1-main-text-coverage] docs(glossary): remediate placement terms WA-007-WA-007
++ glossary-step-2-align-duplicate-text                                             be0f38f (/home/pete.levasseur/project/fls-wt/step2) [origin/glossary-step-2-align-duplicate-text] docs(glossary): align cast and casting definitions
++ glossary-step-3-dt-main-only                                                     663a8a3 (/home/pete.levasseur/project/fls-wt/step3) [origin/glossary-step-3-dt-main-only] Merge branch 'glossary-step-2-align-duplicate-text' into glossary-step-3-dt-main-only
++ glossary-step-4-remove-see-paragraphs                                            a3da34a (/home/pete.levasseur/project/fls-wt/step4) [origin/glossary-step-4-remove-see-paragraphs] Merge branch 'glossary-step-3-dt-main-only' into glossary-step-4-remove-see-paragraphs
++ glossary-step-5-generated-glossary-parity                                        7444888 (/home/pete.levasseur/project/fls-wt/step5) [origin/glossary-step-5-generated-glossary-parity] chore(glossary): refresh generated glossary include
+  issue-647-asm-cfg                                                                c7f1f37 [origin/issue-647-asm-cfg] docs(inline-assembly): expand assembly attribute grammar names
+  lub-coercion-function-safety                                                     f0b6af5 [origin/lub-coercion-function-safety] docs(coercions): clarify LUB safety and target_feature rules
+  main                                                                             f1b193f [origin/main] Merge pull request #654 from kirtchev-adacore/fls-646-stabilize-c-style-variadic-function-declarations
++ system-abi-variadic                                                              57b0f04 (/home/pete.levasseur/project/fls-system-abi-variadic-validation) [origin/system-abi-variadic: ahead 7, behind 4] docs(ffi): add system ABI mapping rule
++ system-abi-variadic-anchor-integration-on-dedupe-20260207T042229Z                019b9be (/home/pete.levasseur/project/fls-system-abi-anchor-integration-20260207T042229Z) ci(changelog-assistant): run coverage checks in pull requests
++ system-abi-variadic-anchor-title-preserve-integration-on-dedupe-20260207T050810Z b4e9f07 (/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z) refactor(changelog-assistant): render paragraph lifecycle buckets
++ system-abi-variadic-on-dedupe                                                    1d98249 (/home/pete.levasseur/project/fls-system-abi-on-dedupe-20260207T042229Z) docs(ffi): add system ABI mapping rule

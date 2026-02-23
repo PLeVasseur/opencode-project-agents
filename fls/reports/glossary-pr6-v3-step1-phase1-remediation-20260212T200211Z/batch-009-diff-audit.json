@@ -1,0 +1,25 @@
+{
+  "batch_number": 9,
+  "commit_hash": "e498c8d6275cffce4640683ec664fa527d5bf010",
+  "terms": [
+    {
+      "after_file": "entities-and-resolution.rst",
+      "after_file_repo_path": "src/entities-and-resolution.rst",
+      "checklist_id": "WA-007",
+      "definition_operation": "promote",
+      "file_added_lines": 0,
+      "file_deleted_lines": 0,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "name"
+    }
+  ],
+  "timestamp": "20260212T213723Z"
+}

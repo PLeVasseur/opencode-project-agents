@@ -1,0 +1,5 @@
+#6 | https://github.com/PLeVasseur/fls/pull/6 | base=main | head=glossary-step-1-main-text-coverage | docs(glossary): phase 1 main text coverage
+#7 | https://github.com/PLeVasseur/fls/pull/7 | base=glossary-step-1-main-text-coverage | head=glossary-step-2-align-duplicate-text | docs(glossary): phase 2 align duplicate text
+#8 | https://github.com/PLeVasseur/fls/pull/8 | base=glossary-step-2-align-duplicate-text | head=glossary-step-3-dt-main-only | docs(glossary): phase 3 keep dt in main text only
+#9 | https://github.com/PLeVasseur/fls/pull/9 | base=glossary-step-3-dt-main-only | head=glossary-step-4-remove-see-paragraphs | docs(glossary): phase 4 remove redundant see paragraphs
+#10 | https://github.com/PLeVasseur/fls/pull/10 | base=glossary-step-4-remove-see-paragraphs | head=glossary-step-5-generated-glossary-parity | docs(glossary): phase 5 generated glossary parity

@@ -1,0 +1,2 @@
+CHECK target_branch_names_availability
+EXIT 0

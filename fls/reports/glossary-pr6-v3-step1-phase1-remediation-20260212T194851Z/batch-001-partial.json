@@ -1,0 +1,23 @@
+{
+  "batch_number": 1,
+  "passed_ids": [],
+  "quarantined": {
+    "WA-001": "validator error: WA-001: missing after_commit (after snapshot)",
+    "WA-002": "validator error: WA-002: missing after_commit (after snapshot)",
+    "WA-003": "validator error: WA-003: missing after_commit (after snapshot)",
+    "WA-004": "validator error: WA-004: missing after_commit (after snapshot)",
+    "WA-005": "validator error: WA-005: missing after_commit (after snapshot)",
+    "WA-006": "validator error: WA-006: missing after_commit (after snapshot)",
+    "WA-007": "validator error: WA-007: missing after_commit (after snapshot)",
+    "WA-008": "validator error: WA-008: missing after_commit (after snapshot)",
+    "WA-009": "validator error: WA-009: missing after_commit (after snapshot)",
+    "WA-010": "validator error: WA-010: missing after_commit (after snapshot)",
+    "WA-011": "validator error: WA-011: missing after_commit (after snapshot)",
+    "WA-012": "validator error: WA-012: missing after_commit (after snapshot)",
+    "WA-013": "validator error: WA-013: missing after_commit (after snapshot)",
+    "WA-014": "validator error: WA-014: missing after_commit (after snapshot)",
+    "WA-015": "validator error: WA-015: missing after_commit (after snapshot)"
+  },
+  "timestamp": "20260212T195837Z",
+  "wave": "WA"
+}

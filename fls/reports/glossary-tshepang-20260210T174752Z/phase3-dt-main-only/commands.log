@@ -1,0 +1,11 @@
+# Phase 3 command log
+# Append commands with UTC timestamps during execution.
+
+2026-02-10T18:48:34Z git -C "../fls-wt/step3" merge --ff-only glossary-step-2-align-duplicate-text
+2026-02-10T18:49:06Z uv run python (replace `:dt:` with `:t:` in `src/glossary.rst`)
+2026-02-10T18:50:12Z uv run ./tools/glossary-migration-check.py --phase 3 --strict --report "$REPORT_ROOT/glossary-phase3-check.json" (initial)
+2026-02-10T18:51:05Z uv run ./tools/glossary-migration-check.py --phase 3 --strict --report "$REPORT_ROOT/glossary-phase3-check.json" (rerun after target-kind inference update)
+2026-02-10T18:51:59Z ./make.py --clear
+2026-02-10T18:53:16Z ./make.py --check-links
+2026-02-10T18:54:41Z git commit -m "docs(glossary): keep dt roles in chapter documents only"
+2026-02-10T19:18:02Z ./make.py --check-links (log capture backfill)

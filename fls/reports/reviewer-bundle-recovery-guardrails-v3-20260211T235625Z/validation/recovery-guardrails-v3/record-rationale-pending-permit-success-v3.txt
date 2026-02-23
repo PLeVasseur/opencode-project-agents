@@ -1,0 +1,1 @@
+ok checklist_id=WA-001 rationale_uuid=cf66945f-0383-41a7-bf35-27fdc53e31b9

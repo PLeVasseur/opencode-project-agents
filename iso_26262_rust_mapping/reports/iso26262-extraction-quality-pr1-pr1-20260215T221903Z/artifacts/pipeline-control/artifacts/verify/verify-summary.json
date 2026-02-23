@@ -1,0 +1,51 @@
+{
+  "anchor_registry_count": 464,
+  "anomaly_count": 0,
+  "artifact_hygiene_pass": true,
+  "corpus_anchor_count": 2921,
+  "integrity_pass": true,
+  "negative_probe_pass": true,
+  "normalization_pass": true,
+  "phrase_query_smoke": true,
+  "probe_signature": "8f9a12d6beada90439feffcecd0ac557fec63a9e9da188a0030da4973ea1d504",
+  "query_guardrail_fair_use_pass": true,
+  "query_guardrail_preface_pass": true,
+  "query_guardrail_quote_limit_pass": true,
+  "query_smoke": {
+    "phrase_hit_count": 3,
+    "phrase_preface": {
+      "guideline_pointer_path": "docs/traceability-ts-and-quotation-guidelines.md",
+      "ts_usage_reminder": "Use {ts} tokens appropriately in downstream authored outputs."
+    },
+    "phrase_term": "second edition",
+    "word_hit_count": 5,
+    "word_preface": {
+      "guideline_pointer_path": "docs/traceability-ts-and-quotation-guidelines.md",
+      "ts_usage_reminder": "Use {ts} tokens appropriately in downstream authored outputs."
+    },
+    "word_term": "12"
+  },
+  "replay_signature_pass": true,
+  "report_content_pass": true,
+  "required_parts_completeness": "3/3",
+  "run_id": "pr1-20260215T221903Z",
+  "schema_pass": true,
+  "source_integration": {
+    "auto_revert_applied": true,
+    "list_integration_pass": true,
+    "makepy_e2e_pass": true,
+    "paragraph_integration_pass": true,
+    "residual_src_diff_count": 0,
+    "retain_probe_insertions": 0,
+    "src_integration_begin": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/source-integration/src-integration.begin",
+    "src_integration_commit": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/source-integration/src-integration.commit",
+    "src_integration_manifest": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/source-integration/src-integration-manifest.json",
+    "table_integration_pass": true
+  },
+  "src_probe_pass": true,
+  "tables_probe_pass": true,
+  "text_probe_pass": true,
+  "timestamp_utc": "2026-02-15T23:04:09Z",
+  "unresolved_qa_count": 0,
+  "word_query_smoke": true
+}

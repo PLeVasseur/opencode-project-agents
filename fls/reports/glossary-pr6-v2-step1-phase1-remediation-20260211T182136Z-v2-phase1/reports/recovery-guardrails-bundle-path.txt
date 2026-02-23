@@ -1,0 +1,2 @@
+BUNDLE_STAMP=20260211T220307Z
+BUNDLE_DIR=/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/reviewer-bundle-recovery-guardrails-20260211T220307Z

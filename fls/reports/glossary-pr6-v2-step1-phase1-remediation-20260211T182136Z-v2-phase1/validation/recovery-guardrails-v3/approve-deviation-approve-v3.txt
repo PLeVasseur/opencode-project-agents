@@ -1,0 +1,1 @@
+ok checklist_id=WA-001 decision=approve status=approved summary=/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails-v3/deviation-review-summary-approve-v3.json

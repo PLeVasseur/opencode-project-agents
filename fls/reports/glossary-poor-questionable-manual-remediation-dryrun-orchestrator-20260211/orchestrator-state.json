@@ -1,0 +1,10 @@
+{
+  "batch_size": 20,
+  "batches": [],
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "run_id": "dryrun-orchestrator-20260211",
+  "session_id": null,
+  "started_at": "20260211T031925Z",
+  "updated_at": "20260211T031925Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

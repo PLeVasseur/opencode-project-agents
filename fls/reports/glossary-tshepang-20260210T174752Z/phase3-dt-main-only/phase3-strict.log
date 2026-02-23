@@ -1,0 +1,6 @@
+[PASS] no-disallowed-directives
+[PASS] glossary-terms-covered-by-chapters
+[PASS] glossary-chapter-definition-match
+[PASS] no-dt-in-glossary-source
+[PASS] no-term-definitions-in-glossary-doctree
+[PASS] canonical-term-targets-non-glossary

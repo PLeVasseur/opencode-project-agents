@@ -1,0 +1,171 @@
+{
+  "batch_number": 15,
+  "commit_hash": "2251975a0320d0960a4537efda198978107f8d57",
+  "deviation_permit_count": 0,
+  "diff_audit_index_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/reports/diff-audit-index.json",
+  "diff_audit_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-diff-audit.json",
+  "high_medium_count": 17,
+  "ids": [
+    "WB-024",
+    "WB-028",
+    "WB-039",
+    "WB-040",
+    "WB-041",
+    "WB-042",
+    "WB-043",
+    "WB-044",
+    "WB-045",
+    "WB-046",
+    "WB-047",
+    "WB-048",
+    "WB-049",
+    "WB-050",
+    "WB-051",
+    "WB-052",
+    "WB-053",
+    "WB-054",
+    "WB-055",
+    "WB-056"
+  ],
+  "insert_diff_modes": {
+    "WB-048": "hunk",
+    "WB-049": "hunk"
+  },
+  "max_rationale_similarity": 0.32142857142857145,
+  "max_rationale_similarity_pair": [
+    "WB-049",
+    "WB-054"
+  ],
+  "moved_term_count": 17,
+  "moved_terms": [
+    {
+      "checklist_id": "WB-024",
+      "term": "evaluation"
+    },
+    {
+      "checklist_id": "WB-028",
+      "term": "execution"
+    },
+    {
+      "checklist_id": "WB-039",
+      "term": "element type"
+    },
+    {
+      "checklist_id": "WB-040",
+      "term": "mutable variable"
+    },
+    {
+      "checklist_id": "WB-041",
+      "term": "discriminant initializer"
+    },
+    {
+      "checklist_id": "WB-042",
+      "term": "[unifiable type]s"
+    },
+    {
+      "checklist_id": "WB-044",
+      "term": "exported function"
+    },
+    {
+      "checklist_id": "WB-046",
+      "term": "external function item type"
+    },
+    {
+      "checklist_id": "WB-047",
+      "term": "mutable"
+    },
+    {
+      "checklist_id": "WB-048",
+      "term": "where clause"
+    },
+    {
+      "checklist_id": "WB-049",
+      "term": "associated function"
+    },
+    {
+      "checklist_id": "WB-050",
+      "term": "renaming"
+    },
+    {
+      "checklist_id": "WB-051",
+      "term": "separator"
+    },
+    {
+      "checklist_id": "WB-052",
+      "term": "struct pattern"
+    },
+    {
+      "checklist_id": "WB-054",
+      "term": "associated item"
+    },
+    {
+      "checklist_id": "WB-055",
+      "term": "destructor"
+    },
+    {
+      "checklist_id": "WB-056",
+      "term": "escaped character"
+    }
+  ],
+  "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-opencode.jsonl",
+  "passed_ids": [
+    "WB-024",
+    "WB-028",
+    "WB-039",
+    "WB-040",
+    "WB-041",
+    "WB-042",
+    "WB-044",
+    "WB-046",
+    "WB-047",
+    "WB-048",
+    "WB-049",
+    "WB-050",
+    "WB-051",
+    "WB-052",
+    "WB-054",
+    "WB-055",
+    "WB-056"
+  ],
+  "pending_deviation_count": 0,
+  "quarantined_ids": [
+    "WB-043",
+    "WB-045",
+    "WB-053"
+  ],
+  "rationale_patterns_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-rationale-patterns.json",
+  "rationale_patterns_md": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-rationale-patterns.md",
+  "recommendation_compliance_rate": 1.0,
+  "recommendation_compliant_count": 17,
+  "session_id": "ses_3abc13d52ffeftv3R4xvietZbx",
+  "strict_post": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-strict-post.json",
+  "strict_pre": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-strict-pre.json",
+  "terms": [
+    "evaluation",
+    "execution",
+    "element type",
+    "mutable variable",
+    "discriminant initializer",
+    "[unifiable type]s",
+    "elaboration",
+    "exported function",
+    "expression-with-block",
+    "external function item type",
+    "mutable",
+    "where clause",
+    "associated function",
+    "renaming",
+    "separator",
+    "struct pattern",
+    "tuple enum variant",
+    "associated item",
+    "destructor",
+    "escaped character"
+  ],
+  "timestamp": "20260213T000251Z",
+  "validator_failure_codes": [],
+  "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-validate-post-commit.json",
+  "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-validate-progress.json",
+  "validator_progress_post_quarantine": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-015-validate-progress-post-quarantine.json",
+  "wave": "WB"
+}

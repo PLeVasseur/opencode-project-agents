@@ -1,0 +1,8 @@
+b4e9f07 refactor(changelog-assistant): render paragraph lifecycle buckets
+942eb8d fix(changelog-assistant): preserve anchored entry title by default
+4bfc906 ci(changelog-assistant): run coverage checks in pull requests
+c2aa7aa fix(changelog-assistant): anchor updates to existing upstream PR entries
+82b768c ci(changelog-tags): run verifier in PR and nightly
+b5cfa64 test(changelog-tags): add verifier fixtures and case manifest
+6010f9f feat(changelog-tags): add verifier harness and schema
+c411263 feat(changelog): add Sphinx-aware changelog automation

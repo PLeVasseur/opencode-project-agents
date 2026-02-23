@@ -1,0 +1,2 @@
+:dp:`fls_vrpr6ttpfpal`
+A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.

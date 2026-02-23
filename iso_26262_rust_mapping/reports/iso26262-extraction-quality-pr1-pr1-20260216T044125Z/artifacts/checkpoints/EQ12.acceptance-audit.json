@@ -1,0 +1,41 @@
+{
+  "cache_staged_files": [],
+  "control_plane_anti_leak_files": [],
+  "failed_by_part": {
+    "P06": [
+      "paragraph_fragment_start",
+      "table_scope",
+      "unit_type_provenance_overlap"
+    ],
+    "P08": [
+      "paragraph_fragment_start",
+      "table_scope",
+      "unit_type_provenance_overlap"
+    ],
+    "P09": [
+      "paragraph_fragment_start",
+      "paragraph_meaningful",
+      "table_scope",
+      "triad_source_set_identity",
+      "unit_type_provenance_overlap"
+    ]
+  },
+  "failed_overall": [
+    "paragraph_fragment_start",
+    "table_scope",
+    "unit_type_provenance_overlap"
+  ],
+  "integrity_failures": [],
+  "overall_pass": false,
+  "percent_metric_violations": {
+    "by_part": {
+      "P06": [],
+      "P08": [],
+      "P09": []
+    },
+    "overall": []
+  },
+  "run_id": "pr1-20260216T044125Z",
+  "stage": "EQ12",
+  "timestamp_utc": "2026-02-16T04:42:37Z"
+}

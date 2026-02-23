@@ -1,0 +1,5 @@
+[system-abi-variadic-anchor-integration-on-dedupe-20260207T042229Z 60510bd] feat(changelog): add Sphinx-aware changelog automation
+ Date: Sat Feb 7 05:42:20 2026 +0900
+ 6 files changed, 1210 insertions(+), 10 deletions(-)
+ create mode 100644 exts/ferrocene_spec/schemas/paragraph-ids-rich.schema.json
+ create mode 100644 tools/changelog_assistant.py

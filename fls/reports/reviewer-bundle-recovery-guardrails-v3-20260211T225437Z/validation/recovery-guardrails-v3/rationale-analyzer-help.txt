@@ -1,0 +1,10 @@
+usage: analyze-rationale-patterns-v3.py [-h] --ledger LEDGER --json-out
+                                        JSON_OUT --markdown-out MARKDOWN_OUT
+
+Analyze rationale monoculture signals for v3 ledger
+
+options:
+  -h, --help            show this help message and exit
+  --ledger LEDGER
+  --json-out JSON_OUT
+  --markdown-out MARKDOWN_OUT

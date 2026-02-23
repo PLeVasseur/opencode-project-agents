@@ -1,0 +1,26 @@
+Traceback (most recent call last):
+  File "<stdin>", line 39, in <module>
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/__init__.py", line 289, in compile
+    return _compile(pattern, flags)
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/__init__.py", line 350, in _compile
+    p = _compiler.compile(pattern, flags)
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/_compiler.py", line 748, in compile
+    p = _parser.parse(p, flags)
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/_parser.py", line 980, in parse
+    p = _parse_sub(source, state, flags & SRE_FLAG_VERBOSE, 0)
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/_parser.py", line 863, in _parse
+    p = _parse_sub(source, state, sub_verbose, nested + 1)
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/_parser.py", line 459, in _parse_sub
+    itemsappend(_parse(source, state, verbose, nested + 1,
+                ~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                       not nested and not items))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pete.levasseur/.local/share/uv/python/cpython-3.13.2-linux-x86_64-gnu/lib/python3.13/re/_parser.py", line 567, in _parse
+    raise source.error("unterminated character set",
+                       source.tell() - here)
+re.PatternError: unterminated character set at position 5

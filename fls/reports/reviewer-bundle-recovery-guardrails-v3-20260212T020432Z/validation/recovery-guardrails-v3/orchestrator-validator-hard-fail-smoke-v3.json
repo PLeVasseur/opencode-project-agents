@@ -1,0 +1,9 @@
+{
+  "hard_codes": [
+    "FAILED_PENDING_DEVIATIONS"
+  ],
+  "quarantined": {},
+  "unresolved": [
+    "FAILED_PENDING_DEVIATIONS: WA-001: pending deviation is not allowed in mode=gate"
+  ]
+}

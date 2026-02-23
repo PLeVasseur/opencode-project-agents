@@ -1,0 +1,28 @@
+{
+  "wave": "WB",
+  "commit_hash": "347ef54c342c3dad2121f1b7a4a737a1a4c9a5a0",
+  "term_count": 8,
+  "checklist_ids": [
+    "WB-003",
+    "WB-012",
+    "WB-054",
+    "WB-066",
+    "WB-067",
+    "WB-072",
+    "WB-075",
+    "WB-081"
+  ],
+  "terms": [
+    "concrete type",
+    "associated trait function",
+    "associated item",
+    "associated type",
+    "binding argument",
+    "constant parameter",
+    "constant parameter initializer",
+    "binary crate"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 8
+  }
+}

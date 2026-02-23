@@ -1,0 +1,7 @@
+tools/changelog_assistant.py exists: PASS
+--require-anchor in --help: PASS
+metadata field update_action: PASS
+metadata field anchored_pr_url: PASS
+metadata field anchored_entry_line: PASS
+metadata field anchored_entry_index: PASS
+py_compile: PASS

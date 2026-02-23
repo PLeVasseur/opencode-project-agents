@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-02-22T00:17:53+00:00",
+  "prompt_id": "RET-RESOLVE-001",
+  "query": {
+    "allow_degraded": false,
+    "candidate_limit": 200,
+    "include_score_breakdown": true,
+    "mode": "hybrid",
+    "query_text": "How should Rust code handle defensive error paths safely?",
+    "row_marker": "",
+    "top_k": 8
+  },
+  "response": {
+    "degraded": false,
+    "duration_ms": 43655.633,
+    "executed_mode": "hybrid",
+    "preflight": {
+      "base_url": "http://127.0.0.1:8080",
+      "checks": [
+        {
+          "base_url": "http://127.0.0.1:19080",
+          "endpoint": "/health",
+          "name": "health_embed",
+          "status": "pass"
+        },
+        {
+          "base_url": "http://127.0.0.1:19081",
+          "endpoint": "/health",
+          "name": "health_rerank",
+          "status": "pass"
+        },
+        {
+          "name": "embed",
+          "status": "pass",
+          "vector_dim": 2560
+        },
+        {
+          "name": "rerank",
+          "score_count": 2,
+          "status": "pass"
+        }
+      ],
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "ok": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3"
+    },
+    "query_text": "How should Rust code handle defensive error paths safely?",
+    "requested_mode": "hybrid",
+    "row_count": 8,
+    "row_marker": "",
+    "row_projection": [
+      {
+        "evidence_hits": 7,
+        "evidence_trace": [
+          {
+            "contribution": 0.211085,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:007"
+          },
+          {
+            "contribution": 0.189585,
+            "source_anchor": "https://doc.rust-lang.org/reference/panic.html#panic",
+            "statement_id": "doc::panic.md::section:0001::statement:001"
+          },
+          {
+            "contribution": 0.148364,
+            "source_anchor": "https://doc.rust-lang.org/reference/panic.html#unwinding-across-ffi-boundaries",
+            "statement_id": "doc::panic.md::section:0013::statement:003"
+          },
+          {
+            "contribution": 0.080251,
+            "source_anchor": "https://doc.rust-lang.org/reference/crates-and-source-files.html#uncaught-foreign-unwinding",
+            "statement_id": "doc::crates-and-source-files.md::section:0003::statement:001"
+          },
+          {
+            "contribution": 0.047244,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-not-considered-unsafe.html#behavior-not-considered-unsafe",
+            "statement_id": "doc::behavior-not-considered-unsafe.md::section:0001::statement:001"
+          },
+          {
+            "contribution": 0.028461,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:003"
+          },
+          {
+            "contribution": 0.023983,
+            "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+            "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:005"
+          }
+        ],
+        "row_marker": "1i",
+        "score": 0.728973,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:007"
+      },
+      {
+        "evidence_hits": 1,
+        "evidence_trace": [
+          {
+            "contribution": 0.046973,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:006"
+          }
+        ],
+        "row_marker": "1h",
+        "score": 0.046973,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:006"
+      }
+    ],
+    "rows": [
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.6785419612712817,
+        "reranker_score": 1.0,
+        "row_marker_scores": [
+          {
+            "overlap_count": 3,
+            "row_marker": "1i",
+            "score": 0.311086
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Unsafe blocks (`unsafe {}`)",
+        "semantic_score": 0.914167845085127,
+        "semantic_score_raw": 0.8383690574263122,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0003::statement:007",
+        "statement_text": "Rust's type system is a conservative approximation of the dynamic safety requirements, so in some cases there is a performance cost to using safe code.",
+        "text_sha256": "1a478fe0f1a726ec135021d3f471f1a82726f33c89e5b40919d784643b0f3ba4",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.609430950599742,
+        "reranker_score": 0.8306081258307213,
+        "row_marker_scores": [
+          {
+            "overlap_count": 6,
+            "row_marker": "1i",
+            "score": 0.622171
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Panic",
+        "semantic_score": 0.9426291759036691,
+        "semantic_score_raw": 0.8488460617576913,
+        "source_anchor": "https://doc.rust-lang.org/reference/panic.html#panic",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::panic.md::section:0001::statement:001",
+        "statement_text": "r[panic.intro] Rust provides a mechanism to prevent a function from returning normally, and instead \"panic,\" which is a response to an error condition that is typically not expected to be recoverable within the context in which the error is encountered. r[panic.lang-ops] Some language constructs, such as out-of-bounds [array indexing], panic automatically. r[panic.control] There are also language features that provide a level of control over panic behavior: * A [_panic handler_][panic handler] defines the behavior of a panic. * [FFI ABIs](items/functions.md#unwinding) may alter how panics behave. > [!NOTE] > The standard library provides the capability to explicitly panic via the [`panic!` macro][panic!]. r[panic.panic_handler]",
+        "text_sha256": "4ada57ff3ab72fa6e8dc5e8cdd7ab16f7cba90a036130641de4c240b2604d015",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5804349691853016,
+        "reranker_score": 0.8233001986469468,
+        "row_marker_scores": [
+          {
+            "overlap_count": 4,
+            "row_marker": "1i",
+            "score": 0.414781
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Uncaught foreign unwinding",
+        "semantic_score": 0.839799519176702,
+        "semantic_score_raw": 0.8109930616365308,
+        "source_anchor": "https://doc.rust-lang.org/reference/crates-and-source-files.html#uncaught-foreign-unwinding",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::crates-and-source-files.md::section:0003::statement:001",
+        "statement_text": "When a \"foreign\" unwind (e.g. an exception thrown from C++ code, or a `panic!` in Rust code using a different panic handler) propagates beyond the `main` function, the process will be safely terminated.",
+        "text_sha256": "ebe32ffa323c42e104651564a9f4f3f68a4c8b21ffb0e55974954559436dac8c",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5723063709375421,
+        "reranker_score": 0.7988934730903193,
+        "row_marker_scores": [
+          {
+            "overlap_count": 10,
+            "row_marker": "1i",
+            "score": 1.036952
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Unwinding across FFI boundaries",
+        "semantic_score": 0.8512172321875938,
+        "semantic_score_raw": 0.8151960776315392,
+        "source_anchor": "https://doc.rust-lang.org/reference/panic.html#unwinding-across-ffi-boundaries",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::panic.md::section:0013::statement:003",
+        "statement_text": "(For example, this case occurs when such a function written in C++ throws an exception that is uncaught and propagates to Rust.) * Calling a Rust `extern` function that unwinds (with `extern \"C-unwind\"` or another ABI that permits unwinding) from code that does not support unwinding, such as code compiled with GCC or Clang using `-fno-exceptions` r[panic.unwind.ffi.catch-foreign] Catching a foreign unwinding operation (such as a C++ exception) using [`std::panic::catch_unwind`], [`std::thread::JoinHandle::join`], or by letting it propagate beyond the Rust `main()` function or thread root will have one of two behaviors, and it is unspecified which will occur: * The process aborts. * The function returns a [`Result::Err`] containing an opaque type. > [!NOTE] > Rust code compiled or linked with a different instance of the Rust standard library counts as a \"foreign exception\" for the purpose of this guarantee.",
+        "text_sha256": "56f9671ffbb9b2c058cfe27ef6ca849e9c23febb3bef5ee27122186944f7e23c",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5695075343040572,
+        "reranker_score": 0.7100167428979048,
+        "row_marker_scores": [
+          {
+            "overlap_count": 4,
+            "row_marker": "1i",
+            "score": 0.414781
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior not considered `unsafe`",
+        "semantic_score": 1.0,
+        "semantic_score_raw": 0.8699650451384845,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-not-considered-unsafe.html#behavior-not-considered-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-not-considered-unsafe.md::section:0001::statement:001",
+        "statement_text": "The Rust compiler does not consider the following behaviors _unsafe_, though a programmer may (should) find them undesirable, unexpected, or erroneous. - Deadlocks - Leaks of memory and other resources - Exiting without calling destructors - Exposing randomized base addresses through pointer leaks",
+        "text_sha256": "3315c925b489d7dc63de99a1005fd98450b114ede3883ffac48065ed635dba59",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5489354849933857,
+        "reranker_score": 0.7406323620030966,
+        "row_marker_scores": [
+          {
+            "overlap_count": 3,
+            "row_marker": "1i",
+            "score": 0.311086
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.862603688367969,
+        "semantic_score_raw": 0.8193875875606227,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:003",
+        "statement_text": "`unsafe` only means that avoiding undefined behavior is on the programmer; it does not change anything about the fact that Rust programs must never cause undefined behavior. r[undefined.soundness] It is the programmer's responsibility when writing `unsafe` code to ensure that any safe code interacting with the `unsafe` code cannot trigger these behaviors.",
+        "text_sha256": "3f3d5a56a01619034816dd6a940359b267ff48a27613457cdb0e76722bd509d4",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5396671607845199,
+        "reranker_score": 0.6712976826868284,
+        "row_marker_scores": [
+          {
+            "overlap_count": 3,
+            "row_marker": "1i",
+            "score": 0.311086
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Behavior considered undefined",
+        "semantic_score": 0.9503328143017884,
+        "semantic_score_raw": 0.8516818761958515,
+        "source_anchor": "https://doc.rust-lang.org/reference/behavior-considered-undefined.html#behavior-considered-undefined",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::behavior-considered-undefined.md::section:0001::statement:005",
+        "statement_text": "There is no formal model of Rust's semantics for what is and is not allowed in unsafe code, so there may be more behavior considered unsafe.",
+        "text_sha256": "5d6cc104c878bcc7874729046bd4952bcb57995debb39e7b98f290783836c645",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5314354046521135,
+        "reranker_score": 0.6914791275771774,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1h",
+            "score": 0.707107
+          }
+        ],
+        "row_markers": [
+          "1h"
+        ],
+        "section_heading": "Unsafe blocks (`unsafe {}`)",
+        "semantic_score": 0.8810791889695346,
+        "semantic_score_raw": 0.8261886714966168,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0003::statement:006",
+        "statement_text": "For example, Rust provides the language features necessary to implement memory-safe concurrency in the language but the implementation of threads and message passing in the standard library uses unsafe blocks.",
+        "text_sha256": "c7cf232dd85791173e835dff432dbbcc814540369419800879fb576c18087b24",
+        "token_overlap_count": 0
+      }
+    ],
+    "semantic_retry_events": [
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "query embedding",
+        "retry_count": 0,
+        "status": "pass"
+      },
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "reranker scoring",
+        "retry_count": 0,
+        "status": "pass"
+      }
+    ]
+  },
+  "runtime": {
+    "backend_profile": "unknown",
+    "contract_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/config/sqlite_query_contracts/rust_reference.yaml",
+    "db_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/current/rust_reference.sqlite",
+    "query_log_root": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/query_logs/rust_reference",
+    "semantic": {
+      "allow_online_corpus_embedding": false,
+      "base_url": "http://127.0.0.1:8080",
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "persist_semantic_cache": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3",
+      "semantic_retries": 0,
+      "timeout_sec": 120.0
+    }
+  },
+  "schema_version": 1
+}

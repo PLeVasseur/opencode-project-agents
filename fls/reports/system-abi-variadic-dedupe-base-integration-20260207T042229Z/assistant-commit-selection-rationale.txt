@@ -1,0 +1,5 @@
+intro_sha=81b2ad693637808a4c216f3d08aa785091390cab
+anchor_fix_sha=e7b2ce4838b606d4651b1a450a3fcc27df1982b8
+assistant_ci_sha=02937b55eb7326775a33bbae546eac879c15d387
+selected_count=6
+rationale=Included intermediate prerequisite assistant commits to preserve test/CI context and reduce cherry-pick conflicts.

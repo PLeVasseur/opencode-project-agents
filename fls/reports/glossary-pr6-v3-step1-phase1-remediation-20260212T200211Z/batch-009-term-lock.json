@@ -1,0 +1,21 @@
+{
+  "batch_number": 9,
+  "batch_prefix": "batch-009",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WA-007",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "poor",
+      "recommended_file": "lexical-elements.rst",
+      "recommended_reason": "First reference at lexical-elements.rst:488 precedes definition",
+      "recommended_section": "Identifiers",
+      "relocation_priority": "low_forward_ref",
+      "term": "name"
+    }
+  ],
+  "timestamp": "20260212T213512Z",
+  "wave": "WA"
+}

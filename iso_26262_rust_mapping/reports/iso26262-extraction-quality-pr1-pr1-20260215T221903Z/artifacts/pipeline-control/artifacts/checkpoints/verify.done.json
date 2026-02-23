@@ -1,0 +1,18 @@
+{
+  "canonical_checksum": "b0752638ea8800557dd961f26d9186e97daf1a9710068a59f06e354a8761a3db",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/probes/probeset-freeze-manifest.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/replay/verbatim-replay-signatures.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/verify/makepy-e2e.log",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/verify/prewarm-build-quality-anomalies.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/verify/prewarm-build-quality.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/pipeline-control/artifacts/verify/verify-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260215T221903Z/query/probe-set/probe-results.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260215T221903Z/query/query-snapshots/guardrail-smoke.json"
+  ],
+  "phase": 4,
+  "run_id": "pr1-20260215T221903Z",
+  "stage": "verify",
+  "timestamp_utc": "2026-02-15T23:04:09Z"
+}

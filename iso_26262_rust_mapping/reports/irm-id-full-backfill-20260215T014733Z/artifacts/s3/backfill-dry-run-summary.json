@@ -1,0 +1,152 @@
+{
+  "legacy_id_count": 2156,
+  "mapping_count": 2156,
+  "mode": "dry-run",
+  "preview": {
+    "markdown_replacements": {
+      "dp": 101,
+      "p": 0
+    },
+    "table_replacements": {
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-01.yaml": {
+        "id_updates": 21,
+        "source_key_updates": 21
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-02.yaml": {
+        "id_updates": 45,
+        "source_key_updates": 45
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-03.yaml": {
+        "id_updates": 12,
+        "source_key_updates": 12
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-04.yaml": {
+        "id_updates": 45,
+        "source_key_updates": 45
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-05.yaml": {
+        "id_updates": 32,
+        "source_key_updates": 32
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-06.yaml": {
+        "id_updates": 50,
+        "source_key_updates": 50
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-07.yaml": {
+        "id_updates": 44,
+        "source_key_updates": 44
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-08.yaml": {
+        "id_updates": 12,
+        "source_key_updates": 12
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-09.yaml": {
+        "id_updates": 9,
+        "source_key_updates": 9
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-10.yaml": {
+        "id_updates": 32,
+        "source_key_updates": 32
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-11.yaml": {
+        "id_updates": 6,
+        "source_key_updates": 6
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-12.yaml": {
+        "id_updates": 9,
+        "source_key_updates": 9
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-13.yaml": {
+        "id_updates": 420,
+        "source_key_updates": 420
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-14.yaml": {
+        "id_updates": 140,
+        "source_key_updates": 140
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-15.yaml": {
+        "id_updates": 126,
+        "source_key_updates": 126
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-16.yaml": {
+        "id_updates": 91,
+        "source_key_updates": 91
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-17.yaml": {
+        "id_updates": 105,
+        "source_key_updates": 105
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-18.yaml": {
+        "id_updates": 56,
+        "source_key_updates": 56
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-19.yaml": {
+        "id_updates": 70,
+        "source_key_updates": 70
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-20.yaml": {
+        "id_updates": 204,
+        "source_key_updates": 204
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-21.yaml": {
+        "id_updates": 52,
+        "source_key_updates": 52
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-22.yaml": {
+        "id_updates": 240,
+        "source_key_updates": 240
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-23.yaml": {
+        "id_updates": 124,
+        "source_key_updates": 124
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-24.yaml": {
+        "id_updates": 32,
+        "source_key_updates": 32
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-25.yaml": {
+        "id_updates": 18,
+        "source_key_updates": 18
+      },
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-26.yaml": {
+        "id_updates": 60,
+        "source_key_updates": 60
+      }
+    },
+    "total_table_updates": 4110,
+    "touched_files": [
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/iso26262_rust_mapping.md",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-01.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-02.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-03.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-04.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-05.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-06.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-07.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-08.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-09.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-10.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-11.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-12.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-13.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-14.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-15.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-16.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-17.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-18.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-19.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-20.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-21.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-22.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-23.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-24.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-25.yaml",
+      "/home/pete.levasseur/personal/iso_26262_rust_mapping/src/tables/table-26.yaml"
+    ]
+  },
+  "script_version": "0.1",
+  "statement_metadata_id_count": 2156,
+  "statement_reference_id_count": 0,
+  "timestamp_utc": "2026-02-15T02:12:33Z",
+  "unresolved_reference_ids": []
+}

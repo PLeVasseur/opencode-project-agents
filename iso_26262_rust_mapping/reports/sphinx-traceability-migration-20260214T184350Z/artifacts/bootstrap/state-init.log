@@ -1,0 +1,7 @@
+# State Initialization
+run_id: 20260214T184350Z
+current_stage: M0
+seeded_stage_keys: M0..M14
+seeded_checklist_keys: CB_M*
+state_schema_version: 1
+checklist_schema_version: 1

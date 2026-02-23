@@ -1,0 +1,12 @@
+{
+  "batch_number": 6,
+  "passed_ids": [
+    "WA-008",
+    "WA-009"
+  ],
+  "quarantined": {
+    "WA-007": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/entities-and-resolution.rst)"
+  },
+  "timestamp": "20260212T212747Z",
+  "wave": "WA"
+}

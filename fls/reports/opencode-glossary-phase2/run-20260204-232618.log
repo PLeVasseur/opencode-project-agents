@@ -1,0 +1,1194 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShows OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGets next 20 glossary terms from checklist
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mLists next 20 unchecked glossary terms
+
+warning: glossary-entry not found in src files: trait type
+warning: glossary-entry not found in src files: transparent representation
+warning: glossary-entry not found in src files: trivial predicate
+warning: glossary-entry not found in src files: tuple
+warning: glossary-entry not found in src files: tuple enum variant
+warning: glossary-entry not found in src files: tuple enum variant value
+warning: glossary-entry not found in src files: tuple expression
+warning: glossary-entry not found in src files: tuple field
+warning: glossary-entry not found in src files: tuple initializer
+warning: glossary-entry not found in src files: tuple pattern
+warning: glossary-entry not found in src files: tuple struct
+warning: glossary-entry not found in src files: tuple struct call expression
+warning: glossary-entry not found in src files: tuple struct field
+warning: glossary-entry not found in src files: tuple struct pattern
+warning: glossary-entry not found in src files: tuple struct type
+warning: glossary-entry not found in src files: tuple struct value
+warning: glossary-entry not found in src files: tuple type
+warning: glossary-entry not found in src files: type
+warning: glossary-entry not found in src files: type alias
+warning: glossary-entry not found in src files: type argument
+warning: no new term-map entries to write
+
+[94m[1m| [0m[90m Glob     [0m{"path":".","pattern":"src/*.rst"}
+[94m[1m| [0m[90m Grep     [0mtuple struct
+[94m[1m| [0m[90m Grep     [0mA :t:`tuple struct` is|An :t:`tuple struct` is|:dt:`tuple struct`
+[94m[1m| [0m[90m Grep     [0mtuple struct is
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mtuple expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mtuple pattern
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mtuple enum variant value
+[94m[1m| [0m[90m Grep     [0mtuple enum variant
+[94m[1m| [0m[90m Grep     [0mTuple Enum
+[94m[1m| [0m[90m Grep     [0mtuple enum
+[94m[1m| [0m[90m Grep     [0mtuple type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mtuple field
+[94m[1m| [0m[90m Grep     [0m:t:`tuple` is|A :t:`tuple` is|An :t:`tuple` is
+[94m[1m| [0m[90m Grep     [0mtuple struct type
+[94m[1m| [0m[90m Grep     [0mtuple struct type
+[94m[1m| [0m[90m Grep     [0mTuple Struct
+[94m[1m| [0m[90m Grep     [0mtype alias
+[94m[1m| [0m[90m Grep     [0mType Alias
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mtype argument
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`type` is|An :t:`type` is|:dt:`type`
+[94m[1m| [0m[90m Grep     [0m:dt:`type`
+[94m[1m| [0m[90m Grep     [0mtrait type
+[94m[1m| [0m[90m Grep     [0mtransparent representation
+[94m[1m| [0m[90m Grep     [0mtransparent representation
+[94m[1m| [0m[90m Grep     [0mtrivial predicate
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[94m[1m| [0m[90m Grep     [0mTrait Type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mTransparent
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`transparent representation`
+[94m[1m| [0m[90m Grep     [0mtransparent representation
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mStruct Types
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mEnum Types
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0menum variant value|enum value
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mtuple is
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for trait type
+
+.. glossary-entry:: trait type
+   
+   :glossary:
+     :dp:`fls_JQsQnQ0dTHlS`
+     A :dt:`trait type` is either an :t:`impl trait type` or a
+     :t:`trait object type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for transparent representation
+
+.. glossary-entry:: transparent representation
+   
+   :glossary:
+     :dp:`fls_hb3e72rhzpnv`
+     :dt:`Transparent representation` is a :t:`type representation` that applies
+     only to an :t:`enum type` with a single :t:`enum variant` or a :t:`struct type`
+     where the :t:`struct type` or :t:`enum variant` has a single :t:`field` of
+     non-zero :t:`size` and any number of :t:`[field]s` of :t:`size` zero and
+     :t:`alignment` one.
+   :chapter:
+     :dp:`fls_ml4khttq3w5k`
+     :t:`Transparent representation` applies only to an :t:`enum type` with a
+     single :t:`enum variant` or a :t:`struct type` where the :t:`struct type` or
+     :t:`enum variant` has a single :t:`field` of non-zero :t:`size` and any number
+     of :t:`[field]s` of :t:`size` zero and :t:`alignment` one.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for trivial predicate
+
+.. glossary-entry:: trivial predicate
+   
+   :glossary:
+     :dp:`fls_db5njwrjolhs`
+     A :dt:`trivial predicate` is a :t:`where clause predicate` that does not use
+     the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
+     :t:`construct`.
+   :chapter:
+     :dp:`fls_1xgw1dq60quz`
+     A :t:`trivial predicate` is a :t:`where clause predicate` that does not use
+     the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
+     :t:`construct`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple
+
+.. glossary-entry:: tuple
+   
+   :glossary:
+     :dp:`fls_yhcfqz6p0059`
+     A :dt:`tuple` is a :t:`value` of a :t:`tuple type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple enum variant
+
+.. glossary-entry:: tuple enum variant
+   
+   :glossary:
+     :dp:`fls_eduQhUYBEkVx`
+     A :dt:`tuple enum variant` is an :t:`enum variant` with a
+     :s:`TupleStructFieldList`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple enum variant value
+
+.. glossary-entry:: tuple enum variant value
+   
+   :glossary:
+     :dp:`fls_ORURxipGqNrZ`
+     A :dt:`tuple enum variant value` is a :t:`value` of a :t:`tuple enum variant`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple expression
+
+.. glossary-entry:: tuple expression
+   
+   :glossary:
+     :dp:`fls_x7m4u1dx4eli`
+     A :dt:`tuple expression` is an :t:`expression` that constructs a :t:`tuple`.
+     
+     :dp:`fls_qawnvcddgyxx`
+     See :s:`TupleExpression`.
+   :chapter:
+     :dp:`fls_87rp1hfwvjel`
+     A :t:`tuple expression` is an :t:`expression` that constructs a :t:`tuple`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple field
+
+.. glossary-entry:: tuple field
+   
+   :glossary:
+     :dp:`fls_8rq1gbzij5tk`
+     A :dt:`tuple field` is a :t:`field` of a :t:`tuple type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple initializer
+
+.. glossary-entry:: tuple initializer
+   
+   :glossary:
+     :dp:`fls_94hg6re11zl5`
+     A :dt:`tuple initializer` is an :t:`operand` that provides the :t:`value` of a
+     :t:`tuple field` in a :t:`tuple expression`.
+   :chapter:
+     :dp:`fls_581y6jq1eyn8`
+     A :t:`tuple initializer` is an :t:`operand` that provides the :t:`value` of a
+     :t:`tuple field` in a :t:`tuple expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple pattern
+
+.. glossary-entry:: tuple pattern
+   
+   :glossary:
+     :dp:`fls_al2q3vh1rg6e`
+     A :dt:`tuple pattern` is a :t:`pattern` that matches a :t:`tuple` which
+     satisfies all criteria defined by its :t:`[subpattern]s`.
+     
+     :dp:`fls_bevmt5t0238j`
+     See :s:`TuplePattern`.
+   :chapter:
+     :dp:`fls_e2manugp4e0b`
+     A :t:`tuple pattern` is a :t:`pattern` that matches a :t:`tuple` which satisfies
+     all criteria defined by its :t:`[subpattern]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple struct
+
+.. glossary-entry:: tuple struct
+   
+   :glossary:
+     :dp:`fls_pdcpmapiq491`
+     A :dt:`tuple struct` is a :t:`struct` with a :s:`TupleStructFieldList`.
+     
+     :dp:`fls_1tj4p05m4wdf`
+     See :s:`TupleStructDeclaration`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple struct call expression
+
+.. glossary-entry:: tuple struct call expression
+   
+   :glossary:
+     :dp:`fls_DQaCUkskfXzk`
+     A :dt:`tuple struct call expression` is a :t:`call expression` where the
+     :t:`call operand` resolves to a :t:`tuple struct` or a :t:`tuple enum variant`.
+   :chapter:
+     :dp:`fls_QpBu34U6hXn9`
+     A :t:`tuple struct call expression` is a :t:`call expression` where the
+     :t:`call operand` resolves to a :t:`tuple struct`.
+     
+     .. glossary-entry:: callee type
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mShows generate-glossary-entry script options
+
+usage: generate-glossary-entry.py [-h] --term TERM [--repo-root REPO_ROOT]
+                                  [--glossary GLOSSARY]
+                                  [--glossary-line GLOSSARY_LINE]
+                                  [--glossary-text-file GLOSSARY_TEXT_FILE]
+                                  [--glossary-stdin]
+                                  [--chapter-file CHAPTER_FILE]
+                                  [--chapter-dp CHAPTER_DP]
+                                  [--chapter-line CHAPTER_LINE]
+                                  [--chapter-text-file CHAPTER_TEXT_FILE]
+                                  [--chapter-stdin]
+
+Generate a formatted glossary-entry directive for a term.
+
+options:
+  -h, --help            show this help message and exit
+  --term TERM           Glossary term
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --glossary GLOSSARY   Static glossary file
+  --glossary-line GLOSSARY_LINE
+                        Glossary text line (repeatable)
+  --glossary-text-file GLOSSARY_TEXT_FILE
+                        File with glossary body lines
+  --glossary-stdin      Read glossary body lines from stdin
+  --chapter-file CHAPTER_FILE
+                        Chapter file to extract from
+  --chapter-dp CHAPTER_DP
+                        Chapter :dp: ids to extract (repeatable)
+  --chapter-line CHAPTER_LINE
+                        Chapter text line (repeatable)
+  --chapter-text-file CHAPTER_TEXT_FILE
+                        File with chapter body lines
+  --chapter-stdin       Read chapter body lines from stdin
+
+[91m[1m| [0m[90m Bash     [0mGenerates tuple struct call expression entry with manual chapter lines
+
+/bin/bash: line 1: fls_QpBu34U6hXn9: command not found
+/bin/bash: line 1: tuple: command not found
+/bin/bash: line 1: call: command not found
+/bin/bash: line 1: call: command not found
+/bin/bash: line 1: tuple: command not found
+.. glossary-entry:: tuple struct call expression
+   
+   :glossary:
+     :dp:`fls_DQaCUkskfXzk`
+     A :dt:`tuple struct call expression` is a :t:`call expression` where the
+     :t:`call operand` resolves to a :t:`tuple struct` or a :t:`tuple enum variant`.
+   :chapter:
+     :dp:
+     A :t: is a :t: where the
+     :t: resolves to a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerates tuple struct call expression entry with escaped chapter lines
+
+.. glossary-entry:: tuple struct call expression
+   
+   :glossary:
+     :dp:`fls_DQaCUkskfXzk`
+     A :dt:`tuple struct call expression` is a :t:`call expression` where the
+     :t:`call operand` resolves to a :t:`tuple struct` or a :t:`tuple enum variant`.
+   :chapter:
+     :dp:`fls_QpBu34U6hXn9`
+     A :t:`tuple struct call expression` is a :t:`call expression` where the
+     :t:`call operand` resolves to a :t:`tuple struct`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple struct field
+
+.. glossary-entry:: tuple struct field
+   
+   :glossary:
+     :dp:`fls_ndeb1a2hm9d8`
+     A :dt:`tuple struct field` is a :t:`field` of a :t:`tuple struct type`.
+     
+     :dp:`fls_v4eq8xg608d5`
+     See :s:`TupleStructField`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple struct pattern
+
+.. glossary-entry:: tuple struct pattern
+   
+   :glossary:
+     :dp:`fls_gu1mfurivnfz`
+     A :dt:`tuple struct pattern` is a :t:`pattern` that matches a
+     :t:`tuple enum variant value` or a :t:`tuple struct value`.
+     
+     :dp:`fls_3jx5683mdm10`
+     See :s:`TupleStructPattern`.
+   :chapter:
+     :dp:`fls_ks6y1syab2bp`
+     A :t:`tuple struct pattern` is a :t:`pattern` that matches a
+     :t:`tuple enum variant value`, or a :t:`tuple struct value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple struct type
+
+.. glossary-entry:: tuple struct type
+   
+   :glossary:
+     :dp:`fls_hhikx5ajx3bl`
+     A :dt:`tuple struct type` is the :t:`type` of a :t:`tuple struct`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple struct value
+
+.. glossary-entry:: tuple struct value
+   
+   :glossary:
+     :dp:`fls_xz1p4pss2Ocn`
+     A :dt:`tuple struct value` is a :t:`value` of a :t:`tuple struct type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for tuple type
+
+.. glossary-entry:: tuple type
+   
+   :glossary:
+     :dp:`fls_q0ulqfvnxwni`
+     A :dt:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
+     of other :t:`[type]s`.
+     
+     :dp:`fls_rkugxsau1w78`
+     See :s:`TupleTypeSpecification`.
+   :chapter:
+     :dp:`fls_bn7wmf681ngt`
+     A :t:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
+     of other :t:`[type]s`.
+     
+     .. glossary-entry:: arity
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerates tuple type entry with manual chapter lines
+
+.. glossary-entry:: tuple type
+   
+   :glossary:
+     :dp:`fls_q0ulqfvnxwni`
+     A :dt:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
+     of other :t:`[type]s`.
+     
+     :dp:`fls_rkugxsau1w78`
+     See :s:`TupleTypeSpecification`.
+   :chapter:
+     :dp:`fls_bn7wmf681ngt`
+     A :t:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
+     of other :t:`[type]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates type entry with manual chapter lines
+
+.. glossary-entry:: type
+   
+   :glossary:
+     :dp:`fls_nhlh7vvgsbwo`
+     A :dt:`type` defines a set of :t:`[value]s` and a set of operations that act on
+     those :t:`[value]s`.
+   :chapter:
+     :dp:`fls_4rhjpdu4zfqj`
+     A :t:`type` defines a set of :t:`[value]s` and a set of operations that act on
+     those :t:`[value]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates type alias entry with manual chapter lines
+
+.. glossary-entry:: type alias
+   
+   :glossary:
+     :dp:`fls_8pcsxodv1xp5`
+     A :dt:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
+     
+     :dp:`fls_qfzskp1t3h5w`
+     See :s:`TypeAliasDeclaration`.
+   :chapter:
+     :dp:`fls_bibigic4jjad`
+     A :t:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerates type argument entry with manual chapter lines
+
+.. glossary-entry:: type argument
+   
+   :glossary:
+     :dp:`fls_152lk7hrtd11`
+     A :dt:`type argument` is a :t:`generic argument` that supplies the :t:`value`
+     of a :t:`type parameter`.
+     
+     :dp:`fls_91tqk65qiygf`
+     See :s:`TypeArgument`.
+   :chapter:
+     :dp:`fls_d4vdvpihoeb1`
+     A :t:`type argument` is a :t:`generic argument` that supplies the :t:`type` of
+     a :t:`type parameter`.
+
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mAppends term-map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerates glossary from directives
+[91m[1m| [0m[90m Bash     [0mCompares generated glossary to static glossary
+[91m[1m| [0m[90m Bash     [0mRuns HTML diff verification script
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShows git status with short format
+
+ M src/expressions.rst
+ M src/generics.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShows working tree status
+
+ M src/expressions.rst
+ M src/generics.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShows unstaged changes diff
+
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 88a9156..2858205 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -4005,12 +4005,28 @@ Tuple Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_87rp1hfwvjel`
+-A :t:`tuple expression` is an :t:`expression` that constructs a :t:`tuple`.
++.. glossary-entry:: tuple expression
++   
++   :glossary:
++     :dp:`fls_x7m4u1dx4eli`
++     A :dt:`tuple expression` is an :t:`expression` that constructs a :t:`tuple`.
++     
++     :dp:`fls_qawnvcddgyxx`
++     See :s:`TupleExpression`.
++   :chapter:
++     :dp:`fls_87rp1hfwvjel`
++     A :t:`tuple expression` is an :t:`expression` that constructs a :t:`tuple`.
+ 
+-:dp:`fls_581y6jq1eyn8`
+-A :t:`tuple initializer` is an :t:`operand` that provides the :t:`value` of a
+-:t:`tuple field` in a :t:`tuple expression`.
++.. glossary-entry:: tuple initializer
++   
++   :glossary:
++     :dp:`fls_94hg6re11zl5`
++     A :dt:`tuple initializer` is an :t:`operand` that provides the :t:`value` of a
++     :t:`tuple field` in a :t:`tuple expression`.
++   :chapter:
++     :dp:`fls_581y6jq1eyn8`
++     A :t:`tuple initializer` is an :t:`operand` that provides the :t:`value` of a
++     :t:`tuple field` in a :t:`tuple expression`.
+ 
+ :dp:`fls_ljz3sxmfzflm`
+ The :t:`type` of a :t:`tuple expression` is ``(T1, T2, ..., TN)``, where ``T1``
+@@ -4410,9 +4426,16 @@ Call Expressions
+      :dp:`fls_mchqbc64iu0u`
+      An :dt:`adjusted call operand` is a :t:`call operand` adjusted with inserted :t:`[borrow expression]s` and :t:`[dereference expression]s`.
+ 
+-:dp:`fls_QpBu34U6hXn9`
+-A :t:`tuple struct call expression` is a :t:`call expression` where the
+-:t:`call operand` resolves to a :t:`tuple struct`.
++.. glossary-entry:: tuple struct call expression
++   
++   :glossary:
++     :dp:`fls_DQaCUkskfXzk`
++     A :dt:`tuple struct call expression` is a :t:`call expression` where the
++     :t:`call operand` resolves to a :t:`tuple struct` or a :t:`tuple enum variant`.
++   :chapter:
++     :dp:`fls_QpBu34U6hXn9`
++     A :t:`tuple struct call expression` is a :t:`call expression` where the
++     :t:`call operand` resolves to a :t:`tuple struct`.
+ 
+ .. glossary-entry:: callee type
+    
+diff --git a/src/generics.rst b/src/generics.rst
+index ae9a8bf..90b2349 100644
+--- a/src/generics.rst
++++ b/src/generics.rst
+@@ -394,10 +394,18 @@ A :t:`type bound predicate` is a :t:`construct` that specifies
+ A :t:`construct` is valid when all of its :t:`[where clause predicate]s` hold
+ true for the supplied :t:`[generic argument]s`.
+ 
+-:dp:`fls_1xgw1dq60quz`
+-A :t:`trivial predicate` is a :t:`where clause predicate` that does not use
+-the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
+-:t:`construct`.
++.. glossary-entry:: trivial predicate
++   
++   :glossary:
++     :dp:`fls_db5njwrjolhs`
++     A :dt:`trivial predicate` is a :t:`where clause predicate` that does not use
++     the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
++     :t:`construct`.
++   :chapter:
++     :dp:`fls_1xgw1dq60quz`
++     A :t:`trivial predicate` is a :t:`where clause predicate` that does not use
++     the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
++     :t:`construct`.
+ 
+ :dp:`fls_47s8i7pzb9gg`
+ It is a static error to create a :t:`trivial predicate` that does not hold.
+@@ -533,9 +541,19 @@ an :t:`array repetition constructor` or a :t:`type`.
+      A :t:`lifetime argument` is a :t:`generic argument` that supplies the
+      :t:`lifetime` of a :t:`lifetime parameter`.
+ 
+-:dp:`fls_d4vdvpihoeb1`
+-A :t:`type argument` is a :t:`generic argument` that supplies the :t:`type` of
+-a :t:`type parameter`.
++.. glossary-entry:: type argument
++   
++   :glossary:
++     :dp:`fls_152lk7hrtd11`
++     A :dt:`type argument` is a :t:`generic argument` that supplies the :t:`value`
++     of a :t:`type parameter`.
++     
++     :dp:`fls_91tqk65qiygf`
++     See :s:`TypeArgument`.
++   :chapter:
++     :dp:`fls_d4vdvpihoeb1`
++     A :t:`type argument` is a :t:`generic argument` that supplies the :t:`type` of
++     a :t:`type parameter`.
+ 
+ :dp:`fls_ukarc98ceesz`
+ :t:`[Generic argument]s` are subject to :t:`generic conformance`.
+diff --git a/src/patterns.rst b/src/patterns.rst
+index b773ff3..3cead60 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -1353,9 +1353,19 @@ Tuple Struct Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ks6y1syab2bp`
+-A :t:`tuple struct pattern` is a :t:`pattern` that matches a
+-:t:`tuple enum variant value`, or a :t:`tuple struct value`.
++.. glossary-entry:: tuple struct pattern
++   
++   :glossary:
++     :dp:`fls_gu1mfurivnfz`
++     A :dt:`tuple struct pattern` is a :t:`pattern` that matches a
++     :t:`tuple enum variant value` or a :t:`tuple struct value`.
++     
++     :dp:`fls_3jx5683mdm10`
++     See :s:`TupleStructPattern`.
++   :chapter:
++     :dp:`fls_ks6y1syab2bp`
++     A :t:`tuple struct pattern` is a :t:`pattern` that matches a
++     :t:`tuple enum variant value`, or a :t:`tuple struct value`.
+ 
+ :dp:`fls_t1mrijw16k9a`
+ The :t:`deconstructee` of a :t:`tuple struct pattern` shall resolve to a
+@@ -1435,9 +1445,19 @@ Tuple Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_e2manugp4e0b`
+-A :t:`tuple pattern` is a :t:`pattern` that matches a :t:`tuple` which satisfies
+-all criteria defined by its :t:`[subpattern]s`.
++.. glossary-entry:: tuple pattern
++   
++   :glossary:
++     :dp:`fls_al2q3vh1rg6e`
++     A :dt:`tuple pattern` is a :t:`pattern` that matches a :t:`tuple` which
++     satisfies all criteria defined by its :t:`[subpattern]s`.
++     
++     :dp:`fls_bevmt5t0238j`
++     See :s:`TuplePattern`.
++   :chapter:
++     :dp:`fls_e2manugp4e0b`
++     A :t:`tuple pattern` is a :t:`pattern` that matches a :t:`tuple` which satisfies
++     all criteria defined by its :t:`[subpattern]s`.
+ 
+ :dp:`fls_xk8udu4k61kj`
+ A :t:`tuple pattern` is an :t:`irrefutable pattern` when all of its
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index a1b60bf..34e7a49 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -46,9 +46,16 @@ Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_4rhjpdu4zfqj`
+-A :t:`type` defines a set of :t:`[value]s` and a set of operations that act on
+-those :t:`[value]s`.
++.. glossary-entry:: type
++   
++   :glossary:
++     :dp:`fls_nhlh7vvgsbwo`
++     A :dt:`type` defines a set of :t:`[value]s` and a set of operations that act on
++     those :t:`[value]s`.
++   :chapter:
++     :dp:`fls_4rhjpdu4zfqj`
++     A :t:`type` defines a set of :t:`[value]s` and a set of operations that act on
++     those :t:`[value]s`.
+ 
+ .. glossary-entry:: local type
+    
+@@ -769,9 +776,31 @@ Tuple Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_bn7wmf681ngt`
+-A :t:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
+-of other :t:`[type]s`.
++.. glossary-entry:: tuple
++   
++   :glossary:
++     :dp:`fls_yhcfqz6p0059`
++     A :dt:`tuple` is a :t:`value` of a :t:`tuple type`.
++
++.. glossary-entry:: tuple type
++   
++   :glossary:
++     :dp:`fls_q0ulqfvnxwni`
++     A :dt:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
++     of other :t:`[type]s`.
++     
++     :dp:`fls_rkugxsau1w78`
++     See :s:`TupleTypeSpecification`.
++   :chapter:
++     :dp:`fls_bn7wmf681ngt`
++     A :t:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
++     of other :t:`[type]s`.
++
++.. glossary-entry:: tuple field
++   
++   :glossary:
++     :dp:`fls_8rq1gbzij5tk`
++     A :dt:`tuple field` is a :t:`field` of a :t:`tuple type`.
+ 
+ .. glossary-entry:: arity
+    
+@@ -875,6 +904,13 @@ A :t:`zero-variant enum type` has no :t:`[value]s`.
+      A :dt:`record enum variant` is an :t:`enum variant` with a
+      :s:`RecordStructFieldList`.
+ 
++.. glossary-entry:: tuple enum variant
++   
++   :glossary:
++     :dp:`fls_eduQhUYBEkVx`
++     A :dt:`tuple enum variant` is an :t:`enum variant` with a
++     :s:`TupleStructFieldList`.
++
+ .. glossary-entry:: enum field
+    
+    :glossary:
+@@ -894,6 +930,12 @@ A :t:`zero-variant enum type` has no :t:`[value]s`.
+      An :dt:`enum variant value` is the :t:`enum value` of the corresponding
+      :t:`enum` of the :t:`enum variant`.
+ 
++.. glossary-entry:: tuple enum variant value
++   
++   :glossary:
++     :dp:`fls_ORURxipGqNrZ`
++     A :dt:`tuple enum variant value` is a :t:`value` of a :t:`tuple enum variant`.
++
+ :dp:`fls_g5qle7xzaoif`
+ The :t:`name` of an :t:`enum variant` shall be unique within the related
+ :s:`EnumDeclaration`.
+@@ -1058,6 +1100,36 @@ Struct Types
+      :dp:`fls_SMBIc0JMck1H`
+      A :dt:`record struct value` is a :t:`value` of a :t:`record struct type`.
+ 
++.. glossary-entry:: tuple struct
++   
++   :glossary:
++     :dp:`fls_pdcpmapiq491`
++     A :dt:`tuple struct` is a :t:`struct` with a :s:`TupleStructFieldList`.
++     
++     :dp:`fls_1tj4p05m4wdf`
++     See :s:`TupleStructDeclaration`.
++
++.. glossary-entry:: tuple struct type
++   
++   :glossary:
++     :dp:`fls_hhikx5ajx3bl`
++     A :dt:`tuple struct type` is the :t:`type` of a :t:`tuple struct`.
++
++.. glossary-entry:: tuple struct field
++   
++   :glossary:
++     :dp:`fls_ndeb1a2hm9d8`
++     A :dt:`tuple struct field` is a :t:`field` of a :t:`tuple struct type`.
++     
++     :dp:`fls_v4eq8xg608d5`
++     See :s:`TupleStructField`.
++
++.. glossary-entry:: tuple struct value
++   
++   :glossary:
++     :dp:`fls_xz1p4pss2Ocn`
++     A :dt:`tuple struct value` is a :t:`value` of a :t:`tuple struct type`.
++
+ .. glossary-entry:: struct field
+    
+    :glossary:
+@@ -1563,6 +1635,13 @@ not :c:`null`.
+ Trait Types
+ -----------
+ 
++.. glossary-entry:: trait type
++   
++   :glossary:
++     :dp:`fls_JQsQnQ0dTHlS`
++     A :dt:`trait type` is either an :t:`impl trait type` or a
++     :t:`trait object type`.
++
+ .. _fls_3xqobbu7wfsf:
+ 
+ Impl Trait Types
+@@ -1903,8 +1982,17 @@ Type Aliases
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_bibigic4jjad`
+-A :t:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
++.. glossary-entry:: type alias
++   
++   :glossary:
++     :dp:`fls_8pcsxodv1xp5`
++     A :dt:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
++     
++     :dp:`fls_qfzskp1t3h5w`
++     See :s:`TypeAliasDeclaration`.
++   :chapter:
++     :dp:`fls_bibigic4jjad`
++     A :t:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
+ 
+ :dp:`fls_rosdkeck5ax2`
+ A :t:`type alias` shall not have a :s:`TypeBoundList` unless it is an
+@@ -2170,11 +2258,21 @@ does not change the :t:`layout` of the :t:`[field]s` themselves.
+      :t:`enum type` that is not a :t:`zero-variant enum type`. It is possible to
+      combine :t:`C representation` and :t:`primitive representation`.
+ 
+-:dp:`fls_ml4khttq3w5k`
+-:t:`Transparent representation` applies only to an :t:`enum type` with a
+-single :t:`enum variant` or a :t:`struct type` where the :t:`struct type` or
+-:t:`enum variant` has a single :t:`field` of non-zero :t:`size` and any number
+-of :t:`[field]s` of :t:`size` zero and :t:`alignment` one.
++.. glossary-entry:: transparent representation
++   
++   :glossary:
++     :dp:`fls_hb3e72rhzpnv`
++     :dt:`Transparent representation` is a :t:`type representation` that applies
++     only to an :t:`enum type` with a single :t:`enum variant` or a :t:`struct type`
++     where the :t:`struct type` or :t:`enum variant` has a single :t:`field` of
++     non-zero :t:`size` and any number of :t:`[field]s` of :t:`size` zero and
++     :t:`alignment` one.
++   :chapter:
++     :dp:`fls_ml4khttq3w5k`
++     :t:`Transparent representation` applies only to an :t:`enum type` with a
++     single :t:`enum variant` or a :t:`struct type` where the :t:`struct type` or
++     :t:`enum variant` has a single :t:`field` of non-zero :t:`size` and any number
++     of :t:`[field]s` of :t:`size` zero and :t:`alignment` one.
+ 
+ :dp:`fls_9q2iqzbup8oy`
+ :t:`[Type]s` subject to :t:`transparent representation` have the same
+
+[91m[1m| [0m[90m Bash     [0mShows recent commit messages
+
+dc774c9 docs(glossary): migrate next 20 glossary terms
+6f91bcd docs(glossary): migrate struct and sub* terms
+6cc6e9f docs(glossary): migrate next 20 glossary terms
+bc8919f docs(glossary): migrate next 20 glossary terms
+3925cc1 docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mStages files, commits changes, shows status
+
+[glossary-single-source-phase1 52d1339] docs(glossary): migrate next 20 glossary terms
+ 4 files changed, 193 insertions(+), 34 deletions(-)
+
+Added glossary-entry directives for the next 20 terms across the relevant chapters, keeping chapter definitions intact where present and inserting glossary-only blocks where they weren’t. Updated the phase 2 checklist and term-map outside the repo.
+
+Files updated:
+- `src/types-and-traits.rst`
+- `src/expressions.rst`
+- `src/patterns.rst`
+- `src/generics.rst`
+
+Verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (no differences)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (no differences; report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`)
+
+Commit:
+- `docs(glossary): migrate next 20 glossary terms` (`52d1339`)
+
+If you want, I can start the next batch of 20 terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

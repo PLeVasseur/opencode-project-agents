@@ -1,0 +1,113 @@
+diff --git a/tools/changelog_assistant.py b/tools/changelog_assistant.py
+index 3d50d50..c309060 100644
+--- a/tools/changelog_assistant.py
++++ b/tools/changelog_assistant.py
+@@ -181,6 +181,12 @@ def sorted_tags(tags):
+     return [tag for tag in CHANGE_TAG_ORDER if tag in seen]
+ 
+ 
++def sorted_tags_with_unknown(tags):
++    ordered = sorted_tags(tags)
++    known = set(ordered)
++    return ordered + sorted(tag for tag in set(tags) if tag not in known)
++
++
+ def keyword_counts(text):
+     lowered = text.lower()
+     return {keyword: len(re.findall(rf"\b{re.escape(keyword)}\b", lowered)) for keyword in NORMATIVE_KEYWORDS}
+@@ -527,46 +533,62 @@ def rendered_entry_headline(title, pr_url):
+     return TODO_ENTRY_HEADLINE
+ 
+ 
++def aggregate_entry_paragraph_buckets(changes):
++    added = set()
++    removed = set()
++    changed_tags = defaultdict(set)
++
++    for change in changes:
++        paragraph_id = change.get("paragraph_id")
++        if not paragraph_id:
++            continue
++
++        change_type = change.get("type")
++        if change_type == "paragraph_added":
++            added.add(paragraph_id)
++            continue
++        if change_type == "paragraph_removed":
++            removed.add(paragraph_id)
++            continue
++
++        tag = change.get("tag")
++        if tag:
++            changed_tags[paragraph_id].add(tag)
++
++    for paragraph_id in added | removed:
++        changed_tags.pop(paragraph_id, None)
++
++    changed = [
++        (paragraph_id, sorted_tags_with_unknown(tags))
++        for paragraph_id, tags in sorted(changed_tags.items())
++    ]
++    return sorted(added), sorted(removed), changed
++
++
+ def entry_lines(title, pr_url, tags, changes, first_line=None):
+     first = first_line if first_line is not None else rendered_entry_headline(title, pr_url)
+ 
+-    grouped = defaultdict(list)
+-    for change in changes:
+-        grouped[change["type"]].append(change)
++    added_ids, removed_ids, changed = aggregate_entry_paragraph_buckets(changes)
+ 
+     lines = [first, "", f"  - Change tags: {', '.join(tags)}"]
+ 
+-    for label, change_type in (
+-        ("Added paragraphs", "paragraph_added"),
+-        ("Removed paragraphs", "paragraph_removed"),
+-        ("Changed paragraphs", "paragraph_changed"),
+-        ("Role changes", "role_change"),
+-        ("Term definitions added", "term_def_added"),
+-        ("Term definitions removed", "term_def_removed"),
+-        ("Term references added", "term_ref_added"),
+-        ("Term references removed", "term_ref_removed"),
+-        ("Syntax definitions added", "syntax_def_added"),
+-        ("Syntax definitions removed", "syntax_def_removed"),
+-        ("Syntax references added", "syntax_ref_added"),
+-        ("Syntax references removed", "syntax_ref_removed"),
+-        ("Literal changes", "literal_change"),
+-        ("List structure changes", "list_structure_change"),
+-        ("Sections added", "section_added"),
+-        ("Sections removed", "section_removed"),
+-        ("Definitions relocated", "definition_relocated"),
+-        ("Normative shifts", "normative_shift"),
+-    ):
+-        records = grouped.get(change_type)
+-        if not records:
+-            continue
+-        lines.append(f"  - {label}:")
+-        for record in records:
+-            if "paragraph_id" in record:
+-                lines.append(f"    - :p:`{record['paragraph_id']}`")
+-            elif "section_id" in record:
+-                lines.append(f"    - :ref:`{record['section_id']}`")
++    if added_ids:
++        lines.append("  - Added paragraphs:")
++        for paragraph_id in added_ids:
++            lines.append(f"    - :p:`{paragraph_id}`")
++
++    if removed_ids:
++        lines.append("  - Removed paragraphs:")
++        for paragraph_id in removed_ids:
++            lines.append(f"    - :p:`{paragraph_id}`")
++
++    if changed:
++        lines.append("  - Changed paragraphs:")
++        for paragraph_id, paragraph_tags in changed:
++            if paragraph_tags:
++                lines.append(f"    - :p:`{paragraph_id}` ({', '.join(paragraph_tags)})")
+             else:
+-                lines.append(f"    - {record.get('id', '<unknown>')}")
++                lines.append(f"    - :p:`{paragraph_id}`")
+ 
+     lines.append("")
+     return lines

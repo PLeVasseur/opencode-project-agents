@@ -1,0 +1,381 @@
+{
+  "generated_at": "2026-02-22T00:18:43+00:00",
+  "prompt_id": "RET-RESOLVE-002",
+  "query": {
+    "allow_degraded": false,
+    "candidate_limit": 200,
+    "include_score_breakdown": true,
+    "mode": "hybrid",
+    "query_text": "Which Rust features enforce strong typing in design decisions?",
+    "row_marker": "",
+    "top_k": 8
+  },
+  "response": {
+    "degraded": false,
+    "duration_ms": 50112.118,
+    "executed_mode": "hybrid",
+    "preflight": {
+      "base_url": "http://127.0.0.1:8080",
+      "checks": [
+        {
+          "base_url": "http://127.0.0.1:19080",
+          "endpoint": "/health",
+          "name": "health_embed",
+          "status": "pass"
+        },
+        {
+          "base_url": "http://127.0.0.1:19081",
+          "endpoint": "/health",
+          "name": "health_rerank",
+          "status": "pass"
+        },
+        {
+          "name": "embed",
+          "status": "pass",
+          "vector_dim": 2560
+        },
+        {
+          "name": "rerank",
+          "score_count": 2,
+          "status": "pass"
+        }
+      ],
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "ok": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3"
+    },
+    "query_text": "Which Rust features enforce strong typing in design decisions?",
+    "requested_mode": "hybrid",
+    "row_count": 8,
+    "row_marker": "",
+    "row_projection": [
+      {
+        "evidence_hits": 1,
+        "evidence_trace": [
+          {
+            "contribution": 0.357442,
+            "source_anchor": "https://doc.rust-lang.org/reference/influences.html#influences",
+            "statement_id": "doc::influences.md::section:0001::statement:001"
+          }
+        ],
+        "row_marker": "1e",
+        "score": 0.357442,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/influences.html#influences",
+        "top_statement_id": "doc::influences.md::section:0001::statement:001"
+      },
+      {
+        "evidence_hits": 5,
+        "evidence_trace": [
+          {
+            "contribution": 0.10888,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:007"
+          },
+          {
+            "contribution": 0.053275,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafety.html#unsafety",
+            "statement_id": "doc::unsafety.md::section:0001::statement:001"
+          },
+          {
+            "contribution": 0.046599,
+            "source_anchor": "https://doc.rust-lang.org/reference/items/unions.html#union-myunion-f1-u32-f2-f32-5",
+            "statement_id": "doc::items::unions.md::section:0015::statement:002"
+          },
+          {
+            "contribution": 0.038069,
+            "source_anchor": "https://doc.rust-lang.org/reference/items/static-items.html#mutable-statics",
+            "statement_id": "doc::items::static-items.md::section:0003::statement:002"
+          },
+          {
+            "contribution": 0.017375,
+            "source_anchor": "https://doc.rust-lang.org/reference/special-types-and-traits.html#box-t",
+            "statement_id": "doc::special-types-and-traits.md::section:0002::statement:001"
+          }
+        ],
+        "row_marker": "1i",
+        "score": 0.264198,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:007"
+      },
+      {
+        "evidence_hits": 2,
+        "evidence_trace": [
+          {
+            "contribution": 0.105942,
+            "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+            "statement_id": "doc::unsafe-keyword.md::section:0003::statement:006"
+          },
+          {
+            "contribution": 0.043266,
+            "source_anchor": "https://doc.rust-lang.org/reference/items/static-items.html#mutable-statics",
+            "statement_id": "doc::items::static-items.md::section:0003::statement:002"
+          }
+        ],
+        "row_marker": "1h",
+        "score": 0.149207,
+        "top_source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "top_statement_id": "doc::unsafe-keyword.md::section:0003::statement:006"
+      }
+    ],
+    "rows": [
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 1.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.799264585618337,
+        "reranker_score": 0.7140784565812431,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1e",
+            "score": 0.447214
+          }
+        ],
+        "row_markers": [
+          "1e"
+        ],
+        "section_heading": "Influences",
+        "semantic_score": 0.7117171206271105,
+        "semantic_score_raw": 0.7950261469344543,
+        "source_anchor": "https://doc.rust-lang.org/reference/influences.html#influences",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::influences.md::section:0001::statement:001",
+        "statement_text": "Rust is not a particularly original language, with design elements coming from a wide range of sources.",
+        "text_sha256": "70c636f225abbdf132cd409c7956e479e0452ffa706811701101048dec1d19c0",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.7,
+        "reranker_score": 1.0,
+        "row_marker_scores": [
+          {
+            "overlap_count": 3,
+            "row_marker": "1i",
+            "score": 0.311086
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Unsafe blocks (`unsafe {}`)",
+        "semantic_score": 1.0,
+        "semantic_score_raw": 0.9165315924492323,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0003::statement:007",
+        "statement_text": "Rust's type system is a conservative approximation of the dynamic safety requirements, so in some cases there is a performance cost to using safe code.",
+        "text_sha256": "1a478fe0f1a726ec135021d3f471f1a82726f33c89e5b40919d784643b0f3ba4",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.6740803924003049,
+        "reranker_score": 0.9905401961974865,
+        "row_marker_scores": [
+          {
+            "overlap_count": 2,
+            "row_marker": "1i",
+            "score": 0.20739
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "union MyUnion { f1: u32, f2: f32 }",
+        "semantic_score": 0.9133492164457442,
+        "semantic_score_raw": 0.880010026954717,
+        "source_anchor": "https://doc.rust-lang.org/reference/items/unions.html#union-myunion-f1-u32-f2-f32-5",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::items::unions.md::section:0015::statement:002",
+        "statement_text": "This is also true for many unmentioned aspects of Rust language (such as privacy, name resolution, type inference, generics, trait implementations, inherent implementations, coherence, pattern checking, etc etc etc).",
+        "text_sha256": "d01c1bf6b5e59a37d35c35f342d6e9d04e782054435e46f6e45ba4c846136af8",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5992965071227566,
+        "reranker_score": 0.8441857031481607,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1h",
+            "score": 0.707107
+          }
+        ],
+        "row_markers": [
+          "1h"
+        ],
+        "section_heading": "Unsafe blocks (`unsafe {}`)",
+        "semantic_score": 0.8776517628243373,
+        "semantic_score_raw": 0.8649642669864264,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafe-keyword.html#unsafe-blocks-unsafe",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafe-keyword.md::section:0003::statement:006",
+        "statement_text": "For example, Rust provides the language features necessary to implement memory-safe concurrency in the language but the implementation of threads and message passing in the standard library uses unsafe blocks.",
+        "text_sha256": "c7cf232dd85791173e835dff432dbbcc814540369419800879fb576c18087b24",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5137653341054129,
+        "reranker_score": 0.7536855080113269,
+        "row_marker_scores": [
+          {
+            "overlap_count": 5,
+            "row_marker": "1i",
+            "score": 0.518476
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "Unsafety",
+        "semantic_score": 0.6984274220012634,
+        "semantic_score_raw": 0.7894248057941017,
+        "source_anchor": "https://doc.rust-lang.org/reference/unsafety.html#unsafety",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::unsafety.md::section:0001::statement:001",
+        "statement_text": "r[safety.intro] Unsafe operations are those that can potentially violate the memory-safety guarantees of Rust's static semantics. r[safety.unsafe-ops] The following language level features cannot be used in the safe subset of Rust: r[safety.unsafe-deref] - Dereferencing a [raw pointer]. r[safety.unsafe-static] - Reading or writing a [mutable] or unsafe [external] static variable. r[safety.unsafe-union-access] - Accessing a field of a [`union`], other than to assign to it. r[safety.unsafe-call] - Calling an unsafe function. r[safety.unsafe-target-feature-call] - Calling a safe function marked with a [`target_feature`][attributes.codegen.target_feature] from a function that does not have a `target_feature` attribute enabling the same features (see [attributes.codegen.target_feature.safety-restrictions]). r[safety.unsafe-impl] - Implementing an [unsafe trait]. r[safety.unsafe-extern] - Declaring an [`extern`] block[^extern-2024]. r[safety.unsafe-attribute] - Applying an [unsafe attribute] to an item.",
+        "text_sha256": "6c11438d84df3f1d41d52fd559098d82b75861cbf860b760599c8c15e965c383",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5026790549905124,
+        "reranker_score": 0.7315086186914815,
+        "row_marker_scores": [
+          {
+            "overlap_count": 2,
+            "row_marker": "1i",
+            "score": 0.20739
+          }
+        ],
+        "row_markers": [
+          "1i"
+        ],
+        "section_heading": "`Box<T>`",
+        "semantic_score": 0.6940007063173826,
+        "semantic_score_raw": 0.7875590340129011,
+        "source_anchor": "https://doc.rust-lang.org/reference/special-types-and-traits.html#box-t",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::special-types-and-traits.md::section:0002::statement:001",
+        "statement_text": "r[lang-types.box.intro] [`Box<T>`] has a few special features that Rust doesn't currently allow for user defined types. r[lang-types.box.deref] * The [dereference operator] for `Box<T>` produces a place which can be moved from.",
+        "text_sha256": "9f374d887bb504c22a88f9e94e70214843bdd3c933e924405a270b52f0de8b96",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.5003742518600642,
+        "reranker_score": 0.6823317482943669,
+        "row_marker_scores": [],
+        "row_markers": [],
+        "section_heading": "Built-in attributes index",
+        "semantic_score": 0.7732998605103965,
+        "semantic_score_raw": 0.820982035337597,
+        "source_anchor": "https://doc.rust-lang.org/reference/attributes.html#built-in-attributes-index",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::attributes.md::section:0005::statement:004",
+        "statement_text": "See [The Unstable Book] for features implemented in `rustc`. - Type System - [`non_exhaustive`] --- Indicate that a type will have more fields/variants added in future. - Debugger - [`debugger_visualizer`] --- Embeds a file that specifies debugger output for a type. - [`collapse_debuginfo`] --- Controls how macro invocations are encoded in debuginfo.",
+        "text_sha256": "95df24a3cead9fd5fda939a01d4aeb7761b1bfc75116a35b2085dd3a125bf401",
+        "token_overlap_count": 0
+      },
+      {
+        "bm25_raw": 0.0,
+        "lexical_score": 0.0,
+        "mechanism_families": [],
+        "mechanism_ids": [],
+        "phrase_match": 0,
+        "relevance_score": 0.48949630989588533,
+        "reranker_score": 0.6413182909259014,
+        "row_marker_scores": [
+          {
+            "overlap_count": 1,
+            "row_marker": "1h",
+            "score": 0.707107
+          },
+          {
+            "overlap_count": 6,
+            "row_marker": "1i",
+            "score": 0.622171
+          }
+        ],
+        "row_markers": [
+          "1h",
+          "1i"
+        ],
+        "section_heading": "Mutable statics",
+        "semantic_score": 0.8036123159169185,
+        "semantic_score_raw": 0.8337581266782562,
+        "source_anchor": "https://doc.rust-lang.org/reference/items/static-items.html#mutable-statics",
+        "source_fetched_at": "2026-02-20T19:26:06+00:00",
+        "statement_id": "doc::items::static-items.md::section:0003::statement:002",
+        "statement_text": "One of Rust's goals is to make concurrency bugs hard to run into, and this is obviously a very large source of race conditions or other bugs. r[items.static.mut.safety] For this reason, an `unsafe` block is required when either reading or writing a mutable static variable.",
+        "text_sha256": "16c986b48045dd9749436def4b0b885a1832236aa03ee8f2be1c058c1d6090bb",
+        "token_overlap_count": 0
+      }
+    ],
+    "semantic_retry_events": [
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "query embedding",
+        "retry_count": 0,
+        "status": "pass"
+      },
+      {
+        "attempts_used": 1,
+        "max_attempts": 1,
+        "operation": "reranker scoring",
+        "retry_count": 0,
+        "status": "pass"
+      }
+    ]
+  },
+  "runtime": {
+    "backend_profile": "unknown",
+    "contract_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/config/sqlite_query_contracts/rust_reference.yaml",
+    "db_path": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/current/rust_reference.sqlite",
+    "query_log_root": "/home/pete.levasseur/personal/iso-26262-rust-mapping-coding-guidelines/.cache/sqlite_kb/query_logs/rust_reference",
+    "semantic": {
+      "allow_online_corpus_embedding": false,
+      "base_url": "http://127.0.0.1:8080",
+      "embed_base_url": "http://127.0.0.1:19080",
+      "embed_model_id": "Qwen/Qwen3-Embedding-4B",
+      "persist_semantic_cache": true,
+      "rerank_base_url": "http://127.0.0.1:19081",
+      "reranker_model_id": "BAAI/bge-reranker-v2-m3",
+      "semantic_retries": 0,
+      "timeout_sec": 120.0
+    }
+  },
+  "schema_version": 1
+}

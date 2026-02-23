@@ -1,0 +1,5 @@
+   Compiling up-streamer v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer)
+   Compiling integration-test-utils v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/utils/integration-test-utils)
+   Compiling up-linux-streamer-plugin v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-linux-streamer-plugin)
+   Compiling configurable-streamer v0.1.0 (/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/configurable-streamer)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 11.44s

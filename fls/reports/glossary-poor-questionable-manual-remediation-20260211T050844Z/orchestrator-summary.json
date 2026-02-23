@@ -1,0 +1,12 @@
+{
+  "batches_completed": 3,
+  "canonical_checklist": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-202-checklist.md",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "remaining_parent_ids": [],
+  "remediation_dir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T050844Z",
+  "run_id": "20260211T050844Z",
+  "run_local_checklist": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T050844Z/manual-placement-checklist.md",
+  "session_id": null,
+  "timestamp": "20260211T073004Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

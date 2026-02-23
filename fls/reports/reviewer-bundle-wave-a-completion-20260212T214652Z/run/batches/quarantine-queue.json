@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "checklist_id": "WA-007",
+      "first_batch": 6,
+      "reason": "term-level validation failed",
+      "resolved_batch": 9,
+      "resolved_wave": "WA",
+      "status": "closed",
+      "updated_at": "20260212T213724Z",
+      "wave": "WA"
+    }
+  ]
+}

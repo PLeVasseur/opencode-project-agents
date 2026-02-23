@@ -1,0 +1,20 @@
+{
+  "items": [
+    {
+      "checklist_id": "WA-001",
+      "first_batch": 1,
+      "reason": "all terms failed in batch",
+      "status": "open",
+      "updated_at": "20260211T161142Z",
+      "wave": "WA"
+    },
+    {
+      "checklist_id": "WA-002",
+      "first_batch": 2,
+      "reason": "all terms failed in batch",
+      "status": "open",
+      "updated_at": "20260211T161143Z",
+      "wave": "WA"
+    }
+  ]
+}

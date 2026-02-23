@@ -1,0 +1,16 @@
+{
+  "wave": "WA",
+  "commit_hash": "8f95531de31ad39cef0600be7c54a09f28bf0dbc",
+  "term_count": 2,
+  "checklist_ids": [
+    "WA-004",
+    "WA-015"
+  ],
+  "terms": [
+    "trait",
+    "statement"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 2
+  }
+}

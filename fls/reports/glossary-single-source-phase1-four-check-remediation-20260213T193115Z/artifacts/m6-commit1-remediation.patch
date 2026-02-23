@@ -1,0 +1,22 @@
+diff --git a/exts/ferrocene_spec/glossary.py b/exts/ferrocene_spec/glossary.py
+index 2a22aa4..0d320ea 100644
+--- a/exts/ferrocene_spec/glossary.py
++++ b/exts/ferrocene_spec/glossary.py
+@@ -12,7 +12,7 @@ from sphinx.environment.collectors import EnvironmentCollector
+ from sphinx.util import logging
+ 
+ VALID_KINDS = ("term", "code", "syntax")
+-GLOSSARY_DP_RE = re.compile(r"^fls_[A-Za-z0-9]+$")
++GLOSSARY_DP_RE = re.compile(r"^fls_[A-Za-z0-9_]+$")
+ 
+ 
+ class GlossaryEntryNode(nodes.Element):
+@@ -321,7 +321,7 @@ def normalize_glossary_dp(value: str | None, location):
+         return None, True
+     if not GLOSSARY_DP_RE.fullmatch(value):
+         warn(
+-            f"invalid :glossary-dp: {value} (expected fls_ + [A-Za-z0-9]+)",
++            f"invalid :glossary-dp: {value} (expected fls_ + [A-Za-z0-9_]+)",
+             location,
+         )
+         return None, True

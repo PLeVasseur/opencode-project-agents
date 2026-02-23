@@ -1,0 +1,5 @@
+beb89ee (HEAD -> glossary-step-1-main-text-coverage) Revert "docs(glossary): remediate placement terms WA-001-WA-015"
+d74a460 (origin/glossary-step-1-main-text-coverage) docs(glossary): remediate placement terms WA-001-WA-015
+d8c5bc6 docs(glossary): reset after blocked WA kickoff
+8be0707 docs(glossary): remediate placement terms WB-001-WB-020
+6efd83d docs(glossary): revert Wave A/B for recovery rerun

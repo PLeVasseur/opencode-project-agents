@@ -1,0 +1,110 @@
+# PR B + PR C Rebase Plan (Post PR A Merge + Feedback Sweep Commits)
+
+- [ ] Outcome contract
+  - [ ] Keep PR C stacked on PR B after rebases.
+  - [ ] Add exactly one new feedback-sweep commit on PR B.
+  - [ ] Add exactly one new feedback-sweep commit on PR C.
+  - [ ] Do not amend `c4`/`c5`; add improvements as new commits only.
+
+- [ ] 1) Prep and sync refs
+  - [ ] Fetch latest upstream and origin refs: `git fetch upstream main --prune && git fetch origin --prune`
+  - [ ] Confirm clean working tree before rewriting history: `git status -sb`
+  - [ ] Confirm `upstream/main` is at the PR A squash tip (`cc719174fc1270ba57baa45f67533942960650c1`)
+
+- [ ] 2) Create no-loss backups before any history rewrite
+  - [ ] Create timestamp anchor once: `ts="$(date -u +%Y%m%dT%H%M%SZ)"`
+  - [ ] Backup PR B locally:
+    - [ ] `git tag "backup/pr84-pre-rebase-${ts}" cleanup/refactor-upstream-main-prB-benchmark`
+    - [ ] `git branch "backup/pr84-pre-rebase-${ts}" cleanup/refactor-upstream-main-prB-benchmark`
+  - [ ] Backup PR C locally:
+    - [ ] `git tag "backup/pr85-pre-rebase-${ts}" cleanup/refactor-upstream-main-prC-smoke`
+    - [ ] `git branch "backup/pr85-pre-rebase-${ts}" cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Push backup refs to origin for remote recovery:
+    - [ ] `git push origin "backup/pr84-pre-rebase-${ts}" "backup/pr85-pre-rebase-${ts}"`
+    - [ ] `git push origin "refs/tags/backup/pr84-pre-rebase-${ts}" "refs/tags/backup/pr85-pre-rebase-${ts}"`
+  - [ ] Capture backup SHAs in notes:
+    - [ ] `git rev-parse "backup/pr84-pre-rebase-${ts}"`
+    - [ ] `git rev-parse "backup/pr85-pre-rebase-${ts}"`
+
+- [ ] 3) Rebase PR B (`cleanup/refactor-upstream-main-prB-benchmark`) onto `upstream/main`
+  - [ ] Check out PR B: `git checkout cleanup/refactor-upstream-main-prB-benchmark`
+  - [ ] Compute the old split-base with PR A branch: `old_base_b="$(git merge-base cleanup/refactor-upstream-main-prB-benchmark cleanup/refactor-upstream-main-prA-architecture)"`
+  - [ ] Rebase PR B-only commit(s) onto `upstream/main`: `git rebase --onto upstream/main "$old_base_b" cleanup/refactor-upstream-main-prB-benchmark`
+  - [ ] If conflicts occur: resolve files, `git add <paths>`, then `git rebase --continue` until complete
+  - [ ] Verify expected shape before sweep (B should be 1 commit ahead of `upstream/main`): `git rev-list --left-right --count upstream/main...cleanup/refactor-upstream-main-prB-benchmark`
+  - [ ] Create post-rebase/pre-sweep safety refs for B:
+    - [ ] `git tag "backup/pr84-post-rebase-pre-sweep-${ts}" cleanup/refactor-upstream-main-prB-benchmark`
+    - [ ] `git branch "backup/pr84-post-rebase-pre-sweep-${ts}" cleanup/refactor-upstream-main-prB-benchmark`
+    - [ ] `git push origin "backup/pr84-post-rebase-pre-sweep-${ts}" "refs/tags/backup/pr84-post-rebase-pre-sweep-${ts}"`
+
+- [ ] 4) Run PR-83 feedback sweep on PR B delta and create a NEW commit
+  - [ ] Scope the sweep to PR B delta files: `git diff --name-only upstream/main..cleanup/refactor-upstream-main-prB-benchmark`
+  - [ ] Apply PR-83 feedback taxonomy checks to B delta (accessor-first, wildcard helper usage, shared mock primitives where relevant).
+  - [ ] Implement improvements found by the sweep as code changes on PR B.
+  - [ ] Run fast validation gates for this branch:
+    - [ ] `cargo fmt -- --check`
+    - [ ] `cargo clippy --all-targets -- -W warnings -D warnings`
+    - [ ] `cargo check --workspace --all-targets`
+  - [ ] Create one additive sweep commit (no amend): `git commit -m "refactor: apply up-rust feedback sweep to benchmark delta"`
+  - [ ] Verify expected shape after sweep (B should be 2 commits ahead of `upstream/main`): `git rev-list --left-right --count upstream/main...cleanup/refactor-upstream-main-prB-benchmark`
+  - [ ] Push rewritten + swept PR B: `git push --force-with-lease origin cleanup/refactor-upstream-main-prB-benchmark`
+
+- [ ] 5) Rebase PR C (`cleanup/refactor-upstream-main-prC-smoke`) onto updated PR B and keep it stacked
+  - [ ] Check out PR C: `git checkout cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Rebase only C-only commit(s) (c5) onto updated PR B (keeps C as B + c5): `git rebase --onto cleanup/refactor-upstream-main-prB-benchmark "backup/pr84-pre-rebase-${ts}" cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] If conflicts occur: resolve files, `git add <paths>`, then `git rebase --continue` until complete
+  - [ ] Verify expected shape before C sweep:
+    - [ ] C is 1 commit ahead of B: `git rev-list --left-right --count cleanup/refactor-upstream-main-prB-benchmark...cleanup/refactor-upstream-main-prC-smoke`
+    - [ ] C is 3 commits ahead of `upstream/main`: `git rev-list --left-right --count upstream/main...cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Create post-rebase/pre-sweep safety refs for C:
+    - [ ] `git tag "backup/pr85-post-rebase-pre-sweep-${ts}" cleanup/refactor-upstream-main-prC-smoke`
+    - [ ] `git branch "backup/pr85-post-rebase-pre-sweep-${ts}" cleanup/refactor-upstream-main-prC-smoke`
+    - [ ] `git push origin "backup/pr85-post-rebase-pre-sweep-${ts}" "refs/tags/backup/pr85-post-rebase-pre-sweep-${ts}"`
+
+- [ ] 6) Run PR-83 feedback sweep on PR C-only delta and create a NEW commit
+  - [ ] Scope the sweep to C-only delta files: `git diff --name-only cleanup/refactor-upstream-main-prB-benchmark..cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Apply PR-83 feedback taxonomy checks to C delta (same standards used on B).
+  - [ ] Implement improvements found by the sweep as code changes on PR C.
+  - [ ] Run fast validation gates for this branch:
+    - [ ] `cargo fmt -- --check`
+    - [ ] `cargo clippy --all-targets -- -W warnings -D warnings`
+    - [ ] `cargo check --workspace --all-targets`
+  - [ ] Create one additive sweep commit (no amend): `git commit -m "refactor: apply up-rust feedback sweep to smoke delta"`
+  - [ ] Verify expected shape after sweep:
+    - [ ] C is 2 commits ahead of B: `git rev-list --left-right --count cleanup/refactor-upstream-main-prB-benchmark...cleanup/refactor-upstream-main-prC-smoke`
+    - [ ] C is 4 commits ahead of `upstream/main`: `git rev-list --left-right --count upstream/main...cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Push rewritten + swept PR C: `git push --force-with-lease origin cleanup/refactor-upstream-main-prC-smoke`
+
+- [ ] 7) Post-rebase + post-sweep validation and rollback hooks
+  - [ ] Confirm PR branch heads/states: `gh pr view 84 --json headRefOid,baseRefOid,mergeable,mergeStateStatus` and `gh pr view 85 --json headRefOid,baseRefOid,mergeable,mergeStateStatus`
+  - [ ] Confirm final commit stacks:
+    - [ ] `git log --oneline upstream/main..cleanup/refactor-upstream-main-prB-benchmark`
+    - [ ] `git log --oneline upstream/main..cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Keep all backup refs until both PRs are merged and green in CI.
+  - [ ] Recovery path for sweep-only rollback:
+    - [ ] `git checkout cleanup/refactor-upstream-main-prB-benchmark && git reset --hard "backup/pr84-post-rebase-pre-sweep-${ts}" && git push --force-with-lease origin cleanup/refactor-upstream-main-prB-benchmark`
+    - [ ] `git checkout cleanup/refactor-upstream-main-prC-smoke && git reset --hard "backup/pr85-post-rebase-pre-sweep-${ts}" && git push --force-with-lease origin cleanup/refactor-upstream-main-prC-smoke`
+  - [ ] Recovery path for full rollback to pre-rebase state:
+    - [ ] `git checkout cleanup/refactor-upstream-main-prB-benchmark && git reset --hard "backup/pr84-pre-rebase-${ts}" && git push --force-with-lease origin cleanup/refactor-upstream-main-prB-benchmark`
+    - [ ] `git checkout cleanup/refactor-upstream-main-prC-smoke && git reset --hard "backup/pr85-pre-rebase-${ts}" && git push --force-with-lease origin cleanup/refactor-upstream-main-prC-smoke`
+
+- [x] Execution log (2026-02-18)
+  - [x] Runtime timestamp anchor used: `20260218T131914Z`.
+  - [x] Steps 1 through 7 executed successfully.
+  - [x] Rebase operations completed with no conflicts.
+  - [x] PR B rebased onto `upstream/main` and pushed.
+    - [x] Rebased benchmark commit SHA: `f3d693d3baed8a4c297f1a7ea8c6c51128574555`.
+    - [x] New additive PR B sweep commit: `93e63d64abb33c92419e37d1d9898289c2daeb1e` (`refactor: apply up-rust feedback sweep to benchmark delta`).
+  - [x] PR C restacked onto updated PR B and pushed.
+    - [x] Rebased smoke commit SHA: `2d7d726c8574db11e3634213e6ac32de96db8d5c`.
+    - [x] New additive PR C sweep commit: `6f76730e612e1714ecd081832c0929a6d0b97ba4` (`refactor: apply up-rust feedback sweep to smoke delta`).
+  - [x] Local fast gates executed and passed for both sweep commits:
+    - [x] `cargo fmt -- --check`
+    - [x] `cargo clippy --all-targets -- -W warnings -D warnings`
+    - [x] `cargo check --workspace --all-targets`
+  - [x] Backup refs created and pushed (branch + tag):
+    - [x] `backup/pr84-pre-rebase-20260218T131914Z` -> `c1a61bc62065c86c659d5ac1a1fd11cbf970a3f3`
+    - [x] `backup/pr85-pre-rebase-20260218T131914Z` -> `8011c085c71f019f6ea5daa7ceb7fe2f078041b3`
+    - [x] `backup/pr84-post-rebase-pre-sweep-20260218T131914Z` -> `f3d693d3baed8a4c297f1a7ea8c6c51128574555`
+    - [x] `backup/pr85-post-rebase-pre-sweep-20260218T131914Z` -> `2d7d726c8574db11e3634213e6ac32de96db8d5c`
+  - [ ] Keep all backup refs until both PRs are merged and green in CI.

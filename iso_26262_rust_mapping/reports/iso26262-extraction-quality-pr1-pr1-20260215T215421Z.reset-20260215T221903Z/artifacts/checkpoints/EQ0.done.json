@@ -1,0 +1,14 @@
+{
+  "baseline_run_id": "20260215T162251Z",
+  "contract": {
+    "pr_base_branch": "main",
+    "pr_head_branch": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+    "pr_number": 1,
+    "pr_url": "https://github.com/PLeVasseur/iso-26262-rust-mapping/pull/1"
+  },
+  "mode": "kickoff-default-pr1",
+  "run_id": "pr1-20260215T215421Z",
+  "stage": "EQ0",
+  "status": "complete",
+  "timestamp_utc": "2026-02-15T22:08:39Z"
+}

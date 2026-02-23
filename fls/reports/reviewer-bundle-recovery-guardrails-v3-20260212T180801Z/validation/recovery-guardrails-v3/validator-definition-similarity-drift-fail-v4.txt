@@ -1,0 +1,4 @@
+mode=gate
+parent_total=1 parent_checked=1 parent_unchecked=0 sub_total=6 sub_checked=6 sub_unchecked=0
+ledger_rows=1 baseline_rows=1 completed_rows=1 resolved_high_rows=1 pending_deviation_count=0 errors=1
+ERROR: FAILED_SIMILARITY_DRIFT: WA-001: chapter_definition_sha256 mismatch (stored=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, recomputed=12f58dedc20c0cc943bed4c1698bc6b2219a8c390dce918b9c12fcb434b03a55)

@@ -1,0 +1,24 @@
+{
+  "artifacts": {
+    "missing_terms": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/missing-terms.json",
+    "term_inventory": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/term-inventory.json"
+  },
+  "checks": [
+    {
+      "details": {
+        "violations": []
+      },
+      "name": "no-disallowed-directives",
+      "passed": true
+    },
+    {
+      "details": {
+        "missing_count": 0
+      },
+      "name": "glossary-terms-covered-by-chapters",
+      "passed": true
+    }
+  ],
+  "phase": 1,
+  "strict": true
+}

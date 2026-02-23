@@ -1,0 +1,3 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.61s
+     Running `/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/target/debug/zenoh_someip --config /home/pete.levasseur/opencode-project-agents/up-streamer-rust/reports/usubscription-decoupled-pubsub-migration/live_usubscription-zenoh_someip.DEFAULT_CONFIG.json5`
+Error: UStatus { code: UNIMPLEMENTED, message: Some("live_usubscription mode is reserved in this phase; live runtime integration is deferred (see reports/usubscription-decoupled-pubsub-migration/05-live-integration-deferred.md)"), details: [], special_fields: SpecialFields { unknown_fields: UnknownFields { fields: None }, cached_size: CachedSize { size: 0 } } }

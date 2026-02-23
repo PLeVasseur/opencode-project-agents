@@ -1,0 +1,5603 @@
+{
+  "Abstract data type": {
+    "count": 1,
+    "case_match": "abstract data type",
+    "samples": [
+      {
+        "raw": "[Abstract data type]s",
+        "file": "types-and-traits.rst",
+        "line": 120
+      }
+    ]
+  },
+  "Addition expression": {
+    "count": 1,
+    "case_match": "addition expression",
+    "samples": [
+      {
+        "raw": "Addition expression",
+        "file": "expressions.rst",
+        "line": 5574
+      }
+    ]
+  },
+  "Alignment": {
+    "count": 1,
+    "case_match": "alignment",
+    "samples": [
+      {
+        "raw": "Alignment",
+        "file": "types-and-traits.rst",
+        "line": 1819
+      }
+    ]
+  },
+  "Arithmetic expression": {
+    "count": 1,
+    "case_match": "arithmetic expression",
+    "samples": [
+      {
+        "raw": "[Arithmetic expression]s",
+        "file": "expressions.rst",
+        "line": 217
+      }
+    ]
+  },
+  "Array expression": {
+    "count": 3,
+    "case_match": "array expression",
+    "samples": [
+      {
+        "raw": "[Array expression]s",
+        "file": "expressions.rst",
+        "line": 184
+      },
+      {
+        "raw": "[Array expression]s",
+        "file": "expressions.rst",
+        "line": 220
+      },
+      {
+        "raw": "Array expression",
+        "file": "expressions.rst",
+        "line": 5506
+      }
+    ]
+  },
+  "Array type": {
+    "count": 2,
+    "case_match": "array type",
+    "samples": [
+      {
+        "raw": "[Array type]s",
+        "file": "types-and-traits.rst",
+        "line": 108
+      },
+      {
+        "raw": "[Array type]s",
+        "file": "types-and-traits.rst",
+        "line": 2609
+      }
+    ]
+  },
+  "Assembly code block": {
+    "count": 1,
+    "case_match": "assembly code block",
+    "samples": [
+      {
+        "raw": "[Assembly code block]s",
+        "file": "inline-assembly.rst",
+        "line": 1699
+      }
+    ]
+  },
+  "Assembly option": {
+    "count": 13,
+    "case_match": "assembly option",
+    "samples": [
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1557
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1562
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1566
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1570
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1582
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1630
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1634
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1638
+      },
+      {
+        "raw": "[Assembly option]s",
+        "file": "inline-assembly.rst",
+        "line": 1642
+      },
+      {
+        "raw": "[Assembly option]s",
+        "file": "inline-assembly.rst",
+        "line": 1646
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1649
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1653
+      },
+      {
+        "raw": "Assembly option",
+        "file": "inline-assembly.rst",
+        "line": 1657
+      }
+    ]
+  },
+  "Assignment expression": {
+    "count": 2,
+    "case_match": "assignment expression",
+    "samples": [
+      {
+        "raw": "[Assignment expression]s",
+        "file": "expressions.rst",
+        "line": 223
+      },
+      {
+        "raw": "Assignment expression",
+        "file": "expressions.rst",
+        "line": 5614
+      }
+    ]
+  },
+  "Associated constant": {
+    "count": 1,
+    "case_match": "associated constant",
+    "samples": [
+      {
+        "raw": "[Associated constant]s",
+        "file": "entities-and-resolution.rst",
+        "line": 956
+      }
+    ]
+  },
+  "Associated function": {
+    "count": 1,
+    "case_match": "associated function",
+    "samples": [
+      {
+        "raw": "[Associated function]s",
+        "file": "entities-and-resolution.rst",
+        "line": 959
+      }
+    ]
+  },
+  "Associated item": {
+    "count": 1,
+    "case_match": "associated item",
+    "samples": [
+      {
+        "raw": "[Associated item]s",
+        "file": "entities-and-resolution.rst",
+        "line": 63
+      }
+    ]
+  },
+  "Associated type": {
+    "count": 1,
+    "case_match": "associated type",
+    "samples": [
+      {
+        "raw": "[Associated type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 913
+      }
+    ]
+  },
+  "associated type alias": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "associated type alias",
+        "file": "expressions.rst",
+        "line": 4134
+      }
+    ]
+  },
+  "associativity": {
+    "count": 2,
+    "case_match": "Associativity",
+    "samples": [
+      {
+        "raw": "associativity",
+        "file": "expressions.rst",
+        "line": 5485
+      },
+      {
+        "raw": "associativity",
+        "file": "expressions.rst",
+        "line": 5496
+      }
+    ]
+  },
+  "Atomic type": {
+    "count": 2,
+    "case_match": "atomic type",
+    "samples": [
+      {
+        "raw": "[Atomic type]s",
+        "file": "concurrency.rst",
+        "line": 74
+      },
+      {
+        "raw": "[Atomic type]s",
+        "file": "concurrency.rst",
+        "line": 81
+      }
+    ]
+  },
+  "Attribute": {
+    "count": 146,
+    "case_match": "attribute",
+    "samples": [
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 106
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 109
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 112
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 190
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 193
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 196
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 199
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 202
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 205
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 212
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 215
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 221
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 224
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 230
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 233
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 236
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 239
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 242
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 245
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 248
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 251
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 257
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 264
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 267
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 270
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 273
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 276
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 279
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 282
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 285
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 288
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 291
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 294
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 300
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 303
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 309
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 312
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 315
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 318
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 321
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 327
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 333
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 336
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 342
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 345
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 348
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 354
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 357
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 360
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 366
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 388
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 391
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 419
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 423
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 430
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 434
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 438
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 472
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 475
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 562
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 815
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 819
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 868
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 871
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 874
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 878
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 881
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 884
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 943
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1021
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1056
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1075
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1078
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1142
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1170
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1173
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1206
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1209
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1233
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1237
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1285
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1288
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1352
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1356
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1360
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1361
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1388
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1392
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1417
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1426
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1454
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1457
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1482
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1485
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1509
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1513
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1518
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1588
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1591
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1627
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1630
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1633
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1639
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1642
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1645
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1648
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1672
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1675
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1706
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1709
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1733
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1737
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1772
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1775
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1804
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1807
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1839
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1885
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1889
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1914
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1918
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1955
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 1959
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2001
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2049
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2075
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2078
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2116
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2120
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2145
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2171
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2204
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2208
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2243
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2246
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2275
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2278
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2311
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2326
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2372
+      },
+      {
+        "raw": "Attribute",
+        "file": "attributes.rst",
+        "line": 2376
+      },
+      {
+        "raw": "Attribute",
+        "file": "ffi.rst",
+        "line": 22
+      },
+      {
+        "raw": "Attribute",
+        "file": "ffi.rst",
+        "line": 25
+      },
+      {
+        "raw": "Attribute",
+        "file": "ffi.rst",
+        "line": 28
+      },
+      {
+        "raw": "Attribute",
+        "file": "ffi.rst",
+        "line": 31
+      },
+      {
+        "raw": "Attribute",
+        "file": "ffi.rst",
+        "line": 34
+      }
+    ]
+  },
+  "Attribute macro": {
+    "count": 3,
+    "case_match": "attribute macro",
+    "samples": [
+      {
+        "raw": "[Attribute macro]s",
+        "file": "attributes.rst",
+        "line": 103
+      },
+      {
+        "raw": "[Attribute macro]s",
+        "file": "entities-and-resolution.rst",
+        "line": 894
+      },
+      {
+        "raw": "[Attribute macro]s",
+        "file": "macros.rst",
+        "line": 496
+      }
+    ]
+  },
+  "auto-dereferencing": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "auto-dereferencing",
+        "file": "attributes.rst",
+        "line": 1710
+      }
+    ]
+  },
+  "Await expression": {
+    "count": 1,
+    "case_match": "await expression",
+    "samples": [
+      {
+        "raw": "Await expression",
+        "file": "expressions.rst",
+        "line": 5538
+      }
+    ]
+  },
+  "Binding": {
+    "count": 4,
+    "case_match": "binding",
+    "samples": [
+      {
+        "raw": "[Binding]s",
+        "file": "entities-and-resolution.rst",
+        "line": 66
+      },
+      {
+        "raw": "[Binding]s",
+        "file": "entities-and-resolution.rst",
+        "line": 962
+      },
+      {
+        "raw": "[Binding]s",
+        "file": "expressions.rst",
+        "line": 5211
+      },
+      {
+        "raw": "[Binding]s",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 716
+      }
+    ]
+  },
+  "bindings": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "bindings",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 724
+      }
+    ]
+  },
+  "Bit and expression": {
+    "count": 1,
+    "case_match": "bit and expression",
+    "samples": [
+      {
+        "raw": "Bit and expression",
+        "file": "expressions.rst",
+        "line": 5586
+      }
+    ]
+  },
+  "Bit expression": {
+    "count": 1,
+    "case_match": "bit expression",
+    "samples": [
+      {
+        "raw": "[Bit expression]s",
+        "file": "expressions.rst",
+        "line": 226
+      }
+    ]
+  },
+  "Bit or expression": {
+    "count": 1,
+    "case_match": "bit or expression",
+    "samples": [
+      {
+        "raw": "Bit or expression",
+        "file": "expressions.rst",
+        "line": 5594
+      }
+    ]
+  },
+  "Bit xor expression": {
+    "count": 1,
+    "case_match": "bit xor expression",
+    "samples": [
+      {
+        "raw": "Bit xor expression",
+        "file": "expressions.rst",
+        "line": 5590
+      }
+    ]
+  },
+  "Block comment": {
+    "count": 1,
+    "case_match": "block comment",
+    "samples": [
+      {
+        "raw": "[Block comment]s",
+        "file": "lexical-elements.rst",
+        "line": 1512
+      }
+    ]
+  },
+  "Block expression": {
+    "count": 3,
+    "case_match": "block expression",
+    "samples": [
+      {
+        "raw": "[Block expression]s",
+        "file": "entities-and-resolution.rst",
+        "line": 737
+      },
+      {
+        "raw": "[Block expression]s",
+        "file": "expressions.rst",
+        "line": 229
+      },
+      {
+        "raw": "Block expression",
+        "file": "expressions.rst",
+        "line": 5508
+      }
+    ]
+  },
+  "Borrow expression": {
+    "count": 1,
+    "case_match": "borrow expression",
+    "samples": [
+      {
+        "raw": "Borrow expression",
+        "file": "expressions.rst",
+        "line": 5554
+      }
+    ]
+  },
+  "borrowing": {
+    "count": 5,
+    "case_match": "Borrowing",
+    "samples": [
+      {
+        "raw": "borrowing",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 165
+      },
+      {
+        "raw": "borrowing",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 202
+      },
+      {
+        "raw": "borrowing",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 209
+      },
+      {
+        "raw": "borrowing",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 216
+      },
+      {
+        "raw": "borrowing",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 238
+      }
+    ]
+  },
+  "Break expression": {
+    "count": 2,
+    "case_match": "break expression",
+    "samples": [
+      {
+        "raw": "[Break expression]s",
+        "file": "expressions.rst",
+        "line": 415
+      },
+      {
+        "raw": "Break expression",
+        "file": "expressions.rst",
+        "line": 5620
+      }
+    ]
+  },
+  "break type": {
+    "count": 7,
+    "case_match": "Break type",
+    "samples": [
+      {
+        "raw": "[break type]s",
+        "file": "expressions.rst",
+        "line": 755
+      },
+      {
+        "raw": "[break type]s",
+        "file": "expressions.rst",
+        "line": 761
+      },
+      {
+        "raw": "[break type]s",
+        "file": "expressions.rst",
+        "line": 4382
+      },
+      {
+        "raw": "break type",
+        "file": "expressions.rst",
+        "line": 4634
+      },
+      {
+        "raw": "break type",
+        "file": "expressions.rst",
+        "line": 4637
+      },
+      {
+        "raw": "break type",
+        "file": "expressions.rst",
+        "line": 4641
+      },
+      {
+        "raw": "break type",
+        "file": "types-and-traits.rst",
+        "line": 3679
+      }
+    ]
+  },
+  "break value": {
+    "count": 5,
+    "case_match": "Break value",
+    "samples": [
+      {
+        "raw": "break value",
+        "file": "expressions.rst",
+        "line": 776
+      },
+      {
+        "raw": "break value",
+        "file": "expressions.rst",
+        "line": 4393
+      },
+      {
+        "raw": "break value",
+        "file": "expressions.rst",
+        "line": 4649
+      },
+      {
+        "raw": "break value",
+        "file": "expressions.rst",
+        "line": 4652
+      },
+      {
+        "raw": "break value",
+        "file": "expressions.rst",
+        "line": 4656
+      }
+    ]
+  },
+  "Built-in attribute": {
+    "count": 3,
+    "case_match": "built-in attribute",
+    "samples": [
+      {
+        "raw": "[Built-in attribute]s",
+        "file": "entities-and-resolution.rst",
+        "line": 119
+      },
+      {
+        "raw": "[Built-in attribute]s",
+        "file": "entities-and-resolution.rst",
+        "line": 897
+      },
+      {
+        "raw": "[Built-in attribute]s",
+        "file": "entities-and-resolution.rst",
+        "line": 1037
+      }
+    ]
+  },
+  "By immutable reference capture": {
+    "count": 1,
+    "case_match": "by immutable reference capture",
+    "samples": [
+      {
+        "raw": "By immutable reference capture",
+        "file": "expressions.rst",
+        "line": 5701
+      }
+    ]
+  },
+  "By mutable reference capture": {
+    "count": 1,
+    "case_match": "by mutable reference capture",
+    "samples": [
+      {
+        "raw": "By mutable reference capture",
+        "file": "expressions.rst",
+        "line": 5708
+      }
+    ]
+  },
+  "By unique immutable reference capture": {
+    "count": 1,
+    "case_match": "by unique immutable reference capture",
+    "samples": [
+      {
+        "raw": "By unique immutable reference capture",
+        "file": "expressions.rst",
+        "line": 5704
+      }
+    ]
+  },
+  "By value capture": {
+    "count": 1,
+    "case_match": "by value capture",
+    "samples": [
+      {
+        "raw": "By value capture",
+        "file": "expressions.rst",
+        "line": 5711
+      }
+    ]
+  },
+  "c signed int type": {
+    "count": 1,
+    "case_match": "C signed int type",
+    "samples": [
+      {
+        "raw": "c signed int type",
+        "file": "types-and-traits.rst",
+        "line": 2008
+      }
+    ]
+  },
+  "Call expression": {
+    "count": 3,
+    "case_match": "call expression",
+    "samples": [
+      {
+        "raw": "[Call expression]s",
+        "file": "expressions.rst",
+        "line": 232
+      },
+      {
+        "raw": "[Call expression]s",
+        "file": "expressions.rst",
+        "line": 425
+      },
+      {
+        "raw": "Call expression",
+        "file": "expressions.rst",
+        "line": 5544
+      }
+    ]
+  },
+  "Call resolution": {
+    "count": 1,
+    "case_match": "call resolution",
+    "samples": [
+      {
+        "raw": "Call resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1583
+      }
+    ]
+  },
+  "Closure expression": {
+    "count": 3,
+    "case_match": "closure expression",
+    "samples": [
+      {
+        "raw": "[Closure expression]s",
+        "file": "entities-and-resolution.rst",
+        "line": 740
+      },
+      {
+        "raw": "[Closure expression]s",
+        "file": "expressions.rst",
+        "line": 235
+      },
+      {
+        "raw": "Closure expression",
+        "file": "expressions.rst",
+        "line": 5622
+      }
+    ]
+  },
+  "Closure type": {
+    "count": 1,
+    "case_match": "closure type",
+    "samples": [
+      {
+        "raw": "[Closure type]s",
+        "file": "types-and-traits.rst",
+        "line": 135
+      }
+    ]
+  },
+  "Comparison expression": {
+    "count": 2,
+    "case_match": "comparison expression",
+    "samples": [
+      {
+        "raw": "[Comparison expression]s",
+        "file": "expressions.rst",
+        "line": 238
+      },
+      {
+        "raw": "Comparison expression",
+        "file": "expressions.rst",
+        "line": 5598
+      }
+    ]
+  },
+  "Compound assignment expression": {
+    "count": 2,
+    "case_match": "compound assignment expression",
+    "samples": [
+      {
+        "raw": "[Compound assignment expression]s",
+        "file": "expressions.rst",
+        "line": 241
+      },
+      {
+        "raw": "Compound assignment expression",
+        "file": "expressions.rst",
+        "line": 5616
+      }
+    ]
+  },
+  "Configuration predicate": {
+    "count": 2,
+    "case_match": "configuration predicate",
+    "samples": [
+      {
+        "raw": "Configuration predicate",
+        "file": "attributes.rst",
+        "line": 991
+      },
+      {
+        "raw": "Configuration predicate",
+        "file": "attributes.rst",
+        "line": 994
+      }
+    ]
+  },
+  "Constant": {
+    "count": 2,
+    "case_match": "constant",
+    "samples": [
+      {
+        "raw": "[Constant]s",
+        "file": "entities-and-resolution.rst",
+        "line": 69
+      },
+      {
+        "raw": "[Constant]s",
+        "file": "entities-and-resolution.rst",
+        "line": 965
+      }
+    ]
+  },
+  "Constant parameter": {
+    "count": 2,
+    "case_match": "constant parameter",
+    "samples": [
+      {
+        "raw": "[Constant parameter]s",
+        "file": "entities-and-resolution.rst",
+        "line": 968
+      },
+      {
+        "raw": "[Constant parameter]s",
+        "file": "expressions.rst",
+        "line": 244
+      }
+    ]
+  },
+  "Constant promotion": {
+    "count": 3,
+    "case_match": "constant promotion",
+    "samples": [
+      {
+        "raw": "Constant promotion",
+        "file": "values.rst",
+        "line": 322
+      },
+      {
+        "raw": "Constant promotion",
+        "file": "values.rst",
+        "line": 344
+      },
+      {
+        "raw": "Constant promotion",
+        "file": "values.rst",
+        "line": 348
+      }
+    ]
+  },
+  "Continue expression": {
+    "count": 1,
+    "case_match": "continue expression",
+    "samples": [
+      {
+        "raw": "Continue expression",
+        "file": "expressions.rst",
+        "line": 5510
+      }
+    ]
+  },
+  "contravariant": {
+    "count": 1,
+    "case_match": "Contravariant",
+    "samples": [
+      {
+        "raw": "contravariant",
+        "file": "types-and-traits.rst",
+        "line": 3564
+      }
+    ]
+  },
+  "covariant": {
+    "count": 9,
+    "case_match": "Covariant",
+    "samples": [
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3535
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3536
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3539
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3544
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3552
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3556
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3560
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3576
+      },
+      {
+        "raw": "covariant",
+        "file": "types-and-traits.rst",
+        "line": 3579
+      }
+    ]
+  },
+  "Crate import": {
+    "count": 1,
+    "case_match": "crate import",
+    "samples": [
+      {
+        "raw": "[Crate import]s",
+        "file": "lexical-elements.rst",
+        "line": 520
+      }
+    ]
+  },
+  "Crate indication": {
+    "count": 1,
+    "case_match": "crate indication",
+    "samples": [
+      {
+        "raw": "Crate indication",
+        "file": "program-structure-and-compilation.rst",
+        "line": 215
+      }
+    ]
+  },
+  "Declarative macro": {
+    "count": 7,
+    "case_match": "declarative macro",
+    "samples": [
+      {
+        "raw": "[Declarative macro]s",
+        "file": "entities-and-resolution.rst",
+        "line": 72
+      },
+      {
+        "raw": "[Declarative macro]s",
+        "file": "entities-and-resolution.rst",
+        "line": 743
+      },
+      {
+        "raw": "[Declarative macro]s",
+        "file": "entities-and-resolution.rst",
+        "line": 900
+      },
+      {
+        "raw": "[Declarative macro]s",
+        "file": "lexical-elements.rst",
+        "line": 545
+      },
+      {
+        "raw": "[Declarative macro]s",
+        "file": "macros.rst",
+        "line": 20
+      },
+      {
+        "raw": "[Declarative macro]s",
+        "file": "macros.rst",
+        "line": 162
+      },
+      {
+        "raw": "[Declarative macro]s",
+        "file": "macros.rst",
+        "line": 1148
+      }
+    ]
+  },
+  "default representation": {
+    "count": 4,
+    "case_match": "Default representation",
+    "samples": [
+      {
+        "raw": "default representation",
+        "file": "types-and-traits.rst",
+        "line": 1979
+      },
+      {
+        "raw": "default representation",
+        "file": "types-and-traits.rst",
+        "line": 1986
+      },
+      {
+        "raw": "default representation",
+        "file": "types-and-traits.rst",
+        "line": 2003
+      },
+      {
+        "raw": "default representation",
+        "file": "types-and-traits.rst",
+        "line": 2015
+      }
+    ]
+  },
+  "definition site hygiene": {
+    "count": 2,
+    "case_match": "Definition site hygiene",
+    "samples": [
+      {
+        "raw": "definition site hygiene",
+        "file": "macros.rst",
+        "line": 1118
+      },
+      {
+        "raw": "definition site hygiene",
+        "file": "macros.rst",
+        "line": 1135
+      }
+    ]
+  },
+  "Dereference expression": {
+    "count": 3,
+    "case_match": "dereference expression",
+    "samples": [
+      {
+        "raw": "[Dereference expression]s",
+        "file": "expressions.rst",
+        "line": 247
+      },
+      {
+        "raw": "[Dereference expression]s",
+        "file": "expressions.rst",
+        "line": 450
+      },
+      {
+        "raw": "Dereference expression",
+        "file": "expressions.rst",
+        "line": 5556
+      }
+    ]
+  },
+  "Derive macro": {
+    "count": 2,
+    "case_match": "derive macro",
+    "samples": [
+      {
+        "raw": "[Derive macro]s",
+        "file": "entities-and-resolution.rst",
+        "line": 903
+      },
+      {
+        "raw": "[Derive macro]s",
+        "file": "macros.rst",
+        "line": 432
+      }
+    ]
+  },
+  "destruction": {
+    "count": 3,
+    "case_match": "Destruction",
+    "samples": [
+      {
+        "raw": "destruction",
+        "file": "expressions.rst",
+        "line": 214
+      },
+      {
+        "raw": "destruction",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 386
+      },
+      {
+        "raw": "destruction",
+        "file": "values.rst",
+        "line": 241
+      }
+    ]
+  },
+  "Diverging expression": {
+    "count": 1,
+    "case_match": "diverging expression",
+    "samples": [
+      {
+        "raw": "[Diverging expression]s",
+        "file": "expressions.rst",
+        "line": 412
+      }
+    ]
+  },
+  "Division expression": {
+    "count": 1,
+    "case_match": "division expression",
+    "samples": [
+      {
+        "raw": "Division expression",
+        "file": "expressions.rst",
+        "line": 5566
+      }
+    ]
+  },
+  "drop order": {
+    "count": 1,
+    "case_match": "Drop order",
+    "samples": [
+      {
+        "raw": "drop order",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 478
+      }
+    ]
+  },
+  "Drop scope": {
+    "count": 1,
+    "case_match": "drop scope",
+    "samples": [
+      {
+        "raw": "[Drop scope]s",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 501
+      }
+    ]
+  },
+  "drop scope extension": {
+    "count": 3,
+    "case_match": "Drop scope extension",
+    "samples": [
+      {
+        "raw": "drop scope extension",
+        "file": "expressions.rst",
+        "line": 320
+      },
+      {
+        "raw": "drop scope extension",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 569
+      },
+      {
+        "raw": "extended drop scope <drop scope extension>",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 633
+      }
+    ]
+  },
+  "dropping": {
+    "count": 4,
+    "case_match": "Dropping",
+    "samples": [
+      {
+        "raw": "dropping",
+        "file": "inline-assembly.rst",
+        "line": 1567
+      },
+      {
+        "raw": "dropping",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 437
+      },
+      {
+        "raw": "dropping",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 475
+      },
+      {
+        "raw": "dropping",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 611
+      }
+    ]
+  },
+  "dynamically-sized type": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "dynamically-sized type",
+        "file": "types-and-traits.rst",
+        "line": 740
+      }
+    ]
+  },
+  "elaboration": {
+    "count": 2,
+    "case_match": "Elaboration",
+    "samples": [
+      {
+        "raw": "elaboration",
+        "file": "values.rst",
+        "line": 146
+      },
+      {
+        "raw": "elaboration",
+        "file": "values.rst",
+        "line": 235
+      }
+    ]
+  },
+  "Entity": {
+    "count": 1,
+    "case_match": "entity",
+    "samples": [
+      {
+        "raw": "Entity",
+        "file": "entities-and-resolution.rst",
+        "line": 1190
+      }
+    ]
+  },
+  "Enum": {
+    "count": 2,
+    "case_match": "enum",
+    "samples": [
+      {
+        "raw": "Enum",
+        "file": "exceptions-and-errors.rst",
+        "line": 29
+      },
+      {
+        "raw": "Enum",
+        "file": "exceptions-and-errors.rst",
+        "line": 34
+      }
+    ]
+  },
+  "Enum field": {
+    "count": 1,
+    "case_match": "enum field",
+    "samples": [
+      {
+        "raw": "[Enum field]s",
+        "file": "entities-and-resolution.rst",
+        "line": 990
+      }
+    ]
+  },
+  "Enum type": {
+    "count": 4,
+    "case_match": "enum type",
+    "samples": [
+      {
+        "raw": "[Enum type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 75
+      },
+      {
+        "raw": "Enum type",
+        "file": "entities-and-resolution.rst",
+        "line": 746
+      },
+      {
+        "raw": "[Enum type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 919
+      },
+      {
+        "raw": "[Enum type]s",
+        "file": "types-and-traits.rst",
+        "line": 123
+      }
+    ]
+  },
+  "Enum variant": {
+    "count": 3,
+    "case_match": "enum variant",
+    "samples": [
+      {
+        "raw": "[Enum variant]s",
+        "file": "entities-and-resolution.rst",
+        "line": 78
+      },
+      {
+        "raw": "[Enum variant]s",
+        "file": "entities-and-resolution.rst",
+        "line": 922
+      },
+      {
+        "raw": "Enum variant",
+        "file": "entities-and-resolution.rst",
+        "line": 971
+      }
+    ]
+  },
+  "Error propagation expression": {
+    "count": 1,
+    "case_match": "error propagation expression",
+    "samples": [
+      {
+        "raw": "Error propagation expression",
+        "file": "expressions.rst",
+        "line": 5550
+      }
+    ]
+  },
+  "evaluation": {
+    "count": 80,
+    "case_match": "Evaluation",
+    "samples": [
+      {
+        "raw": "evaluation",
+        "file": "attributes.rst",
+        "line": 997
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 158
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 383
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 408
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 409
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 432
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 432
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 657
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 789
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 855
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 979
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1086
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1149
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1239
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1291
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1302
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1309
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1393
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1425
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1620
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1642
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1671
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1693
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1723
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1901
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1913
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1925
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1937
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 1959
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2149
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2161
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2173
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2186
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2198
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2211
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2292
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2305
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2448
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2451
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2602
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2703
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 2959
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3118
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3227
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3232
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3352
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3423
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3646
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3804
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 3908
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4056
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4190
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4309
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4318
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4399
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4405
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4461
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4473
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4521
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4530
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4663
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4674
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4736
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4744
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 4925
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5004
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5019
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5078
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5087
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5097
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5108
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5249
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5267
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5270
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5274
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5299
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5359
+      },
+      {
+        "raw": "evaluation",
+        "file": "expressions.rst",
+        "line": 5442
+      },
+      {
+        "raw": "evaluation",
+        "file": "inline-assembly.rst",
+        "line": 969
+      },
+      {
+        "raw": "evaluation",
+        "file": "inline-assembly.rst",
+        "line": 1738
+      }
+    ]
+  },
+  "execution": {
+    "count": 7,
+    "case_match": "Execution",
+    "samples": [
+      {
+        "raw": "execution",
+        "file": "expressions.rst",
+        "line": 5408
+      },
+      {
+        "raw": "execution",
+        "file": "inline-assembly.rst",
+        "line": 1453
+      },
+      {
+        "raw": "execution",
+        "file": "inline-assembly.rst",
+        "line": 1743
+      },
+      {
+        "raw": "execution",
+        "file": "statements.rst",
+        "line": 56
+      },
+      {
+        "raw": "execution",
+        "file": "statements.rst",
+        "line": 59
+      },
+      {
+        "raw": "execution",
+        "file": "statements.rst",
+        "line": 152
+      },
+      {
+        "raw": "execution",
+        "file": "statements.rst",
+        "line": 202
+      }
+    ]
+  },
+  "Expression": {
+    "count": 2,
+    "case_match": "expression",
+    "samples": [
+      {
+        "raw": "[Expression]s",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 489
+      },
+      {
+        "raw": "[Expression]s",
+        "file": "types-and-traits.rst",
+        "line": 3626
+      }
+    ]
+  },
+  "Expression statement": {
+    "count": 3,
+    "case_match": "expression statement",
+    "samples": [
+      {
+        "raw": "[Expression statement]s",
+        "file": "expressions.rst",
+        "line": 250
+      },
+      {
+        "raw": "[Expression statement]s",
+        "file": "types-and-traits.rst",
+        "line": 2846
+      },
+      {
+        "raw": "[Expression statement]s",
+        "file": "types-and-traits.rst",
+        "line": 3646
+      }
+    ]
+  },
+  "extern block": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "extern block",
+        "file": "attributes.rst",
+        "line": 1421
+      }
+    ]
+  },
+  "External prelude": {
+    "count": 1,
+    "case_match": "external prelude",
+    "samples": [
+      {
+        "raw": "External prelude",
+        "file": "entities-and-resolution.rst",
+        "line": 1305
+      }
+    ]
+  },
+  "Field": {
+    "count": 1,
+    "case_match": "field",
+    "samples": [
+      {
+        "raw": "[Field]s",
+        "file": "entities-and-resolution.rst",
+        "line": 81
+      }
+    ]
+  },
+  "Field access expression": {
+    "count": 3,
+    "case_match": "field access expression",
+    "samples": [
+      {
+        "raw": "[Field access expression]s",
+        "file": "expressions.rst",
+        "line": 253
+      },
+      {
+        "raw": "[Field access expression]s",
+        "file": "expressions.rst",
+        "line": 453
+      },
+      {
+        "raw": "Field access expression",
+        "file": "expressions.rst",
+        "line": 5540
+      }
+    ]
+  },
+  "field resolution": {
+    "count": 3,
+    "case_match": "Field resolution",
+    "samples": [
+      {
+        "raw": "field resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1408
+      },
+      {
+        "raw": "field resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1426
+      },
+      {
+        "raw": "field resolution",
+        "file": "expressions.rst",
+        "line": 4044
+      }
+    ]
+  },
+  "flexible compound punctuator": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "flexible compound punctuator",
+        "file": "lexical-elements.rst",
+        "line": 272
+      }
+    ]
+  },
+  "floating point type": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "[floating point type]s",
+        "file": "types-and-traits.rst",
+        "line": 421
+      }
+    ]
+  },
+  "Floating-point type": {
+    "count": 2,
+    "case_match": "floating-point type",
+    "samples": [
+      {
+        "raw": "[Floating-point type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 1040
+      },
+      {
+        "raw": "Floating-point type",
+        "file": "types-and-traits.rst",
+        "line": 99
+      }
+    ]
+  },
+  "foreign function interface": {
+    "count": 1,
+    "case_match": "Foreign Function Interface",
+    "samples": [
+      {
+        "raw": "foreign function interface",
+        "file": "ffi.rst",
+        "line": 155
+      }
+    ]
+  },
+  "Fragment specifier": {
+    "count": 15,
+    "case_match": "fragment specifier",
+    "samples": [
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 186
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 873
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 876
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 879
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 882
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 885
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 890
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 894
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 897
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 900
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 904
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 907
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 912
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 915
+      },
+      {
+        "raw": "Fragment specifier",
+        "file": "macros.rst",
+        "line": 918
+      }
+    ]
+  },
+  "fragment specifier restriction": {
+    "count": 5,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 315
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 321
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 326
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 331
+      },
+      {
+        "raw": "[fragment specifier restriction]s",
+        "file": "macros.rst",
+        "line": 335
+      }
+    ]
+  },
+  "Function": {
+    "count": 4,
+    "case_match": "function",
+    "samples": [
+      {
+        "raw": "[Function]s",
+        "file": "entities-and-resolution.rst",
+        "line": 84
+      },
+      {
+        "raw": "Function",
+        "file": "entities-and-resolution.rst",
+        "line": 749
+      },
+      {
+        "raw": "[Function]s",
+        "file": "entities-and-resolution.rst",
+        "line": 974
+      },
+      {
+        "raw": "[Function]s",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 492
+      }
+    ]
+  },
+  "Function item type": {
+    "count": 1,
+    "case_match": "function item type",
+    "samples": [
+      {
+        "raw": "[Function item type]s",
+        "file": "types-and-traits.rst",
+        "line": 138
+      }
+    ]
+  },
+  "Function pointer type": {
+    "count": 2,
+    "case_match": "function pointer type",
+    "samples": [
+      {
+        "raw": "Function pointer type",
+        "file": "entities-and-resolution.rst",
+        "line": 752
+      },
+      {
+        "raw": "[Function pointer type]s",
+        "file": "types-and-traits.rst",
+        "line": 144
+      }
+    ]
+  },
+  "Function type": {
+    "count": 1,
+    "case_match": "function type",
+    "samples": [
+      {
+        "raw": "[Function type]s",
+        "file": "types-and-traits.rst",
+        "line": 132
+      }
+    ]
+  },
+  "Function-like macro": {
+    "count": 1,
+    "case_match": "function-like macro",
+    "samples": [
+      {
+        "raw": "[Function-like macro]s",
+        "file": "entities-and-resolution.rst",
+        "line": 906
+      }
+    ]
+  },
+  "Generic argument": {
+    "count": 3,
+    "case_match": "generic argument",
+    "samples": [
+      {
+        "raw": "[Generic argument]s",
+        "file": "generics.rst",
+        "line": 461
+      },
+      {
+        "raw": "[Generic argument]s",
+        "file": "generics.rst",
+        "line": 516
+      },
+      {
+        "raw": "[Generic argument]s",
+        "file": "generics.rst",
+        "line": 541
+      }
+    ]
+  },
+  "generic conformance": {
+    "count": 1,
+    "case_match": "Generic conformance",
+    "samples": [
+      {
+        "raw": "generic conformance",
+        "file": "generics.rst",
+        "line": 461
+      }
+    ]
+  },
+  "Generic parameter": {
+    "count": 1,
+    "case_match": "generic parameter",
+    "samples": [
+      {
+        "raw": "[Generic parameter]s",
+        "file": "entities-and-resolution.rst",
+        "line": 87
+      }
+    ]
+  },
+  "Identifier": {
+    "count": 3,
+    "case_match": "identifier",
+    "samples": [
+      {
+        "raw": "[Identifier]s",
+        "file": "lexical-elements.rst",
+        "line": 537
+      },
+      {
+        "raw": "[Identifier]s",
+        "file": "macros.rst",
+        "line": 1118
+      },
+      {
+        "raw": "[Identifier]s",
+        "file": "macros.rst",
+        "line": 1124
+      }
+    ]
+  },
+  "identifier pattern matching": {
+    "count": 1,
+    "case_match": "Identifier pattern matching",
+    "samples": [
+      {
+        "raw": "identifier pattern matching",
+        "file": "patterns.rst",
+        "line": 1449
+      }
+    ]
+  },
+  "If expression": {
+    "count": 2,
+    "case_match": "if expression",
+    "samples": [
+      {
+        "raw": "[If expression]s",
+        "file": "expressions.rst",
+        "line": 257
+      },
+      {
+        "raw": "If expression",
+        "file": "expressions.rst",
+        "line": 5512
+      }
+    ]
+  },
+  "If let expression": {
+    "count": 3,
+    "case_match": "if let expression",
+    "samples": [
+      {
+        "raw": "[If let expression]s",
+        "file": "entities-and-resolution.rst",
+        "line": 755
+      },
+      {
+        "raw": "[If let expression]s",
+        "file": "expressions.rst",
+        "line": 260
+      },
+      {
+        "raw": "If let expression",
+        "file": "expressions.rst",
+        "line": 5514
+      }
+    ]
+  },
+  "if-let expression": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "if-let expression",
+        "file": "types-and-traits.rst",
+        "line": 2892
+      }
+    ]
+  },
+  "impl header lifetime elision": {
+    "count": 1,
+    "case_match": "Impl header lifetime elision",
+    "samples": [
+      {
+        "raw": "impl header lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3935
+      }
+    ]
+  },
+  "Impl trait type": {
+    "count": 1,
+    "case_match": "impl trait type",
+    "samples": [
+      {
+        "raw": "[Impl trait type]s",
+        "file": "types-and-traits.rst",
+        "line": 156
+      }
+    ]
+  },
+  "Implementation": {
+    "count": 2,
+    "case_match": "implementation",
+    "samples": [
+      {
+        "raw": "[Implementation]s",
+        "file": "entities-and-resolution.rst",
+        "line": 90
+      },
+      {
+        "raw": "Implementation",
+        "file": "entities-and-resolution.rst",
+        "line": 758
+      }
+    ]
+  },
+  "Index expression": {
+    "count": 3,
+    "case_match": "index expression",
+    "samples": [
+      {
+        "raw": "[Index expression]s",
+        "file": "expressions.rst",
+        "line": 263
+      },
+      {
+        "raw": "[Index expression]s",
+        "file": "expressions.rst",
+        "line": 456
+      },
+      {
+        "raw": "Index expression",
+        "file": "expressions.rst",
+        "line": 5546
+      }
+    ]
+  },
+  "Indirection type": {
+    "count": 1,
+    "case_match": "indirection type",
+    "samples": [
+      {
+        "raw": "[Indirection type]s",
+        "file": "types-and-traits.rst",
+        "line": 141
+      }
+    ]
+  },
+  "Inferred type": {
+    "count": 1,
+    "case_match": "inferred type",
+    "samples": [
+      {
+        "raw": "[Inferred type]s",
+        "file": "types-and-traits.rst",
+        "line": 165
+      }
+    ]
+  },
+  "Infinite loop expression": {
+    "count": 1,
+    "case_match": "infinite loop expression",
+    "samples": [
+      {
+        "raw": "[Infinite loop expression]s",
+        "file": "expressions.rst",
+        "line": 266
+      }
+    ]
+  },
+  "Inherent implementation": {
+    "count": 2,
+    "case_match": "inherent implementation",
+    "samples": [
+      {
+        "raw": "[Inherent implementation]s",
+        "file": "implementations.rst",
+        "line": 77
+      },
+      {
+        "raw": "[Inherent implementation]s",
+        "file": "implementations.rst",
+        "line": 112
+      }
+    ]
+  },
+  "inline assembly": {
+    "count": 1,
+    "case_match": "Inline assembly",
+    "samples": [
+      {
+        "raw": "inline assembly",
+        "file": "inline-assembly.rst",
+        "line": 1744
+      }
+    ]
+  },
+  "Inner block doc": {
+    "count": 2,
+    "case_match": "inner block doc",
+    "samples": [
+      {
+        "raw": "[Inner block doc]s",
+        "file": "lexical-elements.rst",
+        "line": 1524
+      },
+      {
+        "raw": "[Inner block doc]s",
+        "file": "lexical-elements.rst",
+        "line": 1528
+      }
+    ]
+  },
+  "Integer type": {
+    "count": 2,
+    "case_match": "integer type",
+    "samples": [
+      {
+        "raw": "[Integer type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 1043
+      },
+      {
+        "raw": "Integer type",
+        "file": "types-and-traits.rst",
+        "line": 102
+      }
+    ]
+  },
+  "interior mutability": {
+    "count": 6,
+    "case_match": "Interior mutability",
+    "samples": [
+      {
+        "raw": "interior mutability",
+        "file": "expressions.rst",
+        "line": 322
+      },
+      {
+        "raw": "interior mutability",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 133
+      },
+      {
+        "raw": "interior mutability",
+        "file": "patterns.rst",
+        "line": 428
+      },
+      {
+        "raw": "interior mutability",
+        "file": "types-and-traits.rst",
+        "line": 2631
+      },
+      {
+        "raw": "interior mutability",
+        "file": "values.rst",
+        "line": 245
+      },
+      {
+        "raw": "interior mutability",
+        "file": "values.rst",
+        "line": 251
+      }
+    ]
+  },
+  "invariant": {
+    "count": 7,
+    "case_match": "Invariant",
+    "samples": [
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3540
+      },
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3548
+      },
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3568
+      },
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3572
+      },
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3580
+      },
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3583
+      },
+      {
+        "raw": "invariant",
+        "file": "types-and-traits.rst",
+        "line": 3612
+      }
+    ]
+  },
+  "Item statement": {
+    "count": 2,
+    "case_match": "item statement",
+    "samples": [
+      {
+        "raw": "[Item statement]s",
+        "file": "types-and-traits.rst",
+        "line": 2843
+      },
+      {
+        "raw": "[Item statement]s",
+        "file": "types-and-traits.rst",
+        "line": 3638
+      }
+    ]
+  },
+  "Keyword": {
+    "count": 1,
+    "case_match": "keyword",
+    "samples": [
+      {
+        "raw": "[Keyword]s",
+        "file": "lexical-elements.rst",
+        "line": 1591
+      }
+    ]
+  },
+  "Label": {
+    "count": 1,
+    "case_match": "label",
+    "samples": [
+      {
+        "raw": "[Label]s",
+        "file": "entities-and-resolution.rst",
+        "line": 93
+      }
+    ]
+  },
+  "Language prelude": {
+    "count": 2,
+    "case_match": "language prelude",
+    "samples": [
+      {
+        "raw": "Language prelude",
+        "file": "entities-and-resolution.rst",
+        "line": 122
+      },
+      {
+        "raw": "Language prelude",
+        "file": "entities-and-resolution.rst",
+        "line": 1293
+      }
+    ]
+  },
+  "Lazy and expression": {
+    "count": 1,
+    "case_match": "lazy and expression",
+    "samples": [
+      {
+        "raw": "Lazy and expression",
+        "file": "expressions.rst",
+        "line": 5602
+      }
+    ]
+  },
+  "Lazy boolean expression": {
+    "count": 1,
+    "case_match": "lazy boolean expression",
+    "samples": [
+      {
+        "raw": "[Lazy boolean expression]s",
+        "file": "expressions.rst",
+        "line": 269
+      }
+    ]
+  },
+  "Lazy or expression": {
+    "count": 1,
+    "case_match": "lazy or expression",
+    "samples": [
+      {
+        "raw": "Lazy or expression",
+        "file": "expressions.rst",
+        "line": 5606
+      }
+    ]
+  },
+  "least upper bound coercion": {
+    "count": 1,
+    "case_match": "Least upper bound coercion",
+    "samples": [
+      {
+        "raw": "least upper bound coercion",
+        "file": "types-and-traits.rst",
+        "line": 2946
+      }
+    ]
+  },
+  "Let statement": {
+    "count": 4,
+    "case_match": "let statement",
+    "samples": [
+      {
+        "raw": "[Let statement]s",
+        "file": "entities-and-resolution.rst",
+        "line": 761
+      },
+      {
+        "raw": "[Let statement]s",
+        "file": "expressions.rst",
+        "line": 272
+      },
+      {
+        "raw": "[Let statement]s",
+        "file": "types-and-traits.rst",
+        "line": 2852
+      },
+      {
+        "raw": "[Let statement]s",
+        "file": "types-and-traits.rst",
+        "line": 3641
+      }
+    ]
+  },
+  "Lifetime": {
+    "count": 1,
+    "case_match": "lifetime",
+    "samples": [
+      {
+        "raw": "[Lifetime]s",
+        "file": "types-and-traits.rst",
+        "line": 3733
+      }
+    ]
+  },
+  "lifetime elision": {
+    "count": 6,
+    "case_match": "Lifetime elision",
+    "samples": [
+      {
+        "raw": "lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3725
+      },
+      {
+        "raw": "lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3730
+      },
+      {
+        "raw": "lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3745
+      },
+      {
+        "raw": "lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3831
+      },
+      {
+        "raw": "lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3870
+      },
+      {
+        "raw": "lifetime elision",
+        "file": "types-and-traits.rst",
+        "line": 3930
+      }
+    ]
+  },
+  "Lifetime parameter": {
+    "count": 1,
+    "case_match": "lifetime parameter",
+    "samples": [
+      {
+        "raw": "[Lifetime parameter]s",
+        "file": "types-and-traits.rst",
+        "line": 3586
+      }
+    ]
+  },
+  "Line comment": {
+    "count": 1,
+    "case_match": "line comment",
+    "samples": [
+      {
+        "raw": "[Line comment]s",
+        "file": "lexical-elements.rst",
+        "line": 1516
+      }
+    ]
+  },
+  "Literal expression": {
+    "count": 2,
+    "case_match": "literal expression",
+    "samples": [
+      {
+        "raw": "[Literal expression]s",
+        "file": "expressions.rst",
+        "line": 275
+      },
+      {
+        "raw": "Literal expression",
+        "file": "expressions.rst",
+        "line": 5516
+      }
+    ]
+  },
+  "literal pattern matching": {
+    "count": 1,
+    "case_match": "Literal pattern matching",
+    "samples": [
+      {
+        "raw": "literal pattern matching",
+        "file": "patterns.rst",
+        "line": 1452
+      }
+    ]
+  },
+  "Loop expression": {
+    "count": 3,
+    "case_match": "loop expression",
+    "samples": [
+      {
+        "raw": "[Loop expression]s",
+        "file": "entities-and-resolution.rst",
+        "line": 764
+      },
+      {
+        "raw": "[Loop expression]s",
+        "file": "expressions.rst",
+        "line": 421
+      },
+      {
+        "raw": "Loop expression",
+        "file": "expressions.rst",
+        "line": 5518
+      }
+    ]
+  },
+  "Macro": {
+    "count": 1,
+    "case_match": "macro",
+    "samples": [
+      {
+        "raw": "[Macro]s",
+        "file": "macros.rst",
+        "line": 16
+      }
+    ]
+  },
+  "macro expansion": {
+    "count": 3,
+    "case_match": "Macro expansion",
+    "samples": [
+      {
+        "raw": "macro expansion",
+        "file": "attributes.rst",
+        "line": 1710
+      },
+      {
+        "raw": "macro expansion",
+        "file": "general.rst",
+        "line": 167
+      },
+      {
+        "raw": "macro expansion",
+        "file": "items.rst",
+        "line": 46
+      }
+    ]
+  },
+  "macro matching": {
+    "count": 2,
+    "case_match": "Macro matching",
+    "samples": [
+      {
+        "raw": "macro matching",
+        "file": "macros.rst",
+        "line": 270
+      },
+      {
+        "raw": "macro matching",
+        "file": "macros.rst",
+        "line": 972
+      }
+    ]
+  },
+  "macro transcription": {
+    "count": 2,
+    "case_match": "Macro transcription",
+    "samples": [
+      {
+        "raw": "macro transcription",
+        "file": "macros.rst",
+        "line": 164
+      },
+      {
+        "raw": "macro transcription",
+        "file": "macros.rst",
+        "line": 278
+      }
+    ]
+  },
+  "main function": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "non-[main function]s",
+        "file": "attributes.rst",
+        "line": 815
+      }
+    ]
+  },
+  "Match arm": {
+    "count": 2,
+    "case_match": "match arm",
+    "samples": [
+      {
+        "raw": "[Match arm]s",
+        "file": "entities-and-resolution.rst",
+        "line": 767
+      },
+      {
+        "raw": "Match arm",
+        "file": "expressions.rst",
+        "line": 5236
+      }
+    ]
+  },
+  "Match expression": {
+    "count": 2,
+    "case_match": "match expression",
+    "samples": [
+      {
+        "raw": "[Match expression]s",
+        "file": "expressions.rst",
+        "line": 278
+      },
+      {
+        "raw": "Match expression",
+        "file": "expressions.rst",
+        "line": 5520
+      }
+    ]
+  },
+  "Method call expression": {
+    "count": 2,
+    "case_match": "method call expression",
+    "samples": [
+      {
+        "raw": "[Method call expression]s",
+        "file": "expressions.rst",
+        "line": 281
+      },
+      {
+        "raw": "Method call expression",
+        "file": "expressions.rst",
+        "line": 5534
+      }
+    ]
+  },
+  "method resolution": {
+    "count": 4,
+    "case_match": "Method resolution",
+    "samples": [
+      {
+        "raw": "method resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1532
+      },
+      {
+        "raw": "method resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1556
+      },
+      {
+        "raw": "method resolution",
+        "file": "expressions.rst",
+        "line": 3903
+      },
+      {
+        "raw": "method resolution",
+        "file": "types-and-traits.rst",
+        "line": 2174
+      }
+    ]
+  },
+  "method resolution implementation candidate lookup": {
+    "count": 3,
+    "case_match": "Method resolution implementation candidate lookup",
+    "samples": [
+      {
+        "raw": "method resolution implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1485
+      },
+      {
+        "raw": "method resolution implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1489
+      },
+      {
+        "raw": "method resolution implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1493
+      }
+    ]
+  },
+  "method resolution inherent implementation candidate lookup": {
+    "count": 1,
+    "case_match": "Method resolution inherent implementation candidate lookup",
+    "samples": [
+      {
+        "raw": "method resolution inherent implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1501
+      }
+    ]
+  },
+  "method resolution receiver candidate lookup": {
+    "count": 2,
+    "case_match": "Method resolution receiver candidate lookup",
+    "samples": [
+      {
+        "raw": "method resolution receiver candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1471
+      },
+      {
+        "raw": "method resolution receiver candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1476
+      }
+    ]
+  },
+  "method resolution trait implementation candidate lookup": {
+    "count": 1,
+    "case_match": "Method resolution trait implementation candidate lookup",
+    "samples": [
+      {
+        "raw": "method resolution trait implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1505
+      }
+    ]
+  },
+  "Module": {
+    "count": 3,
+    "case_match": "module",
+    "samples": [
+      {
+        "raw": "[Module]s",
+        "file": "entities-and-resolution.rst",
+        "line": 96
+      },
+      {
+        "raw": "Module",
+        "file": "entities-and-resolution.rst",
+        "line": 770
+      },
+      {
+        "raw": "[Module]s",
+        "file": "entities-and-resolution.rst",
+        "line": 925
+      }
+    ]
+  },
+  "Multiplication expression": {
+    "count": 1,
+    "case_match": "multiplication expression",
+    "samples": [
+      {
+        "raw": "Multiplication expression",
+        "file": "expressions.rst",
+        "line": 5568
+      }
+    ]
+  },
+  "Name": {
+    "count": 5,
+    "case_match": "name",
+    "samples": [
+      {
+        "raw": "[Name]s",
+        "file": "entities-and-resolution.rst",
+        "line": 879
+      },
+      {
+        "raw": "[Name]s",
+        "file": "lexical-elements.rst",
+        "line": 523
+      },
+      {
+        "raw": "[Name]s",
+        "file": "lexical-elements.rst",
+        "line": 527
+      },
+      {
+        "raw": "[Name]s",
+        "file": "lexical-elements.rst",
+        "line": 530
+      },
+      {
+        "raw": "[Name]s",
+        "file": "lexical-elements.rst",
+        "line": 534
+      }
+    ]
+  },
+  "namespace qualifier": {
+    "count": 3,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "namespace qualifier",
+        "file": "entities-and-resolution.rst",
+        "line": 330
+      },
+      {
+        "raw": "namespace qualifier",
+        "file": "entities-and-resolution.rst",
+        "line": 358
+      },
+      {
+        "raw": "namespace qualifier",
+        "file": "entities-and-resolution.rst",
+        "line": 372
+      }
+    ]
+  },
+  "Negation expression": {
+    "count": 2,
+    "case_match": "negation expression",
+    "samples": [
+      {
+        "raw": "[Negation expression]s",
+        "file": "expressions.rst",
+        "line": 285
+      },
+      {
+        "raw": "Negation expression",
+        "file": "expressions.rst",
+        "line": 5558
+      }
+    ]
+  },
+  "Never type": {
+    "count": 1,
+    "case_match": "never type",
+    "samples": [
+      {
+        "raw": "Never type",
+        "file": "types-and-traits.rst",
+        "line": 168
+      }
+    ]
+  },
+  "Numeric type": {
+    "count": 2,
+    "case_match": "numeric type",
+    "samples": [
+      {
+        "raw": "[Numeric type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 928
+      },
+      {
+        "raw": "[Numeric type]s",
+        "file": "types-and-traits.rst",
+        "line": 96
+      }
+    ]
+  },
+  "obligation": {
+    "count": 7,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 2793
+      },
+      {
+        "raw": "[obligation]s",
+        "file": "types-and-traits.rst",
+        "line": 2795
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 2801
+      },
+      {
+        "raw": "[obligation]s",
+        "file": "types-and-traits.rst",
+        "line": 2836
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 3080
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 3089
+      },
+      {
+        "raw": "obligation",
+        "file": "types-and-traits.rst",
+        "line": 3111
+      }
+    ]
+  },
+  "Outer block doc": {
+    "count": 2,
+    "case_match": "outer block doc",
+    "samples": [
+      {
+        "raw": "[Outer block doc]s",
+        "file": "lexical-elements.rst",
+        "line": 1520
+      },
+      {
+        "raw": "[Outer block doc]s",
+        "file": "lexical-elements.rst",
+        "line": 1534
+      }
+    ]
+  },
+  "Outlives bound": {
+    "count": 2,
+    "case_match": "outlives bound",
+    "samples": [
+      {
+        "raw": "Outlives bound",
+        "file": "types-and-traits.rst",
+        "line": 3414
+      },
+      {
+        "raw": "Outlives bound",
+        "file": "types-and-traits.rst",
+        "line": 3417
+      }
+    ]
+  },
+  "ownership": {
+    "count": 2,
+    "case_match": "Ownership",
+    "samples": [
+      {
+        "raw": "ownership",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 162
+      },
+      {
+        "raw": "ownership",
+        "file": "types-and-traits.rst",
+        "line": 1398
+      }
+    ]
+  },
+  "Parenthesized expression": {
+    "count": 5,
+    "case_match": "parenthesized expression",
+    "samples": [
+      {
+        "raw": "[Parenthesized expression]s",
+        "file": "expressions.rst",
+        "line": 200
+      },
+      {
+        "raw": "[Parenthesized expression]s",
+        "file": "expressions.rst",
+        "line": 288
+      },
+      {
+        "raw": "[Parenthesized expression]s",
+        "file": "expressions.rst",
+        "line": 459
+      },
+      {
+        "raw": "[Parenthesized expression]s",
+        "file": "expressions.rst",
+        "line": 494
+      },
+      {
+        "raw": "Parenthesized expression",
+        "file": "expressions.rst",
+        "line": 5522
+      }
+    ]
+  },
+  "parenthesized pattern matching": {
+    "count": 1,
+    "case_match": "Parenthesized pattern matching",
+    "samples": [
+      {
+        "raw": "parenthesized pattern matching",
+        "file": "patterns.rst",
+        "line": 1456
+      }
+    ]
+  },
+  "Parenthesized type": {
+    "count": 1,
+    "case_match": "parenthesized type",
+    "samples": [
+      {
+        "raw": "[Parenthesized type]s",
+        "file": "types-and-traits.rst",
+        "line": 171
+      }
+    ]
+  },
+  "Path expression": {
+    "count": 3,
+    "case_match": "path expression",
+    "samples": [
+      {
+        "raw": "[Path expression]s",
+        "file": "expressions.rst",
+        "line": 291
+      },
+      {
+        "raw": "[Path expression]s",
+        "file": "expressions.rst",
+        "line": 463
+      },
+      {
+        "raw": "Path expression",
+        "file": "expressions.rst",
+        "line": 5524
+      }
+    ]
+  },
+  "path expression resolution": {
+    "count": 4,
+    "case_match": "Path expression resolution",
+    "samples": [
+      {
+        "raw": "path expression resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 403
+      },
+      {
+        "raw": "path expression resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1795
+      },
+      {
+        "raw": "path expression resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1897
+      },
+      {
+        "raw": "path expression resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1915
+      }
+    ]
+  },
+  "path expression resolution implementation candidate lookup": {
+    "count": 1,
+    "case_match": "Path expression resolution implementation candidate lookup",
+    "samples": [
+      {
+        "raw": "path expression resolution implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1831
+      }
+    ]
+  },
+  "path expression resolution inherent implementation candidate lookup": {
+    "count": 1,
+    "case_match": "Path expression resolution inherent implementation candidate lookup",
+    "samples": [
+      {
+        "raw": "path expression resolution inherent implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1872
+      }
+    ]
+  },
+  "path expression resolution trait implementation candidate lookup": {
+    "count": 1,
+    "case_match": "Path expression resolution trait implementation candidate lookup",
+    "samples": [
+      {
+        "raw": "path expression resolution trait implementation candidate lookup",
+        "file": "entities-and-resolution.rst",
+        "line": 1877
+      }
+    ]
+  },
+  "path pattern matching": {
+    "count": 1,
+    "case_match": "Path pattern matching",
+    "samples": [
+      {
+        "raw": "path pattern matching",
+        "file": "patterns.rst",
+        "line": 1459
+      }
+    ]
+  },
+  "path resolution": {
+    "count": 9,
+    "case_match": "Path resolution",
+    "samples": [
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 340
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1634
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1727
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1742
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1765
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1791
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1800
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1925
+      },
+      {
+        "raw": "path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1934
+      }
+    ]
+  },
+  "pattern matching": {
+    "count": 14,
+    "case_match": "Pattern matching",
+    "samples": [
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1387
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1393
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1446
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1446
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1446
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1483
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1509
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1547
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1613
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1642
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1656
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1688
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1709
+      },
+      {
+        "raw": "pattern matching",
+        "file": "patterns.rst",
+        "line": 1730
+      }
+    ]
+  },
+  "Place expression": {
+    "count": 1,
+    "case_match": "place expression",
+    "samples": [
+      {
+        "raw": "[Place expression]s",
+        "file": "expressions.rst",
+        "line": 178
+      }
+    ]
+  },
+  "precedence": {
+    "count": 2,
+    "case_match": "Precedence",
+    "samples": [
+      {
+        "raw": "precedence",
+        "file": "expressions.rst",
+        "line": 5484
+      },
+      {
+        "raw": "precedence",
+        "file": "expressions.rst",
+        "line": 5496
+      }
+    ]
+  },
+  "Prelude name": {
+    "count": 1,
+    "case_match": "prelude name",
+    "samples": [
+      {
+        "raw": "[Prelude name]s",
+        "file": "entities-and-resolution.rst",
+        "line": 1279
+      }
+    ]
+  },
+  "primitive representation": {
+    "count": 6,
+    "case_match": "Primitive representation",
+    "samples": [
+      {
+        "raw": "primitive representation",
+        "file": "types-and-traits.rst",
+        "line": 862
+      },
+      {
+        "raw": "primitive representation",
+        "file": "types-and-traits.rst",
+        "line": 1963
+      },
+      {
+        "raw": "primitive representation",
+        "file": "types-and-traits.rst",
+        "line": 2004
+      },
+      {
+        "raw": "primitive representation",
+        "file": "types-and-traits.rst",
+        "line": 2020
+      },
+      {
+        "raw": "primitive representation",
+        "file": "types-and-traits.rst",
+        "line": 2021
+      },
+      {
+        "raw": "primitive representation",
+        "file": "types-and-traits.rst",
+        "line": 2741
+      }
+    ]
+  },
+  "private visibility": {
+    "count": 2,
+    "case_match": "Private visibility",
+    "samples": [
+      {
+        "raw": "private visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 184
+      },
+      {
+        "raw": "private visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 230
+      }
+    ]
+  },
+  "Procedural macro": {
+    "count": 4,
+    "case_match": "procedural macro",
+    "samples": [
+      {
+        "raw": "[Procedural macro]s",
+        "file": "macros.rst",
+        "line": 24
+      },
+      {
+        "raw": "[Procedural macro]s",
+        "file": "macros.rst",
+        "line": 356
+      },
+      {
+        "raw": "[Procedural macro]s",
+        "file": "macros.rst",
+        "line": 360
+      },
+      {
+        "raw": "[Procedural macro]s",
+        "file": "macros.rst",
+        "line": 1151
+      }
+    ]
+  },
+  "public visibility": {
+    "count": 6,
+    "case_match": "Public visibility",
+    "samples": [
+      {
+        "raw": "public visibility",
+        "file": "attributes.rst",
+        "line": 1808
+      },
+      {
+        "raw": "public visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 176
+      },
+      {
+        "raw": "public visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 194
+      },
+      {
+        "raw": "public visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 212
+      },
+      {
+        "raw": "public visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 220
+      },
+      {
+        "raw": "public visibility",
+        "file": "program-structure-and-compilation.rst",
+        "line": 166
+      }
+    ]
+  },
+  "Range expression": {
+    "count": 2,
+    "case_match": "range expression",
+    "samples": [
+      {
+        "raw": "[Range expression]s",
+        "file": "expressions.rst",
+        "line": 296
+      },
+      {
+        "raw": "Range expression",
+        "file": "expressions.rst",
+        "line": 5610
+      }
+    ]
+  },
+  "range pattern matching": {
+    "count": 1,
+    "case_match": "Range pattern matching",
+    "samples": [
+      {
+        "raw": "range pattern matching",
+        "file": "patterns.rst",
+        "line": 1462
+      }
+    ]
+  },
+  "Raw pointer type": {
+    "count": 1,
+    "case_match": "raw pointer type",
+    "samples": [
+      {
+        "raw": "[Raw pointer type]s",
+        "file": "types-and-traits.rst",
+        "line": 147
+      }
+    ]
+  },
+  "record struct pattern matching": {
+    "count": 1,
+    "case_match": "Record struct pattern matching",
+    "samples": [
+      {
+        "raw": "record struct pattern matching",
+        "file": "patterns.rst",
+        "line": 1471
+      }
+    ]
+  },
+  "reference pattern matching": {
+    "count": 1,
+    "case_match": "Reference pattern matching",
+    "samples": [
+      {
+        "raw": "reference pattern matching",
+        "file": "patterns.rst",
+        "line": 1465
+      }
+    ]
+  },
+  "Reference type": {
+    "count": 2,
+    "case_match": "reference type",
+    "samples": [
+      {
+        "raw": "[Reference type]s",
+        "file": "types-and-traits.rst",
+        "line": 150
+      },
+      {
+        "raw": "[Reference type]s",
+        "file": "types-and-traits.rst",
+        "line": 2613
+      }
+    ]
+  },
+  "Register": {
+    "count": 1,
+    "case_match": "register",
+    "samples": [
+      {
+        "raw": "[Register]s",
+        "file": "inline-assembly.rst",
+        "line": 465
+      }
+    ]
+  },
+  "Remainder expression": {
+    "count": 1,
+    "case_match": "remainder expression",
+    "samples": [
+      {
+        "raw": "Remainder expression",
+        "file": "expressions.rst",
+        "line": 5570
+      }
+    ]
+  },
+  "Return expression": {
+    "count": 2,
+    "case_match": "return expression",
+    "samples": [
+      {
+        "raw": "[Return expression]s",
+        "file": "expressions.rst",
+        "line": 418
+      },
+      {
+        "raw": "Return expression",
+        "file": "expressions.rst",
+        "line": 5624
+      }
+    ]
+  },
+  "rule matching": {
+    "count": 1,
+    "case_match": "Rule matching",
+    "samples": [
+      {
+        "raw": "rule matching",
+        "file": "macros.rst",
+        "line": 813
+      }
+    ]
+  },
+  "Scalar type": {
+    "count": 1,
+    "case_match": "scalar type",
+    "samples": [
+      {
+        "raw": "[Scalar type]s",
+        "file": "types-and-traits.rst",
+        "line": 87
+      }
+    ]
+  },
+  "Sequence type": {
+    "count": 1,
+    "case_match": "sequence type",
+    "samples": [
+      {
+        "raw": "[Sequence type]s",
+        "file": "types-and-traits.rst",
+        "line": 105
+      }
+    ]
+  },
+  "shadowed": {
+    "count": 3,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "shadowed",
+        "file": "entities-and-resolution.rst",
+        "line": 1271
+      },
+      {
+        "raw": "shadowed",
+        "file": "entities-and-resolution.rst",
+        "line": 1273
+      },
+      {
+        "raw": "shadowed",
+        "file": "entities-and-resolution.rst",
+        "line": 1276
+      }
+    ]
+  },
+  "Shadowing": {
+    "count": 1,
+    "case_match": "shadowing",
+    "samples": [
+      {
+        "raw": "Shadowing",
+        "file": "entities-and-resolution.rst",
+        "line": 1270
+      }
+    ]
+  },
+  "Shift left expression": {
+    "count": 1,
+    "case_match": "shift left expression",
+    "samples": [
+      {
+        "raw": "Shift left expression",
+        "file": "expressions.rst",
+        "line": 5580
+      }
+    ]
+  },
+  "Shift right expression": {
+    "count": 1,
+    "case_match": "shift right expression",
+    "samples": [
+      {
+        "raw": "Shift right expression",
+        "file": "expressions.rst",
+        "line": 5582
+      }
+    ]
+  },
+  "Signed integer type": {
+    "count": 1,
+    "case_match": "signed integer type",
+    "samples": [
+      {
+        "raw": "[Signed integer type]s",
+        "file": "types-and-traits.rst",
+        "line": 498
+      }
+    ]
+  },
+  "Size": {
+    "count": 1,
+    "case_match": "size",
+    "samples": [
+      {
+        "raw": "Size",
+        "file": "types-and-traits.rst",
+        "line": 1826
+      }
+    ]
+  },
+  "slice pattern matching": {
+    "count": 1,
+    "case_match": "Slice pattern matching",
+    "samples": [
+      {
+        "raw": "slice pattern matching",
+        "file": "patterns.rst",
+        "line": 1468
+      }
+    ]
+  },
+  "Slice type": {
+    "count": 1,
+    "case_match": "slice type",
+    "samples": [
+      {
+        "raw": "[Slice type]s",
+        "file": "types-and-traits.rst",
+        "line": 111
+      }
+    ]
+  },
+  "Statement": {
+    "count": 1,
+    "case_match": "statement",
+    "samples": [
+      {
+        "raw": "[Statement]s",
+        "file": "ownership-and-deconstruction.rst",
+        "line": 498
+      }
+    ]
+  },
+  "Static": {
+    "count": 2,
+    "case_match": "static",
+    "samples": [
+      {
+        "raw": "[Static]s",
+        "file": "entities-and-resolution.rst",
+        "line": 99
+      },
+      {
+        "raw": "[Static]s",
+        "file": "entities-and-resolution.rst",
+        "line": 980
+      }
+    ]
+  },
+  "Struct": {
+    "count": 1,
+    "case_match": "struct",
+    "samples": [
+      {
+        "raw": "Struct",
+        "file": "entities-and-resolution.rst",
+        "line": 983
+      }
+    ]
+  },
+  "Struct expression": {
+    "count": 3,
+    "case_match": "struct expression",
+    "samples": [
+      {
+        "raw": "[Struct expression]s",
+        "file": "expressions.rst",
+        "line": 187
+      },
+      {
+        "raw": "[Struct expression]s",
+        "file": "expressions.rst",
+        "line": 299
+      },
+      {
+        "raw": "Struct expression",
+        "file": "expressions.rst",
+        "line": 5526
+      }
+    ]
+  },
+  "Struct field": {
+    "count": 1,
+    "case_match": "struct field",
+    "samples": [
+      {
+        "raw": "[Struct field]s",
+        "file": "entities-and-resolution.rst",
+        "line": 993
+      }
+    ]
+  },
+  "Struct type": {
+    "count": 4,
+    "case_match": "struct type",
+    "samples": [
+      {
+        "raw": "[Struct type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 102
+      },
+      {
+        "raw": "Struct type",
+        "file": "entities-and-resolution.rst",
+        "line": 773
+      },
+      {
+        "raw": "[Struct type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 934
+      },
+      {
+        "raw": "[Struct type]s",
+        "file": "types-and-traits.rst",
+        "line": 126
+      }
+    ]
+  },
+  "Subtraction expression": {
+    "count": 1,
+    "case_match": "subtraction expression",
+    "samples": [
+      {
+        "raw": "Subtraction expression",
+        "file": "expressions.rst",
+        "line": 5576
+      }
+    ]
+  },
+  "Subtyping": {
+    "count": 1,
+    "case_match": "subtyping",
+    "samples": [
+      {
+        "raw": "Subtyping",
+        "file": "types-and-traits.rst",
+        "line": 3498
+      }
+    ]
+  },
+  "Textual type": {
+    "count": 2,
+    "case_match": "textual type",
+    "samples": [
+      {
+        "raw": "[Textual type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 937
+      },
+      {
+        "raw": "[Textual type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 1047
+      }
+    ]
+  },
+  "token": {
+    "count": 28,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 162
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 187
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 357
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 357
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 380
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 380
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 411
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 432
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 432
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 464
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 494
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 494
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 534
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 536
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 541
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 840
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 844
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 870
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 921
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 952
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 956
+      },
+      {
+        "raw": "token",
+        "file": "macros.rst",
+        "line": 967
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 972
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 991
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 994
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 1000
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 1041
+      },
+      {
+        "raw": "[token]s",
+        "file": "macros.rst",
+        "line": 1046
+      }
+    ]
+  },
+  "token matching": {
+    "count": 1,
+    "case_match": "Token matching",
+    "samples": [
+      {
+        "raw": "token matching",
+        "file": "macros.rst",
+        "line": 814
+      }
+    ]
+  },
+  "Trait": {
+    "count": 3,
+    "case_match": "trait",
+    "samples": [
+      {
+        "raw": "[Trait]s",
+        "file": "entities-and-resolution.rst",
+        "line": 105
+      },
+      {
+        "raw": "Trait",
+        "file": "entities-and-resolution.rst",
+        "line": 779
+      },
+      {
+        "raw": "[Trait]s",
+        "file": "entities-and-resolution.rst",
+        "line": 940
+      }
+    ]
+  },
+  "Trait bound": {
+    "count": 1,
+    "case_match": "trait bound",
+    "samples": [
+      {
+        "raw": "[Trait bound]s",
+        "file": "entities-and-resolution.rst",
+        "line": 776
+      }
+    ]
+  },
+  "Trait implementation": {
+    "count": 1,
+    "case_match": "trait implementation",
+    "samples": [
+      {
+        "raw": "[Trait implementation]s",
+        "file": "implementations.rst",
+        "line": 108
+      }
+    ]
+  },
+  "Trait object type": {
+    "count": 1,
+    "case_match": "trait object type",
+    "samples": [
+      {
+        "raw": "[Trait object type]s",
+        "file": "types-and-traits.rst",
+        "line": 159
+      }
+    ]
+  },
+  "Trait type": {
+    "count": 1,
+    "case_match": "trait type",
+    "samples": [
+      {
+        "raw": "[Trait type]s",
+        "file": "types-and-traits.rst",
+        "line": 153
+      }
+    ]
+  },
+  "transparent representation": {
+    "count": 5,
+    "case_match": "Transparent representation",
+    "samples": [
+      {
+        "raw": "transparent representation",
+        "file": "types-and-traits.rst",
+        "line": 1972
+      },
+      {
+        "raw": "transparent representation",
+        "file": "types-and-traits.rst",
+        "line": 2028
+      },
+      {
+        "raw": "transparent representation",
+        "file": "types-and-traits.rst",
+        "line": 2055
+      },
+      {
+        "raw": "transparent representation",
+        "file": "types-and-traits.rst",
+        "line": 2104
+      },
+      {
+        "raw": "transparent representation",
+        "file": "types-and-traits.rst",
+        "line": 2113
+      }
+    ]
+  },
+  "Tuple expression": {
+    "count": 3,
+    "case_match": "tuple expression",
+    "samples": [
+      {
+        "raw": "[Tuple expression]s",
+        "file": "expressions.rst",
+        "line": 190
+      },
+      {
+        "raw": "[Tuple expression]s",
+        "file": "expressions.rst",
+        "line": 302
+      },
+      {
+        "raw": "Tuple expression",
+        "file": "expressions.rst",
+        "line": 5528
+      }
+    ]
+  },
+  "tuple pattern matching": {
+    "count": 1,
+    "case_match": "Tuple pattern matching",
+    "samples": [
+      {
+        "raw": "tuple pattern matching",
+        "file": "patterns.rst",
+        "line": 1477
+      }
+    ]
+  },
+  "Tuple struct call expression": {
+    "count": 1,
+    "case_match": "tuple struct call expression",
+    "samples": [
+      {
+        "raw": "[Tuple struct call expression]s",
+        "file": "expressions.rst",
+        "line": 193
+      }
+    ]
+  },
+  "tuple struct pattern matching": {
+    "count": 1,
+    "case_match": "Tuple struct pattern matching",
+    "samples": [
+      {
+        "raw": "tuple struct pattern matching",
+        "file": "patterns.rst",
+        "line": 1474
+      }
+    ]
+  },
+  "Tuple type": {
+    "count": 2,
+    "case_match": "tuple type",
+    "samples": [
+      {
+        "raw": "[Tuple type]s",
+        "file": "types-and-traits.rst",
+        "line": 117
+      },
+      {
+        "raw": "[Tuple type]s",
+        "file": "types-and-traits.rst",
+        "line": 2616
+      }
+    ]
+  },
+  "Type": {
+    "count": 6,
+    "case_match": "type",
+    "samples": [
+      {
+        "raw": "[Type]s",
+        "file": "types-and-traits.rst",
+        "line": 84
+      },
+      {
+        "raw": "Type",
+        "file": "types-and-traits.rst",
+        "line": 194
+      },
+      {
+        "raw": "Type",
+        "file": "types-and-traits.rst",
+        "line": 676
+      },
+      {
+        "raw": "Type",
+        "file": "types-and-traits.rst",
+        "line": 866
+      },
+      {
+        "raw": "[Type]s",
+        "file": "types-and-traits.rst",
+        "line": 1972
+      },
+      {
+        "raw": "Type",
+        "file": "types-and-traits.rst",
+        "line": 2253
+      }
+    ]
+  },
+  "Type alias": {
+    "count": 3,
+    "case_match": "type alias",
+    "samples": [
+      {
+        "raw": "[Type alias]es",
+        "file": "entities-and-resolution.rst",
+        "line": 108
+      },
+      {
+        "raw": "Type alias",
+        "file": "entities-and-resolution.rst",
+        "line": 782
+      },
+      {
+        "raw": "[Type alias]es",
+        "file": "entities-and-resolution.rst",
+        "line": 943
+      }
+    ]
+  },
+  "Type bound predicate": {
+    "count": 1,
+    "case_match": "type bound predicate",
+    "samples": [
+      {
+        "raw": "[Type bound predicate]s",
+        "file": "entities-and-resolution.rst",
+        "line": 785
+      }
+    ]
+  },
+  "Type cast expression": {
+    "count": 2,
+    "case_match": "type cast expression",
+    "samples": [
+      {
+        "raw": "[Type cast expression]s",
+        "file": "expressions.rst",
+        "line": 305
+      },
+      {
+        "raw": "Type cast expression",
+        "file": "expressions.rst",
+        "line": 5562
+      }
+    ]
+  },
+  "type coercion": {
+    "count": 8,
+    "case_match": "Type coercion",
+    "samples": [
+      {
+        "raw": "type coercion",
+        "file": "expressions.rst",
+        "line": 2435
+      },
+      {
+        "raw": "type coercion",
+        "file": "types-and-traits.rst",
+        "line": 2374
+      },
+      {
+        "raw": "type coercion",
+        "file": "types-and-traits.rst",
+        "line": 2378
+      },
+      {
+        "raw": "type coercion",
+        "file": "types-and-traits.rst",
+        "line": 2481
+      },
+      {
+        "raw": "multi-[type coercion]",
+        "file": "types-and-traits.rst",
+        "line": 2527
+      },
+      {
+        "raw": "type coercion",
+        "file": "types-and-traits.rst",
+        "line": 2874
+      },
+      {
+        "raw": "type coercion",
+        "file": "types-and-traits.rst",
+        "line": 2947
+      },
+      {
+        "raw": "type coercion",
+        "file": "types-and-traits.rst",
+        "line": 3688
+      }
+    ]
+  },
+  "type inference": {
+    "count": 21,
+    "case_match": "Type inference",
+    "samples": [
+      {
+        "raw": "type inference",
+        "file": "lexical-elements.rst",
+        "line": 1061
+      },
+      {
+        "raw": "type inference",
+        "file": "lexical-elements.rst",
+        "line": 1152
+      },
+      {
+        "raw": "type inference",
+        "file": "patterns.rst",
+        "line": 232
+      },
+      {
+        "raw": "type inference",
+        "file": "patterns.rst",
+        "line": 237
+      },
+      {
+        "raw": "type inference",
+        "file": "patterns.rst",
+        "line": 241
+      },
+      {
+        "raw": "type inference",
+        "file": "patterns.rst",
+        "line": 259
+      },
+      {
+        "raw": "type inference",
+        "file": "statements.rst",
+        "line": 131
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 1616
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2171
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2687
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2756
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2776
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2780
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2786
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2794
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2840
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2843
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2873
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 2879
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 3120
+      },
+      {
+        "raw": "type inference",
+        "file": "types-and-traits.rst",
+        "line": 3628
+      }
+    ]
+  },
+  "Type parameter": {
+    "count": 1,
+    "case_match": "type parameter",
+    "samples": [
+      {
+        "raw": "[Type parameter]s",
+        "file": "entities-and-resolution.rst",
+        "line": 946
+      }
+    ]
+  },
+  "type path resolution": {
+    "count": 2,
+    "case_match": "Type path resolution",
+    "samples": [
+      {
+        "raw": "type path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 413
+      },
+      {
+        "raw": "type path resolution",
+        "file": "entities-and-resolution.rst",
+        "line": 1929
+      }
+    ]
+  },
+  "type representation": {
+    "count": 7,
+    "case_match": "Type representation",
+    "samples": [
+      {
+        "raw": "type representation",
+        "file": "attributes.rst",
+        "line": 1591
+      },
+      {
+        "raw": "type representation",
+        "file": "types-and-traits.rst",
+        "line": 1935
+      },
+      {
+        "raw": "type representation",
+        "file": "types-and-traits.rst",
+        "line": 1960
+      },
+      {
+        "raw": "type representation",
+        "file": "types-and-traits.rst",
+        "line": 1973
+      },
+      {
+        "raw": "type representation",
+        "file": "types-and-traits.rst",
+        "line": 2039
+      },
+      {
+        "raw": "type representation",
+        "file": "types-and-traits.rst",
+        "line": 2056
+      },
+      {
+        "raw": "type representation",
+        "file": "types-and-traits.rst",
+        "line": 2114
+      }
+    ]
+  },
+  "type unification": {
+    "count": 8,
+    "case_match": "Type unification",
+    "samples": [
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2182
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2190
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2193
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2215
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2227
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2780
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2783
+      },
+      {
+        "raw": "type unification",
+        "file": "types-and-traits.rst",
+        "line": 2796
+      }
+    ]
+  },
+  "undefined behavior": {
+    "count": 3,
+    "case_match": "Undefined behavior",
+    "samples": [
+      {
+        "raw": "undefined behavior",
+        "file": "unsafety.rst",
+        "line": 22
+      },
+      {
+        "raw": "undefined behavior",
+        "file": "unsafety.rst",
+        "line": 26
+      },
+      {
+        "raw": "undefined behavior",
+        "file": "unsafety.rst",
+        "line": 30
+      }
+    ]
+  },
+  "Underscore expression": {
+    "count": 2,
+    "case_match": "underscore expression",
+    "samples": [
+      {
+        "raw": "[Underscore expression]s",
+        "file": "expressions.rst",
+        "line": 181
+      },
+      {
+        "raw": "Underscore expression",
+        "file": "expressions.rst",
+        "line": 5530
+      }
+    ]
+  },
+  "underscore pattern matching": {
+    "count": 1,
+    "case_match": "Underscore pattern matching",
+    "samples": [
+      {
+        "raw": "underscore pattern matching",
+        "file": "patterns.rst",
+        "line": 1480
+      }
+    ]
+  },
+  "unifiable type": {
+    "count": 1,
+    "case_match": null,
+    "samples": [
+      {
+        "raw": "[unifiable type]s",
+        "file": "patterns.rst",
+        "line": 104
+      }
+    ]
+  },
+  "Unify": {
+    "count": 1,
+    "case_match": "unify",
+    "samples": [
+      {
+        "raw": "Unify",
+        "file": "types-and-traits.rst",
+        "line": 2921
+      }
+    ]
+  },
+  "Union field": {
+    "count": 1,
+    "case_match": "union field",
+    "samples": [
+      {
+        "raw": "[Union field]s",
+        "file": "entities-and-resolution.rst",
+        "line": 996
+      }
+    ]
+  },
+  "Union type": {
+    "count": 4,
+    "case_match": "union type",
+    "samples": [
+      {
+        "raw": "[Union type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 111
+      },
+      {
+        "raw": "Union type",
+        "file": "entities-and-resolution.rst",
+        "line": 788
+      },
+      {
+        "raw": "[Union type]s",
+        "file": "entities-and-resolution.rst",
+        "line": 949
+      },
+      {
+        "raw": "[Union type]s",
+        "file": "types-and-traits.rst",
+        "line": 129
+      }
+    ]
+  },
+  "Unsafe block expression": {
+    "count": 1,
+    "case_match": "unsafe block expression",
+    "samples": [
+      {
+        "raw": "[Unsafe block expression]s",
+        "file": "expressions.rst",
+        "line": 310
+      }
+    ]
+  },
+  "Unsized coercion": {
+    "count": 1,
+    "case_match": "unsized coercion",
+    "samples": [
+      {
+        "raw": "Unsized coercion",
+        "file": "types-and-traits.rst",
+        "line": 2482
+      }
+    ]
+  },
+  "Use capture": {
+    "count": 1,
+    "case_match": "use capture",
+    "samples": [
+      {
+        "raw": "[Use capture]",
+        "file": "types-and-traits.rst",
+        "line": 3442
+      }
+    ]
+  },
+  "variance": {
+    "count": 8,
+    "case_match": "Variance",
+    "samples": [
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 2298
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 2342
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 3587
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 3590
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 3597
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 3607
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 3611
+      },
+      {
+        "raw": "variance",
+        "file": "types-and-traits.rst",
+        "line": 3615
+      }
+    ]
+  },
+  "visibility": {
+    "count": 9,
+    "case_match": "Visibility",
+    "samples": [
+      {
+        "raw": "visibility",
+        "file": "attributes.rst",
+        "line": 1807
+      },
+      {
+        "raw": "visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 162
+      },
+      {
+        "raw": "visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 167
+      },
+      {
+        "raw": "visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 172
+      },
+      {
+        "raw": "visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 233
+      },
+      {
+        "raw": "visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 237
+      },
+      {
+        "raw": "visibility",
+        "file": "entities-and-resolution.rst",
+        "line": 1229
+      },
+      {
+        "raw": "visible <visibility>",
+        "file": "types-and-traits.rst",
+        "line": 2663
+      },
+      {
+        "raw": "visible <visibility>",
+        "file": "types-and-traits.rst",
+        "line": 2672
+      }
+    ]
+  },
+  "visible emptiness": {
+    "count": 11,
+    "case_match": "Visible emptiness",
+    "samples": [
+      {
+        "raw": "visible emptiness",
+        "file": "patterns.rst",
+        "line": 448
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "patterns.rst",
+        "line": 866
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2645
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2648
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2651
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2660
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2663
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2666
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2669
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2672
+      },
+      {
+        "raw": "visible emptiness",
+        "file": "types-and-traits.rst",
+        "line": 2672
+      }
+    ]
+  },
+  "While let loop expression": {
+    "count": 1,
+    "case_match": "while let loop expression",
+    "samples": [
+      {
+        "raw": "[While let loop expression]s",
+        "file": "expressions.rst",
+        "line": 313
+      }
+    ]
+  },
+  "While loop expression": {
+    "count": 1,
+    "case_match": "while loop expression",
+    "samples": [
+      {
+        "raw": "[While loop expression]s",
+        "file": "expressions.rst",
+        "line": 316
+      }
+    ]
+  },
+  "Zero-variant enum type": {
+    "count": 1,
+    "case_match": "zero-variant enum type",
+    "samples": [
+      {
+        "raw": "[Zero-variant enum type]s",
+        "file": "types-and-traits.rst",
+        "line": 1996
+      }
+    ]
+  }
+}

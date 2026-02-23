@@ -1,0 +1,15 @@
+fixed-commit-marker
+21:FIXED_BUILD_COMMIT = "0000000000000000000000000000000000000000"
+265:            f"  printf '%s\\n' '{FIXED_BUILD_COMMIT}'\n"
+
+rev-parse-head-intercept-marker
+96:            left_ref = args.left_ref or "HEAD"
+97:            right_ref = args.right_ref or "HEAD"
+123:        ref = args.ref or "HEAD"
+264:            "if [ \"$1\" = \"rev-parse\" ] && [ \"$2\" = \"HEAD\" ] && [ -z \"$3\" ]; then\n"
+
+sources-exclusion-marker
+349:        if rel.startswith("_sources/"):
+
+sources-readme-marker
+27:* ``_sources/`` entries are excluded from the comparison set because they are

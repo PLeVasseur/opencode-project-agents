@@ -1,0 +1,10 @@
+{
+  "run_id": "pr1-20260215T215421Z",
+  "schema_version": 1,
+  "status": "drafted",
+  "unit_types": [
+    "paragraph",
+    "list_bullet",
+    "table_cell"
+  ]
+}

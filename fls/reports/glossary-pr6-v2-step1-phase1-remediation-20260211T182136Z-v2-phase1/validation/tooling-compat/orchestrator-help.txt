@@ -1,0 +1,66 @@
+usage: glossary-batch-orchestrator-v2.py [-h] [--workdir WORKDIR]
+                                         [--expected-branch EXPECTED_BRANCH]
+                                         [--batch-size-wa BATCH_SIZE_WA]
+                                         [--batch-size-wb BATCH_SIZE_WB]
+                                         [--batch-size-wc BATCH_SIZE_WC]
+                                         [--batch-size-wd BATCH_SIZE_WD]
+                                         [--max-batches MAX_BATCHES]
+                                         [--run-id RUN_ID]
+                                         [--remediation-dir REMEDIATION_DIR]
+                                         [--session-id SESSION_ID]
+                                         [--attach-url ATTACH_URL]
+                                         [--model MODEL] [--agent AGENT]
+                                         [--opencode-bin OPENCODE_BIN]
+                                         [--checklist CHECKLIST]
+                                         [--seed-ledger SEED_LEDGER]
+                                         [--baseline-reference BASELINE_REFERENCE]
+                                         [--reason-rubric REASON_RUBRIC]
+                                         [--validator VALIDATOR]
+                                         [--manual-plan MANUAL_PLAN]
+                                         [--state-file STATE_FILE]
+                                         [--commit-prefix COMMIT_PREFIX]
+                                         [--allow-dirty]
+                                         [--allow-empty-commit]
+                                         [--pause-seconds PAUSE_SECONDS]
+                                         [--extra-check EXTRA_CHECK]
+                                         [--permission-override PERMISSION_OVERRIDE]
+                                         [--dry-run] [--skip-final-validator]
+                                         [--stream-opencode-output]
+                                         [--retry-quarantine]
+
+Run v2 Step1/Phase1 remediation in wave-aware OpenCode batches
+
+options:
+  -h, --help            show this help message and exit
+  --workdir WORKDIR     Target git worktree directory
+  --expected-branch EXPECTED_BRANCH
+                        Expected git branch in target worktree
+  --batch-size-wa BATCH_SIZE_WA
+  --batch-size-wb BATCH_SIZE_WB
+  --batch-size-wc BATCH_SIZE_WC
+  --batch-size-wd BATCH_SIZE_WD
+  --max-batches MAX_BATCHES
+  --run-id RUN_ID
+  --remediation-dir REMEDIATION_DIR
+  --session-id SESSION_ID
+  --attach-url ATTACH_URL
+  --model MODEL
+  --agent AGENT
+  --opencode-bin OPENCODE_BIN
+  --checklist CHECKLIST
+  --seed-ledger SEED_LEDGER
+  --baseline-reference BASELINE_REFERENCE
+  --reason-rubric REASON_RUBRIC
+  --validator VALIDATOR
+  --manual-plan MANUAL_PLAN
+  --state-file STATE_FILE
+  --commit-prefix COMMIT_PREFIX
+  --allow-dirty
+  --allow-empty-commit
+  --pause-seconds PAUSE_SECONDS
+  --extra-check EXTRA_CHECK
+  --permission-override PERMISSION_OVERRIDE
+  --dry-run
+  --skip-final-validator
+  --stream-opencode-output
+  --retry-quarantine    Include open quarantine IDs in batch selection

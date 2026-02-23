@@ -1,0 +1,6 @@
+usage: generate-glossary.py [-h] [--src SRC] [--output OUTPUT]
+
+options:
+  -h, --help       show this help message and exit
+  --src SRC        Source directory
+  --output OUTPUT  Generated glossary output path

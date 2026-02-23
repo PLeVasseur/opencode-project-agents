@@ -1,0 +1,16 @@
+{
+  "terms": {
+    "WA-001": {
+      "mode": "hunk",
+      "after_file": "values.rst",
+      "hunk_dt_added": 1,
+      "hunk_dt_removed": 0,
+      "hunk_t_removed": 1,
+      "hunk_marker_removed": 1,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "swap_detected": true,
+      "evidence_source": "fixture-diff-audit"
+    }
+  }
+}

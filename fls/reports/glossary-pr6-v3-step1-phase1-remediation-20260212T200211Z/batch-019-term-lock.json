@@ -1,0 +1,109 @@
+{
+  "batch_number": 19,
+  "batch_prefix": "batch-019",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-081",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "program-structure-and-compilation.rst",
+      "recommended_reason": "Most referenced here (3/4 refs)",
+      "recommended_section": "Crates",
+      "relocation_priority": "medium",
+      "term": "binary crate"
+    },
+    {
+      "checklist_id": "WB-082",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ffi.rst",
+      "recommended_reason": "Most referenced here (5/8 refs)",
+      "recommended_section": "ABI",
+      "relocation_priority": "medium",
+      "term": "c"
+    },
+    {
+      "checklist_id": "WB-083",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "First reference at entities-and-resolution.rst:364 precedes definition",
+      "recommended_section": "Paths",
+      "relocation_priority": "medium",
+      "term": "qualifying trait"
+    },
+    {
+      "checklist_id": "WB-084",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "Most referenced here (3/15 refs)",
+      "recommended_section": "Await Expressions",
+      "relocation_priority": "medium",
+      "term": "temporary"
+    },
+    {
+      "checklist_id": "WB-085",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (2/3 refs)",
+      "recommended_section": "Patterns",
+      "relocation_priority": "medium",
+      "term": "pattern-without-range"
+    },
+    {
+      "checklist_id": "WB-086",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "First reference at entities-and-resolution.rst:364 precedes definition",
+      "recommended_section": "Paths",
+      "relocation_priority": "medium",
+      "term": "qualified type"
+    },
+    {
+      "checklist_id": "WB-087",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "types-and-traits.rst",
+      "recommended_reason": "Most referenced here (3/7 refs)",
+      "recommended_section": "Struct Types",
+      "relocation_priority": "medium",
+      "term": "tuple struct type"
+    },
+    {
+      "checklist_id": "WB-088",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "First reference at entities-and-resolution.rst:550 precedes definition",
+      "recommended_section": "Generic Parameter Scope",
+      "relocation_priority": "medium",
+      "term": "trait body"
+    },
+    {
+      "checklist_id": "WB-089",
+      "divergence_match_category": "cosmetic",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:522 precedes definition",
+      "recommended_section": "Place Expressions",
+      "relocation_priority": "medium",
+      "term": "base initializer"
+    }
+  ],
+  "timestamp": "20260213T004711Z",
+  "wave": "WB"
+}

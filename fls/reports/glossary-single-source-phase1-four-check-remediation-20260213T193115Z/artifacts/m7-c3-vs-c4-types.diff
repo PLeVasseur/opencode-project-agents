@@ -1,0 +1,20 @@
+--- /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-debug-commit3/types-and-traits.html	2026-02-14 04:49:45.424281181 +0900
++++ /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-debug-commit4/types-and-traits.html	2026-02-14 04:49:58.401621428 +0900
+@@ -656,7 +656,7 @@
+ <p><span class="spec-paragraph-id" id="fls_g5qle7xzaoif">4.5.1:4</span>
+ The <a class="reference internal" href="glossary.html#term_name">name</a> of an <a class="reference internal" href="glossary.html#term_enum_variant">enum variant</a> shall be unique within the related
+ <a class="reference internal" href="#syntax_enumdeclaration"><code class="docutils literal notranslate"><span class="pre">EnumDeclaration</span></code></a>.</p>
+-<p><span class="spec-paragraph-id" id="fls_t4yeovFm83Wo">B.178:1</span>
++<p><span class="spec-paragraph-id" id="fls_t4yeovFm83Wo">4.5.1:5</span>
+ A <a class="reference internal" href="glossary.html#term_discriminant">discriminant</a> is an opaque integer that identifies an <a class="reference internal" href="glossary.html#term_enum_variant">enum variant</a>.</p>
+ <p><span class="spec-paragraph-id" id="fls_hp5frc752dam">4.5.1:6</span>
+ A <a class="reference internal" href="glossary.html#term_discriminant_initializer">discriminant initializer</a> shall be specified only when all <a class="reference internal" href="glossary.html#term_enum_variant">enum
+@@ -2353,7 +2353,7 @@
+ <a class="reference internal" href="glossary.html#term_type">type</a> implementing the <a class="reference internal" href="glossary.html#term_trait">trait</a>, and behaves like a <a class="reference internal" href="glossary.html#term_type_parameter">type parameter</a>.</p>
+ <p><span class="spec-paragraph-id" id="fls_AdbbUZZgMEsQ">4.13:4</span>
+ A <a class="reference internal" href="glossary.html#term_local_trait">local trait</a> is a <a class="reference internal" href="glossary.html#term_trait">trait</a> that is defined in the current <a class="reference internal" href="glossary.html#term_crate">crate</a>.</p>
+-<p><span class="spec-paragraph-id" id="fls_I9JaKZelMiby">B.387:1</span>
++<p><span class="spec-paragraph-id" id="fls_I9JaKZelMiby">4.13:5</span>
+ A <a class="reference internal" href="glossary.html#term_subtrait">subtrait</a> is a <a class="reference internal" href="glossary.html#term_trait">trait</a> with a <a class="reference internal" href="glossary.html#term_supertrait">supertrait</a>.</p>
+ <p><span class="spec-paragraph-id" id="fls_CYtxPjK3zq2T">4.13:6</span>
+ A <a class="reference internal" href="glossary.html#term_supertrait">supertrait</a> is a transitive <a class="reference internal" href="glossary.html#term_trait">trait</a> that a <a class="reference internal" href="glossary.html#term_type">type</a> must additionally

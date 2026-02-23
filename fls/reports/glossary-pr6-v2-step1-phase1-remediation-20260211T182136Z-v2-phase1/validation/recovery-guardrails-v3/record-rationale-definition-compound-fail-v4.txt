@@ -1,0 +1,1 @@
+ERROR: FAILED_COMPOUND_DT_SPLIT: WA-001: token 'call' after :dt:`value` indicates compound split

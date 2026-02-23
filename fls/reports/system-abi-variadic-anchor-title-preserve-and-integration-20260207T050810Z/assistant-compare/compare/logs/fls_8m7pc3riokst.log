@@ -1,0 +1,15 @@
+case: fls_8m7pc3riokst
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/fls_8m7pc3riokst/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/fls_8m7pc3riokst/head.json
+
+observed tags:
+- paragraph-changed
+- role-change
+- term-def-removed
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

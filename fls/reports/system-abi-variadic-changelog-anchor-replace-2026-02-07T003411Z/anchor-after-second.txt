@@ -1,0 +1,7 @@
+release=1.93.0
+url=https://github.com/rust-lang/rust/pull/145954
+section_heading=Language changes in Rust 1.93.0
+section_start_line=22
+section_end_line=221
+top_level_entry_count=3
+top_level_entry_lines=29,128,174

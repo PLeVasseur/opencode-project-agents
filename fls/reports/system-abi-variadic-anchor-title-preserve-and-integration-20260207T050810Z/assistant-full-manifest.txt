@@ -1,0 +1,7 @@
+35c5f87f4d3dc73b48e79a82331e56679e1752b1\tfeat(changelog): add Sphinx-aware changelog automation
+c54af32b398d2e6f4f002c1fd1365e96d578dfce\tfeat(changelog-tags): add verifier harness and schema
+4836a7560a72cf217467fe479416ee976a1c29ed\ttest(changelog-tags): add verifier fixtures and case manifest
+bc4a67c31032486ecfdca28716ce71e1b8fe3e32\tci(changelog-tags): run verifier in PR and nightly
+d89e324ba7f49630a414041e25982adee071151c\tfix(changelog-assistant): anchor updates to existing upstream PR entries
+28b542bbe45fe18874125032191483011ef09f57\tci(changelog-assistant): run coverage checks in pull requests
+216668c99002757486ccdfb3b9242504a6ab5789\tfix(changelog-assistant): preserve anchored entry title by default

@@ -1,0 +1,43 @@
+{
+  "batch_number": 6,
+  "commit_hash": "7b8d1eb9dd185fb5bacb2a6d93f2736287a5621b",
+  "terms": [
+    {
+      "after_file": "items.rst",
+      "after_file_repo_path": "src/items.rst",
+      "checklist_id": "WA-008",
+      "definition_operation": "insert",
+      "file_added_lines": 4,
+      "file_deleted_lines": 0,
+      "file_net_delta": 4,
+      "hunk_dt_added": 1,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 1,
+      "hunk_insert_pass": true,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "hunk",
+      "swap_detected": false,
+      "term": "item"
+    },
+    {
+      "after_file": "types-and-traits.rst",
+      "after_file_repo_path": "src/types-and-traits.rst",
+      "checklist_id": "WA-009",
+      "definition_operation": "insert",
+      "file_added_lines": 3,
+      "file_deleted_lines": 0,
+      "file_net_delta": 3,
+      "hunk_dt_added": 1,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 1,
+      "hunk_insert_pass": true,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "hunk",
+      "swap_detected": false,
+      "term": "field"
+    }
+  ],
+  "timestamp": "20260212T212748Z"
+}

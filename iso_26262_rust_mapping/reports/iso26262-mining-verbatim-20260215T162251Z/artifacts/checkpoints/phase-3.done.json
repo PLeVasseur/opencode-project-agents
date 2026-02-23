@@ -1,0 +1,26 @@
+{
+  "canonical_checksum": "a7a9d4ac727bdb17f49652de7ecafeadeac61ead36565f78f15eb5fe473e396a",
+  "checkpoint": "phase-3.done",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/publish.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/publish/publish-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/publish/publish.begin",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/publish/publish.commit",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/clause-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/part-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/clause-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/part-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/clause-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/part-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/anchor-registry.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/corpus-manifest.jsonc"
+  ],
+  "phase": 3,
+  "run_id": "20260215T162251Z",
+  "stage": "publish",
+  "timestamp_utc": "2026-02-15T16:47:29Z"
+}

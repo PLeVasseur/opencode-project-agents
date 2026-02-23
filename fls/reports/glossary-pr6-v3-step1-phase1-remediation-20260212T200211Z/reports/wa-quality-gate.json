@@ -1,0 +1,13 @@
+{
+  "generated_by": "glossary-batch-orchestrator-v3.py",
+  "open_wa_quarantine_ids": [],
+  "passed": true,
+  "reason": "ok",
+  "status": "pass",
+  "timestamp": "20260213T020021Z",
+  "unresolved_high_severity": [],
+  "wa_parent_checked": 15,
+  "wa_parent_total": 15,
+  "wave": "WA",
+  "wave_a_end_head": "e498c8d6275cffce4640683ec664fa527d5bf010"
+}

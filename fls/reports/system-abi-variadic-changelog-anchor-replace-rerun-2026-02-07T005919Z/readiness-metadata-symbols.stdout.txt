@@ -1,0 +1,22 @@
+            "update_action": "replace",
+            "anchored_pr_url": anchor["entry_url"],
+            "anchored_entry_line": anchor["line"],
+            "anchored_entry_index": anchor["entry_index"],
+            "update_action": "append",
+            "anchored_pr_url": None,
+            "anchored_entry_line": None,
+            "anchored_entry_index": None,
+        "update_action": update_metadata.get("update_action"),
+        "anchored_pr_url": update_metadata.get("anchored_pr_url"),
+        "anchored_entry_line": update_metadata.get("anchored_entry_line"),
+        "anchored_entry_index": update_metadata.get("anchored_entry_index"),
+    if report["update_action"]:
+        lines.append(f"- action: `{report['update_action']}`")
+        if report["anchored_pr_url"]:
+            lines.append(f"- anchored PR URL: `{report['anchored_pr_url']}`")
+        if report["anchored_entry_line"] is not None:
+            lines.append(f"- anchored entry line: `{report['anchored_entry_line']}`")
+        if report["anchored_entry_index"] is not None:
+            lines.append(f"- anchored entry index: `{report['anchored_entry_index']}`")
+        action = update_metadata["update_action"]
+                f"(entry {update_metadata['anchored_entry_index']}, line {update_metadata['anchored_entry_line']})"

@@ -1,0 +1,1 @@
+02937b55eb7326775a33bbae546eac879c15d387 ci(changelog-assistant): run coverage checks in pull requests

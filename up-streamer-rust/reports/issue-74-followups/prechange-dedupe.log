@@ -1,0 +1,17 @@
+Command:
+
+`cargo test -p up-streamer publish_filter_dedupes_overlapping_rows -- --nocapture`
+
+Output:
+
+```text
+running 1 test
+
+thread 'ustreamer::tests::publish_filter_dedupes_overlapping_rows' panicked:
+assertion failed: forwarding_listeners.insert(...).await.is_ok()
+
+failures:
+  ustreamer::tests::publish_filter_dedupes_overlapping_rows
+
+test result: FAILED. 0 passed; 1 failed
+```

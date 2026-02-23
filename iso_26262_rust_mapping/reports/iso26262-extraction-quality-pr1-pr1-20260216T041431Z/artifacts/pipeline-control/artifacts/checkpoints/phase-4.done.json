@@ -1,0 +1,20 @@
+{
+  "canonical_checksum": "db12a0ac7eebe7ce11181540fa9009733fe5f36d76abac7c17d99371920fe3d9",
+  "checkpoint": "phase-4.done",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/checkpoints/verify.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/probes/probeset-freeze-manifest.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/replay/verbatim-replay-signatures.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/verify/makepy-e2e.log",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/verify/prewarm-build-quality-anomalies.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/verify/prewarm-build-quality.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/pipeline-control/artifacts/verify/verify-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T041431Z/query/probe-set/probe-results.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T041431Z/query/query-snapshots/guardrail-smoke.json"
+  ],
+  "phase": 4,
+  "run_id": "pr1-20260216T041431Z",
+  "stage": "verify",
+  "timestamp_utc": "2026-02-16T04:15:17Z"
+}

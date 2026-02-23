@@ -1,0 +1,37 @@
+{
+  "batch_sizes": {
+    "WA": 1,
+    "WB": 1,
+    "WC": 1,
+    "WD": 1
+  },
+  "batches": [],
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "failed_batches": [
+    {
+      "batch_number": 1,
+      "ids": [
+        "WA-001"
+      ],
+      "reason": "all terms failed",
+      "timestamp": "20260211T161142Z",
+      "wave": "WA"
+    },
+    {
+      "batch_number": 2,
+      "ids": [
+        "WA-002"
+      ],
+      "reason": "all terms failed",
+      "timestamp": "20260211T161143Z",
+      "wave": "WA"
+    }
+  ],
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": "fake-session",
+  "run_id": "run",
+  "session_id": null,
+  "started_at": "20260211T161141Z",
+  "updated_at": "20260211T161143Z",
+  "workdir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/sandbox-repo"
+}

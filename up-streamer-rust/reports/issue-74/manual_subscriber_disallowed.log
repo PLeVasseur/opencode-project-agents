@@ -1,0 +1,16 @@
+[2026-02-08T00:54:52Z INFO  zenoh_subscriber] Started zenoh_subscriber
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime] Using ZID: b4471fd0f5866597afec141a35b39788
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fd07:b51a:cc66:0:d0e8:2bff:fe5a:a3a5]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fd7a:115c:a1e0::df01:c91b]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/100.119.201.26:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fe80::d0e8:2bff:fe5a:a3a5]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fe80::be6e:8831:72d:e28d]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fe80::bc64:aeff:feec:4689]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fe80::7cbc:44ff:fe61:d73c]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fe80::24a2:d3ff:feb2:7719]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/[fe80::f0dd:b0ff:fecf:1444]:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/192.168.139.233:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/172.18.0.1:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] Zenoh can be reached at: tcp/172.21.0.1:33791
+[2026-02-08T00:54:52Z INFO  zenoh::net::runtime::orchestrator] zenohd listening scout messages on 224.0.0.224:7446
+[2026-02-08T00:54:52Z WARN  zenoh::net::runtime::orchestrator] Scouting delay elapsed before start conditions are met.

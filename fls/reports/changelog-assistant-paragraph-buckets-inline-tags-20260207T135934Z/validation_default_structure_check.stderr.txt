@@ -1,0 +1,4 @@
+  File "<stdin>", line 6
+    start_idx = next(i for i,l in enumerate(lines) if 'https://github.com/rust-lang/rust/pull/145954' in l and l.startswith('- ')), len(lines))
+                                                                                                                                              ^
+SyntaxError: unmatched ')'

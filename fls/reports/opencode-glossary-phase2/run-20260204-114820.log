@@ -1,0 +1,1667 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms from checklist
+
+warning: glossary-entry not found in src files: i64
+warning: glossary-entry not found in src files: i128
+warning: glossary-entry not found in src files: identifier
+warning: glossary-entry not found in src files: identifier pattern
+warning: glossary-entry not found in src files: if expression
+warning: glossary-entry not found in src files: if let expression
+warning: glossary-entry not found in src files: immutable
+warning: glossary-entry not found in src files: immutable borrow
+warning: glossary-entry not found in src files: immutable borrow expression
+warning: glossary-entry not found in src files: immutable place expression
+warning: glossary-entry not found in src files: immutable place expression context
+warning: glossary-entry not found in src files: immutable raw pointer type
+warning: glossary-entry not found in src files: immutable reference
+warning: glossary-entry not found in src files: immutable static
+warning: glossary-entry not found in src files: immutable variable
+warning: glossary-entry not found in src files: impl header lifetime elision
+warning: glossary-entry not found in src files: impl trait type
+warning: glossary-entry not found in src files: implementation
+warning: glossary-entry not found in src files: implementation body
+warning: glossary-entry not found in src files: implementation coherence
+warning: no new term-map entries to write
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/glossary-term-map.py
+[91m[1m| [0m[90m Bash     [0mCheck glossary static for next 20 terms
+
+missing: []
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[94m[1m| [0m[90m Grep     [0mi64
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mPrint glossary static entries for selected terms
+
+
+=== i64 ===
+
+:dp:`fls_4bpatxp8yelv`
+:dc:`i64` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+:sup:`63`) to 2\ :sup:`63` - 1, all inclusive.
+
+=== i128 ===
+
+:dp:`fls_p75kpbtonb8z`
+:dc:`i128` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+:sup:`127`) to 2\ :sup:`127` - 1, all inclusive.
+
+=== identifier ===
+
+:dp:`fls_14zc5bcm9d8o`
+An :dt:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+
+:dp:`fls_oddu2wzhczvq`
+See :s:`Identifier`.
+
+=== identifier pattern ===
+
+:dp:`fls_f2va67gvpqe0`
+An :dt:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+matches to a :t:`binding`.
+
+:dp:`fls_nxa1gvqgitgk`
+See :s:`IdentifierPattern`.
+
+=== if expression ===
+
+:dp:`fls_rk0661mtdvsi`
+An :dt:`if expression` is an :t:`expression` that evaluates either a
+:t:`block expression` or an :t:`else expression` depending on the :t:`value`
+of its :t:`subject expression`.
+
+:dp:`fls_gdsufx2ns8bl`
+See :s:`IfExpression`.
+
+=== if let expression ===
+
+:dp:`fls_ky6ng7jy1g6z`
+An :dt:`if let expression` is an :t:`expression` that evaluates either a
+:t:`block expression` or an :t:`else expression` depending on whether its
+:t:`pattern` can be matched against its :t:`subject let expression`.
+
+:dp:`fls_kczg3c6n3psu`
+See :s:`IfLetExpression`.
+
+=== immutable ===
+
+:dp:`fls_sttdfynyqr5h`
+A :t:`value` is :dt:`immutable` when it cannot be modified.
+
+=== immutable borrow ===
+
+:dp:`fls_p0abqkiuk7y9`
+An :dt:`immutable borrow` is an :t:`immutable reference` produced by
+:t:`borrowing`.
+
+=== immutable borrow expression ===
+
+:dp:`fls_dojod5pg4r7l`
+An :dt:`immutable borrow expression` is a :t:`borrow expression` that lacks
+:t:`keyword` ``mut``.
+
+=== immutable place expression ===
+
+:dp:`fls_MXBEZjzBxw5Z`
+An :dt:`immutable place expression` is a :t:`place expression` whose memory
+location cannot be modified.
+
+=== immutable place expression context ===
+
+:dp:`fls_UvrQ49dSoQGc`
+An :dt:`immutable place expression context` is a :t:`place expression context`
+whose memory location cannot be modified.
+
+=== immutable raw pointer type ===
+
+:dp:`fls_2GzYItDXvMhB`
+An :dt:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+:t:`keyword` ``const``.
+
+=== immutable reference ===
+
+:dp:`fls_u9kne5zfmhoe`
+An :dt:`immutable reference` is a :t:`value` of a :t:`shared reference type`,
+and prevents the mutation of its :t:`referent`.
+
+=== immutable static ===
+
+:dp:`fls_eonlhz79ur3d`
+An :dt:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+
+=== immutable variable ===
+
+:dp:`fls_sdg35i92taip`
+An :dt:`immutable variable` is a :t:`variable` whose :t:`value` cannot be
+modified.
+
+=== impl header lifetime elision ===
+
+:dp:`fls_PvYGu85UAyFb`
+:dt:`Impl header lifetime elision` is a form of :t:`lifetime elision` that
+applies to the :t:`implementing type` and :t:`implemented trait` (if any) of an
+:t:`implementation`.
+
+=== impl trait type ===
+
+:dp:`fls_rdctgmnfncnd`
+An :dt:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
+:t:`type` is known at compile time.
+
+:dp:`fls_704soar15v8v`
+See :s:`ImplTraitTypeSpecification`, :s:`ImplTraitTypeSpecificationOneBound`.
+
+=== implementation ===
+
+:dp:`fls_pjulppit1r6`
+An :dt:`implementation` is an :t:`item` that supplements an
+:t:`implementing type` by extending its functionality.
+
+:dp:`fls_z4ij5skptoay`
+See :s:`Implementation`.
+
+=== implementation body ===
+
+:dp:`fls_1iS30Nv9myEd`
+An :dt:`implementation body` is a :t:`construct` that encapsulates the
+:t:`[associated item]s`, :t:`[inner attribute]s`, and
+:t:`[inner doc comment]s` of an :t:`implementation`.
+
+:dp:`fls_u75iHi53PnNP`
+See :s:`ImplementationBody`.
+
+=== implementation coherence ===
+
+:dp:`fls_hAmKcuYT9hHi`
+A :t:`trait implementation` exhibits :dt:`implementation coherence` when it is
+valid and does not overlap with another :t:`trait implementation`.
+
+[91m[1m| [0m[90m Bash     [0mFind possible chapter definitions for terms
+
+
+## i64
+src/concurrency.rst:L118 * - :dp:`fls_2hqmfwswc6k` -> - :c:`i64`
+src/entities-and-resolution.rst:L1028 * :dp:`fls_qsyorqjkdh2t` -> :t:`[Integer type]s` :c:`i8`, :c:`i16`, :c:`i32`, :c:`i64`, :c:`i128`,
+src/inline-assembly.rst:L765 * - :dp:`fls_4jdnt8uap95i` -> - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L770 * - :dp:`fls_wd2hzsbzdg2y` -> - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L775 * - :dp:`fls_sqy00lg5j7c6` -> - :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L810 * - :dp:`fls_nq22h8gragil` -> - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L820 * - :dp:`fls_ym05938ejwng` -> - :c:`i32`, :c:`i64`
+src/inline-assembly.rst:L845 * - :dp:`fls_tubmavru8wvn` -> - :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L850 * - :dp:`fls_b1xi3u9k4pdl` -> - :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L855 * - :dp:`fls_i9ds6724tv20` -> - :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:L865 * - :dp:`fls_efmpbyi4qjmf` -> - :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/lexical-elements.rst:L1016 * :dp:`fls_wthchinwx996` -> Suffix ``i64`` specifies type :c:`i64`.
+src/types-and-traits.rst:L492 * - :dp:`fls_egfoxke0lzje` -> - :c:`i64`
+src/types-and-traits.rst:L1706 * - :dp:`fls_7jaqx33re3hg` -> - :c:`u64`, :c:`i64`
+
+## i128
+src/entities-and-resolution.rst:L1028 * :dp:`fls_qsyorqjkdh2t` -> :t:`[Integer type]s` :c:`i8`, :c:`i16`, :c:`i32`, :c:`i64`, :c:`i128`,
+src/lexical-elements.rst:L1019 * :dp:`fls_7uoaet2pm3am` -> Suffix ``i128`` specifies type :c:`i128`.
+src/types-and-traits.rst:L496 * - :dp:`fls_4c4qpel1tbqs` -> - :c:`i128`
+src/types-and-traits.rst:L1709 * - :dp:`fls_asys0iz6m0md` -> - :c:`u128`, :c:`i128`
+
+## identifier
+src/entities-and-resolution.rst:L37 :dp:`fls_40d2g0hvq2il` -> A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+src/entities-and-resolution.rst:L1009 :dp:`fls_atvnwly4w8g2` -> :t:`crate import` uses a :t:`renaming`, then the :t:`identifier` of the
+src/entities-and-resolution.rst:L1170 :dp:`fls_FILuR3pfwjw3` -> :t:`renaming` with :t:`identifier` is brought into :t:`scope` under the
+src/entities-and-resolution.rst:L1667 * :dp:`fls_n2x13sg5szbl` -> If the leftmost :t:`path segment` is an :t:`identifier`, then
+src/entities-and-resolution.rst:L1683 * :dp:`fls_Mt6xKI08viYw` -> more than one :t:`[path segment]s`, and the :t:`identifier` is a :t:`name`
+src/entities-and-resolution.rst:L1717 :dp:`fls_bATFGtxjKq0B` -> It is a static error if the leftmost :t:`path segment` is an :t:`identifier`
+src/expressions.rst:L2752 * :dp:`fls_du5eybf8mocy` -> unique :t:`identifier` and without :t:`keyword` ``ref``, keyword ``mut``, or
+src/expressions.rst:L2785 * :dp:`fls_wsfhd3udt6fq` -> Then each bound :t:`identifier` of the :t:`assignee pattern` is an
+src/expressions.rst:L2789 * :dp:`fls_ll6h6qcaos65` -> The bound :t:`identifier` becomes the :t:`value operand` of the new
+src/expressions.rst:L3676 :dp:`fls_qed1pps827dv` -> its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+src/expressions.rst:L3693 :dp:`fls_sm2hx8sh4agb` -> both the :t:`identifier` and the :t:`expression` of the :t:`named initializer`
+src/expressions.rst:L3694 :dp:`fls_sm2hx8sh4agb` -> denote the :t:`identifier` of the :t:`shorthand initializer`.
+src/expressions.rst:L3698 :dp:`fls_yjx1t3x6qpfg` -> when its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such
+src/expressions.rst:L3707 :dp:`fls_9s4znhi0u3ys` -> :t:`identifier` resolves to.
+src/inline-assembly.rst:L659 :dp:`fls_455dmnp4cxqv` -> :t:`identifier`.
+src/inline-assembly.rst:L666 :dp:`fls_uddjvkz4g899` -> is bound to an :t:`identifier`.
+src/inline-assembly.rst:L670 :dp:`fls_sqs5to20p0te` -> configuration is not bound to an :t:`identifier`.
+src/lexical-elements.rst:L478 :dp:`fls_xsdmun5uqy4c` -> An :t:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+src/lexical-elements.rst:L481 :dp:`fls_ktnf6zkrdy45` -> A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
+src/macros.rst:L206 * :dp:`fls_NBbygZwUxjFp` -> ``vis`` shall only be followed by ``,``, an :t:`identifier` except for
+src/macros.rst:L898 * :dp:`fls_j2o0f52zyvyb` -> :t:`identifier`.
+src/macros.rst:L1136 :dp:`fls_hiDddAkNH5Ms` -> An :t:`identifier` is :dt:`hygienic` when it has :t:`definition site hygiene`.
+src/patterns.rst:L884 :dp:`fls_qu3dvfdq6oy7` -> its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+src/patterns.rst:L907 :dp:`fls_8364ueejn5y3` -> the :t:`name` of the :t:`shorthand deconstructor` denotes the :t:`identifier`
+src/program-structure-and-compilation.rst:L226 :dp:`fls_siv8bl6s2ndu` -> A :t:`crate import` with a :t:`renaming` with an :t:`identifier` binds the
+
+## identifier pattern
+src/expressions.rst:L2751 * :dp:`fls_du5eybf8mocy` -> A :t:`place expression` corresponds to an :t:`identifier pattern` with a
+src/patterns.rst:L60 :dp:`fls_8xzjb0yzftkd` -> a possibly nested :t:`identifier pattern` of a :t:`slice pattern`\ ``.``
+src/patterns.rst:L69 :dp:`fls_TUanRT7WU14E` -> with :t:`keyword` ``mut`` containing an :t:`identifier pattern`.
+src/patterns.rst:L154 :dp:`fls_uljdw9rf7ies` -> An :t:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+src/patterns.rst:L162 :dp:`fls_uusfbosjwyd1` -> :t:`identifier pattern`.
+src/patterns.rst:L169 :dp:`fls_vy9uw586wy0d` -> :t:`identifier pattern`.
+src/patterns.rst:L172 :dp:`fls_hqwt3fvr063y` -> An :t:`identifier pattern` yields a :t:`binding`. An :t:`identifier pattern`
+src/patterns.rst:L176 :dp:`fls_joIQdDn44oIT` -> An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
+src/patterns.rst:L180 :dp:`fls_24c95c56tugl` -> The :t:`identifier pattern` enters its :t:`binding` into :t:`binding scope` in
+src/patterns.rst:L185 :dp:`fls_twcavjk7iquy` -> It is a static error if the :t:`identifier pattern` consists of anything other
+src/patterns.rst:L190 :dp:`fls_k1yBTstX7jEE` -> It is a static error if the :t:`binding` of an :t:`identifier pattern` resolves
+src/patterns.rst:L194 :dp:`fls_hw26hy33guk5` -> An :t:`identifier pattern` is an :t:`irrefutable pattern` when:
+src/patterns.rst:L209 :dp:`fls_7oioaitb075g` -> If the :t:`identifier pattern` does not have a :t:`bound pattern`, then the
+src/patterns.rst:L213 * :dp:`fls_40qin0ss5sqd` -> If the :t:`identifier pattern` has only :t:`keyword` ``ref``, then the
+src/patterns.rst:L218 * :dp:`fls_pivz0v7ey6sw` -> If the :t:`identifier pattern` has :t:`[keyword]s` ``ref`` ``mut``, then the
+src/patterns.rst:L227 :dp:`fls_eucnafj3uedy` -> If the :t:`identifier pattern` has a :t:`bound pattern`, then the :t:`type` of
+src/patterns.rst:L231 * :dp:`fls_f8zo4scodhcr` -> If the :t:`identifier pattern` has only :t:`keyword` ``ref``, then the
+src/patterns.rst:L236 * :dp:`fls_d3fs2h7oqjl0` -> If the :t:`identifier pattern` has :t:`[keyword]s` ``ref mut``, then the
+src/patterns.rst:L665 :dp:`fls_5a75a2y43uev` -> :t:`identifier pattern` of a :t:`slice pattern`, a :t:`tuple pattern`, and a
+src/patterns.rst:L673 :dp:`fls_w1pw40phsv2o` -> :t:`identifier pattern` of a :t:`slice pattern`, then the :t:`type` of the
+src/patterns.rst:L736 * :dp:`fls_r78zzw7yyg34` -> :t:`rest pattern`, or a single possibly nested :t:`identifier pattern` whose
+src/patterns.rst:L1275 :dp:`fls_ancqgz8pybbe` -> A :dt:`binding pattern` is either an :t:`identifier pattern` or a
+src/patterns.rst:L1279 :dp:`fls_7xby6d1903kw` -> A :t:`binding pattern` is either an :t:`identifier pattern` or a
+src/patterns.rst:L1379 #. :dp:`fls_62626ws222op` -> If the :t:`pattern` is an :t:`identifier pattern`, then perform :t:`identifier pattern matching`.
+src/patterns.rst:L1427 :dp:`fls_4f3lzw64myhk` -> An :t:`identifier pattern` with :t:`keyword` ``mut`` shall require that the
+src/patterns.rst:L1436 #. :dp:`fls_3jyog8n6x2aa` -> If the :t:`identifier pattern` has a :t:`bound pattern`, then
+src/patterns.rst:L1447 #. :dp:`fls_u6o5ndnezwbe` -> :t:`identifier pattern` according to the :t:`binding mode`.
+
+## if expression
+src/expressions.rst:L5158 :dp:`fls_2i4fbxbbvpf1` -> An :t:`if expression` is an :t:`expression` that evaluates either a
+src/expressions.rst:L5167 :dp:`fls_inp7luoqkjc5` -> :t:`block expression`, an :t:`if expression`, or an :t:`if let expression`.
+src/expressions.rst:L5174 :dp:`fls_5azwlk7hav1k` -> :t:`block expression`, an :t:`if expression`, or an :t:`if let expression`.
+src/expressions.rst:L5177 :dp:`fls_r7gzxo16esri` -> The :t:`type` of the :t:`subject expression` of an :t:`if expression` shall be
+src/expressions.rst:L5181 :dp:`fls_iv9t4nfs4f6w` -> The :t:`type` of an :t:`if expression` is the :t:`type` of its
+src/expressions.rst:L5185 :dp:`fls_i9sxf2q5jjqt` -> The :t:`value` of an :t:`if expression` is the :t:`value` of its
+src/expressions.rst:L5190 :dp:`fls_1e8qer6bh2f3` -> :t:`block expression`, :t:`if expression`, or :t:`if let expression`.
+src/expressions.rst:L5194 :dp:`fls_p5pjxk5xfcbx` -> :t:`block expression`, :t:`if expression`, or :t:`if let expression`.
+src/expressions.rst:L5197 :dp:`fls_mpq7gicosgkt` -> The :t:`type` of an :t:`if expression` and the :t:`type` of an
+src/expressions.rst:L5203 :dp:`fls_yhlyzef9h97q` -> The :t:`evaluation` of an :t:`if expression` proceeds as follows:
+src/expressions.rst:L5214 #. :dp:`fls_67l4j48n6p7o` -> :t:`if expression` has an :t:`else expression`, then the :t:`else expression`
+src/expressions.rst:L5219 :dp:`fls_e8gd5lzcaifw` -> :t:`block expression`, :t:`if expression`, or :t:`if let expression`.
+src/ownership-and-deconstruction.rst:L622 * :dp:`fls_s1wbqld139gz` -> The :t:`drop scope` of a :t:`block expression` of an :t:`if expression`, an
+src/ownership-and-deconstruction.rst:L629 * :dp:`fls_560437qmeqtr` -> The :t:`drop scope` of the :t:`subject expression` of an :t:`if expression`.
+src/ownership-and-deconstruction.rst:L698 * :dp:`fls_Rj9zhVutfQod` -> The :t:`block expression` and :t:`else expression` of an :t:`if expression`
+src/types-and-traits.rst:L2404 * :dp:`fls_zi5311z1w7re` -> To find the common :t:`type` of multiple :t:`if expression` branches.
+src/types-and-traits.rst:L2776 * :dp:`fls_0HHC1iOk5dwz` -> An :t:`if expression` is inferred by inferring its :t:`subject expression`
+src/types-and-traits.rst:L2778 * :dp:`fls_0HHC1iOk5dwz` -> :t:`block expression` with the :t:`expected type` of the :t:`if expression`.
+src/types-and-traits.rst:L2779 * :dp:`fls_0HHC1iOk5dwz` -> Then, if the :t:`if expression` has an :t:`else expression`, apply the
+src/types-and-traits.rst:L2791 * :dp:`fls_KJsIu1lgVZxP` -> An :t:`else expression` that is part of an :t:`if expression` or
+src/types-and-traits.rst:L2796 * :dp:`fls_KRQxdSav1KBA` -> :t:`block expression` with the :t:`expected type` of the :t:`if expression`
+src/types-and-traits.rst:L2800 * :dp:`fls_Mcpwyvz47SoG` -> If the :t:`else expression` has an :t:`if expression`, infer that nested
+src/types-and-traits.rst:L2801 * :dp:`fls_Mcpwyvz47SoG` -> :t:`if expression` with the :t:`expected type` of the original
+src/types-and-traits.rst:L2802 * :dp:`fls_Mcpwyvz47SoG` -> :t:`if expression`, then :t:`unify` its :t:`type` with the :t:`type` of
+src/types-and-traits.rst:L2803 * :dp:`fls_Mcpwyvz47SoG` -> the original :t:`if expression` or :t:`if let expression`.
+src/types-and-traits.rst:L2808 * :dp:`fls_34AQ9g7xhdUj` -> original :t:`if expression`, then :t:`unify` its :t:`type` with the
+src/types-and-traits.rst:L2809 * :dp:`fls_34AQ9g7xhdUj` -> :t:`type` of the original :t:`if expression` or :t:`if let expression`.
+
+## if let expression
+src/entities-and-resolution.rst:L539 :dp:`fls_vl1qk0odouyb` -> The :t:`binding` of an :t:`if let expression` is :t:`in scope` within the
+src/entities-and-resolution.rst:L800 :dp:`fls_p6wiuhkeypzs` -> An :t:`if let expression` introduces a :t:`binding scope` into the
+src/expressions.rst:L569 * :dp:`fls_5yXuTLQOQ3cc` -> The :t:`subject let expression` of an :t:`if let expression` or a
+src/expressions.rst:L603 * :dp:`fls_9r7dopqf1nzl` -> The :t:`subject let expression` of an :t:`if let expression` or a
+src/expressions.rst:L5167 :dp:`fls_inp7luoqkjc5` -> :t:`block expression`, an :t:`if expression`, or an :t:`if let expression`.
+src/expressions.rst:L5174 :dp:`fls_5azwlk7hav1k` -> :t:`block expression`, an :t:`if expression`, or an :t:`if let expression`.
+src/expressions.rst:L5190 :dp:`fls_1e8qer6bh2f3` -> :t:`block expression`, :t:`if expression`, or :t:`if let expression`.
+src/expressions.rst:L5194 :dp:`fls_p5pjxk5xfcbx` -> :t:`block expression`, :t:`if expression`, or :t:`if let expression`.
+src/expressions.rst:L5219 :dp:`fls_e8gd5lzcaifw` -> :t:`block expression`, :t:`if expression`, or :t:`if let expression`.
+src/expressions.rst:L5251 :dp:`fls_dsrjup2umr9` -> An :t:`if let expression` is an :t:`expression` that evaluates either a
+src/expressions.rst:L5259 :dp:`fls_4vyrufo4qdeg` -> The :t:`type` of an :t:`if let expression` is the :t:`type` of its
+src/expressions.rst:L5263 :dp:`fls_qfnwwvzxsl3` -> The :t:`value` of an :t:`if let expression` is the :t:`value` of its
+src/expressions.rst:L5267 :dp:`fls_lEr4iqwdBcbA` -> The :t:`type` of an :t:`if let expression` and the :t:`type` of an
+src/expressions.rst:L5273 :dp:`fls_ijo73wtz1sy` -> The :t:`evaluation` of an :t:`if let expression` of the form
+src/expressions.rst:L5292 :dp:`fls_nhngr8y850dt` -> The :t:`evaluation` of an :t:`if let expression` of the form
+src/ownership-and-deconstruction.rst:L588 :dp:`fls_swXXkbZGLPKa` -> A :t:`binding` declared in an :t:`if let expression` is associated with the
+src/ownership-and-deconstruction.rst:L589 :dp:`fls_swXXkbZGLPKa` -> :t:`drop scope` of the :t:`block expression` of the :t:`if let expression`.
+src/types-and-traits.rst:L2407 * :dp:`fls_zst5pa29rpt` -> To find the common :t:`type` of multiple :t:`if let expression` branches.
+src/types-and-traits.rst:L2783 * :dp:`fls_QZWTS0Giy3I3` -> An :t:`if let expression` is inferred by inferring its
+src/types-and-traits.rst:L2787 * :dp:`fls_QZWTS0Giy3I3` -> :t:`if let expression` has an :t:`else expression`, apply the inference rules
+src/types-and-traits.rst:L2792 * :dp:`fls_KJsIu1lgVZxP` -> :t:`if let expression` is inferred as follows:
+src/types-and-traits.rst:L2797 * :dp:`fls_KRQxdSav1KBA` -> or :t:`if let expression`.
+src/types-and-traits.rst:L2803 * :dp:`fls_Mcpwyvz47SoG` -> the original :t:`if expression` or :t:`if let expression`.
+src/types-and-traits.rst:L2806 * :dp:`fls_34AQ9g7xhdUj` -> Otherwise, the :t:`else expression` has an :t:`if let expression`. Infer
+src/types-and-traits.rst:L2807 * :dp:`fls_34AQ9g7xhdUj` -> that nested :t:`if let expression` with the :t:`expected type` of the
+src/types-and-traits.rst:L2809 * :dp:`fls_34AQ9g7xhdUj` -> :t:`type` of the original :t:`if expression` or :t:`if let expression`.
+
+## immutable
+src/expressions.rst:L5396 :dp:`fls_RPMOAaZ6lflI` -> :t:`immutable` in the :t:`match arm guard`.
+src/ffi.rst:L329 :dp:`fls_en2h09ehj0j3` -> An :t:`immutable` :t:`external static` shall be initialized before Rust code
+src/values.rst:L93 :dp:`fls_5o5iu4j8in4l` -> A :t:`constant` is an :t:`immutable` :t:`value expression` whose uses are substituted by
+
+## immutable borrow
+src/entities-and-resolution.rst:L1469 #. :dp:`fls_lgpdicxxwq13` -> :t:`immutable borrow` of the :t:`receiver type`.
+src/ownership-and-deconstruction.rst:L203 :dp:`fls_MT69AGRXH9pS`` -> An :t:`implicit borrow` may be an :t:`immutable borrow` or a :t:`mutable borrow`
+src/ownership-and-deconstruction.rst:L207 :dp:`fls_hyl4bdjbuzbw` -> An :t:`immutable borrow` is an :t:`immutable reference` produced by
+src/ownership-and-deconstruction.rst:L221 #. :dp:`fls_8q5ly4x104ai` -> An :t:`immutable borrow` of :t:`type` ``&'a T`` is created, where
+src/ownership-and-deconstruction.rst:L229 #. :dp:`fls_568o7nyihndd` -> The :t:`immutable borrow` is checked against other :t:`[borrow]s` and
+src/ownership-and-deconstruction.rst:L236 #. :dp:`fls_ibi9mqGeHNLp` -> The :t:`immutable borrow` is released immediately after the last usage of its
+
+## immutable borrow expression
+src/expressions.rst:L389 :dp:`fls_od0h3v40kjp6` -> :t:`immutable borrow expression`.
+src/expressions.rst:L1077 :dp:`fls_r7ix8webgqlm` -> An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+src/expressions.rst:L1101 * :dp:`fls_5b2x5ri2w54r` -> If the :t:`borrow expression` denotes an :t:`immutable borrow expression`, then the
+src/values.rst:L327 * :dp:`fls_3BGncWvMumEt` -> :t:`immutable borrow expression`.
+
+## immutable place expression
+src/expressions.rst:L532 :dp:`fls_cPEMHZtPkctX` -> An :t:`immutable place expression` is a :t:`place expression` whose memory
+
+## immutable place expression context
+src/expressions.rst:L1242 :dp:`fls_d68ddlse4zp` -> :t:`immutable place expression context`, then the :t:`dereference expression`
+
+## immutable raw pointer type
+src/types-and-traits.rst:L1246 :dp:`fls_8uWfFAsZeRCs` -> An :t:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+
+## immutable reference
+src/expressions.rst:L5900 :dp:`fls_aCxt2Ovmb5He` -> :dt:`by immutable reference capture` binds an :t:`immutable reference` to the
+src/expressions.rst:L5901 :dp:`fls_aCxt2Ovmb5He` -> :t:`capture target` and passes the :t:`immutable reference` into the
+src/ownership-and-deconstruction.rst:L121 :dp:`fls_wcf5mxrzbujn` -> An :t:`immutable reference` is a :t:`value` of a :t:`shared reference type`, and
+src/ownership-and-deconstruction.rst:L129 :dp:`fls_hqxsuyn285he` -> The :t:`referent` of an :t:`immutable reference` shall be mutated only when the
+src/ownership-and-deconstruction.rst:L207 :dp:`fls_hyl4bdjbuzbw` -> An :t:`immutable borrow` is an :t:`immutable reference` produced by
+src/ownership-and-deconstruction.rst:L233 #. :dp:`fls_Z2n7EJiLY5CT` -> An :t:`immutable reference` to the borrowed :t:`value` is produced.
+src/ownership-and-deconstruction.rst:L237 #. :dp:`fls_ibi9mqGeHNLp` -> related :t:`immutable reference`.
+src/patterns.rst:L1303 :dp:`fls_6lXtoxebD5It` -> :t:`immutable reference` to the matched :t:`value` to the :t:`name`.
+src/patterns.rst:L1328 * :dp:`fls_6acdqz8rwnn` -> If the :t:`reference` is an :t:`immutable reference`, then the
+
+## immutable static
+src/values.rst:L200 :dp:`fls_jfde2vg6mtww` -> An :t:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+src/values.rst:L203 :dp:`fls_k4tyqb1j6zjo` -> The type of an :t:`immutable static` shall implement the
+src/values.rst:L234 :dp:`fls_dowxbphqvk3n` -> An :t:`immutable static` whose :t:`type` is not subject to
+src/values.rst:L240 :dp:`fls_b5wsmii7vz3v` -> It is undefined behavior to mutate an :t:`immutable static` whose :t:`type` is
+
+## immutable variable
+(no matches)
+
+## impl header lifetime elision
+src/types-and-traits.rst:L3836 :dp:`fls_3p5BdLn3JbKz` -> The :t:`impl header lifetime elision` rules are as follows:
+
+## impl trait type
+src/associated-items.rst:L201 :dp:`fls_WnsVATJvUdza` -> Every occurrence of an :t:`impl trait type` in the :t:`return type` of an
+src/associated-items.rst:L253 :dp:`fls_Cu8FWrisrqz1` -> Every occurrence of an :t:`impl trait type` in the :t:`return type` of an
+src/types-and-traits.rst:L1354 :dp:`fls_a6zlvyxpgsew` -> An :t:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
+src/types-and-traits.rst:L1358 :dp:`fls_ieyqx5vzas2m` -> An :t:`impl trait type` shall appear only within a :t:`function parameter` or
+src/types-and-traits.rst:L1365 :dp:`fls_brqaq0736o09` -> An :dt:`anonymous type parameter` is an :t:`impl trait type` ascribed to a
+src/types-and-traits.rst:L1372 :dp:`fls_z6t6lbwwztuf` -> An :dt:`anonymous return type` is an :t:`impl trait type` ascribed to a
+src/types-and-traits.rst:L1376 :dp:`fls_3aKZB0ILIkZw` -> An :t:`anonymous return type` is an :t:`impl trait type` ascribed to a
+src/types-and-traits.rst:L1391 :dp:`fls_ECjhEI7eCwAj` -> An :t:`impl trait type` shall not contain :t:`[opt-out trait bound]s`.
+src/types-and-traits.rst:L2222 :dp:`fls_hza5n5eb18ta` -> An :t:`impl trait type` is unifiable only with itself.
+src/types-and-traits.rst:L3612 :dp:`fls_sA4Lqc5o6cX3` -> If no :t:`lifetime bound` is present, the :t:`impl trait type` is not considered
+
+## implementation
+src/associated-items.rst:L32 :dp:`fls_o5ysjk7l91ni` -> :t:`implementation` or a :t:`trait`.
+src/associated-items.rst:L39 :dp:`fls_ckzd25qd213t` -> :t:`implementation` or a :t:`trait`.
+src/associated-items.rst:L115 :dp:`fls_rfaxcrrrb5q9` -> appears within an :t:`implementation`.
+src/associated-items.rst:L119 :dp:`fls_l3iwn56n1uz8` -> appears within an :t:`implementation`.
+src/associated-items.rst:L130 :dp:`fls_7xbmvl3jrc27` -> appears within an :t:`implementation`.
+src/associated-items.rst:L134 :dp:`fls_qb5qpfe0uwk` -> appears within an :t:`implementation`.
+src/associated-items.rst:L144 :dp:`fls_6g5t81gx9ayx` -> within an :t:`implementation`.
+src/associated-items.rst:L148 :dp:`fls_tw8u0cc5867l` -> within an :t:`implementation`.
+src/associated-items.rst:L266 * :dp:`fls_OaszUw4IFobz` -> related :t:`implementation`, or
+src/attributes.rst:L846 :dp:`fls_y1e258p4rby5` -> :t:`implementation`, then the :t:`attribute` applies to all overriding
+src/entities-and-resolution.rst:L583 :dp:`fls_pmo939jw9m1m` -> A :t:`generic parameter` of an :t:`implementation` is :t:`in scope` within the
+src/entities-and-resolution.rst:L667 :dp:`fls_nf4g82gi12ij` -> :c:`Self` of an :t:`implementation` is :t:`in scope` within the related
+src/entities-and-resolution.rst:L804 :dp:`fls_34usianesmf6` -> The :t:`declaration` of an :t:`implementation` introduces a
+src/entities-and-resolution.rst:L1654 * :dp:`fls_z71op1vdnazq` -> within an :t:`implementation`, or
+src/expressions.rst:L3464 :dp:`fls_u9sl7h4i8hqu` -> :std:`core::ops::Index` :t:`implementation` of the :t:`type` of the
+src/generics.rst:L91 :dp:`fls_jic937ujpnar` -> A :dt:`generic implementation` is an :t:`implementation` with
+src/generics.rst:L95 :dp:`fls_z311nxou9yi3` -> A :t:`generic implementation` is an :t:`implementation` with
+src/generics.rst:L202 :dp:`fls_fna0ch8ucyhv` -> A :t:`generic parameter` is said to :dt:`constrain` an :t:`implementation` if
+src/generics.rst:L206 :dp:`fls_hyi2jnp38v1n` -> A :t:`generic parameter` is said to constrain an :t:`implementation` if the
+src/generics.rst:L212 * :dp:`fls_sseo6u6pbcki` -> :t:`implementation`, or
+src/generics.rst:L222 :dp:`fls_ua3w16qo9o4` -> an :t:`implementation` does not constrain the :t:`implementation`.
+src/generics.rst:L225 :dp:`fls_w9ol06mldwb` -> It is a static error if a :t:`lifetime parameter` of an :t:`implementation`
+src/generics.rst:L227 :dp:`fls_w9ol06mldwb` -> :t:`implementation`.
+src/implementations.rst:L40 :dp:`fls_ivxpoxggy7s6` -> An :t:`implementation` is an :t:`item` that supplements an
+src/implementations.rst:L45 :dp:`fls_yopmjbnw8tbl` -> an :t:`implementation` are associated with.
+src/implementations.rst:L48 :dp:`fls_eIHc8Y9fBtr0` -> Within an :t:`implementation`, the :t:`type` :c:`Self` acts as a :t:`type alias`
+src/implementations.rst:L54 :dp:`fls_Mcpdzzcw43M7` -> :t:`[inner doc comment]s` of an :t:`implementation`.
+src/implementations.rst:L57 :dp:`fls_v0n0bna40dqr` -> An :t:`inherent implementation` is an :t:`implementation` that adds direct
+src/implementations.rst:L65 :dp:`fls_ry3an0mwb63g` -> A :t:`trait implementation` is an :t:`implementation` that adds functionality
+src/implementations.rst:L228 * :dp:`fls_11qrqfuc3rmh` -> The :t:`type` of the :t:`associated constant` in the :t:`implementation` is a
+src/types-and-traits.rst:L1382 :dp:`fls_Xo1ODwOyX7Vm` -> or :t:`implementation`.
+src/types-and-traits.rst:L1388 :dp:`fls_kTGFLFymTWch` -> :t:`implementation`.
+src/types-and-traits.rst:L3657 * :dp:`fls_ks8wlufmhz6d` -> :t:`implemented trait` of an :t:`implementation`.
+src/types-and-traits.rst:L3680 :dp:`fls_9q28407ev0a6` -> :t:`implementation`.
+src/types-and-traits.rst:L3833 :dp:`fls_FUdsmzN0T8XP` -> :t:`implementation`.
+src/types-and-traits.rst:L3840 * :dp:`fls_PfS5AlkN6ANl` -> :t:`lifetime parameter` defined on the :t:`implementation`.
+src/types-and-traits.rst:L3844 * :dp:`fls_QV6zE5Mdor5E` -> new :t:`lifetime parameter` defined on the :t:`implementation`.
+src/types-and-traits.rst:L3852 :dp:`fls_MBa35hfS8J9l` -> Given an :t:`implementation` of the form
+
+## implementation body
+src/entities-and-resolution.rst:L584 :dp:`fls_pmo939jw9m1m` -> related :t:`implementation body` and :t:`where clause`.
+src/entities-and-resolution.rst:L668 :dp:`fls_nf4g82gi12ij` -> :t:`[generic parameter]s`, :t:`implementation body`, and :t:`where clause`.
+src/implementations.rst:L52 :dp:`fls_Mcpdzzcw43M7` -> An :t:`implementation body` is a :t:`construct` that encapsulates the
+
+## implementation coherence
+src/implementations.rst:L84 :dp:`fls_z78dg261oob6` -> :t:`[Trait implementation]s` are subject to :t:`implementation coherence` and
+src/implementations.rst:L139 :dp:`fls_fv1l4yjuut7p` -> A :t:`trait implementation` exhibits :t:`implementation coherence` when it is
+src/implementations.rst:L171 :dp:`fls_e0dRD4NTE0UP` -> :t:`implementation coherence` rules are relaxed and the :t:`trait` or :t:`type`
+src/implementations.rst:L176 :dp:`fls_UkQhjEWSJpDq` -> :t:`implementation coherence` rules are relaxed and the :t:`trait` or :t:`type`
+
+[94m[1m| [0m[90m Grep     [0mimmutable variable
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mimmutable
+[94m[1m| [0m[90m Grep     [0mimmutable` when
+[94m[1m| [0m[90m Grep     [0mimmutable`
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[94m[1m| [0m[90m Grep     [0mA :t:`variable`
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for i64
+
+.. glossary-entry:: i64
+   
+   :glossary:
+     :dp:`fls_4bpatxp8yelv`
+     :dc:`i64` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+     :sup:`63`) to 2\ :sup:`63` - 1, all inclusive.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry directive for i128
+
+.. glossary-entry:: i128
+   
+   :glossary:
+     :dp:`fls_p75kpbtonb8z`
+     :dc:`i128` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+     :sup:`127`) to 2\ :sup:`127` - 1, all inclusive.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable raw pointer type
+
+.. glossary-entry:: immutable raw pointer type
+   
+   :glossary:
+     :dp:`fls_2GzYItDXvMhB`
+     An :dt:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``const``.
+   :chapter:
+     :dp:`fls_8uWfFAsZeRCs`
+     An :t:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``const``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for impl trait type
+
+.. glossary-entry:: impl trait type
+   
+   :glossary:
+     :dp:`fls_rdctgmnfncnd`
+     An :dt:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
+     :t:`type` is known at compile time.
+     
+     :dp:`fls_704soar15v8v`
+     See :s:`ImplTraitTypeSpecification`, :s:`ImplTraitTypeSpecificationOneBound`.
+   :chapter:
+     :dp:`fls_a6zlvyxpgsew`
+     An :t:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
+     :t:`type` is known at compile time.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for impl header lifetime elision
+
+.. glossary-entry:: impl header lifetime elision
+   
+   :glossary:
+     :dp:`fls_PvYGu85UAyFb`
+     :dt:`Impl header lifetime elision` is a form of :t:`lifetime elision` that
+     applies to the :t:`implementing type` and :t:`implemented trait` (if any) of an
+     :t:`implementation`.
+   :chapter:
+     :dp:`fls_FUdsmzN0T8XP`
+     :t:`Impl header lifetime elision` is a form of :t:`lifetime elision` that
+     applies to the :t:`implementing type` and :t:`implemented trait` (if any) of an
+     :t:`implementation`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for identifier
+
+.. glossary-entry:: identifier
+   
+   :glossary:
+     :dp:`fls_14zc5bcm9d8o`
+     An :dt:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+     
+     :dp:`fls_oddu2wzhczvq`
+     See :s:`Identifier`.
+   :chapter:
+     :dp:`fls_xsdmun5uqy4c`
+     An :t:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for identifier pattern
+
+.. glossary-entry:: identifier pattern
+   
+   :glossary:
+     :dp:`fls_f2va67gvpqe0`
+     An :dt:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+     matches to a :t:`binding`.
+     
+     :dp:`fls_nxa1gvqgitgk`
+     See :s:`IdentifierPattern`.
+   :chapter:
+     :dp:`fls_uljdw9rf7ies`
+     An :t:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+     matches to a :t:`binding`.
+     
+     .. glossary-entry:: bound pattern
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for identifier pattern with manual chapter lines
+
+/bin/bash: line 1: fls_uljdw9rf7ies: command not found
+/bin/bash: line 1: identifier: command not found
+/bin/bash: line 1: pattern: command not found
+/bin/bash: line 1: value: command not found
+/bin/bash: line 1: binding: command not found
+.. glossary-entry:: identifier pattern
+   
+   :glossary:
+     :dp:`fls_f2va67gvpqe0`
+     An :dt:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+     matches to a :t:`binding`.
+     
+     :dp:`fls_nxa1gvqgitgk`
+     See :s:`IdentifierPattern`.
+   :chapter:
+     :dp:
+     An :t: is a :t: that binds the :t: it
+     matches to a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for identifier pattern (manual chapter lines)
+
+.. glossary-entry:: identifier pattern
+   
+   :glossary:
+     :dp:`fls_f2va67gvpqe0`
+     An :dt:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+     matches to a :t:`binding`.
+     
+     :dp:`fls_nxa1gvqgitgk`
+     See :s:`IdentifierPattern`.
+   :chapter:
+     :dp:`fls_uljdw9rf7ies`
+     An :t:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+     matches to a :t:`binding`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for if expression
+
+.. glossary-entry:: if expression
+   
+   :glossary:
+     :dp:`fls_rk0661mtdvsi`
+     An :dt:`if expression` is an :t:`expression` that evaluates either a
+     :t:`block expression` or an :t:`else expression` depending on the :t:`value`
+     of its :t:`subject expression`.
+     
+     :dp:`fls_gdsufx2ns8bl`
+     See :s:`IfExpression`.
+   :chapter:
+     :dp:`fls_2i4fbxbbvpf1`
+     An :t:`if expression` is an :t:`expression` that evaluates either a
+     :t:`block expression` or an :t:`else expression` depending on the :t:`value` of
+     its :t:`subject expression`.
+     
+     .. glossary-entry:: else expression
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for if expression (manual chapter lines)
+
+.. glossary-entry:: if expression
+   
+   :glossary:
+     :dp:`fls_rk0661mtdvsi`
+     An :dt:`if expression` is an :t:`expression` that evaluates either a
+     :t:`block expression` or an :t:`else expression` depending on the :t:`value`
+     of its :t:`subject expression`.
+     
+     :dp:`fls_gdsufx2ns8bl`
+     See :s:`IfExpression`.
+   :chapter:
+     :dp:`fls_2i4fbxbbvpf1`
+     An :t:`if expression` is an :t:`expression` that evaluates either a
+     :t:`block expression` or an :t:`else expression` depending on the :t:`value` of
+     its :t:`subject expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for if let expression
+
+.. glossary-entry:: if let expression
+   
+   :glossary:
+     :dp:`fls_ky6ng7jy1g6z`
+     An :dt:`if let expression` is an :t:`expression` that evaluates either a
+     :t:`block expression` or an :t:`else expression` depending on whether its
+     :t:`pattern` can be matched against its :t:`subject let expression`.
+     
+     :dp:`fls_kczg3c6n3psu`
+     See :s:`IfLetExpression`.
+   :chapter:
+     :dp:`fls_dsrjup2umr9`
+     An :t:`if let expression` is an :t:`expression` that evaluates either a
+     :t:`block expression` or an :t:`else expression` depending on whether its
+     :t:`pattern` can be matched against its :t:`subject let expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable borrow
+
+.. glossary-entry:: immutable borrow
+   
+   :glossary:
+     :dp:`fls_p0abqkiuk7y9`
+     An :dt:`immutable borrow` is an :t:`immutable reference` produced by
+     :t:`borrowing`.
+   :chapter:
+     :dp:`fls_hyl4bdjbuzbw`
+     An :t:`immutable borrow` is an :t:`immutable reference` produced by
+     :t:`borrowing`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable borrow expression
+
+.. glossary-entry:: immutable borrow expression
+   
+   :glossary:
+     :dp:`fls_dojod5pg4r7l`
+     An :dt:`immutable borrow expression` is a :t:`borrow expression` that lacks
+     :t:`keyword` ``mut``.
+   :chapter:
+     :dp:`fls_r7ix8webgqlm`
+     An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+     :t:`keyword` ``mut``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable place expression
+
+.. glossary-entry:: immutable place expression
+   
+   :glossary:
+     :dp:`fls_MXBEZjzBxw5Z`
+     An :dt:`immutable place expression` is a :t:`place expression` whose memory
+     location cannot be modified.
+   :chapter:
+     :dp:`fls_cPEMHZtPkctX`
+     An :t:`immutable place expression` is a :t:`place expression` whose memory
+     location cannot be modified. All :t:`[place expression]s` that are not
+     :t:`[mutable place expression]s` are :t:`[immutable place expression]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable place expression context
+
+.. glossary-entry:: immutable place expression context
+   
+   :glossary:
+     :dp:`fls_UvrQ49dSoQGc`
+     An :dt:`immutable place expression context` is a :t:`place expression context`
+     whose memory location cannot be modified.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable reference
+
+.. glossary-entry:: immutable reference
+   
+   :glossary:
+     :dp:`fls_u9kne5zfmhoe`
+     An :dt:`immutable reference` is a :t:`value` of a :t:`shared reference type`,
+     and prevents the mutation of its :t:`referent`.
+   :chapter:
+     :dp:`fls_wcf5mxrzbujn`
+     An :t:`immutable reference` is a :t:`value` of a :t:`shared reference type`, and
+     prevents the mutation of its :t:`referent`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable static
+
+.. glossary-entry:: immutable static
+   
+   :glossary:
+     :dp:`fls_eonlhz79ur3d`
+     An :dt:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+   :chapter:
+     :dp:`fls_jfde2vg6mtww`
+     An :t:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable variable
+
+.. glossary-entry:: immutable variable
+   
+   :glossary:
+     :dp:`fls_sdg35i92taip`
+     An :dt:`immutable variable` is a :t:`variable` whose :t:`value` cannot be
+     modified.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for immutable
+
+.. glossary-entry:: immutable
+   
+   :glossary:
+     :dp:`fls_sttdfynyqr5h`
+     A :t:`value` is :dt:`immutable` when it cannot be modified.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for implementation
+
+.. glossary-entry:: implementation
+   
+   :glossary:
+     :dp:`fls_pjulppit1r6`
+     An :dt:`implementation` is an :t:`item` that supplements an
+     :t:`implementing type` by extending its functionality.
+     
+     :dp:`fls_z4ij5skptoay`
+     See :s:`Implementation`.
+   :chapter:
+     :dp:`fls_ivxpoxggy7s6`
+     An :t:`implementation` is an :t:`item` that supplements an
+     :t:`implementing type` by extending its functionality.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for implementation body
+
+.. glossary-entry:: implementation body
+   
+   :glossary:
+     :dp:`fls_1iS30Nv9myEd`
+     An :dt:`implementation body` is a :t:`construct` that encapsulates the
+     :t:`[associated item]s`, :t:`[inner attribute]s`, and
+     :t:`[inner doc comment]s` of an :t:`implementation`.
+     
+     :dp:`fls_u75iHi53PnNP`
+     See :s:`ImplementationBody`.
+   :chapter:
+     :dp:`fls_Mcpdzzcw43M7`
+     An :t:`implementation body` is a :t:`construct` that encapsulates the
+     :t:`[associated item]s`, :t:`[inner attribute]s`, and
+     :t:`[inner doc comment]s` of an :t:`implementation`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for implementation coherence
+
+.. glossary-entry:: implementation coherence
+   
+   :glossary:
+     :dp:`fls_hAmKcuYT9hHi`
+     A :t:`trait implementation` exhibits :dt:`implementation coherence` when it is
+     valid and does not overlap with another :t:`trait implementation`.
+   :chapter:
+     :dp:`fls_fv1l4yjuut7p`
+     A :t:`trait implementation` exhibits :t:`implementation coherence` when it is
+     valid and does not overlap with another :t:`trait implementation`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/implementations.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output from directives
+[91m[1m| [0m[90m Bash     [0mCompare generated glossary with static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff matches baseline
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow git status summary
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 3]
+ M src/expressions.rst
+ M src/implementations.rst
+ M src/lexical-elements.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow working tree status
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 3]
+ M src/expressions.rst
+ M src/implementations.rst
+ M src/lexical-elements.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged changes
+
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 627ab19..dd815b7 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -528,10 +528,17 @@ location can be modified. The following :t:`[place expression]s` are
+ * :dp:`fls_dcm3yr3y9y0a`
+   A :t:`temporary`.
+ 
+-:dp:`fls_cPEMHZtPkctX`
+-An :t:`immutable place expression` is a :t:`place expression` whose memory
+-location cannot be modified. All :t:`[place expression]s` that are not
+-:t:`[mutable place expression]s` are :t:`[immutable place expression]s`.
++.. glossary-entry:: immutable place expression
++   
++   :glossary:
++     :dp:`fls_MXBEZjzBxw5Z`
++     An :dt:`immutable place expression` is a :t:`place expression` whose memory
++     location cannot be modified.
++   :chapter:
++     :dp:`fls_cPEMHZtPkctX`
++     An :t:`immutable place expression` is a :t:`place expression` whose memory
++     location cannot be modified. All :t:`[place expression]s` that are not
++     :t:`[mutable place expression]s` are :t:`[immutable place expression]s`.
+ 
+ :dp:`fls_4vxi1ji93dxb`
+ A :t:`place expression context` is a :t:`construct` that may evaluate its
+@@ -575,6 +582,13 @@ The following :t:`[construct]s` are :t:`[place expression context]s`:
+ * :dp:`fls_JBfZuFDQg3mU`
+   The :t:`base initializer` of a :t:`struct expression`.
+ 
++.. glossary-entry:: immutable place expression context
++   
++   :glossary:
++     :dp:`fls_UvrQ49dSoQGc`
++     An :dt:`immutable place expression context` is a :t:`place expression context`
++     whose memory location cannot be modified.
++
+ :dp:`fls_wxGAOWEVT77u`
+ A :t:`mutable place expression context` is a :t:`place expression context` that
+ may evaluate its :t:`operand` as a mutable memory location. The following
+@@ -1073,9 +1087,16 @@ Borrow Expression
+      its :t:`operand` and creates a :t:`reference` to the memory location of its
+      :t:`operand`.
+ 
+-:dp:`fls_r7ix8webgqlm`
+-An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+-:t:`keyword` ``mut``.
++.. glossary-entry:: immutable borrow expression
++   
++   :glossary:
++     :dp:`fls_dojod5pg4r7l`
++     An :dt:`immutable borrow expression` is a :t:`borrow expression` that lacks
++     :t:`keyword` ``mut``.
++   :chapter:
++     :dp:`fls_r7ix8webgqlm`
++     An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
++     :t:`keyword` ``mut``.
+ 
+ :dp:`fls_50j167r4v61b`
+ A :t:`mutable borrow expression` is a :t:`borrow expression` that has
+@@ -5154,10 +5175,21 @@ If Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_2i4fbxbbvpf1`
+-An :t:`if expression` is an :t:`expression` that evaluates either a
+-:t:`block expression` or an :t:`else expression` depending on the :t:`value` of
+-its :t:`subject expression`.
++.. glossary-entry:: if expression
++   
++   :glossary:
++     :dp:`fls_rk0661mtdvsi`
++     An :dt:`if expression` is an :t:`expression` that evaluates either a
++     :t:`block expression` or an :t:`else expression` depending on the :t:`value`
++     of its :t:`subject expression`.
++     
++     :dp:`fls_gdsufx2ns8bl`
++     See :s:`IfExpression`.
++   :chapter:
++     :dp:`fls_2i4fbxbbvpf1`
++     An :t:`if expression` is an :t:`expression` that evaluates either a
++     :t:`block expression` or an :t:`else expression` depending on the :t:`value` of
++     its :t:`subject expression`.
+ 
+ .. glossary-entry:: else expression
+    
+@@ -5247,10 +5279,21 @@ If Let Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_dsrjup2umr9`
+-An :t:`if let expression` is an :t:`expression` that evaluates either a
+-:t:`block expression` or an :t:`else expression` depending on whether its
+-:t:`pattern` can be matched against its :t:`subject let expression`.
++.. glossary-entry:: if let expression
++   
++   :glossary:
++     :dp:`fls_ky6ng7jy1g6z`
++     An :dt:`if let expression` is an :t:`expression` that evaluates either a
++     :t:`block expression` or an :t:`else expression` depending on whether its
++     :t:`pattern` can be matched against its :t:`subject let expression`.
++     
++     :dp:`fls_kczg3c6n3psu`
++     See :s:`IfLetExpression`.
++   :chapter:
++     :dp:`fls_dsrjup2umr9`
++     An :t:`if let expression` is an :t:`expression` that evaluates either a
++     :t:`block expression` or an :t:`else expression` depending on whether its
++     :t:`pattern` can be matched against its :t:`subject let expression`.
+ 
+ :dp:`fls_okVOYzTT6fBK`
+ The :t:`expected type` of the :t:`pattern` is the :t:`type` of the :t:`subject let expression`.
+diff --git a/src/implementations.rst b/src/implementations.rst
+index 6b36687..80215e7 100644
+--- a/src/implementations.rst
++++ b/src/implementations.rst
+@@ -36,9 +36,19 @@ Implementations
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ivxpoxggy7s6`
+-An :t:`implementation` is an :t:`item` that supplements an
+-:t:`implementing type` by extending its functionality.
++.. glossary-entry:: implementation
++   
++   :glossary:
++     :dp:`fls_pjulppit1r6`
++     An :dt:`implementation` is an :t:`item` that supplements an
++     :t:`implementing type` by extending its functionality.
++     
++     :dp:`fls_z4ij5skptoay`
++     See :s:`Implementation`.
++   :chapter:
++     :dp:`fls_ivxpoxggy7s6`
++     An :t:`implementation` is an :t:`item` that supplements an
++     :t:`implementing type` by extending its functionality.
+ 
+ :dp:`fls_yopmjbnw8tbl`
+ An :t:`implementing type` is the :t:`type` that the :t:`[associated item]s` of
+@@ -48,10 +58,21 @@ an :t:`implementation` are associated with.
+ Within an :t:`implementation`, the :t:`type` :c:`Self` acts as a :t:`type alias`
+ for the :t:`implementing type`.
+ 
+-:dp:`fls_Mcpdzzcw43M7`
+-An :t:`implementation body` is a :t:`construct` that encapsulates the
+-:t:`[associated item]s`, :t:`[inner attribute]s`, and
+-:t:`[inner doc comment]s` of an :t:`implementation`.
++.. glossary-entry:: implementation body
++   
++   :glossary:
++     :dp:`fls_1iS30Nv9myEd`
++     An :dt:`implementation body` is a :t:`construct` that encapsulates the
++     :t:`[associated item]s`, :t:`[inner attribute]s`, and
++     :t:`[inner doc comment]s` of an :t:`implementation`.
++     
++     :dp:`fls_u75iHi53PnNP`
++     See :s:`ImplementationBody`.
++   :chapter:
++     :dp:`fls_Mcpdzzcw43M7`
++     An :t:`implementation body` is a :t:`construct` that encapsulates the
++     :t:`[associated item]s`, :t:`[inner attribute]s`, and
++     :t:`[inner doc comment]s` of an :t:`implementation`.
+ 
+ :dp:`fls_v0n0bna40dqr`
+ An :t:`inherent implementation` is an :t:`implementation` that adds direct
+@@ -135,9 +156,16 @@ Implementation Coherence
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fv1l4yjuut7p`
+-A :t:`trait implementation` exhibits :t:`implementation coherence` when it is
+-valid and does not overlap with another :t:`trait implementation`.
++.. glossary-entry:: implementation coherence
++   
++   :glossary:
++     :dp:`fls_hAmKcuYT9hHi`
++     A :t:`trait implementation` exhibits :dt:`implementation coherence` when it is
++     valid and does not overlap with another :t:`trait implementation`.
++   :chapter:
++     :dp:`fls_fv1l4yjuut7p`
++     A :t:`trait implementation` exhibits :t:`implementation coherence` when it is
++     valid and does not overlap with another :t:`trait implementation`.
+ 
+ :dp:`fls_swdusjwzgksx`
+ Two :t:`[trait implementation]s` of the same :t:`implemented trait` overlap when
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index e071f20..5c82c4a 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -474,8 +474,17 @@ except ``crate``, ``self``, ``Self``, and ``super``.
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_xsdmun5uqy4c`
+-An :t:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
++.. glossary-entry:: identifier
++   
++   :glossary:
++     :dp:`fls_14zc5bcm9d8o`
++     An :dt:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
++     
++     :dp:`fls_oddu2wzhczvq`
++     See :s:`Identifier`.
++   :chapter:
++     :dp:`fls_xsdmun5uqy4c`
++     An :t:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+ 
+ :dp:`fls_ktnf6zkrdy45`
+ A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index fec8a00..f01c554 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -117,9 +117,16 @@ a :t:`reference` to it is :t:`active`.
+ A :t:`referent` shall not be modified while a :t:`reference` to it is
+ :t:`active`.
+ 
+-:dp:`fls_wcf5mxrzbujn`
+-An :t:`immutable reference` is a :t:`value` of a :t:`shared reference type`, and
+-prevents the mutation of its :t:`referent`.
++.. glossary-entry:: immutable reference
++   
++   :glossary:
++     :dp:`fls_u9kne5zfmhoe`
++     An :dt:`immutable reference` is a :t:`value` of a :t:`shared reference type`,
++     and prevents the mutation of its :t:`referent`.
++   :chapter:
++     :dp:`fls_wcf5mxrzbujn`
++     An :t:`immutable reference` is a :t:`value` of a :t:`shared reference type`, and
++     prevents the mutation of its :t:`referent`.
+ 
+ :dp:`fls_fckoj1jh5mrc`
+ A :t:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
+@@ -203,9 +210,16 @@ program text. An :t:`implicit borrow` occurs in the following contexts:
+ An :t:`implicit borrow` may be an :t:`immutable borrow` or a :t:`mutable borrow`
+ if required.
+ 
+-:dp:`fls_hyl4bdjbuzbw`
+-An :t:`immutable borrow` is an :t:`immutable reference` produced by
+-:t:`borrowing`.
++.. glossary-entry:: immutable borrow
++   
++   :glossary:
++     :dp:`fls_p0abqkiuk7y9`
++     An :dt:`immutable borrow` is an :t:`immutable reference` produced by
++     :t:`borrowing`.
++   :chapter:
++     :dp:`fls_hyl4bdjbuzbw`
++     An :t:`immutable borrow` is an :t:`immutable reference` produced by
++     :t:`borrowing`.
+ 
+ :dp:`fls_pu19i4sj6yg0`
+ A :t:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 83f0deb..b93c927 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -150,9 +150,19 @@ Identifier Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_uljdw9rf7ies`
+-An :t:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+-matches to a :t:`binding`.
++.. glossary-entry:: identifier pattern
++   
++   :glossary:
++     :dp:`fls_f2va67gvpqe0`
++     An :dt:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
++     matches to a :t:`binding`.
++     
++     :dp:`fls_nxa1gvqgitgk`
++     See :s:`IdentifierPattern`.
++   :chapter:
++     :dp:`fls_uljdw9rf7ies`
++     An :t:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
++     matches to a :t:`binding`.
+ 
+ .. glossary-entry:: bound pattern
+    
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 475de07..13eff2c 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -518,6 +518,20 @@ domain of whole numbers:
+      :dc:`i32` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+      :sup:`31`) to 2\ :sup:`31` - 1, all inclusive.
+ 
++.. glossary-entry:: i64
++   
++   :glossary:
++     :dp:`fls_4bpatxp8yelv`
++     :dc:`i64` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
++     :sup:`63`) to 2\ :sup:`63` - 1, all inclusive.
++
++.. glossary-entry:: i128
++   
++   :glossary:
++     :dp:`fls_p75kpbtonb8z`
++     :dc:`i128` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
++     :sup:`127`) to 2\ :sup:`127` - 1, all inclusive.
++
+ :dp:`fls_t9oyfmgqka6u`
+ :t:`Type` :c:`isize` has the same number of bits as the platform's
+ :t:`pointer type`, and is at least 16-bits wide.
+@@ -1242,9 +1256,16 @@ A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
+ A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+ :t:`keyword` ``mut``.
+ 
+-:dp:`fls_8uWfFAsZeRCs`
+-An :t:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+-:t:`keyword` ``const``.
++.. glossary-entry:: immutable raw pointer type
++   
++   :glossary:
++     :dp:`fls_2GzYItDXvMhB`
++     An :dt:`immutable raw pointer type` is a :t:`raw pointer type` subject to
++     :t:`keyword` ``const``.
++   :chapter:
++     :dp:`fls_8uWfFAsZeRCs`
++     An :t:`immutable raw pointer type` is a :t:`raw pointer type` subject to
++     :t:`keyword` ``const``.
+ 
+ :dp:`fls_hrum767l6dte`
+ Comparing two :t:`[value]s` of :t:`[raw pointer type]s` compares the addresses
+@@ -1350,9 +1371,19 @@ Impl Trait Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_a6zlvyxpgsew`
+-An :t:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
+-:t:`type` is known at compile time.
++.. glossary-entry:: impl trait type
++   
++   :glossary:
++     :dp:`fls_rdctgmnfncnd`
++     An :dt:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
++     :t:`type` is known at compile time.
++     
++     :dp:`fls_704soar15v8v`
++     See :s:`ImplTraitTypeSpecification`, :s:`ImplTraitTypeSpecificationOneBound`.
++   :chapter:
++     :dp:`fls_a6zlvyxpgsew`
++     An :t:`impl trait type` is a :t:`type` that implements a :t:`trait`, where the
++     :t:`type` is known at compile time.
+ 
+ :dp:`fls_ieyqx5vzas2m`
+ An :t:`impl trait type` shall appear only within a :t:`function parameter` or
+@@ -3827,10 +3858,18 @@ Impl Header Lifetime Elision
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_FUdsmzN0T8XP`
+-:t:`Impl header lifetime elision` is a form of :t:`lifetime elision` that
+-applies to the :t:`implementing type` and :t:`implemented trait` (if any) of an
+-:t:`implementation`.
++.. glossary-entry:: impl header lifetime elision
++   
++   :glossary:
++     :dp:`fls_PvYGu85UAyFb`
++     :dt:`Impl header lifetime elision` is a form of :t:`lifetime elision` that
++     applies to the :t:`implementing type` and :t:`implemented trait` (if any) of an
++     :t:`implementation`.
++   :chapter:
++     :dp:`fls_FUdsmzN0T8XP`
++     :t:`Impl header lifetime elision` is a form of :t:`lifetime elision` that
++     applies to the :t:`implementing type` and :t:`implemented trait` (if any) of an
++     :t:`implementation`.
+ 
+ :dp:`fls_3p5BdLn3JbKz`
+ The :t:`impl header lifetime elision` rules are as follows:
+diff --git a/src/values.rst b/src/values.rst
+index e0267c9..fa66744 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -14,6 +14,12 @@ Values
+ A :t:`value` is either a :t:`literal` or the result of a computation, that may
+ be stored in a memory location, and interpreted based on some :t:`type`.
+ 
++.. glossary-entry:: immutable
++   
++   :glossary:
++     :dp:`fls_sttdfynyqr5h`
++     A :t:`value` is :dt:`immutable` when it cannot be modified.
++
+ :dp:`fls_CUJyMj0Sj8NS`
+ An :dt:`allocated object` is a :t:`value` stored at some memory address.
+ 
+@@ -196,8 +202,14 @@ A :t:`mutable static` is a :t:`static` with :t:`keyword` ``mut`` whose
+ :dp:`fls_74hp208pto22`
+ Access to a :t:`mutable static` shall require :t:`unsafe context`.
+ 
+-:dp:`fls_jfde2vg6mtww`
+-An :t:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
++.. glossary-entry:: immutable static
++   
++   :glossary:
++     :dp:`fls_eonlhz79ur3d`
++     An :dt:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
++   :chapter:
++     :dp:`fls_jfde2vg6mtww`
++     An :t:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+ 
+ :dp:`fls_k4tyqb1j6zjo`
+ The type of an :t:`immutable static` shall implement the
+@@ -268,6 +280,13 @@ Variables
+ A :t:`variable` is a placeholder for a :t:`value` that is allocated on the
+ stack.
+ 
++.. glossary-entry:: immutable variable
++   
++   :glossary:
++     :dp:`fls_sdg35i92taip`
++     An :dt:`immutable variable` is a :t:`variable` whose :t:`value` cannot be
++     modified.
++
+ :dp:`fls_vgi0gh5zmoiu`
+ The following :t:`[construct]s` are :t:`[variable]s`:
+ 
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+90e1385 docs(glossary): migrate batch 13 entries
+5c37a48 docs(glossary): migrate batch 12 entries
+200bda3 docs(glossary): migrate batch 11 entries
+862a461 docs(glossary): migrate batch 10 entries
+9a978c3 docs(glossary): migrate batch 09 entries
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration updates
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch 14
+
+[glossary-single-source-phase1 d9a148b] docs(glossary): migrate batch 14 entries
+ 7 files changed, 210 insertions(+), 48 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShow status after commit
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 4]
+
+Updated the next 20 glossary terms into `.. glossary-entry::` directives across the relevant chapters, including glossary-only entries where no chapter definition exists. Updated the checklist and term-map in $OPENCODE_CONFIG_DIR, and verified the generated glossary and HTML diffs are clean.
+
+Files updated:
+- `src/types-and-traits.rst`
+- `src/lexical-elements.rst`
+- `src/patterns.rst`
+- `src/expressions.rst`
+- `src/ownership-and-deconstruction.rst`
+- `src/values.rst`
+- `src/implementations.rst`
+
+Commands run:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit:
+- `docs(glossary): migrate batch 14 entries`
+
+Next steps:
+1. Push the branch to your fork.
+2. Continue with the next 20 unchecked terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

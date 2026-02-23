@@ -1,0 +1,32 @@
+{
+  "wave": "WB",
+  "commit_hash": "63675ef2e903e465618ce0f58a45874e945a4b57",
+  "term_count": 10,
+  "checklist_ids": [
+    "WB-001",
+    "WB-004",
+    "WB-014",
+    "WB-032",
+    "WB-035",
+    "WB-061",
+    "WB-065",
+    "WB-068",
+    "WB-076",
+    "WB-078"
+  ],
+  "terms": [
+    "field list",
+    "generic function",
+    "floating-point type",
+    "irrefutable pattern",
+    "implementation body",
+    "inherent implementation",
+    "implicit borrow",
+    "future",
+    "immutable reference",
+    "external static"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 10
+  }
+}

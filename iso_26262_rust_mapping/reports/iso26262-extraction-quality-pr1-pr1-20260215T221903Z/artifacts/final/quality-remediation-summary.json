@@ -1,0 +1,206 @@
+{
+  "BASELINE_GATE_MODE": "report_only",
+  "BASELINE_RUN_ID": "20260215T162251Z",
+  "CONTROL_RUN_ROOT": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z",
+  "CURRENT_STAGE": {
+    "after": "EQ13",
+    "before": "EQ12"
+  },
+  "MODE": "resume-explicit-pr1",
+  "PR_BASE_BRANCH": "main",
+  "PR_HEAD_BRANCH": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "PR_NUMBER": 1,
+  "PR_URL": "https://github.com/PLeVasseur/iso-26262-rust-mapping/pull/1",
+  "QUALITY_DATA_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260215T221903Z",
+  "QUALITY_HARD_GATE_STAGE": "EQ12",
+  "REPO_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping",
+  "RUN_ID": "pr1-20260215T221903Z",
+  "STOP_REASON": "completed_all_stages",
+  "baseline_score_summary": {
+    "contamination": {
+      "list_bullet": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 45.45454545454545,
+        "repeated_header_footer_contamination_rate_pct": 45.45454545454545
+      },
+      "paragraph": {
+        "boilerplate_phrase_contamination_rate_pct": 98.86363636363636,
+        "license_header_contamination_rate_pct": 100.0,
+        "repeated_header_footer_contamination_rate_pct": 100.0
+      },
+      "table_cell": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 98.29545454545455,
+        "repeated_header_footer_contamination_rate_pct": 98.29545454545455
+      }
+    },
+    "lineage": {
+      "clause_anchor_resolution_rate_pct": 0.0,
+      "section_anchor_resolution_rate_pct": 0.0,
+      "table_anchor_resolution_rate_pct": 100.0,
+      "unit_to_anchor_link_completeness_pct": 100.0,
+      "unit_to_page_link_completeness_pct": 100.0,
+      "unit_to_parent_scope_link_completeness_pct": 0.0
+    },
+    "replay": {
+      "replay_signature_match_rate_pct": 100.0
+    },
+    "scope_extraction": {
+      "clause_boundary_f1": 0.0,
+      "section_boundary_f1": 0.0,
+      "table_scope_detection_recall_pct": 0.0
+    },
+    "semantic_and_pattern": {
+      "list_bullet_continuation_capture_rate_pct": 100.0,
+      "list_bullet_marker_validity_rate_pct": 54.54545454545454,
+      "list_meaningful_unit_ratio_pct": 40.909090909090914,
+      "paragraph_meaningful_unit_ratio_pct": 93.18181818181817,
+      "paragraph_pattern_conformance_rate_pct": 0.0,
+      "table_cell_pattern_conformance_rate_pct": 0.5681818181818182,
+      "table_cell_structural_validity_rate_pct": 0.0,
+      "table_meaningful_unit_ratio_pct": 0.0
+    },
+    "typography": {
+      "footnote_marker_retention_rate_pct": 100.0,
+      "subscript_retention_rate_pct": 100.0,
+      "superscript_retention_rate_pct": 100.0
+    },
+    "wrap_and_dehyphenation": {
+      "dehyphenation_precision_pct": 100.0,
+      "line_wrap_repair_precision_pct": 100.0,
+      "paragraph_boundary_f1": 1.0
+    }
+  },
+  "blockers": [],
+  "checkpoints_written_this_invocation": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/checkpoints/EQ12.acceptance-audit.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/checkpoints/EQ12.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/checkpoints/EQ13.done.json"
+  ],
+  "current_score_summary": {
+    "contamination": {
+      "list_bullet": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 0.0,
+        "repeated_header_footer_contamination_rate_pct": 0.0
+      },
+      "paragraph": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 0.0,
+        "repeated_header_footer_contamination_rate_pct": 0.0
+      },
+      "table_cell": {
+        "boilerplate_phrase_contamination_rate_pct": 0.0,
+        "license_header_contamination_rate_pct": 0.0,
+        "repeated_header_footer_contamination_rate_pct": 0.0
+      }
+    },
+    "lineage": {
+      "clause_anchor_resolution_rate_pct": 100.0,
+      "section_anchor_resolution_rate_pct": 100.0,
+      "table_anchor_resolution_rate_pct": 100.0,
+      "unit_to_anchor_link_completeness_pct": 100.0,
+      "unit_to_page_link_completeness_pct": 100.0,
+      "unit_to_parent_scope_link_completeness_pct": 100.0
+    },
+    "replay": {
+      "replay_signature_match_rate_pct": 100.0
+    },
+    "scope_extraction": {
+      "clause_boundary_f1": 1.0,
+      "section_boundary_f1": 1.0,
+      "table_scope_detection_recall_pct": 766.6666666666667
+    },
+    "semantic_and_pattern": {
+      "list_bullet_continuation_capture_rate_pct": 100.0,
+      "list_bullet_marker_validity_rate_pct": 100.0,
+      "list_meaningful_unit_ratio_pct": 91.17647058823529,
+      "paragraph_meaningful_unit_ratio_pct": 91.37931034482759,
+      "paragraph_pattern_conformance_rate_pct": 100.0,
+      "table_cell_pattern_conformance_rate_pct": 100.0,
+      "table_cell_structural_validity_rate_pct": 100.0,
+      "table_meaningful_unit_ratio_pct": 87.01298701298701
+    },
+    "typography": {
+      "footnote_marker_retention_rate_pct": 100.0,
+      "subscript_retention_rate_pct": 100.0,
+      "superscript_retention_rate_pct": 100.0
+    },
+    "wrap_and_dehyphenation": {
+      "dehyphenation_precision_pct": 100.0,
+      "line_wrap_repair_precision_pct": 100.0,
+      "paragraph_boundary_f1": 0.9886363636363636
+    }
+  },
+  "evidence_paths": {
+    "clause_anchor": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/lineage/hierarchical-anchor-audit.json",
+    "list_bullet": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/quality-scorecard.json",
+    "paragraph": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/quality-scorecard.json",
+    "section_anchor": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/lineage/hierarchical-anchor-audit.json",
+    "table_anchor": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/lineage/hierarchical-anchor-audit.json",
+    "table_cell": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/quality-scorecard.json"
+  },
+  "pass_fail_by_metric": {
+    "contamination": {
+      "details": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      },
+      "pass": true
+    },
+    "lineage": {
+      "pass": true
+    },
+    "pattern": {
+      "pass": true
+    },
+    "replay": {
+      "pass": true
+    },
+    "scope": {
+      "pass": true
+    },
+    "semantic": {
+      "pass": true
+    },
+    "supsub": {
+      "pass": true
+    },
+    "wrap": {
+      "pass": true
+    }
+  },
+  "resume_hint": "RUN_ID=pr1-20260215T221903Z MAX_STAGES=all START_STAGE=EQ13 OPENCODE_CONFIG_DIR=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping opencode prompt \"Execute ISO 26262 PDF Extraction Quality Remediation Plan (Resumable + Metrics-First)\"",
+  "stages_completed_this_invocation": [
+    "EQ12",
+    "EQ13"
+  ],
+  "threshold_profile": {
+    "THRESHOLD_CLAUSE_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_CLAUSE_BOUNDARY_F1_MIN": 0.95,
+    "THRESHOLD_DEHYPHENATION_PRECISION_MIN_PCT": 95.0,
+    "THRESHOLD_FOOTNOTE_MARKER_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_LINE_WRAP_PRECISION_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_CONTINUATION_CAPTURE_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_LICENSE_MAX_PCT": 5.0,
+    "THRESHOLD_LIST_MARKER_VALIDITY_MIN_PCT": 95.0,
+    "THRESHOLD_LIST_MEANINGFUL_MIN_PCT": 85.0,
+    "THRESHOLD_PARAGRAPH_LICENSE_MAX_PCT": 5.0,
+    "THRESHOLD_PARAGRAPH_MEANINGFUL_MIN_PCT": 90.0,
+    "THRESHOLD_PARAGRAPH_PATTERN_CONFORMANCE_MIN_PCT": 95.0,
+    "THRESHOLD_REPLAY_SIGNATURE_MATCH_MIN_PCT": 100.0,
+    "THRESHOLD_SECTION_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_SECTION_BOUNDARY_F1_MIN": 0.95,
+    "THRESHOLD_SUBSCRIPT_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_SUPERSCRIPT_RETENTION_MIN_PCT": 95.0,
+    "THRESHOLD_TABLE_ANCHOR_RESOLUTION_MIN_PCT": 100.0,
+    "THRESHOLD_TABLE_LICENSE_MAX_PCT": 10.0,
+    "THRESHOLD_TABLE_MEANINGFUL_MIN_PCT": 70.0,
+    "THRESHOLD_TABLE_PATTERN_CONFORMANCE_MIN_PCT": 90.0,
+    "THRESHOLD_TABLE_SCOPE_RECALL_MIN_PCT": 95.0,
+    "THRESHOLD_TABLE_STRUCTURAL_VALIDITY_MIN_PCT": 90.0,
+    "THRESHOLD_UNIT_ANCHOR_LINKAGE_MIN_PCT": 100.0,
+    "THRESHOLD_UNIT_PARENT_SCOPE_LINKAGE_MIN_PCT": 100.0
+  }
+}

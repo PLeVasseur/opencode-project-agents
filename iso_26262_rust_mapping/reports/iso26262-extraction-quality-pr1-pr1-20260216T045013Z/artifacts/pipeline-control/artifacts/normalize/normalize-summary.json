@@ -1,0 +1,103 @@
+{
+  "coverage": {
+    "P06": {
+      "coverage_ratio": 1.0,
+      "pages_seen": 66,
+      "unit_counts": {
+        "list_bullet": 374,
+        "paragraph": 355,
+        "table_cell": 261
+      },
+      "unit_type_presence": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      }
+    },
+    "P08": {
+      "coverage_ratio": 1.0,
+      "pages_seen": 72,
+      "unit_counts": {
+        "list_bullet": 404,
+        "paragraph": 473,
+        "table_cell": 111
+      },
+      "unit_type_presence": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      }
+    },
+    "P09": {
+      "coverage_ratio": 1.0,
+      "pages_seen": 38,
+      "unit_counts": {
+        "list_bullet": 167,
+        "paragraph": 193,
+        "table_cell": 65
+      },
+      "unit_type_presence": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      }
+    }
+  },
+  "line_reconstruction": {
+    "dehyphenation_attempts": 101,
+    "dehyphenation_success": 101,
+    "line_wrap_attempts": 1647,
+    "line_wrap_success": 1647
+  },
+  "qa_unresolved_count": 0,
+  "query_source_row_count": 2403,
+  "run_id": "pr1-20260216T045013Z",
+  "scope_boundaries": {
+    "clause": 732,
+    "section": 825,
+    "table": 41
+  },
+  "scope_boundaries_by_part": {
+    "P06": {
+      "clause": 178,
+      "section": 207,
+      "table": 22
+    },
+    "P08": {
+      "clause": 441,
+      "section": 485,
+      "table": 14
+    },
+    "P09": {
+      "clause": 113,
+      "section": 133,
+      "table": 5
+    }
+  },
+  "scope_opportunities": {
+    "clause": 732,
+    "section": 825,
+    "table": 81
+  },
+  "scope_opportunities_by_part": {
+    "P06": {
+      "clause": 178,
+      "section": 207,
+      "table": 41
+    },
+    "P08": {
+      "clause": 441,
+      "section": 485,
+      "table": 27
+    },
+    "P09": {
+      "clause": 113,
+      "section": 133,
+      "table": 13
+    }
+  },
+  "timestamp_utc": "2026-02-16T04:50:38Z",
+  "unit_count": 2403,
+  "unit_slice_count": 2403,
+  "unit_text_link_count": 2403
+}

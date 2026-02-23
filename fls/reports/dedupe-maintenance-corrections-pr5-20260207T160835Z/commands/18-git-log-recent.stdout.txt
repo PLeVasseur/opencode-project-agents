@@ -1,0 +1,8 @@
+0165ee6 fix(paragraph-ids): deduplicate reused glossary IDs
+f1b193f Merge pull request #654 from kirtchev-adacore/fls-646-stabilize-c-style-variadic-function-declarations
+360bbdd Merge pull request #636 from rust-lang/tshepang/packed-takes-an-arg
+160f4b9 [Change]: [1.93] Stabilize ABI of C-style variadic function declarations
+a67ffe5 repr(packed) can take arguments
+eaafc97 Merge pull request #639 from rust-lang/tshepang-patch-1
+d4755b3 Merge pull request #651 from kirtchev-adacore/fls-650-allow-const-items-with-mutable-refs-to-statics
+d5d0d6c [Change]: [1.93] Allow const items with mutable refs to statics

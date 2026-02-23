@@ -1,0 +1,104 @@
+Running Sphinx v8.1.3
+loading translations [en]... done
+loading pickled environment... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 0 source files that are out of date
+updating environment: 0 added, 0 changed, 0 removed
+
+looking for now-outdated files... 5 found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls-wt/step1/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls-wt/step1/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls-wt/step1/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [ 20%] changelog
+writing output... [ 40%] glossary
+writing output... [ 60%] index
+writing output... [ 80%] licenses
+writing output... [100%] undefined-behavior
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /home/pete.levasseur/project/fls-wt/step1/.linkchecker/.git/
+From https://github.com/rust-lang/rust
+ * branch            main       -> FETCH_HEAD
+ * [new branch]      main       -> origin/main
+Switched to a new branch 'main'
+branch 'main' set up to track 'origin/main'.
+    Updating crates.io index
+     Locking 42 packages to latest Rust 1.92.0 compatible versions
+      Adding html5ever v0.29.1 (available: v0.38.0)
+ Downloading crates ...
+  Downloaded libc v0.2.181
+   Compiling proc-macro2 v1.0.106
+   Compiling quote v1.0.44
+   Compiling unicode-ident v1.0.23
+   Compiling rand_core v0.6.4
+   Compiling siphasher v1.0.2
+   Compiling libc v0.2.181
+   Compiling parking_lot_core v0.9.12
+   Compiling serde_core v1.0.228
+   Compiling smallvec v1.15.1
+   Compiling scopeguard v1.2.0
+   Compiling cfg-if v1.0.4
+   Compiling serde v1.0.228
+   Compiling new_debug_unreachable v1.0.6
+   Compiling mac v0.1.1
+   Compiling precomputed-hash v0.1.1
+   Compiling futf v0.1.5
+   Compiling utf-8 v0.7.6
+   Compiling memchr v2.8.0
+   Compiling regex-syntax v0.8.9
+   Compiling lock_api v0.4.14
+   Compiling log v0.4.29
+   Compiling rand v0.8.5
+   Compiling phf_shared v0.11.3
+   Compiling tendril v0.4.3
+   Compiling urlencoding v2.1.3
+   Compiling aho-corasick v1.1.4
+   Compiling phf v0.11.3
+   Compiling phf_generator v0.11.3
+   Compiling phf_codegen v0.11.3
+   Compiling string_cache_codegen v0.5.4
+   Compiling parking_lot v0.12.5
+   Compiling syn v2.0.114
+   Compiling regex-automata v0.4.14
+   Compiling markup5ever v0.14.1
+   Compiling string_cache v0.8.9
+   Compiling regex v1.12.3
+   Compiling match_token v0.1.0
+   Compiling html5ever v0.29.1
+   Compiling linkchecker v0.1.0 (/home/pete.levasseur/project/fls-wt/step1/.linkchecker/src/tools/linkchecker)
+    Finished `release` profile [optimized] target(s) in 27.16s
+checked links in: 0.2s
+number of HTML files scanned: 30
+number of HTML redirects found: 0
+number of links checked: 15951
+number of links ignored due to external: 482
+number of links ignored due to exceptions: 0
+number of intra doc links ignored: 0
+errors found: 0

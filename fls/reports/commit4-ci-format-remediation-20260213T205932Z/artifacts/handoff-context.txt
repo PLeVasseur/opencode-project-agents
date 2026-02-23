@@ -1,0 +1,5 @@
+timestamp_utc: 2026-02-13T21:00:03Z
+head_sha: 1132eb4c632c0d1b65bc7000d9bced2fca3842bd
+origin_branch_sha: 1132eb4c632c0d1b65bc7000d9bced2fca3842bd
+upstream_main_pin: fb8a46795eda1f1db5e3232002fd94a270bfbffd
+branch: glossary-single-source-phase1-repack-upstream-main

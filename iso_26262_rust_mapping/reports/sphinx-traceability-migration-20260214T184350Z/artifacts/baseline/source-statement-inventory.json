@@ -1,0 +1,272 @@
+{
+  "generated_at_utc": "2026-02-14T19:26:12Z",
+  "narrative": {
+    "heading_count": 60,
+    "legacy_tokens": {
+      "blank": 25,
+      "page_break": 2,
+      "table_placeholder": 26
+    },
+    "list_item_count": 21,
+    "paragraph_block_count": 101,
+    "path": "src/iso26262_rust_mapping.md",
+    "trace_roles": {
+      "dp_role_count": 0,
+      "ts_role_count": 0
+    }
+  },
+  "run_id": "20260214T184350Z",
+  "tables": {
+    "items": [
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 21,
+        "row_count": 7,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-01.yaml",
+        "table_id": "table-01"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 5,
+        "non_empty_cell_entries": 45,
+        "row_count": 9,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-02.yaml",
+        "table_id": "table-02"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 12,
+        "row_count": 4,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-03.yaml",
+        "table_id": "table-03"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 5,
+        "non_empty_cell_entries": 45,
+        "row_count": 9,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-04.yaml",
+        "table_id": "table-04"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 32,
+        "row_count": 8,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-05.yaml",
+        "table_id": "table-05"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 5,
+        "non_empty_cell_entries": 50,
+        "row_count": 10,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-06.yaml",
+        "table_id": "table-06"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 44,
+        "row_count": 11,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-07.yaml",
+        "table_id": "table-07"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 12,
+        "row_count": 4,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-08.yaml",
+        "table_id": "table-08"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 9,
+        "row_count": 3,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-09.yaml",
+        "table_id": "table-09"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 32,
+        "row_count": 8,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-10.yaml",
+        "table_id": "table-10"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 6,
+        "row_count": 2,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-11.yaml",
+        "table_id": "table-11"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 9,
+        "row_count": 3,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-12.yaml",
+        "table_id": "table-12"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 420,
+        "row_count": 60,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-13.yaml",
+        "table_id": "table-13"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 140,
+        "row_count": 20,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-14.yaml",
+        "table_id": "table-14"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 126,
+        "row_count": 18,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-15.yaml",
+        "table_id": "table-15"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 91,
+        "row_count": 13,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-16.yaml",
+        "table_id": "table-16"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 105,
+        "row_count": 15,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-17.yaml",
+        "table_id": "table-17"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 56,
+        "row_count": 8,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-18.yaml",
+        "table_id": "table-18"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 7,
+        "non_empty_cell_entries": 70,
+        "row_count": 10,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-19.yaml",
+        "table_id": "table-19"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 204,
+        "row_count": 51,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-20.yaml",
+        "table_id": "table-20"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 52,
+        "row_count": 13,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-21.yaml",
+        "table_id": "table-21"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 240,
+        "row_count": 60,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-22.yaml",
+        "table_id": "table-22"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 124,
+        "row_count": 31,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-23.yaml",
+        "table_id": "table-23"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 4,
+        "non_empty_cell_entries": 32,
+        "row_count": 8,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-24.yaml",
+        "table_id": "table-24"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 3,
+        "non_empty_cell_entries": 18,
+        "row_count": 6,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-25.yaml",
+        "table_id": "table-25"
+      },
+      {
+        "cell_trace_units": 0,
+        "column_count": 6,
+        "non_empty_cell_entries": 60,
+        "row_count": 10,
+        "row_trace_units": 0,
+        "table_file": "src/tables/table-26.yaml",
+        "table_id": "table-26"
+      }
+    ],
+    "table_file_count": 26,
+    "total_cell_trace_units": 0,
+    "total_non_empty_cell_entries": 2055,
+    "total_row_trace_units": 0,
+    "total_rows": 401
+  },
+  "tooling_snapshot": {
+    "commit_ledger_entry_count": 0,
+    "coverage_latest_json_exists": false,
+    "coverage_latest_md_exists": false,
+    "has_trace_report_command": false,
+    "has_trace_validate_command": false,
+    "has_verify_command": true,
+    "make_help_exit_code": 0,
+    "paragraph_ids_json_exists": false
+  }
+}

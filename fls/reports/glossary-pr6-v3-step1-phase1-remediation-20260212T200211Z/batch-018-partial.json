@@ -1,0 +1,29 @@
+{
+  "batch_number": 18,
+  "passed_ids": [
+    "WB-062",
+    "WB-064",
+    "WB-065",
+    "WB-066",
+    "WB-067",
+    "WB-070",
+    "WB-072",
+    "WB-073",
+    "WB-074",
+    "WB-075",
+    "WB-076",
+    "WB-077",
+    "WB-078",
+    "WB-079"
+  ],
+  "quarantined": {
+    "WB-061": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/entities-and-resolution.rst)",
+    "WB-063": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)",
+    "WB-068": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=-1, file=src/expressions.rst)",
+    "WB-069": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)",
+    "WB-071": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/patterns.rst)",
+    "WB-080": "definition precheck failed: definition_operation=insert requires positive net insertion and no marker swap (insert_pass=False, swap_detected=True, insert_net=0, file=src/expressions.rst)"
+  },
+  "timestamp": "20260213T004641Z",
+  "wave": "WB"
+}

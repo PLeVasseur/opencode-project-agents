@@ -1,0 +1,15 @@
+usage: approve-deviation.py [-h] --permit PERMIT --approved-by APPROVED_BY
+                            --decision {approve,reject} --ledger LEDGER
+                            --events-jsonl EVENTS_JSONL
+                            [--summary-json SUMMARY_JSON]
+
+Approve or reject filed deviation permits
+
+options:
+  -h, --help            show this help message and exit
+  --permit PERMIT
+  --approved-by APPROVED_BY
+  --decision {approve,reject}
+  --ledger LEDGER
+  --events-jsonl EVENTS_JSONL
+  --summary-json SUMMARY_JSON

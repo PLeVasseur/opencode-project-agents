@@ -1,0 +1,32 @@
+# Recovery guardrail smoke tests (v3)
+
+- Passed: `28/28`
+
+- [x] `record-rationale-v3.py --help`
+- [x] `validate-ledger-and-checklist-v3.py --help`
+- [x] `glossary-batch-orchestrator-v3.py --help`
+- [x] `analyze-rationale-patterns-v3.py --help`
+- [x] `approve-deviation.py --help`
+- [x] record-rationale move success case writes UUID/event
+- [x] record-rationale mismatch case hard-fails term-source lock
+- [x] record-rationale high-priority non-move without permit hard-fails
+- [x] record-rationale pending-review permit with non-empty `approved_by` hard-fails
+- [x] record-rationale invalid permit path format hard-fails
+- [x] record-rationale pending-review permit success writes `deviation_status=pending`
+- [x] validator recovery success case passes
+- [x] validator duplicate UUID fixture fails (`FAILED_UUID_GUARDRAIL` present)
+- [x] validator concentration fixture fails (`FAILED_RATIONALE_MONOCULTURE` present)
+- [x] validator strict regression fixture fails (`FAILED_STRICT_REGRESSION` present)
+- [x] validator progress mode accepts pending deviations (pending count reported)
+- [x] validator gate mode rejects pending deviations (`FAILED_PENDING_DEVIATIONS` present)
+- [x] validator foundational section mismatch fails (`FAILED_FOUNDATIONAL_PLACEMENT` present)
+- [x] approve-deviation approve flow updates permit/ledger/events
+- [x] approve-deviation reject flow updates permit/ledger/events and quarantine metadata
+- [x] validator gate passes after approval flow
+- [x] validator gate fails rejected deviations (`FAILED_RECOMMENDATION_LOCK` present)
+- [x] orchestrator v3 dry-run output exists
+- [x] orchestrator v3 dry-run prompt artifact exists
+- [x] orchestrator v3 dry-run term-lock artifact exists
+- [x] orchestrator validator classification helper quarantines UUID/recommendation errors by checklist ID
+- [x] orchestrator validator hard-fail classification helper flags pending-deviation hard-fail codes
+- [x] rationale analyzer fixture smoke test emits JSON + Markdown

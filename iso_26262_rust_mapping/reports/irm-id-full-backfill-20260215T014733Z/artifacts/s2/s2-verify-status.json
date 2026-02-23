@@ -1,0 +1,52 @@
+{
+  "generated_at_utc": "2026-02-15T02:07:09Z",
+  "results": [
+    {
+      "command": [
+        "./make.py",
+        "validate"
+      ],
+      "name": "validate",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "./make.py",
+        "build"
+      ],
+      "name": "build",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "./make.py",
+        "trace-validate"
+      ],
+      "name": "trace-validate",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "uvx",
+        "black",
+        ".",
+        "--check",
+        "--diff",
+        "--color"
+      ],
+      "name": "black",
+      "returncode": 0
+    },
+    {
+      "command": [
+        "uvx",
+        "flake8",
+        ".",
+        "--exclude",
+        ".venv"
+      ],
+      "name": "flake8",
+      "returncode": 0
+    }
+  ]
+}

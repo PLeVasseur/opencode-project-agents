@@ -1,0 +1,61 @@
+{
+  "batch_number": 1,
+  "commit_hash": "e1a41fe065bf361375daaeeeea5df19365e50992",
+  "terms": [
+    {
+      "after_file": "values.rst",
+      "after_file_repo_path": "src/values.rst",
+      "checklist_id": "WA-001",
+      "definition_operation": "insert",
+      "file_added_lines": 4,
+      "file_deleted_lines": 0,
+      "file_net_delta": 4,
+      "hunk_dt_added": 1,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 1,
+      "hunk_insert_pass": true,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "hunk",
+      "swap_detected": false,
+      "term": "value"
+    },
+    {
+      "after_file": "expressions.rst",
+      "after_file_repo_path": "src/expressions.rst",
+      "checklist_id": "WA-002",
+      "definition_operation": "promote",
+      "file_added_lines": 1,
+      "file_deleted_lines": 5,
+      "file_net_delta": -4,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "expression"
+    },
+    {
+      "after_file": "types-and-traits.rst",
+      "after_file_repo_path": "src/types-and-traits.rst",
+      "checklist_id": "WA-003",
+      "definition_operation": "adapt",
+      "file_added_lines": 2,
+      "file_deleted_lines": 2,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "type"
+    }
+  ],
+  "timestamp": "20260212T200547Z"
+}

@@ -1,0 +1,92 @@
+{
+  "coverage": {
+    "P06": {
+      "coverage_ratio": 1.0,
+      "expected_pages": 66,
+      "normalized_units": 198,
+      "required_unit_types": [
+        "paragraph",
+        "list_bullet",
+        "table_cell"
+      ],
+      "unit_type_coverage": {
+        "list_bullet": {
+          "coverage_ratio": 1.0,
+          "expected": 66,
+          "normalized": 66
+        },
+        "paragraph": {
+          "coverage_ratio": 1.0,
+          "expected": 66,
+          "normalized": 66
+        },
+        "table_cell": {
+          "coverage_ratio": 1.0,
+          "expected": 66,
+          "normalized": 66
+        }
+      }
+    },
+    "P08": {
+      "coverage_ratio": 1.0,
+      "expected_pages": 72,
+      "normalized_units": 216,
+      "required_unit_types": [
+        "paragraph",
+        "list_bullet",
+        "table_cell"
+      ],
+      "unit_type_coverage": {
+        "list_bullet": {
+          "coverage_ratio": 1.0,
+          "expected": 72,
+          "normalized": 72
+        },
+        "paragraph": {
+          "coverage_ratio": 1.0,
+          "expected": 72,
+          "normalized": 72
+        },
+        "table_cell": {
+          "coverage_ratio": 1.0,
+          "expected": 72,
+          "normalized": 72
+        }
+      }
+    },
+    "P09": {
+      "coverage_ratio": 1.0,
+      "expected_pages": 38,
+      "normalized_units": 114,
+      "required_unit_types": [
+        "paragraph",
+        "list_bullet",
+        "table_cell"
+      ],
+      "unit_type_coverage": {
+        "list_bullet": {
+          "coverage_ratio": 1.0,
+          "expected": 38,
+          "normalized": 38
+        },
+        "paragraph": {
+          "coverage_ratio": 1.0,
+          "expected": 38,
+          "normalized": 38
+        },
+        "table_cell": {
+          "coverage_ratio": 1.0,
+          "expected": 38,
+          "normalized": 38
+        }
+      }
+    }
+  },
+  "qa_unresolved_count": 0,
+  "query_source_row_count": 528,
+  "run_id": "20260215T162251Z",
+  "timestamp_utc": "2026-02-15T16:47:24Z",
+  "unit_count": 528,
+  "unit_slice_count": 528,
+  "unit_text_link_count": 528
+}

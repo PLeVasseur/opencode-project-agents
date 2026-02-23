@@ -1,0 +1,4 @@
+release=1.93.0
+canonical_url=https://github.com/rust-lang/rust/pull/145954
+match_count=1
+line_numbers=29

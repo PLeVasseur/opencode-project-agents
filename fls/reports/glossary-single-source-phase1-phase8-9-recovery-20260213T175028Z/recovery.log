@@ -1,0 +1,5 @@
+[2026-02-13T17:50:29Z] archived stale lock
+PID=2625077 HOST=oss-work CREATED_AT=2026-02-13T17:48:56Z
+[2026-02-13T17:51:20Z] reconciliation decision: reconcile:new-run-earliest-incomplete->R2
+[2026-02-13T17:55:56Z] R7 exit-codes: RC_UPSTREAM_VS_COMMIT3=1 RC_COMMIT3_VS_COMMIT4=0 RC_UPSTREAM_VS_COMMIT4=1 RC_REPRO_COMMIT4=0
+[2026-02-13T17:58:12Z] rollback targets: hard=0d81919732c5040ace6a2e947e5adaab30e2385f branch=backup/glossary-single-source-phase1-repack-pre-recovery-20260213T175028Z tag=backup-glossary-single-source-phase1-repack-pre-recovery-20260213T175028Z

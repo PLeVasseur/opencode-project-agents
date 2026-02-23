@@ -1,0 +1,177 @@
+{
+  "batch_number": 14,
+  "commit_hash": "161a67d96df7551f4b7e391eec0db48fa0d6e5b6",
+  "deviation_permit_count": 0,
+  "diff_audit_index_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/reports/diff-audit-index.json",
+  "diff_audit_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-diff-audit.json",
+  "high_medium_count": 18,
+  "ids": [
+    "WB-017",
+    "WB-020",
+    "WB-021",
+    "WB-022",
+    "WB-023",
+    "WB-024",
+    "WB-025",
+    "WB-026",
+    "WB-027",
+    "WB-028",
+    "WB-029",
+    "WB-030",
+    "WB-031",
+    "WB-032",
+    "WB-033",
+    "WB-034",
+    "WB-035",
+    "WB-036",
+    "WB-037",
+    "WB-038"
+  ],
+  "insert_diff_modes": {
+    "WB-033": "hunk",
+    "WB-035": "hunk",
+    "WB-037": "hunk",
+    "WB-038": "hunk"
+  },
+  "max_rationale_similarity": 0.4375,
+  "max_rationale_similarity_pair": [
+    "WB-022",
+    "WB-029"
+  ],
+  "moved_term_count": 18,
+  "moved_terms": [
+    {
+      "checklist_id": "WB-017",
+      "term": "unsafe context"
+    },
+    {
+      "checklist_id": "WB-020",
+      "term": "pattern-without-alternation"
+    },
+    {
+      "checklist_id": "WB-021",
+      "term": "discriminant"
+    },
+    {
+      "checklist_id": "WB-022",
+      "term": "field index"
+    },
+    {
+      "checklist_id": "WB-023",
+      "term": "static"
+    },
+    {
+      "checklist_id": "WB-025",
+      "term": "enum variant value"
+    },
+    {
+      "checklist_id": "WB-026",
+      "term": "immutable"
+    },
+    {
+      "checklist_id": "WB-027",
+      "term": "signed integer type"
+    },
+    {
+      "checklist_id": "WB-029",
+      "term": "function body"
+    },
+    {
+      "checklist_id": "WB-030",
+      "term": "attribute content"
+    },
+    {
+      "checklist_id": "WB-031",
+      "term": "borrowed"
+    },
+    {
+      "checklist_id": "WB-032",
+      "term": "irrefutable pattern"
+    },
+    {
+      "checklist_id": "WB-033",
+      "term": "record enum variant"
+    },
+    {
+      "checklist_id": "WB-034",
+      "term": "structurally equal"
+    },
+    {
+      "checklist_id": "WB-035",
+      "term": "implementation body"
+    },
+    {
+      "checklist_id": "WB-036",
+      "term": "dangling"
+    },
+    {
+      "checklist_id": "WB-037",
+      "term": "pointer"
+    },
+    {
+      "checklist_id": "WB-038",
+      "term": "underscore expression"
+    }
+  ],
+  "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-opencode.jsonl",
+  "passed_ids": [
+    "WB-017",
+    "WB-020",
+    "WB-021",
+    "WB-022",
+    "WB-023",
+    "WB-025",
+    "WB-026",
+    "WB-027",
+    "WB-029",
+    "WB-030",
+    "WB-031",
+    "WB-032",
+    "WB-033",
+    "WB-034",
+    "WB-035",
+    "WB-036",
+    "WB-037",
+    "WB-038"
+  ],
+  "pending_deviation_count": 0,
+  "quarantined_ids": [
+    "WB-024",
+    "WB-028"
+  ],
+  "rationale_patterns_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-rationale-patterns.json",
+  "rationale_patterns_md": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-rationale-patterns.md",
+  "recommendation_compliance_rate": 1.0,
+  "recommendation_compliant_count": 18,
+  "session_id": "ses_3abcb2b6effeoPfRYuTTi71GIp",
+  "strict_post": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-strict-post.json",
+  "strict_pre": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-strict-pre.json",
+  "terms": [
+    "unsafe context",
+    "pattern-without-alternation",
+    "discriminant",
+    "field index",
+    "static",
+    "evaluation",
+    "enum variant value",
+    "immutable",
+    "signed integer type",
+    "execution",
+    "function body",
+    "attribute content",
+    "borrowed",
+    "irrefutable pattern",
+    "record enum variant",
+    "structurally equal",
+    "implementation body",
+    "dangling",
+    "pointer",
+    "underscore expression"
+  ],
+  "timestamp": "20260212T234454Z",
+  "validator_failure_codes": [],
+  "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-validate-post-commit.json",
+  "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-validate-progress.json",
+  "validator_progress_post_quarantine": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/batch-014-validate-progress-post-quarantine.json",
+  "wave": "WB"
+}

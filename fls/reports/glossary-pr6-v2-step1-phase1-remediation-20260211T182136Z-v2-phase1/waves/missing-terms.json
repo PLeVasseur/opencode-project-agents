@@ -1,0 +1,702 @@
+[
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 228,
+    "term": "arity",
+    "term_id": "arity"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 389,
+    "term": "associated constant",
+    "term_id": "associated_constant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 398,
+    "term": "associated function",
+    "term_id": "associated_function"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 434,
+    "term": "associated item",
+    "term_id": "associated_item"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 446,
+    "term": "associated trait constant",
+    "term_id": "associated_trait_constant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 455,
+    "term": "associated trait function",
+    "term_id": "associated_trait_function"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 500,
+    "term": "associated type",
+    "term_id": "associated_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 613,
+    "term": "attribute content",
+    "term_id": "attribute_content"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 657,
+    "term": "base initializer",
+    "term_id": "base_initializer"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 679,
+    "term": "binary crate",
+    "term_id": "binary_crate"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 718,
+    "term": "binding argument",
+    "term_id": "binding_argument"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 934,
+    "term": "borrowed",
+    "term_id": "borrowed"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1048,
+    "term": "C",
+    "term_id": "c"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1334,
+    "term": "concrete type",
+    "term_id": "concrete_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1444,
+    "term": "constant parameter",
+    "term_id": "constant_parameter"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1455,
+    "term": "constant parameter initializer",
+    "term_id": "constant_parameter_initializer"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1485,
+    "term": "construct",
+    "term_id": "construct"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1503,
+    "term": "container operand",
+    "term_id": "container_operand"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1546,
+    "term": "crate",
+    "term_id": "crate"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1597,
+    "term": "crate root module",
+    "term_id": "crate_root_module"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1616,
+    "term": "dangling",
+    "term_id": "dangling"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1757,
+    "term": "destructor",
+    "term_id": "destructor"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1789,
+    "term": "discriminant",
+    "term_id": "discriminant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1797,
+    "term": "discriminant initializer",
+    "term_id": "discriminant_initializer"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1938,
+    "term": "Elaboration",
+    "term_id": "elaboration"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1947,
+    "term": "element type",
+    "term_id": "element_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 1998,
+    "term": "entity",
+    "term_id": "entity"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2055,
+    "term": "enum variant value",
+    "term_id": "enum_variant_value"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2088,
+    "term": "escaped character",
+    "term_id": "escaped_character"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2108,
+    "term": "Evaluation",
+    "term_id": "evaluation"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2137,
+    "term": "Execution",
+    "term_id": "execution"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2176,
+    "term": "exported function",
+    "term_id": "exported_function"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2192,
+    "term": "expression",
+    "term_id": "expression"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2215,
+    "term": "expression-with-block",
+    "term_id": "expression_with_block"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2251,
+    "term": "external function",
+    "term_id": "external_function"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2259,
+    "term": "external function item type",
+    "term_id": "external_function_item_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2268,
+    "term": "external static",
+    "term_id": "external_static"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2318,
+    "term": "field",
+    "term_id": "field"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2338,
+    "term": "field index",
+    "term_id": "field_index"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2351,
+    "term": "field list",
+    "term_id": "field_list"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2502,
+    "term": "function",
+    "term_id": "function"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2513,
+    "term": "function body",
+    "term_id": "function_body"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2632,
+    "term": "future",
+    "term_id": "future"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2692,
+    "term": "generic function",
+    "term_id": "generic_function"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2738,
+    "term": "generic substitution",
+    "term_id": "generic_substitution"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 2980,
+    "term": "immutable",
+    "term_id": "immutable"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3034,
+    "term": "immutable reference",
+    "term_id": "immutable_reference"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3094,
+    "term": "implementation body",
+    "term_id": "implementation_body"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3149,
+    "term": "implicit borrow",
+    "term_id": "implicit_borrow"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3354,
+    "term": "inherent implementation",
+    "term_id": "inherent_implementation"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3567,
+    "term": "irrefutable pattern",
+    "term_id": "irrefutable_pattern"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3585,
+    "term": "item",
+    "term_id": "item"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 3636,
+    "term": "label",
+    "term_id": "label"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4220,
+    "term": "method",
+    "term_id": "method"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4284,
+    "term": "module",
+    "term_id": "module"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4354,
+    "term": "mutable",
+    "term_id": "mutable"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4441,
+    "term": "mutable static",
+    "term_id": "mutable_static"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4449,
+    "term": "mutable variable",
+    "term_id": "mutable_variable"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4457,
+    "term": "name",
+    "term_id": "name"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 4998,
+    "term": "pattern-without-alternation",
+    "term_id": "pattern_without_alternation"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5009,
+    "term": "pattern-without-range",
+    "term_id": "pattern_without_range"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5056,
+    "term": "pointer",
+    "term_id": "pointer"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5210,
+    "term": "qualified type",
+    "term_id": "qualified_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5235,
+    "term": "qualifying trait",
+    "term_id": "qualifying_trait"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5480,
+    "term": "receiver operand",
+    "term_id": "receiver_operand"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5500,
+    "term": "record enum variant",
+    "term_id": "record_enum_variant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5568,
+    "term": "reference",
+    "term_id": "reference"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5778,
+    "term": "renaming",
+    "term_id": "renaming"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5919,
+    "term": "safety invariant",
+    "term_id": "safety_invariant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5928,
+    "term": "scalar type",
+    "term_id": "scalar_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 5973,
+    "term": "self parameter",
+    "term_id": "self_parameter"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6011,
+    "term": "separator",
+    "term_id": "separator"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6153,
+    "term": "signed integer type",
+    "term_id": "signed_integer_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6363,
+    "term": "statement",
+    "term_id": "statement"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6374,
+    "term": "static",
+    "term_id": "static"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6386,
+    "term": "static initializer",
+    "term_id": "static_initializer"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6466,
+    "term": "struct pattern",
+    "term_id": "struct_pattern"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6499,
+    "term": "structurally equal",
+    "term_id": "structurally_equal"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6670,
+    "term": "temporary",
+    "term_id": "temporary"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6753,
+    "term": "trait",
+    "term_id": "trait"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6765,
+    "term": "trait body",
+    "term_id": "trait_body"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6790,
+    "term": "trait implementation",
+    "term_id": "trait_implementation"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6855,
+    "term": "tuple",
+    "term_id": "tuple"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6863,
+    "term": "tuple enum variant",
+    "term_id": "tuple_enum_variant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6920,
+    "term": "tuple struct",
+    "term_id": "tuple_struct"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6963,
+    "term": "tuple struct type",
+    "term_id": "tuple_struct_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 6991,
+    "term": "type",
+    "term_id": "type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7086,
+    "term": "type parameter",
+    "term_id": "type_parameter"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7118,
+    "term": "type path",
+    "term_id": "type_path"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7147,
+    "term": "type specification",
+    "term_id": "type_specification"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7231,
+    "term": "Undefined behavior",
+    "term_id": "undefined_behavior"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7247,
+    "term": "underscore expression",
+    "term_id": "underscore_expression"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7297,
+    "term": "unifiable types",
+    "term_id": "unifiable_type"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7349,
+    "term": "union value",
+    "term_id": "union_value"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7367,
+    "term": "unit enum variant",
+    "term_id": "unit_enum_variant"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7375,
+    "term": "unit struct",
+    "term_id": "unit_struct"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7481,
+    "term": "unsafe context",
+    "term_id": "unsafe_context"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7652,
+    "term": "value",
+    "term_id": "value"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7690,
+    "term": "variable",
+    "term_id": "variable"
+  },
+  {
+    "chapter_file": null,
+    "chapter_line": null,
+    "glossary_line": 7776,
+    "term": "where clause",
+    "term_id": "where_clause"
+  }
+]

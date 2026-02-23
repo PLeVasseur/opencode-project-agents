@@ -1,0 +1,1 @@
+5:.. |spec_version| replace:: 1.93.0

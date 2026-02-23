@@ -1,0 +1,5 @@
+164279555b555648a22b94dfcef9f067a721a5ad refactor: modernize up-streamer domain architecture boundaries
+7b2a4ecc497f31411daaadf1001d8ef0df6b577d refactor: complete USubscription and route identity contract migration
+af5483467e55c2b914c0375f80c7748c42a97b7b perf+obs: optimize worker/runtime paths and structured tracing coverage
+650d9f5315eff8dbeef68b0038a08f0b4bffe82f feat(ci): add benchmark guardrail harness and advisory workflow
+7c4f7ef23813126c1d37b966e9c50433b9a2899e feat(smoke): add deterministic cross-transport smoke suite, claims, and matrix workflow

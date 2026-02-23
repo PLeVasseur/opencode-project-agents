@@ -1,0 +1,27 @@
+{
+  "canonical_checksum": "6e656a4198036b0f44f003a27971be1ab7c6ee9318da227f089a143f4ba97f9b",
+  "checkpoint": "phase-1.done",
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/phase-1/c1-scaffold-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/phase-1/c2-state-machine-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/tools/traceability/mine_iso_corpus.py",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/tools/traceability/mining/cli.py",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/tools/traceability/mining/state.py",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/tools/traceability/mining/locking.py"
+  ],
+  "phase": 1,
+  "phase_commits": [
+    {
+      "id": "C1",
+      "sha": "b93de999ee89006e7ac6156871fdcd77f0502005",
+      "subject": "chore(trace-miner): scaffold standalone mining CLI and stage framework"
+    },
+    {
+      "id": "C2",
+      "sha": "36ad0e2d828b22e1008b33042049f0cc4c75c829",
+      "subject": "feat(trace-miner): implement resumable control-plane state machine"
+    }
+  ],
+  "run_id": "20260215T143525Z",
+  "timestamp_utc": "2026-02-15T14:46:56Z"
+}

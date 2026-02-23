@@ -1,0 +1,26 @@
+{
+  "batches_completed_current_run": 0,
+  "batches_completed_total": 0,
+  "changed_src_files": [],
+  "checks": {
+    "changed_src_files_non_empty": false,
+    "dry_run": false,
+    "has_wave_ab_scope": true,
+    "new_commit_count_gt_zero": false,
+    "waves_complete_with_nonzero_batches": true
+  },
+  "end_head": "beb89ee90e2b7639d3ffc07a254aa51988f6906b",
+  "failures": [
+    "new_commit_count == 0",
+    "changed_src_files is empty"
+  ],
+  "has_wave_ab_scope": true,
+  "new_commit_count": 0,
+  "new_commit_hashes": [],
+  "start_head": "beb89ee90e2b7639d3ffc07a254aa51988f6906b",
+  "timestamp": "20260212T194731Z",
+  "verdict": "FAILED_INVALID_EXECUTION",
+  "wave_a_complete": false,
+  "wave_a_end_head": null,
+  "wave_b_complete": false
+}

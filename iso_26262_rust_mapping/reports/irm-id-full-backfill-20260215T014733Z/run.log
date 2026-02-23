@@ -1,0 +1,65 @@
+[2026-02-15T01:50:43Z] run bootstrapped
+  run_id=20260215T014733Z
+  run_root=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z
+  repo_root=/home/pete.levasseur/personal/iso_26262_rust_mapping
+  target_branch=docs/iso26262-sphinx-traceability-migration-20260214T184350Z
+  base_branch=main
+  expected_pre_mutation_head=b55960aaeb1c8a5ebfc4af26db682ed21c45187b
+  lock_file=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/run.lock
+[2026-02-15T01:58:34Z] S1 artifact integrity
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s1/refactor-manifest.json
+  sha256=635dde0596fb9adbb0cca1f450d28f3e1ea6ef1b452f1de1c7f67b3dac5c204b
+  size_bytes=2611
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s1/s1-verify.log
+  sha256=70ab4ff66cbadcad64868be2ab57ab803d2fb5616b333ab1f93433003f339b30
+  size_bytes=5155
+[2026-02-15T01:58:57Z] S1 complete
+  next_stage=S2
+  commit=b2c0991 refactor(iso26262-spec): split extension into focused modules with thin __init__ wiring
+  commit=0a88caa refactor(iso26262-spec-lints): split lint checks into focused modules
+[2026-02-15T01:59:03Z] stopping after MAX_STAGES=1
+  resume_target_stage=S2
+[2026-02-15T01:59:03Z] lock released
+[2026-02-15T02:05:13Z] pre-mutation head pin reconciled
+  previous_expected_pre_mutation_head=b55960aaeb1c8a5ebfc4af26db682ed21c45187b
+  reconciled_expected_pre_mutation_head=0a88caa25bad3695be4ae3fe8c8dc34447a88b35
+[2026-02-15T02:05:13Z] resumed run for S2
+  current_head=0a88caa25bad3695be4ae3fe8c8dc34447a88b35
+  target_branch=docs/iso26262-sphinx-traceability-migration-20260214T184350Z
+  lock_acquired=1
+[2026-02-15T02:49:20Z] S2 artifact integrity
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s2/paragraph-id-check-shadow.json
+  sha256=f79b3496ee044aad76b5ebbbcf1d9ccca64e98b0d9292d0f88f4318f9b4fd6f4
+  size_bytes=392442
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s2/s2-verify.log
+  sha256=c7224809ff247b8b1f5d93a5a7b7c811d832c0476c1dbd230c4d361f61236b01
+  size_bytes=5155
+[2026-02-15T02:49:20Z] S3 artifact integrity
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s3/generator-smoke.log
+  sha256=8e85c9a8aecf853031d824a3cf9eb3bd26b45f6e473079596eeba4830dd8e02f
+  size_bytes=1861
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s3/backfill-dry-run-summary.json
+  sha256=a4db24f6d58142835419ac6c02bb6ad5e53fda6b22c12546e18eb68b0ac29c80
+  size_bytes=6882
+[2026-02-15T02:49:20Z] S4 artifact integrity
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s4/id-mapping.json
+  sha256=53130c7b1717b9e59b0aa6b88e2c1c149caa1791537bef0393781e3181fbb0c1
+  size_bytes=96786
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s4/rewrite-summary.json
+  sha256=f2e5ac748c79946f59c5dcc9819687dd478120614b51501ed07c3e44a4e4dc4a
+  size_bytes=6583
+  artifact=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/irm-id-full-backfill-20260215T014733Z/artifacts/s4/validation-summary.json
+  sha256=268f4ab2e18c168ec6681d640ec79ef95c1a3459008bc5fc2bff04d79fc89cc2
+  size_bytes=596
+[2026-02-15T02:49:20Z] S2 complete
+  commit=5b370139cad08547acbb69338903d8431c1d6f59 refactor(iso26262-spec-lints): split lint checks and add paragraph_id_check shadow mode
+[2026-02-15T02:49:20Z] S3 complete
+  commit=11ccec4ab3c4351a42adf34b690b11a5036b00a7 feat(traceability): add IRM ID generator templates for {dp} and {ts}
+  commit=fd0a944d75d1e67556b03aefce5a9565e8bcbb6e feat(traceability): add IRM ID backfill tooling with dry-run mapping artifacts
+[2026-02-15T02:49:20Z] S4 complete
+  commit=4241400340bfb4eb612811670fbdd02d5671eac9 chore(traceability): apply one-time IRM ID backfill across markdown, tables, and references
+  commit=d1e3efb7b0f58de9589b797f179b42506331abe0 feat(traceability)!: enable strict IRM cutover and reject legacy SRCN/source_id metadata
+  commit=94348262aff06ba2a927a054b8bb1fdf8b687eb4 docs(traceability): rename legacy ID terminology to IRM ID and publish migration evidence
+[2026-02-15T02:49:28Z] full plan complete
+  completed_stages=S2,S3,S4
+[2026-02-15T02:49:28Z] lock released

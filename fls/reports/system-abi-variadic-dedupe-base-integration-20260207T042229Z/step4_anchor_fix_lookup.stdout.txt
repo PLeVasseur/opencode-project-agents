@@ -1,0 +1,1 @@
+e7b2ce4838b606d4651b1a450a3fcc27df1982b8 fix(changelog-assistant): anchor updates to existing upstream PR entries

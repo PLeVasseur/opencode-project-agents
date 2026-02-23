@@ -1,0 +1,2189 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[91m[1m| [0m[90m Bash     [0mGet next 20 checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms
+
+warning: glossary-entry not found in src files: simple path prefix
+warning: glossary-entry not found in src files: simple path public modifier
+warning: glossary-entry not found in src files: simple path resolution
+warning: glossary-entry not found in src files: simple public modifier
+warning: glossary-entry not found in src files: simple register expression
+warning: glossary-entry not found in src files: simple string literal
+warning: glossary-entry not found in src files: single segment path
+warning: glossary-entry not found in src files: size
+warning: glossary-entry not found in src files: size operand
+warning: glossary-entry not found in src files: sized type
+warning: glossary-entry not found in src files: slice
+warning: glossary-entry not found in src files: slice pattern
+warning: glossary-entry not found in src files: slice type
+warning: glossary-entry not found in src files: source file
+warning: glossary-entry not found in src files: statement
+warning: glossary-entry not found in src files: static
+warning: glossary-entry not found in src files: static initializer
+warning: glossary-entry not found in src files: static lifetime elision
+warning: glossary-entry not found in src files: str
+warning: glossary-entry not found in src files: strict keyword
+warning: no new term-map entries to write
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/glossary-term-map.py
+[91m[1m| [0m[90m Bash     [0mCheck glossary static for next 20 terms
+
+present:
+simple path prefix
+simple path public modifier
+simple path resolution
+simple public modifier
+simple register expression
+simple string literal
+single segment path
+size
+size operand
+sized type
+slice
+slice pattern
+slice type
+source file
+statement
+static
+static initializer
+static lifetime elision
+str
+strict keyword
+missing:
+
+[91m[1m| [0m[90m Bash     [0mSearch chapter definitions for target terms
+
+== simple path prefix ==
+src/entities-and-resolution.rst:435: :t:`path` shall be the :t:`simple path prefix` of a :t:`glob import` or a
+src/entities-and-resolution.rst:1267: A :t:`simple path prefix` is the leading :t:`simple path` of a :t:`glob import`
+src/entities-and-resolution.rst:1285: :t:`[path segment]s` of the :t:`glob import`'s :t:`simple path prefix`.
+src/entities-and-resolution.rst:1289: :t:`[path segment]s` of the :t:`nesting import`'s :t:`simple path prefix`.
+src/entities-and-resolution.rst:1293: prepend the :t:`nesting import`'s :t:`simple path prefix` to the
+src/entities-and-resolution.rst:1397: :t:`simple path prefix` for its nested :t:`[use import]s`.
+== simple path public modifier ==
+src/entities-and-resolution.rst:233: to a :t:`simple path public modifier` where the :t:`simple path` denotes
+src/entities-and-resolution.rst:237: A :t:`simple path public modifier` is a :t:`visibility modifier` that grants a
+src/entities-and-resolution.rst:241: The :t:`simple path` of a :t:`simple path public modifier` shall start
+src/entities-and-resolution.rst:246: The :t:`simple path` of a :t:`simple path public modifier` shall resolve to
+src/entities-and-resolution.rst:257: :t:`super public modifier` is equivalent to a :t:`simple path public modifier`
+== simple path resolution ==
+src/entities-and-resolution.rst:445: A :t:`simple path` is subject to :t:`simple path resolution`.
+src/entities-and-resolution.rst:1993: The :t:`namespace context` of :t:`simple path resolution` is determined as
+== simple public modifier ==
+src/entities-and-resolution.rst:251: A :t:`simple public modifier` is a :t:`visibility modifier` that grants a
+== simple register expression ==
+src/inline-assembly.rst:857: A :t:`simple register expression` is either an :t:`expression` or an
+src/inline-assembly.rst:865: or a :t:`simple register expression`.
+src/inline-assembly.rst:871: A :t:`register expression` is either an :t:`input-output register expression`, a :t:`simple register expression` or a :t:`const register expression`.
+src/inline-assembly.rst:882: :t:`output register expression`, or :t:`simple register expression` shall
+src/inline-assembly.rst:1005: :t:`simple register expression`, then
+src/inline-assembly.rst:1009: :t:`value` of the :t:`simple register expression`.
+src/inline-assembly.rst:1018: :t:`simple register expression`, then
+src/inline-assembly.rst:1026: is assigned to the :t:`simple register expression`. The
+src/inline-assembly.rst:1027: :t:`simple register expression` shall be a :t:`place expression`.
+src/inline-assembly.rst:1030: If the :t:`simple register expression` is an :t:`underscore expression`, then
+src/inline-assembly.rst:1035: :t:`simple register expression`, then the :t:`register argument` behaves as a
+src/inline-assembly.rst:1041: :t:`simple register expression`, then
+src/inline-assembly.rst:1045: :t:`value` of the :t:`simple register expression`.
+src/inline-assembly.rst:1049: is assigned to the place indicated by the :t:`simple register expression`.
+src/inline-assembly.rst:1050: The :t:`simple register expression` shall be a :t:`mutable place expression`.
+src/inline-assembly.rst:1071: :t:`simple register expression`, then the :t:`register argument` behaves as a
+src/inline-assembly.rst:1102: If a :t:`register argument` has a :t:`simple register expression`, then the
+src/inline-assembly.rst:1103: :t:`simple register expression` is evaluated.
+== simple string literal ==
+src/lexical-elements.rst:888: The :t:`type` of a :t:`simple string literal` is :std:`&'static
+src/lexical-elements.rst:941: The :t:`type` of a :t:`simple string literal` is :std:`&'static
+src/lexical-elements.rst:1426: A :t:`simple string literal` is a :t:`string literal` where the characters are
+src/lexical-elements.rst:1430: The :t:`type` of a :t:`simple string literal` is ``&'static str``.
+src/lexical-elements.rst:1471: A :dt:`raw string literal` is a :t:`simple string literal` that does not
+src/lexical-elements.rst:1478: A :t:`raw string literal` is a :t:`simple string literal` that does not
+== single segment path ==
+src/entities-and-resolution.rst:442: :t:`path` is a :t:`single segment path`.
+src/entities-and-resolution.rst:448: A :t:`single segment path` is a :t:`path` consisting of exactly one
+== size ==
+src/expressions.rst:2779: of the same :t:`size` has no effect.
+src/expressions.rst:2783: with smaller :t:`size` truncates the :t:`value` of the :t:`operand`.
+src/expressions.rst:2787: with a larger :t:`size` either
+src/expressions.rst:3725: :t:`element type` and ``N`` is the size of the array. The :t:`size` of an
+src/expressions.rst:3730: then the :t:`size` is the number of :t:`[operand]s` in the
+src/expressions.rst:3734: Otherwise the :t:`size` is the :t:`value` of :t:`size operand`.
+src/types-and-traits.rst:1867: All :t:`[value]s` have an :t:`alignment` and a :t:`size`.
+src/types-and-traits.rst:1908: The :t:`size` of a :t:`type` is the offset in bytes between successive elements
+src/types-and-traits.rst:1914: The :t:`size` of :t:`[scalar type]s` is as follows:
+src/types-and-traits.rst:1950: Types :c:`usize` and :c:`isize` have :t:`size` big enough to contain every
+src/types-and-traits.rst:1957: :dt:`Layout` specifies the :t:`alignment`, :t:`size`, and the relative offset
+src/types-and-traits.rst:1966: is :t:`size operand`, the :t:`alignment` is that of ``T``, and the :t:`size` is
+src/types-and-traits.rst:1974: the :t:`size` is zero and the :t:`alignment` is one.
+src/types-and-traits.rst:1980: For a :t:`thin pointer`, the :t:`size` and :t:`alignment` are those of :t:`type`
+src/types-and-traits.rst:1984: For a :t:`function pointer type`, the :t:`size` and :t:`alignment` are those of
+src/types-and-traits.rst:1988: For a :t:`fat pointer type`, the :t:`size` and :t:`alignment` are tool-defined, but
+src/types-and-traits.rst:1990: For a :t:`fat pointer type` whose contained :t:`type` is that of a :t:`slice` or :t:`trait object type` the :t:`size` is that of two times the size of :t:`type` :c:`usize` and the :t:`alignment` is that of :t:`type` :c:`usize`.
+src/types-and-traits.rst:2006: The :t:`size` of a :t:`recursive type` shall be finite.
+src/types-and-traits.rst:2086: :t:`enum variant` has a single :t:`field` of non-zero :t:`size` and any number
+src/types-and-traits.rst:2087: of :t:`[field]s` of :t:`size` zero and :t:`alignment` one.
+src/types-and-traits.rst:2092: :t:`size`.
+src/types-and-traits.rst:2127: The :t:`size` and :t:`alignment` of an :t:`enum type` without :t:`[field]s`
+src/types-and-traits.rst:2166: a single :t:`field` of non-zero :t:`size`, or
+src/types-and-traits.rst:2169: any number of :t:`[field]s` of zero :t:`size` and :t:`alignment` one.
+src/types-and-traits.rst:2190: :t:`type representation` as the single :t:`field` of non-zero :t:`size` of its
+src/types-and-traits.rst:2191: :t:`enum variant` if one is present, otherwise the :t:`enum type` has :t:`size`
+src/types-and-traits.rst:2206: The :t:`size` of a :t:`struct type` subject to :t:`C representation` is
+src/types-and-traits.rst:2216: Calculate the :t:`size` and :t:`alignment` of the :t:`field`.
+src/types-and-traits.rst:2225: Increase the current offset by the :t:`size` of the :t:`field`.
+src/types-and-traits.rst:2235: The :t:`size` of the :t:`struct type` is the current offset.
+src/types-and-traits.rst:2241: A single :t:`field` of non-zero :t:`size`, or
+src/types-and-traits.rst:2244: Any number of :t:`[field]s` of :t:`size` zero and :t:`alignment` one.
+src/types-and-traits.rst:2248: :t:`type representation` as the single :t:`field` of non-zero :t:`size` if one
+src/types-and-traits.rst:2249: is present, otherwise the :t:`struct type` has :t:`size` zero and :t:`alignment`
+src/types-and-traits.rst:2260: The :t:`size` of a :t:`union type` subject to :t:`C representation` is
+== size operand ==
+src/expressions.rst:373: It is a static error if the :t:`size operand` of an
+src/expressions.rst:403: The :t:`size operand` of an :t:`array repetition constructor`,
+src/expressions.rst:406: The :t:`size operand` of an :t:`array type`,
+src/expressions.rst:3704: A :t:`size operand` is an :t:`operand` that specifies the size of an :t:`array`
+src/expressions.rst:3708: The :t:`size operand` shall be a :t:`constant expression`.
+src/expressions.rst:3715: If the :t:`size operand` is greater than one, then the :t:`type` of the
+src/expressions.rst:3721: The :t:`type` of the :t:`size operand` shall be :t:`type` :c:`usize`.
+src/expressions.rst:3734: Otherwise the :t:`size` is the :t:`value` of :t:`size operand`.
+src/expressions.rst:3751: If the :t:`value` of the :t:`size operand` is greater than zero, then the
+src/types-and-traits.rst:642: The :t:`size operand` shall be a :t:`constant expression`
+src/types-and-traits.rst:646: The :t:`type` of the :t:`size operand` is :t:`type` :c:`usize`.
+src/types-and-traits.rst:1966: is :t:`size operand`, the :t:`alignment` is that of ``T``, and the :t:`size` is
+src/types-and-traits.rst:2826: The :t:`type` is an :t:`array type` with a non-zero :t:`size operand` and an :t:`element type` that is subject to :t:`visible emptiness`.
+src/types-and-traits.rst:2872: The :t:`size operand` of an :t:`array expression` or an :t:`array type`.
+src/types-and-traits.rst:2909: The :t:`expected type` of a :t:`size operand` of an :t:`array expression` or
+== sized type ==
+src/types-and-traits.rst:2631: An :t:`unsized coercion` is a :t:`type coercion` that converts a :t:`sized type`
+== slice ==
+src/patterns.rst:956: A :t:`slice`, where the :s:`PatternList` consists of a single
+src/types-and-traits.rst:699: :c:`Str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit unsigned
+src/types-and-traits.rst:1990: For a :t:`fat pointer type` whose contained :t:`type` is that of a :t:`slice` or :t:`trait object type` the :t:`size` is that of two times the size of :t:`type` :c:`usize` and the :t:`alignment` is that of :t:`type` :c:`usize`.
+== slice pattern ==
+src/expressions.rst:2992: An :t:`array expression` corresponds to a :t:`slice pattern` with all the
+src/ownership-and-deconstruction.rst:745: A :t:`slice pattern`, a :t:`struct pattern`, :t:`tuple pattern` or a
+src/patterns.rst:97: it is not the inner :t:`pattern` of a :t:`slice pattern` or the :t:`pattern` of
+src/patterns.rst:98: a possibly nested :t:`identifier pattern` of a :t:`slice pattern`\ ``.``
+src/patterns.rst:742: when the context is a :t:`slice pattern`.
+src/patterns.rst:885: A :t:`rest pattern` shall appear at most once within a :t:`slice pattern`, an
+src/patterns.rst:886: :t:`identifier pattern` of a :t:`slice pattern`, a :t:`tuple pattern`, and a
+src/patterns.rst:893: If a :t:`rest pattern` appears within a :t:`slice pattern` or the
+src/patterns.rst:894: :t:`identifier pattern` of a :t:`slice pattern`, then the :t:`type` of the
+src/patterns.rst:898: If the :t:`type` of the :t:`slice pattern` is an :t:`array type`, then the
+src/patterns.rst:901: of matched elements of the :t:`slice pattern`.
+src/patterns.rst:904: If the :t:`type` of the :t:`slice pattern` is a :t:`slice type`, then the
+src/patterns.rst:946: A :t:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed size
+src/patterns.rst:950: A :t:`slice pattern` is an :t:`irrefutable pattern` when it refers to:
+src/patterns.rst:961: The :t:`type` of a :t:`slice pattern` is the same as the :t:`expected type`.
+src/patterns.rst:1674: If the :t:`pattern` is a :t:`slice pattern`, then perform :t:`slice pattern matching`.
+src/patterns.rst:1836: If the number of :t:`[subpattern]s` of the :t:`slice pattern` is greater
+src/patterns.rst:1840: If the number of :t:`[subpattern]s` of the :t:`slice pattern` is less than
+src/patterns.rst:1845: For each :t:`subpattern` of the :t:`slice pattern`:
+src/patterns.rst:1859: For each :t:`subpattern` of the :t:`slice pattern`:
+== slice type ==
+src/entities-and-resolution.rst:1711: :t:`slice type` where the :t:`slice type` has the same :t:`element type`
+src/ownership-and-deconstruction.rst:521: Otherwise, if the :t:`drop type` is a :t:`slice type`, then its elements are
+src/patterns.rst:904: If the :t:`type` of the :t:`slice pattern` is a :t:`slice type`, then the
+src/patterns.rst:905: :t:`type` is that :t:`slice type`.
+src/patterns.rst:1833: If the expected :t:`type` is a :t:`slice type` then,
+src/types-and-traits.rst:626: a :t:`slice type`.
+src/types-and-traits.rst:672: A :t:`slice type` is a :t:`sequence type` that provides a view into a sequence
+src/types-and-traits.rst:679: A :t:`slice type` is a :t:`dynamically sized type`.
+src/types-and-traits.rst:1961: For :t:`type` :c:`str`, the :t:`layout` is that of :t:`slice type`
+src/types-and-traits.rst:1970: For a :t:`slice type`, the :t:`layout` is that of the :t:`array type` it slices.
+src/types-and-traits.rst:2387: A :t:`slice type` is unifiable only with another :t:`slice type` when the
+src/types-and-traits.rst:2637: :t:`slice type` ``[T]``.
+== source file ==
+src/lexical-elements.rst:15: file]s`. The text of a :t:`source file` is a sequence of :t:`[lexical
+src/lexical-elements.rst:172: The text of a :t:`source file` is a sequence of separate :t:`[lexical
+src/lexical-elements.rst:187: The text of a :t:`source file` is divided into :t:`[line]s`.
+src/program-structure-and-compilation.rst:38: A :t:`source file` contains the program text consisting of :t:`[inner
+src/program-structure-and-compilation.rst:40: :t:`source file` is tool defined.
+src/program-structure-and-compilation.rst:114: An :t:`outline module` loads a :t:`source file` and considers the text of the
+src/program-structure-and-compilation.rst:115: :t:`source file` to be inlined within the context of the :t:`outline module`.
+src/program-structure-and-compilation.rst:118: The location of a :t:`module` :t:`source file` can be specified using
+== statement ==
+src/expressions.rst:902: Each :t:`statement` is executed in declarative order.
+src/expressions.rst:3036: The first :t:`statement` is a :t:`let statement` with its :t:`pattern`
+src/expressions.rst:3042: :t:`assignment expression` used as a :t:`statement`, as follows:
+src/macros.rst:723: as a :t:`statement`.
+src/macros.rst:835: If the :t:`macro invocation` appears as part of a :t:`statement`, the
+src/macros.rst:884: If the :t:`macro invocation` appears as part of a :t:`statement`, the
+src/macros.rst:1069: :t:`Fragment specifier` **stmt** requires a :t:`statement` without trailing
+src/ownership-and-deconstruction.rst:635: The parent :t:`drop scope` of a :t:`statement` is the :t:`drop scope` of the
+src/ownership-and-deconstruction.rst:636: :t:`block expression` that contains the :t:`statement`.
+src/ownership-and-deconstruction.rst:692: The :t:`drop scope` of a :t:`statement`.
+src/statements.rst:31: An :dt:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
+src/statements.rst:34: An :t:`item statement` is a :t:`statement` that is expressed as an :t:`item`.
+src/statements.rst:40: An :dt:`empty statement` is a :t:`statement` expressed as character 0x3B
+src/statements.rst:44: An :t:`empty statement` is a :t:`statement` expressed as character 0x3B
+src/statements.rst:51: A :dt:`macro statement` is a :t:`statement` expressed as a
+src/statements.rst:55: A :t:`macro statement` is a :t:`statement` expressed as a
+src/statements.rst:64: :dt:`Execution` is the process by which a :t:`statement` achieves its runtime
+src/statements.rst:68: :t:`Execution` is the process by which a :t:`statement` achieves its runtime
+src/statements.rst:114: A :dt:`let statement` is a :t:`statement` that introduces new :t:`[variable]s`
+src/statements.rst:122: A :t:`let statement` is a :t:`statement` that introduces new :t:`[binding]s`
+src/types-and-traits.rst:3004: For each :t:`statement`, apply the :t:`statement` inference rules outlined below.
+== static ==
+src/attributes.rst:1318: related :t:`function` or :t:`static`.
+src/attributes.rst:1473: symbol of the related :t:`function` or :t:`static` will be placed.
+src/attributes.rst:1594: :t:`function` or :t:`static` will be used as the symbol for that :t:`function`
+src/attributes.rst:1595: or :t:`static`.
+src/attributes.rst:1598: :t:`Attribute` :c:`no_mangle` causes the related :t:`function` or :t:`static` to
+src/attributes.rst:1615: An :dt:`exported static` is an export of a :t:`static`.
+src/attributes.rst:1618: An :t:`exported static` is a :t:`static` subject to :t:`attribute`
+src/attributes.rst:1759: :t:`Attribute` :dc:`used` forces a tool to keep the related :t:`static` in the
+src/attributes.rst:1760: output object file even if the :t:`static` is not used or referenced by other
+src/attributes.rst:2210: :t:`static`.
+src/expressions.rst:409: The :t:`static initializer` of a :t:`static`.
+src/expressions.rst:529: :t:`[Path expression]s` that resolve to a :t:`static` or a :t:`variable`.
+src/expressions.rst:795: :t:`constant`, a :t:`function`, a :t:`static`, a :t:`tuple enum variant`, a
+src/inline-assembly.rst:878: a :t:`function` :t:`name` or a :t:`static` :t:`name`.
+src/statements.rst:102: :t:`constant`, a :t:`static`, or a :t:`variable`.
+src/types-and-traits.rst:2551: A :t:`static` declaration.
+src/types-and-traits.rst:2890: :t:`static`.
+src/types-and-traits.rst:4102: :t:`type specification` of a :t:`constant` or :t:`static` is inferred to be the
+src/types-and-traits.rst:4115: Given :t:`static` ``S`` of the form
+src/values.rst:193: A :t:`static` is a :t:`value` that is associated with a specific memory
+src/values.rst:197: A :t:`static` defined within a :t:`generic function` exists once in the
+src/values.rst:201: The :t:`type specification` of a :t:`static` shall have ``'static``
+src/values.rst:205: The :t:`type` of a :t:`static` shall implement the :std:`core::marker::Sized`
+src/values.rst:209: A :t:`static` shall only be subject to an :s:`ItemSafety` if it is an :t:`external static` in an :t:`unsafe external block`.
+src/values.rst:215: A :dt:`mutable static` is a :t:`static` whose :t:`value` can be modified.
+src/values.rst:218: A :t:`mutable static` is a :t:`static` with :t:`keyword` ``mut`` whose
+src/values.rst:228: An :dt:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+src/values.rst:231: An :t:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+src/values.rst:239: its related :t:`static`.
+src/values.rst:242: A :t:`static` shall have a :t:`static initializer`, unless it is an
+src/values.rst:250: A use of a :t:`static` is a :t:`place expression` referring to the unique
+src/values.rst:251: location of the :t:`static`.
+src/values.rst:256: The :t:`elaboration` of a :t:`static` evaluates its :t:`static initializer`.
+src/values.rst:259: All :t:`[path]s` that refer to a :t:`static` refer to the same memory location.
+src/values.rst:262: A :t:`static` is not :t:`dropped` during :t:`destruction`.
+== static initializer ==
+src/expressions.rst:409: The :t:`static initializer` of a :t:`static`.
+src/expressions.rst:3033: :t:`static initializer`.
+src/ffi.rst:324: An :t:`external static` shall not specify a :t:`static initializer`.
+src/types-and-traits.rst:2857: The :t:`expression` of a :t:`static initializer`.
+src/types-and-traits.rst:2888: The :t:`expected type` of the :t:`expression` of a :t:`static initializer` is
+src/values.rst:238: A :t:`static initializer` is a :t:`construct` that provides the :t:`value` of
+src/values.rst:242: A :t:`static` shall have a :t:`static initializer`, unless it is an
+src/values.rst:246: The :t:`expression` of a :t:`static initializer` shall be a
+src/values.rst:256: The :t:`elaboration` of a :t:`static` evaluates its :t:`static initializer`.
+== static lifetime elision ==
+(no hits)
+== str ==
+(no hits)
+== strict keyword ==
+src/lexical-elements.rst:1847: A :t:`strict keyword` is a :t:`keyword` that always holds its special meaning.
+
+[91m[1m| [0m[90m Bash     [0mFind literal mentions of terms
+
+== static lifetime elision (literal matches) ==
+(no hits)
+== str (literal matches) ==
+src/associated-items.rst:107: :t:`struct expression`.
+src/associated-items.rst:136: that constrains the :t:`type parameter`, and
+src/associated-items.rst:329: fn greet(self, message: &str);
+src/associated-items.rst:332: struct Implementor {
+src/associated-items.rst:339: fn greet(mut self, message: &str) {
+src/attributes.rst:88: An :dt:`attribute content` is a :t:`construct` that provides the content of
+src/attributes.rst:95: An :t:`attribute content` is a :t:`construct` that provides the content of
+src/attributes.rst:230: :dp:`fls_bxucstrfcco8`
+src/attributes.rst:619: - Intel Multi-Precision Add-Cary Instruction Extensions
+src/attributes.rst:643: - Advanced Vector Extensions 512-bit - Byte and Word Instructions
+src/attributes.rst:647: - Advanced Vector Extensions 512-bit - Conflict Detection Instructions
+src/attributes.rst:651: - Advanced Vector Extensions 512-bit - Doubleword and Quadword Instructions
+src/attributes.rst:667: - Advanced Vector Extensions 512-bit - Vector Byte Manipulation Instructions
+src/attributes.rst:671: - Advanced Vector Extensions 512-bit - Vector Byte Manipulation Instructions 2
+src/attributes.rst:679: - Advanced Vector Extensions 512-bit - Vector Neural Network Instructions
+src/attributes.rst:687: - Advanced Vector Extensions 512-bit - Vector Population Count Instruction
+src/attributes.rst:695: - Advanced Vector Extensions - No-Exception Floating-Point conversion Instructions
+src/attributes.rst:699: - Advanced Vector Extensions - Vector Neural Network Instructions
+src/attributes.rst:703: - Advanced Vector Extensions - Vector Neural Network Instructions with 16-bit Integers
+src/attributes.rst:707: - Advanced Vector Extensions - Vector Neural Network Instructions with 8-bit Integers
+src/attributes.rst:711: - Bit Manipulation Instruction Sets
+src/attributes.rst:715: - Bit Manipulation Instruction Sets 2
+src/attributes.rst:727: - Galois Field New Instructions
+src/attributes.rst:731: - Intel Key Locker Instructions
+src/attributes.rst:803: - Vector AES Instructions
+src/attributes.rst:811: - Intel Wide Keylocker Instructions
+src/attributes.rst:1005: A :dt:`configuration predicate` is a :t:`construct` that evaluates statically
+src/attributes.rst:1012: A :t:`configuration predicate` is a :t:`construct` that evaluates statically
+src/attributes.rst:1155: :t:`Attribute` :c:`derive` shall apply to :t:`[abstract data type]s`.
+src/attributes.rst:1166: struct S<T> {
+src/attributes.rst:1172: automatically implemented for struct ``S<T>`` as follows:
+src/attributes.rst:1222: :t:`Attribute` :dc:`doc` associates documentation with a :t:`construct`.
+src/attributes.rst:1589: :t:`Attribute` :c:`no_mangle` has no effect on :t:`[construct]s` other than
+src/attributes.rst:1680: :t:`Attribute` :c:`repr` shall apply to :t:`[abstract data type]s`.
+src/attributes.rst:1691: struct c_struct {
+src/attributes.rst:1822: :t:`[generic substitution]s` for :t:`[type parameter]s` when constructing a
+src/attributes.rst:2019: println!("attr: \"{}\"", attr.to_string());
+src/attributes.rst:2020: println!("item: \"{}\"", item.to_string());
+src/attributes.rst:2067: struct S {
+src/attributes.rst:2095: :t:`module` as a :t:`string literal`.
+src/attributes.rst:2235: following restrictions:
+src/attributes.rst:2462: :t:`[enum variant]s`, and :t:`[struct type]s`.
+src/attributes.rst:2466: :t:`abstract data type` or :t:`enum variant` may have more :t:`[field]s` or
+src/attributes.rst:2471: A :t:`non-exhaustive type` shall not be constructed outside of its defining
+src/attributes.rst:2479: A :t:`non-exhaustive variant` shall not be constructed outside of its defining
+src/attributes.rst:2484: :t:`struct pattern` with a :t:`rest pattern` outside its defining :t:`crate`.
+src/attributes.rst:2505: struct struct_with_future_fields {
+src/background.rst:19: of existing Rust documentation, but presented with a rigorous structure in order
+src/background.rst:48: and regulated industries. The FLS provides a structured and detailed reference
+src/background.rst:51: major step toward describing Rust in a way that aligns with industry
+src/changelog.rst:63: - This lifted restriction was not specified in the FLS
+src/changelog.rst:75: - This lifted restriction was not documented in the FLS
+src/changelog.rst:83: - This lifted restriction was not documented in the FLS
+src/changelog.rst:85: - `Slightly strengthen higher-ranked region handling in coherence <https://github.com/rust-lang/rust/pull/146725>`_
+src/changelog.rst:87: - The lifted restriction was not documented in the FLS
+src/changelog.rst:173: - This lifted restriction was not specified in the FLS
+src/changelog.rst:174: - The restriction on patterns is documented in :p:`fls_wJ9f906BlBvg`
+src/changelog.rst:289: - `Extend temporary lifetime extension to also go through tuple struct and tuple variant constructors <https://github.com/rust-lang/rust/pull/140593>`_
+src/changelog.rst:383: - No change: this lifted restriction was not specified in the FLS
+src/changelog.rst:387: - No change: this lifted restriction was not specified in the FLS
+src/changelog.rst:391: - No change: this lifted restriction was not specified in the FLS
+src/changelog.rst:470: * No change: This past restriction of the `include` macro is not specified by the FLS
+src/changelog.rst:490: * No change: This lifted restriction was not specified in the FLS
+src/changelog.rst:503: * No change: This previous restriction is not specified in the FLS
+src/changelog.rst:513: * `Non-exhaustive structs may now be empty. <https://github.com/rust-lang/rust/pull/128934>`_
+src/changelog.rst:525: * No change: This previous restriction is not specified in the FLS
+src/changelog.rst:639: * `Change method resolution to constrain hidden types instead of rejecting method candidates. <https://github.com/rust-lang/rust/pull/123962/>`_
+src/changelog.rst:649: * No change: this previous restriction is not specified in the FLS
+src/changelog.rst:651: * `Allow constraining opaque types during subtyping in the trait system. <https://github.com/rust-lang/rust/pull/125447/>`_
+src/changelog.rst:655: * `Allow constraining opaque types during various unsizing casts. <https://github.com/rust-lang/rust/pull/125610/>`_
+src/changelog.rst:661: * No change: the FLS already specifies this restriction in :s:`Lifetime`
+src/changelog.rst:672: * No change: this previous restriction is not specified in the FLS
+src/changelog.rst:676: * No change: this previous restriction is not specified in the FLS
+src/changelog.rst:719: * `Restrict promotion of \`const fn\` calls. <https://github.com/rust-lang/rust/pull/121557/>`_
+src/changelog.rst:733: * No change: this lifted restriction was not previously described in the FLS
+src/changelog.rst:778: * No change: this lifted restriction was not previously described in the FLS
+src/changelog.rst:792: * `Update \`indirect_structural_match\` and \`pointer_structural_match\` lints to match RFC <https://github.com/rust-lang/rust/pull/120423/>`_
+src/changelog.rst:823: * `Stabilize C-string literals. <https://github.com/rust-lang/rust/pull/117472/>`_
+src/changelog.rst:837: * No change: this lifted restriction was not previously described in the FLS
+src/changelog.rst:849: * No change: this lifted restriction was not previously described in the FLS
+src/concurrency.rst:58: An :t:`abstract data type` automatically implements the
+src/concurrency.rst:71: An :t:`abstract data type` automatically implements the
+src/entities-and-resolution.rst:29: An :dt:`entity` is a :t:`construct` that can be referred to within program
+src/entities-and-resolution.rst:33: An :t:`entity` is a :t:`construct` that can be referred to within program text,
+src/entities-and-resolution.rst:52: A :dt:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+src/entities-and-resolution.rst:56: A :t:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+src/entities-and-resolution.rst:429: :t:`namespace qualifier` ``::`` stripped.
+src/entities-and-resolution.rst:478: A :dt:`qualifying trait` is a :t:`trait` that imposes a restriction on a
+src/entities-and-resolution.rst:485: A :t:`qualifying trait` is a :t:`trait` that imposes a restriction on a
+src/entities-and-resolution.rst:495: A :dt:`qualified type` is a :t:`type` that is restricted to a set of
+src/entities-and-resolution.rst:503: A :t:`qualified type` is a :t:`type` that is restricted to a set of
+src/entities-and-resolution.rst:555: A :dt:`qualified fn trait` is a :t:`construct` that refers to the
+src/entities-and-resolution.rst:588: struct S;
+src/entities-and-resolution.rst:715: A :t:`generic parameter` of a :t:`struct type` is :t:`in scope` within the
+src/entities-and-resolution.rst:825: :c:`Self` of a :t:`struct type` is :t:`in scope` within the related
+src/entities-and-resolution.rst:872: by :t:`[scoping construct]s`.
+src/entities-and-resolution.rst:876: by :t:`[scoping construct]s`. An inner :t:`scope` introduced by a nested
+src/entities-and-resolution.rst:877: :t:`scoping construct` is the child of an outer :t:`scope` introduced by an
+src/entities-and-resolution.rst:878: enclosing :t:`scoping construct`.
+src/entities-and-resolution.rst:881: A :dt:`scoping construct` is a :t:`construct` that introduces :t:`[scope]s`
+src/entities-and-resolution.rst:882: into the :t:`scope hierarchy`. The following :t:`[construct]s` are
+src/entities-and-resolution.rst:883: :t:`[scoping construct]s`:
+src/entities-and-resolution.rst:990: The :t:`declaration` of a :t:`struct type` introduces a
+src/entities-and-resolution.rst:1128: :t:`Enum variant` constructors,
+src/entities-and-resolution.rst:1134: :c:`Self` constructors,
+src/entities-and-resolution.rst:1140: :t:`Struct` constructors.
+src/entities-and-resolution.rst:1220: :t:`[Textual type]s` :c:`char` and :c:`str`.
+src/entities-and-resolution.rst:1271: An :dt:`import path prefix` is the fully constructed :t:`path` prefix of a
+src/entities-and-resolution.rst:1273: :t:`simple import` or :t:`glob import` is constructed as follows:
+src/entities-and-resolution.rst:1352: A :dt:`simple import path` is the :t:`path` constructed by appending the last
+src/entities-and-resolution.rst:1527: A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+src/entities-and-resolution.rst:1747: Construct the :t:`dereference type chain` for the :t:`receiver type`.
+src/entities-and-resolution.rst:1773: Construct the :t:`dereference type chain` for the :t:`receiver type`.
+src/entities-and-resolution.rst:1881: :t:`path resolution` by restricting the number of
+src/entities-and-resolution.rst:1910: The :t:`entity` of the :t:`abstract data type`, if the :t:`path` appears
+src/entities-and-resolution.rst:1911: within an :t:`abstract data type`, or
+src/entities-and-resolution.rst:1975: :t:`candidate selected entity` is restricted by the :t:`namespace context`.
+src/entities-and-resolution.rst:2026: :t:`resolution context` is restricted to the :t:`entities <entity>` of
+src/entities-and-resolution.rst:2070: the :t:`resolution context` is restricted to the :t:`entities <entity>` of
+src/entities-and-resolution.rst:2095: that :t:`module`, where the :t:`resolution context` is restricted to the
+src/entities-and-resolution.rst:2104: that :t:`trait`, where the :t:`resolution context` is restricted to the
+src/entities-and-resolution.rst:2113: that :t:`type`, where the :t:`resolution context` is restricted to the
+src/entities-and-resolution.rst:2208: :t:`trait`, where the :t:`resolution context` is restricted to the
+src/entities-and-resolution.rst:2217: where the :t:`resolution context` is restricted to the :t:`entities <entity>`
+src/expressions.rst:81: An :dt:`expression` is a :t:`construct` that produces a :t:`value`, and may
+src/expressions.rst:88: An :t:`expression` is a :t:`construct` that produces a :t:`value`, and may have
+src/expressions.rst:95: An :dt:`expression-with-block` is an :t:`expression` whose structure involves a
+src/expressions.rst:102: An :t:`expression-with-block` is an :t:`expression` whose structure involves a
+src/expressions.rst:109: An :dt:`expression-without-block` is an :t:`expression` whose structure does
+src/expressions.rst:116: An :t:`expression-without-block` is an :t:`expression` whose structure does not
+src/expressions.rst:232: :t:`[Tuple struct call expression]s` of :t:`[assignee expression]s`,
+src/expressions.rst:254: statically. The following :t:`[construct]s` are :t:`[constant expression]s` as
+src/expressions.rst:256: involve :t:`[type]s` that require :t:`destruction`:
+src/expressions.rst:335: :t:`[static]s`, :t:`[tuple struct]s`, and  :t:`[unit struct]s`,
+src/expressions.rst:374: :t:`array repetition constructor` or an :t:`array type` depends on
+src/expressions.rst:381: A :dt:`constant context` is a :t:`construct` that requires a
+src/expressions.rst:385: A :t:`constant context` is a :t:`construct` that requires a
+src/expressions.rst:386: :t:`constant expression`. The following :t:`[construct]s` are
+src/expressions.rst:403: The :t:`size operand` of an :t:`array repetition constructor`,
+src/expressions.rst:417: :t:`constant function`, subject to the same restrictions as a
+src/expressions.rst:424: arguments, or with a single :t:`string literal` that does not
+src/expressions.rst:596: A :dt:`place expression context` is a :t:`construct` that may evaluate its
+src/expressions.rst:600: A :t:`place expression context` is a :t:`construct` that may evaluate its
+src/expressions.rst:604: The following :t:`[construct]s` are :t:`[place expression context]s`:
+src/expressions.rst:639: The :t:`base initializer` of a :t:`struct expression`.
+src/expressions.rst:658: :t:`[construct]s` are :t:`[mutable place expression context]s`:
+src/expressions.rst:796: :t:`tuple struct`, a :t:`unit enum variant`, a :t:`unit struct`, or a
+src/expressions.rst:1244: reference to a :t:`field` in an :t:`abstract data type` subject to
+src/expressions.rst:2935: :t:`destructuring assignment`.
+src/expressions.rst:2939: :t:`destructuring assignment`.
+src/expressions.rst:2969: Destructuring Assignment
+src/expressions.rst:2974: .. glossary-entry:: destructuring assignment
+src/expressions.rst:2978: A :dt:`destructuring assignment` is an :t:`assignment expression` where
+src/expressions.rst:2980: :t:`struct expression`, or a :t:`tuple expression`.
+src/expressions.rst:2983: A :t:`destructuring assignment` is an :t:`assignment expression` where
+src/expressions.rst:2984: the :t:`assignee operand` is either an :t:`array expression`, a :t:`struct
+src/expressions.rst:2985: expression`, a :t:`tuple expression` or a :t:`tuple struct call expression`.
+src/expressions.rst:2988: The :t:`assignee operand` of a :t:`destructuring assignment` is treated as an
+src/expressions.rst:3005: A :t:`struct expression` corresponds to a :t:`struct pattern` with all the
+src/expressions.rst:3013: A :t:`tuple struct call expression` corresponds to a
+src/expressions.rst:3014: :t:`tuple struct pattern` with all the :t:`[subexpression]s` lowered to their
+src/expressions.rst:3021: The :t:`pattern` that corresponds to a :t:`destructuring assignment` shall be
+src/expressions.rst:3025: A :t:`destructuring assignment` is equivalent to a :t:`block expression` of the
+src/expressions.rst:3050: :t:`destructuring assignment` becomes the :t:`assignee operand` of the new
+src/expressions.rst:3056: The :t:`evaluation` of a :t:`destructuring assignment` proceeds as follows:
+src/expressions.rst:3550: in a :t:`destructuring assignment`.
+src/expressions.rst:3554: :t:`destructuring assignment`.
+src/expressions.rst:3625: ArrayElementConstructor
+src/expressions.rst:3626: | ArrayRepetitionConstructor
+src/expressions.rst:3628: ArrayElementConstructor ::=
+src/expressions.rst:3631: ArrayRepetitionConstructor ::=
+src/expressions.rst:3652: An :dt:`array expression` is an :t:`expression` that constructs an :t:`array`.
+src/expressions.rst:3658: An :t:`array expression` is an :t:`expression` that constructs an :t:`array`.
+src/expressions.rst:3660: .. glossary-entry:: array element constructor
+src/expressions.rst:3664: An :dt:`array element constructor` is an :t:`array expression` that lists all
+src/expressions.rst:3665: elements of the :t:`array` being constructed.
+src/expressions.rst:3668: See :s:`ArrayElementConstructor`.
+src/expressions.rst:3671: An :t:`array element constructor` is an :t:`array expression` that lists all
+src/expressions.rst:3672: elements of the :t:`array` being constructed.
+src/expressions.rst:3674: .. glossary-entry:: array repetition constructor
+src/expressions.rst:3678: An :dt:`array repetition constructor` is an :t:`array expression` that
+src/expressions.rst:3680: constructed.
+src/expressions.rst:3683: See :s:`ArrayRepetitionConstructor`.
+src/expressions.rst:3686: An :t:`array repetition constructor` is an :t:`array expression` that specifies
+src/expressions.rst:3687: how many times an element is repeated in the :t:`array` being constructed.
+src/expressions.rst:3694: repeated in an :t:`array repetition constructor`.
+src/expressions.rst:3701: repeated in an :t:`array repetition constructor`.
+src/expressions.rst:3711: The :t:`[type]s` of the :t:`[operand]s` of an :t:`array element constructor`
+src/expressions.rst:3729: If the :t:`array expression` appears with an :t:`array element constructor`,
+src/expressions.rst:3731: :t:`array element constructor`.
+src/expressions.rst:3737: The :t:`value` of an :t:`array expression` is the constructed :t:`array`.
+src/expressions.rst:3743: :t:`array element constructor` evaluates its :t:`[operand]s` in left-to-right
+src/expressions.rst:3748: :t:`array repetition constructor` proceeds as follows:
+src/expressions.rst:3939: A :t:`tuple expression` is an :t:`expression` that constructs a :t:`tuple`.
+src/expressions.rst:3981: Constructee $${$$ StructExpressionContent? $$}$$
+src/expressions.rst:3983: Constructee ::=
+src/expressions.rst:4013: A :t:`struct expression` is an :t:`expression` that constructs an
+src/expressions.rst:4014: :t:`enum value`, a :t:`struct value`, or a :t:`union value`.
+src/expressions.rst:4016: .. glossary-entry:: constructee
+src/expressions.rst:4020: A :dt:`constructee` indicates the :t:`enum variant`, :t:`struct` or :t:`union`
+src/expressions.rst:4021: whose value is being constructed by a :t:`struct expression`.
+src/expressions.rst:4024: A :t:`constructee` indicates the :t:`enum variant`, :t:`struct`, or :t:`union`
+src/expressions.rst:4025: whose value is being constructed by a :t:`struct expression`.
+src/expressions.rst:4031: A :dt:`base initializer` is a :t:`construct` that specifies an :t:`enum value`,
+src/expressions.rst:4032: a :t:`struct value`, or a :t:`union value` to be used as a base for
+src/expressions.rst:4033: construction in a :t:`struct expression`.
+src/expressions.rst:4039: A :t:`base initializer` is a :t:`construct` that specifies an :t:`enum value`, or
+src/expressions.rst:4040: a :t:`struct value` to be used as a base for
+src/expressions.rst:4041: construction in a :t:`struct expression`.
+src/expressions.rst:4046: the :t:`constructee`.
+src/expressions.rst:4052: An :dt:`indexed initializer` is a :t:`construct` that specifies the index and
+src/expressions.rst:4053: initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+src/expressions.rst:4059: An :t:`indexed initializer` is a :t:`construct` that specifies the index and
+src/expressions.rst:4060: initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+src/expressions.rst:4063: An :t:`indexed initializer` matches a :t:`field` of the :t:`constructee`
+src/expressions.rst:4065: position of a :t:`field` in the :t:`constructee`. Such an
+src/expressions.rst:4080: A :dt:`named initializer` is a :t:`construct` that specifies the name and
+src/expressions.rst:4081: initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+src/expressions.rst:4087: A :t:`named initializer` is a :t:`construct` that specifies the name and
+src/expressions.rst:4088: initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+src/expressions.rst:4091: A :t:`named initializer` matches a :t:`field` of the :t:`constructee` when
+src/expressions.rst:4107: A :dt:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
+src/expressions.rst:4108: of a :t:`field` in a :t:`struct expression`.
+src/expressions.rst:4114: A :t:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
+src/expressions.rst:4115: of a :t:`field` in a :t:`struct expression`.
+src/expressions.rst:4123: A :t:`shorthand initializer` matches a :t:`field` of the :t:`constructee`
+src/expressions.rst:4136: The :t:`type` of a :t:`struct expression` is the :t:`type` of the
+src/expressions.rst:4137: :t:`constructee`.
+src/expressions.rst:4140: The :t:`value` of a :t:`struct expression` is the :t:`enum value`,
+src/expressions.rst:4141: :t:`struct value`, or :t:`union value` in construction.
+src/expressions.rst:4144: If the :t:`constructee` is a :t:`record enum variant` or a :t:`record struct`,
+src/expressions.rst:4148: For each :t:`field` of the :t:`constructee`, the :t:`struct expression` shall
+src/expressions.rst:4162: :t:`constructee` have been matched.
+src/expressions.rst:4165: If the :t:`constructee` is a :t:`tuple enum variant` or a :t:`tuple struct`,
+src/expressions.rst:4169: For each :t:`field` of the :t:`constructee`, the :t:`struct expression` shall
+src/expressions.rst:4180: :t:`constructee` have been matched.
+src/expressions.rst:4183: If the :t:`constructee` is a :t:`union type`, then
+src/expressions.rst:4186: The :t:`struct expression` shall not contain a :t:`base initializer`.
+src/expressions.rst:4189: For the single :t:`field` of the :t:`constructee`, the :t:`struct expression`
+src/expressions.rst:4199: If the :t:`constructee` is a :t:`unit enum variant` or a :t:`unit struct`, then
+src/expressions.rst:4200: the :t:`struct expression` shall have at most one :t:`base initializer`.
+src/expressions.rst:4204: matched in the :t:`struct expression` the :t:`value` of the corresponding
+src/expressions.rst:4206: the :t:`field` of the :t:`constructee`.
+src/expressions.rst:4211: The :t:`evaluation` of a :t:`struct expression` evaluates its :t:`[operand]s` in
+src/expressions.rst:4223: struct Employee {
+src/expressions.rst:4231: name: "Alice".to_string(),
+src/expressions.rst:4240: name: "Bob".to_string(), // matched named initializer
+src/expressions.rst:4283: constructs a :t:`tuple struct value` or :t:`tuple enum variant value`.
+src/expressions.rst:4290: constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
+src/expressions.rst:4308: :t:`tuple struct value` or :t:`tuple enum variant value` being constructed by a
+src/expressions.rst:4316: :t:`tuple enum variant value` or the :t:`tuple struct value` being constructed
+src/expressions.rst:4334: A :t:`tuple struct call expression` is a :t:`call expression` where the
+src/expressions.rst:4335: :t:`call operand` resolves to a :t:`tuple struct`.
+src/expressions.rst:4342: :t:`function pointer type`, a :t:`tuple struct type`, a :t:`tuple enum variant`
+src/expressions.rst:4349: :t:`tuple struct type`, or a :t:`type` that implements any of the
+src/expressions.rst:4356: :t:`tuple struct` being constructed, or :t:`associated type`
+src/expressions.rst:4374: :t:`tuple struct type`, then the :t:`value` is the result of constructing
+src/expressions.rst:4375: the :t:`tuple enum variant` or the :t:`tuple struct` with the
+src/expressions.rst:4545: struct ClickCommand { ... }
+src/expressions.rst:4639: A :dt:`field selector` is a :t:`construct` that selects the :t:`field` to be
+src/expressions.rst:4646: A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+src/expressions.rst:4664: :t:`tuple struct type` or :t:`tuple enum variant`. The first :t:`field` has a
+src/expressions.rst:4774: :t:`closure type` and constructs a value of that :t:`type`.
+src/expressions.rst:4781: :t:`closure type` and constructs a value of that :t:`type`.
+src/expressions.rst:4787: An :dt:`async closure expression` is a :t:`closure expression` subject to keyword ``async`` that defines an :t:`async closure type` and constructs a value of that :t:`type`.
+src/expressions.rst:4793: An :t:`async closure expression` is a :t:`closure expression` subject to keyword ``async`` that defines an :t:`async closure type` and constructs a value of that :t:`type`.
+src/expressions.rst:4818: A :dt:`closure body` is a :t:`construct` that represents the executable portion
+src/expressions.rst:4825: A :t:`closure body` is a :t:`construct` that represents the executable portion
+src/expressions.rst:4838: A :dt:`closure parameter` is a :t:`construct` that yields a set of
+src/expressions.rst:4846: A :t:`closure parameter` is a :t:`construct` that yields a set of
+src/expressions.rst:5071: let favorite_fruits = &["apples", "pears", "strawberries"];
+src/expressions.rst:5315: A :dt:`label indication` is a :t:`construct` that indicates a :t:`label`.
+src/expressions.rst:5321: A :t:`label indication` is a :t:`construct` that indicates a :t:`label`.
+src/expressions.rst:5580: A :dt:`range expression` is an :t:`expression` that constructs a range.
+src/expressions.rst:5586: A :t:`range expression` is an :t:`expression` that constructs a range.
+src/expressions.rst:6036: A :dt:`match arm` is a :t:`construct` that consists of a :t:`match arm matcher`
+src/expressions.rst:6040: A :t:`match arm` is a :t:`construct` that consists of a :t:`match arm matcher`
+src/expressions.rst:6073: A :dt:`match arm matcher` is a :t:`construct` that consists of a :t:`pattern`
+src/expressions.rst:6080: A :t:`match arm matcher` is a :t:`construct` that consists of a :t:`pattern` and
+src/expressions.rst:6099: A :dt:`match arm guard` is a :t:`construct` that provides additional filtering
+src/expressions.rst:6106: A :t:`match arm guard` is a :t:`construct` that provides additional filtering to
+src/expressions.rst:6278: Control destroys the current activation frame.
+src/ffi.rst:92: The :dt:`ABI kind` indicates the :t:`ABI` of a :t:`construct`.
+src/ffi.rst:98: The :t:`ABI kind` indicates the :t:`ABI` of a :t:`construct`.
+src/ffi.rst:222: An :dt:`external block` is a :t:`construct` that provides the declarations of
+src/ffi.rst:229: An :t:`external block` is a :t:`construct` that provides the declarations of
+src/functions.rst:70: A :dt:`function qualifier` is a :t:`construct` that determines the role of
+src/functions.rst:77: A :t:`function qualifier` is a :t:`construct` that determines the role of
+src/functions.rst:88: A :dt:`function parameter` is a :t:`construct` that yields a set of
+src/functions.rst:96: A :t:`function parameter` is a :t:`construct` that yields a set of
+src/functions.rst:221: A :dt:`control flow boundary` is a :t:`construct` that limits control flow from
+src/functions.rst:222: returning beyond the :t:`construct`, and acts as the target of control flow
+src/general.rst:27: The outline and structure of the documents;
+src/general.rst:33: The structure, formality, wording, and numbering of paragraphs;
+src/general.rst:110: different language constructs;
+src/general.rst:154: Each chapter is divided into subchapters that have a common structure. Each
+src/general.rst:161: The syntax representation of a :t:`construct`.
+src/general.rst:163: .. glossary-entry:: construct
+src/general.rst:167: A :dt:`construct` is a piece of program text that is an instance of a
+src/general.rst:173: Compile-time rules and facts for each :t:`construct`. A :t:`construct` is legal
+src/general.rst:182: Run-time effects of each :t:`construct`.
+src/general.rst:197: Examples illustrating the possible forms of a :t:`construct`. This material
+src/general.rst:262: both the effects of each construct and the composition rules for constructs.
+src/generics.rst:98: .. glossary-entry:: generic struct
+src/generics.rst:102: A :dt:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+src/generics.rst:105: A :t:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+src/generics.rst:150: A :dt:`constant parameter initializer` is a :t:`construct` that provides the
+src/generics.rst:157: A :t:`constant parameter initializer` is a :t:`construct` that provides the
+src/generics.rst:187: A :t:`type parameter initializer` is a :t:`construct` that provides the
+src/generics.rst:200: A :t:`generic struct` shall use all of its :t:`[type parameter]s` and
+src/generics.rst:207: .. glossary-entry:: constrain
+src/generics.rst:211: A :t:`generic parameter` is said to :dt:`constrain` an :t:`implementation` if
+src/generics.rst:215: A :t:`generic parameter` is said to constrain an :t:`implementation` if the
+src/generics.rst:220: contains another :t:`generic parameter` that constrains the
+src/generics.rst:231: an :t:`implementation` does not constrain the :t:`implementation`.
+src/generics.rst:235: is used in an :t:`associated type` without constraining the
+src/generics.rst:281: A :t:`type parameter` of an :t:`abstract data type` has implicit
+src/generics.rst:283: :t:`abstract data type` as follows:
+src/generics.rst:292: :t:`abstract data type`, the :t:`type parameter` inherits all the
+src/generics.rst:308: :t:`abstract data type`, the :t:`type parameter` inherits all the
+src/generics.rst:331: struct Array<T, const N: usize>([T; N])
+src/generics.rst:335: struct Reference<'a, T: 'a> {
+src/generics.rst:367: A :t:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+src/generics.rst:369: to hold for the :t:`construct` subject to the :t:`where clause` to be valid.
+src/generics.rst:379: A :dt:`lifetime bound predicate` is a :t:`construct` that specifies
+src/generics.rst:386: A :t:`lifetime bound predicate` is a :t:`construct` that specifies
+src/generics.rst:390: A :t:`type bound predicate` is a :t:`construct` that specifies
+src/generics.rst:394: A :t:`construct` is valid when all of its :t:`[where clause predicate]s` hold
+src/generics.rst:400: :t:`construct`.
+src/generics.rst:409: struct Clause<T> where T: Iterator {
+src/generics.rst:520: an :t:`array repetition constructor` or a :t:`type`.
+src/implementations.rst:75: An :dt:`implementation body` is a :t:`construct` that encapsulates the
+src/implementations.rst:83: An :t:`implementation body` is a :t:`construct` that encapsulates the
+src/implementations.rst:156: struct Circle {
+src/implementations.rst:283: satisfies the constraints of its :t:`implemented trait`.
+src/index.rst:27: ownership-and-deconstruction
+src/index.rst:30: program-structure-and-compilation
+src/inline-assembly.rst:172: An :dt:`explicit register name` is a target-specific string that identifies
+src/inline-assembly.rst:179: An :t:`explicit register name` is a target-specific string that identifies
+src/inline-assembly.rst:509: A :dt:`register class name` is a target-specific string that identifies a
+src/inline-assembly.rst:516: A :t:`register class name` is a target-specific string that identifies a
+src/inline-assembly.rst:724: A :dt:`register argument` is a :t:`construct` that configures the input
+src/inline-assembly.rst:732: A :t:`register argument` is a :t:`construct` that configures the input
+src/inline-assembly.rst:737: A :t:`register argument` shall be used within an :t:`assembly instruction`.
+src/inline-assembly.rst:799: A :dt:`direction modifier` is a :t:`construct` that indicates whether a
+src/inline-assembly.rst:807: A :t:`direction modifier` is a :t:`construct` that indicates whether a
+src/inline-assembly.rst:846: An :dt:`input-output register expression` is a :t:`construct` that specifies
+src/inline-assembly.rst:853: An :t:`input-output register expression` is a :t:`construct` that specifies
+src/inline-assembly.rst:1122: Assembly Instructions
+src/inline-assembly.rst:1130: AssemblyInstruction ($$,$$ AssemblyInstruction)*
+src/inline-assembly.rst:1132: AssemblyInstruction ::=
+src/inline-assembly.rst:1137: .. glossary-entry:: assembly instruction
+src/inline-assembly.rst:1141: An :dt:`assembly instruction` is a :t:`string literal` that represents a
+src/inline-assembly.rst:1145: See :s:`AssemblyInstruction`.
+src/inline-assembly.rst:1148: An :t:`assembly instruction` is a :t:`string literal` that represents a
+src/inline-assembly.rst:1152: An :t:`assembly instruction` shall use the syntax of format strings as
+src/inline-assembly.rst:1160: An :dt:`assembly code block` is a sequence of :t:`[assembly instruction]s`.
+src/inline-assembly.rst:1166: An :t:`assembly code block` is a sequence of :t:`[assembly instruction]s`.
+src/inline-assembly.rst:1169: When an :t:`assembly code block` contains multiple :t:`[assembly instruction]s`,
+src/inline-assembly.rst:1170: the :t:`[assembly instruction]s` are treated as concatenated into a single
+src/inline-assembly.rst:1171: :t:`string literal`, with character 0x0A (new line) between them.
+src/inline-assembly.rst:1191: A :dt:`register parameter` is a substring delimited by characters 0x7B (left
+src/inline-assembly.rst:1193: :t:`register argument` in an :t:`assembly instruction`.
+src/inline-assembly.rst:1196: A :t:`register parameter` is a substring delimited by characters 0x7B (left
+src/inline-assembly.rst:1198: :t:`register argument` in an :t:`assembly instruction`.
+src/inline-assembly.rst:1227: A :dt:`register parameter modifier` is a substring that starts with character
+src/inline-assembly.rst:1232: A :t:`register parameter modifier` is a substring that starts with character
+src/inline-assembly.rst:1497: ``.sleb128``, ``.space``, ``.string``
+src/inline-assembly.rst:1546: structured exception handling.
+src/inline-assembly.rst:1622: Clobber constraints are applied for all unique :t:`[register]s` in the union of
+src/inline-assembly.rst:1713: An :dt:`assembly option` is used to specify a characteristic of or a restriction
+src/inline-assembly.rst:1720: An :t:`assembly option` is used to specify a characteristic of or a restriction
+src/inline-assembly.rst:1801: :t:`Assembly option` :dc:`raw` causes :t:`[assembly instruction]s` to be parsed
+src/inline-assembly.rst:1918: The :t:`[assembly instruction]s` of the :t:`assembly code block` are executed
+src/lexical-elements.rst:86: A :t:`whitespace string` is a string that consists of one or more
+src/lexical-elements.rst:207: A :dt:`separator` is a character or a string that separates adjacent
+src/lexical-elements.rst:211: A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
+src/lexical-elements.rst:212: element]s`. A :t:`whitespace string` is a :t:`separator`.
+src/lexical-elements.rst:304: :t:`comment`, a :t:`numeric literal`, or a :t:`string literal`.
+src/lexical-elements.rst:553: A :t:`pure identifier` shall be restricted to characters in category
+src/lexical-elements.rst:656: return), 0x27 (apostrophe), and 0x5C (reverse solidus).
+src/lexical-elements.rst:698: .. glossary-entry:: byte string literal
+src/lexical-elements.rst:702: A :dt:`byte string literal` is a :t:`literal` that consists of multiple
+src/lexical-elements.rst:709: A :t:`byte string literal` is a :t:`literal` that consists of multiple
+src/lexical-elements.rst:714: (new line) inside of a :t:`byte string literal`.
+src/lexical-elements.rst:740: .. glossary-entry:: simple byte string literal
+src/lexical-elements.rst:744: A :dt:`simple byte string literal` is a :t:`byte string literal` that consists
+src/lexical-elements.rst:751: A :t:`simple byte string literal` is a :t:`byte string literal` that consists of multiple
+src/lexical-elements.rst:755: The :t:`type` of a :t:`simple byte string literal` of size ``N`` is ``&'static [u8;
+src/lexical-elements.rst:788: .. glossary-entry:: raw byte string literal
+src/lexical-elements.rst:792: A :dt:`raw byte string literal` is a :t:`simple byte string literal` that does
+src/lexical-elements.rst:799: A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
+src/lexical-elements.rst:803: The :t:`type` of a :t:`raw byte string literal` of size ``N`` is ``&'static
+src/lexical-elements.rst:829: .. glossary-entry:: c string literal
+src/lexical-elements.rst:833: A :dt:`c string literal` is a :t:`literal` that consists of multiple characters
+src/lexical-elements.rst:840: A :t:`c string literal` is a :t:`literal` that consists of multiple characters
+src/lexical-elements.rst:845: (new line) inside of a :t:`c string literal`.
+src/lexical-elements.rst:865: .. glossary-entry:: simple c string literal
+src/lexical-elements.rst:869: A :dt:`simple c string literal` is any :t:`Unicode` character except characters
+src/lexical-elements.rst:877: A :t:`simple c string literal` is any :t:`Unicode` character except characters
+src/lexical-elements.rst:884: A :t:`simple c string literal` is a :t:`c string literal` where the characters are
+src/lexical-elements.rst:888: The :t:`type` of a :t:`simple string literal` is :std:`&'static
+src/lexical-elements.rst:903: string"
+src/lexical-elements.rst:926: .. glossary-entry:: raw c string literal
+src/lexical-elements.rst:930: A :dt:`raw c string literal` is a :t:`simple c string literal` that does not
+src/lexical-elements.rst:937: A :t:`raw c string literal` is a :t:`simple c string literal` that does not
+src/lexical-elements.rst:941: The :t:`type` of a :t:`simple string literal` is :std:`&'static
+src/lexical-elements.rst:1189: If the program context under-constrains the :t:`type`, then the :t:`inferred
+src/lexical-elements.rst:1193: If the program context over-constrains the :t:`type`, then this is considered
+src/lexical-elements.rst:1292: If the program context under-constrains the :t:`type`, then the :t:`inferred
+src/lexical-elements.rst:1296: If the program context over-constrains the :t:`type`, then this is considered
+src/lexical-elements.rst:1338: return), 0x27 (apostrophe), and 0x5c (reverse solidus).
+src/lexical-elements.rst:1391: A :t:`string literal` is a :t:`literal` that consists of multiple characters.
+src/lexical-elements.rst:1395: (new line) inside of a :t:`string literal`.
+src/lexical-elements.rst:1426: A :t:`simple string literal` is a :t:`string literal` where the characters are
+src/lexical-elements.rst:1430: The :t:`type` of a :t:`simple string literal` is ``&'static str``.
+src/lexical-elements.rst:1444: string"
+src/lexical-elements.rst:1467: .. glossary-entry:: raw string literal
+src/lexical-elements.rst:1471: A :dt:`raw string literal` is a :t:`simple string literal` that does not
+src/lexical-elements.rst:1478: A :t:`raw string literal` is a :t:`simple string literal` that does not
+src/lexical-elements.rst:1482: The :t:`type` of a :t:`raw string literal` is ``&'static str``.
+src/lexical-elements.rst:1619: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1626: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1633: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1640: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1658: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1665: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1672: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1679: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1718: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1722: :t:`non-[comment]` :t:`construct`.
+src/lexical-elements.rst:1727: is a :t:`string literal` form of the :t:`comment` without the leading ``//!``,
+src/lexical-elements.rst:1733: is a :t:`string literal` form of the :t:`comment` without the leading ``///``,
+src/lexical-elements.rst:1834: | $$struct$$
+src/lexical-elements.rst:1847: A :t:`strict keyword` is a :t:`keyword` that always holds its special meaning.
+src/lexical-elements.rst:1859: $$abstract$$
+src/licenses.rst:29: Any other use or distribution of this document is prohibited without the prior
+src/licenses.rst:68: distribution as defined by Sections 1 through 9 of this document.
+src/licenses.rst:133: sublicense, and distribute the Work and such Derivative Works in Source or
+src/licenses.rst:152: 4. Redistribution. You may reproduce and distribute copies of the Work or
+src/licenses.rst:166: distribute, all copyright, patent, trademark, and attribution notices from the
+src/licenses.rst:171: (d) If the Work includes a "NOTICE" text file as part of its distribution, then
+src/licenses.rst:172: any Derivative Works that You distribute must include a readable copy of the
+src/licenses.rst:175: the following places: within a NOTICE text file distributed as part of the
+src/licenses.rst:181: that You distribute, alongside or as an addendum to the NOTICE text from the
+src/licenses.rst:182: Work, provided that such additional attribution notices cannot be construed as
+src/licenses.rst:188: distribution of Your modifications, or for any such Derivative Works as a whole,
+src/licenses.rst:189: provided Your use, reproduction, and distribution of the Work otherwise complies
+src/licenses.rst:213: the appropriateness of using or redistributing the Work and assume any risks
+src/licenses.rst:229: 9. Accepting Warranty or Additional Liability. While redistributing the
+src/licenses.rst:270: Unless required by applicable law or agreed to in writing, software distributed
+src/licenses.rst:271: under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+src/licenses.rst:286: in the Software without restriction, including without limitation the rights to
+src/licenses.rst:287: use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+src/macros.rst:32: return a stream of :t:`[lexical element]s`.
+src/macros.rst:98: A :dt:`macro rule` is a :t:`construct` that consists of a :t:`macro matcher`
+src/macros.rst:105: A :t:`macro rule` is a :t:`construct` that consists of a :t:`macro matcher` and
+src/macros.rst:112: A :dt:`macro matcher` is a :t:`construct` that describes a syntactic pattern
+src/macros.rst:119: A :t:`macro matcher` is a :t:`construct` that describes a syntactic pattern that
+src/macros.rst:138: A :dt:`macro transcriber` is a :t:`construct` that describes the replacement
+src/macros.rst:145: A :t:`macro transcriber` is a :t:`construct` that describes the replacement
+src/macros.rst:222: A :dt:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+src/macros.rst:229: A :t:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+src/macros.rst:234: :dt:`[fragment specifier restriction]s` on the :t:`[token]s` that follow them:
+src/macros.rst:273: A :dt:`metavariable indication` is a :t:`construct` that indicates a
+src/macros.rst:280: A :t:`metavariable indication` is a :t:`construct` that indicates a
+src/macros.rst:364: A :dt:`repetition operator` is a :t:`construct` that indicates the number
+src/macros.rst:372: A :t:`repetition operator` is a :t:`construct` that indicates the number
+src/macros.rst:389: A :t:`macro repetition` has the following additional restrictions:
+src/macros.rst:394: :t:`[fragment specifier restriction]s`.
+src/macros.rst:400: :t:`[fragment specifier restriction]s`.
+src/macros.rst:405: :t:`[fragment specifier restriction]s`.
+src/macros.rst:410: :t:`[fragment specifier restriction]s`.
+src/macros.rst:414: :s:`MacroRepetitionMatchContent`'s :t:`[fragment specifier restriction]s`.
+src/macros.rst:443: streams of :t:`[token]s` and produce a stream of :t:`[token]s`.
+src/macros.rst:475: A :dt:`function-like macro` is a :t:`procedural macro` that consumes a stream
+src/macros.rst:476: of :t:`[token]s` and produces a stream of tokens, and is invoked directly.
+src/macros.rst:479: A :t:`function-like macro` is a :t:`procedural macro` that consumes a stream of
+src/macros.rst:480: :t:`[token]s` and produces a stream of :t:`[token]s`.
+src/macros.rst:484: subject to the following restrictions:
+src/macros.rst:511: :t:`token` stream produced from the :s:`DelimitedTokenTree` of the
+src/macros.rst:534: A :dt:`derive macro` is a :t:`procedural macro` that consumes a stream of
+src/macros.rst:535: :t:`[token]s` and produces a stream of tokens, and is invoked via attribute
+src/macros.rst:539: A :t:`derive macro` is a :t:`procedural macro` that consumes a stream of
+src/macros.rst:540: :t:`[token]s` and produces a stream of :t:`[token]s`. :t:`[Derive macro]s` are
+src/macros.rst:541: used to construct new syntax for :t:`[abstract data type]s`.
+src/macros.rst:545: to the following restrictions:
+src/macros.rst:572: the :t:`token` stream produced from the related :s:`EnumDeclaration`,
+src/macros.rst:577: the :t:`derive helper attribute` scope of the :t:`abstract data type` the
+src/macros.rst:604: An :dt:`attribute macro` is a :t:`procedural macro` that consumes two streams
+src/macros.rst:605: of :t:`[token]s` to produce a stream of tokens, and defines a new
+src/macros.rst:609: An :t:`attribute macro` is a :t:`procedural macro` that consumes two streams
+src/macros.rst:610: of :t:`[token]s` to produce a single stream of :t:`[token]s`, and defines a
+src/macros.rst:617: subject to the following restrictions:
+src/macros.rst:650: captures the :t:`token` stream produced from the :s:`DelimitedTokenTree`
+src/macros.rst:652: :s:`DelimitedTokenTree` is provided, then the :t:`token` stream is considered
+src/macros.rst:657: captures the :t:`token` stream produced from the related :t:`item`, including
+src/macros.rst:668: println!("attr: \"{}\"", attr.to_string());
+src/macros.rst:669: println!("item: \"{}\"", item.to_string());
+src/macros.rst:762: struct derive_macro_invoker;
+src/macros.rst:1048: 0x5F (apostrophe, low line), or character 0x27 (apostrophe) followed by an
+src/ownership-and-deconstruction.rst:8: Ownership and Destruction
+src/ownership-and-deconstruction.rst:446: Destruction
+src/ownership-and-deconstruction.rst:451: .. glossary-entry:: destruction
+src/ownership-and-deconstruction.rst:455: :dt:`Destruction` is the process of recovering resources associated with a
+src/ownership-and-deconstruction.rst:459: :t:`Destruction` is the process of recovering resources associated with a
+src/ownership-and-deconstruction.rst:464: Destructors
+src/ownership-and-deconstruction.rst:474: :t:`trait` or contains a :t:`field` that has a :t:`destructor`.
+src/ownership-and-deconstruction.rst:480: .. glossary-entry:: destructor
+src/ownership-and-deconstruction.rst:484: A :dt:`destructor` is a :t:`function` that is invoked immediately before the
+src/ownership-and-deconstruction.rst:485: :t:`destruction` of a :t:`value` of a :t:`drop type`.
+src/ownership-and-deconstruction.rst:488: A :t:`destructor` is a :t:`function` that is invoked immediately before the
+src/ownership-and-deconstruction.rst:489: :t:`destruction` of a :t:`value` of a :t:`drop type`.
+src/ownership-and-deconstruction.rst:492: :t:`Dropping` a :t:`value` is the act of invoking the :t:`destructor` of the
+src/ownership-and-deconstruction.rst:525: Otherwise, if the :t:`drop type` is a :t:`struct type`, then its
+src/ownership-and-deconstruction.rst:530: :t:`destructor` of the underlying :t:`type` is invoked.
+src/ownership-and-deconstruction.rst:543: :dt:`Dropping` a :t:`value` is the act of invoking the :t:`destructor` of the
+src/ownership-and-deconstruction.rst:550: struct PrintOnDrop(&'static str);
+src/ownership-and-deconstruction.rst:559: When object ``array`` is dropped, its destructor drops the first element, then
+src/ownership-and-deconstruction.rst:594: .. glossary-entry:: drop construct
+src/ownership-and-deconstruction.rst:598: A :dt:`drop construct` is a :t:`construct` that employs a :t:`drop scope`.
+src/ownership-and-deconstruction.rst:601: A :t:`drop construct` is a :t:`construct` that employs a :t:`drop scope`. The
+src/ownership-and-deconstruction.rst:602: following :t:`[construct]s` are :t:`[drop construct]s`:
+src/ownership-and-deconstruction.rst:745: A :t:`slice pattern`, a :t:`struct pattern`, :t:`tuple pattern` or a
+src/ownership-and-deconstruction.rst:746: :t:`tuple struct pattern` that contains at least one :t:`subpattern` that is
+src/ownership-and-deconstruction.rst:767: :t:`array expression`, a :t:`borrow expression`, a :t:`struct expression`, a
+src/ownership-and-deconstruction.rst:787: The :t:`[argument operand]s` of a :t:`tuple struct call expression`
+src/patterns.rst:44: A :dt:`pattern` is a :t:`construct` that matches a :t:`value` which satisfies
+src/patterns.rst:51: A :t:`pattern` is a :t:`construct` that matches a :t:`value` which satisfies all
+src/patterns.rst:115: restrictions:
+src/patterns.rst:249: A :dt:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
+src/patterns.rst:256: A :t:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
+src/patterns.rst:283: :t:`unit struct constant` or a :t:`unit enum variant`.
+src/patterns.rst:288: :t:`unit struct constant`, or a :t:`unit enum variant`.
+src/patterns.rst:292: to a :t:`tuple struct` or a :t:`tuple enum variant`.
+src/patterns.rst:307: a :t:`constant`, a :t:`unit struct constant`, or a :t:`unit enum variant`.
+src/patterns.rst:509: :t:`unit enum variant`, or a :t:`unit struct constant` indicated by a
+src/patterns.rst:517: :t:`unit enum variant`, or a :t:`unit struct constant` indicated by a :t:`path`.
+src/patterns.rst:531: shall be :t:`structurally equal`.
+src/patterns.rst:541: :t:`struct type`, then the :t:`enum type` or :t:`struct type` shall be subject
+src/patterns.rst:559: A :t:`struct` where the :t:`[type]s` of all :t:`[field]s` are
+src/patterns.rst:564: :t:`unit enum variant`, or :t:`unit struct constant` the :t:`path` resolved to.
+src/patterns.rst:703: A :dt:`range pattern bound` is a constraint on the range of a
+src/patterns.rst:710: A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
+src/patterns.rst:887: :t:`tuple struct pattern`.
+src/patterns.rst:992: Deconstructee ::=
+src/patterns.rst:998: A :t:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
+src/patterns.rst:999: :t:`struct value`, or a :t:`union value`.
+src/patterns.rst:1001: .. glossary-entry:: deconstructee
+src/patterns.rst:1005: A :dt:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is
+src/patterns.rst:1006: being deconstructed by a :t:`struct pattern`.
+src/patterns.rst:1009: See :s:`Deconstructee`.
+src/patterns.rst:1012: A :t:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is being
+src/patterns.rst:1013: deconstructed by a :t:`struct pattern`.
+src/patterns.rst:1016: A :t:`struct pattern` is interpreted based on the :t:`deconstructee`. It is a
+src/patterns.rst:1017: static error if a :t:`struct pattern` cannot be interpreted.
+src/patterns.rst:1020: A :t:`struct pattern` is an :t:`irrefutable pattern` if
+src/patterns.rst:1026: The :t:`deconstructee` is either:
+src/patterns.rst:1029: A :t:`struct type` or a :t:`union type`, or
+src/patterns.rst:1044: Deconstructee $${$$ RecordStructPatternContent? $$}$$
+src/patterns.rst:1048: | FieldDeconstructorList ($$,$$ RecordStructRestPattern | $$,$$?)
+src/patterns.rst:1053: FieldDeconstructorList ::=
+src/patterns.rst:1054: FieldDeconstructor ($$,$$ FieldDeconstructor)*
+src/patterns.rst:1056: FieldDeconstructor ::=
+src/patterns.rst:1058: IndexedDeconstructor
+src/patterns.rst:1059: | NamedDeconstructor
+src/patterns.rst:1060: | ShorthandDeconstructor
+src/patterns.rst:1063: IndexedDeconstructor ::=
+src/patterns.rst:1066: NamedDeconstructor ::=
+src/patterns.rst:1069: ShorthandDeconstructor ::=
+src/patterns.rst:1077: .. glossary-entry:: record struct pattern
+src/patterns.rst:1081: A :dt:`record struct pattern` is a :t:`pattern` that matches a
+
+...18290 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /home/pete.levasseur/.local/share/opencode/tool-output/tool_c28ec7697001KC12WADxVvT4Ig
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+[91m[1m| [0m[90m Bash     [0mFind definition-like lines for sized type
+
+src/types-and-traits.rst:2631: An :t:`unsized coercion` is a :t:`type coercion` that converts a :t:`sized type`
+
+[94m[1m| [0m[90m Grep     [0m:dt:`sized type`
+[91m[1m| [0m[90m Bash     [0mFind definition-like lines for slice term
+
+src/types-and-traits.rst:699: :c:`Str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit unsigned
+src/types-and-traits.rst:1990: For a :t:`fat pointer type` whose contained :t:`type` is that of a :t:`slice` or :t:`trait object type` the :t:`size` is that of two times the size of :t:`type` :c:`usize` and the :t:`alignment` is that of :t:`type` :c:`usize`.
+
+[94m[1m| [0m[90m Grep     [0mlifetime elision
+[94m[1m| [0m[90m Grep     [0m\bstr\b
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/statements.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`statement`
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0msimple path public modifier
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mFind definition lines for simple path resolution
+
+src/entities-and-resolution.rst:445: A :t:`simple path` is subject to :t:`simple path resolution`.
+src/entities-and-resolution.rst:1993: The :t:`namespace context` of :t:`simple path resolution` is determined as
+
+[94m[1m| [0m[90m Grep     [0msimple path resolution
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mSimple path resolution
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: simple
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0msimple string literal
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0m\nslice\n
+[91m[1m| [0m[90m Bash     [0mLocate slice entry header in glossary
+
+6315 slice
+
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple path prefix
+
+.. glossary-entry:: simple path prefix
+   
+   :glossary:
+     :dp:`fls_ijc2yHQuIltY`
+     A :dt:`simple path prefix` is the leading :t:`simple path` of a
+     :t:`glob import` or a :t:`nesting import`.
+     
+     :dp:`fls_ImHceyHhK6OZ`
+     See :s:`SimplePathPrefix`.
+   :chapter:
+     :dp:`fls_sxo1jb25pl8a`
+     A :t:`simple path prefix` is the leading :t:`simple path` of a :t:`glob import`
+     or a :t:`nesting import`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple path public modifier
+
+.. glossary-entry:: simple path public modifier
+   
+   :glossary:
+     :dp:`fls_mby9r0jm6uyv`
+     A :dt:`simple path public modifier` is a :t:`visibility modifier` that grants a
+     :t:`name` :t:`public visibility` within the provided :t:`simple path` only.
+     
+     :dp:`fls_mud4hw74kuh6`
+     See :s:`SimplePathPublicModifier`.
+   :chapter:
+     :dp:`fls_yymgpyi67dty`
+     A :t:`simple path public modifier` is a :t:`visibility modifier` that grants a
+     :t:`name` :t:`public visibility` within the provided :t:`simple path` only.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple path resolution
+
+.. glossary-entry:: simple path resolution
+   
+   :glossary:
+     :dp:`fls_CQlepoN6PmKq`
+     :dt:`Simple path resolution` is a kind of :t:`path resolution` that applies to
+     a :t:`simple path`.
+   :chapter:
+     :dp:`fls_uml24jw5jo7a`
+     :t:`Simple path resolution` is a kind of :t:`path resolution` that applies to
+     a :t:`simple path`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple public modifier
+
+.. glossary-entry:: simple public modifier
+   
+   :glossary:
+     :dp:`fls_ce1ounn1g68`
+     A :dt:`simple public modifier` is a :t:`visibility modifier` that grants a
+     :t:`name` :t:`public visibility`.
+     
+     :dp:`fls_rd68vm2f2qy5`
+     See :s:`SelfPublicModifier`.
+   :chapter:
+     :dp:`fls_np8aghofjqhm`
+     A :t:`simple public modifier` is a :t:`visibility modifier` that grants a
+     :t:`name` :t:`public visibility`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for single segment path
+
+.. glossary-entry:: single segment path
+   
+   :glossary:
+     :dp:`fls_Hun5BCZsqd6k`
+     A :dt:`single segment path` is a :t:`path` consisting of exactly one
+     :t:`path segment`.
+   :chapter:
+     :dp:`fls_chtj3hcfe3ap`
+     A :t:`single segment path` is a :t:`path` consisting of exactly one
+     :t:`path segment`.
+     
+     .. glossary-entry:: multi segment path
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mFind next dp after strict keyword definition
+
+next dp 1878      :dp:`fls_b67hj7fdbq4s`
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry with manual chapter lines for single segment path
+
+/bin/bash: line 1: fls_chtj3hcfe3ap: command not found
+/bin/bash: line 1: single: command not found
+/bin/bash: line 1: path: command not found
+/bin/bash: line 1: path: command not found
+.. glossary-entry:: single segment path
+   
+   :glossary:
+     :dp:`fls_Hun5BCZsqd6k`
+     A :dt:`single segment path` is a :t:`path` consisting of exactly one
+     :t:`path segment`.
+   :chapter:
+     :dp:
+     A :t: is a :t: consisting of exactly one
+     :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry with manual chapter lines for single segment path
+
+.. glossary-entry:: single segment path
+   
+   :glossary:
+     :dp:`fls_Hun5BCZsqd6k`
+     A :dt:`single segment path` is a :t:`path` consisting of exactly one
+     :t:`path segment`.
+   :chapter:
+     :dp:`fls_chtj3hcfe3ap`
+     A :t:`single segment path` is a :t:`path` consisting of exactly one
+     :t:`path segment`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for strict keyword with manual chapter lines
+
+.. glossary-entry:: strict keyword
+   
+   :glossary:
+     :dp:`fls_hza9spr6behn`
+     A :dt:`strict keyword` is a :t:`keyword` that always holds its special meaning.
+     
+     :dp:`fls_67pzayd9qzzs`
+     See :s:`StrictKeyword`.
+   :chapter:
+     :dp:`fls_bsh7qsyvox21`
+     A :t:`strict keyword` is a :t:`keyword` that always holds its special meaning.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple register expression
+
+.. glossary-entry:: simple register expression
+   
+   :glossary:
+     :dp:`fls_4Yp4R7gXucL2`
+     A :dt:`simple register expression` is either an :t:`expression` or an
+     :t:`underscore expression`.
+     
+     :dp:`fls_kKaqHDxPTTUC`
+     See :s:`SimpleRegisterExpression`.
+   :chapter:
+     :dp:`fls_aniw4ehsn2kb`
+     A :t:`simple register expression` is either an :t:`expression` or an
+     :t:`underscore expression`.
+     
+     .. glossary-entry:: register expression
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry with manual chapter lines for simple register expression
+
+.. glossary-entry:: simple register expression
+   
+   :glossary:
+     :dp:`fls_4Yp4R7gXucL2`
+     A :dt:`simple register expression` is either an :t:`expression` or an
+     :t:`underscore expression`.
+     
+     :dp:`fls_kKaqHDxPTTUC`
+     See :s:`SimpleRegisterExpression`.
+   :chapter:
+     :dp:`fls_aniw4ehsn2kb`
+     A :t:`simple register expression` is either an :t:`expression` or an
+     :t:`underscore expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for simple string literal
+
+.. glossary-entry:: simple string literal
+   
+   :glossary:
+     :dp:`fls_p6qyyptz8w8w`
+     A :dt:`simple string literal` is a :t:`string literal` where the characters are
+     :t:`Unicode` characters.
+     
+     :dp:`fls_osj0c4dmr6e0`
+     See :s:`SimpleStringLiteral`.
+   :chapter:
+     :dp:`fls_ycy5ee6orjx`
+     A :t:`simple string literal` is a :t:`string literal` where the characters are
+     :t:`Unicode` characters.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for size
+
+.. glossary-entry:: size
+   
+   :glossary:
+     :dp:`fls_3obnilqhkjux`
+     The :dt:`size` of a :t:`value` is the offset in bytes between successive
+     elements in an :t:`array type` with the same :t:`element type`, including any
+     padding for :t:`alignment`.
+   :chapter:
+     :dp:`fls_1pbwigq6f3ha`
+     The :t:`size` of a :t:`type` is the offset in bytes between successive elements
+     in :t:`array type` ``[T, N]`` where ``T`` is the :t:`type` of the :t:`value`,
+     including any padding for :t:`alignment`. :t:`Size` is a multiple of the
+     :t:`alignment`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for size operand
+
+.. glossary-entry:: size operand
+   
+   :glossary:
+     :dp:`fls_srajsqi5i3py`
+     A :dt:`size operand` is an :t:`operand` that specifies the size of an
+     :t:`array` or an :t:`array type`.
+     
+     :dp:`fls_228ioayvdguv`
+     See :s:`SizeOperand`.
+   :chapter:
+     :dp:`fls_2l9objtb23zn`
+     A :t:`size operand` is an :t:`operand` that specifies the size of an :t:`array`
+     or an :t:`array type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for slice pattern
+
+.. glossary-entry:: slice pattern
+   
+   :glossary:
+     :dp:`fls_7613qu4igwiw`
+     A :dt:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed
+     size and :t:`[slice]s` of dynamic size.
+     
+     :dp:`fls_3qey00280x27`
+     See :s:`SlicePattern`.
+   :chapter:
+     :dp:`fls_qqiu594hki8g`
+     A :t:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed size
+     and :t:`[slice]s` of dynamic size.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for slice type
+
+.. glossary-entry:: slice type
+   
+   :glossary:
+     :dp:`fls_bvpszep1w90g`
+     A :dt:`slice type` is a :t:`sequence type` that provides a view into a sequence
+     of elements.
+     
+     :dp:`fls_y7gscwf29htg`
+     See :s:`SliceTypeSpecification`.
+   :chapter:
+     :dp:`fls_ftvua2hlvr08`
+     A :t:`slice type` is a :t:`sequence type` that provides a view into a sequence
+     of elements.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for source file
+
+.. glossary-entry:: source file
+   
+   :glossary:
+     :dp:`fls_nh737q4mn27u`
+     A :dt:`source file` contains the program text of :t:`[inner attribute]s`,
+     :t:`[inner doc comment]s`, and :t:`[item]s`.
+     
+     :dp:`fls_zgh1m5357ex1`
+     See :s:`SourceFile`.
+   :chapter:
+     :dp:`fls_4vicosdeaqmp`
+     A :t:`source file` contains the program text consisting of :t:`[inner
+     attribute]s`, :t:`[inner doc comment]s`, and :t:`[item]s`. The location of a
+     :t:`source file` is tool defined.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for static
+
+.. glossary-entry:: static
+   
+   :glossary:
+     :dp:`fls_srx4v1e20yxa`
+     A :dt:`static` is a :t:`value` that is associated with a specific memory
+     location.
+     
+     :dp:`fls_1b7gpk8e98pw`
+     See :s:`StaticDeclaration`.
+   :chapter:
+     :dp:`fls_ibrmiwfypldh`
+     A :t:`static` is a :t:`value` that is associated with a specific memory
+     location.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for static initializer
+
+.. glossary-entry:: static initializer
+   
+   :glossary:
+     :dp:`fls_6jjbfni87tax`
+     A :dt:`static initializer` is a :t:`construct` that provides the :t:`value` of
+     its related :t:`static`.
+     
+     :dp:`fls_igbl5uv0dlhl`
+     See :s:`StaticInitializer`.
+   :chapter:
+     :dp:`fls_t17h5h6a6v4c`
+     A :t:`static initializer` is a :t:`construct` that provides the :t:`value` of
+     its related :t:`static`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for static lifetime elision
+
+.. glossary-entry:: static lifetime elision
+   
+   :glossary:
+     :dp:`fls_NbVewjYRnQPF`
+     :dt:`Static lifetime elision` is a form of :t:`lifetime elision` that applies
+     to :t:`[constant]s` and :t:`[static]s`.
+   :chapter:
+     :dp:`fls_l4RDXaFwnQZ6`
+     :t:`Static lifetime elision` is a form of :t:`lifetime elision` that applies to
+     the :t:`type ascription` of :t:`[constant]s` and :t:`[static]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for str
+
+.. glossary-entry:: str
+   
+   :glossary:
+     :dp:`fls_6977zxb0resa`
+     :dc:`str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit
+     unsigned bytes.
+   :chapter:
+     :dp:`fls_wlnoq1qoq2kr`
+     :c:`Str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit unsigned
+     bytes.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for sized type (glossary only)
+
+.. glossary-entry:: sized type
+   
+   :glossary:
+     :dp:`fls_pwcgsRCNSwKn`
+     A :dt:`sized type` is a :t:`type` with statically known size.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for slice (glossary only)
+
+.. glossary-entry:: slice
+   
+   :glossary:
+     :dp:`fls_p1sv01ml2ark`
+     A :dt:`slice` is a :t:`value` of a :t:`slice type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for statement (glossary only)
+
+.. glossary-entry:: statement
+   
+   :glossary:
+     :dp:`fls_faijgwg4lhp9`
+     A :dt:`statement` is a component of a block expression.
+     
+     :dp:`fls_th7edvxml3mn`
+     See :s:`Statement`.
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/statements.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow git status summary
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 1]
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/inline-assembly.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/program-structure-and-compilation.rst
+ M src/statements.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow working tree status
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 1]
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/inline-assembly.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/program-structure-and-compilation.rst
+ M src/statements.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 65620d1..9a915d4 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -233,9 +233,19 @@ A :t:`visibility modifier` sets the :t:`visibility` of a :t:`name`.
+      to a :t:`simple path public modifier` where the :t:`simple path` denotes
+      :t:`keyword` ``self``.
+ 
+-:dp:`fls_yymgpyi67dty`
+-A :t:`simple path public modifier` is a :t:`visibility modifier` that grants a
+-:t:`name` :t:`public visibility` within the provided :t:`simple path` only.
++.. glossary-entry:: simple path public modifier
++   
++   :glossary:
++     :dp:`fls_mby9r0jm6uyv`
++     A :dt:`simple path public modifier` is a :t:`visibility modifier` that grants a
++     :t:`name` :t:`public visibility` within the provided :t:`simple path` only.
++     
++     :dp:`fls_mud4hw74kuh6`
++     See :s:`SimplePathPublicModifier`.
++   :chapter:
++     :dp:`fls_yymgpyi67dty`
++     A :t:`simple path public modifier` is a :t:`visibility modifier` that grants a
++     :t:`name` :t:`public visibility` within the provided :t:`simple path` only.
+ 
+ :dp:`fls_hc121mxknq03`
+ The :t:`simple path` of a :t:`simple path public modifier` shall start
+@@ -247,9 +257,19 @@ The :t:`simple path` of a :t:`simple path public modifier` shall resolve to
+ an ancestor :t:`module` of the current :t:`module` or the current :t:`module`
+ itself.
+ 
+-:dp:`fls_np8aghofjqhm`
+-A :t:`simple public modifier` is a :t:`visibility modifier` that grants a
+-:t:`name` :t:`public visibility`.
++.. glossary-entry:: simple public modifier
++   
++   :glossary:
++     :dp:`fls_ce1ounn1g68`
++     A :dt:`simple public modifier` is a :t:`visibility modifier` that grants a
++     :t:`name` :t:`public visibility`.
++     
++     :dp:`fls_rd68vm2f2qy5`
++     See :s:`SelfPublicModifier`.
++   :chapter:
++     :dp:`fls_np8aghofjqhm`
++     A :t:`simple public modifier` is a :t:`visibility modifier` that grants a
++     :t:`name` :t:`public visibility`.
+ 
+ :dp:`fls_quzvhzpr0124`
+ A :t:`super public modifier` is a :t:`visibility modifier` that grants a
+@@ -444,9 +464,16 @@ be part of the :s:`UseImportContent` of a :t:`nesting import` as long as the
+ :dp:`fls_kv5bpq8rf1j9`
+ A :t:`simple path` is subject to :t:`simple path resolution`.
+ 
+-:dp:`fls_chtj3hcfe3ap`
+-A :t:`single segment path` is a :t:`path` consisting of exactly one
+-:t:`path segment`.
++.. glossary-entry:: single segment path
++   
++   :glossary:
++     :dp:`fls_Hun5BCZsqd6k`
++     A :dt:`single segment path` is a :t:`path` consisting of exactly one
++     :t:`path segment`.
++   :chapter:
++     :dp:`fls_chtj3hcfe3ap`
++     A :t:`single segment path` is a :t:`path` consisting of exactly one
++     :t:`path segment`.
+ 
+ .. glossary-entry:: multi segment path
+    
+@@ -1263,9 +1290,19 @@ A :t:`use import` brings :t:`entities <entity>` :t:`in scope` within the
+ :t:`block expression` of an :t:`expression-with-block` or :t:`module` where the
+ :t:`use import` resides.
+ 
+-:dp:`fls_sxo1jb25pl8a`
+-A :t:`simple path prefix` is the leading :t:`simple path` of a :t:`glob import`
+-or a :t:`nesting import`.
++.. glossary-entry:: simple path prefix
++   
++   :glossary:
++     :dp:`fls_ijc2yHQuIltY`
++     A :dt:`simple path prefix` is the leading :t:`simple path` of a
++     :t:`glob import` or a :t:`nesting import`.
++     
++     :dp:`fls_ImHceyHhK6OZ`
++     See :s:`SimplePathPrefix`.
++   :chapter:
++     :dp:`fls_sxo1jb25pl8a`
++     A :t:`simple path prefix` is the leading :t:`simple path` of a :t:`glob import`
++     or a :t:`nesting import`.
+ 
+ :dp:`fls_WAA4WmohGu6T`
+ An :dt:`import path prefix` is the fully constructed :t:`path` prefix of a
+@@ -1985,9 +2022,16 @@ Simple Path Resolution
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_uml24jw5jo7a`
+-:t:`Simple path resolution` is a kind of :t:`path resolution` that applies to
+-a :t:`simple path`.
++.. glossary-entry:: simple path resolution
++   
++   :glossary:
++     :dp:`fls_CQlepoN6PmKq`
++     :dt:`Simple path resolution` is a kind of :t:`path resolution` that applies to
++     a :t:`simple path`.
++   :chapter:
++     :dp:`fls_uml24jw5jo7a`
++     :t:`Simple path resolution` is a kind of :t:`path resolution` that applies to
++     a :t:`simple path`.
+ 
+ :dp:`fls_59wd7loxst43`
+ The :t:`namespace context` of :t:`simple path resolution` is determined as
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 230f4bb..9c35faa 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -3700,9 +3700,19 @@ Array Expressions
+      A :t:`repeat operand` is an :t:`operand` that specifies the element being
+      repeated in an :t:`array repetition constructor`.
+ 
+-:dp:`fls_2l9objtb23zn`
+-A :t:`size operand` is an :t:`operand` that specifies the size of an :t:`array`
+-or an :t:`array type`.
++.. glossary-entry:: size operand
++   
++   :glossary:
++     :dp:`fls_srajsqi5i3py`
++     A :dt:`size operand` is an :t:`operand` that specifies the size of an
++     :t:`array` or an :t:`array type`.
++     
++     :dp:`fls_228ioayvdguv`
++     See :s:`SizeOperand`.
++   :chapter:
++     :dp:`fls_2l9objtb23zn`
++     A :t:`size operand` is an :t:`operand` that specifies the size of an :t:`array`
++     or an :t:`array type`.
+ 
+ :dp:`fls_9gmnjvs83d8o`
+ The :t:`size operand` shall be a :t:`constant expression`.
+diff --git a/src/inline-assembly.rst b/src/inline-assembly.rst
+index d88586b..c834ab1 100644
+--- a/src/inline-assembly.rst
++++ b/src/inline-assembly.rst
+@@ -853,9 +853,19 @@ A :dt:`const register expression` is an :t:`expression` that is evaluated at com
+      An :t:`input-output register expression` is a :t:`construct` that specifies
+      both an :t:`input register expression` and an :t:`output register expression`.
+ 
+-:dp:`fls_aniw4ehsn2kb`
+-A :t:`simple register expression` is either an :t:`expression` or an
+-:t:`underscore expression`.
++.. glossary-entry:: simple register expression
++   
++   :glossary:
++     :dp:`fls_4Yp4R7gXucL2`
++     A :dt:`simple register expression` is either an :t:`expression` or an
++     :t:`underscore expression`.
++     
++     :dp:`fls_kKaqHDxPTTUC`
++     See :s:`SimpleRegisterExpression`.
++   :chapter:
++     :dp:`fls_aniw4ehsn2kb`
++     A :t:`simple register expression` is either an :t:`expression` or an
++     :t:`underscore expression`.
+ 
+ .. glossary-entry:: register expression
+    
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 5a77189..112f2e3 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -1422,9 +1422,19 @@ new line).
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ycy5ee6orjx`
+-A :t:`simple string literal` is a :t:`string literal` where the characters are
+-:t:`Unicode` characters.
++.. glossary-entry:: simple string literal
++   
++   :glossary:
++     :dp:`fls_p6qyyptz8w8w`
++     A :dt:`simple string literal` is a :t:`string literal` where the characters are
++     :t:`Unicode` characters.
++     
++     :dp:`fls_osj0c4dmr6e0`
++     See :s:`SimpleStringLiteral`.
++   :chapter:
++     :dp:`fls_ycy5ee6orjx`
++     A :t:`simple string literal` is a :t:`string literal` where the characters are
++     :t:`Unicode` characters.
+ 
+ :dp:`fls_6nt5kls21xes`
+ The :t:`type` of a :t:`simple string literal` is ``&'static str``.
+@@ -1843,8 +1853,17 @@ Strict Keywords
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_bsh7qsyvox21`
+-A :t:`strict keyword` is a :t:`keyword` that always holds its special meaning.
++.. glossary-entry:: strict keyword
++   
++   :glossary:
++     :dp:`fls_hza9spr6behn`
++     A :dt:`strict keyword` is a :t:`keyword` that always holds its special meaning.
++     
++     :dp:`fls_67pzayd9qzzs`
++     See :s:`StrictKeyword`.
++   :chapter:
++     :dp:`fls_bsh7qsyvox21`
++     A :t:`strict keyword` is a :t:`keyword` that always holds its special meaning.
+ 
+ .. _fls_cbsgp6k0qa82:
+ 
+diff --git a/src/patterns.rst b/src/patterns.rst
+index bc8d1c3..4dc14fb 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -942,9 +942,19 @@ Slice Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_qqiu594hki8g`
+-A :t:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed size
+-and :t:`[slice]s` of dynamic size.
++.. glossary-entry:: slice pattern
++   
++   :glossary:
++     :dp:`fls_7613qu4igwiw`
++     A :dt:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed
++     size and :t:`[slice]s` of dynamic size.
++     
++     :dp:`fls_3qey00280x27`
++     See :s:`SlicePattern`.
++   :chapter:
++     :dp:`fls_qqiu594hki8g`
++     A :t:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed size
++     and :t:`[slice]s` of dynamic size.
+ 
+ :dp:`fls_h6x9xlxi7y5n`
+ A :t:`slice pattern` is an :t:`irrefutable pattern` when it refers to:
+diff --git a/src/program-structure-and-compilation.rst b/src/program-structure-and-compilation.rst
+index 5962330..6991fe5 100644
+--- a/src/program-structure-and-compilation.rst
++++ b/src/program-structure-and-compilation.rst
+@@ -34,10 +34,20 @@ Source Files
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_4vicosdeaqmp`
+-A :t:`source file` contains the program text consisting of :t:`[inner
+-attribute]s`, :t:`[inner doc comment]s`, and :t:`[item]s`. The location of a
+-:t:`source file` is tool defined.
++.. glossary-entry:: source file
++   
++   :glossary:
++     :dp:`fls_nh737q4mn27u`
++     A :dt:`source file` contains the program text of :t:`[inner attribute]s`,
++     :t:`[inner doc comment]s`, and :t:`[item]s`.
++     
++     :dp:`fls_zgh1m5357ex1`
++     See :s:`SourceFile`.
++   :chapter:
++     :dp:`fls_4vicosdeaqmp`
++     A :t:`source file` contains the program text consisting of :t:`[inner
++     attribute]s`, :t:`[inner doc comment]s`, and :t:`[item]s`. The location of a
++     :t:`source file` is tool defined.
+ 
+ :dp:`fls_ann3cha1xpek`
+ A :s:`Shebang` does not have an effect on the compilation.
+diff --git a/src/statements.rst b/src/statements.rst
+index 6006389..0943a65 100644
+--- a/src/statements.rst
++++ b/src/statements.rst
+@@ -8,6 +8,15 @@
+ Statements
+ ==========
+ 
++.. glossary-entry:: statement
++   
++   :glossary:
++     :dp:`fls_faijgwg4lhp9`
++     A :dt:`statement` is a component of a block expression.
++     
++     :dp:`fls_th7edvxml3mn`
++     See :s:`Statement`.
++
+ .. rubric:: Syntax
+ 
+ .. syntax::
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 1dca68c..1d1a5e3 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -659,6 +659,12 @@ An array type in the context of a let statement:
+ Slice Types
+ ~~~~~~~~~~~
+ 
++.. glossary-entry:: slice
++   
++   :glossary:
++     :dp:`fls_p1sv01ml2ark`
++     A :dt:`slice` is a :t:`value` of a :t:`slice type`.
++
+ .. rubric:: Syntax
+ 
+ .. syntax::
+@@ -668,9 +674,19 @@ Slice Types
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ftvua2hlvr08`
+-A :t:`slice type` is a :t:`sequence type` that provides a view into a sequence
+-of elements.
++.. glossary-entry:: slice type
++   
++   :glossary:
++     :dp:`fls_bvpszep1w90g`
++     A :dt:`slice type` is a :t:`sequence type` that provides a view into a sequence
++     of elements.
++     
++     :dp:`fls_y7gscwf29htg`
++     See :s:`SliceTypeSpecification`.
++   :chapter:
++     :dp:`fls_ftvua2hlvr08`
++     A :t:`slice type` is a :t:`sequence type` that provides a view into a sequence
++     of elements.
+ 
+ :dp:`fls_acgtczhk8ci0`
+ The :t:`element type` shall be a :t:`fixed sized type`.
+@@ -695,9 +711,16 @@ Str Type
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_wlnoq1qoq2kr`
+-:c:`Str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit unsigned
+-bytes.
++.. glossary-entry:: str
++   
++   :glossary:
++     :dp:`fls_6977zxb0resa`
++     :dc:`str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit
++     unsigned bytes.
++   :chapter:
++     :dp:`fls_wlnoq1qoq2kr`
++     :c:`Str` is a :t:`sequence type` that represents a :t:`slice` of 8-bit unsigned
++     bytes.
+ 
+ :dp:`fls_1xa6fas6laha`
+ :t:`Type` :c:`str` is a :t:`dynamically sized type`.
+@@ -1904,11 +1927,19 @@ All :t:`[value]s` have an :t:`alignment` and a :t:`size`.
+      and always a power of two. A :t:`value` of :t:`alignment` ``N`` is stored at an
+      address that is a multiple of ``N``.
+ 
+-:dp:`fls_1pbwigq6f3ha`
+-The :t:`size` of a :t:`type` is the offset in bytes between successive elements
+-in :t:`array type` ``[T, N]`` where ``T`` is the :t:`type` of the :t:`value`,
+-including any padding for :t:`alignment`. :t:`Size` is a multiple of the
+-:t:`alignment`.
++.. glossary-entry:: size
++   
++   :glossary:
++     :dp:`fls_3obnilqhkjux`
++     The :dt:`size` of a :t:`value` is the offset in bytes between successive
++     elements in an :t:`array type` with the same :t:`element type`, including any
++     padding for :t:`alignment`.
++   :chapter:
++     :dp:`fls_1pbwigq6f3ha`
++     The :t:`size` of a :t:`type` is the offset in bytes between successive elements
++     in :t:`array type` ``[T, N]`` where ``T`` is the :t:`type` of the :t:`value`,
++     including any padding for :t:`alignment`. :t:`Size` is a multiple of the
++     :t:`alignment`.
+ 
+ :dp:`fls_bk3nm2n47afu`
+ The :t:`size` of :t:`[scalar type]s` is as follows:
+@@ -2627,6 +2658,12 @@ occur when:
+   and the target :t:`type` is a :t:`trait object type` with some :t:`principal trait` ``U``,
+   where ``U`` is a :t:`supertrait` of ``T``.
+ 
++.. glossary-entry:: sized type
++   
++   :glossary:
++     :dp:`fls_pwcgsRCNSwKn`
++     A :dt:`sized type` is a :t:`type` with statically known size.
++
+ :dp:`fls_iiiu2q7pym4p`
+ An :t:`unsized coercion` is a :t:`type coercion` that converts a :t:`sized type`
+ into an :t:`unsized type`. :t:`Unsized coercion` from a source :t:`type` to a
+@@ -4093,9 +4130,16 @@ Static Lifetime Elision
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_l4RDXaFwnQZ6`
+-:t:`Static lifetime elision` is a form of :t:`lifetime elision` that applies to
+-the :t:`type ascription` of :t:`[constant]s` and :t:`[static]s`.
++.. glossary-entry:: static lifetime elision
++   
++   :glossary:
++     :dp:`fls_NbVewjYRnQPF`
++     :dt:`Static lifetime elision` is a form of :t:`lifetime elision` that applies
++     to :t:`[constant]s` and :t:`[static]s`.
++   :chapter:
++     :dp:`fls_l4RDXaFwnQZ6`
++     :t:`Static lifetime elision` is a form of :t:`lifetime elision` that applies to
++     the :t:`type ascription` of :t:`[constant]s` and :t:`[static]s`.
+ 
+ :dp:`fls_8irr97rZWfSC`
+ An :t:`elided` :t:`lifetime` of a :t:`reference type` or :t:`path` in the
+diff --git a/src/values.rst b/src/values.rst
+index fc90eb8..797fa45 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -189,9 +189,19 @@ Statics
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ibrmiwfypldh`
+-A :t:`static` is a :t:`value` that is associated with a specific memory
+-location.
++.. glossary-entry:: static
++   
++   :glossary:
++     :dp:`fls_srx4v1e20yxa`
++     A :dt:`static` is a :t:`value` that is associated with a specific memory
++     location.
++     
++     :dp:`fls_1b7gpk8e98pw`
++     See :s:`StaticDeclaration`.
++   :chapter:
++     :dp:`fls_ibrmiwfypldh`
++     A :t:`static` is a :t:`value` that is associated with a specific memory
++     location.
+ 
+ :dp:`fls_mt94jvoot9dx`
+ A :t:`static` defined within a :t:`generic function` exists once in the
+@@ -234,9 +244,19 @@ Access to a :t:`mutable static` shall require :t:`unsafe context`.
+ The type of an :t:`immutable static` shall implement the
+ :std:`core::marker::Sync` :t:`trait`.
+ 
+-:dp:`fls_t17h5h6a6v4c`
+-A :t:`static initializer` is a :t:`construct` that provides the :t:`value` of
+-its related :t:`static`.
++.. glossary-entry:: static initializer
++   
++   :glossary:
++     :dp:`fls_6jjbfni87tax`
++     A :dt:`static initializer` is a :t:`construct` that provides the :t:`value` of
++     its related :t:`static`.
++     
++     :dp:`fls_igbl5uv0dlhl`
++     See :s:`StaticInitializer`.
++   :chapter:
++     :dp:`fls_t17h5h6a6v4c`
++     A :t:`static initializer` is a :t:`construct` that provides the :t:`value` of
++     its related :t:`static`.
+ 
+ :dp:`fls_yq0hpy4jx2qb`
+ A :t:`static` shall have a :t:`static initializer`, unless it is an
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+bc8919f docs(glossary): migrate next 20 glossary terms
+3925cc1 docs(glossary): migrate next 20 glossary terms
+764f095 docs(glossary): migrate refutability glossary entry
+e5bd283 docs(glossary): migrate register and remainder terms
+3bff43b docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration edits
+[91m[1m| [0m[90m Bash     [0mCommit glossary migration batch
+
+[glossary-single-source-phase1 6cc6e9f] docs(glossary): migrate next 20 glossary terms
+ 9 files changed, 229 insertions(+), 53 deletions(-)
+
+[91m[1m| [0m[90m Bash     [0mShow git status after commit
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 2]
+
+Migrated the next batch of glossary terms into chapter `.. glossary-entry::` directives across the relevant spec sections, keeping generated glossary output identical to the static baseline. Updates are in `src/entities-and-resolution.rst`, `src/inline-assembly.rst`, `src/lexical-elements.rst`, `src/expressions.rst`, `src/patterns.rst`, `src/program-structure-and-compilation.rst`, `src/statements.rst`, `src/types-and-traits.rst`, and `src/values.rst`.
+
+- Migrated terms: simple path prefix, simple path public modifier, simple path resolution, simple public modifier, simple register expression, simple string literal, single segment path, size, size operand, sized type, slice, slice pattern, slice type, source file, statement, static, static initializer, static lifetime elision, str, strict keyword.
+- Checklist updated: `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`.
+- Term-map appended in `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl` (not staged).
+- Generated glossary matches static and HTML diff report is clean at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`.
+
+Tests and verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit created:
+- `docs(glossary): migrate next 20 glossary terms`
+
+Next steps:
+1) Push the branch if you want the commit on the remote.
+2) Start the next batch of 20 terms from the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

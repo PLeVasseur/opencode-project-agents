@@ -1,0 +1,3 @@
+:dp:`fls_ktnf6zkrdy45`
+A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
+keyword]s`.

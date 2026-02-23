@@ -1,0 +1,25 @@
+    Blocking waiting for file lock on build directory
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 22.31s
+     Running unittests src/lib.rs (target/debug/deps/up_streamer-861ff201d1e46e1b)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.00s
+
+     Running tests/issue74_regression_temp.rs (target/debug/deps/issue74_regression_temp-2f93bb3a166eb6f5)
+
+running 1 test
+
+thread 'issue_74_left_authority_regression_temp' (709990) panicked at up-streamer/tests/issue74_regression_temp.rs:188:5:
+disallowed publish source listener was unexpectedly registered: [ListenerRegistration { source_filter: UUri { authority_name: "authority-c", ue_id: 4294967295, ue_version_major: 255, resource_id: 65535, special_fields: SpecialFields { unknown_fields: UnknownFields { fields: None }, cached_size: CachedSize { size: 0 } } }, sink_filter: Some(UUri { authority_name: "authority-b", ue_id: 4294967295, ue_version_major: 255, resource_id: 65535, special_fields: SpecialFields { unknown_fields: UnknownFields { fields: None }, cached_size: CachedSize { size: 0 } } }) }, ListenerRegistration { source_filter: UUri { authority_name: "authority-c", ue_id: 23456, ue_version_major: 1, resource_id: 32769, special_fields: SpecialFields { unknown_fields: UnknownFields { fields: None }, cached_size: CachedSize { size: 0 } } }, sink_filter: None }]
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+test issue_74_left_authority_regression_temp ... FAILED
+
+failures:
+
+failures:
+    issue_74_left_authority_regression_temp
+
+test result: FAILED. 0 passed; 1 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+error: test failed, to rerun pass `-p up-streamer --test issue74_regression_temp`

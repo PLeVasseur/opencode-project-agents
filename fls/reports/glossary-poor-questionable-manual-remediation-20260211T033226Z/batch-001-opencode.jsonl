@@ -1,0 +1,54 @@
+[91m[1mError: [0mFile not found: Execute the glossary placement remediation plan manually for this batch only.
+
+Context:
+- Worktree: `/home/pete.levasseur/project/fls-wt/step1`
+- Expected branch: `glossary-step-1-main-text-coverage`
+- Plan: `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-poor-questionable-manual-remediation-plan.md`
+- Checklist: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-202-checklist.md`
+- Ledger: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/manual-placement-ledger.csv`
+- Baseline reference: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/manual-placement-baseline-reference.csv`
+- Reason rubric: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/reason-rubric.md`
+- Validator: `/home/pete.levasseur/opencode-project-agents/fls/reports/validate-ledger-and-checklist.py`
+- Remediation directory: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z`
+- Batch number: `1`
+
+Batch scope (exact IDs, do not touch IDs outside this list): PQ-001, PQ-002, PQ-003, PQ-004, PQ-005, PQ-006, PQ-007, PQ-008, PQ-009, PQ-010, PQ-011, PQ-012, PQ-013, PQ-014, PQ-015, PQ-016, PQ-017, PQ-018, PQ-019, PQ-020
+
+Terms in this batch:
+- PQ-001: [unifiable type]s
+- PQ-002: alignment
+- PQ-003: arity
+- PQ-004: associated trait constant
+- PQ-005: attribute content
+- PQ-006: borrowed
+- PQ-007: c
+- PQ-008: code point
+- PQ-009: constant function
+- PQ-010: construct
+- PQ-011: container operand
+- PQ-012: dangling
+- PQ-013: enum variant value
+- PQ-014: expression
+- PQ-015: expression-without-block
+- PQ-016: field
+- PQ-017: field index
+- PQ-018: function
+- PQ-019: function body
+- PQ-020: function signature
+
+Required workflow:
+1. Process each term one-by-one manually.
+2. Apply spec edits in this worktree as needed.
+3. Update checklist parent + sub-items `.1`..`.5` for each completed ID.
+4. Update the matching ledger row fields for each completed ID.
+5. Keep `reason_code` within allowed rubric values and set `reason_quality=pass` only when justified.
+6. Do not run any git commit or push command (commit is handled by the orchestrator).
+7. Before finishing, run:
+   `python3 "/home/pete.levasseur/opencode-project-agents/fls/reports/validate-ledger-and-checklist.py" --mode progress --checklist "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-202-checklist.md" --ledger "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/manual-placement-ledger.csv" --baseline "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/manual-placement-baseline-reference.csv" --json-out "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/batch-001-validate-progress.json" --markdown-out "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-poor-questionable-manual-remediation-20260211T033226Z/checklist-progress.md"`
+8. If validator reports errors, fix them in this batch before finishing.
+
+Response format:
+- Completed IDs
+- Files changed
+- Any blockers (if none, say "none")
+

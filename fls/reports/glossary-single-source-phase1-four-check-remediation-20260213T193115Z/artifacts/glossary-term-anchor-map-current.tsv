@@ -1,0 +1,779 @@
+ABI	fls_m98yg554tj9s
+ABI clobber	fls_zOdDwoObYHC0
+ABI kind	fls_g791aj7w5iz1
+Application Binary Interface	fls_pcum2wpmgskk
+C	fls_lfjgrkwra22i
+C representation	fls_wenn1wdsicfz
+C signed int type	fls_fls_J0xUy4Mcxoe6
+Call conformance	fls_Egfa8tdbqllA
+FFI	fls_qi21fdknzez6
+Foreign Function Interface	fls_fo7vyxs4l3yh
+NaN-boxing	fls_z3lxbjF4gaqV
+Self	fls_9o2hcy6t7dac
+Self scope	fls_exMZlNMxQvP7
+Unicode	fls_kafgmevvzl5t
+abort	fls_ymnz0mt7i4m8
+abstract data type	fls_g40une2uudez
+active attribute	fls_5fu0ncvnjyna
+addition assignment	fls_xqZapSv9tM1F
+addition assignment expression	fls_iw30dqjaeqle
+addition expression	fls_mcabdigrqv21
+adjusted call operand	fls_wbdlbe61de3t
+alignment	fls_j775guurkgo4
+all configuration predicate	fls_jZKpckU1t2lR
+anonymous loop expression	fls_du8uevac5q7j
+anonymous return type	fls_dgxkklxcrrl0
+anonymous type parameter	fls_8oepaq6ang93
+any configuration predicate	fls_jrzM6C5B6AMt
+argument operand	fls_dd008npswhij
+arithmetic expression	fls_kf81ozijral2
+arithmetic operator	fls_kSuc3Gi7cdly
+arithmetic overflow	fls_vZ1H57x9OFSZ
+arity	fls_9aice4qbiqxf
+array	fls_bn1regeucxqi
+array element constructor	fls_2d9fee2o9
+array expression	fls_yvzpqb192pci
+array repetition constructor	fls_6jkgj61m49vg
+array type	fls_15gzlmwuu4pk
+assembly code block	fls_et0NKXAYyDmh
+assembly directive	fls_iUnmWXxcuzif
+assembly instruction	fls_HliSgbSzPO2r
+assembly option	fls_1iVIUoVDsYph
+assigned operand	fls_l78iam7w8w38
+assignee expression	fls_m1mim5qdzf2u
+assignee operand	fls_3hs9hqsthil1
+assignment	fls_f6ztsofr6xa9
+assignment expression	fls_2d2elg5eukv4
+associated constant	fls_pjb22ylz5swp
+associated function	fls_vxiitesidcc2
+associated implementation constant	fls_9mcx6h6irrlx
+associated implementation function	fls_n85fwe75ku60
+associated implementation type	fls_c0hekhwpznyq
+associated item	fls_f3ferow5ugp
+associated trait constant	fls_8p8teeamua55
+associated trait function	fls_4h7s8u1zumnq
+associated trait implementation function	fls_fufF4UmzLg5G
+associated trait implementation item	fls_47xtji9Pk8Lw
+associated trait item	fls_J946yIcmlAyV
+associated trait type	fls_azz308k3ra99
+associated type	fls_zfs68g3yk0uw
+associated type projection	fls_zOe783MlE9i9
+associativity	fls_fczijre8123c
+async block	fls_9speqyus5ku3
+async block expression	fls_n5m58be9jnjj
+async closure expression	fls_oUdQnbW1MAFW
+async closure type	fls_Pq4ohvrMOi5p
+async control flow boundary	fls_lYrTaCM1LcXU
+async function	fls_nlafxy2z1moc
+atomic	fls_yikjq8yn3nnh
+atomic type	fls_197vnaw2zbnc
+attribute	fls_w1plocebd7kg
+attribute content	fls_SsMRqkHLDAgG
+attribute macro	fls_x1fafbpo0mlu
+auto trait	fls_24iVIlHhvnVO
+await expression	fls_n4oo89apywk4
+base initializer	fls_a8tavqxuvaju
+basic assignment	fls_bii5eu1wznzk
+binary crate	fls_kahj3y4rvmvb
+binary literal	fls_or4o65fyt28y
+binary operator	fls_xydujcfvvb8p
+binding	fls_jrelzibadg7b
+binding argument	fls_glblhx8vzd3z
+binding bound argument	fls_t2cit5QOte8U
+binding mode	fls_bv1k866tai6j
+binding pattern	fls_1nw19qc14zg6
+binding scope	fls_5ep4xSGZwtoL
+bit and assignment	fls_clut5DWMQin8
+bit and assignment expression	fls_y72vyr2tmdyb
+bit and expression	fls_h6sh4im3gjys
+bit expression	fls_ed6yltkt0gb1
+bit or assignment	fls_90E3eiBYgicI
+bit or assignment expression	fls_ehorb0lul906
+bit or expression	fls_m33m8nd2rnf8
+bit xor assignment	fls_jEnv7RjEUZvm
+bit xor assignment expression	fls_u3fcq7jjyxux
+bit xor expression	fls_ixw1601j8u39
+block comment	fls_aa980vviqjue
+block expression	fls_c5qn7wjk0mnx
+bool	fls_n485t6wcgx07
+boolean literal	fls_oz4tdyp3rvm4
+borrow	fls_7ef4c6ss7m6i
+borrow expression	fls_u0hymkjwyur7
+borrowed	fls_gl84828b074a
+borrowing	fls_95c5cbc2jvpc
+bound	fls_ehfvcdpo3l4a
+bound pattern	fls_jlfqyn3enrsi
+break expression	fls_xki2cerozblt
+break type	fls_ff2zt3ww2yw3
+break value	fls_owtptuvleeb
+built-in attribute	fls_82ev7wknxqmk
+built-in trait	fls_QzAif2NyVJbk
+byte literal	fls_e8rokiw23i9t
+byte string literal	fls_uwe7iomhvgtp
+c string literal	fls_roz4WXH5JZFj
+call expression	fls_xeo59ol6uh5i
+call operand	fls_ezk9xkst7gfj
+call resolution	fls_zSh4enFjxeaN
+call site hygiene	fls_AK8mL1LeftO0
+callee type	fls_luuc01g4ffog
+capture mode	fls_s78gd8yxx2yv
+capture target	fls_c6qwfwsyizya
+capturing	fls_kvu447p6j61k
+capturing environment	fls_yfk2xfifltxy
+capturing expression	fls_cl3lpsfgt5eb
+cast	fls_pcaygpx7db24
+char	fls_xl2zlpw070dy
+character literal	fls_cfphqaml82ik
+closure body	fls_5vm5cijnucsr
+closure expression	fls_mrwle2ediywb
+closure parameter	fls_f5RBXj9g5iab
+closure type	fls_xjudl8ykbisi
+code point	fls_aqovhozevngd
+comment	fls_2moavfyeit0m
+comparison expression	fls_hjxuoe1hwlhm
+compilation root	fls_riwule1euzlj
+compound assignment	fls_pTMrfPXETibe
+compound assignment expression	fls_iktiir89xbo2
+concrete type	fls_qyfn5u5cl5l1
+conditional compilation	fls_lmacvq89lj2j
+conditionally-compiled source code	fls_bqq013n2cy4t
+configuration predicate	fls_vRjPmHYEVVAf
+const block expression	fls_vuBjK3kdImTn
+constant	fls_yw57di94gwpf
+constant argument	fls_n7z4cl1fsk6l
+constant context	fls_mtbhv6e9izzm
+constant expression	fls_iofbib2gavnv
+constant function	fls_6j1wluj8sku8
+constant initializer	fls_mf022jo05ziu
+constant parameter	fls_pj0f0p4avbyw
+constant parameter initializer	fls_sIvXMhYaZVjD
+constant promotion	fls_f95c9hrk7t2p
+constrain	fls_x4niicvxxv9k
+construct	fls_4305i29nt5d6
+constructee	fls_fBGjoTVhYvUe
+container operand	fls_39s6od9hj4g6
+continue expression	fls_doazu99vos8x
+control flow boundary	fls_nC4Knv4tpenW
+copy type	fls_lnwxm6ffy15w
+crate	fls_kf8yukhxudw8
+crate import	fls_xwbmmcbbowtu
+crate indication	fls_CXvNvsO10pLL
+crate public modifier	fls_yf9yjzzhw0rn
+crate root	fls_hv9zyxb72soh
+crate root module	fls_iucxone5ta26
+crate type	fls_lVpE4uFDsXH4
+dangling	fls_76cj65bptdpn
+data race	fls_9meaofgcpvx6
+decimal literal	fls_128iunbbiuql
+declaration	fls_9qgy7x6w5ro5
+declarative macro	fls_5944xn0lz8e
+deconstructee	fls_GAlaslkO8gLG
+default representation	fls_g9v8ubx8m1sq
+definition site hygiene	fls_FrfnICpg81sr
+dereference	fls_127n1n5ssk2b
+dereference expression	fls_o588wfq878rm
+dereference type	fls_xbN0GtcH8emc
+dereference type chain	fls_T380NdEsFxIp
+derive macro	fls_7ipdj78o7ln
+destruction	fls_7b3fsp356e9l
+destructor	fls_kwxpy451gtc
+destructuring assignment	fls_2fuu3zr9rn2q
+direction modifier	fls_ugIFZlAzDK6H
+discriminant	fls_7vg56eeo0zlg
+discriminant initializer	fls_xayj37ocbqjn
+discriminant type	fls_a0ezuPLtENme
+diverging expression	fls_gDFsAj1Bvx7A
+diverging type variable	fls_9DuaIn6cRbXf
+division assignment	fls_0lpT9Ncj7S9X
+division assignment expression	fls_ccv27fji08ou
+division expression	fls_vxd5q8nekkn0
+doc comment	fls_4nm1r57ntecm
+drop construct	fls_nw0qr4xy3zxq
+drop order	fls_j12e358828h
+drop scope	fls_foszri7hdym0
+drop scope extension	fls_qp3ksd2lxm8
+drop type	fls_4v6vsuw4g89l
+dropping	fls_68cl4paduzx2
+dynamically sized type	fls_6uovyjjzh6km
+elaboration	fls_2sja3okj27ne
+element type	fls_bxm4njfo2h58
+elided	fls_vygjg858yxej
+elided lifetime	fls_l2181y5566ck
+else expression	fls_ff5zp7m9d5ot
+empty statement	fls_iwed9n4jz6b8
+entity	fls_1qu1t74ga8aa
+enum	fls_xnhj9fqlfs2p
+enum field	fls_zrRydWZgm03k
+enum type	fls_grlluqa4ucp3
+enum value	fls_H6aUAUjNlx6z
+enum variant	fls_klwlx5jixwud
+enum variant value	fls_mKxBWCojhnWu
+equals expression	fls_alifv570nx7q
+error propagation expression	fls_kz7tgpi8xkt4
+escaped character	fls_9hw559b548m0
+evaluated	fls_pefe9ng1mm81
+evaluation	fls_p3gre0895k2u
+exclusive range pattern	fls_EJSzYb4IxvtR
+executed	fls_nw0eg7gwayrg
+execution	fls_q0ur239s8uv
+explicit register argument	fls_B1qkkSvc69J4
+explicit register name	fls_uc7PnSbVVd9X
+explicitly declared entity	fls_lqxcnZqvwcsH
+exported function	fls_5oQllRM7Wjsg
+exported static	fls_zkq5ZkJwsyoD
+expression	fls_q8ofwncggngd
+expression statement	fls_a1rorkjt3vpc
+expression-with-block	fls_u6huewic8650
+expression-without-block	fls_378e2xhxzk26
+external block	fls_9k6jcsljghab
+external function	fls_8ffbgzkbsf9r
+external function item type	fls_ug2kags0o6is
+external static	fls_c89migfc2m6e
+f32	fls_4w6garmjhrd9
+f64	fls_pj450h99yo28
+fat pointer	fls_nkf9z4pqg8x1
+fat pointer type	fls_trvkbidlsss8
+field	fls_7gCAbHnGEIl6
+field access expression	fls_yipl7ajrbs6y
+field index	fls_6uwwat9j4x7y
+field list	fls_8qLL14WfXXNN
+field resolution	fls_BlZwxp6H62sS
+field selector	fls_kqbata8slp1y
+final match arm	fls_mj9mmkar8c6f
+fixed sized type	fls_rljxa45tleq3
+float literal	fls_achdyw3nbme3
+float suffix	fls_wgylj1n4wrqe
+floating-point type	fls_k32g8cd9friu
+floating-point type variable	fls_8ih3gh6hoy78
+floating-point value	fls_nE6SWuVH7X68
+for loop	fls_dwnvkq8n94h1
+for loop expression	fls_vfkqbovqbw86
+fragment specifier	fls_pi7j0t7h1y86
+full range expression	fls_tWp1PLe8m83K
+function	fls_yllg093syzdi
+function body	fls_vjgkg8kfi93
+function item type	fls_ayuia853po0a
+function lifetime elision	fls_WMaE58yv1joW
+function parameter	fls_xn800gcjnln1
+function pointer type	fls_fqwzlg78k503
+function pointer type parameter	fls_v3V6K4S5UhIF
+function qualifier	fls_2uvom1x42dcs
+function signature	fls_hz3zunp8lrfl
+function type	fls_yo2x1llt9ejy
+function-like macro	fls_gzybxk1gosm6
+fundamental	fls_OFMoUA3eFtuC
+future	fls_yxzpexco8ag3
+future operand	fls_dvk8ccb46abk
+generic argument	fls_j1cyhud0h65t
+generic associated type	fls_nooYIxMnV8Ps
+generic conformance	fls_3uFg0NK5fYQ6
+generic enum	fls_3tj3i83eoi36
+generic function	fls_votx8gvy5utg
+generic implementation	fls_1xjbrp376niw
+generic parameter	fls_s2syghgn74e2
+generic parameter scope	fls_CzudKdaYbfBF
+generic struct	fls_cgtu4v2vxvh
+generic substitution	fls_VBEBshUrAOKE
+generic trait	fls_hppo1v3ia4wu
+generic type	fls_3Ss6jDgtF1of
+generic type alias	fls_18ow0q8at1pi
+generic union	fls_xn9mla1vm6iv
+glob import	fls_euukteybsbi
+global path	fls_g6g8c58bilen
+global type variable	fls_hy1clqvaewnp
+greater-than expression	fls_g4n20dy3utzy
+greater-than-or-equals expression	fls_mxz589rq4hiy
+half-open range pattern	fls_fquvoglio1jz
+hexadecimal literal	fls_5uiij8eqln5g
+higher-ranked trait bound	fls_h87i5nbeuxky
+hygiene	fls_GuMMjhEMMLvF
+hygienic	fls_95h0aWZ7xx6U
+i128	fls_py2whbcrndmz
+i16	fls_rvcjp656gzlm
+i32	fls_l1h9g4ntf3c
+i64	fls_tid10guzn9sq
+i8	fls_obiv2a6ywfhh
+identifier	fls_kpsyz8yopova
+identifier pattern	fls_1g9xxx8s498u
+if expression	fls_al9gtcy5b5og
+if let expression	fls_j9wb2wtqp5u8
+immutable	fls_xiocbknerufq
+immutable borrow	fls_utucrvtzjhoc
+immutable borrow expression	fls_pqunxp6io1n9
+immutable place expression	fls_TXQzFM77s4uj
+immutable place expression context	fls_O0924m8mSfIa
+immutable raw pointer type	fls_RghQKP3lsXEb
+immutable reference	fls_bhx0l676dmgc
+immutable static	fls_my7jjwi0ncen
+immutable variable	fls_8xrhfwgep3nk
+impl header lifetime elision	fls_L9XTxPSujx4v
+impl trait type	fls_l20o3hutbfpf
+implementation	fls_bj1u4k3akecp
+implementation body	fls_vofxuHcXpt6X
+implementation coherence	fls_41GLrzVxcOV6
+implementation conformance	fls_SBkTVa8bzGDx
+implemented trait	fls_c0xxvivt8t1u
+implementing type	fls_ow4b5iqas115
+implicit borrow	fls_wa7t6cqgjksd
+implicitly declared entity	fls_i3iB9xP8h8Ci
+implied bound	fls_43CCrG952l5i
+in scope	fls_3lo8ygoyxxyf
+inclusive range pattern	fls_nscfxu6huw6q
+incomplete associated constant	fls_j44ow2k5va3s
+incomplete associated function	fls_ga2n4nbm1pkk
+incomplete associated type	fls_n99acc2tr9qm
+index expression	fls_6tysvlg2ifr3
+indexable type	fls_S0pnJKPJPU0i
+indexed deconstructor	fls_qs654p61ivpx
+indexed field selector	fls_bu46dg60o8us
+indexed initializer	fls_rua2ni3p9qz2
+indexed operand	fls_irp9ive4e66r
+indexing operand	fls_a350zwl1or4g
+indirection type	fls_k9kuxgte6vxn
+inert attribute	fls_gccnknktzp7g
+inferred type	fls_z5593p7wfab
+infinite loop	fls_kg9aeyrw822m
+infinite loop expression	fls_o2eei5aqgds6
+inherent implementation	fls_o57p4yhjci61
+initialization	fls_c1wbumq0bumj
+initialization expression	fls_ctusGvpQvJue
+initialization type	fls_pd30dl2envjn
+inline assembly	fls_lbL2b9wyg6es
+inline module	fls_c54lmkluwbwr
+inner attribute	fls_joxepyv84ajz
+inner block doc	fls_chbp2je32okc
+inner doc comment	fls_vR1ucGTBKjlH
+inner line doc	fls_xgm53126q9c4
+input register	fls_DTb5xegDqm9S
+input register expression	fls_Tmju2kXErYhJ
+input-output register expression	fls_y9EOkstHPckB
+integer literal	fls_e2kizieowvuh
+integer suffix	fls_bhvh8qwqy8ve
+integer type	fls_nu1cnk2b9qx5
+integer type variable	fls_ctuvilpb30gq
+interior mutability	fls_mb3xnplwdw9l
+intermediate match arm	fls_7rj914fhginh
+irrefutable constant	fls_fgmvmcw2kw5i
+irrefutable pattern	fls_ckz7pujdnuo5
+isize	fls_vt44bvhm4duk
+item	fls_yh2a7e3d3894
+item scope	fls_wojJZZ4gYGfl
+item statement	fls_yaurxo4ogfsh
+iteration expression	fls_orde7iunolyx
+keyword	fls_yjs58mp5fkxz
+label	fls_uVUoHmNtPRtS
+label indication	fls_dw5s7jhk4v8s
+label scope	fls_P0on44EAB3cn
+layout	fls_w5gslebevlya
+lazy and expression	fls_bputdgkeezfs
+lazy boolean expression	fls_4a6yhxj783a1
+lazy or expression	fls_9mvrfhsegwp0
+left operand	fls_x6vo9pysmex2
+less-than expression	fls_ulmspewtlo57
+less-than-or-equals expression	fls_es169x7ars9a
+let binding	fls_DdZ1ZwjLZTeG
+let initializer	fls_hqj80jHcxEBB
+let statement	fls_39k0ebr7snb0
+lexical element	fls_h2tqtmm5686y
+library crate	fls_r1sk7vdgckym
+lifetime	fls_vdhaa61g6kah
+lifetime argument	fls_d0s6bk7ljqrb
+lifetime bound	fls_ca9pu348r9jm
+lifetime bound predicate	fls_fV8sP0roRyBN
+lifetime elision	fls_al39r9uz2zmy
+lifetime parameter	fls_md7ii59zobrc
+lifetime variable	fls_joDjnHu1L9Lp
+line	fls_8qputmx0i7ku
+line comment	fls_k5ycqijslkxh
+literal	fls_z850pyf9r1f4
+literal expression	fls_b57clq8jhw5w
+literal pattern	fls_bo2tv8ky1jc
+local trait	fls_bYpBl5zfTibF
+local type	fls_cexgUIGUUKS4
+local variable	fls_lkxiws55xhpq
+loop	fls_kdqa8zs8tk6g
+loop body	fls_5vt0Ph5BfDnU
+loop expression	fls_an1s2hnapd59
+macro	fls_sdkcn1exc9da
+macro expansion	fls_td4jm76u9m03
+macro implementation function	fls_o5jy1u64nyiy
+macro invocation	fls_20x9eqa7xeui
+macro match	fls_boanb1ipzc9
+macro matcher	fls_4h4snjd4thsv
+macro matching	fls_ao7GhE0C8MQO
+macro repetition	fls_kddW7EirSn0g
+macro repetition in matching	fls_a5j2hztrjfv5
+macro repetition in transcription	fls_sqv126lwdz23
+macro rule	fls_gw31cagmzx26
+macro statement	fls_i4yf4lt8qvkt
+macro transcriber	fls_76o6rjh6lrqd
+macro transcription	fls_vdq3cphhpxmg
+main function signature	fls_MJ1YWiOpxAa8
+match arm	fls_fizf1byuspv2
+match arm body	fls_q7lcdtxuy1ac
+match arm guard	fls_aa1x6ajl4zid
+match arm matcher	fls_i3omadaygum2
+match expression	fls_w15uouo0sjao
+metavariable	fls_xo9uyazcfuq3
+metavariable indication	fls_5P2594jy7uDE
+method	fls_bi3g8xkk9ekf
+method call expression	fls_l4wel2551cw9
+method operand	fls_l6eJxvmplLqQ
+method resolution	fls_05yFh5Ud0YkW
+mixed site hygiene	fls_2FFRdj5cO0ks
+modifying operand	fls_5hoe1v960xfi
+module	fls_kbxk78vm564e
+move type	fls_gnucgrytswa4
+multi segment path	fls_iw2vYgmLhlsg
+multiplication assignment	fls_lpSCLhnaxeCg
+multiplication assignment expression	fls_yo4k6lk0tizn
+multiplication expression	fls_bgtznqqgtmd8
+mutability	fls_yM11Bcxn4p7c
+mutable	fls_wvejcadmzt5p
+mutable assignee expression	fls_TEVPHHiCMByO
+mutable binding	fls_ntaA0NtJ9z5h
+mutable borrow	fls_iku91jwdtdr1
+mutable borrow expression	fls_kw3oiotr98tt
+mutable place expression	fls_7eyza445ew53
+mutable place expression context	fls_x5BKVLc4KDlK
+mutable raw pointer type	fls_wOvlW47jKEWF
+mutable reference	fls_jtzj092hyjkz
+mutable reference type	fls_8iq0wcczl465
+mutable static	fls_omgyj7yxwgua
+mutable variable	fls_n7h4xr40xwgb
+name	fls_kad7fzn94x4d
+named block expression	fls_CxzbzLu4pWPY
+named deconstructor	fls_dgs9y3nan69v
+named field selector	fls_cvxdoycoytc5
+named initializer	fls_kp0mbopkbjer
+named loop expression	fls_biwn3hxza37n
+named register argument	fls_WT1ZdxTZwUUE
+namespace	fls_GesmsWSVhv3f
+negation expression	fls_3sp4twvfvb32
+nesting import	fls_6rlvd0u4w6h2
+never type	fls_cwcbtnzbqmq2
+non-reference pattern	fls_3vhflvajgqzd
+not configuration predicate	fls_5u8ihVDp4mdb
+not-equals expression	fls_shgatqvpdqkg
+null	fls_gqw1bzwexxt0
+numeric literal	fls_a0qsojiymgjy
+numeric literal pattern	fls_CmvuNXmowCz8
+numeric type	fls_rayjriyofmpa
+object safe	fls_a226qzrb4iq9
+object safety	fls_vomlqv7i1fc4
+obsolete range pattern	fls_bo889w63y7oi
+octal literal	fls_q47u2zq6clon
+operand	fls_pv4lok5qcn8y
+operator expression	fls_smk8mi72lt57
+opt-out trait bound	fls_C5DiCsvsaBsj
+or-pattern	fls_LnPDQW3bnNUw
+outer attribute	fls_gllzixm9yt9w
+outer block doc	fls_toncretg92qh
+outer doc comment	fls_PuTD100sWO5N
+outer line doc	fls_eqjbv8sovvfl
+outline module	fls_de935b1pzd28
+outlives bound	fls_5LhIr1kOIEO5
+output register	fls_XsGnaA47Nen0
+output register expression	fls_t79aKPilX8jk
+overlap	fls_nhamq7xtz384
+owner	fls_ke52l9lsvyu2
+ownership	fls_1gmetz8qtr0l
+panic	fls_wzpivxkhpln
+parenthesized expression	fls_fl56jfxbj0f
+parenthesized pattern	fls_ww6nyinsw1lr
+parenthesized type	fls_gilx8zikdq9k
+partially hygienic	fls_fULM1oCKSakS
+passing convention	fls_wqbd5lxki2al
+path	fls_9zl72vtkgkuo
+path expression	fls_1xdj34py8zc3
+path expression resolution	fls_EIFtIeLGZNy5
+path pattern	fls_ptikwcw3b20l
+path resolution	fls_J8kiBhcawvnj
+path segment	fls_xb54s9cs7h08
+pattern	fls_uj1o721im5lb
+pattern matching	fls_48mv0zecb0un
+pattern-without-alternation	fls_cptagvgpgnze
+pattern-without-range	fls_yeQOZKPoNzw3
+place	fls_5zjHBZMsCqJZ
+place expression	fls_7x6jhh0sz2f
+place expression context	fls_tshbqttxdox1
+plane	fls_dr6wbsqjd2qm
+pointer	fls_HnJEHyUiTpb1
+pointer type	fls_o5o1ssqqD7Jg
+positional register argument	fls_Q0r8JkqAP6Of
+precedence	fls_ukvdoqo68y5b
+prelude	fls_8Gn72FJBarfb
+prelude entity	fls_AWySDxPgypiw
+prelude name	fls_FYn5JqPOhiIs
+primitive representation	fls_fikexts17v7a
+principal trait	fls_mk3sa7OvtJvB
+private visibility	fls_v1u1mevpj0kj
+proc-macro crate	fls_kCA6SW8bUq5x
+procedural macro	fls_sp5wdsxwmxf
+program entry point	fls_SIFecOZqloyx
+public visibility	fls_v2rjlovqsdyr
+punctuator	fls_hdwmw3jbwefi
+pure identifier	fls_sgwvmnoio1ql
+qualified path expression	fls_O6CFtnpN3UEE
+qualified type	fls_Qv0UvhSfwBuM
+qualified type path	fls_koVlQq8aPdPv
+qualifying trait	fls_B0m82A8jIerQ
+range expression	fls_tbvugpuvcluj
+range expression high bound	fls_mdvdxr6u13fw
+range expression low bound	fls_smvgd160eynr
+range pattern	fls_6pxg401r6juc
+range pattern bound	fls_3ls9xlgt8ei1
+range pattern high bound	fls_y4rv5cbowvwg
+range pattern low bound	fls_laev4lmmv0cw
+range-from expression	fls_iqpxlg7w3cvf
+range-from-to expression	fls_125h4p4zt86q
+range-full expression	fls_8z8nrblarxrv
+range-inclusive expression	fls_tie80ejz8s19
+range-to expression	fls_etvgkb8zcfpd
+range-to-inclusive expression	fls_ap5754dfltt5
+raw borrow expression	fls_YLhE2qpzYXRK
+raw byte string literal	fls_ipeh92kh17ze
+raw c string literal	fls_yGGvg3e0nPOh
+raw pointer	fls_uv4dyt4gi32x
+raw pointer type	fls_9los8hwh60z0
+raw string literal	fls_echjohx6fjc
+reachable control flow path	fls_sAe1HaaVSPvP
+receiver operand	fls_nfb3ciarl50w
+receiver type	fls_Kpkm0J40xq5J
+record enum variant	fls_nG6ikjLsCW7m
+record struct	fls_jdd6h8pdp30x
+record struct field	fls_hzkwzbk5wp54
+record struct pattern	fls_at2caaqlpva1
+record struct type	fls_uthd12hz3h4v
+record struct value	fls_cPs5C1chWmce
+recursive type	fls_94fkxohlnq9i
+reference	fls_onv3cs5tckgo
+reference identifier pattern	fls_1XGsXRZIFnqL
+reference pattern	fls_kiy6b1wbn0a3
+reference type	fls_uw32xmrfgzcd
+referent	fls_h8x0u32wfz8v
+refutability	fls_bkwy183h9ygt
+refutable constant	fls_v99joc4m6cup
+refutable pattern	fls_srdcx5oi4dcp
+refutable type	fls_dkq1h6p9yaar
+register	fls_T84qaJMZzMbb
+register argument	fls_ISWWmgKjfYwt
+register class	fls_2qKUiHcfmZQ6
+register class argument	fls_8gC17CgCS9n1
+register class name	fls_xZTkANlRsKRt
+register expression	fls_7KIReJZLKdeK
+register name	fls_kbBK666iBS2X
+register parameter	fls_foh6xELWBsY9
+register parameter modifier	fls_NDpKXnlmnN7M
+remainder assignment	fls_JnhUWipah0nO
+remainder assignment expression	fls_mio7pagghcks
+remainder expression	fls_f15h4919ln3k
+renaming	fls_8ibsdx4dx6s7
+repeat operand	fls_b35oy3nnzixm
+repetition operator	fls_r2yjjhrvr9qi
+representation	fls_o34kkn5pi0sh
+representation modifier	fls_TSbBt6WzropN
+reserved keyword	fls_x7yd6o4akrrg
+resolution	fls_O5iuGATZgyBu
+rest pattern	fls_uuo1qvrz1i0k
+return expression	fls_7tl9qo8yj8xh
+return type	fls_b8dbm1bs65kw
+right operand	fls_76o7m8vny72n
+rule matching	fls_9u67noriaxfe
+rustc	fls_fki32ns69q4j
+safety invariant	fls_Q4MRIo7cWv5K
+scalar type	fls_XeMNghZZOBqL
+scope	fls_fj8mdxi967px
+scope hierarchy	fls_xZUiNkBN5e00
+selected field	fls_rfk06mm3pdxg
+self parameter	fls_6wjlbzmlx9n4
+self public modifier	fls_jq213cesxhyp
+send type	fls_8spw41g0dbqw
+separator	fls_at8q1svh3isg
+sequence type	fls_rtgis2k7by2r
+shadowing	fls_HUklMSWzx8Mg
+shared borrow	fls_c9xwhhg639u5
+shared reference	fls_18xazs7sp4
+shared reference type	fls_antrblstppyf
+shift left assignment	fls_o8EVuKgr0Y98
+shift left assignment expression	fls_29n0oe4d7lwa
+shift left expression	fls_sru4wi5jomoe
+shift right assignment	fls_V5LMAe8ijiMQ
+shift right assignment expression	fls_cqfzbsasnd1t
+shift right expression	fls_dj6epbraptqn
+shorthand deconstructor	fls_5sxhx0w3d63z
+shorthand initializer	fls_oa4p10yles30
+signed integer type	fls_nmw95nc951iu
+simple byte string literal	fls_4GvXiDfcPlRD
+simple c string literal	fls_fx2hhB0HHSUG
+simple import	fls_6mcm7xdcyn40
+simple path	fls_o5kv9lrtz4fq
+simple path prefix	fls_23G6TAntJXqa
+simple path public modifier	fls_sgy9q06yt6cl
+simple path resolution	fls_gT5rZ4qC3pHo
+simple public modifier	fls_k5uqt5oj7wvl
+simple register expression	fls_JDB3eBO0DY4o
+simple string literal	fls_dpod2gc7a0u
+single segment path	fls_JS91BDzd03Qj
+size	fls_oy5xy5pm1enx
+size operand	fls_2y5oyon3y1za
+sized type	fls_oiaoWEQQDE7I
+slice	fls_srkftses9sxn
+slice pattern	fls_1s3a31o9zx1a
+slice type	fls_x3kr88m5gvwv
+source file	fls_wlwwxzpnhk6i
+statement	fls_e7cvo0usw86i
+static	fls_tpazbmuq9hag
+static initializer	fls_x331kxllyzim
+static lifetime elision	fls_jCqiKgW9g8n5
+str	fls_1ricdj86o457
+strict keyword	fls_bzhaq3q378ay
+string literal	fls_cck2tmyzmpja
+struct	fls_yphnf56fa58r
+struct expression	fls_dxfyejkbiz3p
+struct field	fls_OT6dJ7CWkSTG
+struct pattern	fls_ook43xes5t34
+struct type	fls_pzj88ust6qrq
+struct value	fls_GOnQHAsYw1oi
+structurally equal	fls_P7920ALJisrH
+subexpression	fls_feZ3iDff05Cb
+subject expression	fls_wee9stfk0abp
+subject let expression	fls_dc5ibvnnhs7e
+subpattern	fls_k7ro8n23wtdc
+subtraction assignment	fls_0hf1gNf90qKr
+subtraction assignment expression	fls_a4iu72zn4h0
+subtraction expression	fls_25ru96mfdcsn
+subtrait	fls_qw3fn1116se9
+subtype	fls_pu4zqJ1tGrfH
+subtyping	fls_f5dxz8pvs1kz
+suffixed float	fls_qar9v52smi9j
+suffixed integer	fls_bmbu11ycjpor
+super public modifier	fls_12bluakt0jnj
+supertrait	fls_1axcyv628aov
+sync type	fls_r4eoz3ohvpdi
+syntactic category	fls_44djv0wocacs
+tail expression	fls_psd2ll10ixs
+temporary	fls_4omay4i65dwz
+terminated	fls_ihv02usuziw8
+terminated macro invocation	fls_ef03n3ehz372
+textual macro scope	fls_AVZGZPd6WXXO
+textual type	fls_mdcbhy96hrau
+thin pointer	fls_lfsgf6u142yb
+thin pointer type	fls_7ksqpi9j8ba9
+token matching	fls_tzoko74t5t6n
+tokens	fls_ma3vs7yoj285
+trait	fls_cad25qns4164
+trait body	fls_5hNydsQDrICq
+trait bound	fls_868cgnb1soeh
+trait implementation	fls_kflieu6uottg
+trait object lifetime elision	fls_TCIzYoMeGtub
+trait object type	fls_7qtbro7ipndr
+trait type	fls_nfdfeFVZRC5F
+transparent representation	fls_sl62718i1kkn
+trivial predicate	fls_soqkluvirlsd
+tuple	fls_si70t19ox07e
+tuple enum variant	fls_1XEHpJOK9DKB
+tuple enum variant value	fls_sP7uHoLxGfRO
+tuple expression	fls_udl6ujjg1jae
+tuple field	fls_bf1v4e1s5xj6
+tuple initializer	fls_zfvvbf7ncrhj
+tuple pattern	fls_7f2sx37kg4ca
+tuple struct	fls_245idp9hpqf6
+tuple struct call expression	fls_UYCpeq4Z87My
+tuple struct field	fls_xx4slbg8s63e
+tuple struct pattern	fls_u2j18nl1t12f
+tuple struct type	fls_qx8j2lvqigqk
+tuple struct value	fls_x4ALCJKhVDZF
+tuple type	fls_k4yz7i2pf9wp
+type	fls_wzupssn435n
+type alias	fls_vaklivoy2ix2
+type argument	fls_89ollsdjx3uy
+type ascription	fls_1n50v16et5e6
+type bound predicate	fls_zDdXv5I4bW9H
+type cast expression	fls_k24jb967nu1q
+type coercion	fls_6j08yuafv0vl
+type inference	fls_7fpvb2gvqng8
+type inference root	fls_0jri0m3F1fAT
+type parameter	fls_uv2damik654e
+type parameter initializer	fls_Fq2zTHYRpK2V
+type parameter type	fls_HghjWqvyj5bN
+type path	fls_QDCiXh7uSj9r
+type path resolution	fls_wa3biT0rQ102
+type representation	fls_u1zkh2m8p92
+type specification	fls_ukua6gbye6ot
+type unification	fls_qoehu9p00q56
+type variable	fls_6zhffgxtytku
+u128	fls_5hn9e3ce1smp
+u16	fls_eh24kdjdze5j
+u32	fls_jybcgdujzpqy
+u64	fls_1z1e3chuejzz
+u8	fls_44uvj9l7q98z
+unary operator	fls_p032easjag3d
+undefined behavior	fls_WuLL4SvSKavZ
+under resolution	fls_X6XjWwYeTnVR
+underscore expression	fls_57kis2vnt3cv
+underscore pattern	fls_fhwqe6afup2o
+unhygienic	fls_HpUSWMvNS5f4
+unifiable	fls_y7m6AentM6Ik
+unifiable types	fls_u03p4rvz1jhs
+unified type	fls_9RfuDiI6qrzZ
+unify	fls_da6ssnmmsevo
+union	fls_8qljy9e1jjcb
+union field	fls_71xvazpwi8p0
+union type	fls_nrgyga1rztb3
+union value	fls_2QRQMeA3OSVl
+unique immutable reference	fls_Is9hWLC6Q0g5
+unit enum variant	fls_Rwtgq904NoaL
+unit struct	fls_f3hmx9qya258
+unit struct constant	fls_jdvEnl8F7I8R
+unit struct type	fls_6j2wnOmBILJa
+unit struct value	fls_CXp8fgPrBVUe
+unit tuple	fls_wmn9mcqae88q
+unit type	fls_t32yfzmpid5a
+unit value	fls_vxt0ifseehv9
+unnamed constant	fls_u78ng1tleh0w
+unnamed lifetime	fls_r8567aozbyxl
+unqualified path expression	fls_cDVmvrVhUBmr
+unsafe Rust	fls_4f6mppoenj3b
+unsafe block	fls_6349nvapfj9d
+unsafe block expression	fls_u8sdp2fxz9pn
+unsafe context	fls_5m85wlr2qw78
+unsafe external block	fls_pre02nas9dad
+unsafe function	fls_ua64pv82skaw
+unsafe function item type	fls_y1iruf62p856
+unsafe function pointer type	fls_bokqlokua059
+unsafe operation	fls_e2wyfbem6vwn
+unsafe trait	fls_38ae1t48h9cb
+unsafe trait implementation	fls_h62dfjfyqcbn
+unsafety	fls_pst7yov6vnr9
+unsigned integer type	fls_4jc74lz245z3
+unsized coercion	fls_pjup0piqlxe3
+unsized type	fls_KiVgO7I3UUhh
+unsuffixed float	fls_4ph9cact2scc
+unsuffixed integer	fls_d18nctsj8wu5
+use capture	fls_Z8qvOkP4Zfj5
+use import	fls_fow1bnvduafi
+usize	fls_gvjm5mms9ahz
+validity invariant	fls_A5K8aOBsI3BG
+value	fls_tg866bc926ms
+value expression	fls_h03noz6jzpyl
+value expression context	fls_7xiaXXSwy4GP
+value operand	fls_a5xof9jlpc2e
+variable	fls_donq6w1906lw
+variadic part	fls_RIe80XOF8VlA
+variance	fls_q0xplb4tbzpq
+visibility	fls_svx87y4p8fdx
+visibility modifier	fls_xqjk8avt7t51
+visible emptiness	fls_dLlUt8PrXAls
+visible empty enum variant	fls_EnT5zRuwviWM
+visible empty type	fls_HYWQ0lJS3TET
+weak keyword	fls_iplp3gvfbcpw
+where clause	fls_ew2gsg72rjxk
+where clause predicate	fls_myNeYCm4VI0R
+while let loop	fls_8hcsablipi17
+while let loop expression	fls_gme4odk59x6d
+while loop	fls_od59yim9kasi
+while loop expression	fls_1qxi3h3qmgso
+whitespace string	fls_cxm8nw6qiryr
+zero-sized type	fls_a5lrxgucl3be
+zero-variant enum type	fls_pix563lfbpm

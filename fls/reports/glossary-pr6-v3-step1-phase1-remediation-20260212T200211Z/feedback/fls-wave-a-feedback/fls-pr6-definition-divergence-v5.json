@@ -1,0 +1,4524 @@
+{
+  "commit": "e498c8d",
+  "label": "v5-wave-a",
+  "glossary_terms": 757,
+  "exact_match": 470,
+  "minor_difference": 90,
+  "significant_reword": 168,
+  "missing_from_chapter": 29,
+  "terms": [
+    {
+      "term": "ABI",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "ABI clobber",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "ABI kind",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "Abort",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "exceptions-and-errors.rst"
+    },
+    {
+      "term": "Application Binary Interface",
+      "match": "minor_difference",
+      "similarity": 0.944,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "Associativity",
+      "match": "missing_from_chapter",
+      "glossary": "associativity is the order by which [operand]s are evaluated within a single exp"
+    },
+    {
+      "term": "Binding mode",
+      "match": "missing_from_chapter",
+      "glossary": "binding mode is the mechanism by which a matched value is bound to a binding of "
+    },
+    {
+      "term": "Borrowing",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Break type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "Break value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "C",
+      "match": "significant_reword",
+      "similarity": 0.05,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "C representation",
+      "match": "minor_difference",
+      "similarity": 0.812,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "C signed int type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Call conformance",
+      "match": "missing_from_chapter",
+      "glossary": "call conformance measures the compatibility between a set of [argument operand]s"
+    },
+    {
+      "term": "Call resolution",
+      "match": "missing_from_chapter",
+      "glossary": "call resolution is a kind of resolution that applies to a call expression."
+    },
+    {
+      "term": "Call site hygiene",
+      "match": "missing_from_chapter",
+      "glossary": "call site hygiene is a type of hygiene which resolves to the macroinvocation sit"
+    },
+    {
+      "term": "Capture mode",
+      "match": "missing_from_chapter",
+      "glossary": "capture mode is the mechanism by which a capture target is captured."
+    },
+    {
+      "term": "Capturing",
+      "match": "missing_from_chapter",
+      "glossary": "capturing is the process of saving the [capture target]s of a [capturing express"
+    },
+    {
+      "term": "Cast",
+      "match": "missing_from_chapter",
+      "glossary": "cast or casting is the process of changing the type of an expression."
+    },
+    {
+      "term": "Conditional compilation",
+      "match": "missing_from_chapter",
+      "glossary": "conditional compilation is the process of compiling conditionally-compiled sourc"
+    },
+    {
+      "term": "Conditionally-compiled source code",
+      "match": "missing_from_chapter",
+      "glossary": "conditionally-compiled source code is source code that may or may not be conside"
+    },
+    {
+      "term": "Constant promotion",
+      "match": "missing_from_chapter",
+      "glossary": "constant promotion is the process of converting a value expression into a consta"
+    },
+    {
+      "term": "Default representation",
+      "match": "significant_reword",
+      "similarity": 0.312,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Definition site hygiene",
+      "match": "minor_difference",
+      "similarity": 0.833,
+      "file": "macros.rst"
+    },
+    {
+      "term": "Destruction",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Drop order",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Drop scope extension",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Dropping",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Elaboration",
+      "match": "missing_from_chapter",
+      "glossary": "elaboration is the process by which a declaration achieves its runtime effects."
+    },
+    {
+      "term": "Evaluation",
+      "match": "missing_from_chapter",
+      "glossary": "evaluation is the process by which an expression achieves its runtime effects."
+    },
+    {
+      "term": "Execution",
+      "match": "missing_from_chapter",
+      "glossary": "execution is the process by which a statement achieves its runtime effects."
+    },
+    {
+      "term": "FFI",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "Field resolution",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Foreign Function Interface",
+      "match": "minor_difference",
+      "similarity": 0.857,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "Function lifetime elision",
+      "match": "minor_difference",
+      "similarity": 0.846,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Generic conformance",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "Hygiene",
+      "match": "missing_from_chapter",
+      "glossary": "hygiene is a property of [macro]s and [identifier]s` that appear within them, wh"
+    },
+    {
+      "term": "Impl header lifetime elision",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Implementation conformance",
+      "match": "missing_from_chapter",
+      "glossary": "implementation conformance measures the compatibility between a trait implementa"
+    },
+    {
+      "term": "Initialization",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Inline assembly",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "Interior mutability",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Layout",
+      "match": "missing_from_chapter",
+      "glossary": "layout specifies the alignment, size, and the relative offset of [field]s in a t"
+    },
+    {
+      "term": "Lifetime elision",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Macro expansion",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "Macro matching",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "Macro transcription",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "Method resolution",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Mixed site hygiene",
+      "match": "missing_from_chapter",
+      "glossary": "mixed site hygiene is a type of hygiene which resolves to the macrorulesdeclarat"
+    },
+    {
+      "term": "Mutability",
+      "match": "missing_from_chapter",
+      "glossary": "mutability determines whether a construct can modify a value."
+    },
+    {
+      "term": "NaN-boxing",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "Object safety",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Ownership",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "Path expression resolution",
+      "match": "minor_difference",
+      "similarity": 0.917,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Path resolution",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Precedence",
+      "match": "minor_difference",
+      "similarity": 0.867,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "Primitive representation",
+      "match": "significant_reword",
+      "similarity": 0.32,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Private visibility",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Public visibility",
+      "match": "exact_match",
+      "similarity": 0.962,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Refutability",
+      "match": "missing_from_chapter",
+      "glossary": "refutability is a property of [pattern]s that expresses the ability to match all"
+    },
+    {
+      "term": "Resolution",
+      "match": "missing_from_chapter",
+      "glossary": "resolution is the process of finding a unique interpretation for a field access "
+    },
+    {
+      "term": "Rule matching",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "Self scope",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Shadowing",
+      "match": "missing_from_chapter",
+      "glossary": "shadowing is a property of [name]s. a name is said to be shadowed when another n"
+    },
+    {
+      "term": "Simple path resolution",
+      "match": "missing_from_chapter",
+      "glossary": "simple path resolution is a kind of path resolution that applies to a simple pat"
+    },
+    {
+      "term": "Static lifetime elision",
+      "match": "missing_from_chapter",
+      "glossary": "static lifetime elision is a form of lifetime elision that applies to [constant]"
+    },
+    {
+      "term": "Subtyping",
+      "match": "missing_from_chapter",
+      "glossary": "subtyping is a property of [type]s, allowing one type to be used where another t"
+    },
+    {
+      "term": "Token matching",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "Trait object lifetime elision",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Transparent representation",
+      "match": "minor_difference",
+      "similarity": 0.933,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Type coercion",
+      "match": "minor_difference",
+      "similarity": 0.522,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Type inference",
+      "match": "significant_reword",
+      "similarity": 0.316,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Type path resolution",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Type representation",
+      "match": "significant_reword",
+      "similarity": 0.417,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Type unification",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Undefined behavior",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "unsafety.rst"
+    },
+    {
+      "term": "Unicode",
+      "match": "minor_difference",
+      "similarity": 0.941,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "Unsafety",
+      "match": "missing_from_chapter",
+      "glossary": "unsafety is the presence of [unsafe operation]s in program text."
+    },
+    {
+      "term": "Variance",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "Visibility",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "Visible emptiness <visible emptiness>",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "[Token]s",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "[unifiable type]s",
+      "match": "significant_reword",
+      "similarity": 0.077,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "abstract data type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "active attribute",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "addition assignment",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "addition assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "addition expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "adjusted call operand",
+      "match": "significant_reword",
+      "similarity": 0.238,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "alignment",
+      "match": "significant_reword",
+      "similarity": 0.105,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "all configuration predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "anonymous loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "anonymous return type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "anonymous type parameter",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "any configuration predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "argument operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "arithmetic expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "arithmetic operator",
+      "match": "minor_difference",
+      "similarity": 0.556,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "arithmetic overflow",
+      "match": "minor_difference",
+      "similarity": 0.69,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "arity",
+      "match": "significant_reword",
+      "similarity": 0.161,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "array",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "array element constructor",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "array expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "array repetition constructor",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "array type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "assembly code block",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "assembly directive",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "assembly instruction",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "assembly option",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "assigned operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "assignee expression",
+      "match": "minor_difference",
+      "similarity": 0.722,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "assignee operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "associated constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "associated function",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "associated implementation constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "associated implementation function",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "associated implementation type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "associated item",
+      "match": "significant_reword",
+      "similarity": 0.219,
+      "file": "macros.rst"
+    },
+    {
+      "term": "associated trait constant",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "associated trait function",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "associated trait implementation function",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "associated trait implementation item",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "associated trait item",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "associated trait type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "associated type",
+      "match": "significant_reword",
+      "similarity": 0.2,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "associated type projection",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "async block",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "async block expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "async closure expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "async closure type",
+      "match": "significant_reword",
+      "similarity": 0.227,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "async control flow boundary",
+      "match": "significant_reword",
+      "similarity": 0.28,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "async function",
+      "match": "significant_reword",
+      "similarity": 0.2,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "atomic type",
+      "match": "minor_difference",
+      "similarity": 0.529,
+      "file": "concurrency.rst"
+    },
+    {
+      "term": "attribute",
+      "match": "missing_from_chapter",
+      "glossary": "an attribute is a general, free-form metadatum that is interpreted based on its "
+    },
+    {
+      "term": "attribute content",
+      "match": "significant_reword",
+      "similarity": 0.111,
+      "file": "macros.rst"
+    },
+    {
+      "term": "attribute macro",
+      "match": "minor_difference",
+      "similarity": 0.676,
+      "file": "macros.rst"
+    },
+    {
+      "term": "auto trait",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "await expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "base initializer",
+      "match": "exact_match",
+      "similarity": 0.955,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "basic assignment",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "binary crate",
+      "match": "significant_reword",
+      "similarity": 0.176,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "binary literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "binary operator",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "binding",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "binding argument",
+      "match": "significant_reword",
+      "similarity": 0.455,
+      "file": "generics.rst"
+    },
+    {
+      "term": "binding bound argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "binding pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "binding scope",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "bit and assignment",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit and assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit and expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit or assignment",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit or assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit or expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit xor assignment",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit xor assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bit xor expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "block comment",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "block expression",
+      "match": "minor_difference",
+      "similarity": 0.818,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "boolean literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "borrow",
+      "match": "significant_reword",
+      "similarity": 0.12,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "borrow expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "borrowed",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "bound",
+      "match": "significant_reword",
+      "similarity": 0.095,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "bound pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "break expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "built-in attribute",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "built-in trait",
+      "match": "significant_reword",
+      "similarity": 0.417,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "byte literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "byte string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "c string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "call expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "call operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "callee type",
+      "match": "minor_difference",
+      "similarity": 0.917,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "capture target",
+      "match": "minor_difference",
+      "similarity": 0.667,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "capturing environment",
+      "match": "minor_difference",
+      "similarity": 0.5,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "capturing expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "casting",
+      "match": "minor_difference",
+      "similarity": 0.917,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "character literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "closure body",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "closure expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "closure parameter",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "closure type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "code point",
+      "match": "significant_reword",
+      "similarity": 0.192,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "comment",
+      "match": "significant_reword",
+      "similarity": 0.108,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "comparison expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "compilation root",
+      "match": "minor_difference",
+      "similarity": 0.769,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "compound assignment",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "compound assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "concrete type",
+      "match": "significant_reword",
+      "similarity": 0.091,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "configuration predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "const block expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant",
+      "match": "significant_reword",
+      "similarity": 0.2,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant argument",
+      "match": "significant_reword",
+      "similarity": 0.267,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant context",
+      "match": "minor_difference",
+      "similarity": 0.571,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant expression",
+      "match": "significant_reword",
+      "similarity": 0.357,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant function",
+      "match": "significant_reword",
+      "similarity": 0.188,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant initializer",
+      "match": "significant_reword",
+      "similarity": 0.263,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "constant parameter",
+      "match": "significant_reword",
+      "similarity": 0.235,
+      "file": "generics.rst"
+    },
+    {
+      "term": "constant parameter initializer",
+      "match": "significant_reword",
+      "similarity": 0.292,
+      "file": "generics.rst"
+    },
+    {
+      "term": "constrain",
+      "match": "significant_reword",
+      "similarity": 0.44,
+      "file": "generics.rst"
+    },
+    {
+      "term": "construct",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "constructee",
+      "match": "minor_difference",
+      "similarity": 0.941,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "container operand",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "continue expression",
+      "match": "minor_difference",
+      "similarity": 0.562,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "control flow boundary",
+      "match": "significant_reword",
+      "similarity": 0.44,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "copy type",
+      "match": "significant_reword",
+      "similarity": 0.154,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "crate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "crate import",
+      "match": "missing_from_chapter",
+      "glossary": "a crate import specifies a dependency on an external crate."
+    },
+    {
+      "term": "crate indication",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "crate public modifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "crate root",
+      "match": "significant_reword",
+      "similarity": 0.417,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "crate root module",
+      "match": "significant_reword",
+      "similarity": 0.156,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "crate type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "dangling",
+      "match": "significant_reword",
+      "similarity": 0.182,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "data race",
+      "match": "minor_difference",
+      "similarity": 0.583,
+      "file": "concurrency.rst"
+    },
+    {
+      "term": "decimal literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "declaration",
+      "match": "missing_from_chapter",
+      "glossary": "a declaration is a construct that introduces a name for an entity."
+    },
+    {
+      "term": "declarative macro",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "macros.rst"
+    },
+    {
+      "term": "deconstructee",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "dereference",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "dereference expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "dereference type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "dereference type chain",
+      "match": "significant_reword",
+      "similarity": 0.429,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "derive macro",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "macros.rst"
+    },
+    {
+      "term": "destructor",
+      "match": "significant_reword",
+      "similarity": 0.174,
+      "file": "values.rst"
+    },
+    {
+      "term": "destructuring assignment",
+      "match": "minor_difference",
+      "similarity": 0.944,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "direction modifier",
+      "match": "significant_reword",
+      "similarity": 0.3,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "discriminant",
+      "match": "significant_reword",
+      "similarity": 0.143,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "discriminant initializer",
+      "match": "significant_reword",
+      "similarity": 0.308,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "discriminant type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "diverging expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "diverging type variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "division assignment",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "division assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "division expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "doc comment",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "drop construct",
+      "match": "minor_difference",
+      "similarity": 0.538,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "drop scope",
+      "match": "significant_reword",
+      "similarity": 0.481,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "drop type",
+      "match": "minor_difference",
+      "similarity": 0.867,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "dynamically sized type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "element type",
+      "match": "significant_reword",
+      "similarity": 0.292,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "elided",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "elided lifetime",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "else expression",
+      "match": "minor_difference",
+      "similarity": 0.5,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "empty statement",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "entity",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "enum",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "enum field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "enum type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "enum value",
+      "match": "significant_reword",
+      "similarity": 0.267,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "enum variant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "enum variant value",
+      "match": "significant_reword",
+      "similarity": 0.158,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "equals expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "error propagation expression",
+      "match": "minor_difference",
+      "similarity": 0.909,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "escaped character",
+      "match": "significant_reword",
+      "similarity": 0.175,
+      "file": "general.rst"
+    },
+    {
+      "term": "exclusive range pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "explicit register argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "explicit register name",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "explicitly declared entity",
+      "match": "minor_difference",
+      "similarity": 0.562,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "exported function",
+      "match": "significant_reword",
+      "similarity": 0.182,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "exported static",
+      "match": "significant_reword",
+      "similarity": 0.417,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "expression statement",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "expression-with-block",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "expression-without-block",
+      "match": "significant_reword",
+      "similarity": 0.111,
+      "file": "macros.rst"
+    },
+    {
+      "term": "external block",
+      "match": "minor_difference",
+      "similarity": 0.7,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "external function",
+      "match": "significant_reword",
+      "similarity": 0.125,
+      "file": "general.rst"
+    },
+    {
+      "term": "external function item type",
+      "match": "significant_reword",
+      "similarity": 0.304,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "external static",
+      "match": "significant_reword",
+      "similarity": 0.133,
+      "file": "general.rst"
+    },
+    {
+      "term": "fat pointer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "fat pointer type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "field access expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "field index",
+      "match": "significant_reword",
+      "similarity": 0.212,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "field list",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "field selector",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "final match arm",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "fixed sized type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "float literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "float suffix",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "floating-point type",
+      "match": "significant_reword",
+      "similarity": 0.064,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "floating-point type variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "floating-point value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "for loop",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "for loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "fragment specifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "full range expression",
+      "match": "minor_difference",
+      "similarity": 0.909,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "function",
+      "match": "significant_reword",
+      "similarity": 0.143,
+      "file": "macros.rst"
+    },
+    {
+      "term": "function body",
+      "match": "significant_reword",
+      "similarity": 0.167,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "function item type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "function parameter",
+      "match": "significant_reword",
+      "similarity": 0.086,
+      "file": "macros.rst"
+    },
+    {
+      "term": "function pointer type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "function pointer type parameter",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "function qualifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "functions.rst"
+    },
+    {
+      "term": "function signature",
+      "match": "significant_reword",
+      "similarity": 0.219,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "function type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "function-like macro",
+      "match": "minor_difference",
+      "similarity": 0.75,
+      "file": "macros.rst"
+    },
+    {
+      "term": "fundamental",
+      "match": "significant_reword",
+      "similarity": 0.226,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "future",
+      "match": "significant_reword",
+      "similarity": 0.179,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "future operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "generic argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic associated type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "generic enum",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic function",
+      "match": "significant_reword",
+      "similarity": 0.167,
+      "file": "values.rst"
+    },
+    {
+      "term": "generic implementation",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic parameter",
+      "match": "minor_difference",
+      "similarity": 0.882,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic parameter scope",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "generic struct",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic substitution",
+      "match": "significant_reword",
+      "similarity": 0.294,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "generic trait",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic type",
+      "match": "significant_reword",
+      "similarity": 0.192,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "generic type alias",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "generic union",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "glob import",
+      "match": "minor_difference",
+      "similarity": 0.5,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "global path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "global type variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "greater-than expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "greater-than-or-equals expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "half-open range pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "hexadecimal literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "higher-ranked trait bound",
+      "match": "minor_difference",
+      "similarity": 0.714,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "hygienic",
+      "match": "significant_reword",
+      "similarity": 0.056,
+      "file": "macros.rst"
+    },
+    {
+      "term": "identifier",
+      "match": "significant_reword",
+      "similarity": 0.115,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "identifier pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "if expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "if let expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "immutable",
+      "match": "significant_reword",
+      "similarity": 0.1,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "immutable borrow",
+      "match": "significant_reword",
+      "similarity": 0.188,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "immutable borrow expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "immutable place expression",
+      "match": "minor_difference",
+      "similarity": 0.571,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "immutable place expression context",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "immutable raw pointer type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "immutable reference",
+      "match": "significant_reword",
+      "similarity": 0.222,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "immutable static",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "values.rst"
+    },
+    {
+      "term": "immutable variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "values.rst"
+    },
+    {
+      "term": "impl trait type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "implementation",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "implementation body",
+      "match": "significant_reword",
+      "similarity": 0.308,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "implementation coherence",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "implemented trait",
+      "match": "significant_reword",
+      "similarity": 0.182,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "implementing type",
+      "match": "significant_reword",
+      "similarity": 0.174,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "implicit borrow",
+      "match": "significant_reword",
+      "similarity": 0.111,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "implicitly declared entity",
+      "match": "minor_difference",
+      "similarity": 0.562,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "implied bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "in scope",
+      "match": "minor_difference",
+      "similarity": 0.556,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "inclusive range pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "incomplete associated constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "incomplete associated function",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "incomplete associated type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "associated-items.rst"
+    },
+    {
+      "term": "index expression",
+      "match": "significant_reword",
+      "similarity": 0.158,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "indexable type",
+      "match": "minor_difference",
+      "similarity": 0.9,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "indexed deconstructor",
+      "match": "minor_difference",
+      "similarity": 0.923,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "indexed field selector",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "indexed initializer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "indexed operand",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "indexing operand",
+      "match": "minor_difference",
+      "similarity": 0.6,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "indirection type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "inert attribute",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "inferred type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "infinite loop",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "infinite loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "inherent implementation",
+      "match": "significant_reword",
+      "similarity": 0.08,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "initialization expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "initialization type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "inline module",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "inner attribute",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "inner block doc",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "inner doc comment",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "inner line doc",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "input register",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "input register expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "input-output register expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "integer literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "integer suffix",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "integer type",
+      "match": "significant_reword",
+      "similarity": 0.105,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "integer type variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "intermediate match arm",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "irrefutable constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "irrefutable pattern",
+      "match": "significant_reword",
+      "similarity": 0.2,
+      "file": "statements.rst"
+    },
+    {
+      "term": "item",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "items.rst"
+    },
+    {
+      "term": "item scope",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "item statement",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "iteration expression",
+      "match": "significant_reword",
+      "similarity": 0.318,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "keyword",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "label",
+      "match": "minor_difference",
+      "similarity": 0.667,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "label indication",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "label scope",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "lazy and expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "lazy boolean expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "lazy or expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "left operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "less-than expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "less-than-or-equals expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "let binding",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "let initializer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "let statement",
+      "match": "minor_difference",
+      "similarity": 0.85,
+      "file": "statements.rst"
+    },
+    {
+      "term": "lexical element",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "library crate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "lifetime",
+      "match": "minor_difference",
+      "similarity": 0.778,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "lifetime argument",
+      "match": "minor_difference",
+      "similarity": 0.909,
+      "file": "generics.rst"
+    },
+    {
+      "term": "lifetime bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "lifetime bound predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "lifetime parameter",
+      "match": "significant_reword",
+      "similarity": 0.235,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "lifetime variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "line",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "line comment",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "literal expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "literal pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "local trait",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "local type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "local variable",
+      "match": "significant_reword",
+      "similarity": 0.25,
+      "file": "values.rst"
+    },
+    {
+      "term": "loop",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "loop body",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "macro",
+      "match": "significant_reword",
+      "similarity": 0.433,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro implementation function",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro invocation",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro match",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro matcher",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro repetition",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro repetition in matching",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro repetition in transcription",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro rule",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "macro statement",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "macro transcriber",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "main function signature",
+      "match": "significant_reword",
+      "similarity": 0.207,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "match arm",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "match arm body",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "match arm guard",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "match arm matcher",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "match expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "metavariable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "metavariable indication",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "method",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "functions.rst"
+    },
+    {
+      "term": "method call expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "method operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "modifying operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "module",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "move type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "multi segment path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "multiplication assignment",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "multiplication assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "multiplication expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable",
+      "match": "significant_reword",
+      "similarity": 0.143,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable assignee expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable binding",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "mutable borrow",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "mutable borrow expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable place expression",
+      "match": "minor_difference",
+      "similarity": 0.611,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable place expression context",
+      "match": "minor_difference",
+      "similarity": 0.7,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable raw pointer type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "mutable reference",
+      "match": "significant_reword",
+      "similarity": 0.2,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable reference type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "mutable static",
+      "match": "significant_reword",
+      "similarity": 0.118,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "mutable variable",
+      "match": "significant_reword",
+      "similarity": 0.211,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "name",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "named block expression",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "named deconstructor",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "named field selector",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "named initializer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "named loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "named register argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "namespace",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "namespace qualifier",
+      "match": "significant_reword",
+      "similarity": 0.444,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "negation expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "nesting import",
+      "match": "minor_difference",
+      "similarity": 0.938,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "never type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "non-reference pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "not configuration predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "not-equals expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "numeric literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "numeric literal pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "numeric type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "object safe",
+      "match": "significant_reword",
+      "similarity": 0.385,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "obsolete range pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "octal literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "operand",
+      "match": "significant_reword",
+      "similarity": 0.056,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "operator expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "opt-out trait bound",
+      "match": "significant_reword",
+      "similarity": 0.25,
+      "file": "generics.rst"
+    },
+    {
+      "term": "or-pattern",
+      "match": "minor_difference",
+      "similarity": 0.84,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "outer attribute",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "outer block doc",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "outer doc comment",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "outer line doc",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "outline module",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "outlives bound",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "output register",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "output register expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "overlap",
+      "match": "significant_reword",
+      "similarity": 0.235,
+      "file": "values.rst"
+    },
+    {
+      "term": "owner",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "panic",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "exceptions-and-errors.rst"
+    },
+    {
+      "term": "parenthesized expression",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "parenthesized pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "parenthesized type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "partially hygienic",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "passing convention",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "path expression",
+      "match": "minor_difference",
+      "similarity": 0.545,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "path pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "path segment",
+      "match": "minor_difference",
+      "similarity": 0.667,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "pattern-without-alternation",
+      "match": "significant_reword",
+      "similarity": 0.16,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "pattern-without-range",
+      "match": "significant_reword",
+      "similarity": 0.083,
+      "file": "macros.rst"
+    },
+    {
+      "term": "place",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "place expression",
+      "match": "minor_difference",
+      "similarity": 0.6,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "place expression context",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "plane",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "pointer",
+      "match": "significant_reword",
+      "similarity": 0.088,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "pointer type",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "positional register argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "prelude",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "prelude entity",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "prelude name",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "principal trait",
+      "match": "minor_difference",
+      "similarity": 0.9,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "proc-macro crate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "procedural macro",
+      "match": "significant_reword",
+      "similarity": 0.435,
+      "file": "macros.rst"
+    },
+    {
+      "term": "program entry point",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "punctuator",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "pure identifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "qualified path expression",
+      "match": "significant_reword",
+      "similarity": 0.222,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "qualified type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "qualified type path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "qualifying trait",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "range expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range expression high bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range expression low bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "range pattern bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "range pattern high bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "range pattern low bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "range-from expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range-from-to expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range-full expression",
+      "match": "significant_reword",
+      "similarity": 0.125,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range-inclusive expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range-to expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "range-to-inclusive expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "raw borrow expression",
+      "match": "minor_difference",
+      "similarity": 0.818,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "raw byte string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "raw c string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "raw pointer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "raw pointer type",
+      "match": "minor_difference",
+      "similarity": 0.692,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "raw string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "reachable control flow path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "values.rst"
+    },
+    {
+      "term": "receiver operand",
+      "match": "significant_reword",
+      "similarity": 0.444,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "receiver type",
+      "match": "minor_difference",
+      "similarity": 0.545,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "record enum variant",
+      "match": "significant_reword",
+      "similarity": 0.357,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "record struct",
+      "match": "significant_reword",
+      "similarity": 0.214,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "record struct field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "record struct pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "record struct type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "record struct value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "recursive type",
+      "match": "significant_reword",
+      "similarity": 0.129,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "reference",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "reference identifier pattern",
+      "match": "significant_reword",
+      "similarity": 0.231,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "reference pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "reference type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "referent",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "refutable constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "refutable pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "refutable type",
+      "match": "significant_reword",
+      "similarity": 0.231,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "register",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register class",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register class argument",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register class name",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register expression",
+      "match": "minor_difference",
+      "similarity": 0.833,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register name",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register parameter",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "register parameter modifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "remainder assignment",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "remainder assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "remainder expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "renaming",
+      "match": "significant_reword",
+      "similarity": 0.061,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "repeat operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "repetition operator",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "representation modifier",
+      "match": "significant_reword",
+      "similarity": 0.118,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "reserved keyword",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "rest pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "return expression",
+      "match": "minor_difference",
+      "similarity": 0.75,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "return type",
+      "match": "significant_reword",
+      "similarity": 0.462,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "right operand",
+      "match": "significant_reword",
+      "similarity": 0.192,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "rustc",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "general.rst"
+    },
+    {
+      "term": "safety invariant",
+      "match": "significant_reword",
+      "similarity": 0.174,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "scalar type",
+      "match": "significant_reword",
+      "similarity": 0.121,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "scope",
+      "match": "minor_difference",
+      "similarity": 0.667,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "scope hierarchy",
+      "match": "minor_difference",
+      "similarity": 0.522,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "selected field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "self parameter",
+      "match": "significant_reword",
+      "similarity": 0.179,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "self public modifier",
+      "match": "minor_difference",
+      "similarity": 0.55,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "send type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "concurrency.rst"
+    },
+    {
+      "term": "separator",
+      "match": "significant_reword",
+      "similarity": 0.091,
+      "file": "macros.rst"
+    },
+    {
+      "term": "sequence type",
+      "match": "minor_difference",
+      "similarity": 0.75,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "shadowed",
+      "match": "minor_difference",
+      "similarity": 0.773,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "shared borrow",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "shared reference",
+      "match": "significant_reword",
+      "similarity": 0.188,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "shared reference type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "shift left assignment",
+      "match": "significant_reword",
+      "similarity": 0.444,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "shift left assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "shift left expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "shift right assignment",
+      "match": "significant_reword",
+      "similarity": 0.444,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "shift right assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "shift right expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "shorthand deconstructor",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "shorthand initializer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "signed integer type",
+      "match": "significant_reword",
+      "similarity": 0.103,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "simple byte string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "simple c string literal",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "simple import",
+      "match": "significant_reword",
+      "similarity": 0.355,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "simple path",
+      "match": "significant_reword",
+      "similarity": 0.133,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "simple path prefix",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "simple path public modifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "simple public modifier",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "simple register expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "simple string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "single segment path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "size",
+      "match": "significant_reword",
+      "similarity": 0.206,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "size operand",
+      "match": "significant_reword",
+      "similarity": 0.391,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "sized type",
+      "match": "significant_reword",
+      "similarity": 0.308,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "slice",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "slice pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "slice type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "source file",
+      "match": "minor_difference",
+      "similarity": 0.737,
+      "file": "program-structure-and-compilation.rst"
+    },
+    {
+      "term": "statement",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "static",
+      "match": "significant_reword",
+      "similarity": 0.125,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "static initializer",
+      "match": "significant_reword",
+      "similarity": 0.4,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "strict keyword",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "string literal",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "struct",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "struct expression",
+      "match": "significant_reword",
+      "similarity": 0.105,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "struct field",
+      "match": "minor_difference",
+      "similarity": 0.625,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "struct pattern",
+      "match": "significant_reword",
+      "similarity": 0.12,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "struct type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "struct value",
+      "match": "significant_reword",
+      "similarity": 0.2,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "structurally equal",
+      "match": "significant_reword",
+      "similarity": 0.179,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "subexpression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "subject expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "subject let expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "subpattern",
+      "match": "significant_reword",
+      "similarity": 0.16,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "subtraction assignment",
+      "match": "significant_reword",
+      "similarity": 0.111,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "subtraction assignment expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "subtraction expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "subtrait",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "subtype",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "suffixed float",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "suffixed integer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "super public modifier",
+      "match": "minor_difference",
+      "similarity": 0.636,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "supertrait",
+      "match": "minor_difference",
+      "similarity": 0.833,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "sync type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "concurrency.rst"
+    },
+    {
+      "term": "syntactic category",
+      "match": "significant_reword",
+      "similarity": 0.273,
+      "file": "general.rst"
+    },
+    {
+      "term": "tail expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "temporary",
+      "match": "significant_reword",
+      "similarity": 0.071,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "terminated",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "terminated macro invocation",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "textual macro scope",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "textual type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "thin pointer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "thin pointer type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "trait",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "trait body",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "trait bound",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "trait implementation",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "trait object type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "trait type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "trivial predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "tuple",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple enum variant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple enum variant value",
+      "match": "significant_reword",
+      "similarity": 0.333,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "tuple initializer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "tuple struct",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple struct call expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple struct field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "tuple struct pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "tuple struct type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple struct value",
+      "match": "significant_reword",
+      "similarity": 0.278,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "tuple type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "type",
+      "match": "minor_difference",
+      "similarity": 0.857,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "type alias",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "type argument",
+      "match": "minor_difference",
+      "similarity": 0.909,
+      "file": "generics.rst"
+    },
+    {
+      "term": "type ascription",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "statements.rst"
+    },
+    {
+      "term": "type bound predicate",
+      "match": "significant_reword",
+      "similarity": 0.154,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "type cast expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "type inference root",
+      "match": "minor_difference",
+      "similarity": 0.75,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "type parameter",
+      "match": "significant_reword",
+      "similarity": 0.043,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "type parameter initializer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "type parameter type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "type path",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "type specification",
+      "match": "significant_reword",
+      "similarity": 0.312,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "type variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unary operator",
+      "match": "minor_difference",
+      "similarity": 0.7,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "under resolution",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "underscore expression",
+      "match": "minor_difference",
+      "similarity": 0.667,
+      "file": "inline-assembly.rst"
+    },
+    {
+      "term": "underscore pattern",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "unhygienic",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "macros.rst"
+    },
+    {
+      "term": "unifiable",
+      "match": "significant_reword",
+      "similarity": 0,
+      "file": null
+    },
+    {
+      "term": "unified type",
+      "match": "significant_reword",
+      "similarity": 0.138,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unify",
+      "match": "minor_difference",
+      "similarity": 0.75,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "union",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "union field",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "union type",
+      "match": "significant_reword",
+      "similarity": 0.438,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "union value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unique immutable reference",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unit enum variant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "unit struct",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unit struct constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "unit struct type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unit struct value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unit tuple",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unit type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unit value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unnamed constant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "values.rst"
+    },
+    {
+      "term": "unnamed lifetime",
+      "match": "significant_reword",
+      "similarity": 0.286,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unqualified path expression",
+      "match": "minor_difference",
+      "similarity": 0.533,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "unsafe Rust",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "unsafety.rst"
+    },
+    {
+      "term": "unsafe block",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unsafe block expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unsafe context",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unsafe external block",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ffi.rst"
+    },
+    {
+      "term": "unsafe function",
+      "match": "minor_difference",
+      "similarity": 0.818,
+      "file": "unsafety.rst"
+    },
+    {
+      "term": "unsafe function item type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unsafe function pointer type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "unsafe operation",
+      "match": "minor_difference",
+      "similarity": 0.727,
+      "file": "attributes.rst"
+    },
+    {
+      "term": "unsafe trait",
+      "match": "minor_difference",
+      "similarity": 0.5,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "unsafe trait implementation",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "implementations.rst"
+    },
+    {
+      "term": "unsigned integer type",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unsized coercion",
+      "match": "minor_difference",
+      "similarity": 0.611,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unsized type",
+      "match": "significant_reword",
+      "similarity": 0.312,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "unsuffixed float",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "unsuffixed integer",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "use capture",
+      "match": "minor_difference",
+      "similarity": 0.8,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "use import",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "validity invariant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "value",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "values.rst"
+    },
+    {
+      "term": "value expression",
+      "match": "minor_difference",
+      "similarity": 0.5,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "value expression context",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "value operand",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "variable",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "ownership-and-deconstruction.rst"
+    },
+    {
+      "term": "variadic part",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "visibility modifier",
+      "match": "minor_difference",
+      "similarity": 0.6,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "visible empty enum variant",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "patterns.rst"
+    },
+    {
+      "term": "visible empty type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "weak keyword",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "where clause",
+      "match": "minor_difference",
+      "similarity": 0.522,
+      "file": "entities-and-resolution.rst"
+    },
+    {
+      "term": "where clause predicate",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "generics.rst"
+    },
+    {
+      "term": "while let loop",
+      "match": "significant_reword",
+      "similarity": 0.444,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "while let loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "while loop",
+      "match": "significant_reword",
+      "similarity": 0.375,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "while loop expression",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "expressions.rst"
+    },
+    {
+      "term": "whitespace string",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "lexical-elements.rst"
+    },
+    {
+      "term": "zero-sized type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    },
+    {
+      "term": "zero-variant enum type",
+      "match": "exact_match",
+      "similarity": 1.0,
+      "file": "types-and-traits.rst"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "changed_src_files": [
+    "src/entities-and-resolution.rst",
+    "src/expressions.rst",
+    "src/generics.rst",
+    "src/macros.rst",
+    "src/patterns.rst",
+    "src/program-structure-and-compilation.rst",
+    "src/types-and-traits.rst"
+  ],
+  "new_commit_count": 1,
+  "start_head": "19e75856eac5694e5d613c7c59b429848d333992",
+  "wa_parent_checked": 15,
+  "wa_parent_total": 15,
+  "wa_unresolved": [],
+  "wave_a_end_head": "52f1285682360265eb49061c6a00755cc6ae96c0"
+}

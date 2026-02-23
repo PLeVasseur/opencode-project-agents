@@ -1,0 +1,3 @@
+:dp:`fls_okupyoav13rm`
+A :t:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
+within a range.

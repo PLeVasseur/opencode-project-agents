@@ -1,0 +1,1240 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m task     [0mFind chapter definitions
+[94m[1m| [0m[90m Grep     [0mgenerated\.glossary
+[96m[1m| [0m[90m Read     [0msrc/glossary.rst
+[96m[1m| [0m[90m Read     [0mgenerate-glossary.py
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[94m[1m| [0m[90m Grep     [0mglossary-entry::
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mfls_4hulwazdu20i
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mderive macro
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[94m[1m| [0m[90m Grep     [0mdestructor
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m Grep     [0mDrop order
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mdiscriminant initializer
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mfls_s9c0a0lg6c0p
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mdiscriminant initializer
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[94m[1m| [0m[90m Grep     [0mdivision assignment
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mdivision assignment
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mfls_2eheo4yo2orm
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mfls_oth9vFtcb9l4
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mfls_dstca76y08ge
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mfls_7n6d3jx61ose
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mfls_5a3vfresnv5z
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0mfls_bXQ63GYYDuMp
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for dereference type chain
+
+.. glossary-entry:: dereference type chain
+   
+   :glossary:
+     :dp:`fls_kIzoAEf069HE`
+     A :dt:`dereference type chain` is a sequence of :t:`[dereference type]s`.
+   :chapter:
+     :dp:`fls_4hulwazdu20i`
+     A :t:`dereference type chain` is a sequence of :t:`[dereference type]s`. A
+     :t:`dereference type chain` starts with an initial :t:`dereference type`. From
+     then on, the :t:`dereference type chain` continues as follows:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for derive macro
+
+.. glossary-entry:: derive macro
+   
+   :glossary:
+     :dp:`fls_jrrjhl9hocrm`
+     A :dt:`derive macro` is a :t:`procedural macro` that consumes a stream of
+     :t:`[token]s` and produces a stream of tokens, and is invoked via attribute
+     :c:`derive`.
+   :chapter:
+     :dp:`fls_e5x92q2rq8a0`
+     A :t:`derive macro` is a :t:`procedural macro` that consumes a stream of
+     :t:`[token]s` and produces a stream of :t:`[token]s`. :t:`[Derive macro]s` are
+     used to construct new syntax for :t:`[abstract data type]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for destruction
+
+.. glossary-entry:: destruction
+   
+   :glossary:
+     :dp:`fls_58i2nfhxze3j`
+     :dt:`Destruction` is the process of recovering resources associated with a
+     :t:`value` as it goes out of scope.
+   :chapter:
+     :dp:`fls_e7ucq87s806d`
+     :t:`Destruction` is the process of recovering resources associated with a
+     :t:`value` as it goes out of scope.
+     
+     .. _fls_u2mzjgiwbkz0:
+     
+     Destructors
+     -----------
+     
+     .. rubric:: Legality Rules
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for destruction with manual chapter lines
+
+/bin/bash: line 1: fls_e7ucq87s806d: command not found
+/bin/bash: line 1: Destruction: command not found
+/bin/bash: line 1: value: command not found
+.. glossary-entry:: destruction
+   
+   :glossary:
+     :dp:`fls_58i2nfhxze3j`
+     :dt:`Destruction` is the process of recovering resources associated with a
+     :t:`value` as it goes out of scope.
+   :chapter:
+     :dp:
+     :t: is the process of recovering resources associated with a
+     :t: as it goes out of scope.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for destruction safely quoted
+
+.. glossary-entry:: destruction
+   
+   :glossary:
+     :dp:`fls_58i2nfhxze3j`
+     :dt:`Destruction` is the process of recovering resources associated with a
+     :t:`value` as it goes out of scope.
+   :chapter:
+     :dp:`fls_e7ucq87s806d`
+     :t:`Destruction` is the process of recovering resources associated with a
+     :t:`value` as it goes out of scope.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for destructor
+
+.. glossary-entry:: destructor
+   
+   :glossary:
+     :dp:`fls_79pp7o1xooja`
+     A :dt:`destructor` is a :t:`function` that is invoked immediately before the
+     :t:`destruction` of a :t:`value` of a :t:`drop type`.
+   :chapter:
+     :dp:`fls_4nkzidytpi6`
+     A :t:`destructor` is a :t:`function` that is invoked immediately before the
+     :t:`destruction` of a :t:`value` of a :t:`drop type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for destructuring assignment
+
+.. glossary-entry:: destructuring assignment
+   
+   :glossary:
+     :dp:`fls_7jienn9uzn5k`
+     A :dt:`destructuring assignment` is an :t:`assignment expression` where
+     the :t:`assignee operand` is either an :t:`array expression`, a
+     :t:`struct expression`, or a :t:`tuple expression`.
+   :chapter:
+     :dp:`fls_2eheo4yo2orm`
+     A :t:`destructuring assignment` is an :t:`assignment expression` where
+     the :t:`assignee operand` is either an :t:`array expression`, a :t:`struct
+     expression`, a :t:`tuple expression` or a :t:`tuple struct call expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for direction modifier
+
+.. glossary-entry:: direction modifier
+   
+   :glossary:
+     :dp:`fls_8DY7xPVX4nXx`
+     A :dt:`direction modifier` is a :t:`construct` that indicates whether a
+     :t:`register argument` initializes a :t:`register`, assigns the :t:`value` of a
+     :t:`register` to an :t:`expression`, or both.
+     
+     :dp:`fls_lRKEzY3fQ3B2`
+     See :s:`DirectionModifier`.
+   :chapter:
+     :dp:`fls_5a3vfresnv5z`
+     A :t:`direction modifier` is a :t:`construct` that indicates whether a
+     :t:`register argument` initializes a :t:`register`, assigns the :t:`value` of a
+     :t:`register` to an :t:`expression`, or both.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for discriminant
+
+.. glossary-entry:: discriminant
+   
+   :glossary:
+     :dp:`fls_dfegy9y6awx`
+     A :dt:`discriminant` is an opaque integer that identifies an :t:`enum variant`.
+   :chapter:
+     :dp:`fls_t4yeovFm83Wo`
+     A :t:`discriminant` is an opaque integer that identifies an :t:`enum variant`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for discriminant type
+
+.. glossary-entry:: discriminant type
+   
+   :glossary:
+     :dp:`fls_t4yeovFm83Wo`
+     A :dt:`discriminant type` is the :t:`type` of a :t:`discriminant`.
+   :chapter:
+     :dp:`fls_s9c0a0lg6c0p`
+     The :t:`discriminant type` of an :t:`enum type` with :t:`C representation` is
+     the corresponding :t:`c signed int type` for the target platform's :t:`C`
+     :t:`ABI`.
+     
+     .. glossary-entry:: C signed int type
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for discriminant type with manual chapter lines
+
+.. glossary-entry:: discriminant type
+   
+   :glossary:
+     :dp:`fls_t4yeovFm83Wo`
+     A :dt:`discriminant type` is the :t:`type` of a :t:`discriminant`.
+   :chapter:
+     :dp:`fls_s9c0a0lg6c0p`
+     The :t:`discriminant type` of an :t:`enum type` with :t:`C representation` is
+     the corresponding :t:`c signed int type` for the target platforms :t:`C`
+     :t:`ABI`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for discriminant type with escaped backticks
+
+.. glossary-entry:: discriminant type
+   
+   :glossary:
+     :dp:`fls_t4yeovFm83Wo`
+     A :dt:`discriminant type` is the :t:`type` of a :t:`discriminant`.
+   :chapter:
+     :dp:`fls_s9c0a0lg6c0p`
+     The :t:`discriminant type` of an :t:`enum type` with :t:`C representation` is
+     the corresponding :t:`c signed int type` for the target platform's :t:`C`
+     :t:`ABI`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for diverging expression
+
+.. glossary-entry:: diverging expression
+   
+   :glossary:
+     :dp:`fls_fLlNzmB34cj9`
+     A :dt:`diverging expression` is an :t:`expression` whose :t:`evaluation` causes
+     program flow to diverge from the normal :t:`evaluation` order.
+   :chapter:
+     :dp:`fls_oth9vFtcb9l4`
+     A :t:`diverging expression` is an :t:`expression` whose :t:`evaluation` causes
+     program flow to diverge from the normal :t:`evaluation` order.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for diverging type variable
+
+.. glossary-entry:: diverging type variable
+   
+   :glossary:
+     :dp:`fls_sxyL7yOp3H9s`
+     A :dt:`diverging type variable` is a :t:`type variable` that can refer to any
+     :t:`type` and originates from a :t:`diverging expression`.
+   :chapter:
+     :dp:`fls_bXQ63GYYDuMp`
+     A :t:`diverging type variable` is a :t:`type variable` that can refer to any
+     :t:`type` and originates from a :t:`diverging expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for division assignment expression
+
+.. glossary-entry:: division assignment expression
+   
+   :glossary:
+     :dp:`fls_lzuz5fkveikk`
+     A :dt:`division assignment expression` is a :t:`compound assignment expression`
+     that uses division.
+     
+     :dp:`fls_cdxt76aqwtkq`
+     See :s:`DivisionAssignmentExpression`.
+   :chapter:
+     :dp:`fls_pkzj0uigfcgm`
+     A :t:`division assignment expression` is a :t:`compound assignment expression`
+     that uses division.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for division expression
+
+.. glossary-entry:: division expression
+   
+   :glossary:
+     :dp:`fls_du05yp205f4y`
+     A :dt:`division expression` is an :t:`arithmetic expression` that uses division.
+     
+     :dp:`fls_d3vwk4autyd`
+     See :s:`DivisionExpression`.
+   :chapter:
+     :dp:`fls_dstca76y08ge`
+     A :t:`division expression` is an :t:`arithmetic expression` that uses division.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for doc comment
+
+.. glossary-entry:: doc comment
+   
+   :glossary:
+     :dp:`fls_wkc1w2xk7ebh`
+     A :dt:`doc comment` is a :t:`comment` class that includes
+     :t:`[inner block doc]s`, :t:`[inner line doc]s`, :t:`[outer block doc]s`,
+     and :t:`[outer line doc]s`.
+   :chapter:
+     :dp:`fls_7n6d3jx61ose`
+     A :t:`doc comment` is a :t:`comment` class that includes :t:`[inner block
+     doc]s`, :t:`[inner line doc]s`, :t:`[outer block doc]s`, and :t:`[outer line
+     doc]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for drop construct
+
+.. glossary-entry:: drop construct
+   
+   :glossary:
+     :dp:`fls_odg2asgj28m`
+     A :dt:`drop construct` is a :t:`construct` that employs a :t:`drop scope`.
+   :chapter:
+     :dp:`fls_txvxrn6wbyql`
+     A :t:`drop construct` is a :t:`construct` that employs a :t:`drop scope`. The
+     following :t:`[construct]s` are :t:`[drop construct]s`:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for drop scope
+
+.. glossary-entry:: drop scope
+   
+   :glossary:
+     :dp:`fls_6bu8x0g9q0er`
+     A :dt:`drop scope` is a region of program text that governs the :t:`dropping`
+     of :t:`[value]s`.
+   :chapter:
+     :dp:`fls_7uav7vkcv4pz`
+     A :t:`drop scope` is a region of program text that governs the :t:`dropping` of
+     :t:`[value]s`. When control flow leaves a :t:`drop scope`, all :t:`[value]s`
+     associated with that :t:`drop scope` are :t:`dropped` based on a
+     :t:`drop order`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for drop scope extension
+
+.. glossary-entry:: drop scope extension
+   
+   :glossary:
+     :dp:`fls_pmdh8kkrwkd0`
+     :dt:`Drop scope extension` is the process of extending a :t:`drop scope`
+     associated with a :t:`temporary` to prevent the premature :t:`dropping` of the
+     :t:`temporary`.
+   :chapter:
+     :dp:`fls_kflqez2mtbit`
+     :t:`Drop scope extension` is the process of extending a :t:`drop scope`
+     associated with a :t:`temporary` to prevent the premature :t:`dropping` of the
+     :t:`temporary`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for drop type
+
+.. glossary-entry:: drop type
+   
+   :glossary:
+     :dp:`fls_ot3e31kwixil`
+     A :dt:`drop type` is a :t:`type` that implements the :std:`core::ops::Drop`
+     :t:`trait` or contains a :t:`field` that has a :t:`destructor`.
+   :chapter:
+     :dp:`fls_9m0gszdle0qb`
+     A :t:`drop type` is a :t:`type` that implements the :std:`core::ops::Drop`
+     :t:`trait` or contains a :t:`field` that has a :t:`drop type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for drop order
+
+.. glossary-entry:: drop order
+   
+   :glossary:
+     :dp:`fls_qddkiabu6swt`
+     :dt:`Drop order` is the order by which :t:`[value]s` are :t:`dropped` when a
+     :t:`drop scope` is left.
+   :chapter:
+     :dp:`fls_n6o1xzjiz8cv`
+     :t:`Drop order` is the order by which :t:`[value]s` are :t:`dropped` when a
+     :t:`drop scope` is left.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for division assignment
+
+.. glossary-entry:: division assignment
+   
+   :glossary:
+     :dp:`fls_kvQskrzE1y97`
+     For :dt:`division assignment`, see :t:`division assignment expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for discriminant initializer
+
+.. glossary-entry:: discriminant initializer
+   
+   :glossary:
+     :dp:`fls_o7hihgcqmnyc`
+     A :dt:`discriminant initializer` provides the :t:`value` of a :t:`discriminant`.
+     
+     :dp:`fls_g5obc23vigng`
+     See :s:`DiscriminantInitializer`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries using checklist
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output file
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow git status short
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/inline-assembly.rst
+ M src/lexical-elements.rst
+ M src/macros.rst
+ M src/ownership-and-deconstruction.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 470dac5..1ebd37f 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -1268,10 +1268,16 @@ A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+      A :t:`dereference type` is either a :t:`reference type` or a :t:`type` that
+      implements the :std:`core::ops::Deref` :t:`trait`.
+ 
+-:dp:`fls_4hulwazdu20i`
+-A :t:`dereference type chain` is a sequence of :t:`[dereference type]s`. A
+-:t:`dereference type chain` starts with an initial :t:`dereference type`. From
+-then on, the :t:`dereference type chain` continues as follows:
++.. glossary-entry:: dereference type chain
++   
++   :glossary:
++     :dp:`fls_kIzoAEf069HE`
++     A :dt:`dereference type chain` is a sequence of :t:`[dereference type]s`.
++   :chapter:
++     :dp:`fls_4hulwazdu20i`
++     A :t:`dereference type chain` is a sequence of :t:`[dereference type]s`. A
++     :t:`dereference type chain` starts with an initial :t:`dereference type`. From
++     then on, the :t:`dereference type chain` continues as follows:
+ 
+ * :dp:`fls_ptocwx5p25lj`
+   If the previous :t:`dereference type` is a :t:`reference type`, then the
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 3e77804..ba9a2f9 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -381,9 +381,16 @@ Diverging Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_oth9vFtcb9l4`
+-A :t:`diverging expression` is an :t:`expression` whose :t:`evaluation` causes
+-program flow to diverge from the normal :t:`evaluation` order.
++.. glossary-entry:: diverging expression
++   
++   :glossary:
++     :dp:`fls_fLlNzmB34cj9`
++     A :dt:`diverging expression` is an :t:`expression` whose :t:`evaluation` causes
++     program flow to diverge from the normal :t:`evaluation` order.
++   :chapter:
++     :dp:`fls_oth9vFtcb9l4`
++     A :t:`diverging expression` is an :t:`expression` whose :t:`evaluation` causes
++     program flow to diverge from the normal :t:`evaluation` order.
+ 
+ :dp:`fls_cmBVodJMjZi7`
+ :t:`[Diverging expression]s` are:
+@@ -1534,8 +1541,17 @@ The :t:`type` of an :t:`addition expression` is :t:`associated type`
+ The :t:`value` of an :t:`addition expression` is the result of
+ ``core::ops::Add::add(left_operand, right_operand)``.
+ 
+-:dp:`fls_dstca76y08ge`
+-A :t:`division expression` is an :t:`arithmetic expression` that uses division.
++.. glossary-entry:: division expression
++   
++   :glossary:
++     :dp:`fls_du05yp205f4y`
++     A :dt:`division expression` is an :t:`arithmetic expression` that uses division.
++     
++     :dp:`fls_d3vwk4autyd`
++     See :s:`DivisionExpression`.
++   :chapter:
++     :dp:`fls_dstca76y08ge`
++     A :t:`division expression` is an :t:`arithmetic expression` that uses division.
+ 
+ :dp:`fls_f1puss9t4btz`
+ The :t:`type` of the :t:`left operand` of a :t:`division expression` shall
+@@ -2623,10 +2639,18 @@ Destructuring Assignment
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_2eheo4yo2orm`
+-A :t:`destructuring assignment` is an :t:`assignment expression` where
+-the :t:`assignee operand` is either an :t:`array expression`, a :t:`struct
+-expression`, a :t:`tuple expression` or a :t:`tuple struct call expression`.
++.. glossary-entry:: destructuring assignment
++   
++   :glossary:
++     :dp:`fls_7jienn9uzn5k`
++     A :dt:`destructuring assignment` is an :t:`assignment expression` where
++     the :t:`assignee operand` is either an :t:`array expression`, a
++     :t:`struct expression`, or a :t:`tuple expression`.
++   :chapter:
++     :dp:`fls_2eheo4yo2orm`
++     A :t:`destructuring assignment` is an :t:`assignment expression` where
++     the :t:`assignee operand` is either an :t:`array expression`, a :t:`struct
++     expression`, a :t:`tuple expression` or a :t:`tuple struct call expression`.
+ 
+ :dp:`fls_z8c3b9s9de3x`
+ The :t:`assignee operand` of a :t:`destructuring assignment` is treated as an
+@@ -2871,9 +2895,25 @@ Compound Assignment Expressions
+      A :t:`bit xor assignment expression` is a :t:`compound assignment expression`
+      that uses bit exclusive or arithmetic.
+ 
+-:dp:`fls_pkzj0uigfcgm`
+-A :t:`division assignment expression` is a :t:`compound assignment expression`
+-that uses division.
++.. glossary-entry:: division assignment
++   
++   :glossary:
++     :dp:`fls_kvQskrzE1y97`
++     For :dt:`division assignment`, see :t:`division assignment expression`.
++
++.. glossary-entry:: division assignment expression
++   
++   :glossary:
++     :dp:`fls_lzuz5fkveikk`
++     A :dt:`division assignment expression` is a :t:`compound assignment expression`
++     that uses division.
++     
++     :dp:`fls_cdxt76aqwtkq`
++     See :s:`DivisionAssignmentExpression`.
++   :chapter:
++     :dp:`fls_pkzj0uigfcgm`
++     A :t:`division assignment expression` is a :t:`compound assignment expression`
++     that uses division.
+ 
+ :dp:`fls_ndlv3k9uclz2`
+ A :t:`multiplication assignment expression` is a
+diff --git a/src/inline-assembly.rst b/src/inline-assembly.rst
+index 369be45..f146d6e 100644
+--- a/src/inline-assembly.rst
++++ b/src/inline-assembly.rst
+@@ -679,10 +679,21 @@ A :t:`register class argument` is a :t:`register argument` that uses a
+ A :t:`register class argument` causes an assembler to select a suitable
+ :t:`register` from the related :t:`register class`.
+ 
+-:dp:`fls_5a3vfresnv5z`
+-A :t:`direction modifier` is a :t:`construct` that indicates whether a
+-:t:`register argument` initializes a :t:`register`, assigns the :t:`value` of a
+-:t:`register` to an :t:`expression`, or both.
++.. glossary-entry:: direction modifier
++   
++   :glossary:
++     :dp:`fls_8DY7xPVX4nXx`
++     A :dt:`direction modifier` is a :t:`construct` that indicates whether a
++     :t:`register argument` initializes a :t:`register`, assigns the :t:`value` of a
++     :t:`register` to an :t:`expression`, or both.
++     
++     :dp:`fls_lRKEzY3fQ3B2`
++     See :s:`DirectionModifier`.
++   :chapter:
++     :dp:`fls_5a3vfresnv5z`
++     A :t:`direction modifier` is a :t:`construct` that indicates whether a
++     :t:`register argument` initializes a :t:`register`, assigns the :t:`value` of a
++     :t:`register` to an :t:`expression`, or both.
+ 
+ :dp:`fls_fta1gb5tzi3a`
+ An :t:`input register expression` is an :t:`expression` that provides the
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 4115dc7..4557d5d 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -1449,10 +1449,18 @@ An :t:`outer line doc` is a :t:`line comment` that applies to a subsequent
+ An :t:`outer doc comment` is either an :t:`outer block doc` or an
+ :t:`outer line doc`.
+ 
+-:dp:`fls_7n6d3jx61ose`
+-A :t:`doc comment` is a :t:`comment` class that includes :t:`[inner block
+-doc]s`, :t:`[inner line doc]s`, :t:`[outer block doc]s`, and :t:`[outer line
+-doc]s`.
++.. glossary-entry:: doc comment
++   
++   :glossary:
++     :dp:`fls_wkc1w2xk7ebh`
++     A :dt:`doc comment` is a :t:`comment` class that includes
++     :t:`[inner block doc]s`, :t:`[inner line doc]s`, :t:`[outer block doc]s`,
++     and :t:`[outer line doc]s`.
++   :chapter:
++     :dp:`fls_7n6d3jx61ose`
++     A :t:`doc comment` is a :t:`comment` class that includes :t:`[inner block
++     doc]s`, :t:`[inner line doc]s`, :t:`[outer block doc]s`, and :t:`[outer line
++     doc]s`.
+ 
+ :dp:`fls_6fxcs17n4kw`
+ Character 0x0D (carriage return) shall not appear in a :t:`comment`.
+diff --git a/src/macros.rst b/src/macros.rst
+index ac2b6cc..40100d0 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -393,10 +393,18 @@ Derive Macros
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_e5x92q2rq8a0`
+-A :t:`derive macro` is a :t:`procedural macro` that consumes a stream of
+-:t:`[token]s` and produces a stream of :t:`[token]s`. :t:`[Derive macro]s` are
+-used to construct new syntax for :t:`[abstract data type]s`.
++.. glossary-entry:: derive macro
++   
++   :glossary:
++     :dp:`fls_jrrjhl9hocrm`
++     A :dt:`derive macro` is a :t:`procedural macro` that consumes a stream of
++     :t:`[token]s` and produces a stream of tokens, and is invoked via attribute
++     :c:`derive`.
++   :chapter:
++     :dp:`fls_e5x92q2rq8a0`
++     A :t:`derive macro` is a :t:`procedural macro` that consumes a stream of
++     :t:`[token]s` and produces a stream of :t:`[token]s`. :t:`[Derive macro]s` are
++     used to construct new syntax for :t:`[abstract data type]s`.
+ 
+ :dp:`fls_ldw75sy5uj7p`
+ The :t:`macro implementation function` of a :t:`derive macro` shall be subject
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index ccdd8aa..857d05f 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -375,9 +375,16 @@ Destruction
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_e7ucq87s806d`
+-:t:`Destruction` is the process of recovering resources associated with a
+-:t:`value` as it goes out of scope.
++.. glossary-entry:: destruction
++   
++   :glossary:
++     :dp:`fls_58i2nfhxze3j`
++     :dt:`Destruction` is the process of recovering resources associated with a
++     :t:`value` as it goes out of scope.
++   :chapter:
++     :dp:`fls_e7ucq87s806d`
++     :t:`Destruction` is the process of recovering resources associated with a
++     :t:`value` as it goes out of scope.
+ 
+ .. _fls_u2mzjgiwbkz0:
+ 
+@@ -386,13 +393,27 @@ Destructors
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_9m0gszdle0qb`
+-A :t:`drop type` is a :t:`type` that implements the :std:`core::ops::Drop`
+-:t:`trait` or contains a :t:`field` that has a :t:`drop type`.
++.. glossary-entry:: drop type
++   
++   :glossary:
++     :dp:`fls_ot3e31kwixil`
++     A :dt:`drop type` is a :t:`type` that implements the :std:`core::ops::Drop`
++     :t:`trait` or contains a :t:`field` that has a :t:`destructor`.
++   :chapter:
++     :dp:`fls_9m0gszdle0qb`
++     A :t:`drop type` is a :t:`type` that implements the :std:`core::ops::Drop`
++     :t:`trait` or contains a :t:`field` that has a :t:`drop type`.
+ 
+-:dp:`fls_4nkzidytpi6`
+-A :t:`destructor` is a :t:`function` that is invoked immediately before the
+-:t:`destruction` of a :t:`value` of a :t:`drop type`.
++.. glossary-entry:: destructor
++   
++   :glossary:
++     :dp:`fls_79pp7o1xooja`
++     A :dt:`destructor` is a :t:`function` that is invoked immediately before the
++     :t:`destruction` of a :t:`value` of a :t:`drop type`.
++   :chapter:
++     :dp:`fls_4nkzidytpi6`
++     A :t:`destructor` is a :t:`function` that is invoked immediately before the
++     :t:`destruction` of a :t:`value` of a :t:`drop type`.
+ 
+ :dp:`fls_wzuwapjqtyyy`
+ :t:`Dropping` a :t:`value` is the act of invoking the :t:`destructor` of the
+@@ -477,15 +498,28 @@ Drop Scopes
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_7uav7vkcv4pz`
+-A :t:`drop scope` is a region of program text that governs the :t:`dropping` of
+-:t:`[value]s`. When control flow leaves a :t:`drop scope`, all :t:`[value]s`
+-associated with that :t:`drop scope` are :t:`dropped` based on a
+-:t:`drop order`.
++.. glossary-entry:: drop scope
++   
++   :glossary:
++     :dp:`fls_6bu8x0g9q0er`
++     A :dt:`drop scope` is a region of program text that governs the :t:`dropping`
++     of :t:`[value]s`.
++   :chapter:
++     :dp:`fls_7uav7vkcv4pz`
++     A :t:`drop scope` is a region of program text that governs the :t:`dropping` of
++     :t:`[value]s`. When control flow leaves a :t:`drop scope`, all :t:`[value]s`
++     associated with that :t:`drop scope` are :t:`dropped` based on a
++     :t:`drop order`.
+ 
+-:dp:`fls_txvxrn6wbyql`
+-A :t:`drop construct` is a :t:`construct` that employs a :t:`drop scope`. The
+-following :t:`[construct]s` are :t:`[drop construct]s`:
++.. glossary-entry:: drop construct
++   
++   :glossary:
++     :dp:`fls_odg2asgj28m`
++     A :dt:`drop construct` is a :t:`construct` that employs a :t:`drop scope`.
++   :chapter:
++     :dp:`fls_txvxrn6wbyql`
++     A :t:`drop construct` is a :t:`construct` that employs a :t:`drop scope`. The
++     following :t:`[construct]s` are :t:`[drop construct]s`:
+ 
+ * :dp:`fls_n6y6brm6pghr`
+   :t:`[Expression]s`,
+@@ -608,10 +642,18 @@ Drop Scope Extension
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_kflqez2mtbit`
+-:t:`Drop scope extension` is the process of extending a :t:`drop scope`
+-associated with a :t:`temporary` to prevent the premature :t:`dropping` of the
+-:t:`temporary`.
++.. glossary-entry:: drop scope extension
++   
++   :glossary:
++     :dp:`fls_pmdh8kkrwkd0`
++     :dt:`Drop scope extension` is the process of extending a :t:`drop scope`
++     associated with a :t:`temporary` to prevent the premature :t:`dropping` of the
++     :t:`temporary`.
++   :chapter:
++     :dp:`fls_kflqez2mtbit`
++     :t:`Drop scope extension` is the process of extending a :t:`drop scope`
++     associated with a :t:`temporary` to prevent the premature :t:`dropping` of the
++     :t:`temporary`.
+ 
+ :dp:`fls_xjw82bujm148`
+ An :dt:`extending pattern` is either
+@@ -706,9 +748,16 @@ Drop Order
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_n6o1xzjiz8cv`
+-:t:`Drop order` is the order by which :t:`[value]s` are :t:`dropped` when a
+-:t:`drop scope` is left.
++.. glossary-entry:: drop order
++   
++   :glossary:
++     :dp:`fls_qddkiabu6swt`
++     :dt:`Drop order` is the order by which :t:`[value]s` are :t:`dropped` when a
++     :t:`drop scope` is left.
++   :chapter:
++     :dp:`fls_n6o1xzjiz8cv`
++     :t:`Drop order` is the order by which :t:`[value]s` are :t:`dropped` when a
++     :t:`drop scope` is left.
+ 
+ :dp:`fls_jwofws3022ar`
+ When a :t:`drop scope` is left, all :t:`[value]s` associated with that
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 51b1d98..4e977d5 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -684,8 +684,23 @@ possible variations of an :t:`enum`.
+ The :t:`name` of an :t:`enum variant` shall be unique within the related
+ :s:`EnumDeclaration`.
+ 
+-:dp:`fls_t4yeovFm83Wo`
+-A :t:`discriminant` is an opaque integer that identifies an :t:`enum variant`.
++.. glossary-entry:: discriminant
++   
++   :glossary:
++     :dp:`fls_dfegy9y6awx`
++     A :dt:`discriminant` is an opaque integer that identifies an :t:`enum variant`.
++   :chapter:
++     :dp:`fls_t4yeovFm83Wo`
++     A :t:`discriminant` is an opaque integer that identifies an :t:`enum variant`.
++
++.. glossary-entry:: discriminant initializer
++   
++   :glossary:
++     :dp:`fls_o7hihgcqmnyc`
++     A :dt:`discriminant initializer` provides the :t:`value` of a :t:`discriminant`.
++     
++     :dp:`fls_g5obc23vigng`
++     See :s:`DiscriminantInitializer`.
+ 
+ :dp:`fls_hp5frc752dam`
+ A :t:`discriminant initializer` shall be specified only when all :t:`[enum
+@@ -1666,10 +1681,16 @@ The :t:`size` and :t:`alignment` of an :t:`enum type` without :t:`[field]s`
+ subject to :t:`C representation`, :t:`default representation`, or
+ :t:`primitive representation` are those of its :t:`discriminant`.
+ 
+-:dp:`fls_s9c0a0lg6c0p`
+-The :t:`discriminant type` of an :t:`enum type` with :t:`C representation` is
+-the corresponding :t:`c signed int type` for the target platform's :t:`C`
+-:t:`ABI`.
++.. glossary-entry:: discriminant type
++   
++   :glossary:
++     :dp:`fls_t4yeovFm83Wo`
++     A :dt:`discriminant type` is the :t:`type` of a :t:`discriminant`.
++   :chapter:
++     :dp:`fls_s9c0a0lg6c0p`
++     The :t:`discriminant type` of an :t:`enum type` with :t:`C representation` is
++     the corresponding :t:`c signed int type` for the target platform's :t:`C`
++     :t:`ABI`.
+ 
+ .. glossary-entry:: C signed int type
+    
+@@ -2431,9 +2452,16 @@ An :t:`integer type variable` is a :t:`type variable` that can refer only to
+ A :t:`floating-point type variable` is a :t:`type variable` that can refer only
+ to :t:`[floating-point type]s`.
+ 
+-:dp:`fls_bXQ63GYYDuMp`
+-A :t:`diverging type variable` is a :t:`type variable` that can refer to any
+-:t:`type` and originates from a :t:`diverging expression`.
++.. glossary-entry:: diverging type variable
++   
++   :glossary:
++     :dp:`fls_sxyL7yOp3H9s`
++     A :dt:`diverging type variable` is a :t:`type variable` that can refer to any
++     :t:`type` and originates from a :t:`diverging expression`.
++   :chapter:
++     :dp:`fls_bXQ63GYYDuMp`
++     A :t:`diverging type variable` is a :t:`type variable` that can refer to any
++     :t:`type` and originates from a :t:`diverging expression`.
+ 
+ :dp:`fls_JryXiKBIFvF3`
+ A :dt:`lifetime variable` is a placeholder used during :t:`type inference` to
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+441f3fd docs(glossary): migrate batch 08 entries
+
+[91m[1m| [0m[90m Bash     [0mStage glossary changes, commit, show status
+
+[glossary-single-source-phase1 869af9c] docs(glossary): migrate phase 2 batch for glossary parity
+ 7 files changed, 211 insertions(+), 61 deletions(-)
+
+Migrated the next 20 glossary terms into `.. glossary-entry::` blocks across the relevant chapters, keeping chapter text intact and adding glossary-only entries where no chapter definition exists. Updated the term map and checklist under `$OPENCODE_CONFIG_DIR` (not staged or committed), and verified the generated glossary and HTML diffs stayed clean.
+
+**Changes**
+- Replaced chapter definitions with glossary-entry directives in `src/entities-and-resolution.rst`, `src/expressions.rst`, `src/inline-assembly.rst`, `src/lexical-elements.rst`, `src/macros.rst`, `src/ownership-and-deconstruction.rst`, `src/types-and-traits.rst`.
+- Inserted glossary-only directives for `discriminant initializer` and `division assignment`.
+- Updated checklist at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md` and term map via the helper script.
+
+**Verification**
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (no output)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (no differences)
+
+**Commit**
+- `docs(glossary): migrate phase 2 batch for glossary parity` (869af9c)
+
+Next steps if you want:
+1) `git push` the commit.
+2) Continue with the next batch of 20 unchecked terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

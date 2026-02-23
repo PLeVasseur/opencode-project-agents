@@ -1,0 +1,16 @@
+{
+  "wave": "WB",
+  "commit_hash": "4033caf781e53b582d3349e6983694e5c9e371bb",
+  "term_count": 2,
+  "checklist_ids": [
+    "WB-069",
+    "WB-086"
+  ],
+  "terms": [
+    "label",
+    "qualified type"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 2
+  }
+}

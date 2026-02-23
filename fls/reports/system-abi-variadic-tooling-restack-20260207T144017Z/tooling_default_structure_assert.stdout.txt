@@ -1,0 +1,4 @@
+headers: ['Added paragraphs', 'Changed paragraphs']
+legacy_headers: []
+added: 2 removed: 0 changed: 2
+status: pass

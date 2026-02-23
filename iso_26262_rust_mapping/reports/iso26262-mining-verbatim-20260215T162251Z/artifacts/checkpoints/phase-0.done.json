@@ -1,0 +1,10 @@
+{
+  "canonical_checksum": "ffa93d7bb7c566a6b0b97fcd8da02c60f439573e4bae5cbe7c248fd04e692761",
+  "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-0.done.json",
+  "commit_sha": "20623fb0e4fe1f4070923cf189bea7f3ba45bb28",
+  "commit_subject": "feat(trace-miner): add data-plane verbatim page prewarm cache writers",
+  "phase": 0,
+  "phase_code": "C14",
+  "run_id": "20260215T162251Z",
+  "timestamp_utc": "2026-02-15T16:27:22Z"
+}

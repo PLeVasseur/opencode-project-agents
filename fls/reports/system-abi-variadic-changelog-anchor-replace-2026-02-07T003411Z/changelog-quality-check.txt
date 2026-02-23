@@ -1,0 +1,12 @@
+entry_found=True
+entry_start_line=128
+entry_end_line=176
+release_section_heading=Language changes in Rust 1.93.0
+release_section_start_line=22
+release_section_end_line=173
+entry_in_release_section=True
+change_tags_present=True
+paragraph_reference_check_pass=True
+missing_paragraph_refs=none
+section_reference_check_pass=True
+missing_section_refs=none

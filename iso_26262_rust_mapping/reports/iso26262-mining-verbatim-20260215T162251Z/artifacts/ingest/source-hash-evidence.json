@@ -1,0 +1,14 @@
+{
+  "hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "required_parts": [
+    "P06",
+    "P08",
+    "P09"
+  ],
+  "run_id": "20260215T162251Z",
+  "timestamp_utc": "2026-02-15T16:44:40Z"
+}

@@ -1,0 +1,9 @@
+{
+  "policy": {
+    "contamination_suppression_timing": "pre_commit",
+    "cross_type_provenance_limit": "strict",
+    "per_type_selector_isolation": true
+  },
+  "run_id": "pr1-20260216T044125Z",
+  "timestamp_utc": "2026-02-16T04:41:34Z"
+}

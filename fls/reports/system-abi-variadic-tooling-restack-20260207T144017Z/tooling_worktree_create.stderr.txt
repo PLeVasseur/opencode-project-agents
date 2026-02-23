@@ -1,0 +1,1 @@
+Preparing worktree (new branch 'changelog-assistant-paragraph-buckets-inline-tags-on-dedupe-20260207T144017Z')

@@ -1,0 +1,1753 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[91m[1m| [0m[90m Bash     [0mSearch for next 20 terms in src
+
+src/statements.rst:50:     :dp:`fls_e5jbii84hd5g`
+src/types-and-traits.rst:480:     - :c:`i8`
+src/types-and-traits.rst:484:     - :c:`i16`
+src/types-and-traits.rst:488:     - :c:`i32`
+src/types-and-traits.rst:574:   let array: [i32; 3] = [1, 2, 3];
+src/types-and-traits.rst:607:   let array: [i32; 3] = [1, 2, 3];
+src/types-and-traits.rst:608:   let slice: &[i32] = &array[0..1];
+src/types-and-traits.rst:675:   (i32, f64, Vec<String>)
+src/types-and-traits.rst:1001:       int: i32,
+src/types-and-traits.rst:1201:   unsafe extern "C" fn (value: i32, ...) -> f64
+src/types-and-traits.rst:1297:   &i16
+src/types-and-traits.rst:1499:to be substituted by :t:`generic substitution`.
+src/types-and-traits.rst:1669:     - :c:`u8`, :c:`i8`
+src/types-and-traits.rst:1672:     - :c:`u16`, :c:`i16`
+src/types-and-traits.rst:1675:     - :c:`u32`, :c:`i32`
+src/types-and-traits.rst:2042:   If either :t:`type` is a :t:`global type variable`, the
+src/types-and-traits.rst:2043:   :t:`global type variable` is assigned the :t:`type` of the other unification
+src/types-and-traits.rst:2117:  The corresponding :t:`[generic substitution]s` are unifiable.
+src/types-and-traits.rst:2126:  The corresponding :t:`[generic substitution]s` are unifiable.
+src/types-and-traits.rst:2136:  The corresponding :t:`[generic substitution]s` are unifiable.
+src/types-and-traits.rst:2605:A :t:`global type variable` is a :t:`type variable` that can refer to any
+src/types-and-traits.rst:2679:   unifying them with :c:`i32`.
+src/types-and-traits.rst:2691:   If there are any remaining :t:`[global type variable]s` that have not been
+src/types-and-traits.rst:3222:     set of possible :t:`[generic substitution]s`.
+src/types-and-traits.rst:3229:     set of possible :t:`[generic substitution]s`.
+src/types-and-traits.rst:3248:A :t:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
+src/types-and-traits.rst:3327:   &'a i32
+src/types-and-traits.rst:3347::t:`generic type` is a :t:`subtype` of an instantiation of itself with
+src/types-and-traits.rst:3693::dp:`fls_xi86he5vvill`
+src/types-and-traits.rst:3805:    impl Trait<&u8, Strukt<'_>> for &i32 {}
+src/types-and-traits.rst:3812:    impl<'a, 'b, 'c> Trait<&'a u8, Strukt<'b>> for &'c i32 {}
+src/patterns.rst:122:``x`` is an :t:`irrefutable pattern` because it matches all possible values of type ``i32``.
+src/patterns.rst:430:   	pub const ZERO: i32 = 0;
+src/patterns.rst:493:A :t:`half-open range pattern` is a :t:`range pattern` with only a
+src/patterns.rst:530:A :t:`half-open range pattern` shall appear within a :t:`parenthesized pattern`
+src/patterns.rst:714::dp:`fls_qqiu594hki8g`
+src/patterns.rst:931::dp:`fls_8bi8q3usubby`
+src/patterns.rst:1240:.. _fls_qssijtofa9i8:
+src/patterns.rst:1299::dp:`fls_dqe75i8h2fie`
+src/patterns.rst:1499:   If the :t:`range pattern` is expressed as a :t:`half-open range pattern` and
+src/generics.rst:99:A :t:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+src/generics.rst:102:A :t:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
+src/generics.rst:105:A :t:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+src/generics.rst:108:A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+src/generics.rst:167:A :t:`generic struct` shall use all of its :t:`[type parameter]s` and
+src/generics.rst:171:A :t:`generic union` shall use all of its :t:`[type parameter]s` and
+src/generics.rst:356:the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
+src/licenses.rst:136::dp:`fls_s32i8ovj5nqu`
+src/attributes.rst:127::dp:`fls_n3737i320qum`
+src/attributes.rst:685:   * - :dp:`fls_tkayqh7li81o`
+src/attributes.rst:1398::dp:`fls_d00wni4edi8f`
+src/attributes.rst:1621:       $$i8$$
+src/attributes.rst:1622:     | $$i16$$
+src/attributes.rst:1623:     | $$i32$$
+src/attributes.rst:1655:       first_field: i16,
+src/attributes.rst:1656:       second_field: i8
+src/attributes.rst:1785::t:`[generic substitution]s` for :t:`[type parameter]s` when constructing a
+src/macros.rst:23:* :dp:`fls_a5uemz2hnbi8`
+src/macros.rst:151::dp:`fls_g93r3teei8wo`
+src/macros.rst:491:     :dp:`fls_l3epi1dqpi8o`
+src/macros.rst:799:#. :dp:`fls_mpgh22bi8caz`
+src/macros.rst:992::dp:`fls_y21i8062mft0`
+src/macros.rst:1128:  .. glossary-entry:: definition site hygiene
+src/macros.rst:1132:       :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+src/macros.rst:1134:       :t:`definition site hygiene` cannot reference the environment of the
+src/macros.rst:1136:       :s:`MacroInvocation`, and are considered :t:`hygienic`.
+src/macros.rst:1139:         :t:`Definition site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+src/macros.rst:1140:         site. :t:`[Identifier]s` with :t:`definition site hygiene` cannot reference
+src/macros.rst:1142:         environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
+src/macros.rst:1145:  .. glossary-entry:: call site hygiene
+src/macros.rst:1149:       :dt:`Call site hygiene` is a type of :t:`hygiene` which resolves to the
+src/macros.rst:1150:       :s:`MacroInvocation` site. :t:`[Identifier]s` with :t:`call site hygiene` can
+src/macros.rst:1152:       environment of the :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+src/macros.rst:1155:         :t:`Call site hygiene`, which resolves to a :s:`MacroInvocation` site.
+src/macros.rst:1156:         :t:`[Identifier]s` with :t:`call site hygiene` can reference the environment
+src/macros.rst:1158:         :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+src/macros.rst:1161:  :t:`Mixed site hygiene`, which resolves to a :s:`MacroRulesDeclaration`
+src/macros.rst:1164:  considered :dt:`partially hygienic`.
+src/macros.rst:1167:Every :t:`macro` has associated :t:`hygiene` that depends on its kind:
+src/macros.rst:1170:  :t:`[Declarative macro]s` have :t:`mixed site hygiene`.
+src/macros.rst:1173:  :t:`[Procedural macro]s` have :t:`call site hygiene` and
+src/macros.rst:1174:  :t:`mixed site hygiene` depending on the implementation of the
+src/ownership-and-deconstruction.rst:39::dp:`fls_wnhci8phdu4m`
+src/ownership-and-deconstruction.rst:63:   let a: i32 = 42;
+src/ownership-and-deconstruction.rst:71:   let b: i32;
+src/ownership-and-deconstruction.rst:147:   let immutable_reference: &i32 = &42;
+src/ownership-and-deconstruction.rst:148:   let mutable_reference: &mut i32 = &mut 42;
+src/ownership-and-deconstruction.rst:239::dp:`fls_f9we73i8vwq3`
+src/ownership-and-deconstruction.rst:351:Type ``i32`` is a copy type. By the end of the second let statement, ``x`` is
+src/ownership-and-deconstruction.rst:356:   let x: i32 = 42;
+src/ownership-and-deconstruction.rst:357:   let y: i32 = x;
+src/associated-items.rst:290:       const MAX_GREETINGS: i32;
+src/associated-items.rst:296:       delivered_greetings: i32
+src/associated-items.rst:300:       const MAX_GREETINGS: i32 = 42;
+src/inline-assembly.rst:765:     - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:770:     - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:780:     - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`
+src/inline-assembly.rst:785:     - :c:`i32`, :c:`f32`
+src/inline-assembly.rst:805:     - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`
+src/inline-assembly.rst:810:     - :c:`i8`, :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:815:     - :c:`i8`, :c:`i16`
+src/inline-assembly.rst:820:     - :c:`i32`, :c:`i64`
+src/inline-assembly.rst:830:     - :c:`i8`
+src/inline-assembly.rst:845:     - :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:850:     - :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:855:     - :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:860:     - :c:`i16`, :c:`i32`, :c:`f32`
+src/inline-assembly.rst:865:     - :c:`i16`, :c:`i32`, :c:`f32`, :c:`i64`, :c:`f64`
+src/inline-assembly.rst:973:   let mut left_value: i32 = 1;
+src/inline-assembly.rst:974:   let right_value: i32 = 2;
+src/inline-assembly.rst:1140:   * - :dp:`fls_d0e2weni8q87`
+src/inline-assembly.rst:1265:   let mut left_value: i32 = 1;
+src/inline-assembly.rst:1266:   let right_value: i32 = 2;
+src/inline-assembly.rst:1322:#. :dp:`fls_i7dr87fyrei8`
+src/inline-assembly.rst:1340:#. :dp:`fls_8ci8ukk25nz3`
+src/entities-and-resolution.rst:344:A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+src/entities-and-resolution.rst:360::t:`path` shall be the :t:`simple path prefix` of a :t:`glob import` or a
+src/entities-and-resolution.rst:556:A :t:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
+src/entities-and-resolution.rst:775::t:`generic parameter scope` and a :t:`Self scope` into the
+src/entities-and-resolution.rst:780::t:`generic parameter scope` into the :t:`scope hierarchy`.
+src/entities-and-resolution.rst:784::t:`generic parameter scope` into the :t:`scope hierarchy`.
+src/entities-and-resolution.rst:792::t:`generic parameter scope` and a :t:`Self scope` into the
+src/entities-and-resolution.rst:817::t:`generic parameter scope` and a :t:`Self scope` into the
+src/entities-and-resolution.rst:821:The :t:`declaration` of a :t:`trait` introduces a :t:`generic parameter scope`
+src/entities-and-resolution.rst:825:A :t:`trait bound` introduces a :t:`generic parameter scope` into the
+src/entities-and-resolution.rst:830::t:`generic parameter scope`.
+src/entities-and-resolution.rst:833:A :t:`type bound predicate` introduces a :t:`generic parameter scope` into the
+src/entities-and-resolution.rst:838::t:`generic parameter scope` and a :t:`Self scope` into the
+src/entities-and-resolution.rst:1015:  :t:`[Integer type]s` :c:`i8`, :c:`i16`, :c:`i32`, :c:`i64`, :c:`i128`,
+src/entities-and-resolution.rst:1066:A :t:`simple path prefix` is the leading :t:`simple path` of a :t:`glob import`
+src/entities-and-resolution.rst:1072::t:`simple import` or :t:`glob import` is constructed as follows:
+src/entities-and-resolution.rst:1083:     If the :t:`use import` is a :t:`glob import` then start with the
+src/entities-and-resolution.rst:1084:     :t:`[path segment]s` of the :t:`glob import`'s :t:`simple path prefix`.
+src/entities-and-resolution.rst:1102:A :t:`glob import` is a :t:`use import` that brings all :t:`entities <entity>`
+src/entities-and-resolution.rst:1110:A :t:`glob import` brings :t:`[name]s` into :t:`scope` as follows:
+src/entities-and-resolution.rst:1115:  :t:`glob import` into :t:`scope`.
+src/entities-and-resolution.rst:1160:A :t:`glob import` outside of a :t:`nesting import` without a :t:`simple path
+src/entities-and-resolution.rst:1175:It is a static error if two :t:`[glob import]s` import the same :t:`name` in the
+src/entities-and-resolution.rst:1180:If two :t:`[glob import]s` import the same :t:`entity` under the same :t:`name`,
+src/entities-and-resolution.rst:1186:The following is a glob import. See :p:`fls_jdknpu3kf865`
+src/entities-and-resolution.rst:1452::dp:`fls_bb4cbmvui8fk`
+src/entities-and-resolution.rst:1647:    If the :t:`path` is a :t:`global path`, then try to find a
+src/lexical-elements.rst:372:   * - :dp:`fls_7fosi8l2ktz2`
+src/lexical-elements.rst:835::dp:`fls_gLrei65i8Uzq`
+src/lexical-elements.rst:932:       $$i8$$
+src/lexical-elements.rst:933:     | $$i16$$
+src/lexical-elements.rst:934:     | $$i32$$
+src/lexical-elements.rst:977:A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
+src/lexical-elements.rst:998:  Suffix ``i8`` specifies type :c:`i8`.
+src/lexical-elements.rst:1001:  Suffix ``i16`` specifies type :c:`i16`.
+src/lexical-elements.rst:1004:  Suffix ``i32`` specifies type :c:`i32`.
+src/lexical-elements.rst:1043:  type` is :c:`i32`.
+src/lexical-elements.rst:1426:     :dp:`fls_pi32rhfqghma`
+src/lexical-elements.rst:1510::dp:`fls_nWtKuPi8Fw6v`
+src/glossary.static.rst.inc:100::dp:`fls_5bgx5dyi817x`
+src/glossary.static.rst.inc:953:set of possible :t:`[generic substitution]s`.
+src/glossary.static.rst.inc:1127:call site hygiene
+src/glossary.static.rst.inc:1131::dt:`Call site hygiene` is a type of :t:`hygiene` which resolves to the
+src/glossary.static.rst.inc:1132::s:`MacroInvocation` site. :t:`[Identifier]s` with :t:`call site hygiene` can
+src/glossary.static.rst.inc:1134:environment of the :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+src/glossary.static.rst.inc:1284::dp:`fls_pi32rhfqghma`
+src/glossary.static.rst.inc:1684:definition site hygiene
+src/glossary.static.rst.inc:1688::dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+src/glossary.static.rst.inc:1690::t:`definition site hygiene` cannot reference the environment of the
+src/glossary.static.rst.inc:1692::s:`MacroInvocation`, and are considered :t:`hygienic`.
+src/glossary.static.rst.inc:2069:.. _fls_kz7tgpi8xkt4:
+src/glossary.static.rst.inc:2136::dp:`fls_e5jbii84hd5g`
+src/glossary.static.rst.inc:2678:.. _fls_3tj3i83eoi36:
+src/glossary.static.rst.inc:2718:generic parameter scope
+src/glossary.static.rst.inc:2722:A :dt:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
+src/glossary.static.rst.inc:2726:generic struct
+src/glossary.static.rst.inc:2730:A :dt:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+src/glossary.static.rst.inc:2734:generic substitution
+src/glossary.static.rst.inc:2738:A :dt:`generic substitution` is the replacement of a :t:`generic parameter`
+src/glossary.static.rst.inc:2743:generic trait
+src/glossary.static.rst.inc:2747:A :dt:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
+src/glossary.static.rst.inc:2751:generic type
+src/glossary.static.rst.inc:2755:A :dt:`generic type` is a :t:`type` with a :t:`generic parameter`.
+src/glossary.static.rst.inc:2759:generic type alias
+src/glossary.static.rst.inc:2763:A :dt:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+src/glossary.static.rst.inc:2767:generic union
+src/glossary.static.rst.inc:2771:A :dt:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+src/glossary.static.rst.inc:2775:glob import
+src/glossary.static.rst.inc:2779:A :dt:`glob import` is a :t:`use import` that brings all :t:`[name]s` with
+src/glossary.static.rst.inc:2787:global path
+src/glossary.static.rst.inc:2791:A :dt:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+src/glossary.static.rst.inc:2796:global type variable
+src/glossary.static.rst.inc:2800:A :dt:`global type variable` is a :t:`type variable` that can refer to any
+src/glossary.static.rst.inc:2805:greater-than expression
+src/glossary.static.rst.inc:2809:A :dt:`greater-than expression` is a :t:`comparison expression` that tests for
+src/glossary.static.rst.inc:2817:greater-than-or-equals expression
+src/glossary.static.rst.inc:2821:A :dt:`greater-than-or-equals expression` is a :t:`comparison expression` that
+src/glossary.static.rst.inc:2829:half-open range pattern
+src/glossary.static.rst.inc:2833:A :dt:`half-open range pattern` is a :t:`range pattern` with only a
+src/glossary.static.rst.inc:2841:hexadecimal literal
+src/glossary.static.rst.inc:2844::dp:`fls_8b6njsi8g68i`
+src/glossary.static.rst.inc:2845:A :dt:`hexadecimal literal` is an :t:`integer literal` in base 16.
+src/glossary.static.rst.inc:2852:higher-ranked trait bound
+src/glossary.static.rst.inc:2856:A :dt:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
+src/glossary.static.rst.inc:2864:hygiene
+src/glossary.static.rst.inc:2874:hygienic
+src/glossary.static.rst.inc:2878:An :t:`identifier` is :dt:`hygienic` when it has :t:`definition site hygiene`.
+src/glossary.static.rst.inc:2882:i8
+src/glossary.static.rst.inc:2886::dc:`i8` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+src/glossary.static.rst.inc:2891:i16
+src/glossary.static.rst.inc:2895::dc:`i16` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+src/glossary.static.rst.inc:2900:i32
+src/glossary.static.rst.inc:2904::dc:`i32` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+src/glossary.static.rst.inc:3985::dp:`fls_bt16qi8g2js5`
+src/glossary.static.rst.inc:4257:mixed site hygiene
+src/glossary.static.rst.inc:4261::dt:`Mixed site hygiene` is a type of :t:`hygiene` which resolves to the
+src/glossary.static.rst.inc:4264:and is considered :t:`partially hygienic`.
+src/glossary.static.rst.inc:4294::dp:`fls_ri37ez31gai8`
+src/glossary.static.rst.inc:4895:partially hygienic
+src/glossary.static.rst.inc:4899:An :t:`identifier` is :dt:`partially hygienic` when it has
+src/glossary.static.rst.inc:4900::t:`mixed site hygiene`.
+src/glossary.static.rst.inc:5222::dp:`fls_S0QT9ib38i8E`
+src/glossary.static.rst.inc:5433:.. _fls_uv4dyt4gi32x:
+src/glossary.static.rst.inc:5905:.. _fls_fki32ns69q4j:
+src/glossary.static.rst.inc:6212::t:`glob import` or a :t:`nesting import`.
+src/glossary.static.rst.inc:6385::dp:`fls_6jjbfni87tax`
+src/glossary.static.rst.inc:6846:the :t:`[generic parameter]s` or :t:`[higher-ranked trait bound]s` of the related
+src/glossary.static.rst.inc:7110:to be substituted by :t:`generic substitution`.
+src/glossary.static.rst.inc:7195::dp:`fls_pw90erui8vkk`
+src/glossary.static.rst.inc:7267:unhygienic
+src/glossary.static.rst.inc:7271:An :t:`identifier` is :dt:`unhygienic` when it has :t:`call site hygiene`.
+src/glossary.static.rst.inc:7324:.. _fls_71xvazpwi8p0:
+src/glossary.static.rst.inc:7713::t:`generic type` is a :t:`subtype` of an instantiation of itself with
+src/concurrency.rst:109:     - :c:`i8`
+src/concurrency.rst:112:     - :c:`i16`
+src/concurrency.rst:115:     - :c:`i32`
+src/expressions.rst:712::dp:`fls_5ifai8nkp5ek`
+src/expressions.rst:720:   Vec::<i32>::push
+src/expressions.rst:1378:   fn try_to_parse() -> Result<i32, ParseIntError> {
+src/expressions.rst:1382:   fn try_some() -> Option<i32> {
+src/expressions.rst:1579:     :dp:`fls_5bgx5dyi817x`
+src/expressions.rst:1785:#. :dp:`fls_ad9tc6ki8vcq`
+src/expressions.rst:2144:A :t:`greater-than expression` is a :t:`comparison expression` that tests for a
+src/expressions.rst:2148:The :t:`type` of the :t:`left operand` of a :t:`greater-than expression` shall
+src/expressions.rst:2153:The :t:`value` of a :t:`greater-than expression` is the result of
+src/expressions.rst:2157:A :t:`greater-than-or-equals expression` is a :t:`comparison expression` that
+src/expressions.rst:2162::t:`greater-than-or-equals expression` shall implement the
+src/expressions.rst:2167:The :t:`value` of a :t:`greater-than-or-equals expression` is the result of
+src/expressions.rst:2224:The :t:`evaluation` of a :t:`greater-than expression` proceeds as follows:
+src/expressions.rst:2236:The :t:`evaluation` of a :t:`greater-than-or-equals expression` proceeds as
+src/expressions.rst:2466:* :dp:`fls_i8txki3htx92`
+src/expressions.rst:2502::dp:`fls_syk2li8ft3rx`
+src/expressions.rst:2590:.. _fls_y4by2i8dl05o:
+src/expressions.rst:3442::dp:`fls_u9sl7h4i8hqu`
+src/expressions.rst:3553:   ("hello", 42i16, true)
+src/expressions.rst:3746:  * :dp:`fls_mq80i8fof7sx`
+src/expressions.rst:4002:   let three: i32 = add(1, 2);
+src/expressions.rst:4244:   ("hello", 42i16, true).1
+src/expressions.rst:4397:   fn do_ten_times<F>(consumer: F) where F: Fn(i32) {
+src/expressions.rst:4403:   do_ten_times(|value: i32| { println!("value: {}", value)});
+src/expressions.rst:5008::dp:`fls_bi82rusji8g0`
+src/expressions.rst:5471:   fn quantify(number_of_things: i32) {
+src/expressions.rst:5542:   fn max(left: i32, right: i32) -> i32 {
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[91m[1m| [0m[90m Bash     [0mFind generic substitution in types-and-traits
+
+1499:to be substituted by :t:`generic substitution`.
+2117:  The corresponding :t:`[generic substitution]s` are unifiable.
+2126:  The corresponding :t:`[generic substitution]s` are unifiable.
+2136:  The corresponding :t:`[generic substitution]s` are unifiable.
+3222:     set of possible :t:`[generic substitution]s`.
+3229:     set of possible :t:`[generic substitution]s`.
+
+[91m[1m| [0m[90m Bash     [0mSearch for generic substitution definition
+
+/bin/bash: line 1: generic: command not found
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:50:A :t:`type` defines a set of :t:`[value]s` and a set of operations that act on
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:54:A :t:`local type` is a :t:`type` that is defined in the current :t:`crate`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:591:A :t:`slice type` is a :t:`sequence type` that provides a view into a sequence
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:598:A :t:`slice type` is a :t:`dynamically sized type`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:625:A :t:`value` of :t:`type` :c:`str` shall denote a valid UTF-8 sequence of
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:655:A :t:`tuple type` is a :t:`sequence type` that represents a heterogeneous list
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:737:A :t:`zero-variant enum type` has no :t:`[value]s`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:783:     A :t:`discriminant` is an opaque integer that identifies an :t:`enum variant`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:795:A :t:`discriminant initializer` shall be specified only when all :t:`[enum
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:915:A :t:`struct type` is an :t:`abstract data type` that is a product of other
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:965:A :t:`union type` is an :t:`abstract data type` that is a sum of other
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:969:A :t:`union` without any :t:`[union field]s` is rejected, but may still be consumed by
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:980:  A :t:`copy type`, or
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:983:  A :t:`mutable reference type`, or
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:989:  A :t:`tuple type` whose :t:`[tuple field]s`' :t:`[type]s` are all valid
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1033:     A :t:`closure type` is a unique anonymous :t:`function type` that encapsulates
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1037:A :t:`closure type` implements the :std:`core::ops::FnOnce` :t:`trait`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1040:A :t:`closure type` that does not move out its :t:`[capture target]s`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1044:A :t:`closure type` that does not move out or mutate its :t:`[capture target]s`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1048:A :t:`closure type` that does not encapsulate :t:`[capture target]s` is
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1052:A :t:`closure type` implicitly implements the :std:`core::marker::Copy`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1057:A :t:`closure type` implicitly implements the :std:`core::clone::Clone`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1062:A :t:`closure type` implicitly implements the :std:`core::marker::Send`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1067:A :t:`closure type` implicitly implements the :std:`core::marker::Sync`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1086:     A :t:`function item type` is a unique anonymous :t:`function type` that
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1105:A :t:`function item type` is coercible to a :t:`function pointer type`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1108:A :t:`function item type` implements the :std:`core::clone::Clone` :t:`trait`,
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1168:     A :t:`function pointer type` is an :t:`indirection type` that refers to a
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1176:A :t:`variadic part` indicates the presence of :t:`C`-like optional
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1180:A :t:`variadic part` can only be used in a :t:`variadic function`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1218:A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1221:A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1258:A :t:`reference type` is an :t:`indirection type` with :t:`ownership`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1261:A :t:`shared reference type` is a :t:`reference type` not subject to
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1265:A :t:`shared reference type` prevents the direct mutation of a referenced
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1269:A :t:`shared reference type` implements the :std:`core::marker::Copy`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1276:A :t:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1280:A :t:`mutable reference type` allows the direct mutation of a referenced
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1284:A :t:`mutable reference type` does not implement the :std:`copy::marker::Copy`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1408:A :t:`trait object type` is a :t:`type` that implements a :t:`trait`, where the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1421:A :t:`trait object type` shall not contain :t:`[opt-out trait bound]s`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1424:A :t:`trait object type` shall contain at most one :t:`lifetime bound`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1427:A :t:`trait object type` is a :t:`dynamically sized type`. A
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1428::t:`trait object type` permits late binding of :t:`[method]s`. A :t:`method`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1498:A :t:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1554:A :t:`parenthesized type` is a :t:`type` that disambiguates the interpretation
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1582:A :t:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1585:A :t:`type alias` shall not have a :s:`TypeBoundList` unless it is an
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1648:     and always a power of two. A :t:`value` of :t:`alignment` ``N`` is stored at an
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1826::t:`[representation modifier]s`. A :t:`representation modifier` shall apply only
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1952:A :t:`struct type` subject to :t:`transparent representation` shall have:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1961:A :t:`struct type` subject to :t:`transparent representation` has the same
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:1995:A :t:`recursive type` is a :t:`type` whose contained :t:`[type]s` refer back to
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2000:A :t:`type` that is not an :t:`abstract data type` shall not be recursive.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2025:A :t:`type` is said to :t:`unify` with another :t:`type` when the domains,
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2079:A :t:`scalar type` is unifiable only with itself.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2094:A :t:`slice type` is unifiable only with another :t:`slice type` when the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2101:A :t:`tuple type` is unifiable only with another :t:`tuple type` when:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2120:A :t:`closure type` is unifiable only with another :t:`closure type` when:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2129:A :t:`function item type` is unifiable only with another :t:`function item type`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2139:A :t:`function pointer type` is unifiable only with another
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2165:A :t:`raw pointer type` is unifiable only with another :t:`raw pointer type`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2175:A :t:`reference type` is unifiable only with another :t:`reference type` when:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2197:A :t:`trait object type` is unifiable only with another :t:`trait object type`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2207:A :t:`type alias` is unifiable with another :t:`type` when the aliased :t:`type`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2223:A :t:`type coercion` takes place at a :t:`coercion site` or within a
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2234:  A :t:`constant` declaration.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2237:  A :t:`field` of an :t:`abstract data type`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2240:  A :t:`function` result.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2243:  A :t:`let statement` with an explicit :t:`type specification`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2246:  A :t:`static` declaration.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2438:A :t:`type` is :t:`structurally equal` when its :t:`[value]s` can be compared
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2476:A :t:`type` is subject to :t:`interior mutability` when it contains a
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2490:A :t:`visible empty type` is a :t:`type` subject to :t:`visible emptiness`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2493:A :t:`visible empty enum variant` is an :t:`enum variant` subject to :t:`visible emptiness`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2496:A :t:`type` is subject to :t:`visible emptiness` as follows:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2517:A :t:`enum variant` is subject to :t:`visible emptiness` when the :t:`type` of at least one of the :t:`enum variant`'s :t:`visible <visibility>` :t:`[field]s` is subject to :t:`visible emptiness`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2531:A :t:`type inference root` is an :t:`expression` whose inner :t:`[expression]s`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2539:  A :t:`constant argument`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2557:  A :t:`function body`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2563:A :t:`type inference root` imposes an :dt:`expected type` on its :t:`expression`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2601:A :t:`type variable` is a placeholder used during :t:`type inference` to stand
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2605:A :t:`global type variable` is a :t:`type variable` that can refer to any
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2620:     A :t:`floating-point type variable` is a :t:`type variable` that can refer only
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2631:     A :t:`diverging type variable` is a :t:`type variable` that can refer to any
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2777:  A :t:`match expression` is inferred as follows:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2793:  A :t:`for loop expression` is inferred by unifying the :t:`type` of its
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2799:  A :t:`while let loop expression` is inferred by unifying the :t:`type` of its
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2810:  A :t:`negation expression` is inferred as follows:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2835:  A :t:`bit expression` or :t:`arithmetic expression` is inferred as follows:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2896:  A :t:`compound assignment expression` is inferred as follows:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2948:  A :t:`comparison expression` is inferred by introducing an :t:`obligation`
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:2958:  A :t:`closure expression` is inferred by deducing its signature from the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3013:A :t:`trait` is an :t:`item` that describes an interface a :t:`type` can
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3023:A :t:`trait body` is a :t:`construct` that encapsulates the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3032:A :t:`local trait` is a :t:`trait` that is defined in the current :t:`crate`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3035:A :t:`subtrait` is a :t:`trait` with a :t:`supertrait`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3038:A :t:`supertrait` is a transitive :t:`trait` that a :t:`type` must additionally
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3042:A :t:`subtrait` shall not be its own :t:`supertrait`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3045:A :t:`trait` of the form
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3072:A :t:`type` that has no :t:`[field]s` implements all :t:`[auto trait]s`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3135:A :t:`trait` is :t:`object safe` when:
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3176:A :t:`function` is :t:`object safe` when it specifies a
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3228:     A :t:`bound` imposes a constraint on a :t:`generic parameter` by limiting the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3232:A :t:`bound` does not impose a constraint on a :t:`generic parameter` of a
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3236:A :t:`lifetime bound` is a :t:`bound` that imposes a constraint on the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3240:A :t:`trait bound` is a :t:`bound` that imposes a constraint on the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3248:A :t:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3274:A :t:`reference` of the form ``&'a T``, where ``'a`` is a
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3318:A :t:`lifetime` specifies the expected longevity of a :t:`value`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3321:A :t:`lifetime bound` shall apply to :t:`[type]s` and other :t:`[lifetime]s`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3351:A :t:`type` is its own :t:`subtype`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3426:A :t:`trait` is :t:`invariant` in all inputs, including the :c:`Self` parameter.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3500:  A :t:`type cast expression` requires that the :t:`type` of its :t:`operand` is
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3504:  A :t:`call expression` or :t:`method call expression` requires that the
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3509:  A :t:`return expression` requires that the :t:`type` of its :t:`operand` is
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3514:  A :t:`break expression` requires that its :t:`break type` is a :t:`subtype` of
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3539:A :t:`lifetime` may be elided either implicitly or explicitly.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3542:A :t:`lifetime` is elided explicitly if it is the ``'_`` :t:`lifetime`.
+/home/pete.levasseur/project/fls/src/types-and-traits.rst:3545:A :t:`lifetime` is elided implicitly if it is absent.
+/home/pete.levasseur/project/fls/src/statements.rst:42:A :t:`macro statement` is a :t:`statement` expressed as a
+/home/pete.levasseur/project/fls/src/statements.rst:85:A :t:`let statement` is a :t:`statement` that introduces new :t:`[binding]s`
+/home/pete.levasseur/project/fls/src/statements.rst:90:A :t:`let initializer` is a :t:`construct` that provides the :t:`value` of
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:38:A :t:`source file` contains the program text consisting of :t:`[inner
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:73:A :t:`module` is a container for zero or more :t:`[item]s`.
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:120:     A :t:`crate` is a unit of compilation and linking that contains a tree of
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:140:A :t:`crate` may be subject to multiple :t:`[crate type]s`, treating each type
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:150:     A :t:`binary crate` is a :t:`crate` whose :t:`crate type` is ``bin``.
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:153:A :t:`binary crate` that is not subject to :t:`attribute` ``no_main`` shall have
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:163:A :t:`library crate` is a :t:`crate` whose :t:`crate type` is ``lib``, ``rlib``,
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:167:A :t:`proc-macro crate` is a :t:`crate` whose :t:`crate type` is ``proc-macro``.
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:170:A :t:`proc-macro crate` shall not declare :t:`[item]s` in its :t:`crate root
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:205:     A :t:`crate import` specifies a required dependency on an external :t:`crate`.
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:217:     A :t:`crate indication` is a :t:`construct` that indicates a :t:`crate`.
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:220:A :t:`crate import` binds an external :t:`crate` to its :t:`crate indication`.
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:226:A :t:`crate import` with a :t:`renaming` with an :t:`identifier` binds the
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:235:A :t:`crate indication` shall resolve to an external :t:`crate`. The process of
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:259:     A :t:`crate root module` is the root of the nested :t:`module` tree of a
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:272:     A :t:`compilation root` is an input to a compilation performed by a tool. A
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:292:A :t:`construct` subject to :t:`attribute` :c:`cfg` where the related
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:297:A :t:`crate root module` subject to :t:`attribute` :c:`cfg` where the related
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:314:A :t:`program entry point` is a :t:`function` that is invoked at the start of
+/home/pete.levasseur/project/fls/src/program-structure-and-compilation.rst:318:A :t:`main function signature` is a :t:`function signature` subject to the
+/home/pete.levasseur/project/fls/src/patterns.rst:41:A :t:`pattern` is a :t:`construct` that matches a :t:`value` which satisfies all
+/home/pete.levasseur/project/fls/src/patterns.rst:48:A :t:`pattern-without-alternation` is a :t:`pattern` that cannot be alternated.
+/home/pete.levasseur/project/fls/src/patterns.rst:51:A :t:`pattern-without-range` is a :t:`pattern-without-alternation` that
+/home/pete.levasseur/project/fls/src/patterns.rst:55:A :t:`subpattern` is a :t:`pattern` nested within another pattern.
+/home/pete.levasseur/project/fls/src/patterns.rst:58:A :t:`pattern` has a :t:`type`, with the exception of the :t:`rest pattern` if
+/home/pete.levasseur/project/fls/src/patterns.rst:105:A :t:`refutable pattern` is a :t:`pattern` that has a possibility of not
+/home/pete.levasseur/project/fls/src/patterns.rst:109:A :t:`pattern` that is not an :t:`irrefutable pattern` is a
+/home/pete.levasseur/project/fls/src/patterns.rst:117:A :t:`refutable constant` is a :t:`constant` of a :t:`refutable type`.
+/home/pete.levasseur/project/fls/src/patterns.rst:168:     A :t:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
+/home/pete.levasseur/project/fls/src/patterns.rst:285:A :t:`literal pattern` is a :t:`pattern` that matches a :t:`literal`.
+/home/pete.levasseur/project/fls/src/patterns.rst:288:A :t:`numeric literal pattern` is a :t:`pattern` that matches a :t:`numeric
+/home/pete.levasseur/project/fls/src/patterns.rst:292:A :t:`numeric literal pattern`'s :t:`numeric literal` value shall not be a IEEE
+/home/pete.levasseur/project/fls/src/patterns.rst:328:A :t:`parenthesized pattern` is a :t:`pattern` that controls the precedence of
+/home/pete.levasseur/project/fls/src/patterns.rst:332:A :t:`parenthesized pattern` is an :t:`irrefutable pattern` when its nested
+/home/pete.levasseur/project/fls/src/patterns.rst:375:A :t:`path pattern` is a :t:`pattern` that matches a :t:`constant`, a
+/home/pete.levasseur/project/fls/src/patterns.rst:379:A :t:`path pattern` expressed as a :t:`path expression` shall refer to either
+/home/pete.levasseur/project/fls/src/patterns.rst:405:A :t:`path pattern` expressed as a :t:`qualified path expression` shall refer
+/home/pete.levasseur/project/fls/src/patterns.rst:409:A :t:`path pattern` is an :t:`irrefutable pattern` when it refers to:
+/home/pete.levasseur/project/fls/src/patterns.rst:418:  A :t:`struct` where the :t:`[type]s` of all :t:`[field]s` are
+/home/pete.levasseur/project/fls/src/patterns.rst:489:A :t:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
+/home/pete.levasseur/project/fls/src/patterns.rst:493:A :t:`half-open range pattern` is a :t:`range pattern` with only a
+/home/pete.levasseur/project/fls/src/patterns.rst:519:A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
+/home/pete.levasseur/project/fls/src/patterns.rst:522:A :t:`range pattern low bound` is a :t:`range pattern bound` that specifies the
+/home/pete.levasseur/project/fls/src/patterns.rst:526:A :t:`range pattern high bound` is a :t:`range pattern bound` that specifies the
+/home/pete.levasseur/project/fls/src/patterns.rst:530:A :t:`half-open range pattern` shall appear within a :t:`parenthesized pattern`
+/home/pete.levasseur/project/fls/src/patterns.rst:545:A :t:`range pattern` is an :t:`irrefutable pattern` only when it spans the
+/home/pete.levasseur/project/fls/src/patterns.rst:565:A :t:`path expression` of a :t:`range pattern` shall refer to a :t:`constant`
+/home/pete.levasseur/project/fls/src/patterns.rst:569:A :t:`qualified path expression` of a :t:`range pattern` shall refer to an
+/home/pete.levasseur/project/fls/src/patterns.rst:601:A :t:`reference pattern` is a :t:`pattern` that dereferences a :t:`pointer` that
+/home/pete.levasseur/project/fls/src/patterns.rst:605:A :t:`reference pattern` is an :t:`irrefutable pattern` when its nested :t:`pattern` itself is an :t:`irrefutable pattern`.
+/home/pete.levasseur/project/fls/src/patterns.rst:650:A :t:`rest pattern` is a :t:`pattern` that matches zero or more elements that
+/home/pete.levasseur/project/fls/src/patterns.rst:654:A :t:`rest pattern` shall appear at most once within a :t:`slice pattern`, an
+/home/pete.levasseur/project/fls/src/patterns.rst:659:A :t:`rest pattern` is an :t:`irrefutable pattern`.
+/home/pete.levasseur/project/fls/src/patterns.rst:715:A :t:`slice pattern` is a :t:`pattern` that matches :t:`[array]s` of fixed size
+/home/pete.levasseur/project/fls/src/patterns.rst:719:A :t:`slice pattern` is an :t:`irrefutable pattern` when it refers to:
+/home/pete.levasseur/project/fls/src/patterns.rst:725:  A :t:`slice`, where the :s:`PatternList` consists of a single
+/home/pete.levasseur/project/fls/src/patterns.rst:767:A :t:`struct pattern` is a :t:`pattern` that matches an :t:`enum value`, a
+/home/pete.levasseur/project/fls/src/patterns.rst:781:     A :t:`deconstructee` indicates the :t:`enum variant` or :t:`type` that is being
+/home/pete.levasseur/project/fls/src/patterns.rst:785:A :t:`struct pattern` is interpreted based on the :t:`deconstructee`. It is a
+/home/pete.levasseur/project/fls/src/patterns.rst:789:A :t:`struct pattern` is an :t:`irrefutable pattern` if
+/home/pete.levasseur/project/fls/src/patterns.rst:798:    A :t:`struct type` or a :t:`union type`, or
+/home/pete.levasseur/project/fls/src/patterns.rst:847:A :t:`record struct pattern` is a :t:`pattern` that matches a
+/home/pete.levasseur/project/fls/src/patterns.rst:869:A :t:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
+/home/pete.levasseur/project/fls/src/patterns.rst:873:A :t:`named deconstructor` matches a :t:`field` of the :t:`deconstructee` when
+/home/pete.levasseur/project/fls/src/patterns.rst:882:A :t:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
+/home/pete.levasseur/project/fls/src/patterns.rst:887:A :t:`shorthand deconstructor` with :t:`keyword` ``mut`` yields a
+/home/pete.levasseur/project/fls/src/patterns.rst:896:A :t:`shorthand deconstructor` is equivalent to a :t:`named deconstructor` where
+/home/pete.levasseur/project/fls/src/patterns.rst:902:A :t:`shorthand deconstructor` matches a :t:`field` of the :t:`deconstructee`
+/home/pete.levasseur/project/fls/src/patterns.rst:1059:A :t:`tuple struct pattern` is a :t:`pattern` that matches a
+/home/pete.levasseur/project/fls/src/patterns.rst:1067:A :t:`subpattern` of a :t:`tuple struct pattern` matches a :t:`field` of the
+/home/pete.levasseur/project/fls/src/patterns.rst:1141:A :t:`tuple pattern` is a :t:`pattern` that matches a :t:`tuple` which satisfies
+/home/pete.levasseur/project/fls/src/patterns.rst:1145:A :t:`tuple pattern` is an :t:`irrefutable pattern` when all of its
+/home/pete.levasseur/project/fls/src/patterns.rst:1153:A :t:`subpattern` of a :t:`tuple pattern` matches a :t:`tuple field` of the
+/home/pete.levasseur/project/fls/src/patterns.rst:1269:     A :t:`binding pattern` is either an :t:`identifier pattern` or a
+/home/pete.levasseur/project/fls/src/patterns.rst:1283:     A :t:`binding` of a :t:`binding pattern` binds a matched :t:`value` to a
+/home/pete.levasseur/project/fls/src/patterns.rst:1287:A :t:`binding` with :t:`binding mode` :dt:`by value` binds the matched
+/home/pete.levasseur/project/fls/src/patterns.rst:1292:A :t:`binding` with :t:`binding mode` :dt:`by reference` binds an
+/home/pete.levasseur/project/fls/src/patterns.rst:1296:A :t:`binding` with :t:`binding mode` :dt:`by mutable reference` binds a
+/home/pete.levasseur/project/fls/src/patterns.rst:1300:A :t:`non-reference pattern` is any :t:`pattern` except
+/home/pete.levasseur/project/fls/src/patterns.rst:1332:A :t:`[binding pattern]s` binds its :t:`binding` to a matched :t:`value` as
+/home/pete.levasseur/project/fls/src/attributes.rst:201:     A :t:`built-in attribute` is a language-defined :t:`attribute`.
+/home/pete.levasseur/project/fls/src/attributes.rst:985:     A :t:`configuration predicate` is a :t:`construct` that evaluates statically
+/home/pete.levasseur/project/fls/src/attributes.rst:1026:A :t:`not configuration predicate` is a :t:`configuration predicate` that
+/home/pete.levasseur/project/fls/src/attributes.rst:1030:A :t:`not configuration predicate` evaluates statically to ``true`` when its
+/home/pete.levasseur/project/fls/src/attributes.rst:2227:A :t:`crate` graph shall contain exactly one :t:`function` subject to
+/home/pete.levasseur/project/fls/src/attributes.rst:2382:A :t:`testing function` that returns the :t:`unit type` passes when it
+/home/pete.levasseur/project/fls/src/attributes.rst:2386:A :t:`testing function` that returns ``core::result::Result<(), E>`` passes when
+/home/pete.levasseur/project/fls/src/attributes.rst:2390:A :t:`testing function` that does not terminate shall pass and fail according to
+/home/pete.levasseur/project/fls/src/attributes.rst:2430::t:`[enum variant]s` added in the future. A :t:`type` subject to :t:`attribute`
+/home/pete.levasseur/project/fls/src/attributes.rst:2434:A :t:`non-exhaustive type` shall not be constructed outside of its defining
+/home/pete.levasseur/project/fls/src/attributes.rst:2442:A :t:`non-exhaustive variant` shall not be constructed outside of its defining
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:37:A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:47:     A :t:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:172:A :t:`visibility modifier` sets the :t:`visibility` of a :t:`name`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:185:     A :t:`crate public modifier` is a :t:`visibility modifier` that grants a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:189:A :t:`self public modifier` is a :t:`visibility modifier` that grants a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:190::t:`name` :t:`private visibility`. A :t:`self public modifier` is equivalent
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:195:A :t:`simple path public modifier` is a :t:`visibility modifier` that grants a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:209:A :t:`simple public modifier` is a :t:`visibility modifier` that grants a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:213:A :t:`super public modifier` is a :t:`visibility modifier` that grants a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:319:A :t:`path` is a sequence of :t:`[path segment]s` logically separated by
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:323:A :t:`path segment` is an element of a :t:`path`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:326:A :t:`path` is subject to :t:`path resolution`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:334:A :t:`path` that starts with a :t:`path segment` that is expressed as
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:344:A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:348:A :t:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:370:A :t:`simple path` is subject to :t:`simple path resolution`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:373:A :t:`single segment path` is a :t:`path` consisting of exactly one
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:377:A :t:`multi segment path` is a :t:`path` consisting of more than one
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:384:A :t:`path expression` is subject to :t:`path expression resolution`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:387:A :t:`type path` is a :t:`path` that acts as a :t:`type specification`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:390:A :t:`type path` is subject to :t:`type path resolution`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:393:A :t:`qualifying trait` is a :t:`trait` that imposes a restriction on a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:397:A :t:`qualifying trait` shall resolve to a :t:`trait`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:400:A :t:`qualified type` is a :t:`type` that is restricted to a set of
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:405:A :t:`qualified type` shall resolve to a :t:`type`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:408:A :t:`qualified type` shall implement its related :t:`qualifying trait`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:411:A :t:`qualified path expression` is a :t:`path expression` that resolves
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:415:A :t:`qualified type path` is a :t:`type path` that resolves through a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:500:A :t:`scope` is a region of program text where an :t:`entity` can be referred
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:517:     A :t:`binding scope` is a :t:`scope` for :t:`[binding]s`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:545:A :t:`binding` declared outside of a :t:`const block expression` is not :t:`in
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:556:A :t:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:559:A :t:`generic parameter` is :t:`in scope` of a :s:`GenericParameterList`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:562:A :t:`generic parameter` of an :t:`enum type` is :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:566:A :t:`generic parameter` of a :t:`function pointer type` is :t:`in scope`
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:570:A :t:`generic parameter` of an :t:`implementation` is :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:574:A :t:`generic parameter` of a :t:`struct type` is :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:578:A :t:`generic parameter` of a :t:`trait` is :t:`in scope` within the related
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:582:A :t:`generic parameter` of a :t:`trait bound` is :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:586:A :t:`generic parameter` of a :t:`type alias` is :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:590:A :t:`generic parameter` of a :t:`type bound predicate` is :t:`in scope` within
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:594:A :t:`generic parameter` of a :t:`union type` is :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:598:A :t:`generic parameter` is not :t:`in scope` within nested :t:`[item]s`,
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:629:A :t:`label scope` is a :t:`scope` for :t:`[label]s`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:632:A :t:`label` is :t:`in scope` within the :t:`block expression` of the related
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:636:A :t:`label` is not :t:`in scope` within nested :t:`[async block]s`,
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:647:A :t:`Self scope` is a :t:`scope` for :c:`Self`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:680:A :t:`textual macro scope` is a :t:`scope` for :t:`[declarative macro]s`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:683:A :t:`declarative macro` is :t:`in scope` after the related :t:`macro`
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:766:A :t:`closure expression` introduces a :t:`binding scope` into the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:770:A :t:`declarative macro` introduces a :t:`textual macro scope` into the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:796:A :t:`let statement` introduces a :t:`binding scope` into the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:800:A :t:`for loop expression` or a :t:`while let loop expression` introduces a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:808:A :t:`match arm` introduces a :t:`binding scope` into the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:825:A :t:`trait bound` introduces a :t:`generic parameter scope` into the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:833:A :t:`type bound predicate` introduces a :t:`generic parameter scope` into the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:849:A :t:`namespace` is a logical grouping of :t:`[name]s` such that the occurrence
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:981:A :t:`prelude` is a collection of :t:`entities <entity>` that are automatically
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1061:A :t:`use import` brings :t:`entities <entity>` :t:`in scope` within the
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1066:A :t:`simple path prefix` is the leading :t:`simple path` of a :t:`glob import`
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1097:A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1102:A :t:`glob import` is a :t:`use import` that brings all :t:`entities <entity>`
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1110:A :t:`glob import` brings :t:`[name]s` into :t:`scope` as follows:
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1127:A :t:`simple import` brings :t:`[name]s` into :t:`scope` as follows:
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1151:A :t:`trait` imported by a :t:`simple import` subject to a
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1156:A :t:`nesting import` is a :t:`use import` that provides a common
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1160:A :t:`glob import` outside of a :t:`nesting import` without a :t:`simple path
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1164:A :t:`simple import` with a :t:`simple path` with a single :t:`path segment` of
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1222::t:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1225:A :t:`name` cannot be referred to by any means once it is :t:`shadowed`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1240:A :t:`prelude name` shadows other :t:`[prelude name]s` depending on which
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1272:A :t:`construct` that is being resolved is said to be :t:`under resolution`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1282:     A :t:`dereference type` is either a :t:`reference type` or a :t:`type` that
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1292:     A :t:`dereference type chain` is a sequence of :t:`[dereference type]s`. A
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1386:A :t:`field access expression` shall resolve to exactly one :t:`field`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1515:A :t:`method call expression` shall resolve to exactly one :t:`method`.
+/home/pete.levasseur/project/fls/src/entities-and-resolution.rst:1572:A :t:`path segment` shall resolve to exactly one :t:`entity`.
+/home/pete.levasseur/project/fls/src/generics.rst:61:     A :t:`generic parameter` is a placeholder for a :t:`constant`, a :t:`lifetime`,
+/home/pete.levasseur/project/fls/src/generics.rst:76:     A :t:`generic enum` is an :t:`enum` with :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/generics.rst:85:     A :t:`generic function` is a :t:`function` with :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/generics.rst:95:     A :t:`generic implementation` is an :t:`implementation` with
+/home/pete.levasseur/project/fls/src/generics.rst:99:A :t:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/generics.rst:102:A :t:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/generics.rst:105:A :t:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/generics.rst:108:A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+/home/pete.levasseur/project/fls/src/generics.rst:120:     A :t:`constant parameter` is a :t:`generic parameter` for a :t:`constant`.
+/home/pete.levasseur/project/fls/src/generics.rst:133:     A :t:`constant parameter initializer` is a :t:`construct` that provides the
+/home/pete.levasseur/project/fls/src/generics.rst:137:A :t:`constant parameter initializer` shall be a :t:`constant expression`.
+/home/pete.levasseur/project/fls/src/generics.rst:144:A :t:`lifetime parameter` is a :t:`generic parameter` for a :t:`lifetime`.
+/home/pete.levasseur/project/fls/src/generics.rst:147:A :t:`lifetime parameter` shall not be used within a :t:`constant context`,
+/home/pete.levasseur/project/fls/src/generics.rst:151:A :t:`type parameter` is a :t:`generic parameter` for a :t:`type`.
+/home/pete.levasseur/project/fls/src/generics.rst:154:A :t:`type parameter initializer` is a :t:`construct` that provides the
+/home/pete.levasseur/project/fls/src/generics.rst:162:A :t:`generic enum` shall use all of its :t:`[type parameter]s` and
+/home/pete.levasseur/project/fls/src/generics.rst:167:A :t:`generic struct` shall use all of its :t:`[type parameter]s` and
+/home/pete.levasseur/project/fls/src/generics.rst:171:A :t:`generic union` shall use all of its :t:`[type parameter]s` and
+/home/pete.levasseur/project/fls/src/generics.rst:178:     A :t:`generic parameter` is said to :dt:`constrain` an :t:`implementation` if
+/home/pete.levasseur/project/fls/src/generics.rst:182:     A :t:`generic parameter` is said to constrain an :t:`implementation` if the
+/home/pete.levasseur/project/fls/src/generics.rst:209:A :t:`constant parameter` shall be used in the following contexts:
+/home/pete.levasseur/project/fls/src/generics.rst:243:A :t:`type parameter` has an implicit :std:`core::marker::Sized` :t:`bound`,
+/home/pete.levasseur/project/fls/src/generics.rst:248:A :t:`type parameter` of an :t:`abstract data type` has implicit
+/home/pete.levasseur/project/fls/src/generics.rst:264:A :t:`type parameter` of a :t:`function` has implicit :t:`[lifetime bound]s`
+/home/pete.levasseur/project/fls/src/generics.rst:280:A :t:`generic parameter` with a :t:`bound` of the form
+/home/pete.levasseur/project/fls/src/generics.rst:334:A :t:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+/home/pete.levasseur/project/fls/src/generics.rst:339:A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+/home/pete.levasseur/project/fls/src/generics.rst:343:A :t:`lifetime bound predicate` is a :t:`construct` that specifies
+/home/pete.levasseur/project/fls/src/generics.rst:347:A :t:`type bound predicate` is a :t:`construct` that specifies
+/home/pete.levasseur/project/fls/src/generics.rst:351:A :t:`construct` is valid when all of its :t:`[where clause predicate]s` hold
+/home/pete.levasseur/project/fls/src/generics.rst:355:A :t:`trivial predicate` is a :t:`where clause predicate` that does not use
+/home/pete.levasseur/project/fls/src/generics.rst:419:     A :t:`generic argument` supplies a static input for an
+/home/pete.levasseur/project/fls/src/generics.rst:440:     A :t:`binding argument` is a :t:`generic argument` that supplies the :t:`type`
+/home/pete.levasseur/project/fls/src/generics.rst:451:     A :t:`binding bound argument` is a :t:`generic argument` that further imposes
+/home/pete.levasseur/project/fls/src/generics.rst:455:A :t:`binding bound argument` shall only be used within the confines of a
+/home/pete.levasseur/project/fls/src/generics.rst:471:     A :t:`constant argument` is a :t:`generic argument` that supplies the
+/home/pete.levasseur/project/fls/src/generics.rst:475:A :t:`constant argument` may only appear as a single segment
+/home/pete.levasseur/project/fls/src/generics.rst:480:A :t:`lifetime argument` is a :t:`generic argument` that supplies the
+/home/pete.levasseur/project/fls/src/generics.rst:484:A :t:`type argument` is a :t:`generic argument` that supplies the :t:`type` of
+/home/pete.levasseur/project/fls/src/generics.rst:531:A :t:`binding argument` is conformant with an :t:`associated type` when the
+/home/pete.levasseur/project/fls/src/generics.rst:536:A :t:`constant argument` is conformant with a :t:`constant parameter` when
+/home/pete.levasseur/project/fls/src/generics.rst:541:A :t:`lifetime argument` is conformant with a :t:`lifetime parameter` when it
+/home/pete.levasseur/project/fls/src/generics.rst:545:A :t:`type argument` is conformant with a :t:`type parameter` when the
+/home/pete.levasseur/project/fls/src/implementations.rst:65:A :t:`trait implementation` is an :t:`implementation` that adds functionality
+/home/pete.levasseur/project/fls/src/implementations.rst:80:A :t:`trait implementation` shall be an :t:`unsafe trait implementation` if and
+/home/pete.levasseur/project/fls/src/implementations.rst:139:A :t:`trait implementation` exhibits :t:`implementation coherence` when it is
+/home/pete.levasseur/project/fls/src/implementations.rst:170:     A :t:`trait` or :t:`type` is :dt:`fundamental` when its
+/home/pete.levasseur/project/fls/src/implementations.rst:175:     A :t:`trait` or :t:`type` is :t:`fundamental` when its
+/home/pete.levasseur/project/fls/src/implementations.rst:207:A :t:`trait implementation` shall be coherent.
+/home/pete.levasseur/project/fls/src/implementations.rst:217:A :t:`trait implementation` exhibits :t:`implementation conformance` when it
+/home/pete.levasseur/project/fls/src/implementations.rst:258:A :t:`trait implementation` is conformant with an :t:`implemented trait` when:
+/home/pete.levasseur/project/fls/src/implementations.rst:277:A :t:`trait implementation` shall be conformant.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:79:A :t:`whitespace string` is a string that consists of one or more
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:170:A :t:`lexical element` is the most basic syntactic element in program text.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:176:A :t:`line` is a sequence of zero or more characters followed by an end of
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:183:A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:184:element]s`. A :t:`whitespace string` is a :t:`separator`.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:262:A :t:`flexible compound punctuator` may be treated as a single :t:`compound
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:481:A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:485:A :t:`pure identifier` shall follow the specification in Unicode Standard Annex
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:502:A :t:`pure identifier` shall be restricted to characters in category
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:565:A :t:`literal` is a fixed :t:`value` in program text.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:610:     A :t:`byte literal` is a :t:`literal` that denotes a fixed byte :t:`value`.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:649:     A :t:`byte string literal` is a :t:`literal` that consists of multiple
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:681:A :t:`simple byte string literal` is a :t:`byte string literal` that consists of multiple
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:719:A :t:`raw byte string literal` is a :t:`simple byte string literal` that does not
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:760:     A :t:`c string literal` is a :t:`literal` that consists of multiple characters
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:786:A :t:`simple c string literal` is any :t:`Unicode` character except characters
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:793:A :t:`simple c string literal` is a :t:`c string literal` where the characters are
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:836:A :t:`raw c string literal` is a :t:`simple c string literal` that does not
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:867:A :t:`numeric literal` is a :t:`literal` that denotes a number.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:962:     A :t:`binary literal` is an :t:`integer literal` in base 2.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:974:     A :t:`decimal literal` is an :t:`integer literal` in base 10.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:977:A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:987:A :t:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1104:     A :t:`float literal` is a :t:`numeric literal` that denotes a fractional number.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1117:     A :t:`float suffix` is a component of a :t:`float literal` that specifies an
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1121:A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1213:     A :t:`character literal` is a :t:`literal` that denotes a fixed :t:`Unicode`
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1244:A :t:`string literal` is a :t:`literal` that consists of multiple characters.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1279:A :t:`simple string literal` is a :t:`string literal` where the characters are
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1321:A :t:`raw string literal` is a :t:`simple string literal` that does not
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1361:     A :t:`boolean literal` is a :t:`literal` that denotes the truth :t:`[value]s` of
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1430:     A :t:`comment` is a :t:`lexical element` that acts as an annotation or an
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1443:     A :t:`block comment` is a :t:`comment` that spans one or more :t:`[line]s`.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1446:A :t:`line comment` is a :t:`comment` that spans exactly one :t:`line`.
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1481:     A :t:`doc comment` is a :t:`comment` class that includes :t:`[inner block
+/home/pete.levasseur/project/fls/src/lexical-elements.rst:1561:A :t:`keyword` is a word in program text that has special meaning.
+
+...41678 bytes truncated...
+
+The tool call succeeded but the output was truncated. Full output saved to: /home/pete.levasseur/.local/share/opencode/tool-output/tool_c26870ce5001k45DvALDK75aXV
+Use the Task tool to have explore agent process this file with Grep and Read (with offset/limit). Do NOT read the full file yourself - delegate to save context.
+[91m[1m| [0m[90m Bash     [0mSearch for generic substitution/type definitions
+[91m[1m| [0m[90m Bash     [0mSearch for chapter dt definitions
+
+/home/pete.levasseur/project/fls/src/glossary.static.rst.inc:2738:A :dt:`generic substitution` is the replacement of a :t:`generic parameter`
+/home/pete.levasseur/project/fls/src/glossary.static.rst.inc:2755:A :dt:`generic type` is a :t:`type` with a :t:`generic parameter`.
+
+[91m[1m| [0m[90m Bash     [0mSearch for hygiene definition
+[91m[1m| [0m[90m Bash     [0mFind hygienic mentions in macros
+
+1136:       :s:`MacroInvocation`, and are considered :t:`hygienic`.
+1142:         environment of a :s:`MacroInvocation`, and are considered :t:`hygienic`.
+1152:       environment of the :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+1158:         :s:`MacroInvocation`, and are considered :t:`unhygienic`.
+1164:  considered :dt:`partially hygienic`.
+
+[91m[1m| [0m[90m Bash     [0mFind hygiene mentions in macros
+
+1132:       :dt:`Definition site hygiene` is a type of :t:`hygiene` which resolves to the
+1149:       :dt:`Call site hygiene` is a type of :t:`hygiene` which resolves to the
+1167:Every :t:`macro` has associated :t:`hygiene` that depends on its kind:
+
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mLook for existing u8 glossary-entry
+[91m[1m| [0m[90m Bash     [0mSearch glossary-entry for u32
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic parameter scope
+
+.. glossary-entry:: generic parameter scope
+   
+   :glossary:
+     :dp:`fls_e2tICijmLkj4`
+     A :dt:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_amoh8r4gghyj`
+     A :t:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for global path
+
+.. glossary-entry:: global path
+   
+   :glossary:
+     :dp:`fls_msg8jw9momfw`
+     A :dt:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+     ``::``.
+   :chapter:
+     :dp:`fls_7kb6ltajgiou`
+     A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+     ``::``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for glob import
+
+.. glossary-entry:: glob import
+   
+   :glossary:
+     :dp:`fls_90qsib7g8e9j`
+     A :dt:`glob import` is a :t:`use import` that brings all :t:`[name]s` with
+     :t:`public visibility` prefixed by its :t:`path` prefix into :t:`scope`.
+     
+     :dp:`fls_n4plc55cij0j`
+     See :s:`GlobImport`.
+   :chapter:
+     :dp:`fls_v3a6y2ze44v2`
+     A :t:`glob import` is a :t:`use import` that brings all :t:`entities <entity>`
+     exported by the :t:`module` or :t:`enum` its :t:`import path prefix` resolves to
+     into :t:`scope`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic struct
+
+.. glossary-entry:: generic struct
+   
+   :glossary:
+     :dp:`fls_mcb2mlklith8`
+     A :dt:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_wmcp0n36jlbr`
+     A :t:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic trait
+
+.. glossary-entry:: generic trait
+   
+   :glossary:
+     :dp:`fls_h515f11akr91`
+     A :dt:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_h42kg56vsefx`
+     A :t:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic type alias
+
+.. glossary-entry:: generic type alias
+   
+   :glossary:
+     :dp:`fls_zgxsqq4vu7e3`
+     A :dt:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_372h3oevejih`
+     A :t:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic union
+
+.. glossary-entry:: generic union
+   
+   :glossary:
+     :dp:`fls_93rxr0yjx1e7`
+     A :dt:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_u8mqct93yimd`
+     A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+     
+     .. glossary-entry:: constant parameter
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic union with manual chapter lines
+
+/bin/bash: line 1: fls_u8mqct93yimd: command not found
+/bin/bash: line 1: generic: command not found
+/bin/bash: line 1: union: command not found
+/bin/bash: line 1: [generic: command not found
+.. glossary-entry:: generic union
+   
+   :glossary:
+     :dp:`fls_93rxr0yjx1e7`
+     A :dt:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:
+     A :t: is a :t: with :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic union with manual chapter lines
+
+.. glossary-entry:: generic union
+   
+   :glossary:
+     :dp:`fls_93rxr0yjx1e7`
+     A :dt:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+   :chapter:
+     :dp:`fls_u8mqct93yimd`
+     A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for global type variable
+
+.. glossary-entry:: global type variable
+   
+   :glossary:
+     :dp:`fls_pvt4nayq006s`
+     A :dt:`global type variable` is a :t:`type variable` that can refer to any
+     :t:`type`.
+   :chapter:
+     :dp:`fls_gDalJm1XS0mi`
+     A :t:`global type variable` is a :t:`type variable` that can refer to any
+     :t:`type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for greater-than expression
+
+.. glossary-entry:: greater-than expression
+   
+   :glossary:
+     :dp:`fls_j7x5qii6rhwj`
+     A :dt:`greater-than expression` is a :t:`comparison expression` that tests for
+     a greater-than relationship.
+     
+     :dp:`fls_yni50ba3ufvs`
+     See :s:`GreaterThanExpression`.
+   :chapter:
+     :dp:`fls_wapl0ir7uvbp`
+     A :t:`greater-than expression` is a :t:`comparison expression` that tests for a
+     greater-than relationship.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for greater-than-or-equals expression
+
+.. glossary-entry:: greater-than-or-equals expression
+   
+   :glossary:
+     :dp:`fls_wvspqc2otn6v`
+     A :dt:`greater-than-or-equals expression` is a :t:`comparison expression` that
+     tests for a greater-than-or-equals relationship.
+     
+     :dp:`fls_9azbvj9xux6y`
+     See :s:`GreaterThanOrEqualsExpression`.
+   :chapter:
+     :dp:`fls_7n5gol6a8lod`
+     A :t:`greater-than-or-equals expression` is a :t:`comparison expression` that
+     tests for a greater-than-or-equals relationship.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for half-open range pattern
+
+.. glossary-entry:: half-open range pattern
+   
+   :glossary:
+     :dp:`fls_tymjispfgp7u`
+     A :dt:`half-open range pattern` is a :t:`range pattern` with only a
+     :t:`range pattern low bound`.
+     
+     :dp:`fls_evm3nxwswk00`
+     See :s:`HalfOpenRangePattern`.
+   :chapter:
+     :dp:`fls_jhchm7dy927k`
+     A :t:`half-open range pattern` is a :t:`range pattern` with only a
+     :t:`range pattern low bound`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for hexadecimal literal
+
+.. glossary-entry:: hexadecimal literal
+   
+   :glossary:
+     :dp:`fls_8b6njsi8g68i`
+     A :dt:`hexadecimal literal` is an :t:`integer literal` in base 16.
+     
+     :dp:`fls_vssa4z5wcgaa`
+     See :s:`HexadecimalLiteral`.
+   :chapter:
+     :dp:`fls_2268lchxkzjp`
+     A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for higher-ranked trait bound
+
+.. glossary-entry:: higher-ranked trait bound
+   
+   :glossary:
+     :dp:`fls_lpyc4omcthv`
+     A :dt:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
+     list of :t:`[bound]s` for all possible :t:`[lifetime]s`.
+     
+     :dp:`fls_m3nrsdvxxg6j`
+     See :s:`ForGenericParameterList`.
+   :chapter:
+     :dp:`fls_vujl3fblz6x2`
+     A :t:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
+     list of :t:`[bound]s` for all possible :t:`[lifetime]s` specified by the
+     :s:`ForGenericParameterList`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic substitution
+
+.. glossary-entry:: generic substitution
+   
+   :glossary:
+     :dp:`fls_Led1Nxfcd70K`
+     A :dt:`generic substitution` is the replacement of a :t:`generic parameter`
+     with a :t:`generic argument`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for generic type
+
+.. glossary-entry:: generic type
+   
+   :glossary:
+     :dp:`fls_Zn2pIsMZoTry`
+     A :dt:`generic type` is a :t:`type` with a :t:`generic parameter`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for hygiene
+
+.. glossary-entry:: hygiene
+   
+   :glossary:
+     :dp:`fls_AQg0MqAQZqkz`
+     :dt:`Hygiene` is a property of :t:`[macro]s` and :t:`[identifier]s`` that
+     appear within them, which aims to eliminate the syntactic interference between
+     a :t:`macro` and its environment.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for hygienic
+
+.. glossary-entry:: hygienic
+   
+   :glossary:
+     :dp:`fls_hiDddAkNH5Ms`
+     An :t:`identifier` is :dt:`hygienic` when it has :t:`definition site hygiene`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for i8
+
+.. glossary-entry:: i8
+   
+   :glossary:
+     :dp:`fls_1y9ulxnz8qba`
+     :dc:`i8` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+     :sup:`7`) to 2\ :sup:`7` - 1, all inclusive.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for i16
+
+.. glossary-entry:: i16
+   
+   :glossary:
+     :dp:`fls_ci9jl55wxwdg`
+     :dc:`i16` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+     :sup:`15`) to 2\ :sup:`15` - 1, all inclusive.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for i32
+
+.. glossary-entry:: i32
+   
+   :glossary:
+     :dp:`fls_yh8wzhhso4xc`
+     :dc:`i32` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
+     :sup:`31`) to 2\ :sup:`31` - 1, all inclusive.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for next 20 terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for 20 checklist terms
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary, diff, and verify HTML
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow working tree status
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 2]
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/generics.rst
+ M src/lexical-elements.rst
+ M src/macros.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+5c37a48 docs(glossary): migrate batch 12 entries
+200bda3 docs(glossary): migrate batch 11 entries
+862a461 docs(glossary): migrate batch 10 entries
+9a978c3 docs(glossary): migrate batch 09 entries
+869af9c docs(glossary): migrate phase 2 batch for glossary parity
+
+[91m[1m| [0m[90m Bash     [0mShow working tree diffs
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index 224b0ef..80b0573 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -340,9 +340,16 @@ If a :t:`path segment` is expressed as :t:`keyword` ``super``, then the
+ or the previous :t:`path segment` of the :t:`path` shall also be expressed as
+ :t:`keyword` ``super``.
+ 
+-:dp:`fls_7kb6ltajgiou`
+-A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+-``::``.
++.. glossary-entry:: global path
++   
++   :glossary:
++     :dp:`fls_msg8jw9momfw`
++     A :dt:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
++     ``::``.
++   :chapter:
++     :dp:`fls_7kb6ltajgiou`
++     A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
++     ``::``.
+ 
+ :dp:`fls_n77icl6idazp`
+ A :t:`simple path` is a :t:`path` whose :t:`[path segment]s` consist of either
+@@ -552,8 +559,14 @@ Generic Parameter Scope
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_amoh8r4gghyj`
+-A :t:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
++.. glossary-entry:: generic parameter scope
++   
++   :glossary:
++     :dp:`fls_e2tICijmLkj4`
++     A :dt:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
++   :chapter:
++     :dp:`fls_amoh8r4gghyj`
++     A :t:`generic parameter scope` is a :t:`scope` for :t:`[generic parameter]s`.
+ 
+ :dp:`fls_6o38qhbna46z`
+ A :t:`generic parameter` is :t:`in scope` of a :s:`GenericParameterList`.
+@@ -1098,10 +1111,20 @@ A :t:`simple import` is a :t:`use import` that brings all :t:`entities <entity>`
+ it refers to into scope, optionally with a different
+ :t:`name` than they are declared with by using a :t:`renaming`.
+ 
+-:dp:`fls_v3a6y2ze44v2`
+-A :t:`glob import` is a :t:`use import` that brings all :t:`entities <entity>`
+-exported by the :t:`module` or :t:`enum` its :t:`import path prefix` resolves to
+-into :t:`scope`.
++.. glossary-entry:: glob import
++   
++   :glossary:
++     :dp:`fls_90qsib7g8e9j`
++     A :dt:`glob import` is a :t:`use import` that brings all :t:`[name]s` with
++     :t:`public visibility` prefixed by its :t:`path` prefix into :t:`scope`.
++     
++     :dp:`fls_n4plc55cij0j`
++     See :s:`GlobImport`.
++   :chapter:
++     :dp:`fls_v3a6y2ze44v2`
++     A :t:`glob import` is a :t:`use import` that brings all :t:`entities <entity>`
++     exported by the :t:`module` or :t:`enum` its :t:`import path prefix` resolves to
++     into :t:`scope`.
+ 
+ :dp:`fls_JHU0ersYB6eL`
+ An :t:`import path prefix` shall resolve to a :t:`module` or :t:`enum`.
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 75f6f97..627ab19 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -2140,9 +2140,19 @@ implement the :std:`core::cmp::PartialEq` :t:`trait` where the :t:`type` of the
+ The :t:`value` of an :t:`equals expression` is the result of
+ ``core::cmp::PartialEq::eq(&left_operand, &right_operand)``.
+ 
+-:dp:`fls_wapl0ir7uvbp`
+-A :t:`greater-than expression` is a :t:`comparison expression` that tests for a
+-greater-than relationship.
++.. glossary-entry:: greater-than expression
++   
++   :glossary:
++     :dp:`fls_j7x5qii6rhwj`
++     A :dt:`greater-than expression` is a :t:`comparison expression` that tests for
++     a greater-than relationship.
++     
++     :dp:`fls_yni50ba3ufvs`
++     See :s:`GreaterThanExpression`.
++   :chapter:
++     :dp:`fls_wapl0ir7uvbp`
++     A :t:`greater-than expression` is a :t:`comparison expression` that tests for a
++     greater-than relationship.
+ 
+ :dp:`fls_x2s6ydvj5zyd`
+ The :t:`type` of the :t:`left operand` of a :t:`greater-than expression` shall
+@@ -2153,9 +2163,19 @@ implement the :std:`core::cmp::PartialOrd` :t:`trait` where the :t:`type` of the
+ The :t:`value` of a :t:`greater-than expression` is the result of
+ ``core::cmp::PartialOrd::gt(&left_operand, &right_operand)``.
+ 
+-:dp:`fls_7n5gol6a8lod`
+-A :t:`greater-than-or-equals expression` is a :t:`comparison expression` that
+-tests for a greater-than-or-equals relationship.
++.. glossary-entry:: greater-than-or-equals expression
++   
++   :glossary:
++     :dp:`fls_wvspqc2otn6v`
++     A :dt:`greater-than-or-equals expression` is a :t:`comparison expression` that
++     tests for a greater-than-or-equals relationship.
++     
++     :dp:`fls_9azbvj9xux6y`
++     See :s:`GreaterThanOrEqualsExpression`.
++   :chapter:
++     :dp:`fls_7n5gol6a8lod`
++     A :t:`greater-than-or-equals expression` is a :t:`comparison expression` that
++     tests for a greater-than-or-equals relationship.
+ 
+ :dp:`fls_hholzcbp5u3n`
+ The :t:`type` of the :t:`left operand` of a
+diff --git a/src/generics.rst b/src/generics.rst
+index f27d381..59a887e 100644
+--- a/src/generics.rst
++++ b/src/generics.rst
+@@ -95,17 +95,41 @@ All :s:`[LifetimeParameter]s` in a :s:`GenericParameterList` shall precede all
+      A :t:`generic implementation` is an :t:`implementation` with
+      :t:`[generic parameter]s`.
+ 
+-:dp:`fls_wmcp0n36jlbr`
+-A :t:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
++.. glossary-entry:: generic struct
++   
++   :glossary:
++     :dp:`fls_mcb2mlklith8`
++     A :dt:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
++   :chapter:
++     :dp:`fls_wmcp0n36jlbr`
++     A :t:`generic struct` is a :t:`struct` with :t:`[generic parameter]s`.
+ 
+-:dp:`fls_h42kg56vsefx`
+-A :t:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
++.. glossary-entry:: generic trait
++   
++   :glossary:
++     :dp:`fls_h515f11akr91`
++     A :dt:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
++   :chapter:
++     :dp:`fls_h42kg56vsefx`
++     A :t:`generic trait` is a :t:`trait` with :t:`[generic parameter]s`.
+ 
+-:dp:`fls_372h3oevejih`
+-A :t:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
++.. glossary-entry:: generic type alias
++   
++   :glossary:
++     :dp:`fls_zgxsqq4vu7e3`
++     A :dt:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
++   :chapter:
++     :dp:`fls_372h3oevejih`
++     A :t:`generic type alias` is a :t:`type alias` with :t:`[generic parameter]s`.
+ 
+-:dp:`fls_u8mqct93yimd`
+-A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
++.. glossary-entry:: generic union
++   
++   :glossary:
++     :dp:`fls_93rxr0yjx1e7`
++     A :dt:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
++   :chapter:
++     :dp:`fls_u8mqct93yimd`
++     A :t:`generic union` is a :t:`union` with :t:`[generic parameter]s`.
+ 
+ .. glossary-entry:: constant parameter
+    
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index f92eff6..e071f20 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -973,8 +973,17 @@ An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+      :dp:`fls_rn8xfd66yvst`
+      A :t:`decimal literal` is an :t:`integer literal` in base 10.
+ 
+-:dp:`fls_2268lchxkzjp`
+-A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
++.. glossary-entry:: hexadecimal literal
++   
++   :glossary:
++     :dp:`fls_8b6njsi8g68i`
++     A :dt:`hexadecimal literal` is an :t:`integer literal` in base 16.
++     
++     :dp:`fls_vssa4z5wcgaa`
++     See :s:`HexadecimalLiteral`.
++   :chapter:
++     :dp:`fls_2268lchxkzjp`
++     A :t:`hexadecimal literal` is an :t:`integer literal` in base 16.
+ 
+ :dp:`fls_4v7awnutbpoe`
+ An :t:`octal literal` is an :t:`integer literal` in base 8.
+diff --git a/src/macros.rst b/src/macros.rst
+index 393b3cf..bfc750a 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -1121,6 +1121,20 @@ within them, which aims to eliminate the syntactic interference between a
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: hygiene
++   
++   :glossary:
++     :dp:`fls_AQg0MqAQZqkz`
++     :dt:`Hygiene` is a property of :t:`[macro]s` and :t:`[identifier]s`` that
++     appear within them, which aims to eliminate the syntactic interference between
++     a :t:`macro` and its environment.
++
++.. glossary-entry:: hygienic
++   
++   :glossary:
++     :dp:`fls_hiDddAkNH5Ms`
++     An :t:`identifier` is :dt:`hygienic` when it has :t:`definition site hygiene`.
++
+ :dp:`fls_3axjf28xb1nt`
+ :t:`Hygiene` is categorized as follows:
+ 
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 5dacda0..83f0deb 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -489,9 +489,19 @@ Range Patterns
+ A :t:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
+ within a range.
+ 
+-:dp:`fls_jhchm7dy927k`
+-A :t:`half-open range pattern` is a :t:`range pattern` with only a
+-:t:`range pattern low bound`.
++.. glossary-entry:: half-open range pattern
++   
++   :glossary:
++     :dp:`fls_tymjispfgp7u`
++     A :dt:`half-open range pattern` is a :t:`range pattern` with only a
++     :t:`range pattern low bound`.
++     
++     :dp:`fls_evm3nxwswk00`
++     See :s:`HalfOpenRangePattern`.
++   :chapter:
++     :dp:`fls_jhchm7dy927k`
++     A :t:`half-open range pattern` is a :t:`range pattern` with only a
++     :t:`range pattern low bound`.
+ 
+ :dp:`fls_q86j23iiqv8w`
+ An :t:`inclusive range pattern` is a :t:`range pattern` with both a
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 7bb2c57..475de07 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -497,6 +497,27 @@ domain of whole numbers:
+      - \- (2\ :sup:`127`)
+      - 2\ :sup:`127` - 1
+ 
++.. glossary-entry:: i8
++   
++   :glossary:
++     :dp:`fls_1y9ulxnz8qba`
++     :dc:`i8` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
++     :sup:`7`) to 2\ :sup:`7` - 1, all inclusive.
++
++.. glossary-entry:: i16
++   
++   :glossary:
++     :dp:`fls_ci9jl55wxwdg`
++     :dc:`i16` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
++     :sup:`15`) to 2\ :sup:`15` - 1, all inclusive.
++
++.. glossary-entry:: i32
++   
++   :glossary:
++     :dp:`fls_yh8wzhhso4xc`
++     :dc:`i32` is a :t:`signed integer type` whose :t:`[value]s` range from - (2\
++     :sup:`31`) to 2\ :sup:`31` - 1, all inclusive.
++
+ :dp:`fls_t9oyfmgqka6u`
+ :t:`Type` :c:`isize` has the same number of bits as the platform's
+ :t:`pointer type`, and is at least 16-bits wide.
+@@ -1498,6 +1519,13 @@ Type Parameters
+ A :t:`type parameter type` is a placeholder :t:`type` of a :t:`type parameter`
+ to be substituted by :t:`generic substitution`.
+ 
++.. glossary-entry:: generic substitution
++   
++   :glossary:
++     :dp:`fls_Led1Nxfcd70K`
++     A :dt:`generic substitution` is the replacement of a :t:`generic parameter`
++     with a :t:`generic argument`.
++
+ .. rubric:: Examples
+ 
+ .. code-block:: rust
+@@ -2601,9 +2629,16 @@ depending on the :t:`type inference root` as follows:
+ A :t:`type variable` is a placeholder used during :t:`type inference` to stand
+ in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
+ 
+-:dp:`fls_gDalJm1XS0mi`
+-A :t:`global type variable` is a :t:`type variable` that can refer to any
+-:t:`type`.
++.. glossary-entry:: global type variable
++   
++   :glossary:
++     :dp:`fls_pvt4nayq006s`
++     A :dt:`global type variable` is a :t:`type variable` that can refer to any
++     :t:`type`.
++   :chapter:
++     :dp:`fls_gDalJm1XS0mi`
++     A :t:`global type variable` is a :t:`type variable` that can refer to any
++     :t:`type`.
+ 
+ :dp:`fls_7ov36fpd9mwe`
+ An :t:`integer type variable` is a :t:`type variable` that can refer only to
+@@ -3244,10 +3279,20 @@ A :t:`trait bound` is a :t:`bound` that imposes a constraint on the
+ A :s:`ForGenericParameterList` shall not specify :s:`[ConstantParameter]s` or
+ :s:`[TypeParameter]s`.
+ 
+-:dp:`fls_vujl3fblz6x2`
+-A :t:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
+-list of :t:`[bound]s` for all possible :t:`[lifetime]s` specified by the
+-:s:`ForGenericParameterList`.
++.. glossary-entry:: higher-ranked trait bound
++   
++   :glossary:
++     :dp:`fls_lpyc4omcthv`
++     A :dt:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
++     list of :t:`[bound]s` for all possible :t:`[lifetime]s`.
++     
++     :dp:`fls_m3nrsdvxxg6j`
++     See :s:`ForGenericParameterList`.
++   :chapter:
++     :dp:`fls_vujl3fblz6x2`
++     A :t:`higher-ranked trait bound` is a :t:`bound` that specifies an infinite
++     list of :t:`[bound]s` for all possible :t:`[lifetime]s` specified by the
++     :s:`ForGenericParameterList`.
+ 
+ :dp:`fls_AzuZmR9DXSQh`
+ An :t:`opt-out trait bound` is a :t:`trait bound` with :s:`Punctuation` ``?``
+@@ -3347,6 +3392,12 @@ where another :t:`type` is expected.
+ :t:`generic type` is a :t:`subtype` of an instantiation of itself with
+ different :t:`[generic argument]s`.
+ 
++.. glossary-entry:: generic type
++   
++   :glossary:
++     :dp:`fls_Zn2pIsMZoTry`
++     A :dt:`generic type` is a :t:`type` with a :t:`generic parameter`.
++
+ :dp:`fls_7ex941yysuhq`
+ A :t:`type` is its own :t:`subtype`.
+ 
+
+[91m[1m| [0m[90m Bash     [0mStage changes, commit, and show status
+
+[glossary-single-source-phase1 90e1385] docs(glossary): migrate batch 13 entries
+ 7 files changed, 186 insertions(+), 35 deletions(-)
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 3]
+
+Replaced the chapter definitions for the 12 dual-block terms with `.. glossary-entry::` directives and added glossary-only directives for the 8 glossary-only terms, keeping the static glossary output identical. Updates are in `src/entities-and-resolution.rst`, `src/generics.rst`, `src/expressions.rst`, `src/patterns.rst`, `src/lexical-elements.rst`, `src/types-and-traits.rst`, and `src/macros.rst`.
+
+Checklist and metadata:
+- Updated `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`
+- Appended term-map entries via `/home/pete.levasseur/opencode-project-agents/fls/glossary-term-map.py`
+- HTML diff report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`
+
+Tests/run:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit:
+- `docs(glossary): migrate batch 13 entries`
+
+Next step:
+1) Push the branch if you want this batch published.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

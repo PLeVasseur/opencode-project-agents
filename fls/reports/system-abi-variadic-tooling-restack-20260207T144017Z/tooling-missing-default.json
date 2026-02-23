@@ -1,0 +1,78 @@
+{
+  "release": "1.93.0",
+  "base": "f1b193f5197f48686bd56fe881633bb62fad7f27",
+  "changed_src_files": [
+    "src/glossary.rst"
+  ],
+  "tags": [
+    "paragraph-added",
+    "role-change",
+    "term-ref-removed"
+  ],
+  "changes": [
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_H5vkbMFvzrFs",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_kqdvWGi9cglm",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 1,
+        "t": 5,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 3,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      }
+    },
+    {
+      "type": "term_ref_removed",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "count": 2,
+      "tag": "term-ref-removed"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 1,
+        "t": 4,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 2,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      }
+    },
+    {
+      "type": "term_ref_removed",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "count": 2,
+      "tag": "term-ref-removed"
+    }
+  ],
+  "update_action": "append",
+  "anchored_pr_url": null,
+  "anchored_entry_line": null,
+  "anchored_entry_index": null
+}

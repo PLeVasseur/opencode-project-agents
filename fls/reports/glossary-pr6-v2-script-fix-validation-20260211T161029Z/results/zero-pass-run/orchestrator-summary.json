@@ -1,0 +1,17 @@
+{
+  "batches_completed": 0,
+  "batches_failed": 2,
+  "canonical_checklist_template": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/fixtures/checklist-wa-two-items.template.md",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": "fake-session",
+  "remaining_parent_ids": [
+    "WA-001",
+    "WA-002"
+  ],
+  "remediation_dir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/zero-pass-run",
+  "run_id": "run",
+  "run_local_checklist": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/zero-pass-run/manual-placement-checklist-v2.md",
+  "timestamp": "20260211T161143Z",
+  "workdir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/sandbox-repo"
+}

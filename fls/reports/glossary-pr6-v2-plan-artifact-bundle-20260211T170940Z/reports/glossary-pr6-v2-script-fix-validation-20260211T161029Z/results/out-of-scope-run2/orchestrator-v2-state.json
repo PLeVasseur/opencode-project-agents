@@ -1,0 +1,29 @@
+{
+  "batch_sizes": {
+    "WA": 1,
+    "WB": 1,
+    "WC": 1,
+    "WD": 1
+  },
+  "batches": [],
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "failed_batches": [
+    {
+      "batch_number": 1,
+      "error": "Unexpected out-of-scope changes:\n- WA-002: checklist row changed outside batch\n- WA-002.1: checklist row changed outside batch\n- WA-002.2: checklist row changed outside batch\n- WA-002.3: checklist row changed outside batch\n- WA-002.4: checklist row changed outside batch\n- WA-002.5: checklist row changed outside batch\n- WA-002.6: checklist row changed outside batch\n- WA-002: ledger row changed outside batch",
+      "ids": [
+        "WA-001"
+      ],
+      "reason": "batch exception",
+      "timestamp": "20260211T170803Z",
+      "wave": "WA"
+    }
+  ],
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": "fake-session",
+  "run_id": "run2",
+  "session_id": null,
+  "started_at": "20260211T170803Z",
+  "updated_at": "20260211T170803Z",
+  "workdir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/sandbox-repo"
+}

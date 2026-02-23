@@ -1,0 +1,230 @@
+{
+  "batch_number": 18,
+  "batch_prefix": "batch-018",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-definition-divergence-v2.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-tshepang-20260210T174752Z/phase1-main-text-coverage/feedback-v2-20260211T133654Z/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-061",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "entities-and-resolution.rst",
+      "recommended_reason": "Most referenced here (2/3 refs)",
+      "recommended_section": "Path Expression Resolution",
+      "relocation_priority": "medium",
+      "term": "inherent implementation"
+    },
+    {
+      "checklist_id": "WB-062",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "functions.rst",
+      "recommended_reason": "Most referenced here (6/12 refs)",
+      "recommended_section": "Functions",
+      "relocation_priority": "medium",
+      "term": "self parameter"
+    },
+    {
+      "checklist_id": "WB-063",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:3192 precedes definition",
+      "recommended_section": "Tuple Expressions",
+      "relocation_priority": "medium",
+      "term": "tuple"
+    },
+    {
+      "checklist_id": "WB-064",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "generics.rst",
+      "recommended_reason": "Most referenced here (16/48 refs)",
+      "recommended_section": "Generic Parameters",
+      "relocation_priority": "medium",
+      "term": "type parameter"
+    },
+    {
+      "checklist_id": "WB-065",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ownership-and-deconstruction.rst",
+      "recommended_reason": "Most referenced here (3/4 refs)",
+      "recommended_section": "Borrowing",
+      "relocation_priority": "medium",
+      "term": "implicit borrow"
+    },
+    {
+      "checklist_id": "WB-066",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "associated-items.rst",
+      "recommended_reason": "Most referenced here (7/37 refs)",
+      "recommended_section": "Associated Items",
+      "relocation_priority": "medium",
+      "term": "associated type"
+    },
+    {
+      "checklist_id": "WB-067",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:3889 precedes definition",
+      "recommended_section": "Closure Expressions",
+      "relocation_priority": "medium",
+      "term": "binding argument"
+    },
+    {
+      "checklist_id": "WB-068",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:5058 precedes definition",
+      "recommended_section": "Await Expressions",
+      "relocation_priority": "medium",
+      "term": "future"
+    },
+    {
+      "checklist_id": "WB-069",
+      "divergence_match_category": "moderate_divergence",
+      "divergence_reliability": "medium",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:887 precedes definition",
+      "recommended_section": "Named Blocks",
+      "relocation_priority": "medium",
+      "term": "label"
+    },
+    {
+      "checklist_id": "WB-070",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Most referenced here (4/8 refs)",
+      "recommended_section": "Statics",
+      "relocation_priority": "medium",
+      "term": "static initializer"
+    },
+    {
+      "checklist_id": "WB-071",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (1/4 refs)",
+      "recommended_section": "Tuple Patterns",
+      "relocation_priority": "medium",
+      "term": "arity"
+    },
+    {
+      "checklist_id": "WB-072",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "generics.rst",
+      "recommended_reason": "Most referenced here (5/14 refs)",
+      "recommended_section": "Generic Parameters",
+      "relocation_priority": "medium",
+      "term": "constant parameter"
+    },
+    {
+      "checklist_id": "WB-073",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Most referenced here (2/4 refs)",
+      "recommended_section": "Statics",
+      "relocation_priority": "medium",
+      "term": "mutable static"
+    },
+    {
+      "checklist_id": "WB-074",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "patterns.rst",
+      "recommended_reason": "Most referenced here (2/6 refs)",
+      "recommended_section": "Range Patterns",
+      "relocation_priority": "medium",
+      "term": "scalar type"
+    },
+    {
+      "checklist_id": "WB-075",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "generics.rst",
+      "recommended_reason": "Most referenced here (2/4 refs)",
+      "recommended_section": "Generic Parameters",
+      "relocation_priority": "medium",
+      "term": "constant parameter initializer"
+    },
+    {
+      "checklist_id": "WB-076",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ownership-and-deconstruction.rst",
+      "recommended_reason": "Most referenced here (3/9 refs)",
+      "recommended_section": "Borrowing",
+      "relocation_priority": "medium",
+      "term": "immutable reference"
+    },
+    {
+      "checklist_id": "WB-077",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ffi.rst",
+      "recommended_reason": "Most referenced here (8/17 refs)",
+      "recommended_section": "External Functions",
+      "relocation_priority": "medium",
+      "term": "external function"
+    },
+    {
+      "checklist_id": "WB-078",
+      "divergence_match_category": "significant_reword",
+      "divergence_reliability": "low",
+      "placement_fitness": "questionable",
+      "recommended_file": "ffi.rst",
+      "recommended_reason": "Most referenced here (5/10 refs)",
+      "recommended_section": "External Statics",
+      "relocation_priority": "medium",
+      "term": "external static"
+    },
+    {
+      "checklist_id": "WB-079",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:654 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "medium",
+      "term": "unit enum variant"
+    },
+    {
+      "checklist_id": "WB-080",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "questionable",
+      "recommended_file": "expressions.rst",
+      "recommended_reason": "First reference at expressions.rst:654 precedes definition",
+      "recommended_section": "Path Expressions",
+      "relocation_priority": "medium",
+      "term": "tuple struct"
+    }
+  ],
+  "timestamp": "20260213T003446Z",
+  "wave": "WB"
+}

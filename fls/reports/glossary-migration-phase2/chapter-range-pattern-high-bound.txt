@@ -1,0 +1,3 @@
+:dp:`fls_83v1xqbebs58`
+A :t:`range pattern high bound` is a :t:`range pattern bound` that specifies the
+end of a range.

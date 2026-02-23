@@ -1,0 +1,9 @@
+{
+  "changes": [
+    "expanded list marker grammar",
+    "captured continuation blocks under list-local provenance constraints",
+    "prevented fallback to full-page candidate pools for list bullets"
+  ],
+  "run_id": "pr1-20260216T043508Z",
+  "timestamp_utc": "2026-02-16T04:35:15Z"
+}

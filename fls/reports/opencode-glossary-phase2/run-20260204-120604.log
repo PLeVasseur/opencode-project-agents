@@ -1,0 +1,1262 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m Grep     [0mimplementation conformance|infinite loop expression|infinite loop|inherent implementation|initialization expression|initialization type|initialization|inline assembly|inline module|inner attribute|inner block doc|inner doc comment|inner line doc|input register expression|input-output register expression|input register|integer literal|integer suffix|integer type variable|integer type
+[94m[1m| [0m[90m Grep     [0m:d?t:`implementation conformance`
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`infinite loop`
+[94m[1m| [0m[90m Grep     [0m:d?t:`inherent implementation`
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`initialization type`
+[94m[1m| [0m[90m Grep     [0minitialization type is|initialization type shall|initialization type
+[94m[1m| [0m[90m Grep     [0m:d?t:`initialization`
+[94m[1m| [0m[90m Grep     [0m:d?t:`initialization expression`
+[94m[1m| [0m[90m Grep     [0m:t:`initialization`
+[94m[1m| [0m[90m Glob     [0msrc
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`inner attribute`
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`inner block doc`|:d?t:`inner doc comment`|:d?t:`inner line doc`
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`inline module`
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`input register expression`|:d?t:`input-output register expression`|:d?t:`input register`
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[94m[1m| [0m[90m Grep     [0m:d?t:`integer literal`
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0minteger type` is|An :t:`integer type`|A :t:`integer type`
+[94m[1m| [0m[90m Grep     [0mInteger Types|integer type`
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mimplementation conformance|infinite loop expression|infinite loop|inherent implementation|initialization expression|initialization type|initialization|inline assembly|inline module|inner attribute|inner block doc|inner doc comment|inner line doc|input register expression|input-output register expression|input register|integer literal|integer suffix|integer type variable|integer type
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0minitialization expression
+[94m[1m| [0m[90m Grep     [0minitialization
+[94m[1m| [0m[90m Grep     [0mlet statement
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[96m[1m| [0m[90m Read     [0msrc/statements.rst
+[96m[1m| [0m[90m Read     [0msrc/associated-items.rst
+[91m[1m| [0m[90m Bash     [0mShow glossary-term-map usage
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+
+Append missing glossary migration metadata entries to term-map.jsonl.
+
+options:
+  -h, --help            show this help message and exit
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --src SRC             Source directory
+  --glossary GLOSSARY   Static glossary file
+  --term-map TERM_MAP   Term map JSONL path
+  --checklist CHECKLIST
+                        Checklist file for term selection
+  --count COUNT         Number of unchecked terms to take from checklist
+  --terms [TERMS ...]   Explicit term list
+  --status STATUS       Status value for term-map entries
+  --dry-run             Print JSONL entries without writing
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for implementation conformance
+
+.. glossary-entry:: implementation conformance
+   
+   :glossary:
+     :dp:`fls_Gpq4EP1SsYJR`
+     :dt:`Implementation conformance` measures the compatibility between a
+     :t:`trait implementation` and the :t:`implemented trait`.
+   :chapter:
+     :dp:`fls_YyUSuAYG4lX6`
+     A :t:`trait implementation` exhibits :t:`implementation conformance` when it
+     satisfies the constraints of its :t:`implemented trait`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inherent implementation
+
+.. glossary-entry:: inherent implementation
+   
+   :glossary:
+     :dp:`fls_6fpicw8ss4h3`
+     An :dt:`inherent implementation` is an :t:`implementation` that adds direct
+     functionality.
+     
+     :dp:`fls_s8zjk7hms1o0`
+     See :s:`InherentImplementation`.
+   :chapter:
+     :dp:`fls_v0n0bna40dqr`
+     An :t:`inherent implementation` is an :t:`implementation` that adds direct
+     functionality.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for infinite loop expression
+
+.. glossary-entry:: infinite loop expression
+   
+   :glossary:
+     :dp:`fls_mvplpa4t1f2p`
+     An :dt:`infinite loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` indefinitely.
+     
+     :dp:`fls_2gipk6b62hme`
+     See :s:`InfiniteLoopExpression`.
+   :chapter:
+     :dp:`fls_p11qw6mtxlda`
+     An :t:`infinite loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` indefinitely.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inline assembly
+
+.. glossary-entry:: inline assembly
+   
+   :glossary:
+     :dp:`fls_1MtaLEA7YfSv`
+     :dt:`Inline assembly` is hand-written assembly code that is integrated into a
+     Rust program.
+   :chapter:
+     :dp:`fls_leamdp1r3hez`
+     :t:`Inline assembly` is hand-written assembly code that is integrated into a
+     Rust program.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inline module
+
+.. glossary-entry:: inline module
+   
+   :glossary:
+     :dp:`fls_tbldwtisl9vc`
+     An :dt:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.
+     
+     :dp:`fls_8bmjz8o3xu60`
+     See :s:`InlineModuleSpecification`.
+   :chapter:
+     :dp:`fls_qypjjpcf8uwq`
+     An :t:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inner attribute
+
+.. glossary-entry:: inner attribute
+   
+   :glossary:
+     :dp:`fls_l7kxkav42l5d`
+     An :dt:`inner attribute` is an :t:`attribute` that applies to an enclosing
+     :t:`item`.
+     
+     :dp:`fls_umkk8xwktat1`
+     See :s:`InnerAttribute`.
+   :chapter:
+     :dp:`fls_yd0ehw5csaur`
+     An :t:`inner attribute` is an :t:`attribute` that applies to an enclosing
+     :t:`item`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inner block doc
+
+.. glossary-entry:: inner block doc
+   
+   :glossary:
+     :dp:`fls_f4nqkybpwj1a`
+     An :dt:`inner block doc` is a :t:`block comment` that applies to an enclosing
+     :t:`non-[comment]` :t:`construct`.
+     
+     :dp:`fls_lmpaznk198ga`
+     See :s:`InnerBlockDoc`.
+   :chapter:
+     :dp:`fls_k3hj30hjkdhw`
+     An :t:`inner block doc` is a :t:`block comment` that applies to an enclosing
+     :t:`non-[comment]` :t:`construct`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inner line doc
+
+.. glossary-entry:: inner line doc
+   
+   :glossary:
+     :dp:`fls_vtwavwjhgvlz`
+     An :dt:`inner line doc` is a :t:`line comment` that applies to an enclosing
+     :t:`non-[comment]` :t:`construct`.
+     
+     :dp:`fls_8cnikewkqs7`
+     See :s:`InnerLineDoc`.
+   :chapter:
+     :dp:`fls_tspijl68lduc`
+     An :t:`inner line doc` is a :t:`line comment` that applies to an enclosing
+     :t:`non-[comment]` :t:`construct`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for inner doc comment
+
+.. glossary-entry:: inner doc comment
+   
+   :glossary:
+     :dp:`fls_6KunKwZf9QaF`
+     An :dt:`inner doc comment` is either an :t:`inner block doc` or an
+     :t:`inner line doc`.
+   :chapter:
+     :dp:`fls_KZp0yiFLTqxb`
+     An :t:`inner doc comment` is either an :t:`inner block doc` or an
+     :t:`inner line doc`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for input register
+
+.. glossary-entry:: input register
+   
+   :glossary:
+     :dp:`fls_dTvdQaFpncCj`
+     An :dt:`input register` is a :t:`register` whose :t:`register name` is used in
+     a :t:`register argument` subject to :t:`direction modifier` ``in``, ``inout``,
+     or ``inlateout``.
+   :chapter:
+     :dp:`fls_rr8rsy7oilf0`
+     An :t:`input register` is a :t:`register` whose :t:`register name` is used in
+     a :t:`register argument` subject to :t:`direction modifier` ``in``, ``inout``,
+     or ``inlateout``.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for input register expression
+
+.. glossary-entry:: input register expression
+   
+   :glossary:
+     :dp:`fls_rvbuHSgg2RHt`
+     An :dt:`input register expression` is an :t:`expression` that provides the
+     initial :t:`value` of a :t:`register`.
+     
+     :dp:`fls_NqjRr9khzpl2`
+     See :s:`InputRegisterExpression`.
+   :chapter:
+     :dp:`fls_fta1gb5tzi3a`
+     An :t:`input register expression` is an :t:`expression` that provides the
+     initial :t:`value` of a :t:`register`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for input-output register expression
+
+.. glossary-entry:: input-output register expression
+   
+   :glossary:
+     :dp:`fls_lLQw3EFl7x5z`
+     An :dt:`input-output register expression` is a :t:`construct` that specifies
+     both an :t:`input register expression` and an :t:`output register expression`.
+     
+     :dp:`fls_FnMGXi2nPgUH`
+     See :s:`InputOutputRegisterExpression`.
+   :chapter:
+     :dp:`fls_kkrcyk96w8x1`
+     An :t:`input-output register expression` is a :t:`construct` that specifies
+     both an :t:`input register expression` and an :t:`output register expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer literal
+
+.. glossary-entry:: integer literal
+   
+   :glossary:
+     :dp:`fls_23a1fjpf15qv`
+     An :dt:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+     
+     :dp:`fls_6qpj0nr0jpjr`
+     See :s:`IntegerLiteral`.
+   :chapter:
+     :dp:`fls_vkk2krfn93ry`
+     An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+     
+     .. glossary-entry:: binary literal
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary-entry for integer literal
+
+.. glossary-entry:: integer literal
+   
+   :glossary:
+     :dp:`fls_23a1fjpf15qv`
+     An :dt:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+     
+     :dp:`fls_6qpj0nr0jpjr`
+     See :s:`IntegerLiteral`.
+   :chapter:
+     :dp:`fls_vkk2krfn93ry`
+     An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+     
+     .. glossary-entry:: binary literal
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer suffix
+
+.. glossary-entry:: integer suffix
+   
+   :glossary:
+     :dp:`fls_qazh8f8rs528`
+     An :dt:`integer suffix` is a component of an :t:`integer literal` that
+     specifies an explicit :t:`integer type`.
+     
+     :dp:`fls_jqagv350kw2m`
+     See ``IntegerSuffix.``
+   :chapter:
+     :dp:`fls_f1e29aj0sqvl`
+     An :t:`integer suffix` is a component of an :t:`integer literal` that specifies
+     an explicit :t:`integer type`.
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer literal with manual chapter lines
+
+/bin/bash: line 1: fls_vkk2krfn93ry: command not found
+/bin/bash: line 1: integer: command not found
+/bin/bash: line 1: numeric: command not found
+.. glossary-entry:: integer literal
+   
+   :glossary:
+     :dp:`fls_23a1fjpf15qv`
+     An :dt:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+     
+     :dp:`fls_6qpj0nr0jpjr`
+     See :s:`IntegerLiteral`.
+   :chapter:
+     :dp:
+     An :t: is a :t: that denotes a whole number.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer literal with quoted chapter lines
+
+.. glossary-entry:: integer literal
+   
+   :glossary:
+     :dp:`fls_23a1fjpf15qv`
+     An :dt:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+     
+     :dp:`fls_6qpj0nr0jpjr`
+     See :s:`IntegerLiteral`.
+   :chapter:
+     :dp:`fls_vkk2krfn93ry`
+     An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer type variable
+
+.. glossary-entry:: integer type variable
+   
+   :glossary:
+     :dp:`fls_e3ed1tyrjsy4`
+     An :dt:`integer type variable` is a :t:`type variable` that can refer only to
+     :t:`[integer type]s`.
+   :chapter:
+     :dp:`fls_7ov36fpd9mwe`
+     An :t:`integer type variable` is a :t:`type variable` that can refer only to
+     :t:`[integer type]s`.
+     
+     .. glossary-entry:: floating-point type variable
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer type variable with manual lines
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer type variable with manual lines
+
+/bin/bash: -c: line 1: unexpected EOF while looking for matching `''
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer type variable with escaped chapter lines
+
+.. glossary-entry:: integer type variable
+   
+   :glossary:
+     :dp:`fls_e3ed1tyrjsy4`
+     An :dt:`integer type variable` is a :t:`type variable` that can refer only to
+     :t:`[integer type]s`.
+   :chapter:
+     :dp:`fls_7ov36fpd9mwe`
+     An :t:`integer type variable` is a :t:`type variable` that can refer only to
+     :t:`[integer type]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for infinite loop
+
+.. glossary-entry:: infinite loop
+   
+   :glossary:
+     :dp:`fls_xpm53i3rkuu0`
+     For :dt:`infinite loop`, see :t:`infinite loop expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for initialization
+
+.. glossary-entry:: initialization
+   
+   :glossary:
+     :dp:`fls_xi07ycze6mo0`
+     :dt:`Initialization` is the act of supplying an initial :t:`value` to a
+     :t:`constant`, a :t:`static`, or a :t:`variable`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for initialization expression
+
+.. glossary-entry:: initialization expression
+   
+   :glossary:
+     :dp:`fls_KUeiSByPUc4w`
+     An :dt:`initialization expression` is either a :t:`constant initializer` or a
+     :t:`static initializer`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for initialization type
+
+.. glossary-entry:: initialization type
+   
+   :glossary:
+     :dp:`fls_crn87nne7k38`
+     An :dt:`initialization type` is the :t:`type` a :t:`type alias` defines a
+     :t:`name` for.
+     
+     :dp:`fls_3r85y1lh1oxo`
+     See :s:`InitializationType`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for integer type
+
+.. glossary-entry:: integer type
+   
+   :glossary:
+     :dp:`fls_nhfqdhf26ym3`
+     An :dt:`integer type` is a :t:`numeric type` whose :t:`[value]s` denote whole
+     numbers.
+
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[96m[1m| [0m[90m Read     [0msrc/implementations.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/implementations.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/implementations.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/associated-items.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/statements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mAppend glossary term-map entries
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff against baseline
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/associated-items.rst
+ M src/attributes.rst
+ M src/expressions.rst
+ M src/implementations.rst
+ M src/inline-assembly.rst
+ M src/lexical-elements.rst
+ M src/program-structure-and-compilation.rst
+ M src/statements.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow git diff of changes
+
+diff --git a/src/associated-items.rst b/src/associated-items.rst
+index faee30e..ce0abd7 100644
+--- a/src/associated-items.rst
++++ b/src/associated-items.rst
+@@ -92,6 +92,16 @@ Associated Items
+      An :dt:`incomplete associated type` is an :t:`associated type` without an
+      :t:`initialization type`.
+ 
++.. glossary-entry:: initialization type
++   
++   :glossary:
++     :dp:`fls_crn87nne7k38`
++     An :dt:`initialization type` is the :t:`type` a :t:`type alias` defines a
++     :t:`name` for.
++     
++     :dp:`fls_3r85y1lh1oxo`
++     See :s:`InitializationType`.
++
+ :dp:`fls_w8nu8suy7t5`
+ An :t:`associated type` shall not be used in the :t:`path expression` of a
+ :t:`struct expression`.
+diff --git a/src/attributes.rst b/src/attributes.rst
+index cf78f3e..19c66c5 100644
+--- a/src/attributes.rst
++++ b/src/attributes.rst
+@@ -53,9 +53,19 @@ Attributes
+      An :t:`attribute` is a general, free-form metadatum that is interpreted based on
+      its :t:`name`, convention, language, and tool.
+ 
+-:dp:`fls_yd0ehw5csaur`
+-An :t:`inner attribute` is an :t:`attribute` that applies to an enclosing
+-:t:`item`.
++.. glossary-entry:: inner attribute
++   
++   :glossary:
++     :dp:`fls_l7kxkav42l5d`
++     An :dt:`inner attribute` is an :t:`attribute` that applies to an enclosing
++     :t:`item`.
++     
++     :dp:`fls_umkk8xwktat1`
++     See :s:`InnerAttribute`.
++   :chapter:
++     :dp:`fls_yd0ehw5csaur`
++     An :t:`inner attribute` is an :t:`attribute` that applies to an enclosing
++     :t:`item`.
+ 
+ :dp:`fls_8o6vmzbw1b1j`
+ An :t:`outer attribute` is an :t:`attribute` that applies to a subsequent
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 467225a..10feb22 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -2797,6 +2797,13 @@ an :t:`irrefutable pattern`.
+ A :t:`destructuring assignment` is equivalent to a :t:`block expression` of the
+ following form:
+ 
++.. glossary-entry:: initialization expression
++   
++   :glossary:
++     :dp:`fls_KUeiSByPUc4w`
++     An :dt:`initialization expression` is either a :t:`constant initializer` or a
++     :t:`static initializer`.
++
+ * :dp:`fls_u0iqhbw37xvq`
+   The first :t:`statement` is a :t:`let statement` with its :t:`pattern`
+   equivalent to the lowered :t:`assignee pattern` and its
+@@ -4663,9 +4670,25 @@ Infinite Loops
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_p11qw6mtxlda`
+-An :t:`infinite loop expression` is a :t:`loop expression` that continues to
+-evaluate its :t:`loop body` indefinitely.
++.. glossary-entry:: infinite loop
++   
++   :glossary:
++     :dp:`fls_xpm53i3rkuu0`
++     For :dt:`infinite loop`, see :t:`infinite loop expression`.
++
++.. glossary-entry:: infinite loop expression
++   
++   :glossary:
++     :dp:`fls_mvplpa4t1f2p`
++     An :dt:`infinite loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` indefinitely.
++     
++     :dp:`fls_2gipk6b62hme`
++     See :s:`InfiniteLoopExpression`.
++   :chapter:
++     :dp:`fls_p11qw6mtxlda`
++     An :t:`infinite loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` indefinitely.
+ 
+ :dp:`fls_b314wjbv0zwe`
+ The :t:`type` of an :t:`infinite loop expression` is determined as follows:
+diff --git a/src/implementations.rst b/src/implementations.rst
+index 0875701..54ac06c 100644
+--- a/src/implementations.rst
++++ b/src/implementations.rst
+@@ -84,9 +84,19 @@ for the :t:`implementing type`.
+      :t:`[associated item]s`, :t:`[inner attribute]s`, and
+      :t:`[inner doc comment]s` of an :t:`implementation`.
+ 
+-:dp:`fls_v0n0bna40dqr`
+-An :t:`inherent implementation` is an :t:`implementation` that adds direct
+-functionality.
++.. glossary-entry:: inherent implementation
++   
++   :glossary:
++     :dp:`fls_6fpicw8ss4h3`
++     An :dt:`inherent implementation` is an :t:`implementation` that adds direct
++     functionality.
++     
++     :dp:`fls_s8zjk7hms1o0`
++     See :s:`InherentImplementation`.
++   :chapter:
++     :dp:`fls_v0n0bna40dqr`
++     An :t:`inherent implementation` is an :t:`implementation` that adds direct
++     functionality.
+ 
+ :dp:`fls_797etpdk5dyb`
+ :t:`[Inherent implementation]s` of the same :t:`implementing type` shall be
+@@ -261,9 +271,16 @@ Implementation Conformance
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_YyUSuAYG4lX6`
+-A :t:`trait implementation` exhibits :t:`implementation conformance` when it
+-satisfies the constraints of its :t:`implemented trait`.
++.. glossary-entry:: implementation conformance
++   
++   :glossary:
++     :dp:`fls_Gpq4EP1SsYJR`
++     :dt:`Implementation conformance` measures the compatibility between a
++     :t:`trait implementation` and the :t:`implemented trait`.
++   :chapter:
++     :dp:`fls_YyUSuAYG4lX6`
++     A :t:`trait implementation` exhibits :t:`implementation conformance` when it
++     satisfies the constraints of its :t:`implemented trait`.
+ 
+ :dp:`fls_v31idwjau90d`
+ An :t:`associated trait constant` is conformant with an :t:`associated constant`
+diff --git a/src/inline-assembly.rst b/src/inline-assembly.rst
+index b3aa793..c2e7e70 100644
+--- a/src/inline-assembly.rst
++++ b/src/inline-assembly.rst
+@@ -12,9 +12,16 @@ Inline Assembly
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_leamdp1r3hez`
+-:t:`Inline assembly` is hand-written assembly code that is integrated into a
+-Rust program.
++.. glossary-entry:: inline assembly
++   
++   :glossary:
++     :dp:`fls_1MtaLEA7YfSv`
++     :dt:`Inline assembly` is hand-written assembly code that is integrated into a
++     Rust program.
++   :chapter:
++     :dp:`fls_leamdp1r3hez`
++     :t:`Inline assembly` is hand-written assembly code that is integrated into a
++     Rust program.
+ 
+ :dp:`fls_3fg60jblx0xb`
+ :t:`Inline assembly` is written as an :t:`assembly code block` that is
+@@ -104,10 +111,18 @@ Registers
+ A :t:`register` is a hardware component capable of holding data that can be
+ read and written.
+ 
+-:dp:`fls_rr8rsy7oilf0`
+-An :t:`input register` is a :t:`register` whose :t:`register name` is used in
+-a :t:`register argument` subject to :t:`direction modifier` ``in``, ``inout``,
+-or ``inlateout``.
++.. glossary-entry:: input register
++   
++   :glossary:
++     :dp:`fls_dTvdQaFpncCj`
++     An :dt:`input register` is a :t:`register` whose :t:`register name` is used in
++     a :t:`register argument` subject to :t:`direction modifier` ``in``, ``inout``,
++     or ``inlateout``.
++   :chapter:
++     :dp:`fls_rr8rsy7oilf0`
++     An :t:`input register` is a :t:`register` whose :t:`register name` is used in
++     a :t:`register argument` subject to :t:`direction modifier` ``in``, ``inout``,
++     or ``inlateout``.
+ 
+ :dp:`fls_5ruu8n6r9mvp`
+ An :t:`output register` is a :t:`register` whose :t:`register name` is
+@@ -712,9 +727,19 @@ A :t:`register class argument` causes an assembler to select a suitable
+      :t:`register argument` initializes a :t:`register`, assigns the :t:`value` of a
+      :t:`register` to an :t:`expression`, or both.
+ 
+-:dp:`fls_fta1gb5tzi3a`
+-An :t:`input register expression` is an :t:`expression` that provides the
+-initial :t:`value` of a :t:`register`.
++.. glossary-entry:: input register expression
++   
++   :glossary:
++     :dp:`fls_rvbuHSgg2RHt`
++     An :dt:`input register expression` is an :t:`expression` that provides the
++     initial :t:`value` of a :t:`register`.
++     
++     :dp:`fls_NqjRr9khzpl2`
++     See :s:`InputRegisterExpression`.
++   :chapter:
++     :dp:`fls_fta1gb5tzi3a`
++     An :t:`input register expression` is an :t:`expression` that provides the
++     initial :t:`value` of a :t:`register`.
+ 
+ :dp:`fls_sopiivuae0x7`
+ An :t:`output register expression` is an :t:`expression` that is assigned the
+@@ -723,9 +748,19 @@ An :t:`output register expression` is an :t:`expression` that is assigned the
+ :dp:`fls_81Ju1TEqJ48K`
+ A :dt:`const register expression` is an :t:`expression` that is evaluated at compile-time.
+ 
+-:dp:`fls_kkrcyk96w8x1`
+-An :t:`input-output register expression` is a :t:`construct` that specifies
+-both an :t:`input register expression` and an :t:`output register expression`.
++.. glossary-entry:: input-output register expression
++   
++   :glossary:
++     :dp:`fls_lLQw3EFl7x5z`
++     An :dt:`input-output register expression` is a :t:`construct` that specifies
++     both an :t:`input register expression` and an :t:`output register expression`.
++     
++     :dp:`fls_FnMGXi2nPgUH`
++     See :s:`InputOutputRegisterExpression`.
++   :chapter:
++     :dp:`fls_kkrcyk96w8x1`
++     An :t:`input-output register expression` is a :t:`construct` that specifies
++     both an :t:`input register expression` and an :t:`output register expression`.
+ 
+ :dp:`fls_aniw4ehsn2kb`
+ A :t:`simple register expression` is either an :t:`expression` or an
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 5c82c4a..5f59336 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -955,8 +955,17 @@ Integer Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_vkk2krfn93ry`
+-An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
++.. glossary-entry:: integer literal
++   
++   :glossary:
++     :dp:`fls_23a1fjpf15qv`
++     An :dt:`integer literal` is a :t:`numeric literal` that denotes a whole number.
++     
++     :dp:`fls_6qpj0nr0jpjr`
++     See :s:`IntegerLiteral`.
++   :chapter:
++     :dp:`fls_vkk2krfn93ry`
++     An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+ 
+ .. glossary-entry:: binary literal
+    
+@@ -997,9 +1006,19 @@ An :t:`integer literal` is a :t:`numeric literal` that denotes a whole number.
+ :dp:`fls_4v7awnutbpoe`
+ An :t:`octal literal` is an :t:`integer literal` in base 8.
+ 
+-:dp:`fls_f1e29aj0sqvl`
+-An :t:`integer suffix` is a component of an :t:`integer literal` that specifies
+-an explicit :t:`integer type`.
++.. glossary-entry:: integer suffix
++   
++   :glossary:
++     :dp:`fls_qazh8f8rs528`
++     An :dt:`integer suffix` is a component of an :t:`integer literal` that
++     specifies an explicit :t:`integer type`.
++     
++     :dp:`fls_jqagv350kw2m`
++     See ``IntegerSuffix.``
++   :chapter:
++     :dp:`fls_f1e29aj0sqvl`
++     An :t:`integer suffix` is a component of an :t:`integer literal` that specifies
++     an explicit :t:`integer type`.
+ 
+ :dp:`fls_u83mffscqm6`
+ A :t:`suffixed integer` is an :t:`integer literal` with an :t:`integer suffix`.
+@@ -1463,17 +1482,44 @@ Comments
+ :dp:`fls_nayisy85kyq2`
+ A :t:`line comment` is a :t:`comment` that spans exactly one :t:`line`.
+ 
+-:dp:`fls_k3hj30hjkdhw`
+-An :t:`inner block doc` is a :t:`block comment` that applies to an enclosing
+-:t:`non-[comment]` :t:`construct`.
++.. glossary-entry:: inner block doc
++   
++   :glossary:
++     :dp:`fls_f4nqkybpwj1a`
++     An :dt:`inner block doc` is a :t:`block comment` that applies to an enclosing
++     :t:`non-[comment]` :t:`construct`.
++     
++     :dp:`fls_lmpaznk198ga`
++     See :s:`InnerBlockDoc`.
++   :chapter:
++     :dp:`fls_k3hj30hjkdhw`
++     An :t:`inner block doc` is a :t:`block comment` that applies to an enclosing
++     :t:`non-[comment]` :t:`construct`.
+ 
+-:dp:`fls_tspijl68lduc`
+-An :t:`inner line doc` is a :t:`line comment` that applies to an enclosing
+-:t:`non-[comment]` :t:`construct`.
++.. glossary-entry:: inner line doc
++   
++   :glossary:
++     :dp:`fls_vtwavwjhgvlz`
++     An :dt:`inner line doc` is a :t:`line comment` that applies to an enclosing
++     :t:`non-[comment]` :t:`construct`.
++     
++     :dp:`fls_8cnikewkqs7`
++     See :s:`InnerLineDoc`.
++   :chapter:
++     :dp:`fls_tspijl68lduc`
++     An :t:`inner line doc` is a :t:`line comment` that applies to an enclosing
++     :t:`non-[comment]` :t:`construct`.
+ 
+-:dp:`fls_KZp0yiFLTqxb`
+-An :t:`inner doc comment` is either an :t:`inner block doc` or an
+-:t:`inner line doc`.
++.. glossary-entry:: inner doc comment
++   
++   :glossary:
++     :dp:`fls_6KunKwZf9QaF`
++     An :dt:`inner doc comment` is either an :t:`inner block doc` or an
++     :t:`inner line doc`.
++   :chapter:
++     :dp:`fls_KZp0yiFLTqxb`
++     An :t:`inner doc comment` is either an :t:`inner block doc` or an
++     :t:`inner line doc`.
+ 
+ :dp:`fls_63gzofa9ktic`
+ An :t:`outer block doc` is a :t:`block comment` that applies to a subsequent
+diff --git a/src/program-structure-and-compilation.rst b/src/program-structure-and-compilation.rst
+index 72332fc..c417da6 100644
+--- a/src/program-structure-and-compilation.rst
++++ b/src/program-structure-and-compilation.rst
+@@ -76,8 +76,17 @@ A :t:`module` is a container for zero or more :t:`[item]s`.
+ The ``unsafe`` :t:`keyword` of a :t:`module` is rejected, but may still
+ be consumed by :t:`[macro]s`.
+ 
+-:dp:`fls_qypjjpcf8uwq`
+-An :t:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.
++.. glossary-entry:: inline module
++   
++   :glossary:
++     :dp:`fls_tbldwtisl9vc`
++     An :dt:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.
++     
++     :dp:`fls_8bmjz8o3xu60`
++     See :s:`InlineModuleSpecification`.
++   :chapter:
++     :dp:`fls_qypjjpcf8uwq`
++     An :t:`inline module` is a :t:`module` with an :s:`InlineModuleSpecification`.
+ 
+ :dp:`fls_cavwpr1ybk37`
+ An :t:`outline module` is a :t:`module` with an :s:`OutlineModuleSpecification`.
+diff --git a/src/statements.rst b/src/statements.rst
+index d032a54..7f3c5fe 100644
+--- a/src/statements.rst
++++ b/src/statements.rst
+@@ -81,6 +81,13 @@ Let Statements
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: initialization
++   
++   :glossary:
++     :dp:`fls_xi07ycze6mo0`
++     :dt:`Initialization` is the act of supplying an initial :t:`value` to a
++     :t:`constant`, a :t:`static`, or a :t:`variable`.
++
+ :dp:`fls_ct7pp7jnfr86`
+ A :t:`let statement` is a :t:`statement` that introduces new :t:`[binding]s`
+ produced by its :t:`pattern-without-alternation` that are optionally
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 3832cb6..ae975dc 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -431,6 +431,13 @@ Integer Types
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: integer type
++   
++   :glossary:
++     :dp:`fls_nhfqdhf26ym3`
++     An :dt:`integer type` is a :t:`numeric type` whose :t:`[value]s` denote whole
++     numbers.
++
+ :dp:`fls_cokwseo3nnr`
+ :t:`[Unsigned integer type]s` define the following inclusive ranges over the
+ domain of whole numbers:
+@@ -2688,9 +2695,16 @@ in for an undetermined :t:`type` of an :t:`expression` or a :t:`pattern`.
+      A :t:`global type variable` is a :t:`type variable` that can refer to any
+      :t:`type`.
+ 
+-:dp:`fls_7ov36fpd9mwe`
+-An :t:`integer type variable` is a :t:`type variable` that can refer only to
+-:t:`[integer type]s`.
++.. glossary-entry:: integer type variable
++   
++   :glossary:
++     :dp:`fls_e3ed1tyrjsy4`
++     An :dt:`integer type variable` is a :t:`type variable` that can refer only to
++     :t:`[integer type]s`.
++   :chapter:
++     :dp:`fls_7ov36fpd9mwe`
++     An :t:`integer type variable` is a :t:`type variable` that can refer only to
++     :t:`[integer type]s`.
+ 
+ .. glossary-entry:: floating-point type variable
+    
+
+[91m[1m| [0m[90m Bash     [0mShow recent git commits
+
+2cd6855 docs(glossary): migrate batch 15 entries
+d9a148b docs(glossary): migrate batch 14 entries
+90e1385 docs(glossary): migrate batch 13 entries
+5c37a48 docs(glossary): migrate batch 12 entries
+200bda3 docs(glossary): migrate batch 11 entries
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration files, commit, show status
+
+[glossary-single-source-phase1 59827bd] docs(glossary): migrate batch 16 entries
+ 9 files changed, 215 insertions(+), 44 deletions(-)
+
+Updated the next 20 glossary terms into chapter `.. glossary-entry::` blocks and placed glossary-only entries where needed, keeping generated glossary output identical to the static baseline. Changes are in `src/associated-items.rst`, `src/attributes.rst`, `src/expressions.rst`, `src/implementations.rst`, `src/inline-assembly.rst`, `src/lexical-elements.rst`, `src/program-structure-and-compilation.rst`, `src/statements.rst`, `src/types-and-traits.rst`.
+- Term metadata appended via `/home/pete.levasseur/opencode-project-agents/fls/glossary-term-map.py`.
+- Checklist updated in `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`.
+- Commit created: `59827bd` (docs(glossary): migrate batch 16 entries).
+
+Tests/checks run:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next steps:
+1) Push the branch if you want the commit upstream.
+2) Continue with the next 20 unchecked terms in the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

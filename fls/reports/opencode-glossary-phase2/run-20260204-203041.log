@@ -1,0 +1,1810 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShows OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[94m[1m| [0m[90m skill    [0mLoaded skill: fls-glossary-definitions
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mSelects next 20 checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mSelects next 20 unchecked glossary terms
+
+warning: glossary-entry not found in src files: mutable binding
+warning: glossary-entry not found in src files: mutable borrow
+warning: glossary-entry not found in src files: mutable borrow expression
+warning: glossary-entry not found in src files: mutable place expression
+warning: glossary-entry not found in src files: mutable place expression context
+warning: glossary-entry not found in src files: mutable raw pointer type
+warning: glossary-entry not found in src files: mutable reference
+warning: glossary-entry not found in src files: mutable reference type
+warning: glossary-entry not found in src files: mutable static
+warning: glossary-entry not found in src files: mutable variable
+warning: glossary-entry not found in src files: name
+warning: glossary-entry not found in src files: named block expression
+warning: glossary-entry not found in src files: named deconstructor
+warning: glossary-entry not found in src files: named field selector
+warning: glossary-entry not found in src files: named initializer
+warning: glossary-entry not found in src files: named loop expression
+warning: glossary-entry not found in src files: named register argument
+warning: glossary-entry not found in src files: namespace
+warning: glossary-entry not found in src files: NaN-boxing
+warning: glossary-entry not found in src files: negation expression
+warning: no new term-map entries to write
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/glossary-term-map.py
+[93m[1m| [0m[90m Todo     [0m5 todos
+[91m[1m| [0m[90m Bash     [0mChecks glossary static entries for terms
+
+missing: []
+
+[93m[1m| [0m[90m Todo     [0m4 todos
+[91m[1m| [0m[90m Bash     [0mFinds term usage with :t: or :dt: in src
+
+
+== mutable binding ==
+src/patterns.rst:197: with :t:`keyword` ``mut`` yields a :t:`mutable binding`.
+src/patterns.rst:951: :t:`mutable binding`.
+
+== mutable borrow ==
+src/entities-and-resolution.rst:1508:    :t:`immutable borrow` of the :t:`receiver type`.
+src/entities-and-resolution.rst:1512:    :t:`mutable borrow` of the :t:`receiver type`.
+src/expressions.rst:344:   and which are either :t:`[mutable borrow]s`
+src/expressions.rst:399: :t:`immutable borrow expression`.
+src/expressions.rst:1113:      An :dt:`immutable borrow expression` is a :t:`borrow expression` that lacks
+src/expressions.rst:1117:      An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+src/expressions.rst:1121: A :t:`mutable borrow expression` is a :t:`borrow expression` that has
+src/expressions.rst:1141:   If the :t:`borrow expression` denotes an :t:`immutable borrow expression`, then the
+src/expressions.rst:1145:   If the :t:`borrow expression` denotes a :t:`mutable borrow expression`, then the
+src/ownership-and-deconstruction.rst:217: An :t:`implicit borrow` may be an :t:`immutable borrow` or a :t:`mutable borrow`
+src/ownership-and-deconstruction.rst:224:      An :dt:`immutable borrow` is an :t:`immutable reference` produced by
+src/ownership-and-deconstruction.rst:228:      An :t:`immutable borrow` is an :t:`immutable reference` produced by
+src/ownership-and-deconstruction.rst:232: A :t:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
+src/ownership-and-deconstruction.rst:242:    An :t:`immutable borrow` of :t:`type` ``&'a T`` is created, where
+src/ownership-and-deconstruction.rst:250:    The :t:`immutable borrow` is checked against other :t:`[borrow]s` and
+src/ownership-and-deconstruction.rst:257:    The :t:`immutable borrow` is released immediately after the last usage of its
+src/ownership-and-deconstruction.rst:264:    A :t:`mutable borrow` of :t:`type` ``&'a mut T`` is created, where
+src/ownership-and-deconstruction.rst:272:    The :t:`mutable borrow` is checked against other :t:`[borrow]s` and
+src/ownership-and-deconstruction.rst:279:    The :t:`mutable borrow` is released immediately after the last usage of its
+src/values.rst:352:   :t:`immutable borrow expression`.
+src/values.rst:356: promoting the produced :t:`mutable borrow` to have ``'static`` :t:`lifetime`.
+
+== mutable borrow expression ==
+src/expressions.rst:399: :t:`immutable borrow expression`.
+src/expressions.rst:1113:      An :dt:`immutable borrow expression` is a :t:`borrow expression` that lacks
+src/expressions.rst:1117:      An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+src/expressions.rst:1121: A :t:`mutable borrow expression` is a :t:`borrow expression` that has
+src/expressions.rst:1141:   If the :t:`borrow expression` denotes an :t:`immutable borrow expression`, then the
+src/expressions.rst:1145:   If the :t:`borrow expression` denotes a :t:`mutable borrow expression`, then the
+src/values.rst:352:   :t:`immutable borrow expression`.
+
+== mutable place expression ==
+src/expressions.rst:503: A :t:`mutable place expression` is a :t:`place expression` whose memory
+src/expressions.rst:505: :t:`[mutable place expression]s`:
+src/expressions.rst:521:   :t:`mutable place expression`,
+src/expressions.rst:529:   :t:`mutable place expression`,
+src/expressions.rst:545:      An :dt:`immutable place expression` is a :t:`place expression` whose memory
+src/expressions.rst:549:      An :t:`immutable place expression` is a :t:`place expression` whose memory
+src/expressions.rst:551:      :t:`[mutable place expression]s` are :t:`[immutable place expression]s`.
+src/expressions.rst:599:      An :dt:`immutable place expression context` is a :t:`place expression context`
+src/expressions.rst:603: A :t:`mutable place expression context` is a :t:`place expression context` that
+src/expressions.rst:605: :t:`[construct]s` are :t:`[mutable place expression context]s`:
+src/expressions.rst:609:   :t:`mutable place expression context`,
+src/expressions.rst:620:   :t:`mutable place expression context`,
+src/expressions.rst:624:   :t:`mutable place expression context`,
+src/expressions.rst:1275: :t:`mutable place expression`.
+src/expressions.rst:1282: :t:`immutable place expression context`, then the :t:`dereference expression`
+src/expressions.rst:1287: :t:`mutable place expression context`, then the :t:`dereference expression`
+src/expressions.rst:3660: evaluated in a :t:`mutable place expression context`, then
+src/inline-assembly.rst:949:   The :t:`simple register expression` shall be a :t:`mutable place expression`.
+src/patterns.rst:1481: context :t:`value` is a :t:`mutable place expression`.
+
+== mutable place expression context ==
+src/expressions.rst:599:      An :dt:`immutable place expression context` is a :t:`place expression context`
+src/expressions.rst:603: A :t:`mutable place expression context` is a :t:`place expression context` that
+src/expressions.rst:605: :t:`[construct]s` are :t:`[mutable place expression context]s`:
+src/expressions.rst:609:   :t:`mutable place expression context`,
+src/expressions.rst:620:   :t:`mutable place expression context`,
+src/expressions.rst:624:   :t:`mutable place expression context`,
+src/expressions.rst:1282: :t:`immutable place expression context`, then the :t:`dereference expression`
+src/expressions.rst:1287: :t:`mutable place expression context`, then the :t:`dereference expression`
+src/expressions.rst:3660: evaluated in a :t:`mutable place expression context`, then
+
+== mutable raw pointer type ==
+src/expressions.rst:513:   :t:`mutable raw pointer type`,
+src/types-and-traits.rst:1283: A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+src/types-and-traits.rst:1290:      An :dt:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+src/types-and-traits.rst:1294:      An :t:`immutable raw pointer type` is a :t:`raw pointer type` subject to
+
+== mutable reference ==
+src/expressions.rst:517:   :t:`mutable reference type`,
+src/expressions.rst:6264: :dt:`by immutable reference capture` binds an :t:`immutable reference` to the
+src/expressions.rst:6265: :t:`capture target` and passes the :t:`immutable reference` into the
+src/expressions.rst:6270: :dt:`by mutable reference capture` binds a :t:`mutable reference` to the
+src/expressions.rst:6271: :t:`capture target` and passes the :t:`mutable reference` into the
+src/expressions.rst:6276: :dt:`by unique immutable reference capture` binds a
+src/expressions.rst:6277: :t:`unique immutable reference` to the :t:`capture target` and passes the
+src/expressions.rst:6278: :t:`mutable reference` into the :t:`capturing environment`.
+src/expressions.rst:6293:       :t:`By immutable reference capture`.
+src/expressions.rst:6296:       :t:`By unique immutable reference capture` mode, if the
+src/expressions.rst:6297:       :t:`capture target` is a :t:`mutable reference` that is being modified.
+src/expressions.rst:6300:       :t:`By mutable reference capture` mode.
+src/ownership-and-deconstruction.rst:124:      An :dt:`immutable reference` is a :t:`value` of a :t:`shared reference type`,
+src/ownership-and-deconstruction.rst:128:      An :t:`immutable reference` is a :t:`value` of a :t:`shared reference type`, and
+src/ownership-and-deconstruction.rst:132: A :t:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
+src/ownership-and-deconstruction.rst:136: The :t:`referent` of an :t:`immutable reference` shall be mutated only when the
+src/ownership-and-deconstruction.rst:140: While a :t:`mutable reference` is :t:`active`, no other :t:`reference` shall
+src/ownership-and-deconstruction.rst:142: :t:`mutable reference`.
+src/ownership-and-deconstruction.rst:148: :t:`[mutable reference]s` from :t:`unsafe context`.
+src/ownership-and-deconstruction.rst:224:      An :dt:`immutable borrow` is an :t:`immutable reference` produced by
+src/ownership-and-deconstruction.rst:228:      An :t:`immutable borrow` is an :t:`immutable reference` produced by
+src/ownership-and-deconstruction.rst:232: A :t:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
+src/ownership-and-deconstruction.rst:254:    An :t:`immutable reference` to the borrowed :t:`value` is produced.
+src/ownership-and-deconstruction.rst:258:    related :t:`immutable reference`.
+src/ownership-and-deconstruction.rst:276:    A :t:`mutable reference` to the borrowed :t:`value` is produced.
+src/ownership-and-deconstruction.rst:280:    related :t:`mutable reference`.
+src/patterns.rst:1356: :t:`immutable reference` to the matched :t:`value` to the :t:`name`.
+src/patterns.rst:1359: A :t:`binding` with :t:`binding mode` :dt:`by mutable reference` binds a
+src/patterns.rst:1360: :t:`mutable reference` to the matched :t:`value` to the :t:`name`.
+src/patterns.rst:1381:   If the :t:`reference` is an :t:`immutable reference`, then the
+src/patterns.rst:1385:   If the :t:`reference` is a :t:`mutable reference` and the :t:`binding mode`
+src/patterns.rst:1387:   :t:`by mutable reference`.
+src/patterns.rst:1404:   If the :t:`binding mode` is :t:`by mutable reference` or the :t:`binding
+src/patterns.rst:1406:   to a :t:`mutable reference` of the matched :t:`value`.
+src/types-and-traits.rst:1038:   A :t:`mutable reference type`, or
+src/types-and-traits.rst:1345: A :t:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
+src/types-and-traits.rst:1349: A :t:`mutable reference type` allows the direct mutation of a referenced
+src/types-and-traits.rst:1353: A :t:`mutable reference type` does not implement the :std:`copy::marker::Copy`
+src/types-and-traits.rst:2591:      be modified through :t:`[immutable reference]s`.
+src/types-and-traits.rst:2595:      be modified through :t:`[immutable reference]s`.
+
+== mutable reference type ==
+src/expressions.rst:517:   :t:`mutable reference type`,
+src/ownership-and-deconstruction.rst:132: A :t:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
+src/types-and-traits.rst:1038:   A :t:`mutable reference type`, or
+src/types-and-traits.rst:1345: A :t:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
+src/types-and-traits.rst:1349: A :t:`mutable reference type` allows the direct mutation of a referenced
+src/types-and-traits.rst:1353: A :t:`mutable reference type` does not implement the :std:`copy::marker::Copy`
+
+== mutable static ==
+src/expressions.rst:532:   A :t:`path expression` that resolves to a :t:`mutable static`,
+src/expressions.rst:738: A :t:`path expression` that resolves to a :t:`mutable static` shall require
+src/patterns.rst:428: :t:`[mutable static]s`, :t:`[static]s` with :t:`interior mutability`,
+src/unsafety.rst:32:   Reading or writing a :t:`mutable static`.
+src/values.rst:199: A :t:`mutable static` is a :t:`static` with :t:`keyword` ``mut`` whose
+src/values.rst:203: Access to a :t:`mutable static` shall require :t:`unsafe context`.
+src/values.rst:209:      An :dt:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+src/values.rst:212:      An :t:`immutable static` is a :t:`static` whose :t:`value` cannot be modified.
+src/values.rst:215: The type of an :t:`immutable static` shall implement the
+src/values.rst:246: An :t:`immutable static` whose :t:`type` is not subject to
+src/values.rst:252: It is undefined behavior to mutate an :t:`immutable static` whose :t:`type` is
+
+== mutable variable ==
+src/expressions.rst:535:   A :t:`path expression` that resolves to a :t:`mutable variable` that is not
+src/values.rst:293:      An :dt:`immutable variable` is a :t:`variable` whose :t:`value` cannot be
+
+== name ==
+src/associated-items.rst:100:      :t:`name` for.
+src/attributes.rst:54:      its :t:`name`, convention, language, and tool.
+src/attributes.rst:298:   :t:`Attribute` :c:`crate_name`.
+src/attributes.rst:304:   :t:`Attribute` :c:`export_name`.
+src/attributes.rst:310:   :t:`Attribute` :c:`link_name`.
+src/attributes.rst:1230: :t:`Attribute` :c:`crate_name` shall apply to the :t:`crate root module`.
+src/attributes.rst:1233: :t:`Attribute` :dc:`crate_name` shall specify the name of the related
+src/attributes.rst:1293: :t:`Attribute` :c:`export_name` shall apply to :t:`[function]s` and
+src/attributes.rst:1297: :t:`Attribute` :dc:`export_name` shall specify the exported symbol of the
+src/attributes.rst:1348: :t:`Attribute` :dc:`link` shall specify the name of a native library that a tool
+src/attributes.rst:1378: If :t:`attribute` :c:`link` appears without a WebAssembly module name, then the
+src/attributes.rst:1412: :t:`Attribute` :c:`link_name` shall apply to :t:`[external function]s` and
+src/attributes.rst:1416: :t:`Attribute` :dc:`link_name` shall specify the linking symbol of the related
+src/attributes.rst:1420: :t:`Attribute` :c:`link_name` shall not be applied to :t:`[external function]s`
+src/attributes.rst:1573: :t:`Attribute` :dc:`no_mangle` indicates that the :t:`name` of the related
+src/attributes.rst:1706:   :t:`Attribute` :c:`export_name`
+src/attributes.rst:1878: :t:`declarative macro` to :t:`public visibility` and introduces the :t:`name`
+src/attributes.rst:2030: :t:`derive macro`, where :s:`DeriveName` defines the :t:`name` of the
+src/entities-and-resolution.rst:37: A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+src/entities-and-resolution.rst:43:      A :dt:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+src/entities-and-resolution.rst:47:      A :t:`declaration` is a :t:`construct` that introduces a :t:`name` for an
+src/entities-and-resolution.rst:166: which :t:`[module]s` can refer to the :t:`name` of the :t:`field` or :t:`item`.
+src/entities-and-resolution.rst:169: :t:`Public visibility` is a kind of :t:`visibility` that allows for a :t:`name`
+src/entities-and-resolution.rst:174: :t:`Private visibility` is a kind of :t:`visibility` that allows a :t:`name`
+src/entities-and-resolution.rst:179: A :t:`visibility modifier` sets the :t:`visibility` of a :t:`name`.
+src/entities-and-resolution.rst:186:      :t:`name` :t:`public visibility` within the current :t:`crate` only.
+src/entities-and-resolution.rst:193:      :t:`name` :t:`public visibility` within the current :t:`crate` only.
+src/entities-and-resolution.rst:197: :t:`name` :t:`private visibility`. A :t:`self public modifier` is equivalent
+src/entities-and-resolution.rst:203: :t:`name` :t:`public visibility` within the provided :t:`simple path` only.
+src/entities-and-resolution.rst:217: :t:`name` :t:`public visibility`.
+src/entities-and-resolution.rst:221: :t:`name` :t:`public visibility` within the parent :t:`module` only. A
+src/entities-and-resolution.rst:327: :t:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
+src/entities-and-resolution.rst:354:      A :dt:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+src/entities-and-resolution.rst:358:      A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+src/entities-and-resolution.rst:368: :t:`namespace qualifier` ``::`` stripped.
+src/entities-and-resolution.rst:528:      A :t:`name` is :dt:`in scope` when it can be referred to.
+src/entities-and-resolution.rst:894: A :t:`namespace` is a logical grouping of :t:`[name]s` such that the occurrence
+src/entities-and-resolution.rst:895: of a :t:`name` in one :t:`namespace` does not conflict with an occurrence of
+src/entities-and-resolution.rst:896: the same :t:`name` in another :t:`namespace`.
+src/entities-and-resolution.rst:899: :t:`[Name]s` are segregated into one of five :t:`[namespace]s` based on the
+src/entities-and-resolution.rst:900: kind of :t:`entity` the :t:`name` refers to.
+src/entities-and-resolution.rst:903: A :dt:`label namespace` contains :t:`[label]s`.
+src/entities-and-resolution.rst:906: A :dt:`lifetime namespace` contains the :t:`[name]s` of
+src/entities-and-resolution.rst:910: A :dt:`macro namespace` contains the :t:`[name]s` of the following kinds of
+src/entities-and-resolution.rst:929: A :dt:`type namespace` contains the :t:`[name]s` of the following kinds of
+src/entities-and-resolution.rst:972: A :dt:`value namespace` contains the :t:`[name]s` of the following kinds of
+src/entities-and-resolution.rst:1006: The :t:`[name]s` of the following kinds of :t:`entities <entity>` are not part
+src/entities-and-resolution.rst:1007: of any :t:`namespace`:
+src/entities-and-resolution.rst:1029: :t:`prelude entities <prelude entity>`. The :t:`name` of a :t:`prelude entity`
+src/entities-and-resolution.rst:1030: is referred to as a :t:`prelude name`.
+src/entities-and-resolution.rst:1144: :t:`name` than they are declared with by using a :t:`renaming`.
+src/entities-and-resolution.rst:1150:      A :dt:`glob import` is a :t:`use import` that brings all :t:`[name]s` with
+src/entities-and-resolution.rst:1165: A :t:`glob import` brings :t:`[name]s` into :t:`scope` as follows:
+src/entities-and-resolution.rst:1169:   :t:`[name]s` in the :t:`module` that are visible from the location of the
+src/entities-and-resolution.rst:1174:   :t:`[name]s` of all of the :t:`enum`'s :t:`[enum variant]s` into :t:`scope`.
+src/entities-and-resolution.rst:1182: A :t:`simple import` brings :t:`[name]s` into :t:`scope` as follows:
+src/entities-and-resolution.rst:1189:     :t:`entity` in :t:`type namespace` that the :t:`import path prefix` resolves
+src/entities-and-resolution.rst:1203: :t:`name` declared by the :t:`renaming`.
+src/entities-and-resolution.rst:1208: a :t:`name`.
+src/entities-and-resolution.rst:1230: It is a static error if two :t:`[glob import]s` import the same :t:`name` in the
+src/entities-and-resolution.rst:1231: same :t:`namespace` but refer to different :t:`entities <entity>` if the
+src/entities-and-resolution.rst:1232: :t:`name` is used or :t:`shadowed <shadowing>`.
+src/entities-and-resolution.rst:1235: If two :t:`[glob import]s` import the same :t:`entity` under the same :t:`name`,
+src/entities-and-resolution.rst:1236: the :t:`visibility` of the :t:`name` is the most permissive one.
+src/entities-and-resolution.rst:1277: :t:`Shadowing` is a property of :t:`[name]s`. A :t:`name` is said to be
+src/entities-and-resolution.rst:1278: :t:`shadowed` when another :t:`name` with the same characters is introduced
+src/entities-and-resolution.rst:1279: in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
+src/entities-and-resolution.rst:1280: A :t:`name` cannot be referred to by any means once it is :t:`shadowed`.
+src/entities-and-resolution.rst:1283: No :t:`name` shall be :t:`shadowed` except for
+src/entities-and-resolution.rst:1286:   :t:`[Prelude name]s`,
+src/entities-and-resolution.rst:1289:   The :t:`[name]s` of :t:`[macro]s` within :t:`textual macro scope`,
+src/entities-and-resolution.rst:1292:   The :t:`[name]s` of :t:`[variable]s`.
+src/entities-and-resolution.rst:1295: A :t:`prelude name` shadows other :t:`[prelude name]s` depending on which
+src/entities-and-resolution.rst:1297: follows, where a later :t:`prelude name` shadows earlier :t:`prelude name`:
+src/entities-and-resolution.rst:1300:    :t:`Language prelude` :t:`names <prelude name>`.
+src/entities-and-resolution.rst:1303:    Standard library :t:`prelude` :t:`names <prelude name>`.
+src/entities-and-resolution.rst:1306:    :t:`macro_use prelude` :t:`names <prelude name>`.
+src/entities-and-resolution.rst:1309:    Tool :t:`prelude` :t:`names <prelude name>`.
+src/entities-and-resolution.rst:1312:    :t:`External prelude` :t:`names <prelude name>`.
+src/entities-and-resolution.rst:1401: A :dt:`candidate named field` is a :t:`candidate field` whose :t:`name` matches
+src/entities-and-resolution.rst:1402: the characters of a :t:`named field selector`.
+src/entities-and-resolution.rst:1424: :t:`named field selector` proceeds as follows:
+src/entities-and-resolution.rst:1431:       Try to locate a :t:`candidate named field` of the
+src/entities-and-resolution.rst:1435:       If such a :t:`candidate named field` exists and is visible at the point
+src/entities-and-resolution.rst:1437:       resolves to that :t:`candidate named field` and :t:`field resolution`
+src/entities-and-resolution.rst:1654: A :dt:`namespace context` is a set of :t:`[namespace]s` where the :t:`[name]s`
+src/entities-and-resolution.rst:1710:     :t:`candidate external prelude entity` whose :t:`name` matches the
+src/entities-and-resolution.rst:1716:     Otherwise try to find a :t:`candidate direct entity` whose :t:`name`
+src/entities-and-resolution.rst:1721:       :t:`namespace context` is the :t:`type namespace` or the :t:`path` has
+src/entities-and-resolution.rst:1722:       more than one :t:`[path segment]s`, and the :t:`identifier` is a :t:`name`
+src/entities-and-resolution.rst:1752: :t:`path resolution` kind, where the :t:`name` of the
+src/entities-and-resolution.rst:1753: :t:`candidate selected entity` is restricted by the :t:`namespace context`.
+src/entities-and-resolution.rst:1771: The :t:`namespace context` of :t:`simple path resolution` is determined as
+src/entities-and-resolution.rst:1776:   :t:`macro invocation`, then the :t:`namespace context` is the
+src/entities-and-resolution.rst:1777:   :t:`macro namespace`.
+src/entities-and-resolution.rst:1781:   :t:`namespace context` consists of the :t:`macro namespace`, the
+src/entities-and-resolution.rst:1782:   :t:`type namespace`, and the :t:`value namespace`.
+src/entities-and-resolution.rst:1786:   :t:`namespace context` consists of the :t:`type namespace`.
+src/entities-and-resolution.rst:1800:   Otherwise try to find a :t:`candidate selected entity` whose :t:`name`
+src/entities-and-resolution.rst:1820: The :t:`namespace context` of :t:`path expression resolution` is the
+src/entities-and-resolution.rst:1821: :t:`value namespace`.
+src/entities-and-resolution.rst:1840:     :t:`name` matches the characters of the current :t:`path segment`, where
+src/entities-and-resolution.rst:1849:     :t:`name` matches the characters of the current :t:`path segment` within
+src/entities-and-resolution.rst:1865:     :t:`name` matches the characters of the current :t:`path segment` within
+src/entities-and-resolution.rst:1867:     :t:`entities <entity>` whose :t:`[name]s` reside in the
+src/entities-and-resolution.rst:1868:     :t:`type namespace`. What the current :t:`path segment` resolves to and its
+src/entities-and-resolution.rst:1874:     :t:`name` matches the characters of the current :t:`path segment` within
+src/entities-and-resolution.rst:1883:     :t:`name` matches the characters of the current :t:`path segment` within
+src/entities-and-resolution.rst:1916:       :t:`inherent implementation` whose :t:`name` matches the characters of
+src/entities-and-resolution.rst:1934:       :t:`trait implementation` whose :t:`name` matches the characters of the
+src/entities-and-resolution.rst:1954: The :t:`namespace context` of :t:`type path resolution` is the
+src/entities-and-resolution.rst:1955: :t:`type namespace`.
+src/entities-and-resolution.rst:1971:   :t:`name` matches the characters of the current :t:`path segment` within
+src/entities-and-resolution.rst:1977:   :t:`trait`, then try to find a :t:`candidate selected entity` whose :t:`name`
+src/entities-and-resolution.rst:1986:   then try to find a :t:`candidate selected entity` whose :t:`name` matches
+src/expressions.rst:984: A :t:`named block expression` is a :t:`block expression` with a :t:`label`.
+src/expressions.rst:987: The :t:`type` of the :t:`named block expression` is the :t:`type` of its
+src/expressions.rst:991: The :t:`value` of the :t:`named block expression` is the :t:`value` of its
+src/expressions.rst:3860: A :t:`named initializer` is a :t:`construct` that specifies the name and
+src/expressions.rst:3864: A :t:`named initializer` matches a :t:`field` of the :t:`constructee` when
+src/expressions.rst:3865: its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+src/expressions.rst:3866: :t:`named initializer` is a :dt:`matched named initializer`.
+src/expressions.rst:3869: The :t:`type` of a :t:`named initializer` and the :t:`type` of the matched
+src/expressions.rst:3873: The :t:`value` of a :t:`named initializer` is the :t:`value` of its
+src/expressions.rst:3877: A :t:`shorthand initializer` is a :t:`construct` that specifies the :t:`name`
+src/expressions.rst:3881: A :t:`shorthand initializer` is equivalent to a :t:`named initializer` where
+src/expressions.rst:3882: both the :t:`identifier` and the :t:`expression` of the :t:`named initializer`
+src/expressions.rst:3887: when its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such
+src/expressions.rst:3915:     Contain at most one :t:`matched named initializer`, or
+src/expressions.rst:3956:     Contain exactly one :t:`matched named initializer`, or
+src/expressions.rst:4585:      :t:`[binding]s` that bind matched input :t:`[value]s` to :t:`[name]s` at the
+src/expressions.rst:4593:      :t:`[binding]s` that bind matched input :t:`[value]s` to :t:`[name]s` at the
+src/expressions.rst:4717: A :t:`named loop expression` is a :t:`loop expression` with a :t:`label`.
+src/expressions.rst:5046:      A :dt:`label` is the :t:`name` of a :t:`loop expression`.
+src/expressions.rst:5065: :t:`named block expression` or :t:`named loop expression` that does not pass a
+src/expressions.rst:5067: :t:`named block expression` or :t:`named loop expression`.
+src/expressions.rst:5088:      :t:`loop expression` or a :t:`named block expression`.
+src/expressions.rst:5095:      :t:`loop expression` or a :t:`named block expression`.
+src/expressions.rst:5099: :t:`named block expression`.
+src/expressions.rst:5102: If a :t:`break expression` appears within a :t:`named block expression`, then
+src/expressions.rst:5107: :t:`label` of an enclosing :t:`named block expression` or
+src/expressions.rst:5108: :t:`named loop expression`.
+src/expressions.rst:5112: :t:`named block expression` or :t:`named loop expression` whose :t:`label` is
+src/expressions.rst:5184: If a :t:`break expression` appears within a :t:`named block expression`, then
+src/expressions.rst:5191:    All enclosing :t:`[named block expression]s` upto and including the
+src/expressions.rst:5192:    associated :t:`named block expression` are terminated.
+src/expressions.rst:5240: :t:`named loop expression` whose :t:`label` is indicated by the
+src/ffi.rst:36:   :t:`Attribute` :c:`export_name`.
+src/functions.rst:89:      :t:`[binding]s` that bind matched input :t:`[value]s` to :t:`[name]s` at the
+src/functions.rst:97:      :t:`[binding]s` that bind matched input :t:`[value]s` to :t:`[name]s` at the
+src/functions.rst:225:      that encompasses of its :t:`[function qualifier]s`, :t:`name`,
+src/functions.rst:231:      that encompasses of its :t:`[function qualifier]s`, :t:`name`,
+src/general.rst:242: as long as their names are not the same as the names of :t:`[built-in
+src/implementations.rst:140: define more than one :t:`associated item` with the same :t:`name` in the same
+src/implementations.rst:141: :t:`namespace`.
+src/implementations.rst:290:   The :t:`[name]s` of both :t:`[associated constant]s` are the same, and
+src/implementations.rst:315:   The :t:`[name]s` of both :t:`[type]s` are the same, and
+src/inline-assembly.rst:118:      An :dt:`input register` is a :t:`register` whose :t:`register name` is used in
+src/inline-assembly.rst:123:      An :t:`input register` is a :t:`register` whose :t:`register name` is used in
+src/inline-assembly.rst:128: An :t:`output register` is a :t:`register` whose :t:`register name` is
+src/inline-assembly.rst:138: A :t:`register name` is either the :t:`explicit register name` of a
+src/inline-assembly.rst:139: :t:`register`, or the :t:`register class name` of the :t:`register class` a
+src/inline-assembly.rst:146:      An :dt:`explicit register name` is a target-specific string that identifies
+src/inline-assembly.rst:153:      An :t:`explicit register name` is a target-specific string that identifies
+src/inline-assembly.rst:157: An :t:`explicit register name` may be aliased as follows:
+src/inline-assembly.rst:339: Certain :t:`[explicit register name]s` are not supported on selected
+src/inline-assembly.rst:424: It is a static error to use an unsupported :t:`explicit register name`.
+src/inline-assembly.rst:474: A :t:`register class name` is a target-specific string that identifies a
+src/inline-assembly.rst:680: A :t:`named register argument` is a :t:`register argument` whose configuration
+src/inline-assembly.rst:688: A :t:`named register argument` shall appear after a
+src/inline-assembly.rst:696:      :t:`explicit register name`.
+src/inline-assembly.rst:700:      :t:`explicit register name`.
+src/inline-assembly.rst:704: :t:`named register argument`.
+src/inline-assembly.rst:708: :t:`register class name`.
+src/inline-assembly.rst:777: a :t:`function` :t:`name` or a :t:`static` :t:`name`.
+src/lexical-elements.rst:286: The following names are used when referring to :t:`[punctuator]s`:
+src/lexical-elements.rst:495:      An :dt:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+src/lexical-elements.rst:501:      An :t:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+src/lexical-elements.rst:533:   the :t:`simple path` starts with namespace qualifier ``::``,
+src/macros.rst:84:      A :dt:`declarative macro` is a :t:`macro` that associates a :t:`name` with a
+src/macros.rst:91:      A :t:`declarative macro` is a :t:`macro` that associates a :t:`name` with a set
+src/macros.rst:199: a particular kind and bind its :t:`value` to a name for use during
+src/macros.rst:443: A :t:`macro implementation function` enters the :t:`name` of the
+src/macros.rst:444: :t:`procedural macro` into the :t:`macro namespace`.
+src/patterns.rst:87:   Any two :t:`[binding]s` with the same name in the two :t:`[pattern-without-alternation]s` shall have
+src/patterns.rst:205: the :t:`value namespace` if it does not resolve to a :t:`constant`, a
+src/patterns.rst:932: A :t:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
+src/patterns.rst:936: A :t:`named deconstructor` matches a :t:`field` of the :t:`deconstructee` when
+src/patterns.rst:937: its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+src/patterns.rst:938: :t:`named deconstructor` is a :dt:`matched named deconstructor`.
+src/patterns.rst:941: The :t:`type` of a :t:`matched named deconstructor` and the :t:`type` of the
+src/patterns.rst:945: A :t:`shorthand deconstructor` is a :t:`construct` that matches the :t:`name`
+src/patterns.rst:959: A :t:`shorthand deconstructor` is equivalent to a :t:`named deconstructor` where
+src/patterns.rst:960: the :t:`name` of the :t:`shorthand deconstructor` denotes the :t:`identifier`
+src/patterns.rst:961: of the :t:`named deconstructor` and the entire content of the :t:`shorthand
+src/patterns.rst:962: deconstructor` denotes the :t:`pattern` of the :t:`named deconstructor`.
+src/patterns.rst:966: when its :t:`name` and the :t:`name` of the :t:`field` are the same. Such a
+src/patterns.rst:982:     Contain at most one :t:`matched named deconstructor`, or
+src/patterns.rst:1029:     Contain exactly one :t:`matched named deconstructor`, or
+src/patterns.rst:1340:      :t:`name`.
+src/patterns.rst:1347:      :t:`name`.
+src/patterns.rst:1352: indicated by the :t:`name`.
+src/patterns.rst:1356: :t:`immutable reference` to the matched :t:`value` to the :t:`name`.
+src/patterns.rst:1360: :t:`mutable reference` to the matched :t:`value` to the :t:`name`.
+src/program-structure-and-compilation.rst:172: a :t:`function` in scope of its :t:`crate root module` under the :t:`name`
+src/program-structure-and-compilation.rst:177: the :t:`name` ``main`` with a :t:`main function signature` is the :t:`binary
+src/program-structure-and-compilation.rst:252: external :t:`crate` to a local :t:`name` and introduces the local :t:`name` into
+src/types-and-traits.rst:185: :t:`Type` :c:`bool` appears in the :t:`language prelude` under the name
+src/types-and-traits.rst:828: The :t:`name` of an :t:`enum variant` shall be unique within the related
+src/types-and-traits.rst:974: The :t:`name` of a :t:`record struct field` shall be unique within the
+src/types-and-traits.rst:1028: The :t:`name` of a :t:`union field` shall be unique within the related
+src/types-and-traits.rst:1678: A :t:`type alias` is an :t:`item` that defines a :t:`name` for a :t:`type`.
+src/types-and-traits.rst:3825:      An :dt:`elided lifetime` is either an :t:`unnamed lifetime` or a :t:`lifetime`
+src/values.rst:103: An :t:`unnamed constant` is a :t:`constant` declared with character 0x5F (low
+
+== named block expression ==
+src/expressions.rst:984: A :t:`named block expression` is a :t:`block expression` with a :t:`label`.
+src/expressions.rst:987: The :t:`type` of the :t:`named block expression` is the :t:`type` of its
+src/expressions.rst:991: The :t:`value` of the :t:`named block expression` is the :t:`value` of its
+src/expressions.rst:5065: :t:`named block expression` or :t:`named loop expression` that does not pass a
+src/expressions.rst:5067: :t:`named block expression` or :t:`named loop expression`.
+src/expressions.rst:5088:      :t:`loop expression` or a :t:`named block expression`.
+src/expressions.rst:5095:      :t:`loop expression` or a :t:`named block expression`.
+src/expressions.rst:5099: :t:`named block expression`.
+src/expressions.rst:5102: If a :t:`break expression` appears within a :t:`named block expression`, then
+src/expressions.rst:5107: :t:`label` of an enclosing :t:`named block expression` or
+src/expressions.rst:5112: :t:`named block expression` or :t:`named loop expression` whose :t:`label` is
+src/expressions.rst:5184: If a :t:`break expression` appears within a :t:`named block expression`, then
+src/expressions.rst:5191:    All enclosing :t:`[named block expression]s` upto and including the
+src/expressions.rst:5192:    associated :t:`named block expression` are terminated.
+
+== named deconstructor ==
+src/patterns.rst:932: A :t:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
+src/patterns.rst:936: A :t:`named deconstructor` matches a :t:`field` of the :t:`deconstructee` when
+src/patterns.rst:938: :t:`named deconstructor` is a :dt:`matched named deconstructor`.
+src/patterns.rst:941: The :t:`type` of a :t:`matched named deconstructor` and the :t:`type` of the
+src/patterns.rst:959: A :t:`shorthand deconstructor` is equivalent to a :t:`named deconstructor` where
+src/patterns.rst:961: of the :t:`named deconstructor` and the entire content of the :t:`shorthand
+src/patterns.rst:962: deconstructor` denotes the :t:`pattern` of the :t:`named deconstructor`.
+src/patterns.rst:982:     Contain at most one :t:`matched named deconstructor`, or
+src/patterns.rst:1029:     Contain exactly one :t:`matched named deconstructor`, or
+
+== named field selector ==
+src/entities-and-resolution.rst:1402: the characters of a :t:`named field selector`.
+src/entities-and-resolution.rst:1424: :t:`named field selector` proceeds as follows:
+
+== named initializer ==
+src/expressions.rst:3860: A :t:`named initializer` is a :t:`construct` that specifies the name and
+src/expressions.rst:3864: A :t:`named initializer` matches a :t:`field` of the :t:`constructee` when
+src/expressions.rst:3866: :t:`named initializer` is a :dt:`matched named initializer`.
+src/expressions.rst:3869: The :t:`type` of a :t:`named initializer` and the :t:`type` of the matched
+src/expressions.rst:3873: The :t:`value` of a :t:`named initializer` is the :t:`value` of its
+src/expressions.rst:3881: A :t:`shorthand initializer` is equivalent to a :t:`named initializer` where
+src/expressions.rst:3882: both the :t:`identifier` and the :t:`expression` of the :t:`named initializer`
+src/expressions.rst:3915:     Contain at most one :t:`matched named initializer`, or
+src/expressions.rst:3956:     Contain exactly one :t:`matched named initializer`, or
+
+== named loop expression ==
+src/expressions.rst:4717: A :t:`named loop expression` is a :t:`loop expression` with a :t:`label`.
+src/expressions.rst:5065: :t:`named block expression` or :t:`named loop expression` that does not pass a
+src/expressions.rst:5067: :t:`named block expression` or :t:`named loop expression`.
+src/expressions.rst:5108: :t:`named loop expression`.
+src/expressions.rst:5112: :t:`named block expression` or :t:`named loop expression` whose :t:`label` is
+src/expressions.rst:5240: :t:`named loop expression` whose :t:`label` is indicated by the
+
+== named register argument ==
+src/inline-assembly.rst:680: A :t:`named register argument` is a :t:`register argument` whose configuration
+src/inline-assembly.rst:688: A :t:`named register argument` shall appear after a
+src/inline-assembly.rst:704: :t:`named register argument`.
+
+== namespace ==
+src/entities-and-resolution.rst:327: :t:`namespace qualifier` ``::`` that resolves to an :t:`entity`.
+src/entities-and-resolution.rst:354:      A :dt:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+src/entities-and-resolution.rst:358:      A :t:`global path` is a :t:`path` that starts with :t:`namespace qualifier`
+src/entities-and-resolution.rst:368: :t:`namespace qualifier` ``::`` stripped.
+src/entities-and-resolution.rst:894: A :t:`namespace` is a logical grouping of :t:`[name]s` such that the occurrence
+src/entities-and-resolution.rst:895: of a :t:`name` in one :t:`namespace` does not conflict with an occurrence of
+src/entities-and-resolution.rst:896: the same :t:`name` in another :t:`namespace`.
+src/entities-and-resolution.rst:899: :t:`[Name]s` are segregated into one of five :t:`[namespace]s` based on the
+src/entities-and-resolution.rst:903: A :dt:`label namespace` contains :t:`[label]s`.
+src/entities-and-resolution.rst:906: A :dt:`lifetime namespace` contains the :t:`[name]s` of
+src/entities-and-resolution.rst:910: A :dt:`macro namespace` contains the :t:`[name]s` of the following kinds of
+src/entities-and-resolution.rst:929: A :dt:`type namespace` contains the :t:`[name]s` of the following kinds of
+src/entities-and-resolution.rst:972: A :dt:`value namespace` contains the :t:`[name]s` of the following kinds of
+src/entities-and-resolution.rst:1007: of any :t:`namespace`:
+src/entities-and-resolution.rst:1189:     :t:`entity` in :t:`type namespace` that the :t:`import path prefix` resolves
+src/entities-and-resolution.rst:1231: same :t:`namespace` but refer to different :t:`entities <entity>` if the
+src/entities-and-resolution.rst:1279: in the same :t:`scope` within the same :t:`namespace`, effectively hiding it.
+src/entities-and-resolution.rst:1654: A :dt:`namespace context` is a set of :t:`[namespace]s` where the :t:`[name]s`
+src/entities-and-resolution.rst:1721:       :t:`namespace context` is the :t:`type namespace` or the :t:`path` has
+src/entities-and-resolution.rst:1753: :t:`candidate selected entity` is restricted by the :t:`namespace context`.
+src/entities-and-resolution.rst:1771: The :t:`namespace context` of :t:`simple path resolution` is determined as
+src/entities-and-resolution.rst:1776:   :t:`macro invocation`, then the :t:`namespace context` is the
+src/entities-and-resolution.rst:1777:   :t:`macro namespace`.
+src/entities-and-resolution.rst:1781:   :t:`namespace context` consists of the :t:`macro namespace`, the
+src/entities-and-resolution.rst:1782:   :t:`type namespace`, and the :t:`value namespace`.
+src/entities-and-resolution.rst:1786:   :t:`namespace context` consists of the :t:`type namespace`.
+src/entities-and-resolution.rst:1820: The :t:`namespace context` of :t:`path expression resolution` is the
+src/entities-and-resolution.rst:1821: :t:`value namespace`.
+src/entities-and-resolution.rst:1868:     :t:`type namespace`. What the current :t:`path segment` resolves to and its
+src/entities-and-resolution.rst:1954: The :t:`namespace context` of :t:`type path resolution` is the
+src/entities-and-resolution.rst:1955: :t:`type namespace`.
+src/implementations.rst:141: :t:`namespace`.
+src/lexical-elements.rst:533:   the :t:`simple path` starts with namespace qualifier ``::``,
+src/macros.rst:444: :t:`procedural macro` into the :t:`macro namespace`.
+src/patterns.rst:205: the :t:`value namespace` if it does not resolve to a :t:`constant`, a
+
+== NaN-boxing ==
+src/inline-assembly.rst:609:   ``freg``, then :c:`f32` :t:`[value]s` are :t:`NaN-boxed <NaN-boxing>`. in a
+
+== negation expression ==
+src/expressions.rst:1452: A :t:`negation expression` is an :t:`expression` that negates its :t:`operand`.
+src/expressions.rst:1455: The :t:`type` of the :t:`operand` of a :t:`negation expression` with a
+src/expressions.rst:1460: The :t:`type` of a :t:`negation expression` with a :s:`BitwiseNegationOperator`
+src/expressions.rst:1464: The :t:`value` of a :t:`negation expression` with a :s:`BitwiseNegationOperator`
+src/expressions.rst:1468: The :t:`type` of the :t:`operand` of a :t:`negation expression` with a
+src/expressions.rst:1472: The :t:`type` of a :t:`negation expression` with a :s:`SignNegationOperator`
+src/expressions.rst:1476: The :t:`value` of a :t:`negation expression` with a :s:`SignNegationOperator` is
+src/expressions.rst:1482: The :t:`evaluation` of a :t:`negation expression` with a
+src/expressions.rst:1490:    :t:`negation expression` evaluates to the bitwise negation of the
+src/expressions.rst:1514: The :t:`evaluation` of a :t:`negation expression` with a
+src/expressions.rst:1522:    :t:`negation expression` evaluates to the :t:`value` of the :t:`operand`,
+src/expressions.rst:1523:    with its sign inverted. If the result of the :t:`negation expression` does
+src/expressions.rst:1529:    :t:`negation expression` evaluates to the :t:`value` of the :t:`operand`,
+src/expressions.rst:6319:      :t:`negation expression` computes a :t:`value` of a :t:`scalar type` that lies
+src/types-and-traits.rst:2953:   A :t:`negation expression` is inferred as follows:
+src/types-and-traits.rst:3680:   :t:`index expression`, or :t:`negation expression` are the same requirements
+
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[91m[1m| [0m[90m Bash     [0mFinds definition-like lines for mutable binding
+[91m[1m| [0m[90m Bash     [0mFinds definition-like lines for terms
+
+
+== mutable binding ==
+(no definition-like match)
+
+== mutable borrow ==
+(no definition-like match)
+
+== mutable borrow expression ==
+(no definition-like match)
+
+== mutable place expression ==
+(no definition-like match)
+
+== mutable place expression context ==
+(no definition-like match)
+
+== mutable raw pointer type ==
+(no definition-like match)
+
+== mutable reference ==
+(no definition-like match)
+
+== mutable reference type ==
+(no definition-like match)
+
+== mutable static ==
+(no definition-like match)
+
+== mutable variable ==
+(no definition-like match)
+
+== name ==
+(no definition-like match)
+
+== named block expression ==
+(no definition-like match)
+
+== named deconstructor ==
+(no definition-like match)
+
+== named field selector ==
+(no definition-like match)
+
+== named initializer ==
+(no definition-like match)
+
+== named loop expression ==
+(no definition-like match)
+
+== named register argument ==
+(no definition-like match)
+
+== namespace ==
+(no definition-like match)
+
+== NaN-boxing ==
+(no definition-like match)
+
+== negation expression ==
+(no definition-like match)
+
+[91m[1m| [0m[90m Bash     [0mFinds lines with :t:`named block expression`
+
+src/expressions.rst 984 A :t:`named block expression` is a :t:`block expression` with a :t:`label`.
+src/expressions.rst 987 The :t:`type` of the :t:`named block expression` is the :t:`type` of its
+src/expressions.rst 991 The :t:`value` of the :t:`named block expression` is the :t:`value` of its
+src/expressions.rst 5065 :t:`named block expression` or :t:`named loop expression` that does not pass a
+src/expressions.rst 5067 :t:`named block expression` or :t:`named loop expression`.
+src/expressions.rst 5088      :t:`loop expression` or a :t:`named block expression`.
+src/expressions.rst 5095      :t:`loop expression` or a :t:`named block expression`.
+src/expressions.rst 5099 :t:`named block expression`.
+src/expressions.rst 5102 If a :t:`break expression` appears within a :t:`named block expression`, then
+src/expressions.rst 5107 :t:`label` of an enclosing :t:`named block expression` or
+src/expressions.rst 5112 :t:`named block expression` or :t:`named loop expression` whose :t:`label` is
+src/expressions.rst 5184 If a :t:`break expression` appears within a :t:`named block expression`, then
+src/expressions.rst 5192    associated :t:`named block expression` are terminated.
+
+[91m[1m| [0m[90m Bash     [0mFinds definition with 'is' for mutable binding
+[91m[1m| [0m[90m Bash     [0mFinds definition with 'is' for mutable variable
+
+src/expressions.rst 535   A :t:`path expression` that resolves to a :t:`mutable variable` that is not
+
+[91m[1m| [0m[90m Bash     [0mFinds definition with 'is' for named field selector
+[91m[1m| [0m[90m Bash     [0mFinds definition with 'is' for NaN-boxing
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/values.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[96m[1m| [0m[90m Read     [0msrc/inline-assembly.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable reference
+
+.. glossary-entry:: mutable reference
+   
+   :glossary:
+     :dp:`fls_wujjrhm1d338`
+     A :dt:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
+     allows the mutation of its :t:`referent`.
+   :chapter:
+     :dp:`fls_fckoj1jh5mrc`
+     A :t:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
+     allows the mutation of its :t:`referent`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable borrow
+
+.. glossary-entry:: mutable borrow
+   
+   :glossary:
+     :dp:`fls_5knwbyz4fd9z`
+     A :dt:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
+   :chapter:
+     :dp:`fls_pu19i4sj6yg0`
+     A :t:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable place expression
+
+.. glossary-entry:: mutable place expression
+   
+   :glossary:
+     :dp:`fls_kq877s3vij70`
+     A :dt:`mutable place expression` is a :t:`place expression` whose memory
+     location can be modified.
+   :chapter:
+     :dp:`fls_ku38h562vfyl`
+     A :t:`mutable place expression` is a :t:`place expression` whose memory
+     location can be modified. The following :t:`[place expression]s` are
+     :t:`[mutable place expression]s`:
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable place expression context
+
+.. glossary-entry:: mutable place expression context
+   
+   :glossary:
+     :dp:`fls_2ixH8LWGHi3k`
+     A :dt:`mutable place expression context` is a :t:`place expression context`
+     that may evaluate its :t:`operand` as a mutable memory location.
+   :chapter:
+     :dp:`fls_wxGAOWEVT77u`
+     A :t:`mutable place expression context` is a :t:`place expression context` that
+     may evaluate its :t:`operand` as a mutable memory location. The following
+     :t:`[construct]s` are :t:`[mutable place expression context]s`:
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable borrow expression
+
+.. glossary-entry:: mutable borrow expression
+   
+   :glossary:
+     :dp:`fls_80kcc4y21hu6`
+     A :dt:`mutable borrow expression` is a :t:`borrow expression` that has
+     :t:`keyword` ``mut``.
+   :chapter:
+     :dp:`fls_50j167r4v61b`
+     A :t:`mutable borrow expression` is a :t:`borrow expression` that has
+     :t:`keyword` ``mut``.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for named block expression
+
+.. glossary-entry:: named block expression
+   
+   :glossary:
+     :dp:`fls_ivFb8uAMVY3Q`
+     A :dt:`named block expression` is a :t:`block expression` with a :t:`label`.
+   :chapter:
+     :dp:`fls_J8wJNfcSAYrS`
+     A :t:`named block expression` is a :t:`block expression` with a :t:`label`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for named initializer
+
+.. glossary-entry:: named initializer
+   
+   :glossary:
+     :dp:`fls_xwvz8i4jim7a`
+     A :dt:`named initializer` is a :t:`construct` that specifies the name and
+     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+     
+     :dp:`fls_aueznbw3lohl`
+     See :s:`NamedInitializer`.
+   :chapter:
+     :dp:`fls_lwyq3vyc91rn`
+     A :t:`named initializer` is a :t:`construct` that specifies the name and
+     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for named loop expression
+
+.. glossary-entry:: named loop expression
+   
+   :glossary:
+     :dp:`fls_440dr5qix3ns`
+     A :dt:`named loop expression` is a :t:`loop expression` with a :t:`label`.
+   :chapter:
+     :dp:`fls_phpoq9ho8f1v`
+     A :t:`named loop expression` is a :t:`loop expression` with a :t:`label`.
+     
+     .. rubric:: Dynamic Semantics
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for negation expression
+
+.. glossary-entry:: negation expression
+   
+   :glossary:
+     :dp:`fls_pmn6cjamdt0a`
+     A :dt:`negation expression` is an :t:`expression` that negates its :t:`operand`.
+     
+     :dp:`fls_o1f35ud4klvv`
+     See :s:`NegationExpression`.
+   :chapter:
+     :dp:`fls_pfa81kv2mru8`
+     A :t:`negation expression` is an :t:`expression` that negates its :t:`operand`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for named deconstructor
+
+.. glossary-entry:: named deconstructor
+   
+   :glossary:
+     :dp:`fls_g3k1hy3j4qn9`
+     A :dt:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
+     a :t:`field`.
+     
+     :dp:`fls_ujreg07979g8`
+     See :s:`NamedDeconstructor`.
+   :chapter:
+     :dp:`fls_46u4ddj0yf93`
+     A :t:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
+     a :t:`field`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable binding
+
+.. glossary-entry:: mutable binding
+   
+   :glossary:
+     :dp:`fls_v2pGKVaQjtcl`
+     A :dt:`mutable binding` is a :t:`binding` whose :t:`value` can be modified.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable raw pointer type
+
+.. glossary-entry:: mutable raw pointer type
+   
+   :glossary:
+     :dp:`fls_86SFxSDRcC06`
+     A :dt:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``mut``.
+   :chapter:
+     :dp:`fls_bYWfGDAQcWfA`
+     A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``mut``.
+     
+     .. glossary-entry:: immutable raw pointer type
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable raw pointer type with manual chapter lines
+
+/bin/bash: line 1: fls_bYWfGDAQcWfA: command not found
+/bin/bash: line 1: mutable: command not found
+/bin/bash: line 1: raw: command not found
+/bin/bash: line 1: keyword: command not found
+.. glossary-entry:: mutable raw pointer type
+   
+   :glossary:
+     :dp:`fls_86SFxSDRcC06`
+     A :dt:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``mut``.
+   :chapter:
+     :dp:
+     A :t: is a :t: subject to
+     :t: mut.
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for mutable raw pointer type (manual chapter lines)
+
+.. glossary-entry:: mutable raw pointer type
+   
+   :glossary:
+     :dp:`fls_86SFxSDRcC06`
+     A :dt:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``mut``.
+   :chapter:
+     :dp:`fls_bYWfGDAQcWfA`
+     A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+     :t:`keyword` ``mut``.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable reference type
+
+.. glossary-entry:: mutable reference type
+   
+   :glossary:
+     :dp:`fls_q06p9tclwaaw`
+     A :dt:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
+     ``mut``.
+   :chapter:
+     :dp:`fls_GUZuiST7ucib`
+     A :t:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
+     ``mut``.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable static
+
+.. glossary-entry:: mutable static
+   
+   :glossary:
+     :dp:`fls_3ss4bokujaby`
+     A :dt:`mutable static` is a :t:`static` whose :t:`value` can be modified.
+   :chapter:
+     :dp:`fls_doi4z6u55bi7`
+     A :t:`mutable static` is a :t:`static` with :t:`keyword` ``mut`` whose
+     :t:`value` can be modified.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for mutable variable
+
+.. glossary-entry:: mutable variable
+   
+   :glossary:
+     :dp:`fls_kjjv9jvdpf2o`
+     A :dt:`mutable variable` is a :t:`variable` whose :t:`value` can be modified.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/values.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for name
+
+.. glossary-entry:: name
+   
+   :glossary:
+     :dp:`fls_jjpzrs38vs3y`
+     A :dt:`name` is an :t:`identifier` that refers to an :t:`entity`.
+     
+     :dp:`fls_yrzevg5kd4bi`
+     See :s:`Name`.
+   :chapter:
+     :dp:`fls_40d2g0hvq2il`
+     A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+     
+     .. glossary-entry:: declaration
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry for name with manual chapter lines
+
+.. glossary-entry:: name
+   
+   :glossary:
+     :dp:`fls_jjpzrs38vs3y`
+     A :dt:`name` is an :t:`identifier` that refers to an :t:`entity`.
+     
+     :dp:`fls_yrzevg5kd4bi`
+     See :s:`Name`.
+   :chapter:
+     :dp:`fls_40d2g0hvq2il`
+     A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for namespace
+
+.. glossary-entry:: namespace
+   
+   :glossary:
+     :dp:`fls_er8lcvnEqxa5`
+     A :dt:`namespace` is a logical grouping of :t:`[name]s` such that the
+     occurrence of a :t:`name` in one :t:`namespace` does not conflict with an
+     occurrence of the same :t:`name` in another :t:`namespace`.
+   :chapter:
+     :dp:`fls_1d4jm61qnt4l`
+     A :t:`namespace` is a logical grouping of :t:`[name]s` such that the occurrence
+     of a :t:`name` in one :t:`namespace` does not conflict with an occurrence of
+     the same :t:`name` in another :t:`namespace`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for named field selector
+
+.. glossary-entry:: named field selector
+   
+   :glossary:
+     :dp:`fls_cczpgxqdyh1e`
+     A :dt:`named field selector` is a :t:`field selector` where the selected
+     :t:`field` is indicated by an :t:`identifier`.
+     
+     :dp:`fls_hpw0n89ez5nw`
+     See :s:`NamedFieldSelector`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for named register argument
+
+.. glossary-entry:: named register argument
+   
+   :glossary:
+     :dp:`fls_QBWHppNO8FPk`
+     A :dt:`named register argument` is a :t:`register argument` whose configuration
+     is bound to an :t:`identifier`.
+   :chapter:
+     :dp:`fls_uddjvkz4g899`
+     A :t:`named register argument` is a :t:`register argument` whose configuration
+     is bound to an :t:`identifier`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[91m[1m| [0m[90m Bash     [0mGenerates glossary-entry directive for NaN-boxing
+
+.. glossary-entry:: NaN-boxing
+   
+   :glossary:
+     :dp:`fls_s956sJGwOa6z`
+     :dt:`NaN-boxing` is a technique for encoding :t:`[value]s` using the low order
+     bits of the mantissa of a 64-bit IEEE floating-point ``NaN``.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/inline-assembly.rst
+[93m[1m| [0m[90m Todo     [0m2 todos
+[91m[1m| [0m[90m Bash     [0mAppends term-map entries for current batch
+[91m[1m| [0m[90m Bash     [0mGenerates build/generated.glossary.rst
+[91m[1m| [0m[90m Bash     [0mDiffs generated glossary against static baseline
+[91m[1m| [0m[90m Bash     [0mRuns HTML diff verification script
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[93m[1m| [0m[90m Todo     [0m1 todos
+[91m[1m| [0m[90m Bash     [0mShows git status summary
+
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 1]
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/inline-assembly.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+ M src/values.rst
+
+[91m[1m| [0m[90m Bash     [0mShows unstaged and staged diffs
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index ad2a424..c28ce5b 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -33,8 +33,17 @@ Entities
+      An :t:`entity` is a :t:`construct` that can be referred to within program text,
+      usually via a :t:`field access expression` or a :t:`path`.
+ 
+-:dp:`fls_40d2g0hvq2il`
+-A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
++.. glossary-entry:: name
++   
++   :glossary:
++     :dp:`fls_jjpzrs38vs3y`
++     A :dt:`name` is an :t:`identifier` that refers to an :t:`entity`.
++     
++     :dp:`fls_yrzevg5kd4bi`
++     See :s:`Name`.
++   :chapter:
++     :dp:`fls_40d2g0hvq2il`
++     A :t:`name` is an :t:`identifier` that refers to an :t:`entity`.
+ 
+ .. glossary-entry:: declaration
+    
+@@ -890,10 +899,18 @@ Namespaces
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_1d4jm61qnt4l`
+-A :t:`namespace` is a logical grouping of :t:`[name]s` such that the occurrence
+-of a :t:`name` in one :t:`namespace` does not conflict with an occurrence of
+-the same :t:`name` in another :t:`namespace`.
++.. glossary-entry:: namespace
++   
++   :glossary:
++     :dp:`fls_er8lcvnEqxa5`
++     A :dt:`namespace` is a logical grouping of :t:`[name]s` such that the
++     occurrence of a :t:`name` in one :t:`namespace` does not conflict with an
++     occurrence of the same :t:`name` in another :t:`namespace`.
++   :chapter:
++     :dp:`fls_1d4jm61qnt4l`
++     A :t:`namespace` is a logical grouping of :t:`[name]s` such that the occurrence
++     of a :t:`name` in one :t:`namespace` does not conflict with an occurrence of
++     the same :t:`name` in another :t:`namespace`.
+ 
+ :dp:`fls_avsua7bho205`
+ :t:`[Name]s` are segregated into one of five :t:`[namespace]s` based on the
+@@ -1413,11 +1430,21 @@ the characters of a :t:`named field selector`.
+       Try to locate a :t:`candidate indexed field` of the
+       :t:`candidate container type`.
+ 
+-   #. :dp:`fls_tfjm27ydiake`
+-      If such a :t:`candidate indexed field` exists and is visible at the point
+-      of the :t:`field access expression`, then the :t:`field access expression`
+-      resolves to that :t:`candidate indexed field` and :t:`field resolution`
+-      stops.
++#. :dp:`fls_tfjm27ydiake`
++   If such a :t:`candidate indexed field` exists and is visible at the point
++   of the :t:`field access expression`, then the :t:`field access expression`
++   resolves to that :t:`candidate indexed field` and :t:`field resolution`
++   stops.
++
++.. glossary-entry:: named field selector
++   
++   :glossary:
++     :dp:`fls_cczpgxqdyh1e`
++     A :dt:`named field selector` is a :t:`field selector` where the selected
++     :t:`field` is indicated by an :t:`identifier`.
++     
++     :dp:`fls_hpw0n89ez5nw`
++     See :s:`NamedFieldSelector`.
+ 
+ :dp:`fls_p6hgoqo0kcx`
+ :t:`Field resolution` of a :t:`field access expression` with a
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 5c351d7..3ae1a24 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -499,10 +499,17 @@ location. The following :t:`[expression]s` are :t:`[place expression]s`:
+ * :dp:`fls_gv4M0DE3OMwk`
+   A :t:`temporary`.
+ 
+-:dp:`fls_ku38h562vfyl`
+-A :t:`mutable place expression` is a :t:`place expression` whose memory
+-location can be modified. The following :t:`[place expression]s` are
+-:t:`[mutable place expression]s`:
++.. glossary-entry:: mutable place expression
++   
++   :glossary:
++     :dp:`fls_kq877s3vij70`
++     A :dt:`mutable place expression` is a :t:`place expression` whose memory
++     location can be modified.
++   :chapter:
++     :dp:`fls_ku38h562vfyl`
++     A :t:`mutable place expression` is a :t:`place expression` whose memory
++     location can be modified. The following :t:`[place expression]s` are
++     :t:`[mutable place expression]s`:
+ 
+ * :dp:`fls_1tq2o2huda9l`
+   A :t:`dereference expression` whose :t:`operand`'s :t:`type` implements the
+@@ -599,10 +606,17 @@ The following :t:`[construct]s` are :t:`[place expression context]s`:
+      An :dt:`immutable place expression context` is a :t:`place expression context`
+      whose memory location cannot be modified.
+ 
+-:dp:`fls_wxGAOWEVT77u`
+-A :t:`mutable place expression context` is a :t:`place expression context` that
+-may evaluate its :t:`operand` as a mutable memory location. The following
+-:t:`[construct]s` are :t:`[mutable place expression context]s`:
++.. glossary-entry:: mutable place expression context
++   
++   :glossary:
++     :dp:`fls_2ixH8LWGHi3k`
++     A :dt:`mutable place expression context` is a :t:`place expression context`
++     that may evaluate its :t:`operand` as a mutable memory location.
++   :chapter:
++     :dp:`fls_wxGAOWEVT77u`
++     A :t:`mutable place expression context` is a :t:`place expression context` that
++     may evaluate its :t:`operand` as a mutable memory location. The following
++     :t:`[construct]s` are :t:`[mutable place expression context]s`:
+ 
+ * :dp:`fls_qytgkbhqr5ln`
+   The :t:`indexed operand` of an :t:`index expression` if evaluated in a
+@@ -980,8 +994,14 @@ Named Blocks
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_J8wJNfcSAYrS`
+-A :t:`named block expression` is a :t:`block expression` with a :t:`label`.
++.. glossary-entry:: named block expression
++   
++   :glossary:
++     :dp:`fls_ivFb8uAMVY3Q`
++     A :dt:`named block expression` is a :t:`block expression` with a :t:`label`.
++   :chapter:
++     :dp:`fls_J8wJNfcSAYrS`
++     A :t:`named block expression` is a :t:`block expression` with a :t:`label`.
+ 
+ :dp:`fls_B4NBv2jfZLuy`
+ The :t:`type` of the :t:`named block expression` is the :t:`type` of its
+@@ -1117,9 +1137,16 @@ Borrow Expression
+      An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+      :t:`keyword` ``mut``.
+ 
+-:dp:`fls_50j167r4v61b`
+-A :t:`mutable borrow expression` is a :t:`borrow expression` that has
+-:t:`keyword` ``mut``.
++.. glossary-entry:: mutable borrow expression
++   
++   :glossary:
++     :dp:`fls_80kcc4y21hu6`
++     A :dt:`mutable borrow expression` is a :t:`borrow expression` that has
++     :t:`keyword` ``mut``.
++   :chapter:
++     :dp:`fls_50j167r4v61b`
++     A :t:`mutable borrow expression` is a :t:`borrow expression` that has
++     :t:`keyword` ``mut``.
+ 
+ :dp:`fls_ya77l2zgtilp`
+ When the :t:`operand` of a :t:`borrow expression` is a :t:`place expression`,
+@@ -1448,8 +1475,17 @@ Negation Expression
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_pfa81kv2mru8`
+-A :t:`negation expression` is an :t:`expression` that negates its :t:`operand`.
++.. glossary-entry:: negation expression
++   
++   :glossary:
++     :dp:`fls_pmn6cjamdt0a`
++     A :dt:`negation expression` is an :t:`expression` that negates its :t:`operand`.
++     
++     :dp:`fls_o1f35ud4klvv`
++     See :s:`NegationExpression`.
++   :chapter:
++     :dp:`fls_pfa81kv2mru8`
++     A :t:`negation expression` is an :t:`expression` that negates its :t:`operand`.
+ 
+ :dp:`fls_plcut8vzdwox`
+ The :t:`type` of the :t:`operand` of a :t:`negation expression` with a
+@@ -3856,9 +3892,19 @@ The :t:`type` of the :t:`operand` of an :t:`indexed initializer` and the
+ The :t:`value` of an :t:`indexed initializer` is the :t:`value` of its
+ :t:`operand`.
+ 
+-:dp:`fls_lwyq3vyc91rn`
+-A :t:`named initializer` is a :t:`construct` that specifies the name and
+-initial :t:`value` of a :t:`field` in a :t:`struct expression`.
++.. glossary-entry:: named initializer
++   
++   :glossary:
++     :dp:`fls_xwvz8i4jim7a`
++     A :dt:`named initializer` is a :t:`construct` that specifies the name and
++     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
++     
++     :dp:`fls_aueznbw3lohl`
++     See :s:`NamedInitializer`.
++   :chapter:
++     :dp:`fls_lwyq3vyc91rn`
++     A :t:`named initializer` is a :t:`construct` that specifies the name and
++     initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+ 
+ :dp:`fls_qed1pps827dv`
+ A :t:`named initializer` matches a :t:`field` of the :t:`constructee` when
+@@ -4713,10 +4759,16 @@ The :t:`type` of the :t:`loop body` shall be the :t:`unit type`.
+      An :t:`anonymous loop expression` is a :t:`loop expression` without a
+      :t:`label`.
+ 
+-:dp:`fls_phpoq9ho8f1v`
+-A :t:`named loop expression` is a :t:`loop expression` with a :t:`label`.
+-
+-.. rubric:: Dynamic Semantics
++.. glossary-entry:: named loop expression
++   
++   :glossary:
++     :dp:`fls_440dr5qix3ns`
++     A :dt:`named loop expression` is a :t:`loop expression` with a :t:`label`.
++   :chapter:
++     :dp:`fls_phpoq9ho8f1v`
++     A :t:`named loop expression` is a :t:`loop expression` with a :t:`label`.
++     
++     .. rubric:: Dynamic Semantics
+ 
+ :dp:`fls_aw6qczl4zpko`
+ A :t:`loop expression` is :t:`terminated` when its :t:`block expression` is no
+diff --git a/src/inline-assembly.rst b/src/inline-assembly.rst
+index c2e7e70..b25e897 100644
+--- a/src/inline-assembly.rst
++++ b/src/inline-assembly.rst
+@@ -616,6 +616,13 @@ then
+ * :dp:`fls_7dii7lee457t`
+   Otherwise, for an :t:`output register`, the upper bits are ignored.
+ 
++.. glossary-entry:: NaN-boxing
++   
++   :glossary:
++     :dp:`fls_s956sJGwOa6z`
++     :dt:`NaN-boxing` is a technique for encoding :t:`[value]s` using the low order
++     bits of the mantissa of a 64-bit IEEE floating-point ``NaN``.
++
+ :dp:`fls_ujhjocg1361b`
+ If a :t:`register argument` has :t:`direction modifier` ``inout`` and an
+ :t:`input-output register expression`, then the :t:`input register expression`
+@@ -676,9 +683,16 @@ and output of a :t:`register`, and optionally binds the configuration to an
+ :dp:`fls_6bv3s8be5xif`
+ A :t:`register argument` shall be used within an :t:`assembly instruction`.
+ 
+-:dp:`fls_uddjvkz4g899`
+-A :t:`named register argument` is a :t:`register argument` whose configuration
+-is bound to an :t:`identifier`.
++.. glossary-entry:: named register argument
++   
++   :glossary:
++     :dp:`fls_QBWHppNO8FPk`
++     A :dt:`named register argument` is a :t:`register argument` whose configuration
++     is bound to an :t:`identifier`.
++   :chapter:
++     :dp:`fls_uddjvkz4g899`
++     A :t:`named register argument` is a :t:`register argument` whose configuration
++     is bound to an :t:`identifier`.
+ 
+ :dp:`fls_sqs5to20p0te`
+ A :t:`positional register argument` is a :t:`register argument` whose
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index 0f726b5..b275620 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -128,9 +128,16 @@ A :t:`referent` shall not be modified while a :t:`reference` to it is
+      An :t:`immutable reference` is a :t:`value` of a :t:`shared reference type`, and
+      prevents the mutation of its :t:`referent`.
+ 
+-:dp:`fls_fckoj1jh5mrc`
+-A :t:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
+-allows the mutation of its :t:`referent`.
++.. glossary-entry:: mutable reference
++   
++   :glossary:
++     :dp:`fls_wujjrhm1d338`
++     A :dt:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
++     allows the mutation of its :t:`referent`.
++   :chapter:
++     :dp:`fls_fckoj1jh5mrc`
++     A :t:`mutable reference` is a :t:`value` of a :t:`mutable reference type`, and
++     allows the mutation of its :t:`referent`.
+ 
+ :dp:`fls_hqxsuyn285he`
+ The :t:`referent` of an :t:`immutable reference` shall be mutated only when the
+@@ -228,8 +235,14 @@ if required.
+      An :t:`immutable borrow` is an :t:`immutable reference` produced by
+      :t:`borrowing`.
+ 
+-:dp:`fls_pu19i4sj6yg0`
+-A :t:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
++.. glossary-entry:: mutable borrow
++   
++   :glossary:
++     :dp:`fls_5knwbyz4fd9z`
++     A :dt:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
++   :chapter:
++     :dp:`fls_pu19i4sj6yg0`
++     A :t:`mutable borrow` is a :t:`mutable reference` produced by :t:`borrowing`.
+ 
+ :dp:`fls_kxws4zmaahj6`
+ :t:`Borrowing` a :t:`field` of a :t:`union type` borrows all remaining
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 77c3656..0cd3af6 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -196,6 +196,12 @@ Identifier Patterns
+ An :t:`identifier pattern` yields a :t:`binding`. An :t:`identifier pattern`
+ with :t:`keyword` ``mut`` yields a :t:`mutable binding`.
+ 
++.. glossary-entry:: mutable binding
++   
++   :glossary:
++     :dp:`fls_v2pGKVaQjtcl`
++     A :dt:`mutable binding` is a :t:`binding` whose :t:`value` can be modified.
++
+ :dp:`fls_joIQdDn44oIT`
+ An :t:`identifier pattern` with :t:`keyword` ``ref`` is a
+ :t:`reference identifier pattern`.
+@@ -928,9 +934,19 @@ when its :t:`field index` and the position of the :t:`field` in the
+ The :t:`type` of a :t:`matched indexed deconstructor` and the :t:`type` of the
+ matched :t:`field` shall be :t:`unifiable`.
+ 
+-:dp:`fls_46u4ddj0yf93`
+-A :t:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
+-a :t:`field`.
++.. glossary-entry:: named deconstructor
++   
++   :glossary:
++     :dp:`fls_g3k1hy3j4qn9`
++     A :dt:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
++     a :t:`field`.
++     
++     :dp:`fls_ujreg07979g8`
++     See :s:`NamedDeconstructor`.
++   :chapter:
++     :dp:`fls_46u4ddj0yf93`
++     A :t:`named deconstructor` is a :t:`construct` that matches the :t:`name` of
++     a :t:`field`.
+ 
+ :dp:`fls_qu3dvfdq6oy7`
+ A :t:`named deconstructor` matches a :t:`field` of the :t:`deconstructee` when
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index f1b1375..0e955ba 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -1279,9 +1279,16 @@ Raw Pointer Types
+ :dp:`fls_rpbhr0xukbx9`
+ A :t:`raw pointer type` is an :t:`indirection type` without validity guarantees.
+ 
+-:dp:`fls_bYWfGDAQcWfA`
+-A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
+-:t:`keyword` ``mut``.
++.. glossary-entry:: mutable raw pointer type
++   
++   :glossary:
++     :dp:`fls_86SFxSDRcC06`
++     A :dt:`mutable raw pointer type` is a :t:`raw pointer type` subject to
++     :t:`keyword` ``mut``.
++   :chapter:
++     :dp:`fls_bYWfGDAQcWfA`
++     A :t:`mutable raw pointer type` is a :t:`raw pointer type` subject to
++     :t:`keyword` ``mut``.
+ 
+ .. glossary-entry:: immutable raw pointer type
+    
+@@ -1341,9 +1348,16 @@ A :t:`shared reference type` implements the :std:`core::marker::Copy`
+ :dp:`fls_csdjfwczlzfd`
+ Releasing a :t:`shared reference` has no effect on the :t:`value` it refers to.
+ 
+-:dp:`fls_GUZuiST7ucib`
+-A :t:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
+-``mut``.
++.. glossary-entry:: mutable reference type
++   
++   :glossary:
++     :dp:`fls_q06p9tclwaaw`
++     A :dt:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
++     ``mut``.
++   :chapter:
++     :dp:`fls_GUZuiST7ucib`
++     A :t:`mutable reference type` is a :t:`reference type` subject to :t:`keyword`
++     ``mut``.
+ 
+ :dp:`fls_vaas9kns4zo6`
+ A :t:`mutable reference type` allows the direct mutation of a referenced
+diff --git a/src/values.rst b/src/values.rst
+index 3c53132..0f2c0a0 100644
+--- a/src/values.rst
++++ b/src/values.rst
+@@ -195,9 +195,15 @@ The :t:`type` of a :t:`static` shall implement the :std:`core::marker::Sized`
+ :dp:`fls_WRpcVF1fLEpr`
+ A :t:`static` shall only be subject to an :s:`ItemSafety` if it is an :t:`external static` in an :t:`unsafe external block`.
+ 
+-:dp:`fls_doi4z6u55bi7`
+-A :t:`mutable static` is a :t:`static` with :t:`keyword` ``mut`` whose
+-:t:`value` can be modified.
++.. glossary-entry:: mutable static
++   
++   :glossary:
++     :dp:`fls_3ss4bokujaby`
++     A :dt:`mutable static` is a :t:`static` whose :t:`value` can be modified.
++   :chapter:
++     :dp:`fls_doi4z6u55bi7`
++     A :t:`mutable static` is a :t:`static` with :t:`keyword` ``mut`` whose
++     :t:`value` can be modified.
+ 
+ :dp:`fls_74hp208pto22`
+ Access to a :t:`mutable static` shall require :t:`unsafe context`.
+@@ -293,6 +299,12 @@ stack.
+      An :dt:`immutable variable` is a :t:`variable` whose :t:`value` cannot be
+      modified.
+ 
++.. glossary-entry:: mutable variable
++   
++   :glossary:
++     :dp:`fls_kjjv9jvdpf2o`
++     A :dt:`mutable variable` is a :t:`variable` whose :t:`value` can be modified.
++
+ :dp:`fls_vgi0gh5zmoiu`
+ The following :t:`[construct]s` are :t:`[variable]s`:
+ 
+
+[91m[1m| [0m[90m Bash     [0mShows recent commit messages
+
+d6c89e6 docs(glossary): migrate macro and method glossary entries
+0be1c7e docs(glossary): migrate loop and macro glossary entries
+c862c56 docs(glossary): migrate batch 18 entries
+bc069fd docs(glossary): migrate batch 17 entries
+59827bd docs(glossary): migrate batch 16 entries
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[91m[1m| [0m[90m Bash     [0mStages updated glossary migration files
+[91m[1m| [0m[90m Bash     [0mCommits glossary migration changes and shows status
+
+[glossary-single-source-phase1 ec49426] docs(glossary): migrate mutable and named terms
+ 7 files changed, 196 insertions(+), 48 deletions(-)
+## glossary-single-source-phase1...origin/glossary-single-source-phase1 [ahead 2]
+
+[93m[1m| [0m[90m Todo     [0m0 todos
+Migrated the next 20 glossary terms into `.. glossary-entry::` blocks across the relevant chapters, keeping glossary text verbatim and inserting glossary-only entries where no chapter definition exists. Also updated the Phase 2 checklist and term-map under `OPENCODE_CONFIG_DIR` (not staged or committed).
+
+Files updated in repo:
+- `src/entities-and-resolution.rst`
+- `src/expressions.rst`
+- `src/inline-assembly.rst`
+- `src/ownership-and-deconstruction.rst`
+- `src/patterns.rst`
+- `src/types-and-traits.rst`
+- `src/values.rst`
+
+Verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (no differences)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (no differences)
+
+Commit:
+- `docs(glossary): migrate mutable and named terms`
+
+Next steps:
+1. Push the branch if you want it shared.
+2. Open a PR when ready.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

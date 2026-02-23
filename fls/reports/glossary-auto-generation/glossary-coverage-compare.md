@@ -1,88 +1,10 @@
 Origin/main glossary entries: 779
-Generated glossary entries: 878
-Missing entries: 78
+Generated glossary entries: 956
+Missing entries: 0
 Extra entries: 177
 
 ## Missing entries
 
-- assignment
-- atomic
-- c_signed_int_type
-- evaluated
-- executed
-- range_full_expression
-- representation
-- u128
-- u16
-- u32
-- u64
-- u8
-- unary_operator
-- undefined_behavior
-- underscore_expression
-- underscore_pattern
-- unicode
-- unifiable
-- unified_type
-- union
-- union_field
-- union_type
-- union_value
-- unique_immutable_reference
-- unit_enum_variant
-- unit_struct
-- unit_struct_constant
-- unit_struct_type
-- unit_struct_value
-- unit_tuple
-- unit_type
-- unit_value
-- unnamed_constant
-- unnamed_lifetime
-- unqualified_path_expression
-- unsafe_block
-- unsafe_block_expression
-- unsafe_context
-- unsafe_external_block
-- unsafe_function
-- unsafe_function_item_type
-- unsafe_function_pointer_type
-- unsafe_operation
-- unsafe_rust
-- unsafe_trait
-- unsafe_trait_implementation
-- unsafety
-- unsigned_integer_type
-- unsized_coercion
-- unsized_type
-- unsuffixed_float
-- unsuffixed_integer
-- use_capture
-- use_import
-- usize
-- validity_invariant
-- value
-- value_expression
-- value_expression_context
-- value_operand
-- variable
-- variadic_part
-- variance
-- visibility
-- visibility_modifier
-- visible_emptiness
-- visible_empty_enum_variant
-- visible_empty_type
-- weak_keyword
-- where_clause
-- where_clause_predicate
-- while_let_loop
-- while_let_loop_expression
-- while_loop
-- while_loop_expression
-- whitespace_string
-- zero_sized_type
-- zero_variant_enum_type
 
 ## Extra entries
 

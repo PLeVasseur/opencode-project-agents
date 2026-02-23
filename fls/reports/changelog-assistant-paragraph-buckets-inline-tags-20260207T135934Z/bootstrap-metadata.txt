@@ -1,0 +1,5 @@
+timestamp_utc=20260207T135934Z
+report_root=/home/pete.levasseur/opencode-project-agents/fls/reports/changelog-assistant-paragraph-buckets-inline-tags-20260207T135934Z
+branch=system-abi-variadic-anchor-title-preserve-integration-on-dedupe-20260207T050810Z
+head_sha=942eb8d4fd45791269626933afa88edc877b07c8
+origin_main_sha=f1b193f5197f48686bd56fe881633bb62fad7f27

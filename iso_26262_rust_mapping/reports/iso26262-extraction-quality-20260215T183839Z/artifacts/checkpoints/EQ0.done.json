@@ -1,0 +1,9 @@
+{
+  "base_branch": "main",
+  "baseline_run_id": "20260215T162251Z",
+  "mode": "kickoff-new",
+  "run_id": "20260215T183839Z",
+  "stage": "EQ0",
+  "target_branch": "feat/iso26262-extraction-quality-20260215T183839Z",
+  "timestamp_utc": "2026-02-15T18:38:40Z"
+}

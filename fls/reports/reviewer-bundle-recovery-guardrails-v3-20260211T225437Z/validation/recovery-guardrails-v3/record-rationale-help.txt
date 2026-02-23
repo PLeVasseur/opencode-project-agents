@@ -1,0 +1,44 @@
+usage: record-rationale-v3.py [-h] --checklist-id CHECKLIST_ID --checklist
+                              CHECKLIST --ledger LEDGER --placement-json
+                              PLACEMENT_JSON --divergence-json DIVERGENCE_JSON
+                              --events-jsonl EVENTS_JSONL --batch-id BATCH_ID
+                              --implementer-id IMPLEMENTER_ID --action-type
+                              ACTION_TYPE --decision-detail DECISION_DETAIL
+                              --reason-code REASON_CODE --reason-why
+                              REASON_WHY [--reason-quality REASON_QUALITY]
+                              --semantic-change-flag SEMANTIC_CHANGE_FLAG
+                              --review-attention REVIEW_ATTENTION --after-file
+                              AFTER_FILE --after-line AFTER_LINE --after-dp-id
+                              AFTER_DP_ID [--after-section AFTER_SECTION]
+                              [--phase1-status PHASE1_STATUS]
+                              [--final-quality FINAL_QUALITY]
+                              [--deviation-permit DEVIATION_PERMIT]
+                              [--min-reason-length MIN_REASON_LENGTH]
+
+Write guarded rationale updates for one v3 checklist term
+
+options:
+  -h, --help            show this help message and exit
+  --checklist-id CHECKLIST_ID
+  --checklist CHECKLIST
+  --ledger LEDGER
+  --placement-json PLACEMENT_JSON
+  --divergence-json DIVERGENCE_JSON
+  --events-jsonl EVENTS_JSONL
+  --batch-id BATCH_ID
+  --implementer-id IMPLEMENTER_ID
+  --action-type ACTION_TYPE
+  --decision-detail DECISION_DETAIL
+  --reason-code REASON_CODE
+  --reason-why REASON_WHY
+  --reason-quality REASON_QUALITY
+  --semantic-change-flag SEMANTIC_CHANGE_FLAG
+  --review-attention REVIEW_ATTENTION
+  --after-file AFTER_FILE
+  --after-line AFTER_LINE
+  --after-dp-id AFTER_DP_ID
+  --after-section AFTER_SECTION
+  --phase1-status PHASE1_STATUS
+  --final-quality FINAL_QUALITY
+  --deviation-permit DEVIATION_PERMIT
+  --min-reason-length MIN_REASON_LENGTH

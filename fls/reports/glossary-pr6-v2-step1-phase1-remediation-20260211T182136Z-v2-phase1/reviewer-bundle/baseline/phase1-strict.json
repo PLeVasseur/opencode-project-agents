@@ -1,0 +1,17 @@
+{
+  "artifacts": {
+    "missing_terms": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/baseline/missing-terms.json",
+    "term_inventory": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/baseline/term-inventory.json"
+  },
+  "checks": [
+    {
+      "details": {
+        "missing_count": 0
+      },
+      "name": "glossary-terms-covered-by-chapters",
+      "passed": true
+    }
+  ],
+  "phase": 1,
+  "strict": true
+}

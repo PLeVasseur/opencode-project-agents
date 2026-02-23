@@ -1,0 +1,36 @@
+{
+  "extraction_policy_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/tools/traceability/mining/config/extraction_policy_v1.jsonc",
+  "mode": "licensed_local",
+  "pdf_root": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262",
+  "pending_hashes": 0,
+  "relevant_policy_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/relevant-pdf-policy.jsonc",
+  "required_parts": [
+    "P06",
+    "P08",
+    "P09"
+  ],
+  "required_parts_completeness": "3/3",
+  "resolved_parts": {
+    "P06": {
+      "hash_status": "LOCKED",
+      "match_mode": "preferred_exact",
+      "resolved_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/ISO 26262-6;2018 ed.2 (en).pdf",
+      "sha256": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce"
+    },
+    "P08": {
+      "hash_status": "LOCKED",
+      "match_mode": "preferred_exact",
+      "resolved_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/ISO 26262-8;2018 ed.2 (en).pdf",
+      "sha256": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c"
+    },
+    "P09": {
+      "hash_status": "LOCKED",
+      "match_mode": "preferred_exact",
+      "resolved_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/ISO 26262-9;2018 ed.2 (en).pdf",
+      "sha256": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+    }
+  },
+  "run_id": "pr1-20260216T041431Z",
+  "source_pdfset_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/source-pdfset.jsonc",
+  "timestamp_utc": "2026-02-16T04:14:40Z"
+}

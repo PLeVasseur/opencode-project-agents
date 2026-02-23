@@ -46,6 +46,7 @@
 - [x] assigned operand (assigned_operand)
 - [x] assignee expression (assignee_expression)
 - [x] assignee operand (assignee_operand)
+- [x] assignment (assignment)
 - [x] assignment expression (assignment_expression)
 - [x] associated constant (associated_constant)
 - [x] associated function (associated_function)
@@ -68,6 +69,7 @@
 - [x] async closure type (async_closure_type)
 - [x] async control flow boundary (async_control_flow_boundary)
 - [x] async function (async_function)
+- [x] atomic (atomic)
 - [x] atomic type (atomic_type)
 - [x] attribute (attribute)
 - [x] attribute content (attribute_content)
@@ -384,3 +386,13 @@
 - Placement: `src/expressions.rst` :dp:`fls_sjz5s71hwm7l`
 - Action: Upgraded the definition sentence to `:dt:`.
 - Rationale: Await expression section defines awaiting futures.
+
+## assignment (assignment)
+- Placement: `src/expressions.rst` :dp:`fls_1m8q0t2y6b9v`
+- Action: Added an alias entry that redirects to assignment expression.
+- Rationale: Assignment expressions define assignment semantics.
+
+## atomic (atomic)
+- Placement: `src/concurrency.rst` :dp:`fls_7r2m9q4t1c6v`
+- Action: Added an alias entry that redirects to atomic type.
+- Rationale: Atomics section defines atomic types.

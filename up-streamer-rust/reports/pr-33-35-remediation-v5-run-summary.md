@@ -1,0 +1,109 @@
+# PR #33/#34/#35 CI Remediation v5 Run Summary
+
+- Run started (UTC): 2026-02-13T23:16:14Z
+- Plan path: `/home/pete.levasseur/opencode-project-agents/up-streamer-rust/plans/pr-33-pr-35-stacked-ci-remediation-plan-v5.md`
+- Progress file: `/home/pete.levasseur/opencode-project-agents/up-streamer-rust/reports/pr-33-35-remediation-v5-progress.env`
+- Initial branch: `pr-32-restack-work`
+- Initial HEAD: `ca9368e4176d4dc849c37dc192f1352c305a68f4`
+- Run status: `completed`
+
+## Evidence Log
+
+- Startup: initialized new v5 run state because progress and summary artifacts were absent.
+- Phase 0 / state capture: `git rev-parse` tips -> PR A `75610d579355f5e56a997abb3ec1b8ea7e30d721`, PR B `bdb4151f90520b1e25e6053e0017c94c700d3ca1`, PR C `8670bca47d8c33a19007c700e485009cd62eabd2`.
+- Phase 0 / rollback anchors: created tags `backup-pr33-35-v5-prA-20260213T231614Z`, `backup-pr33-35-v5-prB-20260213T231614Z`, `backup-pr33-35-v5-prC-20260213T231614Z`.
+- Phase 0 / cleanliness: `git status --porcelain` returned empty output (clean worktree).
+- Phase 0 / CI logs PR A bundled: run `22004122466` (`Lint and Test - Bundled`), failed logs inspected (`tool_c594bb426001QeSkuofsXT2fzA`); first actionable lint failure `dead_code` on `lookup_route_subscribers`.
+- Phase 0 / CI logs PR A unbundled: run `22004122478` (`Lint and Test - Unbundled`), failed logs inspected (`tool_c594bd385001zxYCVREJcVT9SQ`); same first actionable failure.
+- Phase 0 / CI logs PR C bundled: run `22004131419` (`Lint and Test - Bundled`), failed logs inspected (`tool_c594bebd4001rJJnov6zxZ9mgH`); same first actionable failure.
+- Phase 0 / CI logs PR C unbundled: run `22004131537` (`Lint and Test - Unbundled`), failed logs inspected (`tool_c594c078b001l3eY6be5vqR1a1`); same first actionable failure.
+- Phase 0 / failure scope: searched each failed log for `error:` and `warning:` around lint exit; no additional `-D warnings` violations were present before compile stopped.
+- Phase 0 / CI toolchain evidence: PR #33 logs report `rustc 1.93.1 (01f6ddf75 2026-02-11)` and `cargo 1.93.1 (083ac5135 2025-12-15)`; clippy component install is logged via `rustup component add clippy` and `component 'clippy' ... is up to date`.
+- Phase 0 / local toolchain before align: `rustc 1.92.0`, `cargo 1.92.0`, `clippy 0.1.92`.
+- Phase 0 / parity action: ran `rustup update stable`; local now `rustc 1.93.1`, `cargo 1.93.1`, `clippy 0.1.93` to match CI stable lane.
+- Phase 0 / command matrix baseline (recorded): in each validation phase run `source build/envsetup.sh highest` first, then execute required clippy/test/check commands from plan v5 phase gates; run unbundled clippy only when `VSOMEIP_INSTALL_PATH` is valid and record run/skip rationale.
+- Phase 0 / env prerequisite: ran `source build/envsetup.sh highest`; resulting `VSOMEIP_INSTALL_PATH` is empty and install tree validation failed (`VSOMEIP_INSTALL_VALID=no`).
+- Phase 0 / unbundled policy decision: local unbundled clippy is **skipped with rationale** (missing valid `VSOMEIP_INSTALL_PATH`); bundled clippy and full tests remain mandatory.
+- Phase transition: entered `phase1`; switched to `cleanup/refactor-upstream-main-prA-architecture` at `75610d579355f5e56a997abb3ec1b8ea7e30d721`.
+- Phase 1 / prep: ran `git fetch --all --prune`.
+- Phase 1 / commit mapping (relative to `upstream/main`): c0 `fb49056ff0c05ebcc15bdfd5b48aa00e84b7d40d`, c1 `cd436ae08fd752dcbc778a5e0968b4275cf0f7d1`, c2 `cbef88502769269471e8ad7bcca6716dd24109a2`, c3 `75610d579355f5e56a997abb3ec1b8ea7e30d721`.
+- Phase 1 / rewrite setup: created temporary branch `tmp/pr33-v5-rewrite-c2-20260213T2320Z` from c1 (`cd436ae08fd752dcbc778a5e0968b4275cf0f7d1`).
+- Phase 1 / c2 replay: cherry-picked original c2 (`cbef88502769269471e8ad7bcca6716dd24109a2`) onto rewrite branch.
+- Phase 1 / c2 dead-code fix: removed `lookup_route_subscribers` from `up-streamer/src/routing/subscription_directory.rs` and switched the test callsite to `lookup_route_subscribers_with_version("authority-b").await.1`.
+- Phase 1 / symbol sweep: `grep` for `lookup_route_subscribers\(` returned no matches across `*.rs` files.
+- Phase 1 / c2 amend: ran `git add -u && git commit --amend --no-edit`; rewritten c2 is now `fba6eafa1e4f62923790c20669fb7578bd00ac43`.
+- Phase 1 / checkpoint: created `checkpoint-pr33-v5-post-c2-20260213T2320Z` at rewritten c2 SHA.
+- Phase 1 / c3 replay: cherry-picked original c3 (`75610d579355f5e56a997abb3ec1b8ea7e30d721`) as `fd2e32649a7a26ad3c4897f1b4b05790141ee07c`; no conflicts occurred (c3 conflict firewall not invoked).
+- Phase 1 / c3 scope check: original and replayed c3 file lists match exactly (test/helper-centric scope only).
+- Phase 1 / branch move: force-moved `cleanup/refactor-upstream-main-prA-architecture` to rewritten tip `fd2e32649a7a26ad3c4897f1b4b05790141ee07c`.
+- Phase 1 / shape check: `git rev-list --count upstream/main..cleanup/refactor-upstream-main-prA-architecture` returned `4` commits.
+- Phase 1 / c2 scope drift check: diff between original c2 and rewritten c2 touches only `up-streamer/src/routing/subscription_directory.rs` (`4 insertions, 7 deletions`).
+- Phase 1 / validation: base clippy passed (`source build/envsetup.sh highest && cargo clippy --all-targets -- -W warnings -D warnings`).
+- Phase 1 / validation: bundled feature clippy passed (`source build/envsetup.sh highest && env -u VSOMEIP_INSTALL_PATH cargo clippy --features vsomeip-transport,bundled-vsomeip,zenoh-transport,mqtt-transport --all-targets -- -W warnings -D warnings`).
+- Phase 1 / validation: workspace tests passed (`source build/envsetup.sh highest && cargo test --workspace`).
+- Phase 1 / validation: unbundled clippy skipped with rationale (local `VSOMEIP_INSTALL_PATH` invalid/unset after env setup).
+- Phase 1 / publish: pushed `cleanup/refactor-upstream-main-prA-architecture` to `origin` with `--force-with-lease` (`75610d5...fd2e326`).
+- Phase 1 / PR metadata: updated PR #33 body with rewritten c2/c3 SHAs, explicit c2-amend dead-code note, and updated validation section.
+- Phase transition: entered `phase2`; switched to `cleanup/refactor-upstream-main-prB-benchmark` at `bdb4151f90520b1e25e6053e0017c94c700d3ca1`.
+- Phase 2 / rebase: `git rebase cleanup/refactor-upstream-main-prA-architecture` initially attempted to replay old c2 (`cbef885...`) and hit conflicts; c3 (`75610d5`) was auto-skipped as already applied.
+- Phase 2 / rebase decision: ran `git rebase --skip` to drop redundant old c2 replay and preserve stack boundary; rebase completed successfully.
+- Phase 2 / benchmark API drift fix: updated `up-streamer/src/benchmark_support.rs` callsites to `lookup_route_subscribers_with_version(...).await.1` (both lookup sites).
+- Phase 2 / commit amend: ran `git add -u && git commit --amend --no-edit`; PR B head is now `c1a61bc62065c86c659d5ac1a1fd11cbf970a3f3`.
+- Phase 2 / scope check: amended PR B commit file list remains benchmark/guardrail scope; API drift fix localized to `up-streamer/src/benchmark_support.rs`.
+- Phase 2 / shape check: `git rev-list --count cleanup/refactor-upstream-main-prA-architecture..HEAD` returned `1`.
+- Phase 2 / validation: `cargo check -p criterion-guardrail --all-targets` passed.
+- Phase 2 / validation: `cargo test -p criterion-guardrail --all-targets` passed.
+- Phase 2 / validation: `cargo check -p up-streamer --benches` passed.
+- Phase 2 / validation: `cargo test --workspace` passed.
+- Phase 2 / validation: base clippy and bundled-feature clippy both passed; unbundled clippy skipped (invalid/unset `VSOMEIP_INSTALL_PATH`).
+- Phase 2 / publish: pushed `cleanup/refactor-upstream-main-prB-benchmark` to `origin` with `--force-with-lease` (`bdb4151...c1a61bc`).
+- Phase 2 / PR metadata: updated PR #34 body for new c4 SHA and benchmark API drift fix/validation notes.
+- Phase transition: entered `phase3`; switched to `cleanup/refactor-upstream-main-prC-smoke` at `8670bca47d8c33a19007c700e485009cd62eabd2`.
+- Phase 3 / rebase: `git rebase cleanup/refactor-upstream-main-prA-architecture` initially attempted redundant old c2 replay with conflicts; c3 was auto-skipped as already applied.
+- Phase 3 / rebase decision: ran `git rebase --skip` to drop redundant old c2 replay; rebase completed successfully.
+- Phase 3 / scope check: resulting smoke commit file list contains smoke-suite/workflow/entity scope and no benchmark-only files.
+- Phase 3 / R5 closure: added `.gitattributes` entries for `utils/transport-smoke-suite/tests/fixtures/**` and `utils/transport-smoke-suite/claims/**` as `linguist-generated=true`.
+- Phase 3 / amend: amended smoke commit; new PR C head is `20613cd2d39fd06f8e41710d7d2a9e01b34c2f56`.
+- Phase 3 / shape check: `git rev-list --count cleanup/refactor-upstream-main-prA-architecture..HEAD` returned `1`.
+- Phase 3 / validation: `cargo check --workspace --all-targets` passed.
+- Phase 3 / validation: `cargo check -p transport-smoke-suite --all-targets` passed.
+- Phase 3 / validation: `cargo test -p transport-smoke-suite --tests` passed.
+- Phase 3 / validation: `cargo test --workspace` passed.
+- Phase 3 / validation: base clippy and bundled-feature clippy both passed; unbundled clippy skipped (invalid/unset `VSOMEIP_INSTALL_PATH`).
+- Phase 3 / publish: pushed `cleanup/refactor-upstream-main-prC-smoke` to `origin` with `--force-with-lease` (`8670bca...20613cd`).
+- Phase 3 / PR metadata: updated PR #35 body with new SHA note and explicit R5 `.gitattributes` closure note.
+- User override / topology correction: switched from fan-out stack to true linear stack (`A -> B -> C`) per explicit instruction.
+- Topology correction / rollback anchor: created tag `backup-pr35-linear-restack-20260213T235303Z` at pre-restack PR C tip `20613cd49ef4236a8e1602476ab97e9ecb762f9e`.
+- Topology correction / rebase: rebased PR C from PR A onto PR B using `git rebase --onto cleanup/refactor-upstream-main-prB-benchmark cleanup/refactor-upstream-main-prA-architecture cleanup/refactor-upstream-main-prC-smoke`.
+- Topology correction / conflict: resolved one conflict in `Cargo.toml` by keeping both workspace members (`utils/criterion-guardrail` and `utils/transport-smoke-suite`).
+- Topology correction / rebase continuation: initial `git rebase --continue` failed due interactive editor; resumed safely with `GIT_EDITOR=true git rebase --continue` (head now `8011c085c71f019f6ea5daa7ceb7fe2f078041b3`).
+- Topology correction / validation rerun: passed `cargo check --workspace --all-targets`, `cargo check -p transport-smoke-suite --all-targets`, `cargo test -p transport-smoke-suite --tests`, `cargo test --workspace`, base clippy, and bundled-feature clippy; unbundled clippy remains skipped (invalid/unset `VSOMEIP_INSTALL_PATH`).
+- Topology correction / publish: pushed `cleanup/refactor-upstream-main-prC-smoke` to `origin` with `--force-with-lease` (`20613cd...8011c08`).
+- Topology correction / PR metadata: changed PR #35 base to `cleanup/refactor-upstream-main-prB-benchmark` and updated body with linear stack note + new SHA.
+- Topology correction / proof: PR bases now `#33 -> main`, `#34 -> PR A`, `#35 -> PR B`; `git merge-base(PRB, PRC) == PRB` and `git merge-base --is-ancestor PRB PRC` returns success.
+- Phase 4 / check status: `gh pr checks 33`, `gh pr checks 34`, and `gh pr checks 35` all report passing required checks; PR #35 includes successful `Criterion Guardrail Advisory` after restack.
+- Topology correction / delta proof: commit deltas are `A..B = 1`, `B..C = 1`, and `A..C = 2`.
+
+## Final Completion Report
+
+- Final phase/status: `phase4` complete; run state persisted as `LAST_PHASE=completed`, `RUN_STATUS=completed` in progress env.
+- Evidence artifacts:
+  - Progress: `/home/pete.levasseur/opencode-project-agents/up-streamer-rust/reports/pr-33-35-remediation-v5-progress.env`
+  - Summary: `/home/pete.levasseur/opencode-project-agents/up-streamer-rust/reports/pr-33-35-remediation-v5-run-summary.md`
+  - Plan: `/home/pete.levasseur/opencode-project-agents/up-streamer-rust/plans/pr-33-pr-35-stacked-ci-remediation-plan-v5.md`
+- Final branch heads / topology proof:
+  - PR A head: `fd2e32649a7a26ad3c4897f1b4b05790141ee07c` (`#33`, base `main`)
+  - PR B head: `c1a61bc62065c86c659d5ac1a1fd11cbf970a3f3` (`#34`, base PR A branch)
+  - PR C head: `8011c085c71f019f6ea5daa7ceb7fe2f078041b3` (`#35`, base PR B branch)
+  - `merge-base(PRB, PRC)=c1a61bc62065c86c659d5ac1a1fd11cbf970a3f3`; ancestry check passed; deltas `A..B=1`, `B..C=1`, `A..C=2`.
+- CI status:
+  - PR #33 checks all passing (latest runs `22006491687` and `22006491694`).
+  - PR #34 checks all passing, including Criterion guardrail (latest runs `22006680123`, `22006680136`, advisory `22006680122`).
+  - PR #35 checks all passing, including Criterion guardrail after linear restack (latest runs `22006965858`, `22006965863`, advisory `22006965862`).
+- c3 conflict firewall proof: PR A c3 replay completed without conflicts; no c2 scope widening occurred; later rebase conflicts were limited to redundant c2 replay skips and one `Cargo.toml` member-list conflict during PR C linear restack.
+- Recovery refs/tags created:
+  - `backup-pr33-35-v5-prA-20260213T231614Z`
+  - `backup-pr33-35-v5-prB-20260213T231614Z`
+  - `backup-pr33-35-v5-prC-20260213T231614Z`
+  - `checkpoint-pr33-v5-post-c2-20260213T2320Z`
+  - `backup-pr35-linear-restack-20260213T235303Z`

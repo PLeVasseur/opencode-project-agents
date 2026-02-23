@@ -1,0 +1,4 @@
+timestamp=20260207T144017Z
+report_root=/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z
+integration_wt=/home/pete.levasseur/project/fls-system-abi-anchor-title-preserve-integration-20260207T050810Z
+assistant_base_wt=/home/pete.levasseur/project/fls-anchor-title-preserve-on-dedupe-20260207T050810Z

@@ -1,0 +1,8 @@
+# Approved source overlap exceptions for PR-32 restack
+# Rationale: Commit 2 includes minimal compile-safe API churn in these legacy tests so all-target gates pass.
+# Commit 3 will finalize deterministic test behavior and helper refactors for these same files.
+up-streamer/tests/single_local_single_remote.rs
+up-streamer/tests/single_local_two_remote_add_remove_rules.rs
+up-streamer/tests/single_local_two_remote_authorities_different_remote_transport.rs
+up-streamer/tests/single_local_two_remote_authorities_same_remote_transport.rs
+up-streamer/tests/usubscription.rs

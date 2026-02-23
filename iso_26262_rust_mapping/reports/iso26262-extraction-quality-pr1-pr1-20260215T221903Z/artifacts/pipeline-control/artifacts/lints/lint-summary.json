@@ -1,0 +1,13 @@
+{
+  "lint_counts": {
+    "anchor_resolution": 0,
+    "extension_errors": 0,
+    "no_legacy_tokens": 0,
+    "paragraph_id_check": 0,
+    "preface_adjacency": 0,
+    "table_anchor_targets": 0,
+    "trace_status_values": 0,
+    "traceable_table_usage": 0
+  },
+  "status": "pass"
+}

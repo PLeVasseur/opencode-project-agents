@@ -1,0 +1,3 @@
+CHECK fls_wt_path_absent_or_reusable
+ABSENT
+EXIT 0

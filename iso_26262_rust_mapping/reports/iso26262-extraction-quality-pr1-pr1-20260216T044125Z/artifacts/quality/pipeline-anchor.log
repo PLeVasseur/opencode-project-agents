@@ -1,0 +1,5 @@
+stage=anchor
+stage_checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044125Z/artifacts/pipeline-control/artifacts/checkpoints/anchor.done.json
+phase_checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044125Z/artifacts/pipeline-control/artifacts/checkpoints/phase-3.done.json
+
+--- stderr ---

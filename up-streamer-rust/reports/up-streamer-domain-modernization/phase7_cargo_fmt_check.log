@@ -1,0 +1,396 @@
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/control_plane/route_lifecycle.rs:61:
+             return Err(AddRouteError::AlreadyExists);
+         }
+ 
+[31m-        let out_sender = self.egress_route_pool.attach_route(out.transport.clone()).await;
+(B[m[32m+        let out_sender = self
+(B[m[32m+            .egress_route_pool
+(B[m[32m+            .attach_route(out.transport.clone())
+(B[m[32m+            .await;
+(B[m 
+         if let Err(err) = self
+             .ingress_route_registry
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/control_plane/route_lifecycle.rs:76:
+             .await
+         {
+             self.route_table.remove_route(&route_key).await;
+[31m-            self.egress_route_pool.detach_route(out.transport.clone()).await;
+(B[m[32m+            self.egress_route_pool
+(B[m[32m+                .detach_route(out.transport.clone())
+(B[m[32m+                .await;
+(B[m 
+             return Err(AddRouteError::FailedToRegisterIngressRoute(err));
+         }
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/control_plane/route_lifecycle.rs:101:
+             return Err(RemoveRouteError::NotFound);
+         }
+ 
+[31m-        self.egress_route_pool.detach_route(out.transport.clone()).await;
+(B[m[32m+        self.egress_route_pool
+(B[m[32m+            .detach_route(out.transport.clone())
+(B[m[32m+            .await;
+(B[m         self.ingress_route_registry
+             .unregister_route(
+                 r#in.transport.clone(),
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/egress_pool.rs:1:
+ //! Egress-route worker pool and refcounted transport ownership.
+ 
+[31m-use crate::data_plane::egress_worker::EgressRouteWorker;
+(B[m use crate::control_plane::transport_identity::TransportIdentityKey;
+[32m+use crate::data_plane::egress_worker::EgressRouteWorker;
+(B[m use std::collections::HashMap;
+ use std::sync::Arc;
+ use tokio::sync::broadcast::Sender;
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/egress_pool.rs:44:
+ 
+         let mut egress_workers = self.workers.lock().await;
+ 
+[31m-        let slot = egress_workers
+(B[m[31m-            .entry(out_transport_key)
+(B[m[31m-            .or_insert_with(|| {
+(B[m[31m-                debug!(
+(B[m[31m-                    "{EGRESS_ROUTE_POOL_TAG}:{EGRESS_ROUTE_POOL_FN_ATTACH_TAG} Inserting..."
+(B[m[31m-                );
+(B[m[31m-                let (tx, rx) = tokio::sync::broadcast::channel(self.message_queue_size);
+(B[m[31m-                EgressRouteBinding {
+(B[m[31m-                    ref_count: 0,
+(B[m[31m-                    worker: EgressRouteWorker::new(out_transport, rx),
+(B[m[31m-                    sender: tx,
+(B[m[31m-                }
+(B[m[31m-            });
+(B[m[32m+        let slot = egress_workers.entry(out_transport_key).or_insert_with(|| {
+(B[m[32m+            debug!("{EGRESS_ROUTE_POOL_TAG}:{EGRESS_ROUTE_POOL_FN_ATTACH_TAG} Inserting...");
+(B[m[32m+            let (tx, rx) = tokio::sync::broadcast::channel(self.message_queue_size);
+(B[m[32m+            EgressRouteBinding {
+(B[m[32m+                ref_count: 0,
+(B[m[32m+                worker: EgressRouteWorker::new(out_transport, rx),
+(B[m[32m+                sender: tx,
+(B[m[32m+            }
+(B[m[32m+        });
+(B[m         slot.ref_count += 1;
+         slot.sender.clone()
+     }
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/egress_pool.rs:87:
+                     binding.worker.thread_id()
+                 );
+             } else {
+[31m-                warn!("{EGRESS_ROUTE_POOL_TAG}:{EGRESS_ROUTE_POOL_FN_DETACH_TAG} was none to remove");
+(B[m[32m+                warn!(
+(B[m[32m+                    "{EGRESS_ROUTE_POOL_TAG}:{EGRESS_ROUTE_POOL_FN_DETACH_TAG} was none to remove"
+(B[m[32m+                );
+(B[m             }
+         }
+     }
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/egress_worker.rs:56:
+         while let Ok(msg) = message_receiver.recv().await {
+             debug!(
+                 "{}:{}:{} Attempting send of message: {:?}",
+[31m-                id,
+(B[m[31m-                EGRESS_ROUTE_WORKER_TAG,
+(B[m[31m-                EGRESS_ROUTE_WORKER_FN_RUN_LOOP_TAG,
+(B[m[31m-                msg
+(B[m[32m+                id, EGRESS_ROUTE_WORKER_TAG, EGRESS_ROUTE_WORKER_FN_RUN_LOOP_TAG, msg
+(B[m             );
+             let send_res = out_transport.send(msg.deref().clone()).await;
+             if let Err(err) = send_res {
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/egress_worker.rs:66:
+                 warn!(
+                     "{}:{}:{} Sending on out_transport failed: {:?}",
+[31m-                    id,
+(B[m[31m-                    EGRESS_ROUTE_WORKER_TAG,
+(B[m[31m-                    EGRESS_ROUTE_WORKER_FN_RUN_LOOP_TAG,
+(B[m[31m-                    err
+(B[m[32m+                    id, EGRESS_ROUTE_WORKER_TAG, EGRESS_ROUTE_WORKER_FN_RUN_LOOP_TAG, err
+(B[m                 );
+             } else {
+                 debug!(
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_listener.rs:51:
+         if let Err(e) = self.sender.send(Arc::new(msg)) {
+             error!(
+                 "{}:{}:{} Unable to send message to worker pool: {e:?}",
+[31m-                self.route_id,
+(B[m[31m-                INGRESS_ROUTE_LISTENER_TAG,
+(B[m[31m-                INGRESS_ROUTE_LISTENER_FN_ON_RECEIVE_TAG,
+(B[m[32m+                self.route_id, INGRESS_ROUTE_LISTENER_TAG, INGRESS_ROUTE_LISTENER_FN_ON_RECEIVE_TAG,
+(B[m             );
+         }
+     }
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:1:
+ //! Ingress-route listener registry and lifecycle management.
+ 
+[31m-use crate::data_plane::ingress_listener::IngressRouteListener;
+(B[m use crate::control_plane::transport_identity::TransportIdentityKey;
+[32m+use crate::data_plane::ingress_listener::IngressRouteListener;
+(B[m use crate::routing::authority_filter::authority_to_wildcard_filter;
+ use crate::routing::publish_resolution::PublishRouteResolver;
+ use crate::routing::subscription_directory::SubscriptionDirectory;
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:41:
+     fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
+         match self {
+             IngressRouteRegistrationError::FailedToRegisterRequestRouteListener => {
+[31m-                write!(f, "Failed to register notification request/response listener")
+(B[m[32m+                write!(
+(B[m[32m+                    f,
+(B[m[32m+                    "Failed to register notification request/response listener"
+(B[m[32m+                )
+(B[m             }
+             IngressRouteRegistrationError::FailedToRegisterPublishRouteListener(uri) => {
+[31m-                write!(f, "Failed to register publish route listener for URI: {}", uri)
+(B[m[32m+                write!(
+(B[m[32m+                    f,
+(B[m[32m+                    "Failed to register publish route listener for URI: {}",
+(B[m[32m+                    uri
+(B[m[32m+                )
+(B[m             }
+         }
+     }
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:90:
+         {
+             warn!(
+                 "{}:{} unable to unregister listener, error: {}",
+[31m-                INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[31m-                INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG,
+(B[m[31m-                err
+(B[m[32m+                INGRESS_ROUTE_REGISTRY_TAG, INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG, err
+(B[m             );
+         }
+     }
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:155:
+         {
+             warn!(
+                 "{}:{} unable to register request listener, error: {}",
+[31m-                INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[31m-                INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG,
+(B[m[31m-                err
+(B[m[32m+                INGRESS_ROUTE_REGISTRY_TAG, INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG, err
+(B[m             );
+[31m-            rollback_registered_filters(
+(B[m[31m-                &in_transport,
+(B[m[31m-                &rollback_filters,
+(B[m[31m-                route_listener.clone(),
+(B[m[31m-            )
+(B[m[31m-            .await;
+(B[m[32m+            rollback_registered_filters(&in_transport, &rollback_filters, route_listener.clone())
+(B[m[32m+                .await;
+(B[m             return Err(IngressRouteRegistrationError::FailedToRegisterRequestRouteListener);
+         }
+ 
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:171:
+         debug!(
+             "{}:{} able to register request listener",
+[31m-            INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[31m-            INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG
+(B[m[32m+            INGRESS_ROUTE_REGISTRY_TAG, INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG
+(B[m         );
+ 
+         #[allow(clippy::mutable_key_type)]
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:178:
+         let subscribers = subscription_directory
+             .lookup_route_subscribers(
+[31m-            out_authority,
+(B[m[31m-            INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[31m-            INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG,
+(B[m[31m-        )
+(B[m[31m-        .await;
+(B[m[32m+                out_authority,
+(B[m[32m+                INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[32m+                INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG,
+(B[m[32m+            )
+(B[m[32m+            .await;
+(B[m 
+         let route_resolver = PublishRouteResolver::new(
+             in_authority,
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:204:
+             {
+                 warn!(
+                     "{}:{} unable to register listener, error: {}",
+[31m-                    INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[31m-                    INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG,
+(B[m[31m-                    err
+(B[m[32m+                    INGRESS_ROUTE_REGISTRY_TAG, INGRESS_ROUTE_REGISTRY_FN_REGISTER_ROUTE_TAG, err
+(B[m                 );
+                 rollback_registered_filters(
+                     &in_transport,
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:214:
+                     route_listener.clone(),
+                 )
+                 .await;
+[31m-                return Err(IngressRouteRegistrationError::FailedToRegisterPublishRouteListener(
+(B[m[31m-                    source_uri,
+(B[m[31m-                ));
+(B[m[32m+                return Err(
+(B[m[32m+                    IngressRouteRegistrationError::FailedToRegisterPublishRouteListener(source_uri),
+(B[m[32m+                );
+(B[m             }
+ 
+             rollback_filters.insert((source_uri, None));
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/data_plane/ingress_registry.rs:281:
+                 #[allow(clippy::mutable_key_type)]
+                 let subscribers = subscription_directory
+                     .lookup_route_subscribers(
+[31m-                    out_authority,
+(B[m[31m-                    INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[31m-                    INGRESS_ROUTE_REGISTRY_FN_UNREGISTER_ROUTE_TAG,
+(B[m[31m-                )
+(B[m[31m-                .await;
+(B[m[32m+                        out_authority,
+(B[m[32m+                        INGRESS_ROUTE_REGISTRY_TAG,
+(B[m[32m+                        INGRESS_ROUTE_REGISTRY_FN_UNREGISTER_ROUTE_TAG,
+(B[m[32m+                    )
+(B[m[32m+                    .await;
+(B[m 
+                 let route_resolver = PublishRouteResolver::new(
+                     in_authority,
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/ustreamer.rs:110:
+     ) -> Result<(), UStatus> {
+         let err = Err(UStatus::fail_with_code(
+             UCode::INVALID_ARGUMENT,
+[31m-            format!("{} are the same. Unable to delete.", Self::route_label(r#in, out)),
+(B[m[32m+            format!(
+(B[m[32m+                "{} are the same. Unable to delete.",
+(B[m[32m+                Self::route_label(r#in, out)
+(B[m[32m+            ),
+(B[m         ));
+         error!(
+             "{}:{}:{} route operation failed: {:?}",
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/ustreamer.rs:120:
+     }
+ 
+     /// Adds a unidirectional route between ingress and egress endpoints.
+[31m-    pub async fn add_route(
+(B[m[31m-        &mut self,
+(B[m[31m-        r#in: Endpoint,
+(B[m[31m-        out: Endpoint,
+(B[m[31m-    ) -> Result<(), UStatus> {
+(B[m[32m+    pub async fn add_route(&mut self, r#in: Endpoint, out: Endpoint) -> Result<(), UStatus> {
+(B[m         let route_label = Self::route_label(&r#in, &out);
+         debug!(
+             "{}:{}:{} Adding route for {}",
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/ustreamer.rs:131:
+[31m-            self.name,
+(B[m[31m-            USTREAMER_TAG,
+(B[m[31m-            USTREAMER_FN_ADD_ROUTE_TAG,
+(B[m[31m-            route_label
+(B[m[32m+            self.name, USTREAMER_TAG, USTREAMER_FN_ADD_ROUTE_TAG, route_label
+(B[m         );
+ 
+         let mut lifecycle = RouteLifecycle::new(
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/ustreamer.rs:146:
+             Err(AddRouteError::SameAuthority) => {
+                 self.fail_due_to_same_authority(USTREAMER_FN_ADD_ROUTE_TAG, &r#in, &out)
+             }
+[31m-            Err(AddRouteError::AlreadyExists) => {
+(B[m[31m-                Err(UStatus::fail_with_code(UCode::ALREADY_EXISTS, "already exists"))
+(B[m[31m-            }
+(B[m[31m-            Err(AddRouteError::FailedToRegisterIngressRoute(err)) => {
+(B[m[31m-                Err(UStatus::fail_with_code(UCode::INVALID_ARGUMENT, err.to_string()))
+(B[m[31m-            }
+(B[m[32m+            Err(AddRouteError::AlreadyExists) => Err(UStatus::fail_with_code(
+(B[m[32m+                UCode::ALREADY_EXISTS,
+(B[m[32m+                "already exists",
+(B[m[32m+            )),
+(B[m[32m+            Err(AddRouteError::FailedToRegisterIngressRoute(err)) => Err(UStatus::fail_with_code(
+(B[m[32m+                UCode::INVALID_ARGUMENT,
+(B[m[32m+                err.to_string(),
+(B[m[32m+            )),
+(B[m         }
+     }
+ 
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/ustreamer.rs:158:
+     /// Deletes a previously registered unidirectional route.
+[31m-    pub async fn delete_route(
+(B[m[31m-        &mut self,
+(B[m[31m-        r#in: Endpoint,
+(B[m[31m-        out: Endpoint,
+(B[m[31m-    ) -> Result<(), UStatus> {
+(B[m[32m+    pub async fn delete_route(&mut self, r#in: Endpoint, out: Endpoint) -> Result<(), UStatus> {
+(B[m         let route_label = Self::route_label(&r#in, &out);
+         debug!(
+             "{}:{}:{} Deleting route for {}",
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/src/ustreamer.rs:167:
+[31m-            self.name,
+(B[m[31m-            USTREAMER_TAG,
+(B[m[31m-            USTREAMER_FN_DELETE_ROUTE_TAG,
+(B[m[31m-            route_label
+(B[m[32m+            self.name, USTREAMER_TAG, USTREAMER_FN_DELETE_ROUTE_TAG, route_label
+(B[m         );
+ 
+         let mut lifecycle = RouteLifecycle::new(
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/tests/support/mod.rs:12:
+         .expect("streamer creation should succeed")
+ }
+ 
+[31m-pub(crate) async fn assert_add_rule_ok(
+(B[m[31m-    streamer: &mut UStreamer,
+(B[m[31m-    r#in: &Endpoint,
+(B[m[31m-    out: &Endpoint,
+(B[m[31m-) {
+(B[m[31m-    assert!(
+(B[m[31m-        streamer
+(B[m[31m-            .add_forwarding_rule(r#in.clone(), out.clone())
+(B[m[31m-            .await
+(B[m[31m-            .is_ok()
+(B[m[31m-    );
+(B[m[32m+pub(crate) async fn assert_add_rule_ok(streamer: &mut UStreamer, r#in: &Endpoint, out: &Endpoint) {
+(B[m[32m+    assert!(streamer
+(B[m[32m+        .add_forwarding_rule(r#in.clone(), out.clone())
+(B[m[32m+        .await
+(B[m[32m+        .is_ok());
+(B[m }
+ 
+ #[allow(dead_code)]
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/tests/support/mod.rs:31:
+     r#in: &Endpoint,
+     out: &Endpoint,
+ ) {
+[31m-    assert!(
+(B[m[31m-        streamer
+(B[m[31m-            .delete_forwarding_rule(r#in.clone(), out.clone())
+(B[m[31m-            .await
+(B[m[31m-            .is_ok()
+(B[m[31m-    );
+(B[m[32m+    assert!(streamer
+(B[m[32m+        .delete_forwarding_rule(r#in.clone(), out.clone())
+(B[m[32m+        .await
+(B[m[32m+        .is_ok());
+(B[m }
+ 
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/tests/support/mod.rs:12:
+         .expect("streamer creation should succeed")
+ }
+ 
+[31m-pub(crate) async fn assert_add_rule_ok(
+(B[m[31m-    streamer: &mut UStreamer,
+(B[m[31m-    r#in: &Endpoint,
+(B[m[31m-    out: &Endpoint,
+(B[m[31m-) {
+(B[m[31m-    assert!(
+(B[m[31m-        streamer
+(B[m[31m-            .add_forwarding_rule(r#in.clone(), out.clone())
+(B[m[31m-            .await
+(B[m[31m-            .is_ok()
+(B[m[31m-    );
+(B[m[32m+pub(crate) async fn assert_add_rule_ok(streamer: &mut UStreamer, r#in: &Endpoint, out: &Endpoint) {
+(B[m[32m+    assert!(streamer
+(B[m[32m+        .add_forwarding_rule(r#in.clone(), out.clone())
+(B[m[32m+        .await
+(B[m[32m+        .is_ok());
+(B[m }
+ 
+ #[allow(dead_code)]
+Diff in /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/up-streamer/tests/support/mod.rs:31:
+     r#in: &Endpoint,
+     out: &Endpoint,
+ ) {
+[31m-    assert!(
+(B[m[31m-        streamer
+(B[m[31m-            .delete_forwarding_rule(r#in.clone(), out.clone())
+(B[m[31m-            .await
+(B[m[31m-            .is_ok()
+(B[m[31m-    );
+(B[m[32m+    assert!(streamer
+(B[m[32m+        .delete_forwarding_rule(r#in.clone(), out.clone())
+(B[m[32m+        .await
+(B[m[32m+        .is_ok());
+(B[m }
+ 

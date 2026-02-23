@@ -1,0 +1,5 @@
+head_sha=a291b351420f7f45eded6cf5bf86688f31500cb3
+branch=changelog-assistant-upstream-pr-anchor
+worktree=/home/pete.levasseur/project/fls
+base_ref=eaafc97e1db8f4a3d153db1abe96ececacf1be2c
+timestamp_utc=2026-02-07T00:14:44Z

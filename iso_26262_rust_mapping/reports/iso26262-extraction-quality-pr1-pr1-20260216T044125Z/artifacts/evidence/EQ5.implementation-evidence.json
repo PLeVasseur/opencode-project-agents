@@ -1,0 +1,39 @@
+{
+  "artifacts_written": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044125Z/artifacts/patterns/unit-pattern-spec.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044125Z/artifacts/diagnostics/paragraph-boundary-remediation.json"
+  ],
+  "base_branch": "main",
+  "base_pin_sha": "ea5a29d182b54b6cb792196bb8109fd50faff836",
+  "blocking_issues": [],
+  "changed_files": [
+    "tools/traceability/mining/execute_quality_remediation.py",
+    "tools/traceability/mining/normalize.py",
+    "tools/traceability/mining/quality_metrics.py",
+    "traceability/iso26262/index/corpus-manifest.jsonc"
+  ],
+  "commit_shas": [
+    "35826b4e0d479b05864157ba751688b1ba2bd282"
+  ],
+  "head_subject": "fix(mining): [EQ2][EQ3][EQ4][EQ5][EQ6][EQ7][EQ8][EQ9][EQ10][EQ11] candidate and provenance diagnostics",
+  "metrics_after": {},
+  "metrics_before": {},
+  "metrics_delta": {},
+  "run_id": "pr1-20260216T044125Z",
+  "stage": "EQ5",
+  "stage_commit_contract": {
+    "auto_created": false,
+    "commit_sha": "35826b4e0d479b05864157ba751688b1ba2bd282",
+    "commit_subject": "fix(mining): [EQ2][EQ3][EQ4][EQ5][EQ6][EQ7][EQ8][EQ9][EQ10][EQ11] candidate and provenance diagnostics",
+    "implementation_paths": [
+      "tools/traceability/mining/execute_quality_remediation.py",
+      "tools/traceability/mining/normalize.py",
+      "tools/traceability/mining/quality_metrics.py",
+      "traceability/iso26262/index/corpus-manifest.jsonc"
+    ],
+    "stage": "EQ5"
+  },
+  "target_branch": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "tests_run": [],
+  "timestamp_utc": "2026-02-16T04:41:31Z"
+}

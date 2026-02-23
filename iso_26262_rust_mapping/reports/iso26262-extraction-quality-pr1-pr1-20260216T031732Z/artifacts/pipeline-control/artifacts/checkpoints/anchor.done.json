@@ -1,0 +1,29 @@
+{
+  "canonical_checksum": "94805a49a04eca1de73d1624ae3c522d3c854f1146b209ea9ca335c83578cb45",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/anchor/anchor-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/anchor/anchored-units.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/anchor/verbatim/anchor-link-index.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/anchor/verbatim/anchor-text-links.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/anchor/verbatim/scope-anchor-index.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/normalize/anchored-units.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p06/list_bullet-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p06/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p06/part-manifest.preview.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p06/table_cell-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p08/list_bullet-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p08/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p08/part-manifest.preview.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p08/table_cell-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p09/list_bullet-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p09/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p09/part-manifest.preview.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/publish-preview/2018-ed2/p09/table_cell-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T031732Z/query/index-bindings.json"
+  ],
+  "phase": 3,
+  "run_id": "pr1-20260216T031732Z",
+  "stage": "anchor",
+  "timestamp_utc": "2026-02-16T03:17:56Z"
+}

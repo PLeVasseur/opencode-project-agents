@@ -1,0 +1,8157 @@
+{
+  "commit": "0db68fc",
+  "label": "v5-wave-b",
+  "total_dt_terms": 899,
+  "fitness_counts": {
+    "good": 670,
+    "questionable": 37,
+    "poor": 49,
+    "ok": 143
+  },
+  "wb_term_fitness_summary": {
+    "good": 57,
+    "questionable": 16,
+    "poor": 12,
+    "ok": 4
+  },
+  "terms": [
+    {
+      "term": "ABI",
+      "file": "ffi.rst",
+      "line": 62,
+      "total_refs": 36,
+      "same_file_refs": 23,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "ABI clobber",
+      "file": "inline-assembly.rst",
+      "line": 1408,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "ABI kind",
+      "file": "ffi.rst",
+      "line": 72,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Abort",
+      "file": "exceptions-and-errors.rst",
+      "line": 75,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Application Binary Interface",
+      "file": "ffi.rst",
+      "line": 58,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Attribute",
+      "file": "attributes.rst",
+      "line": 928,
+      "total_refs": 145,
+      "same_file_refs": 140,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "Borrowing",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 168,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Break type",
+      "file": "expressions.rst",
+      "line": 4390,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Break value",
+      "file": "expressions.rst",
+      "line": 4404,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "C representation",
+      "file": "types-and-traits.rst",
+      "line": 1791,
+      "total_refs": 13,
+      "same_file_refs": 13,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "C signed int type",
+      "file": "types-and-traits.rst",
+      "line": 1850,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Contravariant",
+      "file": "types-and-traits.rst",
+      "line": 3331,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Covariant",
+      "file": "types-and-traits.rst",
+      "line": 3327,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Default representation",
+      "file": "types-and-traits.rst",
+      "line": 1795,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Definition site hygiene",
+      "file": "macros.rst",
+      "line": 1105,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Destruction",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 388,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Drop order",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 499,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Drop scope extension",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 628,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Dropping",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 407,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "FFI",
+      "file": "ffi.rst",
+      "line": 19,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Field resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1302,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Foreign Function Interface",
+      "file": "ffi.rst",
+      "line": 14,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Function lifetime elision",
+      "file": "types-and-traits.rst",
+      "line": 3561,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Generic conformance",
+      "file": "generics.rst",
+      "line": 432,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Identifier pattern matching",
+      "file": "patterns.rst",
+      "line": 1412,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Impl header lifetime elision",
+      "file": "types-and-traits.rst",
+      "line": 3754,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Initialization",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 36,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "Inline assembly",
+      "file": "inline-assembly.rst",
+      "line": 16,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Interior mutability",
+      "file": "types-and-traits.rst",
+      "line": 2476,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Invariant",
+      "file": "types-and-traits.rst",
+      "line": 3335,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Least upper bound coercion",
+      "file": "types-and-traits.rst",
+      "line": 2376,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Lifetime elision",
+      "file": "types-and-traits.rst",
+      "line": 3512,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Literal pattern matching",
+      "file": "patterns.rst",
+      "line": 1439,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Macro expansion",
+      "file": "macros.rst",
+      "line": 618,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Macro matching",
+      "file": "macros.rst",
+      "line": 790,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Macro transcription",
+      "file": "macros.rst",
+      "line": 967,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Method resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1390,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Method resolution implementation candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1447,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Method resolution inherent implementation candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1459,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Method resolution receiver candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1431,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Method resolution trait implementation candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1485,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "NaN-boxing",
+      "file": "inline-assembly.rst",
+      "line": 580,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Object safety",
+      "file": "types-and-traits.rst",
+      "line": 3107,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Ownership",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 19,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Parenthesized pattern matching",
+      "file": "patterns.rst",
+      "line": 1456,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Path expression resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1745,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Path expression resolution implementation candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1825,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Path expression resolution inherent implementation candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1839,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Path expression resolution trait implementation candidate lookup",
+      "file": "entities-and-resolution.rst",
+      "line": 1858,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Path pattern matching",
+      "file": "patterns.rst",
+      "line": 1467,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Path resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1552,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Pattern matching",
+      "file": "patterns.rst",
+      "line": 1346,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "Precedence",
+      "file": "expressions.rst",
+      "line": 5176,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Primitive representation",
+      "file": "types-and-traits.rst",
+      "line": 1798,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Private visibility",
+      "file": "entities-and-resolution.rst",
+      "line": 162,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Public visibility",
+      "file": "entities-and-resolution.rst",
+      "line": 157,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Range pattern matching",
+      "file": "patterns.rst",
+      "line": 1485,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Record struct pattern matching",
+      "file": "patterns.rst",
+      "line": 1580,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Reference pattern matching",
+      "file": "patterns.rst",
+      "line": 1516,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Rule matching",
+      "file": "macros.rst",
+      "line": 801,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Rust ABI",
+      "file": "ffi.rst",
+      "line": 87,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Self",
+      "file": "types-and-traits.rst",
+      "line": 3011,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Self scope",
+      "file": "entities-and-resolution.rst",
+      "line": 633,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Slice pattern matching",
+      "file": "patterns.rst",
+      "line": 1533,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Token matching",
+      "file": "macros.rst",
+      "line": 834,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Trait object lifetime elision",
+      "file": "types-and-traits.rst",
+      "line": 3694,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Transparent representation",
+      "file": "types-and-traits.rst",
+      "line": 1804,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Tuple pattern matching",
+      "file": "patterns.rst",
+      "line": 1633,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Tuple struct pattern matching",
+      "file": "patterns.rst",
+      "line": 1612,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Type coercion",
+      "file": "types-and-traits.rst",
+      "line": 2214,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Type inference",
+      "file": "types-and-traits.rst",
+      "line": 2528,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Type path resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1883,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Type representation",
+      "file": "types-and-traits.rst",
+      "line": 1767,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Type unification",
+      "file": "types-and-traits.rst",
+      "line": 2009,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Underscore pattern matching",
+      "file": "patterns.rst",
+      "line": 1654,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Unicode",
+      "file": "lexical-elements.rst",
+      "line": 25,
+      "total_refs": 17,
+      "same_file_refs": 15,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "Variance",
+      "file": "types-and-traits.rst",
+      "line": 3315,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "Visibility",
+      "file": "entities-and-resolution.rst",
+      "line": 150,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "Visible emptiness <visible emptiness>",
+      "file": "types-and-traits.rst",
+      "line": 2491,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[Token]s",
+      "file": "macros.rst",
+      "line": 28,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[code generation attribute]s",
+      "file": "attributes.rst",
+      "line": 172,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[conditional compilation attribute]s",
+      "file": "attributes.rst",
+      "line": 194,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[crate import]s",
+      "file": "entities-and-resolution.rst",
+      "line": 992,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[declaration]s",
+      "file": "entities-and-resolution.rst",
+      "line": 712,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[derivation attribute]s",
+      "file": "attributes.rst",
+      "line": 203,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[diagnostics attribute]s",
+      "file": "attributes.rst",
+      "line": 212,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[documentation attribute]s",
+      "file": "attributes.rst",
+      "line": 239,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[foreign function interface attribute]s",
+      "file": "attributes.rst",
+      "line": 246,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[fragment specifier restriction]s",
+      "file": "macros.rst",
+      "line": 163,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[limits attribute]s",
+      "file": "attributes.rst",
+      "line": 282,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[macro attribute]s",
+      "file": "attributes.rst",
+      "line": 291,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[modules attribute]s",
+      "file": "attributes.rst",
+      "line": 309,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[obligation]s",
+      "file": "types-and-traits.rst",
+      "line": 2635,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[prelude attribute]s",
+      "file": "attributes.rst",
+      "line": 315,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[runtime attribute]s",
+      "file": "attributes.rst",
+      "line": 324,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[testing attribute]s",
+      "file": "attributes.rst",
+      "line": 336,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[type attribute]s",
+      "file": "attributes.rst",
+      "line": 348,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "[unifiable type]s",
+      "file": "types-and-traits.rst",
+      "line": 2026,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "abstract data type",
+      "file": "types-and-traits.rst",
+      "line": 718,
+      "total_refs": 32,
+      "same_file_refs": 17,
+      "other_file_refs": 15,
+      "fitness": "good"
+    },
+    {
+      "term": "active",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 115,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "active attribute",
+      "file": "attributes.rst",
+      "line": 81,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "addition assignment",
+      "file": "expressions.rst",
+      "line": 2721,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "addition assignment expression",
+      "file": "expressions.rst",
+      "line": 2681,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "addition expression",
+      "file": "expressions.rst",
+      "line": 1487,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "address-to-pointer cast",
+      "file": "expressions.rst",
+      "line": 2293,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "adjusted call operand",
+      "file": "expressions.rst",
+      "line": 3546,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "alignment",
+      "file": "types-and-traits.rst",
+      "line": 1624,
+      "total_refs": 28,
+      "same_file_refs": 27,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "all configuration predicate",
+      "file": "attributes.rst",
+      "line": 935,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "allocated object",
+      "file": "values.rst",
+      "line": 31,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "anonymous loop expression",
+      "file": "expressions.rst",
+      "line": 4034,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "anonymous return type",
+      "file": "expressions.rst",
+      "line": 3917,
+      "total_refs": 9,
+      "same_file_refs": 1,
+      "other_file_refs": 8,
+      "fitness": "questionable"
+    },
+    {
+      "term": "anonymous type parameter",
+      "file": "types-and-traits.rst",
+      "line": 1360,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "any configuration predicate",
+      "file": "attributes.rst",
+      "line": 944,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "argument operand",
+      "file": "expressions.rst",
+      "line": 3533,
+      "total_refs": 15,
+      "same_file_refs": 12,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "arithmetic expression",
+      "file": "expressions.rst",
+      "line": 1480,
+      "total_refs": 8,
+      "same_file_refs": 6,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "arithmetic operator",
+      "file": "expressions.rst",
+      "line": 1484,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "arithmetic overflow",
+      "file": "expressions.rst",
+      "line": 5411,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "arity",
+      "file": "patterns.rst",
+      "line": 1153,
+      "total_refs": 5,
+      "same_file_refs": 2,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "array",
+      "file": "expressions.rst",
+      "line": 3009,
+      "total_refs": 10,
+      "same_file_refs": 6,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "array element constructor",
+      "file": "expressions.rst",
+      "line": 3012,
+      "total_refs": 5,
+      "same_file_refs": 4,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "array expression",
+      "file": "expressions.rst",
+      "line": 3006,
+      "total_refs": 16,
+      "same_file_refs": 10,
+      "other_file_refs": 6,
+      "fitness": "good"
+    },
+    {
+      "term": "array repetition constructor",
+      "file": "expressions.rst",
+      "line": 3016,
+      "total_refs": 5,
+      "same_file_refs": 4,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "array type",
+      "file": "types-and-traits.rst",
+      "line": 569,
+      "total_refs": 25,
+      "same_file_refs": 15,
+      "other_file_refs": 10,
+      "fitness": "good"
+    },
+    {
+      "term": "assembly code block",
+      "file": "inline-assembly.rst",
+      "line": 992,
+      "total_refs": 50,
+      "same_file_refs": 50,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "assembly directive",
+      "file": "inline-assembly.rst",
+      "line": 1246,
+      "total_refs": 8,
+      "same_file_refs": 8,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "assembly instruction",
+      "file": "inline-assembly.rst",
+      "line": 983,
+      "total_refs": 8,
+      "same_file_refs": 8,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "assembly option",
+      "file": "inline-assembly.rst",
+      "line": 1502,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "assigned operand",
+      "file": "expressions.rst",
+      "line": 2674,
+      "total_refs": 17,
+      "same_file_refs": 15,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "assignee expression",
+      "file": "expressions.rst",
+      "line": 141,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "assignee operand",
+      "file": "expressions.rst",
+      "line": 2512,
+      "total_refs": 18,
+      "same_file_refs": 16,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "assignee pattern",
+      "file": "expressions.rst",
+      "line": 2521,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "assignment",
+      "file": "expressions.rst",
+      "line": 2449,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "assignment expression",
+      "file": "expressions.rst",
+      "line": 2445,
+      "total_refs": 15,
+      "same_file_refs": 13,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "associated constant",
+      "file": "expressions.rst",
+      "line": 309,
+      "total_refs": 23,
+      "same_file_refs": 2,
+      "other_file_refs": 21,
+      "fitness": "poor"
+    },
+    {
+      "term": "associated function",
+      "file": "associated-items.rst",
+      "line": 36,
+      "total_refs": 19,
+      "same_file_refs": 6,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "associated implementation constant",
+      "file": "types-and-traits.rst",
+      "line": 3660,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "associated implementation function",
+      "file": "associated-items.rst",
+      "line": 85,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "associated implementation type",
+      "file": "associated-items.rst",
+      "line": 92,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "associated item",
+      "file": "associated-items.rst",
+      "line": 28,
+      "total_refs": 22,
+      "same_file_refs": 4,
+      "other_file_refs": 18,
+      "fitness": "questionable"
+    },
+    {
+      "term": "associated trait constant",
+      "file": "types-and-traits.rst",
+      "line": 3651,
+      "total_refs": 5,
+      "same_file_refs": 1,
+      "other_file_refs": 4,
+      "fitness": "questionable"
+    },
+    {
+      "term": "associated trait function",
+      "file": "associated-items.rst",
+      "line": 111,
+      "total_refs": 9,
+      "same_file_refs": 2,
+      "other_file_refs": 7,
+      "fitness": "questionable"
+    },
+    {
+      "term": "associated trait implementation function",
+      "file": "associated-items.rst",
+      "line": 152,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "associated trait implementation item",
+      "file": "associated-items.rst",
+      "line": 103,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "associated trait item",
+      "file": "associated-items.rst",
+      "line": 99,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "associated trait type",
+      "file": "associated-items.rst",
+      "line": 123,
+      "total_refs": 10,
+      "same_file_refs": 6,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "associated type",
+      "file": "expressions.rst",
+      "line": 1205,
+      "total_refs": 37,
+      "same_file_refs": 16,
+      "other_file_refs": 21,
+      "fitness": "good"
+    },
+    {
+      "term": "associated type projection",
+      "file": "entities-and-resolution.rst",
+      "line": 405,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "associativity",
+      "file": "expressions.rst",
+      "line": 5173,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "async block",
+      "file": "expressions.rst",
+      "line": 820,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "async block expression",
+      "file": "expressions.rst",
+      "line": 815,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "async closure expression",
+      "file": "expressions.rst",
+      "line": 3901,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "async closure type",
+      "file": "expressions.rst",
+      "line": 3904,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "async control flow boundary",
+      "file": "expressions.rst",
+      "line": 827,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "async function",
+      "file": "expressions.rst",
+      "line": 828,
+      "total_refs": 5,
+      "same_file_refs": 0,
+      "other_file_refs": 5,
+      "fitness": "poor"
+    },
+    {
+      "term": "atomic",
+      "file": "concurrency.rst",
+      "line": 78,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "atomic type",
+      "file": "concurrency.rst",
+      "line": 73,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "attribute content",
+      "file": "macros.rst",
+      "line": 875,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "attribute macro",
+      "file": "macros.rst",
+      "line": 457,
+      "total_refs": 8,
+      "same_file_refs": 7,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "auto trait",
+      "file": "types-and-traits.rst",
+      "line": 3039,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "await expression",
+      "file": "expressions.rst",
+      "line": 5094,
+      "total_refs": 7,
+      "same_file_refs": 6,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "base address",
+      "file": "values.rst",
+      "line": 34,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "base initializer",
+      "file": "expressions.rst",
+      "line": 533,
+      "total_refs": 12,
+      "same_file_refs": 12,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "basic assignment",
+      "file": "expressions.rst",
+      "line": 2465,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "binary crate",
+      "file": "program-structure-and-compilation.rst",
+      "line": 129,
+      "total_refs": 5,
+      "same_file_refs": 2,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "binary literal",
+      "file": "lexical-elements.rst",
+      "line": 934,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "binary operator",
+      "file": "expressions.rst",
+      "line": 98,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "binding",
+      "file": "patterns.rst",
+      "line": 1265,
+      "total_refs": 56,
+      "same_file_refs": 28,
+      "other_file_refs": 28,
+      "fitness": "good"
+    },
+    {
+      "term": "binding argument",
+      "file": "expressions.rst",
+      "line": 3924,
+      "total_refs": 7,
+      "same_file_refs": 1,
+      "other_file_refs": 6,
+      "fitness": "questionable"
+    },
+    {
+      "term": "binding bound argument",
+      "file": "generics.rst",
+      "line": 373,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "binding mode",
+      "file": "patterns.rst",
+      "line": 1272,
+      "total_refs": 16,
+      "same_file_refs": 16,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "binding pattern",
+      "file": "patterns.rst",
+      "line": 1261,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "binding scope",
+      "file": "entities-and-resolution.rst",
+      "line": 489,
+      "total_refs": 8,
+      "same_file_refs": 6,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "bit and assignment",
+      "file": "expressions.rst",
+      "line": 2724,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit and assignment expression",
+      "file": "expressions.rst",
+      "line": 2685,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit and expression",
+      "file": "expressions.rst",
+      "line": 1748,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit expression",
+      "file": "expressions.rst",
+      "line": 1744,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "bit or assignment",
+      "file": "expressions.rst",
+      "line": 2727,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit or assignment expression",
+      "file": "expressions.rst",
+      "line": 2689,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit or expression",
+      "file": "expressions.rst",
+      "line": 1764,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit xor assignment",
+      "file": "expressions.rst",
+      "line": 2730,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit xor assignment expression",
+      "file": "expressions.rst",
+      "line": 2693,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "bit xor expression",
+      "file": "expressions.rst",
+      "line": 1780,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "block comment",
+      "file": "lexical-elements.rst",
+      "line": 1358,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "block expression",
+      "file": "expressions.rst",
+      "line": 729,
+      "total_refs": 80,
+      "same_file_refs": 42,
+      "other_file_refs": 38,
+      "fitness": "good"
+    },
+    {
+      "term": "bool",
+      "file": "types-and-traits.rst",
+      "line": 174,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "boolean literal",
+      "file": "lexical-elements.rst",
+      "line": 1295,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "borrow",
+      "file": "expressions.rst",
+      "line": 1108,
+      "total_refs": 7,
+      "same_file_refs": 1,
+      "other_file_refs": 6,
+      "fitness": "questionable"
+    },
+    {
+      "term": "borrow expression",
+      "file": "expressions.rst",
+      "line": 1038,
+      "total_refs": 16,
+      "same_file_refs": 12,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "borrowed",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 179,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "bound",
+      "file": "types-and-traits.rst",
+      "line": 2964,
+      "total_refs": 28,
+      "same_file_refs": 13,
+      "other_file_refs": 15,
+      "fitness": "good"
+    },
+    {
+      "term": "bound pattern",
+      "file": "patterns.rst",
+      "line": 162,
+      "total_refs": 13,
+      "same_file_refs": 12,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "break expression",
+      "file": "expressions.rst",
+      "line": 4356,
+      "total_refs": 36,
+      "same_file_refs": 34,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "built-in attribute",
+      "file": "attributes.rst",
+      "line": 169,
+      "total_refs": 13,
+      "same_file_refs": 13,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "built-in trait",
+      "file": "types-and-traits.rst",
+      "line": 3007,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "by copy",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 301,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "by immutable reference capture",
+      "file": "expressions.rst",
+      "line": 5355,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "by move",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 310,
+      "total_refs": 13,
+      "same_file_refs": 12,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "by mutable reference",
+      "file": "patterns.rst",
+      "line": 1285,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "by mutable reference capture",
+      "file": "expressions.rst",
+      "line": 5361,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "by reference",
+      "file": "patterns.rst",
+      "line": 1281,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "by unique immutable reference capture",
+      "file": "expressions.rst",
+      "line": 5372,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "by value",
+      "file": "patterns.rst",
+      "line": 1276,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "by value capture",
+      "file": "expressions.rst",
+      "line": 5349,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "byte literal",
+      "file": "lexical-elements.rst",
+      "line": 611,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "byte string literal",
+      "file": "lexical-elements.rst",
+      "line": 640,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "c",
+      "file": "ffi.rst",
+      "line": 65,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "c string literal",
+      "file": "lexical-elements.rst",
+      "line": 741,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "call conformance",
+      "file": "expressions.rst",
+      "line": 3652,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "call expression",
+      "file": "expressions.rst",
+      "line": 3519,
+      "total_refs": 24,
+      "same_file_refs": 11,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "call operand",
+      "file": "expressions.rst",
+      "line": 3541,
+      "total_refs": 12,
+      "same_file_refs": 10,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "call resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1519,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "call site hygiene",
+      "file": "macros.rst",
+      "line": 1111,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "callee type",
+      "file": "expressions.rst",
+      "line": 3550,
+      "total_refs": 7,
+      "same_file_refs": 6,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate callee type",
+      "file": "entities-and-resolution.rst",
+      "line": 1523,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate callee type chain",
+      "file": "entities-and-resolution.rst",
+      "line": 1527,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate container type",
+      "file": "entities-and-resolution.rst",
+      "line": 1306,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate container type chain",
+      "file": "entities-and-resolution.rst",
+      "line": 1310,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate direct entity",
+      "file": "entities-and-resolution.rst",
+      "line": 1566,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate external prelude entity",
+      "file": "entities-and-resolution.rst",
+      "line": 1573,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate field",
+      "file": "entities-and-resolution.rst",
+      "line": 1318,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate indexed field",
+      "file": "entities-and-resolution.rst",
+      "line": 1335,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate method",
+      "file": "entities-and-resolution.rst",
+      "line": 1409,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate named field",
+      "file": "entities-and-resolution.rst",
+      "line": 1340,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate receiver type",
+      "file": "entities-and-resolution.rst",
+      "line": 1398,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate receiver type chain",
+      "file": "entities-and-resolution.rst",
+      "line": 1402,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "candidate selected entity",
+      "file": "entities-and-resolution.rst",
+      "line": 1578,
+      "total_refs": 19,
+      "same_file_refs": 19,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "capture mode",
+      "file": "expressions.rst",
+      "line": 5346,
+      "total_refs": 9,
+      "same_file_refs": 8,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "capture target",
+      "file": "expressions.rst",
+      "line": 5328,
+      "total_refs": 23,
+      "same_file_refs": 18,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "captured",
+      "file": "expressions.rst",
+      "line": 5343,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "capturing",
+      "file": "expressions.rst",
+      "line": 5336,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "capturing environment",
+      "file": "expressions.rst",
+      "line": 5332,
+      "total_refs": 8,
+      "same_file_refs": 5,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "capturing expression",
+      "file": "expressions.rst",
+      "line": 5324,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "cast",
+      "file": "expressions.rst",
+      "line": 2235,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "casting",
+      "file": "expressions.rst",
+      "line": 2235,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "char",
+      "file": "types-and-traits.rst",
+      "line": 366,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "character literal",
+      "file": "lexical-elements.rst",
+      "line": 1157,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "closure body",
+      "file": "expressions.rst",
+      "line": 3928,
+      "total_refs": 5,
+      "same_file_refs": 3,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "closure expression",
+      "file": "expressions.rst",
+      "line": 3897,
+      "total_refs": 15,
+      "same_file_refs": 8,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "closure parameter",
+      "file": "expressions.rst",
+      "line": 3938,
+      "total_refs": 11,
+      "same_file_refs": 7,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "closure type",
+      "file": "types-and-traits.rst",
+      "line": 1066,
+      "total_refs": 24,
+      "same_file_refs": 15,
+      "other_file_refs": 9,
+      "fitness": "good"
+    },
+    {
+      "term": "code point",
+      "file": "lexical-elements.rst",
+      "line": 34,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "coercion site",
+      "file": "types-and-traits.rst",
+      "line": 2223,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "coercion-propagating expression",
+      "file": "types-and-traits.rst",
+      "line": 2246,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "comment",
+      "file": "lexical-elements.rst",
+      "line": 279,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "comparison expression",
+      "file": "expressions.rst",
+      "line": 1962,
+      "total_refs": 11,
+      "same_file_refs": 8,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "compilation root",
+      "file": "program-structure-and-compilation.rst",
+      "line": 220,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "compound assignment",
+      "file": "expressions.rst",
+      "line": 2678,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "compound assignment expression",
+      "file": "expressions.rst",
+      "line": 2669,
+      "total_refs": 18,
+      "same_file_refs": 15,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "compound punctuator",
+      "file": "lexical-elements.rst",
+      "line": 230,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "concrete type",
+      "file": "types-and-traits.rst",
+      "line": 56,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "conditional compilation",
+      "file": "attributes.rst",
+      "line": 928,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "conditionally-compiled source code",
+      "file": "program-structure-and-compilation.rst",
+      "line": 231,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "configuration predicate",
+      "file": "attributes.rst",
+      "line": 931,
+      "total_refs": 9,
+      "same_file_refs": 5,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "const block expression",
+      "file": "expressions.rst",
+      "line": 875,
+      "total_refs": 8,
+      "same_file_refs": 5,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "const register expression",
+      "file": "inline-assembly.rst",
+      "line": 701,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "constant",
+      "file": "expressions.rst",
+      "line": 314,
+      "total_refs": 50,
+      "same_file_refs": 4,
+      "other_file_refs": 46,
+      "fitness": "poor"
+    },
+    {
+      "term": "constant argument",
+      "file": "expressions.rst",
+      "line": 317,
+      "total_refs": 16,
+      "same_file_refs": 0,
+      "other_file_refs": 16,
+      "fitness": "poor"
+    },
+    {
+      "term": "constant context",
+      "file": "expressions.rst",
+      "line": 304,
+      "total_refs": 6,
+      "same_file_refs": 3,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "constant expression",
+      "file": "expressions.rst",
+      "line": 179,
+      "total_refs": 24,
+      "same_file_refs": 16,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "constant function",
+      "file": "expressions.rst",
+      "line": 200,
+      "total_refs": 7,
+      "same_file_refs": 4,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "constant initializer",
+      "file": "expressions.rst",
+      "line": 313,
+      "total_refs": 11,
+      "same_file_refs": 1,
+      "other_file_refs": 10,
+      "fitness": "poor"
+    },
+    {
+      "term": "constant parameter",
+      "file": "generics.rst",
+      "line": 84,
+      "total_refs": 18,
+      "same_file_refs": 11,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "constant parameter initializer",
+      "file": "generics.rst",
+      "line": 87,
+      "total_refs": 5,
+      "same_file_refs": 4,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "constant promotion",
+      "file": "values.rst",
+      "line": 301,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "constrain",
+      "file": "generics.rst",
+      "line": 129,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "construct",
+      "file": "entities-and-resolution.rst",
+      "line": 531,
+      "total_refs": 90,
+      "same_file_refs": 13,
+      "other_file_refs": 77,
+      "fitness": "questionable"
+    },
+    {
+      "term": "constructee",
+      "file": "expressions.rst",
+      "line": 3305,
+      "total_refs": 16,
+      "same_file_refs": 16,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "container operand",
+      "file": "expressions.rst",
+      "line": 446,
+      "total_refs": 8,
+      "same_file_refs": 5,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "continue expression",
+      "file": "expressions.rst",
+      "line": 4470,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "control flow boundary",
+      "file": "expressions.rst",
+      "line": 823,
+      "total_refs": 9,
+      "same_file_refs": 8,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "copy type",
+      "file": "types-and-traits.rst",
+      "line": 1023,
+      "total_refs": 3,
+      "same_file_refs": 0,
+      "other_file_refs": 3,
+      "fitness": "poor"
+    },
+    {
+      "term": "core prelude",
+      "file": "entities-and-resolution.rst",
+      "line": 985,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "crate",
+      "file": "program-structure-and-compilation.rst",
+      "line": 113,
+      "total_refs": 44,
+      "same_file_refs": 18,
+      "other_file_refs": 26,
+      "fitness": "good"
+    },
+    {
+      "term": "crate indication",
+      "file": "program-structure-and-compilation.rst",
+      "line": 178,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "crate public modifier",
+      "file": "entities-and-resolution.rst",
+      "line": 170,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "crate root",
+      "file": "program-structure-and-compilation.rst",
+      "line": 214,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "crate root module",
+      "file": "program-structure-and-compilation.rst",
+      "line": 210,
+      "total_refs": 22,
+      "same_file_refs": 7,
+      "other_file_refs": 15,
+      "fitness": "good"
+    },
+    {
+      "term": "crate type",
+      "file": "program-structure-and-compilation.rst",
+      "line": 117,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "dangling",
+      "file": "values.rst",
+      "line": 62,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "data race",
+      "file": "concurrency.rst",
+      "line": 18,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "decimal literal",
+      "file": "lexical-elements.rst",
+      "line": 937,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "declarative macro",
+      "file": "macros.rst",
+      "line": 74,
+      "total_refs": 18,
+      "same_file_refs": 8,
+      "other_file_refs": 10,
+      "fitness": "good"
+    },
+    {
+      "term": "deconstructee",
+      "file": "patterns.rst",
+      "line": 777,
+      "total_refs": 23,
+      "same_file_refs": 23,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "dereference",
+      "file": "expressions.rst",
+      "line": 1171,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "dereference expression",
+      "file": "expressions.rst",
+      "line": 1167,
+      "total_refs": 19,
+      "same_file_refs": 17,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "dereference type",
+      "file": "entities-and-resolution.rst",
+      "line": 1277,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "dereference type chain",
+      "file": "entities-and-resolution.rst",
+      "line": 1281,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "derive helper attribute",
+      "file": "macros.rst",
+      "line": 437,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "derive macro",
+      "file": "macros.rst",
+      "line": 395,
+      "total_refs": 11,
+      "same_file_refs": 6,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "destructor",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 403,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "destructuring assignment",
+      "file": "expressions.rst",
+      "line": 2507,
+      "total_refs": 8,
+      "same_file_refs": 7,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "direction modifier",
+      "file": "inline-assembly.rst",
+      "line": 110,
+      "total_refs": 18,
+      "same_file_refs": 18,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "discriminant",
+      "file": "types-and-traits.rst",
+      "line": 792,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "discriminant initializer",
+      "file": "types-and-traits.rst",
+      "line": 795,
+      "total_refs": 8,
+      "same_file_refs": 6,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "discriminant type",
+      "file": "types-and-traits.rst",
+      "line": 1837,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "diverging expression",
+      "file": "expressions.rst",
+      "line": 380,
+      "total_refs": 2,
+      "same_file_refs": 0,
+      "other_file_refs": 2,
+      "fitness": "poor"
+    },
+    {
+      "term": "diverging type variable",
+      "file": "types-and-traits.rst",
+      "line": 2618,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "division assignment",
+      "file": "expressions.rst",
+      "line": 2733,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "division assignment expression",
+      "file": "expressions.rst",
+      "line": 2697,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "division expression",
+      "file": "expressions.rst",
+      "line": 1507,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "doc comment",
+      "file": "lexical-elements.rst",
+      "line": 1388,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "drop construct",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 503,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "drop scope",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 493,
+      "total_refs": 58,
+      "same_file_refs": 58,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "drop type",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 399,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "dropped",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 411,
+      "total_refs": 21,
+      "same_file_refs": 17,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "dynamically sized type",
+      "file": "types-and-traits.rst",
+      "line": 1643,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "elaboration",
+      "file": "items.rst",
+      "line": 57,
+      "total_refs": 2,
+      "same_file_refs": 0,
+      "other_file_refs": 2,
+      "fitness": "poor"
+    },
+    {
+      "term": "element type",
+      "file": "types-and-traits.rst",
+      "line": 573,
+      "total_refs": 12,
+      "same_file_refs": 9,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "elided",
+      "file": "types-and-traits.rst",
+      "line": 3517,
+      "total_refs": 15,
+      "same_file_refs": 15,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "elided lifetime",
+      "file": "types-and-traits.rst",
+      "line": 3523,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "else expression",
+      "file": "expressions.rst",
+      "line": 4685,
+      "total_refs": 18,
+      "same_file_refs": 9,
+      "other_file_refs": 9,
+      "fitness": "good"
+    },
+    {
+      "term": "empty statement",
+      "file": "statements.rst",
+      "line": 37,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "entity",
+      "file": "entities-and-resolution.rst",
+      "line": 1559,
+      "total_refs": 32,
+      "same_file_refs": 30,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "enum",
+      "file": "types-and-traits.rst",
+      "line": 752,
+      "total_refs": 9,
+      "same_file_refs": 2,
+      "other_file_refs": 7,
+      "fitness": "questionable"
+    },
+    {
+      "term": "enum cast",
+      "file": "expressions.rst",
+      "line": 2252,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "enum field",
+      "file": "types-and-traits.rst",
+      "line": 785,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "enum type",
+      "file": "types-and-traits.rst",
+      "line": 755,
+      "total_refs": 33,
+      "same_file_refs": 20,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "enum value",
+      "file": "expressions.rst",
+      "line": 3299,
+      "total_refs": 6,
+      "same_file_refs": 3,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "enum variant",
+      "file": "types-and-traits.rst",
+      "line": 770,
+      "total_refs": 47,
+      "same_file_refs": 23,
+      "other_file_refs": 24,
+      "fitness": "good"
+    },
+    {
+      "term": "enum variant value",
+      "file": "types-and-traits.rst",
+      "line": 762,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "equals expression",
+      "file": "expressions.rst",
+      "line": 1973,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "error propagation expression",
+      "file": "expressions.rst",
+      "line": 1255,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "escaped character",
+      "file": "lexical-elements.rst",
+      "line": 1136,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "evaluated",
+      "file": "expressions.rst",
+      "line": 126,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "evaluation",
+      "file": "expressions.rst",
+      "line": 122,
+      "total_refs": 80,
+      "same_file_refs": 77,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "exclusive range pattern",
+      "file": "patterns.rst",
+      "line": 510,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "executed",
+      "file": "statements.rst",
+      "line": 51,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "execution",
+      "file": "statements.rst",
+      "line": 47,
+      "total_refs": 7,
+      "same_file_refs": 4,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "expected type",
+      "file": "types-and-traits.rst",
+      "line": 2564,
+      "total_refs": 46,
+      "same_file_refs": 33,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "explicit register argument",
+      "file": "inline-assembly.rst",
+      "line": 672,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "explicit register name",
+      "file": "inline-assembly.rst",
+      "line": 129,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "explicitly declared entity",
+      "file": "entities-and-resolution.rst",
+      "line": 50,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "exported function",
+      "file": "attributes.rst",
+      "line": 1491,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "exported static",
+      "file": "attributes.rst",
+      "line": 1494,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "expression",
+      "file": "expressions.rst",
+      "line": 78,
+      "total_refs": 158,
+      "same_file_refs": 77,
+      "other_file_refs": 81,
+      "fitness": "good"
+    },
+    {
+      "term": "expression statement",
+      "file": "statements.rst",
+      "line": 31,
+      "total_refs": 6,
+      "same_file_refs": 3,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "expression-with-block",
+      "file": "entities-and-resolution.rst",
+      "line": 1058,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "expression-without-block",
+      "file": "macros.rst",
+      "line": 655,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "extending expression",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 650,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "extending pattern",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 633,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "extern C ABI",
+      "file": "ffi.rst",
+      "line": 79,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "external block",
+      "file": "ffi.rst",
+      "line": 193,
+      "total_refs": 12,
+      "same_file_refs": 7,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "external function",
+      "file": "ffi.rst",
+      "line": 228,
+      "total_refs": 24,
+      "same_file_refs": 9,
+      "other_file_refs": 15,
+      "fitness": "good"
+    },
+    {
+      "term": "external function item type",
+      "file": "types-and-traits.rst",
+      "line": 1116,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "external prelude",
+      "file": "entities-and-resolution.rst",
+      "line": 990,
+      "total_refs": 6,
+      "same_file_refs": 4,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "external static",
+      "file": "ffi.rst",
+      "line": 267,
+      "total_refs": 17,
+      "same_file_refs": 5,
+      "other_file_refs": 12,
+      "fitness": "questionable"
+    },
+    {
+      "term": "fat pointer",
+      "file": "types-and-traits.rst",
+      "line": 1653,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "fat pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1650,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "field",
+      "file": "types-and-traits.rst",
+      "line": 915,
+      "total_refs": 137,
+      "same_file_refs": 43,
+      "other_file_refs": 94,
+      "fitness": "good"
+    },
+    {
+      "term": "field access expression",
+      "file": "expressions.rst",
+      "line": 3793,
+      "total_refs": 27,
+      "same_file_refs": 10,
+      "other_file_refs": 17,
+      "fitness": "good"
+    },
+    {
+      "term": "field index",
+      "file": "types-and-traits.rst",
+      "line": 951,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "field list",
+      "file": "expressions.rst",
+      "line": 684,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "field selector",
+      "file": "entities-and-resolution.rst",
+      "line": 1323,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "final match arm",
+      "file": "expressions.rst",
+      "line": 4885,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "fixed sized type",
+      "file": "types-and-traits.rst",
+      "line": 1636,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "float literal",
+      "file": "lexical-elements.rst",
+      "line": 1057,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "float suffix",
+      "file": "lexical-elements.rst",
+      "line": 1060,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "floating-point type",
+      "file": "lexical-elements.rst",
+      "line": 1064,
+      "total_refs": 24,
+      "same_file_refs": 2,
+      "other_file_refs": 22,
+      "fitness": "poor"
+    },
+    {
+      "term": "floating-point type variable",
+      "file": "types-and-traits.rst",
+      "line": 2614,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "floating-point value",
+      "file": "types-and-traits.rst",
+      "line": 399,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "for loop",
+      "file": "expressions.rst",
+      "line": 4061,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "for loop expression",
+      "file": "expressions.rst",
+      "line": 4064,
+      "total_refs": 8,
+      "same_file_refs": 4,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "fragment specifier",
+      "file": "macros.rst",
+      "line": 158,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "full range expression",
+      "file": "expressions.rst",
+      "line": 4597,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "function",
+      "file": "functions.rst",
+      "line": 52,
+      "total_refs": 117,
+      "same_file_refs": 14,
+      "other_file_refs": 103,
+      "fitness": "questionable"
+    },
+    {
+      "term": "function body",
+      "file": "types-and-traits.rst",
+      "line": 2558,
+      "total_refs": 19,
+      "same_file_refs": 1,
+      "other_file_refs": 18,
+      "fitness": "poor"
+    },
+    {
+      "term": "function item type",
+      "file": "types-and-traits.rst",
+      "line": 1112,
+      "total_refs": 16,
+      "same_file_refs": 9,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "function parameter",
+      "file": "macros.rst",
+      "line": 363,
+      "total_refs": 40,
+      "same_file_refs": 6,
+      "other_file_refs": 34,
+      "fitness": "questionable"
+    },
+    {
+      "term": "function pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1180,
+      "total_refs": 28,
+      "same_file_refs": 18,
+      "other_file_refs": 10,
+      "fitness": "good"
+    },
+    {
+      "term": "function pointer type parameter",
+      "file": "types-and-traits.rst",
+      "line": 1184,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "function qualifier",
+      "file": "functions.rst",
+      "line": 58,
+      "total_refs": 6,
+      "same_file_refs": 1,
+      "other_file_refs": 5,
+      "fitness": "questionable"
+    },
+    {
+      "term": "function signature",
+      "file": "types-and-traits.rst",
+      "line": 2307,
+      "total_refs": 9,
+      "same_file_refs": 5,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "function type",
+      "file": "types-and-traits.rst",
+      "line": 1055,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "function-like macro",
+      "file": "macros.rst",
+      "line": 339,
+      "total_refs": 5,
+      "same_file_refs": 4,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "function-pointer-to-address cast",
+      "file": "expressions.rst",
+      "line": 2318,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "function-pointer-to-pointer cast",
+      "file": "expressions.rst",
+      "line": 2313,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "fundamental",
+      "file": "implementations.rst",
+      "line": 151,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "future",
+      "file": "expressions.rst",
+      "line": 5098,
+      "total_refs": 8,
+      "same_file_refs": 5,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "future operand",
+      "file": "expressions.rst",
+      "line": 5103,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "generic argument",
+      "file": "generics.rst",
+      "line": 351,
+      "total_refs": 18,
+      "same_file_refs": 15,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "generic associated type",
+      "file": "associated-items.rst",
+      "line": 60,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "generic enum",
+      "file": "generics.rst",
+      "line": 59,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "generic function",
+      "file": "generics.rst",
+      "line": 62,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "generic implementation",
+      "file": "generics.rst",
+      "line": 65,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "generic parameter",
+      "file": "generics.rst",
+      "line": 50,
+      "total_refs": 65,
+      "same_file_refs": 27,
+      "other_file_refs": 38,
+      "fitness": "good"
+    },
+    {
+      "term": "generic parameter scope",
+      "file": "entities-and-resolution.rst",
+      "line": 528,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "generic struct",
+      "file": "generics.rst",
+      "line": 72,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "generic substitution",
+      "file": "generics.rst",
+      "line": 355,
+      "total_refs": 6,
+      "same_file_refs": 0,
+      "other_file_refs": 6,
+      "fitness": "poor"
+    },
+    {
+      "term": "generic trait",
+      "file": "generics.rst",
+      "line": 75,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "generic type",
+      "file": "types-and-traits.rst",
+      "line": 3317,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "generic type alias",
+      "file": "generics.rst",
+      "line": 78,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "generic union",
+      "file": "generics.rst",
+      "line": 81,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "glob import",
+      "file": "entities-and-resolution.rst",
+      "line": 1104,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "global path",
+      "file": "entities-and-resolution.rst",
+      "line": 329,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "global type variable",
+      "file": "types-and-traits.rst",
+      "line": 2606,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "greater-than expression",
+      "file": "expressions.rst",
+      "line": 1985,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "greater-than-or-equals expression",
+      "file": "expressions.rst",
+      "line": 1998,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "half-open range pattern",
+      "file": "patterns.rst",
+      "line": 502,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "hexadecimal literal",
+      "file": "lexical-elements.rst",
+      "line": 940,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "higher-ranked trait bound",
+      "file": "types-and-traits.rst",
+      "line": 3218,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "hygiene",
+      "file": "macros.rst",
+      "line": 1092,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "hygienic",
+      "file": "macros.rst",
+      "line": 1108,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "identifier",
+      "file": "expressions.rst",
+      "line": 3342,
+      "total_refs": 32,
+      "same_file_refs": 7,
+      "other_file_refs": 25,
+      "fitness": "questionable"
+    },
+    {
+      "term": "identifier pattern",
+      "file": "patterns.rst",
+      "line": 158,
+      "total_refs": 26,
+      "same_file_refs": 24,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "if expression",
+      "file": "expressions.rst",
+      "line": 4684,
+      "total_refs": 26,
+      "same_file_refs": 11,
+      "other_file_refs": 15,
+      "fitness": "good"
+    },
+    {
+      "term": "if let expression",
+      "file": "expressions.rst",
+      "line": 4767,
+      "total_refs": 26,
+      "same_file_refs": 12,
+      "other_file_refs": 14,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable",
+      "file": "ffi.rst",
+      "line": 270,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable borrow",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 211,
+      "total_refs": 5,
+      "same_file_refs": 4,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable borrow expression",
+      "file": "expressions.rst",
+      "line": 1043,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable place expression",
+      "file": "expressions.rst",
+      "line": 486,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable place expression context",
+      "file": "expressions.rst",
+      "line": 575,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable raw borrow expression",
+      "file": "expressions.rst",
+      "line": 1111,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable raw pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1240,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "immutable reference",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 219,
+      "total_refs": 11,
+      "same_file_refs": 5,
+      "other_file_refs": 6,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable static",
+      "file": "values.rst",
+      "line": 194,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "immutable variable",
+      "file": "values.rst",
+      "line": 265,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "impl trait type",
+      "file": "types-and-traits.rst",
+      "line": 1352,
+      "total_refs": 11,
+      "same_file_refs": 7,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "implementation",
+      "file": "types-and-traits.rst",
+      "line": 3586,
+      "total_refs": 37,
+      "same_file_refs": 9,
+      "other_file_refs": 28,
+      "fitness": "questionable"
+    },
+    {
+      "term": "implementation body",
+      "file": "entities-and-resolution.rst",
+      "line": 644,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "implementation coherence",
+      "file": "implementations.rst",
+      "line": 138,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "implementation conformance",
+      "file": "implementations.rst",
+      "line": 209,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "implemented trait",
+      "file": "types-and-traits.rst",
+      "line": 3586,
+      "total_refs": 21,
+      "same_file_refs": 1,
+      "other_file_refs": 20,
+      "fitness": "poor"
+    },
+    {
+      "term": "implementing type",
+      "file": "types-and-traits.rst",
+      "line": 3585,
+      "total_refs": 13,
+      "same_file_refs": 1,
+      "other_file_refs": 12,
+      "fitness": "poor"
+    },
+    {
+      "term": "implicit borrow",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 183,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "implicitly declared entity",
+      "file": "entities-and-resolution.rst",
+      "line": 106,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "implied bound",
+      "file": "types-and-traits.rst",
+      "line": 3238,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "import path prefix",
+      "file": "entities-and-resolution.rst",
+      "line": 1072,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "in scope",
+      "file": "entities-and-resolution.rst",
+      "line": 479,
+      "total_refs": 40,
+      "same_file_refs": 40,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "inclusive range pattern",
+      "file": "patterns.rst",
+      "line": 506,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "incomplete associated constant",
+      "file": "associated-items.rst",
+      "line": 40,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "incomplete associated function",
+      "file": "associated-items.rst",
+      "line": 44,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "incomplete associated type",
+      "file": "associated-items.rst",
+      "line": 48,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "index expression",
+      "file": "expressions.rst",
+      "line": 468,
+      "total_refs": 15,
+      "same_file_refs": 12,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "indexable type",
+      "file": "expressions.rst",
+      "line": 3121,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "indexed deconstructor",
+      "file": "patterns.rst",
+      "line": 851,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "indexed field selector",
+      "file": "entities-and-resolution.rst",
+      "line": 1327,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "indexed initializer",
+      "file": "expressions.rst",
+      "line": 3319,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "indexed operand",
+      "file": "expressions.rst",
+      "line": 520,
+      "total_refs": 12,
+      "same_file_refs": 10,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "indexing operand",
+      "file": "expressions.rst",
+      "line": 3133,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "indirection type",
+      "file": "types-and-traits.rst",
+      "line": 1135,
+      "total_refs": 6,
+      "same_file_refs": 5,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "inert attribute",
+      "file": "attributes.rst",
+      "line": 85,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "inferred constant",
+      "file": "generics.rst",
+      "line": 176,
+      "total_refs": 5,
+      "same_file_refs": 3,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "inferred type",
+      "file": "types-and-traits.rst",
+      "line": 1464,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "infinite loop",
+      "file": "expressions.rst",
+      "line": 4139,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "infinite loop expression",
+      "file": "expressions.rst",
+      "line": 4142,
+      "total_refs": 11,
+      "same_file_refs": 9,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "inherent implementation",
+      "file": "entities-and-resolution.rst",
+      "line": 1749,
+      "total_refs": 9,
+      "same_file_refs": 8,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "initialization expression",
+      "file": "expressions.rst",
+      "line": 2557,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "initialization type",
+      "file": "types-and-traits.rst",
+      "line": 1590,
+      "total_refs": 4,
+      "same_file_refs": 0,
+      "other_file_refs": 4,
+      "fitness": "poor"
+    },
+    {
+      "term": "initialized",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 45,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "inline module",
+      "file": "program-structure-and-compilation.rst",
+      "line": 80,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "inlined",
+      "file": "attributes.rst",
+      "line": 408,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "inlining",
+      "file": "attributes.rst",
+      "line": 412,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "inner attribute",
+      "file": "attributes.rst",
+      "line": 51,
+      "total_refs": 4,
+      "same_file_refs": 1,
+      "other_file_refs": 3,
+      "fitness": "questionable"
+    },
+    {
+      "term": "inner block doc",
+      "file": "lexical-elements.rst",
+      "line": 1364,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "inner doc comment",
+      "file": "lexical-elements.rst",
+      "line": 1372,
+      "total_refs": 4,
+      "same_file_refs": 0,
+      "other_file_refs": 4,
+      "fitness": "poor"
+    },
+    {
+      "term": "inner line doc",
+      "file": "lexical-elements.rst",
+      "line": 1368,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "input lifetime",
+      "file": "types-and-traits.rst",
+      "line": 3567,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "input register",
+      "file": "inline-assembly.rst",
+      "line": 109,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "input register expression",
+      "file": "inline-assembly.rst",
+      "line": 693,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "input-output register expression",
+      "file": "inline-assembly.rst",
+      "line": 704,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "integer literal",
+      "file": "lexical-elements.rst",
+      "line": 931,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "integer suffix",
+      "file": "lexical-elements.rst",
+      "line": 946,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "integer type",
+      "file": "expressions.rst",
+      "line": 2291,
+      "total_refs": 45,
+      "same_file_refs": 31,
+      "other_file_refs": 14,
+      "fitness": "good"
+    },
+    {
+      "term": "integer type variable",
+      "file": "types-and-traits.rst",
+      "line": 2610,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "intermediate match arm",
+      "file": "expressions.rst",
+      "line": 4881,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "irrefutable constant",
+      "file": "patterns.rst",
+      "line": 114,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "irrefutable pattern",
+      "file": "statements.rst",
+      "line": 89,
+      "total_refs": 21,
+      "same_file_refs": 0,
+      "other_file_refs": 21,
+      "fitness": "poor"
+    },
+    {
+      "term": "item",
+      "file": "macros.rst",
+      "line": 506,
+      "total_refs": 55,
+      "same_file_refs": 18,
+      "other_file_refs": 37,
+      "fitness": "good"
+    },
+    {
+      "term": "item scope",
+      "file": "entities-and-resolution.rst",
+      "line": 595,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "item statement",
+      "file": "statements.rst",
+      "line": 34,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "iteration expression",
+      "file": "expressions.rst",
+      "line": 4210,
+      "total_refs": 5,
+      "same_file_refs": 4,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "keyword",
+      "file": "lexical-elements.rst",
+      "line": 1468,
+      "total_refs": 83,
+      "same_file_refs": 8,
+      "other_file_refs": 75,
+      "fitness": "poor"
+    },
+    {
+      "term": "label",
+      "file": "expressions.rst",
+      "line": 921,
+      "total_refs": 14,
+      "same_file_refs": 9,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "label block",
+      "file": "inline-assembly.rst",
+      "line": 1749,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "label indication",
+      "file": "expressions.rst",
+      "line": 4333,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "label namespace",
+      "file": "entities-and-resolution.rst",
+      "line": 849,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "label scope",
+      "file": "entities-and-resolution.rst",
+      "line": 615,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "language prelude",
+      "file": "entities-and-resolution.rst",
+      "line": 999,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "layout",
+      "file": "types-and-traits.rst",
+      "line": 1668,
+      "total_refs": 9,
+      "same_file_refs": 8,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "lazy and expression",
+      "file": "expressions.rst",
+      "line": 2163,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "lazy boolean expression",
+      "file": "expressions.rst",
+      "line": 2159,
+      "total_refs": 6,
+      "same_file_refs": 5,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "lazy or expression",
+      "file": "expressions.rst",
+      "line": 2167,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "left operand",
+      "file": "expressions.rst",
+      "line": 97,
+      "total_refs": 43,
+      "same_file_refs": 40,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "less-than expression",
+      "file": "expressions.rst",
+      "line": 2012,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "less-than-or-equals expression",
+      "file": "expressions.rst",
+      "line": 2025,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "let binding",
+      "file": "statements.rst",
+      "line": 79,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "let initializer",
+      "file": "statements.rst",
+      "line": 83,
+      "total_refs": 10,
+      "same_file_refs": 7,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "let statement",
+      "file": "statements.rst",
+      "line": 74,
+      "total_refs": 38,
+      "same_file_refs": 17,
+      "other_file_refs": 21,
+      "fitness": "good"
+    },
+    {
+      "term": "lexical element",
+      "file": "lexical-elements.rst",
+      "line": 176,
+      "total_refs": 11,
+      "same_file_refs": 3,
+      "other_file_refs": 8,
+      "fitness": "questionable"
+    },
+    {
+      "term": "library crate",
+      "file": "program-structure-and-compilation.rst",
+      "line": 142,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "lifetime",
+      "file": "types-and-traits.rst",
+      "line": 3288,
+      "total_refs": 69,
+      "same_file_refs": 51,
+      "other_file_refs": 18,
+      "fitness": "good"
+    },
+    {
+      "term": "lifetime argument",
+      "file": "generics.rst",
+      "line": 392,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "lifetime bound",
+      "file": "types-and-traits.rst",
+      "line": 3206,
+      "total_refs": 15,
+      "same_file_refs": 7,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "lifetime bound predicate",
+      "file": "generics.rst",
+      "line": 285,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "lifetime namespace",
+      "file": "entities-and-resolution.rst",
+      "line": 852,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "lifetime parameter",
+      "file": "types-and-traits.rst",
+      "line": 3228,
+      "total_refs": 29,
+      "same_file_refs": 14,
+      "other_file_refs": 15,
+      "fitness": "good"
+    },
+    {
+      "term": "lifetime variable",
+      "file": "types-and-traits.rst",
+      "line": 2622,
+      "total_refs": 2,
+      "same_file_refs": 0,
+      "other_file_refs": 2,
+      "fitness": "poor"
+    },
+    {
+      "term": "line",
+      "file": "lexical-elements.rst",
+      "line": 182,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "line comment",
+      "file": "lexical-elements.rst",
+      "line": 1361,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "literal",
+      "file": "lexical-elements.rst",
+      "line": 575,
+      "total_refs": 14,
+      "same_file_refs": 7,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "literal expression",
+      "file": "expressions.rst",
+      "line": 623,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "literal pattern",
+      "file": "patterns.rst",
+      "line": 286,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "local trait",
+      "file": "types-and-traits.rst",
+      "line": 3016,
+      "total_refs": 2,
+      "same_file_refs": 0,
+      "other_file_refs": 2,
+      "fitness": "poor"
+    },
+    {
+      "term": "local type",
+      "file": "types-and-traits.rst",
+      "line": 53,
+      "total_refs": 2,
+      "same_file_refs": 0,
+      "other_file_refs": 2,
+      "fitness": "poor"
+    },
+    {
+      "term": "local variable",
+      "file": "values.rst",
+      "line": 262,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "loop",
+      "file": "expressions.rst",
+      "line": 4021,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "loop body",
+      "file": "expressions.rst",
+      "line": 4024,
+      "total_refs": 9,
+      "same_file_refs": 6,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "loop expression",
+      "file": "expressions.rst",
+      "line": 4017,
+      "total_refs": 26,
+      "same_file_refs": 24,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "macro",
+      "file": "macros.rst",
+      "line": 14,
+      "total_refs": 52,
+      "same_file_refs": 15,
+      "other_file_refs": 37,
+      "fitness": "questionable"
+    },
+    {
+      "term": "macro implementation function",
+      "file": "macros.rst",
+      "line": 324,
+      "total_refs": 19,
+      "same_file_refs": 19,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro invocation",
+      "file": "macros.rst",
+      "line": 554,
+      "total_refs": 42,
+      "same_file_refs": 35,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "macro match",
+      "file": "macros.rst",
+      "line": 86,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro matcher",
+      "file": "macros.rst",
+      "line": 82,
+      "total_refs": 18,
+      "same_file_refs": 18,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro namespace",
+      "file": "entities-and-resolution.rst",
+      "line": 856,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "macro repetition",
+      "file": "macros.rst",
+      "line": 249,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro repetition in matching",
+      "file": "macros.rst",
+      "line": 241,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro repetition in transcription",
+      "file": "macros.rst",
+      "line": 245,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro rule",
+      "file": "macros.rst",
+      "line": 78,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "macro statement",
+      "file": "statements.rst",
+      "line": 41,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "macro transcriber",
+      "file": "macros.rst",
+      "line": 89,
+      "total_refs": 8,
+      "same_file_refs": 7,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "macro_use prelude",
+      "file": "entities-and-resolution.rst",
+      "line": 1019,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "main function signature",
+      "file": "program-structure-and-compilation.rst",
+      "line": 134,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "match arm",
+      "file": "expressions.rst",
+      "line": 4877,
+      "total_refs": 24,
+      "same_file_refs": 10,
+      "other_file_refs": 14,
+      "fitness": "good"
+    },
+    {
+      "term": "match arm body",
+      "file": "expressions.rst",
+      "line": 4895,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "match arm guard",
+      "file": "expressions.rst",
+      "line": 4898,
+      "total_refs": 14,
+      "same_file_refs": 9,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "match arm matcher",
+      "file": "expressions.rst",
+      "line": 4888,
+      "total_refs": 13,
+      "same_file_refs": 13,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "match expression",
+      "file": "expressions.rst",
+      "line": 4872,
+      "total_refs": 19,
+      "same_file_refs": 11,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "matched argument operand",
+      "file": "expressions.rst",
+      "line": 3755,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched indexed deconstructor",
+      "file": "patterns.rst",
+      "line": 858,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched indexed initializer",
+      "file": "expressions.rst",
+      "line": 3326,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched named deconstructor",
+      "file": "patterns.rst",
+      "line": 871,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched named initializer",
+      "file": "expressions.rst",
+      "line": 3343,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched shorthand deconstructor",
+      "file": "patterns.rst",
+      "line": 900,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched shorthand initializer",
+      "file": "expressions.rst",
+      "line": 3365,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched tuple struct subpattern",
+      "file": "patterns.rst",
+      "line": 1070,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "matched tuple subpattern",
+      "file": "patterns.rst",
+      "line": 1162,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "memory size",
+      "file": "values.rst",
+      "line": 38,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "metavariable",
+      "file": "macros.rst",
+      "line": 147,
+      "total_refs": 25,
+      "same_file_refs": 25,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "metavariable indication",
+      "file": "macros.rst",
+      "line": 199,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "method",
+      "file": "functions.rst",
+      "line": 75,
+      "total_refs": 14,
+      "same_file_refs": 0,
+      "other_file_refs": 14,
+      "fitness": "poor"
+    },
+    {
+      "term": "method call expression",
+      "file": "expressions.rst",
+      "line": 3686,
+      "total_refs": 23,
+      "same_file_refs": 10,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "method operand",
+      "file": "expressions.rst",
+      "line": 3694,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "mixed site hygiene",
+      "file": "macros.rst",
+      "line": 1117,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "modifying operand",
+      "file": "expressions.rst",
+      "line": 2751,
+      "total_refs": 12,
+      "same_file_refs": 11,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "module",
+      "file": "program-structure-and-compilation.rst",
+      "line": 73,
+      "total_refs": 60,
+      "same_file_refs": 6,
+      "other_file_refs": 54,
+      "fitness": "questionable"
+    },
+    {
+      "term": "module path",
+      "file": "attributes.rst",
+      "line": 1977,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "move type",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 305,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "multi segment path",
+      "file": "entities-and-resolution.rst",
+      "line": 362,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "multiplication assignment",
+      "file": "expressions.rst",
+      "line": 2736,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "multiplication assignment expression",
+      "file": "expressions.rst",
+      "line": 2701,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "multiplication expression",
+      "file": "expressions.rst",
+      "line": 1523,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutability",
+      "file": "types-and-traits.rst",
+      "line": 2165,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable",
+      "file": "values.rst",
+      "line": 20,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "mutable assignee expression",
+      "file": "expressions.rst",
+      "line": 164,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable binding",
+      "file": "patterns.rst",
+      "line": 1269,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable borrow",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 227,
+      "total_refs": 7,
+      "same_file_refs": 4,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable borrow expression",
+      "file": "expressions.rst",
+      "line": 1047,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable place expression",
+      "file": "expressions.rst",
+      "line": 441,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable place expression context",
+      "file": "expressions.rst",
+      "line": 538,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable raw borrow expression",
+      "file": "expressions.rst",
+      "line": 1114,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable raw pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1236,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "mutable reference",
+      "file": "expressions.rst",
+      "line": 5361,
+      "total_refs": 14,
+      "same_file_refs": 3,
+      "other_file_refs": 11,
+      "fitness": "questionable"
+    },
+    {
+      "term": "mutable reference type",
+      "file": "types-and-traits.rst",
+      "line": 1291,
+      "total_refs": 5,
+      "same_file_refs": 3,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "mutable static",
+      "file": "values.rst",
+      "line": 187,
+      "total_refs": 4,
+      "same_file_refs": 1,
+      "other_file_refs": 3,
+      "fitness": "questionable"
+    },
+    {
+      "term": "mutable variable",
+      "file": "values.rst",
+      "line": 269,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "name",
+      "file": "entities-and-resolution.rst",
+      "line": 154,
+      "total_refs": 102,
+      "same_file_refs": 62,
+      "other_file_refs": 40,
+      "fitness": "good"
+    },
+    {
+      "term": "named block expression",
+      "file": "expressions.rst",
+      "line": 917,
+      "total_refs": 13,
+      "same_file_refs": 13,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "named deconstructor",
+      "file": "patterns.rst",
+      "line": 865,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "named field selector",
+      "file": "entities-and-resolution.rst",
+      "line": 1331,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "named initializer",
+      "file": "expressions.rst",
+      "line": 3337,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "named loop expression",
+      "file": "expressions.rst",
+      "line": 4038,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "named register argument",
+      "file": "inline-assembly.rst",
+      "line": 660,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "namespace",
+      "file": "entities-and-resolution.rst",
+      "line": 840,
+      "total_refs": 9,
+      "same_file_refs": 8,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "namespace context",
+      "file": "entities-and-resolution.rst",
+      "line": 1583,
+      "total_refs": 8,
+      "same_file_refs": 8,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "namespace qualifier",
+      "file": "entities-and-resolution.rst",
+      "line": 305,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "negation expression",
+      "file": "expressions.rst",
+      "line": 1339,
+      "total_refs": 14,
+      "same_file_refs": 12,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "nesting import",
+      "file": "entities-and-resolution.rst",
+      "line": 1158,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "never type",
+      "file": "types-and-traits.rst",
+      "line": 1527,
+      "total_refs": 14,
+      "same_file_refs": 6,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "non-exhaustive type",
+      "file": "attributes.rst",
+      "line": 2352,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "non-exhaustive variant",
+      "file": "attributes.rst",
+      "line": 2360,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "non-reference pattern",
+      "file": "patterns.rst",
+      "line": 1289,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "not configuration predicate",
+      "file": "attributes.rst",
+      "line": 952,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "not-equals expression",
+      "file": "expressions.rst",
+      "line": 2038,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "numeric cast",
+      "file": "expressions.rst",
+      "line": 2340,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "numeric literal",
+      "file": "lexical-elements.rst",
+      "line": 848,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "numeric literal pattern",
+      "file": "patterns.rst",
+      "line": 289,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "numeric type",
+      "file": "types-and-traits.rst",
+      "line": 385,
+      "total_refs": 8,
+      "same_file_refs": 4,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "object safe",
+      "file": "types-and-traits.rst",
+      "line": 3111,
+      "total_refs": 9,
+      "same_file_refs": 9,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "obsolete range pattern",
+      "file": "patterns.rst",
+      "line": 514,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "octal literal",
+      "file": "lexical-elements.rst",
+      "line": 943,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "operand",
+      "file": "expressions.rst",
+      "line": 2291,
+      "total_refs": 208,
+      "same_file_refs": 184,
+      "other_file_refs": 24,
+      "fitness": "good"
+    },
+    {
+      "term": "operator expression",
+      "file": "expressions.rst",
+      "line": 1016,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "opt-out trait bound",
+      "file": "generics.rst",
+      "line": 191,
+      "total_refs": 3,
+      "same_file_refs": 0,
+      "other_file_refs": 3,
+      "fitness": "poor"
+    },
+    {
+      "term": "or-pattern",
+      "file": "patterns.rst",
+      "line": 45,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "outer attribute",
+      "file": "attributes.rst",
+      "line": 55,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "outer block doc",
+      "file": "lexical-elements.rst",
+      "line": 1376,
+      "total_refs": 6,
+      "same_file_refs": 3,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "outer doc comment",
+      "file": "lexical-elements.rst",
+      "line": 1384,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "outer line doc",
+      "file": "lexical-elements.rst",
+      "line": 1380,
+      "total_refs": 8,
+      "same_file_refs": 4,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "outline module",
+      "file": "program-structure-and-compilation.rst",
+      "line": 83,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "outlives bound",
+      "file": "types-and-traits.rst",
+      "line": 3227,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "output lifetime",
+      "file": "types-and-traits.rst",
+      "line": 3589,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "output register",
+      "file": "inline-assembly.rst",
+      "line": 114,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "output register expression",
+      "file": "inline-assembly.rst",
+      "line": 697,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "overlap",
+      "file": "values.rst",
+      "line": 42,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "owner",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 23,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "panic",
+      "file": "exceptions-and-errors.rst",
+      "line": 46,
+      "total_refs": 11,
+      "same_file_refs": 0,
+      "other_file_refs": 11,
+      "fitness": "poor"
+    },
+    {
+      "term": "parenthesized expression",
+      "file": "expressions.rst",
+      "line": 2952,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "parenthesized pattern",
+      "file": "patterns.rst",
+      "line": 329,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "parenthesized type",
+      "file": "types-and-traits.rst",
+      "line": 1559,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "partially hygienic",
+      "file": "macros.rst",
+      "line": 1126,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "passing convention",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 292,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "path",
+      "file": "entities-and-resolution.rst",
+      "line": 304,
+      "total_refs": 44,
+      "same_file_refs": 35,
+      "other_file_refs": 9,
+      "fitness": "good"
+    },
+    {
+      "term": "path attribute",
+      "file": "attributes.rst",
+      "line": 1976,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "path expression",
+      "file": "expressions.rst",
+      "line": 662,
+      "total_refs": 14,
+      "same_file_refs": 7,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "path pattern",
+      "file": "patterns.rst",
+      "line": 376,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "path prefix",
+      "file": "entities-and-resolution.rst",
+      "line": 338,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "path segment",
+      "file": "entities-and-resolution.rst",
+      "line": 308,
+      "total_refs": 97,
+      "same_file_refs": 97,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "pattern",
+      "file": "patterns.rst",
+      "line": 41,
+      "total_refs": 112,
+      "same_file_refs": 50,
+      "other_file_refs": 62,
+      "fitness": "good"
+    },
+    {
+      "term": "pattern-without-alternation",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 730,
+      "total_refs": 14,
+      "same_file_refs": 4,
+      "other_file_refs": 10,
+      "fitness": "questionable"
+    },
+    {
+      "term": "pattern-without-range",
+      "file": "patterns.rst",
+      "line": 51,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "place",
+      "file": "expressions.rst",
+      "line": 415,
+      "total_refs": 5,
+      "same_file_refs": 2,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "place expression",
+      "file": "expressions.rst",
+      "line": 418,
+      "total_refs": 17,
+      "same_file_refs": 12,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "place expression context",
+      "file": "expressions.rst",
+      "line": 491,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "plane",
+      "file": "lexical-elements.rst",
+      "line": 38,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "pointer",
+      "file": "patterns.rst",
+      "line": 608,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1139,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "pointer-to-address cast",
+      "file": "expressions.rst",
+      "line": 2285,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "positional register argument",
+      "file": "inline-assembly.rst",
+      "line": 664,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "prelude",
+      "file": "entities-and-resolution.rst",
+      "line": 972,
+      "total_refs": 12,
+      "same_file_refs": 9,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "prelude entity",
+      "file": "entities-and-resolution.rst",
+      "line": 976,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "prelude name",
+      "file": "entities-and-resolution.rst",
+      "line": 979,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "primitive-to-integer cast",
+      "file": "expressions.rst",
+      "line": 2258,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "principal trait",
+      "file": "types-and-traits.rst",
+      "line": 1417,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "proc-macro crate",
+      "file": "program-structure-and-compilation.rst",
+      "line": 146,
+      "total_refs": 6,
+      "same_file_refs": 2,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "procedural macro",
+      "file": "macros.rst",
+      "line": 315,
+      "total_refs": 8,
+      "same_file_refs": 6,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "program entry point",
+      "file": "program-structure-and-compilation.rst",
+      "line": 262,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "punctuator",
+      "file": "lexical-elements.rst",
+      "line": 193,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "pure identifier",
+      "file": "lexical-elements.rst",
+      "line": 491,
+      "total_refs": 4,
+      "same_file_refs": 3,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "qualified fn trait",
+      "file": "entities-and-resolution.rst",
+      "line": 410,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "qualified path expression",
+      "file": "patterns.rst",
+      "line": 410,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "qualified type",
+      "file": "entities-and-resolution.rst",
+      "line": 386,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "qualified type path",
+      "file": "entities-and-resolution.rst",
+      "line": 401,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "qualifying trait",
+      "file": "entities-and-resolution.rst",
+      "line": 379,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range expression",
+      "file": "expressions.rst",
+      "line": 4559,
+      "total_refs": 8,
+      "same_file_refs": 8,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range expression high bound",
+      "file": "expressions.rst",
+      "line": 4566,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range expression low bound",
+      "file": "expressions.rst",
+      "line": 4562,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range pattern",
+      "file": "patterns.rst",
+      "line": 498,
+      "total_refs": 16,
+      "same_file_refs": 16,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range pattern bound",
+      "file": "patterns.rst",
+      "line": 518,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range pattern high bound",
+      "file": "patterns.rst",
+      "line": 525,
+      "total_refs": 8,
+      "same_file_refs": 8,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range pattern low bound",
+      "file": "patterns.rst",
+      "line": 521,
+      "total_refs": 12,
+      "same_file_refs": 12,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range-from expression",
+      "file": "expressions.rst",
+      "line": 4574,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range-from-to expression",
+      "file": "expressions.rst",
+      "line": 4585,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range-full expression",
+      "file": "expressions.rst",
+      "line": 4607,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "range-inclusive expression",
+      "file": "expressions.rst",
+      "line": 4610,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range-to expression",
+      "file": "expressions.rst",
+      "line": 4623,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "range-to-inclusive expression",
+      "file": "expressions.rst",
+      "line": 4634,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "raw borrow expression",
+      "file": "expressions.rst",
+      "line": 1108,
+      "total_refs": 12,
+      "same_file_refs": 12,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "raw byte string literal",
+      "file": "lexical-elements.rst",
+      "line": 710,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "raw c string literal",
+      "file": "lexical-elements.rst",
+      "line": 817,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "raw pointer",
+      "file": "types-and-traits.rst",
+      "line": 1233,
+      "total_refs": 5,
+      "same_file_refs": 0,
+      "other_file_refs": 5,
+      "fitness": "poor"
+    },
+    {
+      "term": "raw pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1230,
+      "total_refs": 11,
+      "same_file_refs": 8,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "raw string literal",
+      "file": "lexical-elements.rst",
+      "line": 1265,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "reachable control flow path",
+      "file": "values.rst",
+      "line": 281,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "receiver operand",
+      "file": "expressions.rst",
+      "line": 3690,
+      "total_refs": 6,
+      "same_file_refs": 2,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "receiver type",
+      "file": "entities-and-resolution.rst",
+      "line": 1394,
+      "total_refs": 13,
+      "same_file_refs": 13,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "record enum variant",
+      "file": "patterns.rst",
+      "line": 907,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "record struct",
+      "file": "expressions.rst",
+      "line": 3384,
+      "total_refs": 3,
+      "same_file_refs": 0,
+      "other_file_refs": 3,
+      "fitness": "poor"
+    },
+    {
+      "term": "record struct field",
+      "file": "types-and-traits.rst",
+      "line": 927,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "record struct pattern",
+      "file": "patterns.rst",
+      "line": 843,
+      "total_refs": 13,
+      "same_file_refs": 13,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "record struct type",
+      "file": "types-and-traits.rst",
+      "line": 921,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "record struct value",
+      "file": "types-and-traits.rst",
+      "line": 924,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "recursive type",
+      "file": "types-and-traits.rst",
+      "line": 1985,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "reference",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 102,
+      "total_refs": 26,
+      "same_file_refs": 15,
+      "other_file_refs": 11,
+      "fitness": "good"
+    },
+    {
+      "term": "reference identifier pattern",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 636,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "reference pattern",
+      "file": "patterns.rst",
+      "line": 604,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "reference type",
+      "file": "types-and-traits.rst",
+      "line": 1273,
+      "total_refs": 19,
+      "same_file_refs": 9,
+      "other_file_refs": 10,
+      "fitness": "good"
+    },
+    {
+      "term": "referent",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 105,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "refutability",
+      "file": "patterns.rst",
+      "line": 98,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "refutable constant",
+      "file": "patterns.rst",
+      "line": 118,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "refutable pattern",
+      "file": "patterns.rst",
+      "line": 106,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "refutable type",
+      "file": "patterns.rst",
+      "line": 118,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register",
+      "file": "inline-assembly.rst",
+      "line": 105,
+      "total_refs": 58,
+      "same_file_refs": 58,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register argument",
+      "file": "inline-assembly.rst",
+      "line": 652,
+      "total_refs": 31,
+      "same_file_refs": 31,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register class",
+      "file": "inline-assembly.rst",
+      "line": 447,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register class argument",
+      "file": "inline-assembly.rst",
+      "line": 680,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register class name",
+      "file": "inline-assembly.rst",
+      "line": 450,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register expression",
+      "file": "inline-assembly.rst",
+      "line": 716,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register name",
+      "file": "inline-assembly.rst",
+      "line": 124,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register parameter",
+      "file": "inline-assembly.rst",
+      "line": 1014,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "register parameter modifier",
+      "file": "inline-assembly.rst",
+      "line": 1042,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "remainder assignment",
+      "file": "expressions.rst",
+      "line": 2739,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "remainder assignment expression",
+      "file": "expressions.rst",
+      "line": 2705,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "remainder expression",
+      "file": "expressions.rst",
+      "line": 1540,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "renaming",
+      "file": "entities-and-resolution.rst",
+      "line": 982,
+      "total_refs": 10,
+      "same_file_refs": 7,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "repeat operand",
+      "file": "expressions.rst",
+      "line": 3020,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "repetition index",
+      "file": "macros.rst",
+      "line": 933,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "repetition operator",
+      "file": "macros.rst",
+      "line": 253,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "representation",
+      "file": "types-and-traits.rst",
+      "line": 1773,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "representation modifier",
+      "file": "types-and-traits.rst",
+      "line": 1822,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "reserved keyword",
+      "file": "lexical-elements.rst",
+      "line": 1554,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1269,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "resolution context",
+      "file": "entities-and-resolution.rst",
+      "line": 1587,
+      "total_refs": 43,
+      "same_file_refs": 43,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "rest pattern",
+      "file": "patterns.rst",
+      "line": 656,
+      "total_refs": 15,
+      "same_file_refs": 13,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "return expression",
+      "file": "expressions.rst",
+      "line": 5022,
+      "total_refs": 11,
+      "same_file_refs": 8,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "return type",
+      "file": "expressions.rst",
+      "line": 3908,
+      "total_refs": 36,
+      "same_file_refs": 7,
+      "other_file_refs": 29,
+      "fitness": "questionable"
+    },
+    {
+      "term": "right operand",
+      "file": "expressions.rst",
+      "line": 1496,
+      "total_refs": 43,
+      "same_file_refs": 40,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "rustc",
+      "file": "general.rst",
+      "line": 58,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "safety invariant",
+      "file": "types-and-traits.rst",
+      "line": 648,
+      "total_refs": 4,
+      "same_file_refs": 1,
+      "other_file_refs": 3,
+      "fitness": "questionable"
+    },
+    {
+      "term": "scalar type",
+      "file": "patterns.rst",
+      "line": 555,
+      "total_refs": 13,
+      "same_file_refs": 2,
+      "other_file_refs": 11,
+      "fitness": "questionable"
+    },
+    {
+      "term": "scope",
+      "file": "entities-and-resolution.rst",
+      "line": 478,
+      "total_refs": 29,
+      "same_file_refs": 26,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "scope hierarchy",
+      "file": "entities-and-resolution.rst",
+      "line": 692,
+      "total_refs": 19,
+      "same_file_refs": 19,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "scoping construct",
+      "file": "entities-and-resolution.rst",
+      "line": 698,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "selected field",
+      "file": "expressions.rst",
+      "line": 3805,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "self input lifetime",
+      "file": "types-and-traits.rst",
+      "line": 3581,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "self parameter",
+      "file": "types-and-traits.rst",
+      "line": 3146,
+      "total_refs": 12,
+      "same_file_refs": 2,
+      "other_file_refs": 10,
+      "fitness": "questionable"
+    },
+    {
+      "term": "self public modifier",
+      "file": "entities-and-resolution.rst",
+      "line": 174,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "send type",
+      "file": "concurrency.rst",
+      "line": 40,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "separator",
+      "file": "lexical-elements.rst",
+      "line": 189,
+      "total_refs": 6,
+      "same_file_refs": 1,
+      "other_file_refs": 5,
+      "fitness": "questionable"
+    },
+    {
+      "term": "sequence type",
+      "file": "types-and-traits.rst",
+      "line": 549,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shadowed",
+      "file": "entities-and-resolution.rst",
+      "line": 41,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shadowing",
+      "file": "entities-and-resolution.rst",
+      "line": 41,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "shared borrow",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 223,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "shared reference",
+      "file": "types-and-traits.rst",
+      "line": 1285,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "shared reference type",
+      "file": "types-and-traits.rst",
+      "line": 1276,
+      "total_refs": 5,
+      "same_file_refs": 2,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "shift left assignment",
+      "file": "expressions.rst",
+      "line": 2742,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shift left assignment expression",
+      "file": "expressions.rst",
+      "line": 2709,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shift left expression",
+      "file": "expressions.rst",
+      "line": 1797,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "shift right assignment",
+      "file": "expressions.rst",
+      "line": 2745,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shift right assignment expression",
+      "file": "expressions.rst",
+      "line": 2713,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shift right expression",
+      "file": "expressions.rst",
+      "line": 1814,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "shorthand deconstructor",
+      "file": "patterns.rst",
+      "line": 878,
+      "total_refs": 9,
+      "same_file_refs": 9,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "shorthand initializer",
+      "file": "expressions.rst",
+      "line": 3354,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "signed integer type",
+      "file": "types-and-traits.rst",
+      "line": 426,
+      "total_refs": 11,
+      "same_file_refs": 6,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "simple byte string literal",
+      "file": "lexical-elements.rst",
+      "line": 672,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple c string literal",
+      "file": "lexical-elements.rst",
+      "line": 774,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple import",
+      "file": "entities-and-resolution.rst",
+      "line": 1099,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple import path",
+      "file": "entities-and-resolution.rst",
+      "line": 1124,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple path",
+      "file": "entities-and-resolution.rst",
+      "line": 176,
+      "total_refs": 21,
+      "same_file_refs": 19,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "simple path prefix",
+      "file": "entities-and-resolution.rst",
+      "line": 345,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple path public modifier",
+      "file": "entities-and-resolution.rst",
+      "line": 180,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple path resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1696,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple public modifier",
+      "file": "entities-and-resolution.rst",
+      "line": 194,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "simple punctuator",
+      "file": "lexical-elements.rst",
+      "line": 197,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple register expression",
+      "file": "inline-assembly.rst",
+      "line": 712,
+      "total_refs": 17,
+      "same_file_refs": 17,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "simple string literal",
+      "file": "lexical-elements.rst",
+      "line": 1223,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "single segment path",
+      "file": "entities-and-resolution.rst",
+      "line": 358,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "size",
+      "file": "types-and-traits.rst",
+      "line": 1627,
+      "total_refs": 37,
+      "same_file_refs": 31,
+      "other_file_refs": 6,
+      "fitness": "good"
+    },
+    {
+      "term": "size operand",
+      "file": "expressions.rst",
+      "line": 299,
+      "total_refs": 15,
+      "same_file_refs": 8,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "sized type",
+      "file": "types-and-traits.rst",
+      "line": 1632,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "slice",
+      "file": "types-and-traits.rst",
+      "line": 618,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "slice pattern",
+      "file": "patterns.rst",
+      "line": 721,
+      "total_refs": 19,
+      "same_file_refs": 17,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "slice type",
+      "file": "types-and-traits.rst",
+      "line": 614,
+      "total_refs": 16,
+      "same_file_refs": 10,
+      "other_file_refs": 6,
+      "fitness": "good"
+    },
+    {
+      "term": "source file",
+      "file": "program-structure-and-compilation.rst",
+      "line": 38,
+      "total_refs": 7,
+      "same_file_refs": 4,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "specialized cast",
+      "file": "expressions.rst",
+      "line": 2244,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "statement",
+      "file": "statements.rst",
+      "line": 25,
+      "total_refs": 26,
+      "same_file_refs": 6,
+      "other_file_refs": 20,
+      "fitness": "questionable"
+    },
+    {
+      "term": "static",
+      "file": "values.rst",
+      "line": 168,
+      "total_refs": 38,
+      "same_file_refs": 14,
+      "other_file_refs": 24,
+      "fitness": "good"
+    },
+    {
+      "term": "static initializer",
+      "file": "values.rst",
+      "line": 201,
+      "total_refs": 8,
+      "same_file_refs": 3,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "static lifetime elision",
+      "file": "types-and-traits.rst",
+      "line": 3647,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "str",
+      "file": "types-and-traits.rst",
+      "line": 644,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "strict keyword",
+      "file": "lexical-elements.rst",
+      "line": 1525,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "string literal",
+      "file": "lexical-elements.rst",
+      "line": 1188,
+      "total_refs": 9,
+      "same_file_refs": 5,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "struct",
+      "file": "types-and-traits.rst",
+      "line": 907,
+      "total_refs": 8,
+      "same_file_refs": 2,
+      "other_file_refs": 6,
+      "fitness": "questionable"
+    },
+    {
+      "term": "struct expression",
+      "file": "expressions.rst",
+      "line": 530,
+      "total_refs": 20,
+      "same_file_refs": 17,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "struct field",
+      "file": "types-and-traits.rst",
+      "line": 945,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "struct pattern",
+      "file": "patterns.rst",
+      "line": 773,
+      "total_refs": 8,
+      "same_file_refs": 5,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "struct type",
+      "file": "types-and-traits.rst",
+      "line": 911,
+      "total_refs": 29,
+      "same_file_refs": 20,
+      "other_file_refs": 9,
+      "fitness": "good"
+    },
+    {
+      "term": "struct value",
+      "file": "expressions.rst",
+      "line": 3299,
+      "total_refs": 6,
+      "same_file_refs": 3,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "structurally equal",
+      "file": "types-and-traits.rst",
+      "line": 2442,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "subexpression",
+      "file": "expressions.rst",
+      "line": 93,
+      "total_refs": 6,
+      "same_file_refs": 5,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "subject expression",
+      "file": "expressions.rst",
+      "line": 112,
+      "total_refs": 19,
+      "same_file_refs": 15,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "subject let expression",
+      "file": "expressions.rst",
+      "line": 116,
+      "total_refs": 8,
+      "same_file_refs": 6,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "subpattern",
+      "file": "patterns.rst",
+      "line": 1067,
+      "total_refs": 42,
+      "same_file_refs": 41,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "subtraction assignment",
+      "file": "expressions.rst",
+      "line": 2748,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "subtraction assignment expression",
+      "file": "expressions.rst",
+      "line": 2717,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "subtraction expression",
+      "file": "expressions.rst",
+      "line": 1557,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "subtrait",
+      "file": "types-and-traits.rst",
+      "line": 3019,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "subtype",
+      "file": "types-and-traits.rst",
+      "line": 2269,
+      "total_refs": 17,
+      "same_file_refs": 15,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "subtyping",
+      "file": "types-and-traits.rst",
+      "line": 3431,
+      "total_refs": 9,
+      "same_file_refs": 9,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "suffixed float",
+      "file": "lexical-elements.rst",
+      "line": 1068,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "suffixed integer",
+      "file": "lexical-elements.rst",
+      "line": 950,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "super public modifier",
+      "file": "entities-and-resolution.rst",
+      "line": 198,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "supertrait",
+      "file": "types-and-traits.rst",
+      "line": 2321,
+      "total_refs": 8,
+      "same_file_refs": 7,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "sym path expression",
+      "file": "inline-assembly.rst",
+      "line": 722,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "sync type",
+      "file": "concurrency.rst",
+      "line": 53,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "syntactic category",
+      "file": "general.rst",
+      "line": 262,
+      "total_refs": 1,
+      "same_file_refs": 0,
+      "other_file_refs": 1,
+      "fitness": "poor"
+    },
+    {
+      "term": "tail expression",
+      "file": "expressions.rst",
+      "line": 733,
+      "total_refs": 9,
+      "same_file_refs": 7,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "target type",
+      "file": "expressions.rst",
+      "line": 2239,
+      "total_refs": 11,
+      "same_file_refs": 8,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "temporary",
+      "file": "expressions.rst",
+      "line": 5107,
+      "total_refs": 15,
+      "same_file_refs": 8,
+      "other_file_refs": 7,
+      "fitness": "good"
+    },
+    {
+      "term": "terminated",
+      "file": "expressions.rst",
+      "line": 4043,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "terminated macro invocation",
+      "file": "macros.rst",
+      "line": 559,
+      "total_refs": 3,
+      "same_file_refs": 0,
+      "other_file_refs": 3,
+      "fitness": "poor"
+    },
+    {
+      "term": "testing function",
+      "file": "attributes.rst",
+      "line": 2300,
+      "total_refs": 9,
+      "same_file_refs": 9,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "textual macro scope",
+      "file": "entities-and-resolution.rst",
+      "line": 671,
+      "total_refs": 6,
+      "same_file_refs": 5,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "textual type",
+      "file": "types-and-traits.rst",
+      "line": 659,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "thin pointer",
+      "file": "types-and-traits.rst",
+      "line": 1149,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "thin pointer type",
+      "file": "types-and-traits.rst",
+      "line": 1145,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "trait",
+      "file": "types-and-traits.rst",
+      "line": 3003,
+      "total_refs": 187,
+      "same_file_refs": 65,
+      "other_file_refs": 122,
+      "fitness": "good"
+    },
+    {
+      "term": "trait body",
+      "file": "entities-and-resolution.rst",
+      "line": 563,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "trait bound",
+      "file": "types-and-traits.rst",
+      "line": 3210,
+      "total_refs": 17,
+      "same_file_refs": 9,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "trait implementation",
+      "file": "expressions.rst",
+      "line": 1490,
+      "total_refs": 53,
+      "same_file_refs": 25,
+      "other_file_refs": 28,
+      "fitness": "good"
+    },
+    {
+      "term": "trait object type",
+      "file": "types-and-traits.rst",
+      "line": 1413,
+      "total_refs": 25,
+      "same_file_refs": 23,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "trait type",
+      "file": "types-and-traits.rst",
+      "line": 1321,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "trivial predicate",
+      "file": "generics.rst",
+      "line": 297,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple",
+      "file": "expressions.rst",
+      "line": 3228,
+      "total_refs": 7,
+      "same_file_refs": 5,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple enum variant",
+      "file": "expressions.rst",
+      "line": 671,
+      "total_refs": 13,
+      "same_file_refs": 8,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple enum variant value",
+      "file": "expressions.rst",
+      "line": 3520,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple expression",
+      "file": "expressions.rst",
+      "line": 3221,
+      "total_refs": 8,
+      "same_file_refs": 6,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple field",
+      "file": "patterns.rst",
+      "line": 1156,
+      "total_refs": 14,
+      "same_file_refs": 6,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple initializer",
+      "file": "expressions.rst",
+      "line": 3224,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple pattern",
+      "file": "patterns.rst",
+      "line": 1141,
+      "total_refs": 11,
+      "same_file_refs": 9,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple struct",
+      "file": "expressions.rst",
+      "line": 675,
+      "total_refs": 10,
+      "same_file_refs": 8,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple struct call expression",
+      "file": "expressions.rst",
+      "line": 2503,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple struct field",
+      "file": "types-and-traits.rst",
+      "line": 933,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple struct pattern",
+      "file": "patterns.rst",
+      "line": 1059,
+      "total_refs": 10,
+      "same_file_refs": 8,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple struct type",
+      "file": "types-and-traits.rst",
+      "line": 936,
+      "total_refs": 8,
+      "same_file_refs": 3,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple struct value",
+      "file": "expressions.rst",
+      "line": 3520,
+      "total_refs": 3,
+      "same_file_refs": 1,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "tuple type",
+      "file": "types-and-traits.rst",
+      "line": 689,
+      "total_refs": 19,
+      "same_file_refs": 10,
+      "other_file_refs": 9,
+      "fitness": "good"
+    },
+    {
+      "term": "type",
+      "file": "types-and-traits.rst",
+      "line": 2261,
+      "total_refs": 742,
+      "same_file_refs": 281,
+      "other_file_refs": 461,
+      "fitness": "good"
+    },
+    {
+      "term": "type alias",
+      "file": "types-and-traits.rst",
+      "line": 1587,
+      "total_refs": 11,
+      "same_file_refs": 6,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "type argument",
+      "file": "generics.rst",
+      "line": 396,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "type ascription",
+      "file": "statements.rst",
+      "line": 100,
+      "total_refs": 12,
+      "same_file_refs": 6,
+      "other_file_refs": 6,
+      "fitness": "good"
+    },
+    {
+      "term": "type bound predicate",
+      "file": "types-and-traits.rst",
+      "line": 3127,
+      "total_refs": 8,
+      "same_file_refs": 3,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "type cast expression",
+      "file": "expressions.rst",
+      "line": 2231,
+      "total_refs": 11,
+      "same_file_refs": 8,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "type inference root",
+      "file": "types-and-traits.rst",
+      "line": 2532,
+      "total_refs": 10,
+      "same_file_refs": 10,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "type namespace",
+      "file": "entities-and-resolution.rst",
+      "line": 875,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "type parameter",
+      "file": "generics.rst",
+      "line": 105,
+      "total_refs": 58,
+      "same_file_refs": 22,
+      "other_file_refs": 36,
+      "fitness": "good"
+    },
+    {
+      "term": "type parameter initializer",
+      "file": "generics.rst",
+      "line": 108,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "type parameter type",
+      "file": "types-and-traits.rst",
+      "line": 1503,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "type path",
+      "file": "entities-and-resolution.rst",
+      "line": 373,
+      "total_refs": 8,
+      "same_file_refs": 5,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "type specification",
+      "file": "types-and-traits.rst",
+      "line": 50,
+      "total_refs": 22,
+      "same_file_refs": 5,
+      "other_file_refs": 17,
+      "fitness": "questionable"
+    },
+    {
+      "term": "type variable",
+      "file": "types-and-traits.rst",
+      "line": 2602,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "u8-to-char cast",
+      "file": "expressions.rst",
+      "line": 2274,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unary operator",
+      "file": "expressions.rst",
+      "line": 109,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "undefined behavior",
+      "file": "types-and-traits.rst",
+      "line": 350,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "under resolution",
+      "file": "entities-and-resolution.rst",
+      "line": 1274,
+      "total_refs": 11,
+      "same_file_refs": 11,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "underscore expression",
+      "file": "macros.rst",
+      "line": 850,
+      "total_refs": 7,
+      "same_file_refs": 1,
+      "other_file_refs": 6,
+      "fitness": "questionable"
+    },
+    {
+      "term": "underscore pattern",
+      "file": "patterns.rst",
+      "line": 1227,
+      "total_refs": 6,
+      "same_file_refs": 4,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "unhygienic",
+      "file": "macros.rst",
+      "line": 1102,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unifiable",
+      "file": "expressions.rst",
+      "line": 3032,
+      "total_refs": 18,
+      "same_file_refs": 9,
+      "other_file_refs": 9,
+      "fitness": "good"
+    },
+    {
+      "term": "unified type",
+      "file": "expressions.rst",
+      "line": 745,
+      "total_refs": 5,
+      "same_file_refs": 3,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "unify",
+      "file": "types-and-traits.rst",
+      "line": 2015,
+      "total_refs": 7,
+      "same_file_refs": 7,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "uninitialized",
+      "file": "ownership-and-deconstruction.rst",
+      "line": 50,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "union",
+      "file": "types-and-traits.rst",
+      "line": 1002,
+      "total_refs": 7,
+      "same_file_refs": 1,
+      "other_file_refs": 6,
+      "fitness": "questionable"
+    },
+    {
+      "term": "union field",
+      "file": "types-and-traits.rst",
+      "line": 1009,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "union type",
+      "file": "types-and-traits.rst",
+      "line": 1005,
+      "total_refs": 23,
+      "same_file_refs": 10,
+      "other_file_refs": 13,
+      "fitness": "good"
+    },
+    {
+      "term": "union value",
+      "file": "expressions.rst",
+      "line": 3302,
+      "total_refs": 5,
+      "same_file_refs": 3,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "unique immutable reference",
+      "file": "expressions.rst",
+      "line": 5366,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unit enum variant",
+      "file": "expressions.rst",
+      "line": 678,
+      "total_refs": 11,
+      "same_file_refs": 2,
+      "other_file_refs": 9,
+      "fitness": "questionable"
+    },
+    {
+      "term": "unit struct",
+      "file": "expressions.rst",
+      "line": 681,
+      "total_refs": 7,
+      "same_file_refs": 3,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "unit struct constant",
+      "file": "patterns.rst",
+      "line": 177,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unit struct type",
+      "file": "types-and-traits.rst",
+      "line": 939,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unit struct value",
+      "file": "types-and-traits.rst",
+      "line": 942,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "unit tuple",
+      "file": "types-and-traits.rst",
+      "line": 693,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unit type",
+      "file": "types-and-traits.rst",
+      "line": 2638,
+      "total_refs": 18,
+      "same_file_refs": 5,
+      "other_file_refs": 13,
+      "fitness": "questionable"
+    },
+    {
+      "term": "unit value",
+      "file": "expressions.rst",
+      "line": 762,
+      "total_refs": 9,
+      "same_file_refs": 9,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unnamed constant",
+      "file": "values.rst",
+      "line": 108,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "unnamed lifetime",
+      "file": "types-and-traits.rst",
+      "line": 3520,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unqualified path expression",
+      "file": "entities-and-resolution.rst",
+      "line": 366,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe Rust",
+      "file": "unsafety.rst",
+      "line": 21,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "unsafe block",
+      "file": "expressions.rst",
+      "line": 955,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe block expression",
+      "file": "expressions.rst",
+      "line": 958,
+      "total_refs": 5,
+      "same_file_refs": 5,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe context",
+      "file": "expressions.rst",
+      "line": 687,
+      "total_refs": 14,
+      "same_file_refs": 6,
+      "other_file_refs": 8,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe external block",
+      "file": "ffi.rst",
+      "line": 231,
+      "total_refs": 4,
+      "same_file_refs": 2,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe function",
+      "file": "unsafety.rst",
+      "line": 45,
+      "total_refs": 6,
+      "same_file_refs": 1,
+      "other_file_refs": 5,
+      "fitness": "questionable"
+    },
+    {
+      "term": "unsafe function item type",
+      "file": "expressions.rst",
+      "line": 3557,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe function pointer type",
+      "file": "expressions.rst",
+      "line": 3561,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe operation",
+      "file": "attributes.rst",
+      "line": 1594,
+      "total_refs": 4,
+      "same_file_refs": 0,
+      "other_file_refs": 4,
+      "fitness": "poor"
+    },
+    {
+      "term": "unsafe trait",
+      "file": "implementations.rst",
+      "line": 80,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafe trait implementation",
+      "file": "implementations.rst",
+      "line": 65,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsafety",
+      "file": "expressions.rst",
+      "line": 962,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "unsigned integer type",
+      "file": "types-and-traits.rst",
+      "line": 430,
+      "total_refs": 12,
+      "same_file_refs": 7,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "unsized coercion",
+      "file": "types-and-traits.rst",
+      "line": 2330,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "unsized type",
+      "file": "types-and-traits.rst",
+      "line": 1646,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsuffixed float",
+      "file": "lexical-elements.rst",
+      "line": 1071,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "unsuffixed integer",
+      "file": "lexical-elements.rst",
+      "line": 953,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "use capture",
+      "file": "types-and-traits.rst",
+      "line": 1378,
+      "total_refs": 3,
+      "same_file_refs": 3,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "use import",
+      "file": "entities-and-resolution.rst",
+      "line": 1062,
+      "total_refs": 14,
+      "same_file_refs": 14,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "validity invariant",
+      "file": "types-and-traits.rst",
+      "line": 346,
+      "total_refs": 6,
+      "same_file_refs": 6,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "value",
+      "file": "values.rst",
+      "line": 27,
+      "total_refs": 457,
+      "same_file_refs": 26,
+      "other_file_refs": 431,
+      "fitness": "poor"
+    },
+    {
+      "term": "value expression",
+      "file": "expressions.rst",
+      "line": 595,
+      "total_refs": 12,
+      "same_file_refs": 3,
+      "other_file_refs": 9,
+      "fitness": "questionable"
+    },
+    {
+      "term": "value expression context",
+      "file": "expressions.rst",
+      "line": 600,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "value namespace",
+      "file": "entities-and-resolution.rst",
+      "line": 918,
+      "total_refs": 3,
+      "same_file_refs": 2,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "value operand",
+      "file": "expressions.rst",
+      "line": 2516,
+      "total_refs": 9,
+      "same_file_refs": 7,
+      "other_file_refs": 2,
+      "fitness": "good"
+    },
+    {
+      "term": "variable",
+      "file": "macros.rst",
+      "line": 150,
+      "total_refs": 34,
+      "same_file_refs": 2,
+      "other_file_refs": 32,
+      "fitness": "poor"
+    },
+    {
+      "term": "variadic function",
+      "file": "functions.rst",
+      "line": 110,
+      "total_refs": 4,
+      "same_file_refs": 1,
+      "other_file_refs": 3,
+      "fitness": "questionable"
+    },
+    {
+      "term": "variadic part",
+      "file": "types-and-traits.rst",
+      "line": 1188,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "visibility modifier",
+      "file": "entities-and-resolution.rst",
+      "line": 167,
+      "total_refs": 11,
+      "same_file_refs": 7,
+      "other_file_refs": 4,
+      "fitness": "good"
+    },
+    {
+      "term": "visible empty enum variant",
+      "file": "patterns.rst",
+      "line": 414,
+      "total_refs": 4,
+      "same_file_refs": 4,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "visible empty type",
+      "file": "types-and-traits.rst",
+      "line": 2494,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "weak keyword",
+      "file": "lexical-elements.rst",
+      "line": 1574,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "where clause",
+      "file": "types-and-traits.rst",
+      "line": 1594,
+      "total_refs": 20,
+      "same_file_refs": 2,
+      "other_file_refs": 18,
+      "fitness": "questionable"
+    },
+    {
+      "term": "where clause predicate",
+      "file": "generics.rst",
+      "line": 281,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "while let loop",
+      "file": "expressions.rst",
+      "line": 4269,
+      "total_refs": 2,
+      "same_file_refs": 1,
+      "other_file_refs": 1,
+      "fitness": "good"
+    },
+    {
+      "term": "while let loop expression",
+      "file": "expressions.rst",
+      "line": 4272,
+      "total_refs": 11,
+      "same_file_refs": 6,
+      "other_file_refs": 5,
+      "fitness": "good"
+    },
+    {
+      "term": "while loop",
+      "file": "expressions.rst",
+      "line": 4206,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "while loop expression",
+      "file": "expressions.rst",
+      "line": 4209,
+      "total_refs": 9,
+      "same_file_refs": 6,
+      "other_file_refs": 3,
+      "fitness": "good"
+    },
+    {
+      "term": "whitespace character",
+      "file": "lexical-elements.rst",
+      "line": 49,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "whitespace string",
+      "file": "lexical-elements.rst",
+      "line": 85,
+      "total_refs": 1,
+      "same_file_refs": 1,
+      "other_file_refs": 0,
+      "fitness": "good"
+    },
+    {
+      "term": "zero-sized type",
+      "file": "types-and-traits.rst",
+      "line": 1640,
+      "total_refs": 0,
+      "same_file_refs": 0,
+      "other_file_refs": 0,
+      "fitness": "ok"
+    },
+    {
+      "term": "zero-variant enum type",
+      "file": "types-and-traits.rst",
+      "line": 766,
+      "total_refs": 2,
+      "same_file_refs": 2,
+      "other_file_refs": 0,
+      "fitness": "good"
+    }
+  ],
+  "cross_file_dt_duplicates": {
+    "total": 26,
+    "pre_existing_from_wave_a": 6,
+    "newly_introduced_by_wave_b": 20,
+    "stale_locations_by_file": {
+      "expressions.rst": 12,
+      "types-and-traits.rst": 3,
+      "patterns.rst": 2,
+      "macros.rst": 1,
+      "statements.rst": 1,
+      "inline-assembly.rst": 1
+    },
+    "affected_terms": [
+      "associated type",
+      "attribute content",
+      "borrowed",
+      "dangling",
+      "discriminant",
+      "enum variant value",
+      "field index",
+      "function body",
+      "immutable",
+      "irrefutable pattern",
+      "mutable static",
+      "pointer",
+      "record enum variant",
+      "self parameter",
+      "signed integer type",
+      "static",
+      "structurally equal",
+      "type parameter",
+      "type specification",
+      "underscore expression"
+    ]
+  },
+  "strict_check": {
+    "glossary_dt_terms": 757,
+    "chapter_dt_terms": 900,
+    "glossary_terms_missing_from_chapters": 26,
+    "wave_a_missing": 29,
+    "wave_b_missing": 26,
+    "terms_newly_covered_by_case_fix": [
+      "Elaboration",
+      "Evaluation",
+      "Execution"
+    ]
+  }
+}

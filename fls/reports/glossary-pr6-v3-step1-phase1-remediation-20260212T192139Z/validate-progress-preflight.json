@@ -1,0 +1,33 @@
+{
+  "errors": [
+    "ledger: missing required columns: action_type, decision_detail, reason_code, reason_why, reason_quality, semantic_change_flag, review_attention, after_file, after_line, after_dp_id, after_commit, phase1_status, final_quality",
+    "ledger: unexpected IDs: WB-001, WB-002, WB-003, WB-004, WB-005, WB-006, WB-007, WB-008, WB-009, WB-010, WB-011, WB-012, WB-013, WB-014, WB-015, WB-016, WB-017, WB-018, WB-019, WB-020",
+    "baseline: unexpected IDs: WB-001, WB-002, WB-003, WB-004, WB-005, WB-006, WB-007, WB-008, WB-009, WB-010, WB-011, WB-012, WB-013, WB-014, WB-015, WB-016, WB-017, WB-018, WB-019, WB-020",
+    "checklist and ledger ID sets differ",
+    "checklist and baseline ID sets differ"
+  ],
+  "summary": {
+    "baseline_rows": 104,
+    "checklist": {
+      "parent_checked": 0,
+      "parent_total": 15,
+      "parent_unchecked": 15,
+      "sub_checked": 0,
+      "sub_total": 90,
+      "sub_unchecked": 90
+    },
+    "completed_rows": 0,
+    "error_count": 5,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 90,
+    "insert_diff_modes": {},
+    "ledger_rows": 104,
+    "mode": "progress",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 0,
+    "warning_count": 0
+  },
+  "warnings": []
+}

@@ -1,0 +1,29 @@
+{
+  "errors": [],
+  "summary": {
+    "baseline_rows": 104,
+    "checklist": {
+      "parent_checked": 6,
+      "parent_total": 104,
+      "parent_unchecked": 98,
+      "sub_checked": 36,
+      "sub_total": 624,
+      "sub_unchecked": 588
+    },
+    "completed_rows": 6,
+    "error_count": 0,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 624,
+    "insert_diff_modes": {
+      "WA-001": "hunk"
+    },
+    "ledger_rows": 104,
+    "mode": "progress",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 6,
+    "warning_count": 0
+  },
+  "warnings": []
+}

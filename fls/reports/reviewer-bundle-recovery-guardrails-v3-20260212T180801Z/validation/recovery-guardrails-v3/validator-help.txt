@@ -1,0 +1,74 @@
+usage: validate-ledger-and-checklist-v3.py [-h] --checklist CHECKLIST --ledger
+                                           LEDGER --baseline BASELINE
+                                           [--mode {progress,init,gate,final}]
+                                           [--expected-parent-count EXPECTED_PARENT_COUNT]
+                                           [--expected-id-list EXPECTED_ID_LIST]
+                                           [--subitems-per-parent SUBITEMS_PER_PARENT]
+                                           [--min-reason-length MIN_REASON_LENGTH]
+                                           [--final-allowed-quality FINAL_ALLOWED_QUALITY]
+                                           [--recovery-guardrails]
+                                           [--events-jsonl EVENTS_JSONL]
+                                           [--strict-baseline-json STRICT_BASELINE_JSON]
+                                           [--strict-current-json STRICT_CURRENT_JSON]
+                                           [--strict-max-missing STRICT_MAX_MISSING]
+                                           [--strict-waiver-file STRICT_WAIVER_FILE]
+                                           [--max-action-reason-fraction MAX_ACTION_REASON_FRACTION]
+                                           [--max-reason-jaccard MAX_REASON_JACCARD]
+                                           [--max-deviation-fraction MAX_DEVIATION_FRACTION]
+                                           [--min-wave-size-for-multi-action MIN_WAVE_SIZE_FOR_MULTI_ACTION]
+                                           [--min-unique-actions MIN_UNIQUE_ACTIONS]
+                                           [--json-out JSON_OUT]
+                                           [--markdown-out MARKDOWN_OUT]
+
+Validate v3 checklist + ledger remediation gates
+
+options:
+  -h, --help            show this help message and exit
+  --checklist CHECKLIST
+  --ledger LEDGER
+  --baseline BASELINE
+  --mode {progress,init,gate,final}
+                        init=all unchecked, gate=all checked, final=all
+                        checked + allowed final qualities
+  --expected-parent-count EXPECTED_PARENT_COUNT
+                        Optional expected parent count; if omitted checklist
+                        count is used
+  --expected-id-list EXPECTED_ID_LIST
+                        Optional file listing expected checklist IDs (one per
+                        line)
+  --subitems-per-parent SUBITEMS_PER_PARENT
+  --min-reason-length MIN_REASON_LENGTH
+  --final-allowed-quality FINAL_ALLOWED_QUALITY
+                        Allowed final_quality value(s) in final mode
+                        (repeatable)
+  --recovery-guardrails
+                        Enable recommendation/UUID/deviation/strict guardrails
+  --events-jsonl EVENTS_JSONL
+                        Rationale events jsonl for recovery guardrail checks
+  --strict-baseline-json STRICT_BASELINE_JSON
+                        Strict check JSON baseline report
+  --strict-current-json STRICT_CURRENT_JSON
+                        Strict check JSON current report
+  --strict-max-missing STRICT_MAX_MISSING
+                        Max allowed strict missing_count when recovery
+                        guardrails are enabled
+  --strict-waiver-file STRICT_WAIVER_FILE
+                        Optional waiver file path to allow strict missing
+                        regression
+  --max-action-reason-fraction MAX_ACTION_REASON_FRACTION
+                        Maximum allowed concentration for one
+                        action_type+reason_code pair
+  --max-reason-jaccard MAX_REASON_JACCARD
+                        Maximum allowed Jaccard similarity between two
+                        reason_why entries
+  --max-deviation-fraction MAX_DEVIATION_FRACTION
+                        Maximum allowed deviation permit fraction among
+                        high/medium terms
+  --min-wave-size-for-multi-action MIN_WAVE_SIZE_FOR_MULTI_ACTION
+                        Require multiple action types when wave has more than
+                        this many completed rows
+  --min-unique-actions MIN_UNIQUE_ACTIONS
+                        Minimum unique action_type values when multi-action
+                        gate applies
+  --json-out JSON_OUT
+  --markdown-out MARKDOWN_OUT

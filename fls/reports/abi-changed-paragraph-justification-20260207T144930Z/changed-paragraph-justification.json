@@ -1,0 +1,502 @@
+{
+  "generated_utc": "2026-02-07T14:49:30.658964+00:00",
+  "source_report": "/home/pete.levasseur/opencode-project-agents/fls/reports/system-abi-variadic-tooling-restack-20260207T144017Z/integration-abi-dedupe-base.json",
+  "base": "0165ee6ad6e7e6a54705458d491810b0481b7df4",
+  "release": "1.93.0",
+  "upstream_pr": "https://github.com/rust-lang/rust/pull/145954",
+  "changed_src_files": [
+    "src/ffi.rst",
+    "src/glossary.rst"
+  ],
+  "changed_paragraph_count": 12,
+  "changed_paragraphs": [
+    {
+      "paragraph_id": "fls_36qrs2fxxvi7",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:19",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_36qrs2fxxvi7"
+      },
+      "before": "extern \"cdecl\" - The x86_32 ABI of C code.",
+      "after": "extern \"cdecl\" - The x86_32 ABI of C code. Only available on x86_32 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "1da7fe0a23d93d524fed3110b8c116e9b7fe7f1563c51830ffd8b98ce562b9dd",
+            "head_checksum": "004d9eeb46c8b8e7fe56e07369710ee3888ff5858adce406211fd1c127589ab2",
+            "base_markup_checksum": "f823f14980db2c025141254cdb35f982b06c392cf2ebfa7861e5497610f9bc9e",
+            "head_markup_checksum": "81bff5298bba1cf1bf805a02ecf7438202cad215a98e052d28b68407fc8c41c6"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_6rtj6rwqxojh",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:22",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_6rtj6rwqxojh"
+      },
+      "before": "extern \"fastcall\" - The fastcall ABI that corresponds to MSVC\u2019s __fastcall and GCC and clang\u2019s __attribute__((fastcall)).",
+      "after": "extern \"fastcall\" - The fastcall ABI that corresponds to MSVC\u2019s __fastcall and GCC and clang\u2019s __attribute__((fastcall)). Only available on x86_32 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "42ee2288dd6a0bde172c2aa19bdd6c764e4c21913a22a4d9d65065b478aa14ba",
+            "head_checksum": "d1ab4f75d7570b3dd18b52916d46e7ccc89412dde0c8de590454738da13462fc",
+            "base_markup_checksum": "72919b2f20d09d563ffe77b1ee52b3418457e5c96030be81e98e6cee8e24c5ad",
+            "head_markup_checksum": "ed217d7db4c2e0e11eac6dade4c26afd1c3a925404068e4a9feff5038c56b70e"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_7t7yxh94wnbl",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:24",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_7t7yxh94wnbl"
+      },
+      "before": "extern \"sysv64\" - The x86_64 non-Windows ABI of C code.",
+      "after": "extern \"sysv64\" - The x86_64 non-Windows ABI of C code. Only available on x86_64 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "fab1088ce02afa3c8566f0f5033efbd1b6cfec69fc639a64273cc39e32f479e5",
+            "head_checksum": "8c9dd7e26d0ac7848137053e02ff4d1bf697ebeda4fffdf9aecc209b1ac70621",
+            "base_markup_checksum": "2aaafd40dca73c63844534e516441b2b841fffd7062459ffac0f39cc315fa06a",
+            "head_markup_checksum": "8573dd6e1d3611a285ad1fae21b33aec1c1ffed37fc4f9abe0d195c97a3b41c0"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_CIyK8BYzzo26",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:20",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_CIyK8BYzzo26"
+      },
+      "before": "extern \"cdecl-unwind\" - The same as extern \"cdecl\" with the addition that unwinding across FFI is permitted.",
+      "after": "extern \"cdecl-unwind\" - The same as extern \"cdecl\" with the addition that unwinding across FFI is permitted. Only available on x86_32 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "d0f9c8d00a857e8d69b98fadc01f1222ca7838660e92dbf4c571d07df302a222",
+            "head_checksum": "6daa2acd28b53efb30508470bab25eb295aa4048771de06854e7f59f558ecd8e",
+            "base_markup_checksum": "a3b4c3034f90f8370f523e1763c5b8a336ae20af022760d75c91579dbba9324f",
+            "head_markup_checksum": "0855c7bb53ad34fe192eb35fe8593cf81eafb607f71e799e828bec309991d43b"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_UippZpUyYpHl",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:18",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_UippZpUyYpHl"
+      },
+      "before": "extern \"aapcs-unwind\" - The same as extern \"aapcs\" with the addition that unwinding across FFI is permitted.",
+      "after": "extern \"aapcs-unwind\" - The same as extern \"aapcs\" with the addition that unwinding across FFI is permitted. Only available on 32-bit ARM targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "3015fb781cf27af98cfdb17a199fc06a282c4995bf513e4f23460aa87a24fefd",
+            "head_checksum": "82d0577c99d015ca068892ae2f3cfb9413aba82cf68db7def1a94223a0643568",
+            "base_markup_checksum": "b5b29c2d1609ebcee078fdc3b57342b4ff301492108c24fd3d5d45b8f2357649",
+            "head_markup_checksum": "5fe23eb1ae5300d09b95c54a6f1ccbbbdbc2da52022c96c493ee4201fbb93c5b"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_ccFdnlX5HIYk",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:25",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_ccFdnlX5HIYk"
+      },
+      "before": "extern \"sysv64-unwind\" - The same as extern \"sysv64\" with the addition that unwinding across FFI is permitted.",
+      "after": "extern \"sysv64-unwind\" - The same as extern \"sysv64\" with the addition that unwinding across FFI is permitted. Only available on x86_64 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "5d748e814d1f01129f8b66ffb05acc435c309ab75eeff0b4e74925cc1e8b786b",
+            "head_checksum": "577037ee9b115680a0388f72007131da469781b7d350d44e4b86ea46bd9e5120",
+            "base_markup_checksum": "88be2e340fd9bd3842a4c0a9bfafcd28e3ce630a3d39eb5c7688879e3cf1fcef",
+            "head_markup_checksum": "03cd6b15546153f8c1bd77827290b6a594336e8334448ecf6cbf8560bf5f455d"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_d3nmpc5mtg27",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:23",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_d3nmpc5mtg27"
+      },
+      "before": "extern \"stdcall\" - The x86_32 ABI of the Win32 API.",
+      "after": "extern \"stdcall\" - The x86_32 ABI of the Win32 API. Only available on x86_32 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "a81529042a5b1033d4dfd23dc355a422cafc5e8a94dac4134dcc1cdbe6d6b01d",
+            "head_checksum": "0e7d5ec67f95015898b88ba3209a029b1c0ae633f4a1486aa47d31477a6dada8",
+            "base_markup_checksum": "627c397b0086a091acd5ff060921f426503b3fe47113392b379232106d9a79a2",
+            "head_markup_checksum": "299b436e6d5679471206c0eb3a13b2392069d814a9125f005425aa1612390faa"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_dbbfqaqa80r8",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:17",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_dbbfqaqa80r8"
+      },
+      "before": "extern \"aapcs\" - The soft-float ABI for 32-bit ARM targets.",
+      "after": "extern \"aapcs\" - The soft-float ABI for 32-bit ARM targets. Only available on 32-bit ARM targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "1454a6149650f43e10f4254d309ba83ae39d3052b579c45d26bed5c429ce1bc4",
+            "head_checksum": "f577b535c2c2f8c758a06d1db3504e3712c7eabb74eec1a8d780730fbdfb6ade",
+            "base_markup_checksum": "07cffab7a5c045349e88e55d2aac5c29db4da5c78c99687fd1f7f933115a70e9",
+            "head_markup_checksum": "588f274875c5a43aceaf5fdcbf430345dcfc930bb1485ac527fd0d16095eeb3e"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_qwchgvvnp0qe",
+      "tags": [
+        "paragraph-changed",
+        "role-change",
+        "syntax-ref-added"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.3:3",
+        "section_id": "fls_yztwtek0y34v",
+        "link": "#fls_qwchgvvnp0qe"
+      },
+      "before": "An external function shall not specify a FunctionQualifierList.",
+      "after": "An external function shall not specify a FunctionQualifierList element other than ItemSafety.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "9abb006e22c228a40953b442c54e63fd9a10cc675390d5e7d61b1fb7221ec353",
+            "head_checksum": "de9f485f04b3404d7ce4d58216257e17f2de15b1dc952d7dea17a95775c1e60b",
+            "base_markup_checksum": "7630e00a16549f2fe42e41006bd30155ce89e3fc89c5ddde5adea5c298f516a1",
+            "head_markup_checksum": "6eb0c9253aaeece13a9c66bea537ee5d2ead18f843f71b0e59cb816300765e68"
+          }
+        },
+        {
+          "tag": "role-change",
+          "why": "role inventory changed",
+          "details": {
+            "role_deltas": {
+              "s": {
+                "before": 1,
+                "after": 2
+              }
+            }
+          }
+        },
+        {
+          "tag": "syntax-ref-added",
+          "why": "syntax role references increased",
+          "details": {
+            "count_added": 1
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_sxj4vy39sj4g",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:26",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_sxj4vy39sj4g"
+      },
+      "before": "extern \"vectorcall\" - The vectorcall ABI that corresponds to MSVC\u2019s __vectorcall and clang\u2019s __attribute__((vectorcall)).",
+      "after": "extern \"vectorcall\" - The vectorcall ABI that corresponds to MSVC\u2019s __vectorcall and clang\u2019s __attribute__((vectorcall)). Only available on x86 and x86_64 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "aa45e16b2c9fb1e7d7ecf23ca38806bc2f369b1d1be518e74d28e24e6b54a8b4",
+            "head_checksum": "8752873f95907d15fb3ed380df983b5911f93d286139708dd8cd0712eec932b3",
+            "base_markup_checksum": "cb41f6c69ba4fbf624d6cebdcdc3f5242259668380aa2ec34ea9eff60f0d9052",
+            "head_markup_checksum": "780a85b6a7091dad870feea5760d51b0afd91c6e32bfb18a96cbaf3ee560bb22"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_tyjs1x4j8ovp",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:27",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_tyjs1x4j8ovp"
+      },
+      "before": "extern \"win64\" - The x86_64 Windows ABI of C code.",
+      "after": "extern \"win64\" - The x86_64 Windows ABI of C code. Only available on x86_64 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "563032c0e9c472e10f9c487c70925926c24107c3258cc003fb04dd03b00c21af",
+            "head_checksum": "9d55689fb18bdcf91b46aba59293dcf50b59a0a72b094d22a4c1ef371881af56",
+            "base_markup_checksum": "9e6262365f0bbe290c412fef479d3e68bdee1a27b63192b729c2b27836b75806",
+            "head_markup_checksum": "88658ed869ff3b8d50e1bc00dcc05e2e574d0a92cceb8eba7624d50ba869fe4e"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "paragraph_id": "fls_xrCRprWS13R1",
+      "tags": [
+        "paragraph-changed",
+        "normative-shift"
+      ],
+      "location": {
+        "document": "ffi",
+        "path": "src/ffi.rst",
+        "paragraph_number": "21.1:28",
+        "section_id": "fls_usgd0xlijoxv",
+        "link": "#fls_xrCRprWS13R1"
+      },
+      "before": "extern \"win64-unwind\" - The same as extern \"win64\" with the addition that unwinding across FFI is permitted.",
+      "after": "extern \"win64-unwind\" - The same as extern \"win64\" with the addition that unwinding across FFI is permitted. Only available on x86_64 targets.",
+      "rationale": [
+        {
+          "tag": "paragraph-changed",
+          "why": "paragraph markup checksum changed",
+          "details": {
+            "base_checksum": "985fd96881b7c12b952e2f2a81cdc5713cd19ec157141a68232ac19172c96907",
+            "head_checksum": "b4db1e08fb09bcba2ff6e3fd2a102154976e492b52dd95ad3f010c5751f39ca8",
+            "base_markup_checksum": "29ff83550b9a64b76bdeb518ea9cecd64d4da808efe55d1abfb6bf92570288c3",
+            "head_markup_checksum": "1c9634dd6fa7e8e2ad652997401d5a2d5d7fec55fb58d45d5d0ab9e2703800c7"
+          }
+        },
+        {
+          "tag": "normative-shift",
+          "why": "normative keyword inventory changed",
+          "details": {
+            "keyword_deltas": {
+              "only": {
+                "before": 0,
+                "after": 1
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

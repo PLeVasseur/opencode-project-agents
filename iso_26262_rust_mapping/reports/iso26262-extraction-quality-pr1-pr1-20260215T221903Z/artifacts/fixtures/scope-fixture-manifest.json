@@ -1,0 +1,10 @@
+{
+  "fixture_sets": [
+    "section",
+    "clause",
+    "table"
+  ],
+  "run_id": "pr1-20260215T221903Z",
+  "schema_version": 1,
+  "status": "implemented"
+}

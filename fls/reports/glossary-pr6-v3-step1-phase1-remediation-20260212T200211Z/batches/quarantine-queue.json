@@ -1,0 +1,524 @@
+{
+  "items": [
+    {
+      "checklist_id": "WA-007",
+      "first_batch": 6,
+      "reason": "term-level validation failed",
+      "resolved_batch": 9,
+      "resolved_wave": "WA",
+      "status": "closed",
+      "updated_at": "20260212T213724Z",
+      "wave": "WA"
+    },
+    {
+      "checklist_id": "WB-017",
+      "first_batch": 10,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-020",
+      "first_batch": 10,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-021",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-022",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-023",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-024",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-025",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-026",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-027",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-028",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-029",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-030",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-031",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-032",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-033",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-034",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-035",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-036",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-037",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-038",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 14,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260212T234450Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-039",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-040",
+      "first_batch": 11,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-041",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-042",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-043",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-044",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-045",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-046",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-047",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-048",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-049",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-050",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-051",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-052",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-053",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-054",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-055",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-056",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 15,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T000246Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-057",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-058",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-059",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-060",
+      "first_batch": 12,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-061",
+      "first_batch": 18,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-063",
+      "first_batch": 18,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-068",
+      "first_batch": 18,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-069",
+      "first_batch": 18,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-071",
+      "first_batch": 18,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-080",
+      "first_batch": 18,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-082",
+      "first_batch": 19,
+      "reason": "term-level validation failed",
+      "resolved_batch": 21,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T020013Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-084",
+      "first_batch": 19,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    },
+    {
+      "checklist_id": "WB-089",
+      "first_batch": 19,
+      "reason": "term-level validation failed",
+      "resolved_batch": 20,
+      "resolved_wave": "WB",
+      "status": "closed",
+      "updated_at": "20260213T015542Z",
+      "wave": "WB"
+    }
+  ]
+}

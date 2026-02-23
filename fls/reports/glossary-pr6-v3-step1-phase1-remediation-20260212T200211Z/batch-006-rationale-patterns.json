@@ -1,0 +1,51 @@
+{
+  "completed_total": 8,
+  "min_glossary_similarity": 0.5,
+  "waves": {
+    "WA": {
+      "action_reason_counts": {
+        "move+rewrite|relocate-conceptual-owner": 1,
+        "move|relocate-conceptual-owner": 4,
+        "retain+rewrite|no-change-not-mislocated": 1,
+        "retain|retain-conceptual-owner": 2
+      },
+      "adapt_low_similarity_ids": [],
+      "boilerplate_hit_count": 0,
+      "boilerplate_hit_ids": [],
+      "completed_rows": 8,
+      "definition_operation_counts": {
+        "adapt": 1,
+        "insert": 3,
+        "promote": 4
+      },
+      "definition_similarity_stats": {
+        "count": 8,
+        "max": 1.0,
+        "min": 0.888889,
+        "p50": 1.0,
+        "p95": 1.0
+      },
+      "deviation_count": 0,
+      "deviation_fraction": 0.0,
+      "deviation_permit_count": 0,
+      "high_medium_count": 5,
+      "insert_non_positive_net_ids": [],
+      "low_similarity_ids": [],
+      "max_action_reason_fraction": 0.5,
+      "max_action_reason_pair": "move|relocate-conceptual-owner",
+      "max_reason_jaccard": 0.3492063492063492,
+      "max_reason_jaccard_pair": [
+        "WA-005",
+        "WA-008"
+      ],
+      "pending_deviation_count": 0,
+      "promote_low_similarity_ids": [],
+      "unique_action_types": [
+        "move",
+        "move+rewrite",
+        "retain",
+        "retain+rewrite"
+      ]
+    }
+  }
+}

@@ -1,0 +1,34 @@
++ fb7e497b50eae1cffbf119f6c9f2cb08244c9eac chore: raise workspace MSRV to 1.88
++ 5e9c27933534d94dc13b6969ba0fc9b46a8af0bc chore: upgrade up-rust and transport dependency matrix
++ 6da4edf0ada2eadd6386084d022aab1bb5bc4cbe refactor: migrate zenoh transport usage to 0.9 builder API
++ f7caa8c890141df2330557ae624f6c95490ed1cb fix: align feature wiring and compile after transport upgrades
++ ad3245386644290949adf84de6db7f700f5d93b7 docs: update migration notes and validation results
++ 31c1388d5b465ba4a3a2dbfe9b405e015173132b fix: gate plugin config module for lint
++ 97c16a63afa05b486f8461101e29b921f1fe92f7 fix: align plugin runtime API with zenoh 1.7
++ 37a1bb81e512b73f6ff3c7d6a685c8ef809a4fd8 chore: remove repo-local plans and validation artifacts
++ 413591d75f6bc12d001b1629d8ad10754d7db50f ci: run standard tests in PR workflows
++ bc24a617f8d94c89ec102aaf9684020324ff5c82 ci: add nightly coverage workflow
++ a97a6216b10bc2ef0dc15ce9cd2beec286bb116d ci: deduplicate unbundled lint validation
++ 5d145d7564f9c3186ae9165a2c34a6604cefd59d ci: add Rust caches to compile-heavy jobs
++ 2e8e76c9dd4163891a42c86de13f176472b2c554 ci: split doctest and test invocations in PR jobs
++ 71fc302a108de48f6a5d9c4b0ff9100ea073ba35 ci: isolate rust cache keys and enforce lint-only writes
++ b20489424aa3dc6ae29d94fc1274a6bc206c6838 ci: add manual cargo timings profiling workflow
++ 4b6738c493b95b5b3ccd2e0a1ea19b53c5912aca ci: parallelize bundled lint behind aggregator check
++ c4f8a2e3eff5445ac11410b61cc7ebc5fc4d5cc7 ci: stabilize bundled lint shard aggregation and vsomeip linking
++ f5b05273b1bd9dee34788d0b04ebde2b20106b12 ci: enable cargo timings profiling run on PR changes
++ 8feeedd551581db4e067b960e2d6d655fbd9c5d5 ci: rebuild bundled vsomeip artifacts after cache restore
++ 4a5d3cd69508d60c906d2f59faeda13c5bb360b5 ci: avoid vendored OpenSSL in required CI paths
++ 6bf09c3d6a96d9eb2dc9e2e598ee2626f34eb521 ci: de-duplicate bundled feature lint compilation
++ 9578b4db28523a10b7edcabb487a7df347b48890 ci: harden bundled lint cleanup for vsomeip artifacts
++ ec4af3bc18acaece3d04d9c906cc5b0b9d3c3ac3 ci: trim unbundled lint apt deps
++ 5f7e6b64142585155a6afdee368357bcde9608ba ci: simplify bundled lint aggregator checks
++ 0d441dc48eba8fb84a71560a02138a5f22d9efb3 add shared CLI parsing helpers for example binaries
++ b134d5ac876c24b847f0bf24a5d749534327c6b8 parameterize MQTT and Zenoh pubsub binaries
++ 08b3c0ede0ef00b9e54f1dccbbd8f691e95afdef parameterize remaining example binaries for CLI overrides
++ c026489f98a84a4192a9567ee58c560d3c118f79 fix publish forwarding authority matching in streamer
++ c51bfc8911bd6fbb3482abbe8604d43a5c7b9070 document issue74 runbook and CLI override usage
++ a553a3770d0418c1d701b5f847f4c9e803085f0d fix integration harness listener unregister symmetry
++ f470b22b024c63154a05e162940ac40641aa86cf chore: remove issue-74 mentions from docs and tests
++ 8ca9785aed557974bade91e45200ed1cb0ae3485 update listener registration to merge wildcard subscribers and dedupe publish keys
++ e8fa62aa0098bf6bece1788931c40874b038d7e2 fix add_forwarding_rule rollback on listener setup failure
++ 42d5a26136fd4f71ea873b7e414f8f6fdd9f17a8 add regression tests for wildcard routing, dedupe safety, rollback, and Path A cache identity

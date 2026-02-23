@@ -1,0 +1,2 @@
+[changelog-assistant-upstream-pr-anchor 24b8667] fix(changelog-assistant): preserve anchored entry title by default
+ 1 file changed, 43 insertions(+), 8 deletions(-)

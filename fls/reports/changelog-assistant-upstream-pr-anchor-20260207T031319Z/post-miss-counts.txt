@@ -1,0 +1,8 @@
+url=https://github.com/rust-lang/rust/pull/145954
+top_level_entry_count=1
+line=29: - `Anchor replace validation <https://github.com/rust-lang/rust/pull/145954>`_
+
+url=https://github.com/rust-lang/rust/pull/999999
+top_level_entry_count=1
+line=57: - `Anchor miss append validation <https://github.com/rust-lang/rust/pull/999999>`_
+

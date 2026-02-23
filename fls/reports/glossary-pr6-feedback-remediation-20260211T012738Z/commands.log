@@ -1,0 +1,67 @@
+[2026-02-11T01:27:38Z] Initialized plan variables and REMEDIATION_DIR
+[2026-02-11T01:27:39Z] printenv OPENCODE_CONFIG_DIR
+[2026-02-11T01:27:40Z] gh auth status
+[2026-02-11T01:27:52Z] git -C /home/pete.levasseur/project/fls remote -v
+[2026-02-11T01:27:52Z] git -C /home/pete.levasseur/project/fls fetch --all --prune
+[2026-02-11T01:28:06Z] git -C /home/pete.levasseur/project/fls worktree list
+[2026-02-11T01:28:06Z] git -C <step{1..5}> status --short --branch
+[2026-02-11T01:28:20Z] local/remote SHA comparison loop for step branches
+[2026-02-11T01:28:31Z] gh pr view {6,7,8,9,10} --repo PLeVasseur/fls
+[2026-02-11T01:28:58Z] gh pr list discovery -> pr-stack-discovery.json
+[2026-02-11T01:29:08Z] validated PR_STEP1..PR_STEP5 mapping
+[2026-02-11T01:29:25Z] sha256sum feedback inputs -> feedback-inputs.sha256
+[2026-02-11T01:29:46Z] uv run ./tools/glossary-migration-check.py --phase 1 --strict --report baseline-phase1-check.json
+[2026-02-11T01:29:59Z] uv run ./tools/glossary-migration-check.py --phase 2 --strict --report baseline-phase2-check.json
+[2026-02-11T01:30:14Z] jq metadata + step head capture -> feedback-metadata.json/current-step-heads.txt
+[2026-02-11T01:31:40Z] Applied step1 edits (tooling, extension, chapter term fixes)
+[2026-02-11T01:31:58Z] uv run ./tools/glossary-migration-check.py --phase 1 --strict --report post-tooling-phase1-check.json
+[2026-02-11T01:32:22Z] jq missing-term regression assertions for cast/casting, path/namespace qualifier, shadowing/shadowed
+[2026-02-11T01:32:45Z] ./make.py --clear (step1)
+[2026-02-11T01:33:53Z] ./make.py --check-links (step1)
+[2026-02-11T01:35:01Z] uv run ./tools/glossary-migration-check.py --phase 2 --strict --report workstream-phase2-check.json
+[2026-02-11T01:35:37Z] Generated divergence-adjudication.csv
+[2026-02-11T01:36:09Z] Generated placement-disposition.md
+[2026-02-11T01:36:46Z] uv run ./tools/glossary-migration-check.py --phase 1 --strict --report final-phase1-check.json
+[2026-02-11T01:37:01Z] ./make.py --clear (step1 final matrix)
+[2026-02-11T01:38:09Z] ./make.py --check-links (step1 final matrix)
+[2026-02-11T01:38:58Z] uv run ./tools/glossary-migration-check.py --phase 2 --strict --report final-phase2-check.json
+[2026-02-11T01:39:11Z] ./make.py --clear (step2 initial matrix)
+[2026-02-11T01:40:16Z] ./make.py --check-links (step2 initial matrix)
+[2026-02-11T01:41:20Z] git -C step1 commit -m "fix(glossary): close alias coverage gaps in phase checks"
+[2026-02-11T01:42:04Z] git -C step2 merge --ff-only glossary-step-1-main-text-coverage
+[2026-02-11T01:42:15Z] divergence inspection loop (fallback)
+[2026-02-11T01:42:39Z] git -C step2 merge --no-edit glossary-step-1-main-text-coverage
+[2026-02-11T01:43:02Z] uv run ./tools/glossary-migration-check.py --phase 2 --strict --report final-phase2-check.json (post-merge)
+[2026-02-11T01:43:25Z] ./make.py --clear (step2 post-merge)
+[2026-02-11T01:44:33Z] ./make.py --check-links (step2 post-merge)
+[2026-02-11T01:45:40Z] git -C step2 commit -m "docs(glossary): align cast and casting definitions"
+[2026-02-11T01:46:08Z] git -C step3 merge --ff-only glossary-step-2-align-duplicate-text
+[2026-02-11T01:46:19Z] divergence inspection loop (fallback)
+[2026-02-11T01:46:47Z] git -C step3 merge --no-edit glossary-step-2-align-duplicate-text (with manual conflict resolution)
+[2026-02-11T01:47:28Z] uv run ./tools/glossary-migration-check.py --phase 3 --strict --report step3-post-sync-phase3-check.json
+[2026-02-11T01:47:43Z] ./make.py --clear (step3)
+[2026-02-11T01:48:53Z] ./make.py --check-links (step3)
+[2026-02-11T01:49:59Z] git -C step4 merge --ff-only glossary-step-3-dt-main-only
+[2026-02-11T01:50:10Z] divergence inspection loop (fallback)
+[2026-02-11T01:50:37Z] git -C step4 merge --no-edit glossary-step-3-dt-main-only
+[2026-02-11T01:50:52Z] uv run ./tools/glossary-migration-check.py --phase 4 --strict --report step4-post-sync-phase4-check.json
+[2026-02-11T01:51:08Z] ./make.py --clear (step4)
+[2026-02-11T01:52:17Z] ./make.py --check-links (step4)
+[2026-02-11T01:53:21Z] git -C step5 merge --ff-only glossary-step-4-remove-see-paragraphs
+[2026-02-11T01:53:32Z] divergence inspection loop (fallback)
+[2026-02-11T01:53:59Z] git -C step5 merge --no-edit glossary-step-4-remove-see-paragraphs (with manual conflict resolution)
+[2026-02-11T01:54:44Z] uv run ./tools/glossary-migration-check.py --phase 5 --strict --report step5-post-sync-phase5-check.json
+[2026-02-11T01:55:18Z] ./generate-glossary.py
+[2026-02-11T01:55:26Z] cp build/generated.glossary.rst src/glossary.rst.inc
+[2026-02-11T01:55:35Z] uv run ./tools/glossary-migration-check.py --phase 5 --strict --report step5-post-sync-phase5-check.json (rerun)
+[2026-02-11T01:55:58Z] ./make.py --clear (step5)
+[2026-02-11T01:57:08Z] ./make.py --check-links (step5)
+[2026-02-11T01:58:17Z] git -C step5 commit -m "chore(glossary): refresh generated glossary include"
+[2026-02-11T01:58:33Z] git -C /home/pete.levasseur/project/fls merge-base --is-ancestor checks
+[2026-02-11T01:59:02Z] git -C /home/pete.levasseur/project/fls push origin step1..step5 branches
+[2026-02-11T01:59:45Z] gh pr edit 6 --title/--body-file pr6-body.md
+[2026-02-11T01:59:56Z] gh pr edit 7 --title/--body-file pr7-body.md
+[2026-02-11T02:00:19Z] gh pr comment 8 --body-file pr8-restack-note.md
+[2026-02-11T02:00:25Z] gh pr comment 9 --body-file pr9-restack-note.md
+[2026-02-11T02:00:31Z] gh pr comment 10 --body-file pr10-restack-note.md
+[2026-02-11T02:00:44Z] gh pr view {6,7,8,9,10} --json number,baseRefName,headRefName,url

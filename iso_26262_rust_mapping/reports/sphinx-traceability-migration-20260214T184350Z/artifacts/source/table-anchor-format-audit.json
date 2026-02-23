@@ -1,0 +1,6 @@
+{
+  "canonical_pattern": "<table_label>--r-<row_id>--c-<col_key>",
+  "invalid_anchor_count": 0,
+  "status": "pass",
+  "table_cell_units": 2055
+}

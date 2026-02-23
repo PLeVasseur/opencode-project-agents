@@ -1,0 +1,7 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.40s
+     Running `target/debug/zenoh_someip --config /home/pete.levasseur/eclipse/uprotocol/up-streamer-rust/example-streamer-implementations/DEFAULT_CONFIG.json5`
+[2m2026-02-09T15:23:11.530155Z[0m [34mDEBUG[0m [2mup_streamer::ustreamer[0m[2m:[0m UStreamer::up-streamer::UStreamer::new(): UStreamer created
+
+thread 'main' (1061377) panicked at up-streamer/src/runtime/subscription_runtime.rs:28:14:
+Failed to fetch subscriptions: UStatus { code: INVALID_ARGUMENT, message: Some("Static subscription file not found: Os { code: 2, kind: NotFound, message: \"No such file or directory\" }"), details: [], special_fields: SpecialFields { unknown_fields: UnknownFields { fields: None }, cached_size: CachedSize { size: 0 } } }
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace

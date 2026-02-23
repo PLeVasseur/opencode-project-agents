@@ -1,0 +1,83 @@
+Build the documentation	Verify Python code formatting	﻿2026-02-13T20:43:13.9789869Z ##[group]Run uvx black . --check --diff --color
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:13.9790239Z [36;1muvx black . --check --diff --color[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:13.9840295Z shell: /usr/bin/bash -e {0}
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:13.9840536Z env:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:13.9840765Z   UV_CACHE_DIR: /home/runner/work/_temp/setup-uv-cache
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:13.9841066Z ##[endgroup]
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.0753002Z Downloading black (1.7MiB)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.1079484Z  Downloaded black
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.1133568Z Installed 7 packages in 5ms
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9937055Z [1m--- /home/runner/work/fls/fls/tools/verify-html-diff.py	2026-02-13 20:41:42.748392+00:00[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9938489Z [1m+++ /home/runner/work/fls/fls/tools/verify-html-diff.py	2026-02-13 20:43:14.990731+00:00[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9939454Z [36m@@ -172,13 +172,17 @@[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9939956Z      report_path: Path,
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9940467Z  ) -> int:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9940955Z      diff = diff_trees(left_dir, right_dir)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9942111Z      write_report(report_path, mode, left_label, right_label, diff)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9942997Z      if has_differences(diff):
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9944234Z [31m-        print(f"differences found under configured comparison policy; report written to {report_path}")[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9945019Z [32m+        print([0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9945950Z [32m+            f"differences found under configured comparison policy; report written to {report_path}"[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9946783Z [32m+        )[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9947016Z          return EXIT_DIFFERENCES
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9947634Z [31m-    print(f"no differences under configured comparison policy; report written to {report_path}")[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9948207Z [32m+    print([0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9948750Z [32m+        f"no differences under configured comparison policy; report written to {report_path}"[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9949314Z [32m+    )[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9949523Z      return EXIT_SUCCESS
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9949753Z  
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9949939Z  
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9950382Z  def require_value(value: str | None, error_message: str) -> str:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9950991Z      if value is None:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9951682Z [36m@@ -237,11 +241,13 @@[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9952267Z      worktree_root = report_root / "verify-html-diff-worktrees"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9953057Z      worktree_root.mkdir(parents=True, exist_ok=True)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9953533Z  
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9954327Z      cleanup_worktree_path = False
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9955072Z would reformat /home/runner/work/fls/fls/tools/verify-html-diff.py
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9955431Z      if worktree_dir is None:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9955954Z [31m-        worktree_dir = Path(tempfile.mkdtemp(prefix="worktree-", dir=str(worktree_root)))[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9956431Z [32m+        worktree_dir = Path([0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9956867Z [32m+            tempfile.mkdtemp(prefix="worktree-", dir=str(worktree_root))[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9957251Z [32m+        )[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9957578Z          cleanup_worktree_path = True
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9957840Z      else:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9958071Z          worktree_dir.parent.mkdir(parents=True, exist_ok=True)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9958378Z          clean_dir(worktree_dir)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9958577Z  
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9958768Z [36m@@ -249,25 +255,28 @@[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9958962Z      try:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9959128Z          run_best_effort(
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9959420Z              ["git", "worktree", "remove", "--force", str(worktree_dir)],
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9959725Z              cwd=repo_root,
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9959919Z          )
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9960289Z [31m-        run(["git", "worktree", "add", "--detach", str(worktree_dir), ref], cwd=repo_root)[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9960692Z [32m+        run([0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9961025Z [32m+            ["git", "worktree", "add", "--detach", str(worktree_dir), ref],[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9961399Z [32m+            cwd=repo_root,[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9961893Z [32m+        )[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9962382Z          worktree_added = True
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9962696Z          git_wrapper_dir = worktree_dir / "build" / "verify-tools-bin"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9963056Z          git_wrapper = git_wrapper_dir / "git"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9963364Z          git_wrapper_dir.mkdir(parents=True, exist_ok=True)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9963656Z          real_git = shutil.which("git")
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9963902Z          if real_git is None:
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9964155Z              raise RuntimeError("missing git executable")
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9964438Z          git_wrapper.write_text(
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9964650Z              "#!/bin/sh\n"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9965037Z [31m-            "if [ \"$1\" = \"rev-parse\" ] && [ \"$2\" = \"HEAD\" ] && [ -z \"$3\" ]; then\n"[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9965551Z [32m+            'if [ "$1" = "rev-parse" ] && [ "$2" = "HEAD" ] && [ -z "$3" ]; then\n'[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9965958Z              f"  printf '%s\\n' '{FIXED_BUILD_COMMIT}'\n"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9966231Z              "  exit 0\n"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9966407Z              "fi\n"
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9966655Z [31m-            f"exec {real_git} \"$@\"\n",[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9966958Z [32m+            f'exec {real_git} "$@"\n',[0m
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9967210Z              encoding="utf-8",
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9967410Z          )
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9967578Z          git_wrapper.chmod(0o755)
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9967788Z  
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:14.9967943Z          env = os.environ.copy()
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:15.0018367Z 
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:15.0018671Z Oh no! 💥 💔 💥
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:15.0019190Z 1 file would be reformatted, 24 files would be left unchanged.
+Build the documentation	Verify Python code formatting	2026-02-13T20:43:15.0311352Z ##[error]Process completed with exit code 1.

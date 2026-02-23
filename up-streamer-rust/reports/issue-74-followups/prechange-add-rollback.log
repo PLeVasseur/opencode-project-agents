@@ -1,0 +1,19 @@
+Command:
+
+`cargo test -p up-streamer add_forwarding_rule_rolls_back_on_listener_insert_failure -- --nocapture`
+
+Output:
+
+```text
+running 1 test
+
+thread 'ustreamer::tests::add_forwarding_rule_rolls_back_on_listener_insert_failure' panicked:
+assertion `left == right` failed
+  left: 1
+ right: 0
+
+failures:
+  ustreamer::tests::add_forwarding_rule_rolls_back_on_listener_insert_failure
+
+test result: FAILED. 0 passed; 1 failed
+```

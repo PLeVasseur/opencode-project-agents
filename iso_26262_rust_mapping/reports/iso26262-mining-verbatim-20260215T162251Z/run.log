@@ -1,0 +1,42 @@
+[2026-02-15T16:24:48Z] lock_acquired pid=3262358 run_id=20260215T162251Z
+[2026-02-15T16:27:22Z] phase_commit phase=C14 sha=20623fb0e4fe1f4070923cf189bea7f3ba45bb28 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-0.done.json
+[2026-02-15T16:28:57Z] phase_commit phase=C15 sha=06061db6b473319b7e18b3c6e13e3bbca273ab09 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-1.done.json
+[2026-02-15T16:31:26Z] phase_commit phase=C16 sha=92325d5fdf24d42af90bc41aaf979e0e7c6445c2 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-2.done.json
+[2026-02-15T16:33:42Z] phase_commit phase=C17 sha=468a8605889c63c9b3b47ab66b13634b834bc95e checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-3.done.json
+[2026-02-15T16:34:27Z] phase_commit phase=C18 sha=4412507818bea39f8afaaa5d77225ce227d97f37 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-4.done.json
+[2026-02-15T16:36:48Z] phase_commit phase=C19 sha=1332511638a358a951643f789ce465743954969f checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-5.done.json
+[2026-02-15T16:37:51Z] phase_commit phase=C20 sha=5c3d26fe8086cf06dd4a1da19e0519889ad0fb83 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-6.done.json
+[2026-02-15T16:39:31Z] phase_commit phase=C21 sha=e4f94d2abee1fc1934f959441654b46051502fb8 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-7.done.json
+[2026-02-15T16:40:48Z] phase_commit phase=C22 sha=f9c58ac63c760be6adca3fec48d28fc8a8a5c6bd checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-8.done.json
+[2026-02-15T16:42:39Z] phase_commit phase=C23 sha=6dda71b993f2de1b7250adc1114d512951dda9c7 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-9.done.json
+[2026-02-15T16:44:15Z] phase_commit phase=C24 sha=399608903b24b41c2c1418363a5ce526e16a7f97 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-10.done.json
+[2026-02-15T16:44:40Z] stale_lock_replaced payload={"acquired_at_utc": "2026-02-15T16:24:48Z", "host": "oss-work", "pid": 3262358, "run_id": "20260215T162251Z", "user": "pete.levasseur"}
+[2026-02-15T16:44:40Z] lock_acquired pid=3269324 run_id=20260215T162251Z
+[2026-02-15T16:44:40Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:44:48Z] lock_acquired pid=3269406 run_id=20260215T162251Z
+[2026-02-15T16:44:59Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:45:07Z] lock_acquired pid=3269685 run_id=20260215T162251Z
+[2026-02-15T16:45:07Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:45:16Z] lock_acquired pid=3269766 run_id=20260215T162251Z
+[2026-02-15T16:45:16Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:45:24Z] lock_acquired pid=3269847 run_id=20260215T162251Z
+[2026-02-15T16:45:24Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:45:43Z] lock_acquired pid=3269975 run_id=20260215T162251Z
+[2026-02-15T16:45:43Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:45:53Z] lock_acquired pid=3270079 run_id=20260215T162251Z
+[2026-02-15T16:45:53Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:46:55Z] lock_acquired pid=3270895 run_id=20260215T162251Z
+[2026-02-15T16:47:07Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:47:24Z] lock_acquired pid=3271223 run_id=20260215T162251Z
+[2026-02-15T16:47:24Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:47:25Z] lock_acquired pid=3271230 run_id=20260215T162251Z
+[2026-02-15T16:47:25Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:47:29Z] lock_acquired pid=3271249 run_id=20260215T162251Z
+[2026-02-15T16:47:29Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:47:39Z] lock_acquired pid=3271355 run_id=20260215T162251Z
+[2026-02-15T16:48:19Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:48:28Z] lock_acquired pid=3271794 run_id=20260215T162251Z
+[2026-02-15T16:48:28Z] lock_released run_id=20260215T162251Z
+[2026-02-15T16:49:30Z] commit_created phase=C20-fix sha=7c884917c9cbfffa306db81283ca87b4df2a0e50 subject=fix(trace-miner): sanitize extracted text before verbatim cache writes
+[2026-02-15T16:49:30Z] phase_commit phase=C25 sha=ccd270723b62e4bcad5ec9d00d1a0abd07a80dfc checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-11.done.json
+[2026-02-15T16:51:52Z] run_complete stop_reason=completed_all_phases

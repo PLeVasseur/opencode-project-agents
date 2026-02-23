@@ -1,0 +1,14 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.43s
+   Doc-tests up_streamer
+
+running 7 tests
+test up-streamer/src/endpoint.rs - endpoint::Endpoint (line 23) ... ok
+test up-streamer/src/runtime/mod.rs - runtime (line 6) ... ok
+test up-streamer/src/control_plane/mod.rs - control_plane (line 7) ... ok
+test up-streamer/src/data_plane/mod.rs - data_plane (line 7) ... ok
+test up-streamer/src/routing/mod.rs - routing (line 6) ... ok
+test up-streamer/src/lib.rs - (line 24) ... ok
+test up-streamer/src/lib.rs - (line 94) ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.10s
+

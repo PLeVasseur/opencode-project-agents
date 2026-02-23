@@ -1,0 +1,14 @@
+{
+  "batch_number": 1,
+  "error": "extra check 1 failed (exit 1)\ncommand: false\nstdout:\n\nstderr:\n",
+  "ids": [
+    "WA-001"
+  ],
+  "rolled_back": [
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/outer-exception-run4/manual-placement-checklist-v2.md",
+    "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-script-fix-validation-20260211T161029Z/results/outer-exception-run4/manual-placement-ledger-v2.csv",
+    "worktree (git restore)"
+  ],
+  "timestamp": "20260211T170752Z",
+  "wave": "WA"
+}

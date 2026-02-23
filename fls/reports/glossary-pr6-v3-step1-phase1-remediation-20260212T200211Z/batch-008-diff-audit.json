@@ -1,0 +1,61 @@
+{
+  "batch_number": 8,
+  "commit_hash": "4fd7d55f96566be5c307ef650898fed084befb79",
+  "terms": [
+    {
+      "after_file": "program-structure-and-compilation.rst",
+      "after_file_repo_path": "src/program-structure-and-compilation.rst",
+      "checklist_id": "WA-013",
+      "definition_operation": "promote",
+      "file_added_lines": 1,
+      "file_deleted_lines": 1,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "crate"
+    },
+    {
+      "after_file": "program-structure-and-compilation.rst",
+      "after_file_repo_path": "src/program-structure-and-compilation.rst",
+      "checklist_id": "WA-014",
+      "definition_operation": "promote",
+      "file_added_lines": 1,
+      "file_deleted_lines": 1,
+      "file_net_delta": 0,
+      "hunk_dt_added": 0,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 0,
+      "hunk_insert_pass": false,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "fallback",
+      "swap_detected": false,
+      "term": "module"
+    },
+    {
+      "after_file": "statements.rst",
+      "after_file_repo_path": "src/statements.rst",
+      "checklist_id": "WA-015",
+      "definition_operation": "insert",
+      "file_added_lines": 3,
+      "file_deleted_lines": 0,
+      "file_net_delta": 3,
+      "hunk_dt_added": 1,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 1,
+      "hunk_insert_pass": true,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "hunk",
+      "swap_detected": false,
+      "term": "statement"
+    }
+  ],
+  "timestamp": "20260212T213456Z"
+}

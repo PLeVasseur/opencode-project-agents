@@ -1,0 +1,202 @@
+{
+  "total_files": 28,
+  "mismatches": [],
+  "results": [
+    {
+      "file": "_misc.md",
+      "expected": 25,
+      "found_declared": 25,
+      "heading_count": 25,
+      "ok": true
+    },
+    {
+      "file": "associated-items.md",
+      "expected": 18,
+      "found_declared": 18,
+      "heading_count": 18,
+      "ok": true
+    },
+    {
+      "file": "attributes.md",
+      "expected": 64,
+      "found_declared": 64,
+      "heading_count": 64,
+      "ok": true
+    },
+    {
+      "file": "background.md",
+      "expected": 0,
+      "found_declared": 0,
+      "heading_count": 0,
+      "ok": true
+    },
+    {
+      "file": "changelog.md",
+      "expected": 0,
+      "found_declared": 0,
+      "heading_count": 0,
+      "ok": true
+    },
+    {
+      "file": "concurrency.md",
+      "expected": 5,
+      "found_declared": 5,
+      "heading_count": 5,
+      "ok": true
+    },
+    {
+      "file": "entities-and-resolution.md",
+      "expected": 98,
+      "found_declared": 98,
+      "heading_count": 98,
+      "ok": true
+    },
+    {
+      "file": "exceptions-and-errors.md",
+      "expected": 2,
+      "found_declared": 2,
+      "heading_count": 2,
+      "ok": true
+    },
+    {
+      "file": "expressions.md",
+      "expected": 213,
+      "found_declared": 213,
+      "heading_count": 213,
+      "ok": true
+    },
+    {
+      "file": "ffi.md",
+      "expected": 12,
+      "found_declared": 12,
+      "heading_count": 12,
+      "ok": true
+    },
+    {
+      "file": "functions.md",
+      "expected": 11,
+      "found_declared": 11,
+      "heading_count": 11,
+      "ok": true
+    },
+    {
+      "file": "general.md",
+      "expected": 2,
+      "found_declared": 2,
+      "heading_count": 2,
+      "ok": true
+    },
+    {
+      "file": "generics.md",
+      "expected": 29,
+      "found_declared": 29,
+      "heading_count": 29,
+      "ok": true
+    },
+    {
+      "file": "glossary.md",
+      "expected": 0,
+      "found_declared": 0,
+      "heading_count": 0,
+      "ok": true
+    },
+    {
+      "file": "implementations.md",
+      "expected": 10,
+      "found_declared": 10,
+      "heading_count": 10,
+      "ok": true
+    },
+    {
+      "file": "inline-assembly.md",
+      "expected": 32,
+      "found_declared": 32,
+      "heading_count": 32,
+      "ok": true
+    },
+    {
+      "file": "items.md",
+      "expected": 1,
+      "found_declared": 1,
+      "heading_count": 1,
+      "ok": true
+    },
+    {
+      "file": "lexical-elements.md",
+      "expected": 54,
+      "found_declared": 54,
+      "heading_count": 54,
+      "ok": true
+    },
+    {
+      "file": "licenses.md",
+      "expected": 0,
+      "found_declared": 0,
+      "heading_count": 0,
+      "ok": true
+    },
+    {
+      "file": "macros.md",
+      "expected": 34,
+      "found_declared": 34,
+      "heading_count": 34,
+      "ok": true
+    },
+    {
+      "file": "ownership-and-deconstruction.md",
+      "expected": 33,
+      "found_declared": 33,
+      "heading_count": 33,
+      "ok": true
+    },
+    {
+      "file": "patterns.md",
+      "expected": 63,
+      "found_declared": 63,
+      "heading_count": 63,
+      "ok": true
+    },
+    {
+      "file": "program-structure-and-compilation.md",
+      "expected": 19,
+      "found_declared": 19,
+      "heading_count": 19,
+      "ok": true
+    },
+    {
+      "file": "statements.md",
+      "expected": 9,
+      "found_declared": 9,
+      "heading_count": 9,
+      "ok": true
+    },
+    {
+      "file": "types-and-traits.md",
+      "expected": 191,
+      "found_declared": 191,
+      "heading_count": 191,
+      "ok": true
+    },
+    {
+      "file": "undefined-behavior.md",
+      "expected": 0,
+      "found_declared": 0,
+      "heading_count": 0,
+      "ok": true
+    },
+    {
+      "file": "unsafety.md",
+      "expected": 7,
+      "found_declared": 7,
+      "heading_count": 7,
+      "ok": true
+    },
+    {
+      "file": "values.md",
+      "expected": 25,
+      "found_declared": 25,
+      "heading_count": 25,
+      "ok": true
+    }
+  ]
+}

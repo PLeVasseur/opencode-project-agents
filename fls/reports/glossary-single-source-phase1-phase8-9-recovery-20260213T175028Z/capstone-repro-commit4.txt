@@ -1,0 +1,25 @@
+verify-html-diff report
+
+mode: repro
+left: e86d544b64753e7b3cf45d7f41827fea1804f76c (run 1)
+right: e86d544b64753e7b3cf45d7f41827fea1804f76c (run 2)
+
+result: no differences under configured comparison policy.
+
+policy:
+- strict byte-for-byte file comparison
+- paragraph-ids.json compared by normalized logical content (sorted structure)
+- .buildinfo compares config; tags differences are ignored
+
+only in left:
+- (none)
+
+only in right:
+- (none)
+
+changed files:
+- (none)
+
+special comparisons:
+- .buildinfo: config matches
+- paragraph-ids.json: normalized content matches

@@ -1,0 +1,65 @@
+{
+  "artifacts": {
+    "mismatch_report": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/mismatch-report.json",
+    "missing_terms": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/missing-terms.json",
+    "removed_retained_ledger": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/removed-retained-ledger.json",
+    "term_inventory": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/term-inventory.json",
+    "term_target_validation": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-feedback-remediation-20260211T012738Z/term-target-validation.json"
+  },
+  "checks": [
+    {
+      "details": {
+        "missing_count": 0
+      },
+      "name": "glossary-terms-covered-by-chapters",
+      "passed": true
+    },
+    {
+      "details": {
+        "mismatch_count": 0
+      },
+      "name": "glossary-chapter-definition-match",
+      "passed": true
+    },
+    {
+      "details": {
+        "violations": []
+      },
+      "name": "no-dt-in-glossary-source",
+      "passed": true
+    },
+    {
+      "details": {
+        "count": 0,
+        "sample": []
+      },
+      "name": "no-term-definitions-in-glossary-doctree",
+      "passed": true
+    },
+    {
+      "details": {
+        "glossary_owned": [],
+        "unresolved": []
+      },
+      "name": "canonical-term-targets-non-glossary",
+      "passed": true
+    },
+    {
+      "details": {
+        "redundant_count": 0
+      },
+      "name": "no-redundant-see-paragraphs",
+      "passed": true
+    },
+    {
+      "details": {
+        "committed": "/home/pete.levasseur/project/fls-wt/step5/src/glossary.rst.inc",
+        "generated": "/home/pete.levasseur/project/fls-wt/step5/build/generated.glossary.rst"
+      },
+      "name": "generated-glossary-parity",
+      "passed": true
+    }
+  ],
+  "phase": 5,
+  "strict": true
+}

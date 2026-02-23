@@ -1,0 +1,91 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mPrint OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms from checklist
+
+warning: glossary-entry not found in src files: borrow
+warning: glossary-entry not found in src files: borrow expression
+warning: glossary-entry not found in src files: borrowed
+warning: glossary-entry not found in src files: borrowing
+warning: glossary-entry not found in src files: bound
+warning: glossary-entry not found in src files: bound pattern
+warning: glossary-entry not found in src files: break expression
+warning: glossary-entry not found in src files: break type
+warning: glossary-entry not found in src files: break value
+warning: glossary-entry not found in src files: built-in attribute
+warning: glossary-entry not found in src files: built-in trait
+warning: glossary-entry not found in src files: byte literal
+warning: glossary-entry not found in src files: byte string literal
+warning: glossary-entry not found in src files: C
+warning: glossary-entry not found in src files: C representation
+warning: glossary-entry not found in src files: C signed int type
+warning: glossary-entry not found in src files: c string literal
+warning: glossary-entry not found in src files: Call conformance
+warning: glossary-entry not found in src files: call expression
+warning: glossary-entry not found in src files: call operand
+warning: no new term-map entries to write
+
+[94m[1m| [0m[90m Grep     [0m:dt:`(borrow|borrow expression|borrowed|borrowing|bound|bound pattern|break expression|break type|break value|built-in attribute|built-in trait|byte literal|byte string literal|C|C representation|C signed int type|c string literal|Call conformance|call expression|call operand)`
+[94m[1m| [0m[90m Grep     [0m:dt:`borrowing`
+[94m[1m| [0m[90m Grep     [0m:dt:`break type`
+[94m[1m| [0m[90m Grep     [0m:dt:`break value`
+[94m[1m| [0m[90m Grep     [0m:dt:`(call resolution|call site hygiene|callee type|capture mode|capture target|capturing|capturing environment|capturing expression|cast|char|character literal)`
+[91m[1m| [0m[90m Bash     [0mList files in src directory
+
+associated-items.rst
+attributes.rst
+background.rst
+changelog.rst
+concurrency.rst
+conf.py
+entities-and-resolution.rst
+exceptions-and-errors.rst
+expressions.rst
+ffi.rst
+functions.rst
+general.rst
+generics.rst
+glossary.rst
+glossary.static.rst.inc
+implementations.rst
+index.rst
+inline-assembly.rst
+items.rst
+lexical-elements.rst
+licenses.rst
+macros.rst
+ownership-and-deconstruction.rst
+patterns.rst
+program-structure-and-compilation.rst
+statements.rst
+types-and-traits.rst
+undefined-behavior.rst
+unsafety.rst
+values.rst
+
+[94m[1m| [0m[90m Grep     [0mglossary-entry:: borrow
+[94m[1m| [0m[90m Grep     [0m`borrow` is
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m Grep     [0mborrow expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0m`borrowed`
+[94m[1m| [0m[90m Grep     [0m:dt:`borrowed`
+[94m[1m| [0m[90m Grep     [0m`bound`
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mbound pattern
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[94m[1m| [0m[90m Grep     [0mbreak expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst

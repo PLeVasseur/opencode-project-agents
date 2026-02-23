@@ -1,0 +1,2 @@
+ERROR: high/medium non-move action requires --deviation-permit
+exit_code=2

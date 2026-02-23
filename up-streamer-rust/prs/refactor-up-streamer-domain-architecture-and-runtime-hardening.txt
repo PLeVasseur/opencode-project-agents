@@ -1,0 +1,98 @@
+Title: refactor: complete up-streamer domain architecture and runtime hardening
+
+## Scope and review boundary
+
+- This branch is 44 commits ahead of `upstream/main`.
+- 10 commits are patch-equivalent to open PR #77 (issue-74) and are intentionally out of scope for this review.
+- Review target for this PR is the remaining 34 commits (`e76dc3d..f16f155`).
+
+## Why this refactor
+
+- Split monolithic streamer orchestration into domain-owned modules so behavior is easier to reason about and change safely.
+- Preserve outward `up-streamer` ergonomics while hardening runtime lifecycle paths and reducing hot-path overhead.
+- Improve diagnosability with consistent structured tracing and explicit route-to-worker correlation.
+- Add repeatable performance guardrails to keep future ergonomic refactors safe.
+
+## What changed
+
+- Domain architecture completion in `up-streamer`
+  - Consolidated internal ownership into `control_plane`, `routing`, `data_plane`, and `runtime` modules.
+  - Reduced orchestration density in `up-streamer/src/ustreamer.rs` and moved logic to layer owners.
+  - Added layered rustdoc/doctests across core module boundaries.
+
+- Subscription-provider decoupling and topology cleanup
+  - Migrated to `USubscription`-contract refresh path with sync-health semantics.
+  - Kept static mode as default and made `live_usubscription` explicit fail-fast (deferred integration).
+  - Removed standalone `subscription-cache` crate by integrating cache logic into `up-streamer` routing internals.
+
+- Route identity and API cleanup
+  - Made route lifecycle errors idiomatic (`Display` + `Error`).
+  - Removed forwarding-rule alias APIs and migrated call sites/docs to canonical route APIs.
+  - Restored immutable URI projection keys for runtime keying and moved static dedupe to projection-key semantics.
+
+- Ergonomics + performance guardrails
+  - Added Criterion benchmark harness in `up-streamer`.
+  - Added `utils/criterion-guardrail` CLI and benchmark helper script.
+  - Added advisory benchmark workflow for CI signal without introducing unstable hard-fail behavior.
+
+- Structured observability rollout
+  - Added shared event/field helpers under `up-streamer/src/observability`.
+  - Migrated ingress/egress/routing/control/runtime logs to structured, grepable events.
+  - Added explicit `route_label` to `worker_id` correlation events.
+
+- Runtime/perf/reliability hardening
+  - Hardened plugin lifecycle ownership and ingress listener teardown symmetry.
+  - Added snapshot caching and reduced routing/ingress overhead.
+  - Shifted egress workers to shared runtime tasks.
+  - Stabilized integration scenarios with bounded wait controls and reduced timing flakiness.
+
+## Reviewer guide (where to look first)
+
+1. API and migration surface
+   - `up-streamer/src/lib.rs`
+   - `up-streamer/src/ustreamer.rs`
+   - `configurable-streamer/src/main.rs`
+   - `example-streamer-implementations/src/bin/zenoh_someip.rs`
+   - `up-linux-streamer-plugin/src/lib.rs`
+
+2. Domain ownership and behavior movement
+   - `up-streamer/src/control_plane/*`
+   - `up-streamer/src/routing/*`
+   - `up-streamer/src/data_plane/*`
+   - `up-streamer/src/runtime/*`
+
+3. Routing/subscription correctness + perf-sensitive changes
+   - `up-streamer/src/routing/subscription_cache.rs`
+   - `up-streamer/src/routing/subscription_directory.rs`
+   - `up-streamer/src/routing/publish_resolution.rs`
+   - `up-streamer/src/data_plane/ingress_registry.rs`
+   - `utils/usubscription-static-file/src/lib.rs`
+
+4. Observability contract
+   - `up-streamer/src/observability/events.rs`
+   - `up-streamer/src/observability/fields.rs`
+   - `up-streamer/src/data_plane/egress_worker.rs`
+   - `up-streamer/src/data_plane/egress_pool.rs`
+
+5. Benchmark + CI guardrails
+   - `up-streamer/benches/streamer_criterion.rs`
+   - `utils/criterion-guardrail/src/lib.rs`
+   - `scripts/bench_streamer_criterion.sh`
+   - `.github/workflows/benchmark-guardrail-advisory.yaml`
+
+6. Test reliability improvements
+   - `utils/integration-test-utils/src/integration_test_utils.rs`
+   - `up-streamer/tests/*`
+
+## Breaking/compatibility notes
+
+- `UStreamer::add_forwarding_rule` and `UStreamer::delete_forwarding_rule` were removed; use `add_route` and `delete_route`.
+- `live_usubscription` mode is intentionally reserved in this phase and fails fast with explicit guidance.
+- Transport behavior is preserved; this PR focuses on architecture, maintainability, observability, and reliability.
+
+## Validation highlights
+
+- Workspace gates pass: `cargo fmt -- --check`, `cargo clippy --all-targets -- -W warnings -D warnings`, `cargo check --workspace --all-targets`, `cargo test --workspace`.
+- CI parity matrix passes for base and bundled transport feature sets; unbundled matrix executed when configured.
+- Canonical and expanded transport smoke scenarios pass (including both request/response directions and pub/sub directions).
+- Criterion guardrail checks show no accepted-threshold regressions in tracked hotspots, with major improvements in routing/ingress benchmarks.

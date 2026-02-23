@@ -1,0 +1,10 @@
+# Phase 4 command log
+# Append commands with UTC timestamps during execution.
+
+2026-02-10T18:55:18Z git -C "../fls-wt/step4" merge --ff-only glossary-step-3-dt-main-only
+2026-02-10T18:55:54Z uv run python (remove glossary paragraphs matching `See ...` and `For ... see ...`)
+2026-02-10T18:56:31Z uv run ./tools/glossary-migration-check.py --phase 4 --strict --report "$REPORT_ROOT/glossary-phase4-check.json"
+2026-02-10T18:57:13Z ./make.py --clear
+2026-02-10T18:58:24Z ./make.py --check-links
+2026-02-10T18:59:12Z git commit -m "docs(glossary): remove redundant glossary see paragraphs"
+2026-02-10T19:19:47Z ./make.py --check-links (log capture backfill)

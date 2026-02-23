@@ -1,0 +1,65 @@
+{
+  "wave": "B",
+  "term_count": 89,
+  "checklist_range": [
+    "WB-001",
+    "WB-089"
+  ],
+  "action_type_counts": {
+    "move": 82,
+    "retain": 7
+  },
+  "reason_code_counts": {
+    "relocate-first-use-owner": 69,
+    "relocate-conceptual-owner": 13,
+    "retain-link-mitigated": 5,
+    "retain-reordered": 2
+  },
+  "semantic_change_flag_counts": {
+    "none": 86,
+    "clarification-only": 3
+  },
+  "final_quality_counts": {
+    "resolved-high": 86,
+    "resolved-exception": 3
+  },
+  "exception_terms": [
+    {
+      "checklist_id": "WB-007",
+      "term": "undefined behavior",
+      "final_quality": "resolved-exception"
+    },
+    {
+      "checklist_id": "WB-083",
+      "term": "qualifying trait",
+      "final_quality": "resolved-exception"
+    },
+    {
+      "checklist_id": "WB-089",
+      "term": "base initializer",
+      "final_quality": "resolved-exception"
+    }
+  ],
+  "commit_hashes": [
+    "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+    "69af449c36447c82f24e1ec8021f28ed6ac5f57f",
+    "8f95531de31ad39cef0600be7c54a09f28bf0dbc",
+    "3e76012a8b3c70058bfbdcddb7156b1dbd284cb0",
+    "347ef54c342c3dad2121f1b7a4a737a1a4c9a5a0",
+    "3c513af76bfe06a66ce8a8bb283a56a6cf639c95",
+    "63675ef2e903e465618ce0f58a45874e945a4b57",
+    "4033caf781e53b582d3349e6983694e5c9e371bb",
+    "cf1d449c54f72aebf5f22d78f1a2376dccb02988",
+    "26e6f487a9270d75b1ff58d17e6bf82f81f89405",
+    "19e75856eac5694e5d613c7c59b429848d333992"
+  ],
+  "commit_range": {
+    "first": "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+    "last": "19e75856eac5694e5d613c7c59b429848d333992"
+  },
+  "validator_progress": "validation/wave-b-validate-progress.json",
+  "validator_gate": "validation/wave-b-validate-gate.json",
+  "strict_report": "validation/wave-b-phase1-strict.json",
+  "build_log": "validation/wave-b-make-clear.log",
+  "link_log": "validation/wave-b-make-check-links.log"
+}

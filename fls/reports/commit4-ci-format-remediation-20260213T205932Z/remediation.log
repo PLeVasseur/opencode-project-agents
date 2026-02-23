@@ -1,0 +1,8 @@
+[2026-02-13T20:59:32Z] run initialized for commit4 CI format remediation
+[2026-02-13T21:00:45Z] C0 captured failing CI signal run=22002111013 step="Verify Python code formatting" command="uvx black . --check --diff --color"
+[2026-02-13T21:02:10Z] C1 formatted and lint-adjusted tools/verify-html-diff.py; diff artifact written
+[2026-02-13T21:03:27Z] C2 local gates passed: black-check, flake8, and verify-html-diff repro on HEAD
+[2026-02-13T21:05:02Z] C3 rebuilt capstone commit only; new_commit4=8e93f35547fcc123ec47ba723ed13129bc19600f with commit1-3 unchanged
+[2026-02-13T21:07:14Z] C4 pre-push gates passed on rewritten stack (black, flake8, repro)
+[2026-02-13T21:08:22Z] C5 push+CI confirmed: run=22002785018 conclusion=success url=https://github.com/PLeVasseur/fls/actions/runs/22002785018
+[2026-02-13T21:09:01Z] C6 summary: old_commit4=1132eb4c632c0d1b65bc7000d9bced2fca3842bd new_commit4=8e93f35547fcc123ec47ba723ed13129bc19600f ci=success commit1-3-unchanged=true

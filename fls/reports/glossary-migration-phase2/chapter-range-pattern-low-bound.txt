@@ -1,0 +1,3 @@
+:dp:`fls_nk48gregn3me`
+A :t:`range pattern low bound` is a :t:`range pattern bound` that specifies the
+start of a range.

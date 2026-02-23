@@ -1,0 +1,15 @@
+beb89ee Revert "docs(glossary): remediate placement terms WA-001-WA-015"
+ src/entities-and-resolution.rst           | 2 +-
+ src/expressions.rst                       | 8 ++++----
+ src/functions.rst                         | 2 +-
+ src/generics.rst                          | 2 +-
+ src/implementations.rst                   | 2 +-
+ src/items.rst                             | 2 +-
+ src/macros.rst                            | 6 +++---
+ src/ownership-and-deconstruction.rst      | 2 +-
+ src/patterns.rst                          | 2 +-
+ src/program-structure-and-compilation.rst | 2 +-
+ src/statements.rst                        | 2 +-
+ src/types-and-traits.rst                  | 6 +++---
+ src/values.rst                            | 2 +-
+ 13 files changed, 20 insertions(+), 20 deletions(-)

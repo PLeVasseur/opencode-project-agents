@@ -1,0 +1,10 @@
++ 3f25c1b641511ceec316544ce21303ff3d0ee5b5 add shared CLI parsing helpers for example binaries
++ 9667bb922e198fa6d155ee7bccee1beb6d3fa171 parameterize MQTT and Zenoh pubsub binaries
++ 2c3e8302d9fb78b046d583ab9e87bdbe1eada38f parameterize remaining example binaries for CLI overrides
++ 61bcb1473d705c50f39bc116c6deac2854e3815f fix publish forwarding authority matching in streamer
++ 25019e21dbaa253126b1c7dd57f4e6581dfa7d91 document issue74 runbook and CLI override usage
++ 13ea67f600c3ff86992d6114e011444fa053009a fix integration harness listener unregister symmetry
++ 087739437c88d03e640e87b2d66b70d997619a88 chore: remove issue-74 mentions from docs and tests
++ de2b096eee361418f3ebe487589b72bc902952e4 update listener registration to merge wildcard subscribers and dedupe publish keys
++ 160711ee08739b74f4672dab577f37c4042e7051 fix add_forwarding_rule rollback on listener setup failure
++ 2d42d167c83321ac351d7d3aa4a77b27393402b0 add regression tests for wildcard routing, dedupe safety, rollback, and Path A cache identity

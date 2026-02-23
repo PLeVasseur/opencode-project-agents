@@ -1,0 +1,142 @@
+{
+  "batch_sizes": {
+    "WA": 20,
+    "WB": 20,
+    "WC": 40,
+    "WD": 40
+  },
+  "batches": [
+    {
+      "batch_number": 1,
+      "commit_hash": "d74a460c5d92075c260e8cd8b4c6f69b9530f53c",
+      "deviation_permit_count": 0,
+      "high_medium_count": 9,
+      "ids": [
+        "WA-001",
+        "WA-002",
+        "WA-003",
+        "WA-004",
+        "WA-005",
+        "WA-006",
+        "WA-007",
+        "WA-008",
+        "WA-009",
+        "WA-010",
+        "WA-011",
+        "WA-012",
+        "WA-013",
+        "WA-014",
+        "WA-015"
+      ],
+      "max_rationale_similarity": 0.2878787878787879,
+      "max_rationale_similarity_pair": [
+        "WA-005",
+        "WA-006"
+      ],
+      "moved_term_count": 10,
+      "moved_terms": [
+        {
+          "checklist_id": "WA-001",
+          "term": "value"
+        },
+        {
+          "checklist_id": "WA-002",
+          "term": "expression"
+        },
+        {
+          "checklist_id": "WA-004",
+          "term": "trait"
+        },
+        {
+          "checklist_id": "WA-008",
+          "term": "item"
+        },
+        {
+          "checklist_id": "WA-009",
+          "term": "field"
+        },
+        {
+          "checklist_id": "WA-010",
+          "term": "reference"
+        },
+        {
+          "checklist_id": "WA-011",
+          "term": "implementation"
+        },
+        {
+          "checklist_id": "WA-012",
+          "term": "method"
+        },
+        {
+          "checklist_id": "WA-013",
+          "term": "crate"
+        },
+        {
+          "checklist_id": "WA-015",
+          "term": "statement"
+        }
+      ],
+      "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-opencode.jsonl",
+      "passed_ids": [
+        "WA-001",
+        "WA-002",
+        "WA-003",
+        "WA-004",
+        "WA-005",
+        "WA-006",
+        "WA-007",
+        "WA-008",
+        "WA-009",
+        "WA-010",
+        "WA-011",
+        "WA-012",
+        "WA-013",
+        "WA-014",
+        "WA-015"
+      ],
+      "pending_deviation_count": 0,
+      "quarantined_ids": [],
+      "rationale_patterns_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-rationale-patterns.json",
+      "rationale_patterns_md": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-rationale-patterns.md",
+      "recommendation_compliance_rate": 1.0,
+      "recommendation_compliant_count": 9,
+      "session_id": "ses_3b0893ef6ffeL8BHXSpKPnIWru",
+      "strict_post": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-strict-post.json",
+      "strict_pre": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-strict-pre.json",
+      "terms": [
+        "value",
+        "expression",
+        "type",
+        "trait",
+        "construct",
+        "entity",
+        "name",
+        "item",
+        "field",
+        "reference",
+        "implementation",
+        "method",
+        "crate",
+        "module",
+        "statement"
+      ],
+      "timestamp": "20260212T013545Z",
+      "validator_failure_codes": [],
+      "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-validate-post-commit.json",
+      "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T012802Z/batch-001-validate-progress.json",
+      "validator_progress_post_quarantine": null,
+      "wave": "WA"
+    }
+  ],
+  "end_head": "d74a460c5d92075c260e8cd8b4c6f69b9530f53c",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": "ses_3b0893ef6ffeL8BHXSpKPnIWru",
+  "run_id": "20260212T012802Z",
+  "session_id": null,
+  "start_head": "d8c5bc663511a791dd1819381d3a6e19ddc63fcd",
+  "started_at": "20260212T012823Z",
+  "updated_at": "20260212T013546Z",
+  "wave_a_end_head": "d74a460c5d92075c260e8cd8b4c6f69b9530f53c",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

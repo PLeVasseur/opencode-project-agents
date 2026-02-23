@@ -1,0 +1,24 @@
+{
+  "changed_src_files": [
+    "src/attributes.rst",
+    "src/entities-and-resolution.rst",
+    "src/expressions.rst",
+    "src/general.rst",
+    "src/generics.rst",
+    "src/implementations.rst",
+    "src/inline-assembly.rst",
+    "src/macros.rst",
+    "src/ownership-and-deconstruction.rst",
+    "src/patterns.rst",
+    "src/statements.rst",
+    "src/types-and-traits.rst",
+    "src/unsafety.rst",
+    "src/values.rst"
+  ],
+  "end_head": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "new_commit_count": 5,
+  "wave_a_end_head": "52f1285682360265eb49061c6a00755cc6ae96c0",
+  "wb_parent_checked": 89,
+  "wb_parent_total": 89,
+  "wb_unresolved": []
+}

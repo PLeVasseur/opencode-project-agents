@@ -1,0 +1,3 @@
+:dp:`fls_huynsyx13gsz`
+A :t:`qualified type path` is a :t:`type path` that resolves through a
+:t:`qualified type`.

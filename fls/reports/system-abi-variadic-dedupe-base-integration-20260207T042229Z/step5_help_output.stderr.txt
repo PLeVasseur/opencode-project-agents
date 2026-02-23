@@ -1,0 +1,3 @@
+Using CPython 3.13.2
+Creating virtual environment at: /home/pete.levasseur/project/fls-system-abi-anchor-integration-20260207T042229Z/.venv
+Installed 31 packages in 181ms

@@ -1,0 +1,29 @@
+{
+  "completed_total": 20,
+  "waves": {
+    "WB": {
+      "action_reason_counts": {
+        "move|relocate-conceptual-owner": 9,
+        "move|relocate-first-use-owner": 11
+      },
+      "boilerplate_hit_count": 0,
+      "boilerplate_hit_ids": [],
+      "completed_rows": 20,
+      "deviation_count": 0,
+      "deviation_fraction": 0.0,
+      "deviation_permit_count": 0,
+      "high_medium_count": 20,
+      "max_action_reason_fraction": 0.55,
+      "max_action_reason_pair": "move|relocate-first-use-owner",
+      "max_reason_jaccard": 0.2,
+      "max_reason_jaccard_pair": [
+        "WB-006",
+        "WB-012"
+      ],
+      "pending_deviation_count": 0,
+      "unique_action_types": [
+        "move"
+      ]
+    }
+  }
+}

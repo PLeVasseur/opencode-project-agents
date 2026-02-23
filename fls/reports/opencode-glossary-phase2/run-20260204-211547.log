@@ -1,0 +1,1183 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShows OPENCODE_CONFIG_DIR environment variable
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[94m[1m| [0m[90m skill    [0mLoaded skill: fls-glossary-definitions
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mGet next 20 checklist terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked terms
+
+warning: glossary-entry not found in src files: program entry point
+warning: glossary-entry not found in src files: public visibility
+warning: glossary-entry not found in src files: punctuator
+warning: glossary-entry not found in src files: pure identifier
+warning: glossary-entry not found in src files: qualified path expression
+warning: glossary-entry not found in src files: qualified type
+warning: glossary-entry not found in src files: qualified type path
+warning: glossary-entry not found in src files: qualifying trait
+warning: glossary-entry not found in src files: range expression
+warning: glossary-entry not found in src files: range expression high bound
+warning: glossary-entry not found in src files: range expression low bound
+warning: glossary-entry not found in src files: range pattern
+warning: glossary-entry not found in src files: range pattern bound
+warning: glossary-entry not found in src files: range pattern high bound
+warning: glossary-entry not found in src files: range pattern low bound
+warning: glossary-entry not found in src files: range-from expression
+warning: glossary-entry not found in src files: range-from-to expression
+warning: glossary-entry not found in src files: range-full expression
+warning: glossary-entry not found in src files: range-inclusive expression
+warning: glossary-entry not found in src files: range-to expression
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mChecks selected terms exist in static glossary
+
+missing: ['program entry point', 'public visibility', 'punctuator', 'pure identifier', 'qualified path expression', 'qualified type', 'qualified type path', 'qualifying trait', 'range expression', 'range expression high bound', 'range expression low bound', 'range pattern', 'range pattern bound', 'range pattern high bound', 'range pattern low bound', 'range-from expression', 'range-from-to expression', 'range-full expression', 'range-inclusive expression', 'range-to expression']
+
+[94m[1m| [0m[90m Grep     [0mprogram entry point
+[96m[1m| [0m[90m Read     [0msrc/glossary.static.rst.inc
+[91m[1m| [0m[90m Bash     [0mSearches chapter files for term definitions
+
+program entry point
+  src/attributes.rst:1566: :t:`program entry point` will not be present in a binary.
+  src/general.rst:225: Any result returned from a :t:`program entry point`,
+  src/program-structure-and-compilation.rst:188: crate`'s :t:`program entry point`.
+  src/program-structure-and-compilation.rst:357: A :t:`program entry point` is a :t:`function` that is invoked at the start of
+public visibility
+  src/attributes.rst:1898: :t:`declarative macro` to :t:`public visibility` and introduces the :t:`name`
+  src/entities-and-resolution.rst:203: :t:`name` :t:`public visibility` within the current :t:`crate` only.
+  src/entities-and-resolution.rst:210: :t:`name` :t:`public visibility` within the current :t:`crate` only.
+  src/entities-and-resolution.rst:220: :t:`name` :t:`public visibility` within the provided :t:`simple path` only.
+  src/entities-and-resolution.rst:234: :t:`name` :t:`public visibility`.
+  src/entities-and-resolution.rst:238: :t:`name` :t:`public visibility` within the parent :t:`module` only. A
+  src/entities-and-resolution.rst:1211: :t:`public visibility` prefixed by its :t:`path` prefix into :t:`scope`.
+  src/program-structure-and-compilation.rst:214: module` with  :t:`public visibility` unless the :t:`item` is a :t:`procedural
+punctuator
+  src/lexical-elements.rst:287: Each of the special characters listed for single character :t:`punctuator`
+pure identifier
+  src/lexical-elements.rst:511: A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
+  src/lexical-elements.rst:515: A :t:`pure identifier` shall follow the specification in Unicode Standard Annex
+  src/lexical-elements.rst:529: not appear in a :t:`pure identifier`.
+  src/lexical-elements.rst:532: A :t:`pure identifier` shall be restricted to characters in category
+  src/macros.rst:1022: :t:`Fragment specifier` **ident** requires a :t:`pure identifier`.
+qualified path expression
+  src/entities-and-resolution.rst:465: A :t:`qualified path expression` is a :t:`path expression` that resolves
+  src/entities-and-resolution.rst:529: The following is a :t:`qualified path expression`. The :t:`call expression`
+  src/patterns.rst:513: A :t:`path pattern` expressed as a :t:`qualified path expression` shall refer
+  src/patterns.rst:707: A :t:`qualified path expression` of a :t:`range pattern` shall refer to an
+qualified type
+  src/entities-and-resolution.rst:435: An :t:`unqualified path expression` is a :t:`path expression`  without a :t:`qualified type`.
+  src/entities-and-resolution.rst:448: :t:`qualified type`.
+  src/entities-and-resolution.rst:454: A :t:`qualified type` is a :t:`type` that is restricted to a set of
+  src/entities-and-resolution.rst:459: A :t:`qualified type` shall resolve to a :t:`type`.
+  src/entities-and-resolution.rst:462: A :t:`qualified type` shall implement its related :t:`qualifying trait`.
+  src/entities-and-resolution.rst:466: through a :t:`qualified type`.
+  src/entities-and-resolution.rst:470: :t:`qualified type`.
+  src/entities-and-resolution.rst:1818: If the leftmost :t:`path segment` starts with a :t:`qualified type`, then
+  src/entities-and-resolution.rst:1821: The leftmost :t:`path segment` resolves to the :t:`qualified type`, and
+  src/entities-and-resolution.rst:1824: If the :t:`qualified type` is subject to a :t:`qualifying trait`, then the
+  src/entities-and-resolution.rst:1827: :t:`qualified type` that implement the :t:`qualifying trait`.
+  src/entities-and-resolution.rst:1831: consists of the :t:`entity` of the :t:`qualified type`, the
+qualified type path
+  src/entities-and-resolution.rst:469: A :t:`qualified type path` is a :t:`type path` that resolves through a
+  src/entities-and-resolution.rst:476: An :dt:`associated type projection` is a :t:`qualified type path` of the form
+  src/entities-and-resolution.rst:481: An :t:`associated type projection` is a :t:`qualified type path` of the form
+  src/entities-and-resolution.rst:538: The following is a :t:`qualified type path`. It resolves to the :t:`associated
+qualifying trait
+  src/entities-and-resolution.rst:447: A :t:`qualifying trait` is a :t:`trait` that imposes a restriction on a
+  src/entities-and-resolution.rst:451: A :t:`qualifying trait` shall resolve to a :t:`trait`.
+  src/entities-and-resolution.rst:456: :t:`qualifying trait`.
+  src/entities-and-resolution.rst:462: A :t:`qualified type` shall implement its related :t:`qualifying trait`.
+  src/entities-and-resolution.rst:478: is a :t:`qualifying trait`, and ``associated type`` is an :t:`associated type`.
+  src/entities-and-resolution.rst:483: is a :t:`qualifying trait`, and ``associated type`` is an :t:`associated type`.
+  src/entities-and-resolution.rst:1824: If the :t:`qualified type` is subject to a :t:`qualifying trait`, then the
+  src/entities-and-resolution.rst:1827: :t:`qualified type` that implement the :t:`qualifying trait`.
+range expression
+  src/expressions.rst:5436: A :t:`range expression` is an :t:`expression` that constructs a range.
+  src/expressions.rst:5442: A :dt:`full range expression` is a :t:`range expression` that covers the full
+  src/expressions.rst:5454: If a :t:`range expression` has two :t:`[operand]s`, then the :t:`[type]s` of the
+  src/expressions.rst:5458: A :t:`range-from expression` is a :t:`range expression` that specifies an
+  src/expressions.rst:5469: A :t:`range-from-to expression` is a :t:`range expression` that specifies an
+  src/expressions.rst:5481: A :t:`range-full expression` is a :t:`range expression` that covers the whole
+  src/expressions.rst:5491: A :t:`range-inclusive expression` is a :t:`range expression` that specifies an
+  src/expressions.rst:5504: A :t:`range-to expression` is a :t:`range expression` that specifies an excluded
+  src/expressions.rst:5515: A :t:`range-to-inclusive expression` is a :t:`range expression` that specifies
+  src/expressions.rst:5529: The :t:`evaluation` of a :t:`range expression` evaluates its :t:`[operand]s` in
+range expression high bound
+  src/expressions.rst:5450: A :t:`range expression high bound` is an :t:`operand` that specifies the end of
+  src/expressions.rst:5471: :t:`range expression high bound`.
+  src/expressions.rst:5493: :t:`range expression high bound`.
+  src/expressions.rst:5505: :t:`range expression high bound`.
+  src/expressions.rst:5516: an included :t:`range expression high bound`.
+range expression low bound
+  src/expressions.rst:5446: A :t:`range expression low bound` is an :t:`operand` that specifies the start of
+  src/expressions.rst:5459: included :t:`range expression low bound`.
+  src/expressions.rst:5470: included :t:`range expression low bound` and an excluded
+  src/expressions.rst:5492: included :t:`range expression low bound` and an included
+range pattern
+  src/patterns.rst:597: A :t:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
+  src/patterns.rst:604: A :dt:`half-open range pattern` is a :t:`range pattern` with only a
+  src/patterns.rst:611: A :t:`half-open range pattern` is a :t:`range pattern` with only a
+  src/patterns.rst:618: An :dt:`inclusive range pattern` is a :t:`range pattern` with both a
+  src/patterns.rst:625: An :t:`inclusive range pattern` is a :t:`range pattern` with both a
+  src/patterns.rst:632: An :dt:`exclusive range pattern` is a :t:`range pattern` with both a
+  src/patterns.rst:639: An :t:`exclusive range pattern` is a :t:`range pattern` with both a
+  src/patterns.rst:646: An :dt:`obsolete range pattern` is a :t:`range pattern` that uses obsolete
+  src/patterns.rst:653: An :t:`obsolete range pattern` is a :t:`range pattern` that uses obsolete syntax
+  src/patterns.rst:657: A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
+  src/patterns.rst:683: A :t:`range pattern` is an :t:`irrefutable pattern` only when it spans the
+  src/patterns.rst:688: :t:`range pattern high bound` of a :t:`range pattern` shall be :t:`unifiable`.
+  src/patterns.rst:691: The :t:`type` of a :t:`range pattern` is determined as follows:
+  src/patterns.rst:694: If the :t:`range pattern` is expressed as an :t:`inclusive range pattern`, an
+  src/patterns.rst:703: A :t:`path expression` of a :t:`range pattern` shall refer to a :t:`constant`
+  src/patterns.rst:707: A :t:`qualified path expression` of a :t:`range pattern` shall refer to an
+  src/patterns.rst:1554: If the :t:`pattern` is a :t:`range pattern`, then perform :t:`range pattern matching`.
+  src/patterns.rst:1671: If the :t:`range pattern` is expressed as a :t:`half-open range pattern` and
+  src/patterns.rst:1677: If the :t:`range pattern` is expressed as either an :t:`inclusive range
+  src/patterns.rst:1683: If the :t:`range pattern` is expressed as an :t:`exclusive range pattern`
+range pattern bound
+  src/patterns.rst:657: A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
+  src/patterns.rst:660: A :t:`range pattern low bound` is a :t:`range pattern bound` that specifies the
+  src/patterns.rst:664: A :t:`range pattern high bound` is a :t:`range pattern bound` that specifies the
+range pattern high bound
+  src/patterns.rst:619: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:626: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:633: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:640: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:664: A :t:`range pattern high bound` is a :t:`range pattern bound` that specifies the
+  src/patterns.rst:673: less than or equal to its :t:`range pattern high bound`.
+  src/patterns.rst:677: less than its :t:`range pattern high bound`.
+  src/patterns.rst:688: :t:`range pattern high bound` of a :t:`range pattern` shall be :t:`unifiable`.
+  src/patterns.rst:697: :t:`range pattern low bound` and the :t:`range pattern high bound`.
+  src/patterns.rst:1680: :t:`range pattern high bound`, then matching succeeds.
+  src/patterns.rst:1685: :t:`range pattern low bound` to the :t:`range pattern high bound`, then
+range pattern low bound
+  src/patterns.rst:605: :t:`range pattern low bound`.
+  src/patterns.rst:612: :t:`range pattern low bound`.
+  src/patterns.rst:619: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:626: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:633: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:640: :t:`range pattern low bound` and a :t:`range pattern high bound`.
+  src/patterns.rst:660: A :t:`range pattern low bound` is a :t:`range pattern bound` that specifies the
+  src/patterns.rst:672: The :t:`range pattern low bound` of an :t:`inclusive range pattern` shall be
+  src/patterns.rst:676: The :t:`range pattern low bound` of an :t:`exclusive range pattern` shall be
+  src/patterns.rst:687: The :t:`[type]s` of the :t:`range pattern low bound` and the
+  src/patterns.rst:697: :t:`range pattern low bound` and the :t:`range pattern high bound`.
+  src/patterns.rst:700: Otherwise the :t:`type` is the :t:`type` of the :t:`range pattern low bound`.
+  src/patterns.rst:1673: :t:`range pattern low bound` to the maximum :t:`value` of the
+  src/patterns.rst:1674: :t:`range pattern low bound`'s :t:`type`, then matching succeeds.
+  src/patterns.rst:1679: the inclusive range from the :t:`range pattern low bound` to the
+  src/patterns.rst:1685: :t:`range pattern low bound` to the :t:`range pattern high bound`, then
+range-from expression
+  src/expressions.rst:5458: A :t:`range-from expression` is a :t:`range expression` that specifies an
+  src/expressions.rst:5462: The :t:`type` of a :t:`range-from expression` is :std:`core::ops::RangeFrom`.
+  src/expressions.rst:5465: The :t:`value` of a :t:`range-from expression` is
+range-from-to expression
+  src/expressions.rst:5469: A :t:`range-from-to expression` is a :t:`range expression` that specifies an
+  src/expressions.rst:5474: The :t:`type` of a :t:`range-from-to expression` is :std:`core::ops::Range`.
+  src/expressions.rst:5477: The :t:`value` of a :t:`range-from-to expression` is
+range-full expression
+  src/expressions.rst:5481: A :t:`range-full expression` is a :t:`range expression` that covers the whole
+  src/expressions.rst:5485: The :t:`type` of a :t:`range-full expression` is :std:`core::ops::RangeFull`.
+  src/expressions.rst:5488: The :t:`value` of a :t:`range-full expression` is ``core::ops::RangeFull {}``.
+range-inclusive expression
+  src/expressions.rst:5491: A :t:`range-inclusive expression` is a :t:`range expression` that specifies an
+  src/expressions.rst:5496: The :t:`type` of a :t:`range-inclusive expression` is
+  src/expressions.rst:5500: The :t:`value` of a :t:`range-inclusive expression` is
+range-to expression
+  src/expressions.rst:5504: A :t:`range-to expression` is a :t:`range expression` that specifies an excluded
+  src/expressions.rst:5508: The :t:`type` of a :t:`range-to expression` is :std:`core::ops::RangeTo`.
+  src/expressions.rst:5511: The :t:`value` of a :t:`range-to expression` is
+
+[96m[1m| [0m[90m Read     [0msrc/program-structure-and-compilation.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[94m[1m| [0m[90m Grep     [0mPublic visibility
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mpunctuator` is
+[91m[1m| [0m[90m Bash     [0mSearches for punctuator definition in chapters
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[94m[1m| [0m[90m Grep     [0mPunctuator
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for program entry point
+
+.. glossary-entry:: program entry point
+   
+   :glossary:
+     :dp:`fls_9m37hN9zgEQf`
+     A :dt:`program entry point` is a :t:`function` that is invoked at the start of
+     a Rust program.
+   :chapter:
+     :dp:`fls_dp64b08em9BJ`
+     A :t:`program entry point` is a :t:`function` that is invoked at the start of
+     a Rust program.
+     
+     .. glossary-entry:: main function signature
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mLists reports directory
+
+finalize-20260202-190345Z.log
+glossary-auto-generation
+glossary-auto-migration
+glossary-html-baseline
+glossary-html-diff.txt
+glossary-html-generated
+glossary-migration-phase2
+glossary-quality
+glossary-quality-report.md
+html-baseline
+html-diff.txt
+html-generated
+issue-646
+issue-646.md
+issue-647
+issue-647.md
+issue-648
+issue-648.md
+issue-649
+issue-649.md
+mixed-s-t-roles-report.md
+opencode-glossary-phase2
+parallel-heartbeat-20260202-182414Z.log
+parallel-heartbeat-20260202-184545Z.log
+parallel-heartbeat-20260202-185716Z.log
+parallel-heartbeat-20260202-185928Z.log
+parallel-heartbeat-20260202-190119Z.log
+parallel-heartbeat-20260202-190345Z.log
+parallel-heartbeat-20260202-211253Z.log
+parallel-launch-latest.log
+
+[91m[1m| [0m[90m Bash     [0mWrite generated glossary entry to temp file
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-program-entry-point.rst
+[91m[1m| [0m[90m Bash     [0mShows generate-glossary-entry.py help
+
+usage: generate-glossary-entry.py [-h] --term TERM [--repo-root REPO_ROOT]
+                                  [--glossary GLOSSARY]
+                                  [--glossary-line GLOSSARY_LINE]
+                                  [--glossary-text-file GLOSSARY_TEXT_FILE]
+                                  [--glossary-stdin]
+                                  [--chapter-file CHAPTER_FILE]
+                                  [--chapter-dp CHAPTER_DP]
+                                  [--chapter-line CHAPTER_LINE]
+                                  [--chapter-text-file CHAPTER_TEXT_FILE]
+                                  [--chapter-stdin]
+
+Generate a formatted glossary-entry directive for a term.
+
+options:
+  -h, --help            show this help message and exit
+  --term TERM           Glossary term
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --glossary GLOSSARY   Static glossary file
+  --glossary-line GLOSSARY_LINE
+                        Glossary text line (repeatable)
+  --glossary-text-file GLOSSARY_TEXT_FILE
+                        File with glossary body lines
+  --glossary-stdin      Read glossary body lines from stdin
+  --chapter-file CHAPTER_FILE
+                        Chapter file to extract from
+  --chapter-dp CHAPTER_DP
+                        Chapter :dp: ids to extract (repeatable)
+  --chapter-line CHAPTER_LINE
+                        Chapter text line (repeatable)
+  --chapter-text-file CHAPTER_TEXT_FILE
+                        File with chapter body lines
+  --chapter-stdin       Read chapter body lines from stdin
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry with chapter lines via stdin
+
+/bin/bash: line 19: warning: here-document at line 1 delimited by end-of-file (wanted `PY')
+  File "<stdin>", line 18
+    PY | python3 generate-glossary-entry.py --term "program entry point" --chapter-stdin > /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-program-entry-point.rst
+                 ^^^^^^^^
+SyntaxError: invalid syntax
+
+[91m[1m| [0m[90m Bash     [0mExtract chapter lines and generate entry
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-program-entry-point.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entries for batch terms
+
+generated 20 entries
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-program-entry-point.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-public-visibility.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-punctuator.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-pure-identifier.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-qualified-path-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-qualified-type.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-qualified-type-path.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-qualifying-trait.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-expression-low-bound.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-expression-high-bound.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-from-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-from-to-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-full-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-inclusive-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-to-expression.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-pattern.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-pattern-bound.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-pattern-low-bound.rst
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/reports/glossary-migration-phase2/tmp-range-pattern-high-bound.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/program-structure-and-compilation.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for batch terms
+[91m[1m| [0m[90m Bash     [0mGenerate build/generated.glossary.rst
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary against static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff against baseline
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShows short git status
+[91m[1m| [0m[90m Bash     [0mShows recent commit messages
+
+cf13066 docs(glossary): migrate pattern and prelude glossary terms
+cee165a docs(glossary): migrate outer/path glossary entries
+6d3a2bc docs(glossary): migrate next 20 glossary terms
+ec49426 docs(glossary): migrate mutable and named terms
+d6c89e6 docs(glossary): migrate macro and method glossary entries
+
+[91m[1m| [0m[90m Bash     [0mShows unstaged changes diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index c7f8d6e..5b9f600 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -174,10 +174,18 @@ Visibility
+ :t:`Visibility` is a property of :t:`[field]s` and :t:`[item]s` that determines
+ which :t:`[module]s` can refer to the :t:`name` of the :t:`field` or :t:`item`.
+ 
+-:dp:`fls_qo0itr5il1kk`
+-:t:`Public visibility` is a kind of :t:`visibility` that allows for a :t:`name`
+-to be referred to from arbitrary :t:`module` ``M`` as long as the ancestor
+-:t:`[module]s` of the related :t:`entity` can be referred to from ``M``.
++.. glossary-entry:: public visibility
++   
++   :glossary:
++     :dp:`fls_6cfxqtl921ko`
++     :dt:`Public visibility` is a kind of :t:`visibility` that allows a :t:`name`
++     to be referred to from arbitrary :t:`module` ``M`` as long as the ancestor
++     :t:`[module]s` of the related :t:`entity` can be referred to from ``M``.
++   :chapter:
++     :dp:`fls_qo0itr5il1kk`
++     :t:`Public visibility` is a kind of :t:`visibility` that allows for a :t:`name`
++     to be referred to from arbitrary :t:`module` ``M`` as long as the ancestor
++     :t:`[module]s` of the related :t:`entity` can be referred to from ``M``.
+ 
+ .. glossary-entry:: private visibility
+    
+@@ -443,17 +451,38 @@ A :t:`type path` is a :t:`path` that acts as a :t:`type specification`.
+ :dp:`fls_nj7s6xmzx55f`
+ A :t:`type path` is subject to :t:`type path resolution`.
+ 
+-:dp:`fls_e65q3iz50j6a`
+-A :t:`qualifying trait` is a :t:`trait` that imposes a restriction on a
+-:t:`qualified type`.
++.. glossary-entry:: qualifying trait
++   
++   :glossary:
++     :dp:`fls_zKY1dWBMrqXZ`
++     A :dt:`qualifying trait` is a :t:`trait` that imposes a restriction on a
++     :t:`qualified type`.
++     
++     :dp:`fls_z6OeUWBnec90`
++     See :s:`QualifyingTrait`.
++   :chapter:
++     :dp:`fls_e65q3iz50j6a`
++     A :t:`qualifying trait` is a :t:`trait` that imposes a restriction on a
++     :t:`qualified type`.
+ 
+ :dp:`fls_Ai1jN5a8h3Dz`
+ A :t:`qualifying trait` shall resolve to a :t:`trait`.
+ 
+-:dp:`fls_ybv0tdu7dnj5`
+-A :t:`qualified type` is a :t:`type` that is restricted to a set of
+-:t:`[implementation]s` that exhibit :t:`implementation conformance` to a
+-:t:`qualifying trait`.
++.. glossary-entry:: qualified type
++   
++   :glossary:
++     :dp:`fls_e7YyZXOFo6ei`
++     A :dt:`qualified type` is a :t:`type` that is restricted to a set of
++     :t:`[implementation]s` that exhibit :t:`implementation conformance` to a
++     :t:`qualifying trait`.
++     
++     :dp:`fls_a4heXjzO3jem`
++     See :s:`QualifiedType`.
++   :chapter:
++     :dp:`fls_ybv0tdu7dnj5`
++     A :t:`qualified type` is a :t:`type` that is restricted to a set of
++     :t:`[implementation]s` that exhibit :t:`implementation conformance` to a
++     :t:`qualifying trait`.
+ 
+ :dp:`fls_qkYF2J7GVah8`
+ A :t:`qualified type` shall resolve to a :t:`type`.
+@@ -461,13 +490,33 @@ A :t:`qualified type` shall resolve to a :t:`type`.
+ :dp:`fls_QjNQbQhUcRTT`
+ A :t:`qualified type` shall implement its related :t:`qualifying trait`.
+ 
+-:dp:`fls_7sm3206va03c`
+-A :t:`qualified path expression` is a :t:`path expression` that resolves
+-through a :t:`qualified type`.
++.. glossary-entry:: qualified path expression
++   
++   :glossary:
++     :dp:`fls_wKAS6FxqGmTf`
++     A :dt:`qualified path expression` is a :t:`path expression` that resolves
++     through a :t:`qualified type`.
++     
++     :dp:`fls_MXxJn64eJpC5`
++     See :s:`QualifiedPathExpression`.
++   :chapter:
++     :dp:`fls_7sm3206va03c`
++     A :t:`qualified path expression` is a :t:`path expression` that resolves
++     through a :t:`qualified type`.
+ 
+-:dp:`fls_huynsyx13gsz`
+-A :t:`qualified type path` is a :t:`type path` that resolves through a
+-:t:`qualified type`.
++.. glossary-entry:: qualified type path
++   
++   :glossary:
++     :dp:`fls_S0QT9ib38i8E`
++     A :dt:`qualified type path` is a :t:`type path` that resolves through a
++     :t:`qualified type`.
++     
++     :dp:`fls_RR8fFLD7Rxlt`
++     See :s:`QualifiedTypePath`.
++   :chapter:
++     :dp:`fls_huynsyx13gsz`
++     A :t:`qualified type path` is a :t:`type path` that resolves through a
++     :t:`qualified type`.
+ 
+ .. glossary-entry:: associated type projection
+    
+diff --git a/src/expressions.rst b/src/expressions.rst
+index a62a23e..649356b 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -5432,8 +5432,17 @@ Range Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_bi82rusji8g0`
+-A :t:`range expression` is an :t:`expression` that constructs a range.
++.. glossary-entry:: range expression
++   
++   :glossary:
++     :dp:`fls_bffrbucfwu7`
++     A :dt:`range expression` is an :t:`expression` that constructs a range.
++     
++     :dp:`fls_1jk43yvxa8ks`
++     See :s:`RangeExpression`.
++   :chapter:
++     :dp:`fls_bi82rusji8g0`
++     A :t:`range expression` is an :t:`expression` that constructs a range.
+ 
+ .. glossary-entry:: full range expression
+    
+@@ -5442,21 +5451,51 @@ A :t:`range expression` is an :t:`expression` that constructs a range.
+      A :dt:`full range expression` is a :t:`range expression` that covers the full
+      range of a :t:`type`.
+ 
+-:dp:`fls_msyv4oyk5zp9`
+-A :t:`range expression low bound` is an :t:`operand` that specifies the start of
+-a range.
++.. glossary-entry:: range expression low bound
++   
++   :glossary:
++     :dp:`fls_t10o1p950u00`
++     A :dt:`range expression low bound` is an :t:`operand` that specifies the start
++     of a range.
++     
++     :dp:`fls_vmb2z7oh6gzm`
++     See :s:`RangeExpressionLowBound`.
++   :chapter:
++     :dp:`fls_msyv4oyk5zp9`
++     A :t:`range expression low bound` is an :t:`operand` that specifies the start of
++     a range.
+ 
+-:dp:`fls_f648uuxxh4vk`
+-A :t:`range expression high bound` is an :t:`operand` that specifies the end of
+-a range.
++.. glossary-entry:: range expression high bound
++   
++   :glossary:
++     :dp:`fls_c70pj8w15nmc`
++     A :dt:`range expression high bound` is an :t:`operand` that specifies the end
++     of a range.
++     
++     :dp:`fls_yxem0ckicxav`
++     See :s:`RangeExpressionHighBound`.
++   :chapter:
++     :dp:`fls_f648uuxxh4vk`
++     A :t:`range expression high bound` is an :t:`operand` that specifies the end of
++     a range.
+ 
+ :dp:`fls_9pl4629t54yq`
+ If a :t:`range expression` has two :t:`[operand]s`, then the :t:`[type]s` of the
+ :t:`[operand]s` shall be :t:`unifiable`.
+ 
+-:dp:`fls_xaumwogwbv3g`
+-A :t:`range-from expression` is a :t:`range expression` that specifies an
+-included :t:`range expression low bound`.
++.. glossary-entry:: range-from expression
++   
++   :glossary:
++     :dp:`fls_6enyv2oa4abq`
++     A :dt:`range-from expression` is a :t:`range expression` that specifies an
++     included :t:`range expression low bound`.
++     
++     :dp:`fls_e1smn0b478ik`
++     See :s:`RangeFromExpression`.
++   :chapter:
++     :dp:`fls_xaumwogwbv3g`
++     A :t:`range-from expression` is a :t:`range expression` that specifies an
++     included :t:`range expression low bound`.
+ 
+ :dp:`fls_exa2ufugnpgc`
+ The :t:`type` of a :t:`range-from expression` is :std:`core::ops::RangeFrom`.
+@@ -5465,10 +5504,21 @@ The :t:`type` of a :t:`range-from expression` is :std:`core::ops::RangeFrom`.
+ The :t:`value` of a :t:`range-from expression` is
+ ``core::ops::RangeFrom { start: range_expression_low_bound }``.
+ 
+-:dp:`fls_ppustuqdji7b`
+-A :t:`range-from-to expression` is a :t:`range expression` that specifies an
+-included :t:`range expression low bound` and an excluded
+-:t:`range expression high bound`.
++.. glossary-entry:: range-from-to expression
++   
++   :glossary:
++     :dp:`fls_nzf6y64jz83f`
++     A :dt:`range-from-to expression` is a :t:`range expression` that specifies an
++     included :t:`range expression low bound` and an excluded
++     :t:`range expression high bound`.
++     
++     :dp:`fls_mjbxfjulryt`
++     See :s:`RangeFromToExpression`.
++   :chapter:
++     :dp:`fls_ppustuqdji7b`
++     A :t:`range-from-to expression` is a :t:`range expression` that specifies an
++     included :t:`range expression low bound` and an excluded
++     :t:`range expression high bound`.
+ 
+ :dp:`fls_ke2fpgodq84u`
+ The :t:`type` of a :t:`range-from-to expression` is :std:`core::ops::Range`.
+@@ -5477,9 +5527,19 @@ The :t:`type` of a :t:`range-from-to expression` is :std:`core::ops::Range`.
+ The :t:`value` of a :t:`range-from-to expression` is
+ ``core::ops::Range { start: range_expression_low_bound, end: range_expression_high_bound }``.
+ 
+-:dp:`fls_x67xo25n0qlz`
+-A :t:`range-full expression` is a :t:`range expression` that covers the whole
+-range of a :t:`type`.
++.. glossary-entry:: range-full expression
++   
++   :glossary:
++     :dp:`fls_6mchm7kb7i41`
++     A :dt:`range-full expression` is a :t:`range expression` that covers the whole
++     range of a :t:`type`.
++     
++     :dp:`fls_u7kd8w5g2icd`
++     See :s:`RangeFullExpression`.
++   :chapter:
++     :dp:`fls_x67xo25n0qlz`
++     A :t:`range-full expression` is a :t:`range expression` that covers the whole
++     range of a :t:`type`.
+ 
+ :dp:`fls_m6n0gvg3ct1b`
+ The :t:`type` of a :t:`range-full expression` is :std:`core::ops::RangeFull`.
+@@ -5487,10 +5547,21 @@ The :t:`type` of a :t:`range-full expression` is :std:`core::ops::RangeFull`.
+ :dp:`fls_yvh5cdgzevni`
+ The :t:`value` of a :t:`range-full expression` is ``core::ops::RangeFull {}``.
+ 
+-:dp:`fls_lh9my7g8oflq`
+-A :t:`range-inclusive expression` is a :t:`range expression` that specifies an
+-included :t:`range expression low bound` and an included
+-:t:`range expression high bound`.
++.. glossary-entry:: range-inclusive expression
++   
++   :glossary:
++     :dp:`fls_9vja0wev84a7`
++     A :dt:`range-inclusive expression` is a :t:`range expression` that specifies an
++     included :t:`range expression low bound` and an included
++     :t:`range expression high bound`.
++     
++     :dp:`fls_lpcsb8dtldk3`
++     See :s:`RangeInclusiveExpression`.
++   :chapter:
++     :dp:`fls_lh9my7g8oflq`
++     A :t:`range-inclusive expression` is a :t:`range expression` that specifies an
++     included :t:`range expression low bound` and an included
++     :t:`range expression high bound`.
+ 
+ :dp:`fls_livflk52xaj9`
+ The :t:`type` of a :t:`range-inclusive expression` is
+@@ -5500,9 +5571,19 @@ The :t:`type` of a :t:`range-inclusive expression` is
+ The :t:`value` of a :t:`range-inclusive expression` is
+ ``core::ops::RangeInclusive::new(range_expression_low_bound, range_expression_high_bound)``.
+ 
+-:dp:`fls_5a1uivj19kob`
+-A :t:`range-to expression` is a :t:`range expression` that specifies an excluded
+-:t:`range expression high bound`.
++.. glossary-entry:: range-to expression
++   
++   :glossary:
++     :dp:`fls_urnfp1j9d5v4`
++     A :dt:`range-to expression` is a :t:`range expression` that specifies an
++     excluded :t:`range expression high bound`.
++     
++     :dp:`fls_lft9cd7h8cfv`
++     See :s:`RangeToExpression`.
++   :chapter:
++     :dp:`fls_5a1uivj19kob`
++     A :t:`range-to expression` is a :t:`range expression` that specifies an excluded
++     :t:`range expression high bound`.
+ 
+ :dp:`fls_k611yoc8hk0n`
+ The :t:`type` of a :t:`range-to expression` is :std:`core::ops::RangeTo`.
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 5400112..2c97f90 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -204,6 +204,13 @@ The representation of an end of line is tool-defined.
+ A :t:`separator` is a character or a string that separates adjacent :t:`[lexical
+ element]s`. A :t:`whitespace string` is a :t:`separator`.
+ 
++.. glossary-entry:: punctuator
++   
++   :glossary:
++     :dp:`fls_gwqgi0b7jxmu`
++     A :dt:`punctuator` is a character or a sequence of characters in category
++     :s:`Punctuation`.
++
+ :dp:`fls_8fv63w6f4udl`
+ A :dt:`simple punctuator` is one of the following special characters:
+ 
+@@ -507,9 +514,16 @@ except ``crate``, ``self``, ``Self``, and ``super``.
+      :dp:`fls_xsdmun5uqy4c`
+      An :t:`identifier` is a :t:`lexical element` that refers to a :t:`name`.
+ 
+-:dp:`fls_ktnf6zkrdy45`
+-A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
+-keyword]s`.
++.. glossary-entry:: pure identifier
++   
++   :glossary:
++     :dp:`fls_6pez8fyiew0k`
++     A :dt:`pure identifier` is an :t:`identifier` that does not include
++     :t:`[weak keyword]s`.
++   :chapter:
++     :dp:`fls_ktnf6zkrdy45`
++     A :t:`pure identifier` is an :t:`identifier` that does not include :t:`[weak
++     keyword]s`.
+ 
+ :dp:`fls_jpecw46eh061`
+ A :t:`pure identifier` shall follow the specification in Unicode Standard Annex
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 2de9f1a..336d596 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -593,9 +593,19 @@ Range Patterns
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_okupyoav13rm`
+-A :t:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
+-within a range.
++.. glossary-entry:: range pattern
++   
++   :glossary:
++     :dp:`fls_vf42zdyq23lc`
++     A :dt:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
++     within a range.
++     
++     :dp:`fls_r36uf3y2denr`
++     See ``RangePattern``.
++   :chapter:
++     :dp:`fls_okupyoav13rm`
++     A :t:`range pattern` is a :t:`pattern` that matches :t:`[value]s` which fall
++     within a range.
+ 
+ .. glossary-entry:: half-open range pattern
+    
+@@ -653,16 +663,46 @@ within a range.
+      An :t:`obsolete range pattern` is a :t:`range pattern` that uses obsolete syntax
+      to express an :t:`inclusive range pattern`.
+ 
+-:dp:`fls_vrpr6ttpfpal`
+-A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
++.. glossary-entry:: range pattern bound
++   
++   :glossary:
++     :dp:`fls_l9xq96bjs4o2`
++     A :dt:`range pattern bound` is a constraint on the range of a
++     :t:`range pattern`.
++     
++     :dp:`fls_80736cs3axo4`
++     See :s:`RangePatternBound`.
++   :chapter:
++     :dp:`fls_vrpr6ttpfpal`
++     A :t:`range pattern bound` is a constraint on the range of a :t:`range pattern`.
+ 
+-:dp:`fls_nk48gregn3me`
+-A :t:`range pattern low bound` is a :t:`range pattern bound` that specifies the
+-start of a range.
++.. glossary-entry:: range pattern low bound
++   
++   :glossary:
++     :dp:`fls_rt7q0msh3op4`
++     A :dt:`range pattern low bound` is a :t:`range pattern bound` that specifies
++     the start of a range.
++     
++     :dp:`fls_j695o93wsu3i`
++     See :s:`RangePatternLowBound`.
++   :chapter:
++     :dp:`fls_nk48gregn3me`
++     A :t:`range pattern low bound` is a :t:`range pattern bound` that specifies the
++     start of a range.
+ 
+-:dp:`fls_83v1xqbebs58`
+-A :t:`range pattern high bound` is a :t:`range pattern bound` that specifies the
+-end of a range.
++.. glossary-entry:: range pattern high bound
++   
++   :glossary:
++     :dp:`fls_arp7y7yme7yp`
++     A :dt:`range pattern high bound` is a :t:`range pattern bound` that specifies
++     the end of a range.
++     
++     :dp:`fls_dnwqcswftw71`
++     See :s:`RangePatternHighBound`.
++   :chapter:
++     :dp:`fls_83v1xqbebs58`
++     A :t:`range pattern high bound` is a :t:`range pattern bound` that specifies the
++     end of a range.
+ 
+ :dp:`fls_2hpuccwh2xml`
+ A :t:`half-open range pattern` shall appear within a :t:`parenthesized pattern`
+diff --git a/src/program-structure-and-compilation.rst b/src/program-structure-and-compilation.rst
+index d9c0609..5962330 100644
+--- a/src/program-structure-and-compilation.rst
++++ b/src/program-structure-and-compilation.rst
+@@ -353,9 +353,16 @@ Program Entry Point
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_dp64b08em9BJ`
+-A :t:`program entry point` is a :t:`function` that is invoked at the start of
+-a Rust program.
++.. glossary-entry:: program entry point
++   
++   :glossary:
++     :dp:`fls_9m37hN9zgEQf`
++     A :dt:`program entry point` is a :t:`function` that is invoked at the start of
++     a Rust program.
++   :chapter:
++     :dp:`fls_dp64b08em9BJ`
++     A :t:`program entry point` is a :t:`function` that is invoked at the start of
++     a Rust program.
+ 
+ .. glossary-entry:: main function signature
+    
+
+[91m[1m| [0m[90m Bash     [0mShows short git status
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/lexical-elements.rst
+ M src/patterns.rst
+ M src/program-structure-and-compilation.rst
+
+[91m[1m| [0m[90m Bash     [0mStage files, commit glossary migration, show status
+
+[glossary-single-source-phase1 7f4ea48] docs(glossary): migrate next 20 glossary terms
+ 5 files changed, 250 insertions(+), 59 deletions(-)
+
+Updated glossary migration batch 2 by replacing the chapter definitions for the next 20 terms with `.. glossary-entry::` blocks (dual or glossary-only), keeping glossary text verbatim and leaving surrounding semantics intact. Inserted the punctuator glossary-only entry near the lexical punctuator rules and migrated the range and qualified path/type terms in their respective chapters, preserving existing `:dp:` IDs. Changes are in `src/program-structure-and-compilation.rst`, `src/entities-and-resolution.rst`, `src/lexical-elements.rst`, `src/expressions.rst`, and `src/patterns.rst`.
+
+- Term map updated: `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`
+- Checklist updated: `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`
+
+Tests and verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` (no differences)
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` (no differences)
+
+Commit:
+- `docs(glossary): migrate next 20 glossary terms`
+
+Next steps:
+1) Start the next batch of 20 unchecked terms from the checklist.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

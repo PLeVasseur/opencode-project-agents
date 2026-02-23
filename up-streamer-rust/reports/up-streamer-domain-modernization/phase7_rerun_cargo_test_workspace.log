@@ -1,0 +1,135 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.60s
+     Running unittests src/main.rs (target/debug/deps/configurable_streamer-321e6f8db0bcc24c)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/hello_world_protos-de7ba98b446fe94c)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/integration_test_utils-5f3b3e78a281d7b6)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/subscription_cache-916748ddfc1e272d)
+
+running 3 tests
+test tests::wildcard_lookup_merges_exact_and_wildcard_rows ... ok
+test tests::rebuild_reflects_removed_rows ... ok
+test tests::same_subscriber_different_topics_coexist ... ok
+
+test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.11s
+
+     Running unittests src/lib.rs (target/debug/deps/zenoh_plugin_up_linux_streamer-5da7965b9c8b4091)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running unittests src/lib.rs (target/debug/deps/up_streamer-aa9085db77c55ec2)
+
+running 9 tests
+test control_plane::route_table::tests::route_table_insert_and_remove_are_idempotent ... ok
+test control_plane::route_table::tests::route_key_uses_transport_identity ... ok
+test data_plane::egress_pool::tests::detach_route_drops_worker_when_refcount_reaches_zero ... ok
+test data_plane::egress_pool::tests::attach_route_reuses_queue_and_increments_refcount ... ok
+test routing::publish_resolution::tests::resolver_blocks_mismatched_topic_authority ... ok
+test routing::publish_resolution::tests::resolver_allows_wildcard_topic_authority ... ok
+test routing::publish_resolution::tests::resolver_dedupes_sources_across_subscribers ... ok
+test data_plane::ingress_registry::tests::register_and_unregister_route_registers_and_unregisters_request_and_publish_filters ... ok
+test data_plane::ingress_registry::tests::duplicate_register_route_keeps_single_listener_registration ... ok
+
+test result: ok. 9 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.22s
+
+     Running tests/api_contract_forwarding_rules.rs (target/debug/deps/api_contract_forwarding_rules-62ada83d181347c6)
+
+running 2 tests
+test add_delete_forwarding_rule_contract_rejects_same_authority ... ok
+test add_delete_forwarding_rule_contract_duplicate_and_missing_rules ... ok
+
+test result: ok. 2 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.32s
+
+     Running tests/single_local_single_remote.rs (target/debug/deps/single_local_single_remote-c65d97b6b0a696d7)
+
+running 1 test
+test single_local_single_remote ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.63s
+
+     Running tests/single_local_two_remote_add_remove_rules.rs (target/debug/deps/single_local_two_remote_add_remove_rules-279908a9d36d526d)
+
+running 1 test
+test single_local_two_remote_add_remove_rules ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 5.84s
+
+     Running tests/single_local_two_remote_authorities_different_remote_transport.rs (target/debug/deps/single_local_two_remote_authorities_different_remote_transport-04045c3c51928926)
+
+running 1 test
+test single_local_two_remote_authorities_different_remote_transport ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 4.93s
+
+     Running tests/single_local_two_remote_authorities_same_remote_transport.rs (target/debug/deps/single_local_two_remote_authorities_same_remote_transport-85c655a29b055b89)
+
+running 1 test
+test single_local_two_remote_authorities_same_remote_transport ... ignored
+
+test result: ok. 0 passed; 0 failed; 1 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+     Running tests/usubscription.rs (target/debug/deps/usubscription-04f30722fa1a68cc)
+
+running 1 test
+test usubscription_bad_data ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.17s
+
+     Running unittests src/lib.rs (target/debug/deps/usubscription_static_file-392a690de7c862ca)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests hello_world_protos
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests integration_test_utils
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests subscription_cache
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
+   Doc-tests up_streamer
+
+running 7 tests
+test up-streamer/src/runtime/mod.rs - runtime (line 6) ... ok
+test up-streamer/src/endpoint.rs - endpoint::Endpoint (line 23) ... ok
+test up-streamer/src/routing/mod.rs - routing (line 6) ... ok
+test up-streamer/src/lib.rs - (line 24) ... ok
+test up-streamer/src/data_plane/mod.rs - data_plane (line 7) ... ok
+test up-streamer/src/control_plane/mod.rs - control_plane (line 7) ... ok
+test up-streamer/src/lib.rs - (line 94) ... ok
+
+test result: ok. 7 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 2.38s
+
+   Doc-tests usubscription_static_file
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+

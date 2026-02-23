@@ -1,0 +1,29 @@
+--- /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-debug-commit3/glossary.html	2026-02-14 04:49:44.238250085 +0900
++++ /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-four-check-remediation-20260213T193115Z/artifacts/m7-debug-commit4/glossary.html	2026-02-14 04:49:57.415844582 +0900
+@@ -782,7 +782,7 @@
+ such that they are interoperable with the <a class="reference internal" href="#term_c">C</a> language.</p>
+ </section>
+ <section id="c-signed-int-type">
+-<span id="fls_j0xuy4mcxoe6"></span><h2><span class="section-number">B.105. </span>C signed int type<a class="headerlink" href="#c-signed-int-type" title="Link to this heading">¶</a></h2>
++<span id="fls_fls-j0xuy4mcxoe6"></span><h2><span class="section-number">B.105. </span>C signed int type<a class="headerlink" href="#c-signed-int-type" title="Link to this heading">¶</a></h2>
+ <p><span class="spec-paragraph-id" id="fls_8QIcvapJehqY">B.105:1</span>
+ <em id="term_c_signed_int_type">C signed int type</em> is the <cite>signed int</cite> <a class="reference internal" href="#term_type">type</a> of the <a class="reference internal" href="#term_c">C</a> language.</p>
+ </section>
+@@ -1278,7 +1278,7 @@
+ </section>
+ <section id="discriminant-type">
+ <span id="fls_a0ezupltenme"></span><h2><span class="section-number">B.178. </span>discriminant type<a class="headerlink" href="#discriminant-type" title="Link to this heading">¶</a></h2>
+-<p><span class="spec-paragraph-id" id="fls_t4yeovFm83Wo">B.178:1</span>
++<p><span class="spec-paragraph-id" id="fls_kqdvWGi9cglm">B.178:1</span>
+ A <em id="term_discriminant_type">discriminant type</em> is the <a class="reference internal" href="#term_type">type</a> of a <a class="reference internal" href="#term_discriminant">discriminant</a>.</p>
+ </section>
+ <section id="diverging-expression">
+@@ -2676,7 +2676,7 @@
+ </section>
+ <section id="local-trait">
+ <span id="fls_bypbl5zftibf"></span><h2><span class="section-number">B.387. </span>local trait<a class="headerlink" href="#local-trait" title="Link to this heading">¶</a></h2>
+-<p><span class="spec-paragraph-id" id="fls_I9JaKZelMiby">B.387:1</span>
++<p><span class="spec-paragraph-id" id="fls_H5vkbMFvzrFs">B.387:1</span>
+ A <em id="term_local_trait">local trait</em> is a <a class="reference internal" href="#term_trait">trait</a> that is defined in the current <a class="reference internal" href="#term_crate">crate</a>.</p>
+ </section>
+ <section id="local-type">

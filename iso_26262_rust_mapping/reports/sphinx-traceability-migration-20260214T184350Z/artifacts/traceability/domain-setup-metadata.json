@@ -1,0 +1,6 @@
+{
+  "env_version": 1,
+  "extension": "exts.iso26262_spec",
+  "parallel_read_safe": true,
+  "parallel_write_safe": true
+}

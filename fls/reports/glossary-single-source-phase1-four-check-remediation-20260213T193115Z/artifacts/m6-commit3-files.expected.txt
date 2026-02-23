@@ -1,0 +1,3 @@
+.github/workflows/ci.yml
+tools/README.rst
+tools/verify-html-diff.py

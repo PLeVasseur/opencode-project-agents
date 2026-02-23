@@ -58,6 +58,7 @@
 | async control flow boundary | async_control_flow_boundary | src/expressions.rst | Added a definition for async control flow boundaries alongside async blocks. |
 | async function | async_function | src/functions.rst | Upgraded the async function definition to :dt:. |
 | atomic type | atomic_type | src/concurrency.rst | Upgraded the atomic type definition to :dt:. |
+| atomic | atomic | src/concurrency.rst | Added an alias entry that redirects to atomic type. |
 | attribute | attribute | src/attributes.rst | Upgraded the attribute definition to :dt:. |
 | attribute content | attribute_content | src/attributes.rst | Upgraded the attribute content definition to :dt:. |
 | attribute macro | attribute_macro | src/macros.rst | Upgraded the attribute macro definition to :dt:. |
@@ -88,6 +89,7 @@
 | assignee expression | assignee_expression | src/expressions.rst | Upgraded the assignee expression classification definition to :dt:. |
 | assignee operand | assignee_operand | src/expressions.rst | Upgraded the assignee operand definition in assignment expressions to :dt:. |
 | assignment expression | assignment_expression | src/expressions.rst | Upgraded the assignment expression definition to :dt:. |
+| assignment | assignment | src/expressions.rst | Added an alias entry that redirects to assignment expression. |
 | binding | binding | src/patterns.rst | Upgraded the binding definition in Binding Modes to :dt:. |
 | binding argument | binding_argument | src/generics.rst | Upgraded the binding argument definition to :dt:. |
 | binding bound argument | binding_bound_argument | src/generics.rst | Upgraded the binding bound argument definition to :dt:. |
@@ -123,6 +125,7 @@
 | byte string literal | byte_string_literal | src/lexical-elements.rst | Upgraded the byte string literal definition to :dt:. |
 | C | c | src/ffi.rst | Added a definition in the FFI ABI section to ground references to C ABIs. |
 | C representation | c_representation | src/types-and-traits.rst | Upgraded the C representation definition to :dt: in Type Representation. |
+| C signed int type | c_signed_int_type | src/types-and-traits.rst | Added a definition in Enum Type Representation for the target platform's C signed int type. |
 | c string literal | c_string_literal | src/lexical-elements.rst | Upgraded the C string literal definition to :dt: in C String Literals. |
 | Call conformance | call_conformance | src/expressions.rst | Added a definition in Call Expressions alongside the ABI requirement. |
 | call expression | call_expression | src/expressions.rst | Upgraded the call expression definition to :dt: in Call Expressions. |
@@ -187,6 +190,8 @@
 | enum value | enum_value | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; added definition to the owning section. |
 | enum variant value | enum_variant_value | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; added definition to the owning section. |
 | escaped character | escaped_character | src/lexical-elements.rst | Reviewed usages in src/lexical-elements.rst; added definition to the owning section. |
+| evaluated | evaluated | src/expressions.rst | Added an alias entry that redirects to evaluation. |
+| executed | executed | src/statements.rst | Added an alias entry that redirects to execution. |
 | f32 | f32 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; added definition to Floating Point Types. |
 | f64 | f64 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; added definition to Floating Point Types. |
 | fat pointer | fat_pointer | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; added definition to the owning section. |
@@ -433,7 +438,7 @@
 | range pattern low bound | range_pattern_low_bound | src/patterns.rst | Upgraded the definition to :dt: in Range Patterns. |
 | range-from expression | range_from_expression | src/expressions.rst | Upgraded the definition to :dt: in Range Expressions. |
 | range-from-to expression | range_from_to_expression | src/expressions.rst | Upgraded the definition to :dt: in Range Expressions. |
-| range-full expression | range_full_expression | src/expressions.rst | Verified existing :dt: definition in Range Expressions. |
+| range-full expression | range_full_expression | src/expressions.rst | Added an alias entry that redirects to full range expression. |
 | range-inclusive expression | range_inclusive_expression | src/expressions.rst | Upgraded the definition to :dt: in Range Expressions. |
 | range-to expression | range_to_expression | src/expressions.rst | Upgraded the definition to :dt: in Range Expressions. |
 | range-to-inclusive expression | range_to_inclusive_expression | src/expressions.rst | Upgraded the definition to :dt: in Range Expressions. |
@@ -477,6 +482,7 @@
 | renaming | renaming | src/program-structure-and-compilation.rst | Added a :dt: definition in Crate Imports. |
 | repeat operand | repeat_operand | src/expressions.rst | Upgraded the definition to :dt: in Array Expressions. |
 | repetition operator | repetition_operator | src/macros.rst | Upgraded the definition to :dt: in Macro Repetition. |
+| representation | representation | src/types-and-traits.rst | Added an alias entry that redirects to type representation. |
 | representation modifier | representation_modifier | src/attributes.rst | Added a :dt: definition in Attribute repr rules. |
 | reserved keyword | reserved_keyword | src/lexical-elements.rst | Upgraded the definition to :dt: in Keywords. |
 | resolution | resolution | src/entities-and-resolution.rst | Upgraded the definition to :dt: in Resolution. |
@@ -608,3 +614,74 @@
 | type specification | type_specification | src/types-and-traits.rst | Added definition as :dt:. |
 | type unification | type_unification | src/types-and-traits.rst | Upgraded definition to :dt:. |
 | type variable | type_variable | src/types-and-traits.rst | Upgraded definition to :dt:. |
+| u8 | u8 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| u16 | u16 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| u32 | u32 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| u64 | u64 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| u128 | u128 | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unary operator | unary_operator | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| undefined behavior | undefined_behavior | src/unsafety.rst | Reviewed usages in src/unsafety.rst; definition placed in owning section. |
+| underscore expression | underscore_expression | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| underscore pattern | underscore_pattern | src/patterns.rst | Reviewed usages in src/patterns.rst; definition placed in owning section. |
+| Unicode | unicode | src/lexical-elements.rst | Reviewed usages in src/lexical-elements.rst; definition placed in owning section. |
+| unifiable | unifiable | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unified type | unified_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| union | union | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| union field | union_field | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| union type | union_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| union value | union_value | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unique immutable reference | unique_immutable_reference | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| unit enum variant | unit_enum_variant | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit struct | unit_struct | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit struct constant | unit_struct_constant | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit struct type | unit_struct_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit struct value | unit_struct_value | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit tuple | unit_tuple | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit type | unit_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unit value | unit_value | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unnamed constant | unnamed_constant | src/values.rst | Reviewed usages in src/values.rst; definition placed in owning section. |
+| unnamed lifetime | unnamed_lifetime | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unqualified path expression | unqualified_path_expression | src/entities-and-resolution.rst | Reviewed usages in src/entities-and-resolution.rst; definition placed in owning section. |
+| unsafe block | unsafe_block | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| unsafe block expression | unsafe_block_expression | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| unsafe context | unsafe_context | src/unsafety.rst | Reviewed usages in src/unsafety.rst; definition placed in owning section. |
+| unsafe external block | unsafe_external_block | src/ffi.rst | Reviewed usages in src/ffi.rst; definition placed in owning section. |
+| unsafe function | unsafe_function | src/functions.rst | Reviewed usages in src/functions.rst; definition placed in owning section. |
+| unsafe function item type | unsafe_function_item_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unsafe function pointer type | unsafe_function_pointer_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unsafe operation | unsafe_operation | src/unsafety.rst | Reviewed usages in src/unsafety.rst; definition placed in owning section. |
+| unsafe Rust | unsafe_rust | src/unsafety.rst | Reviewed usages in src/unsafety.rst; definition placed in owning section. |
+| unsafe trait | unsafe_trait | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unsafe trait implementation | unsafe_trait_implementation | src/implementations.rst | Reviewed usages in src/implementations.rst; definition placed in owning section. |
+| unsafety | unsafety | src/unsafety.rst | Reviewed usages in src/unsafety.rst; definition placed in owning section. |
+| unsigned integer type | unsigned_integer_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unsized coercion | unsized_coercion | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unsized type | unsized_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| unsuffixed float | unsuffixed_float | src/lexical-elements.rst | Reviewed usages in src/lexical-elements.rst; definition placed in owning section. |
+| unsuffixed integer | unsuffixed_integer | src/lexical-elements.rst | Reviewed usages in src/lexical-elements.rst; definition placed in owning section. |
+| use capture | use_capture | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| use import | use_import | src/entities-and-resolution.rst | Reviewed usages in src/entities-and-resolution.rst; definition placed in owning section. |
+| usize | usize | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| validity invariant | validity_invariant | src/unsafety.rst | Reviewed usages in src/unsafety.rst; definition placed in owning section. |
+| value | value | src/values.rst | Reviewed usages in src/values.rst; definition placed in owning section. |
+| value expression | value_expression | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| value expression context | value_expression_context | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| value operand | value_operand | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| variable | variable | src/values.rst | Reviewed usages in src/values.rst; definition placed in owning section. |
+| variadic part | variadic_part | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| variance | variance | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| visibility | visibility | src/entities-and-resolution.rst | Reviewed usages in src/entities-and-resolution.rst; definition placed in owning section. |
+| visibility modifier | visibility_modifier | src/entities-and-resolution.rst | Reviewed usages in src/entities-and-resolution.rst; definition placed in owning section. |
+| visible emptiness | visible_emptiness | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| visible empty enum variant | visible_empty_enum_variant | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| visible empty type | visible_empty_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| weak keyword | weak_keyword | src/lexical-elements.rst | Reviewed usages in src/lexical-elements.rst; definition placed in owning section. |
+| where clause | where_clause | src/generics.rst | Reviewed usages in src/generics.rst; definition placed in owning section. |
+| where clause predicate | where_clause_predicate | src/generics.rst | Reviewed usages in src/generics.rst; definition placed in owning section. |
+| while let loop | while_let_loop | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| while let loop expression | while_let_loop_expression | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| while loop | while_loop | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| while loop expression | while_loop_expression | src/expressions.rst | Reviewed usages in src/expressions.rst; definition placed in owning section. |
+| whitespace string | whitespace_string | src/lexical-elements.rst | Reviewed usages in src/lexical-elements.rst; definition placed in owning section. |
+| zero-sized type | zero_sized_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |
+| zero-variant enum type | zero_variant_enum_type | src/types-and-traits.rst | Reviewed usages in src/types-and-traits.rst; definition placed in owning section. |

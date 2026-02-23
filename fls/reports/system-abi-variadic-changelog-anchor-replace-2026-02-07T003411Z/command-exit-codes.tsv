@@ -1,0 +1,32 @@
+name	command	exit_code
+base-ref	git merge-base HEAD origin/main	0
+readiness-exists	test -f tools/changelog_assistant.py	0
+readiness-help	uv run python tools/changelog_assistant.py --help	0
+readiness-metadata	rg update_action|anchored_* tools/changelog_assistant.py	1
+readiness-rebase	git rebase --autostash origin/main	0
+readiness-post-exists	test -f tools/changelog_assistant.py	0
+readiness-post-help	uv run python tools/changelog_assistant.py --help	0
+readiness-post-metadata	rg update_action|anchored_* tools/changelog_assistant.py	1
+readiness-post-require-anchor	rg -- --require-anchor readiness-post-help.stdout.txt	1
+readiness-require-anchor	rg -- --require-anchor readiness-help.stdout.txt	1
+anchor-before	python release-section canonical count before update	0
+pre-check	uv run python tools/changelog_assistant.py --check --base <BASE_REF> --emit-report <pre-check>	0
+pre-check-artifacts	test -f pre-check.json and pre-check.md	0
+update	uv run python tools/changelog_assistant.py --update --base <BASE_REF> --title <ENTRY_TITLE> --upstream-pr <URL> --emit-report <update>	0
+update-artifacts	test -f update.json and update.md	0
+update-metadata-check	python check update.json anchor metadata fields	0
+changelog-diff-first	git diff -- src/changelog.rst > changelog.diff	0
+changelog-quality-check	python verify release section change tags and role usage	0
+update-second	uv run python tools/changelog_assistant.py --update --base <BASE_REF> --title <ENTRY_TITLE> --upstream-pr <URL> --emit-report <update-second>	0
+changelog-diff-second	git diff -- src/changelog.rst > changelog-second.diff	0
+anchor-after-first-second	python compute canonical count after first and second updates	0
+post-check	uv run python tools/changelog_assistant.py --check --base <BASE_REF> --emit-report <post-check>	0
+post-check-artifacts	test -f post-check.json and post-check.md	0
+tag-mapping	python generate tags-to-content mapping evidence	0
+bootstrap-printenv	printenv OPENCODE_CONFIG_DIR	0
+bootstrap-git-fetch	git fetch origin	0
+bootstrap-git-switch-initial	git switch system-abi-variadic (in /home/pete.levasseur/project/fls)	128
+bootstrap-git-switch	git switch system-abi-variadic	0
+bootstrap-git-pull-ff-only	git pull --ff-only origin system-abi-variadic	128
+bootstrap-uv-sync	uv sync	0
+bootstrap-record-metadata	pwd && git branch --show-current && git rev-parse HEAD && date -u	0

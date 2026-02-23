@@ -1,0 +1,41 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.46s
+     Running unittests src/lib.rs (target/debug/deps/up_streamer-861ff201d1e46e1b)
+
+running 4 tests
+test ustreamer::tests::issue_74_publish_filter_allows_left_wildcard ... ok
+test ustreamer::tests::issue_74_publish_filter_blocks_unmapped_authority ... ok
+test ustreamer::tests::issue_74_unregistration_removes_publish_filters ... ok
+test ustreamer::tests::issue_74_publish_filter_respects_topic_authority ... ok
+
+test result: ok. 4 passed; 0 failed; 0 ignored; 0 measured; 3 filtered out; finished in 0.43s
+
+     Running tests/single_local_single_remote.rs (target/debug/deps/single_local_single_remote-2ae8f36380fa4772)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+
+     Running tests/single_local_two_remote_add_remove_rules.rs (target/debug/deps/single_local_two_remote_add_remove_rules-de0cadce9b3caaf9)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+
+     Running tests/single_local_two_remote_authorities_different_remote_transport.rs (target/debug/deps/single_local_two_remote_authorities_different_remote_transport-96c674d98d442f37)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+
+     Running tests/single_local_two_remote_authorities_same_remote_transport.rs (target/debug/deps/single_local_two_remote_authorities_same_remote_transport-51af832fe078efed)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+
+     Running tests/usubscription.rs (target/debug/deps/usubscription-02a7d3fe10788aea)
+
+running 0 tests
+
+test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 1 filtered out; finished in 0.00s
+

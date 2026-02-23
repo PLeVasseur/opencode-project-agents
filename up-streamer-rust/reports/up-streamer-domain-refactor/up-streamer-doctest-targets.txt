@@ -1,0 +1,6 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.34s
+   Doc-tests up_streamer
+up-streamer/src/endpoint.rs - endpoint::Endpoint (line 27): test
+up-streamer/src/ustreamer.rs - ustreamer::UStreamer (line 498): test
+
+2 tests, 0 benchmarks

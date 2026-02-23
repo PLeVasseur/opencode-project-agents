@@ -1,0 +1,8 @@
+release=1.93.0
+url=https://github.com/rust-lang/rust/pull/145954
+baseline_count=1
+first_diff_added_entries=1
+first_diff_removed_entries=0
+derived_top_level_entry_count=2
+derived_top_level_entry_lines=29,128
+derivation=baseline_count + added - removed; lines inferred from earliest matches in current file

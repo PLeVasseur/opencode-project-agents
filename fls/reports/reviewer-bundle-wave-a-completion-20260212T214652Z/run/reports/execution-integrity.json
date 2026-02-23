@@ -1,0 +1,45 @@
+{
+  "batches_completed_current_run": 1,
+  "batches_completed_total": 6,
+  "changed_src_files": [
+    "src/entities-and-resolution.rst",
+    "src/expressions.rst",
+    "src/functions.rst",
+    "src/implementations.rst",
+    "src/items.rst",
+    "src/macros.rst",
+    "src/ownership-and-deconstruction.rst",
+    "src/program-structure-and-compilation.rst",
+    "src/statements.rst",
+    "src/types-and-traits.rst",
+    "src/values.rst"
+  ],
+  "checks": {
+    "changed_src_files_non_empty": true,
+    "dry_run": false,
+    "has_wave_ab_scope": true,
+    "new_commit_count_gt_zero": true,
+    "waves_complete_with_nonzero_batches": true
+  },
+  "end_head": "e498c8d6275cffce4640683ec664fa527d5bf010",
+  "failures": [],
+  "has_wave_ab_scope": true,
+  "new_commit_count": 9,
+  "new_commit_hashes": [
+    "e498c8d6275cffce4640683ec664fa527d5bf010",
+    "4fd7d55f96566be5c307ef650898fed084befb79",
+    "d7c8a943cb79877d59c37e17f26d678797fbb0c2",
+    "7b8d1eb9dd185fb5bacb2a6d93f2736287a5621b",
+    "de4fbe5809888665a337c0ed38124b7a2edbad6c",
+    "9b68d6ae3c6c5ba49fd0d9ad0064582091ceff18",
+    "c05c97ad04d3bd0265ef74c2663e85ffc45c544e",
+    "193539b202ecdb32cd2ffda88e4431bbf59cf83e",
+    "e1a41fe065bf361375daaeeeea5df19365e50992"
+  ],
+  "start_head": "beb89ee90e2b7639d3ffc07a254aa51988f6906b",
+  "timestamp": "20260212T213725Z",
+  "verdict": "pass",
+  "wave_a_complete": true,
+  "wave_a_end_head": "e498c8d6275cffce4640683ec664fa527d5bf010",
+  "wave_b_complete": false
+}

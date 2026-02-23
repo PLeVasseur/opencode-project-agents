@@ -1,0 +1,151 @@
+diff --git a/src/changelog.rst b/src/changelog.rst
+index 9f78274..7663cb1 100644
+--- a/src/changelog.rst
++++ b/src/changelog.rst
+@@ -79,6 +79,146 @@ Language changes in Rust 1.93.0
+ 
+   - Lints are outside the scope of FLS
+ 
++- `Document system ABI mapping for C-variadic extern declarations <https://github.com/rust-lang/rust/pull/999999>`_
++
++  - Change tags: paragraph-added, paragraph-changed, role-change, term-def-added, syntax-ref-added, section-added, normative-shift
++  - Added paragraphs:
++    - :p:`fls_9OFXj6DnKS7W`
++    - :p:`fls_MpcAsy5zhCeW`
++    - :p:`fls_NxhrfQzbxetN`
++    - :p:`fls_TmvfmSQP65pA`
++    - :p:`fls_ZbvI45Ojpte4`
++    - :p:`fls_tZP7xARsjuYv`
++    - :p:`fls_tuP6iLdL6Kx0`
++    - :p:`fls_yjRmR5F1cL6i`
++  - Changed paragraphs:
++    - :p:`fls_36qrs2fxxvi7`
++    - :p:`fls_6rtj6rwqxojh`
++    - :p:`fls_7t7yxh94wnbl`
++    - :p:`fls_CIyK8BYzzo26`
++    - :p:`fls_UippZpUyYpHl`
++    - :p:`fls_ccFdnlX5HIYk`
++    - :p:`fls_d3nmpc5mtg27`
++    - :p:`fls_dbbfqaqa80r8`
++    - :p:`fls_qwchgvvnp0qe`
++    - :p:`fls_sxj4vy39sj4g`
++    - :p:`fls_tyjs1x4j8ovp`
++    - :p:`fls_xrCRprWS13R1`
++  - Role changes:
++    - :p:`fls_qwchgvvnp0qe`
++  - Term definitions added:
++    - calling_convention
++  - Syntax references added:
++    - :p:`fls_qwchgvvnp0qe`
++  - Sections added:
++    - :ref:`fls_m9hw83dqgt6w`
++  - Normative shifts:
++    - :p:`fls_36qrs2fxxvi7`
++    - :p:`fls_6rtj6rwqxojh`
++    - :p:`fls_7t7yxh94wnbl`
++    - :p:`fls_CIyK8BYzzo26`
++    - :p:`fls_UippZpUyYpHl`
++    - :p:`fls_ccFdnlX5HIYk`
++    - :p:`fls_d3nmpc5mtg27`
++    - :p:`fls_dbbfqaqa80r8`
++    - :p:`fls_sxj4vy39sj4g`
++    - :p:`fls_tyjs1x4j8ovp`
++    - :p:`fls_xrCRprWS13R1`
++
++- `Anchor replace validation (system-abi-variadic) <https://github.com/rust-lang/rust/pull/145954>`_
++
++  - Change tags: paragraph-added, paragraph-changed, role-change, term-def-added, syntax-ref-added, section-added, normative-shift
++  - Added paragraphs:
++    - :p:`fls_9OFXj6DnKS7W`
++    - :p:`fls_MpcAsy5zhCeW`
++    - :p:`fls_NxhrfQzbxetN`
++    - :p:`fls_TmvfmSQP65pA`
++    - :p:`fls_ZbvI45Ojpte4`
++    - :p:`fls_tZP7xARsjuYv`
++    - :p:`fls_tuP6iLdL6Kx0`
++    - :p:`fls_yjRmR5F1cL6i`
++  - Changed paragraphs:
++    - :p:`fls_36qrs2fxxvi7`
++    - :p:`fls_6rtj6rwqxojh`
++    - :p:`fls_7t7yxh94wnbl`
++    - :p:`fls_CIyK8BYzzo26`
++    - :p:`fls_UippZpUyYpHl`
++    - :p:`fls_ccFdnlX5HIYk`
++    - :p:`fls_d3nmpc5mtg27`
++    - :p:`fls_dbbfqaqa80r8`
++    - :p:`fls_qwchgvvnp0qe`
++    - :p:`fls_sxj4vy39sj4g`
++    - :p:`fls_tyjs1x4j8ovp`
++    - :p:`fls_xrCRprWS13R1`
++  - Role changes:
++    - :p:`fls_qwchgvvnp0qe`
++  - Term definitions added:
++    - calling_convention
++  - Syntax references added:
++    - :p:`fls_qwchgvvnp0qe`
++  - Sections added:
++    - :ref:`fls_m9hw83dqgt6w`
++  - Normative shifts:
++    - :p:`fls_36qrs2fxxvi7`
++    - :p:`fls_6rtj6rwqxojh`
++    - :p:`fls_7t7yxh94wnbl`
++    - :p:`fls_CIyK8BYzzo26`
++    - :p:`fls_UippZpUyYpHl`
++    - :p:`fls_ccFdnlX5HIYk`
++    - :p:`fls_d3nmpc5mtg27`
++    - :p:`fls_dbbfqaqa80r8`
++    - :p:`fls_sxj4vy39sj4g`
++    - :p:`fls_tyjs1x4j8ovp`
++    - :p:`fls_xrCRprWS13R1`
++
++- `Anchor replace validation (system-abi-variadic) <https://github.com/rust-lang/rust/pull/145954>`_
++
++  - Change tags: paragraph-added, paragraph-changed, role-change, term-def-added, syntax-ref-added, section-added, normative-shift
++  - Added paragraphs:
++    - :p:`fls_9OFXj6DnKS7W`
++    - :p:`fls_MpcAsy5zhCeW`
++    - :p:`fls_NxhrfQzbxetN`
++    - :p:`fls_TmvfmSQP65pA`
++    - :p:`fls_ZbvI45Ojpte4`
++    - :p:`fls_tZP7xARsjuYv`
++    - :p:`fls_tuP6iLdL6Kx0`
++    - :p:`fls_yjRmR5F1cL6i`
++  - Changed paragraphs:
++    - :p:`fls_36qrs2fxxvi7`
++    - :p:`fls_6rtj6rwqxojh`
++    - :p:`fls_7t7yxh94wnbl`
++    - :p:`fls_CIyK8BYzzo26`
++    - :p:`fls_I9JaKZelMiby`
++    - :p:`fls_UippZpUyYpHl`
++    - :p:`fls_ccFdnlX5HIYk`
++    - :p:`fls_d3nmpc5mtg27`
++    - :p:`fls_dbbfqaqa80r8`
++    - :p:`fls_qwchgvvnp0qe`
++    - :p:`fls_sxj4vy39sj4g`
++    - :p:`fls_t4yeovFm83Wo`
++    - :p:`fls_tyjs1x4j8ovp`
++    - :p:`fls_xrCRprWS13R1`
++  - Role changes:
++    - :p:`fls_qwchgvvnp0qe`
++  - Term definitions added:
++    - calling_convention
++  - Syntax references added:
++    - :p:`fls_qwchgvvnp0qe`
++  - Sections added:
++    - :ref:`fls_m9hw83dqgt6w`
++  - Normative shifts:
++    - :p:`fls_36qrs2fxxvi7`
++    - :p:`fls_6rtj6rwqxojh`
++    - :p:`fls_7t7yxh94wnbl`
++    - :p:`fls_CIyK8BYzzo26`
++    - :p:`fls_UippZpUyYpHl`
++    - :p:`fls_ccFdnlX5HIYk`
++    - :p:`fls_d3nmpc5mtg27`
++    - :p:`fls_dbbfqaqa80r8`
++    - :p:`fls_sxj4vy39sj4g`
++    - :p:`fls_tyjs1x4j8ovp`
++    - :p:`fls_xrCRprWS13R1`
++
+ Language changes in Rust 1.92.0
+ -------------------------------
+ 

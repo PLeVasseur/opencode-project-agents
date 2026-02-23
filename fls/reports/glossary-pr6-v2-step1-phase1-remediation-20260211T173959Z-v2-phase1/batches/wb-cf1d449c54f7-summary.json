@@ -1,0 +1,28 @@
+{
+  "wave": "WB",
+  "commit_hash": "cf1d449c54f72aebf5f22d78f1a2376dccb02988",
+  "term_count": 8,
+  "checklist_ids": [
+    "WB-009",
+    "WB-023",
+    "WB-027",
+    "WB-034",
+    "WB-051",
+    "WB-052",
+    "WB-070",
+    "WB-074"
+  ],
+  "terms": [
+    "receiver operand",
+    "static",
+    "signed integer type",
+    "structurally equal",
+    "separator",
+    "struct pattern",
+    "static initializer",
+    "scalar type"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 8
+  }
+}

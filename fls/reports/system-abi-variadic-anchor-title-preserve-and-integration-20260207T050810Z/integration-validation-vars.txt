@@ -1,0 +1,5 @@
+BASE_REF=f1b193f5197f48686bd56fe881633bb62fad7f27
+ORIGINAL_TITLE_EXPECTED=Stabilize declaration of C-style variadic functions for the system ABI
+ALT_TITLE=Anchor replace validation title override probe
+CANONICAL_UPSTREAM_PR=https://github.com/rust-lang/rust/pull/145954
+MISSING_UPSTREAM_PR=https://github.com/rust-lang/rust/pull/999999

@@ -1,0 +1,9 @@
+{
+  "hard_codes": [
+    "FAILED_STRICT_REGRESSION"
+  ],
+  "quarantined": {},
+  "unresolved": [
+    "FAILED_STRICT_REGRESSION: strict missing_count regression without waiver: baseline=2, current=3, max=2"
+  ]
+}

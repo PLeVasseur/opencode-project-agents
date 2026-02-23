@@ -1,0 +1,38 @@
+{
+  "run_id": "pr1-20260216T044416Z",
+  "schema_version": 2,
+  "status": "implemented",
+  "unit_types": {
+    "list_bullet": {
+      "negative_rules": [
+        "license_header",
+        "table_signature"
+      ],
+      "positive_rules": [
+        "marker_grammar",
+        "continuation_capture"
+      ]
+    },
+    "paragraph": {
+      "negative_rules": [
+        "license_header",
+        "table_signature",
+        "list_signature"
+      ],
+      "positive_rules": [
+        "prose_block",
+        "continuation_context"
+      ]
+    },
+    "table_cell": {
+      "negative_rules": [
+        "license_header",
+        "free_text_paragraph"
+      ],
+      "positive_rules": [
+        "table_region",
+        "stable_row_col"
+      ]
+    }
+  }
+}

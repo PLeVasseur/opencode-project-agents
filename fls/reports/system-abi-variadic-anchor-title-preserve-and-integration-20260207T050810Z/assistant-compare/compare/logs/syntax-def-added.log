@@ -1,0 +1,13 @@
+case: syntax-def-added
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/syntax-def-added/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/syntax-def-added/head.json
+
+observed tags:
+- syntax-def-added
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

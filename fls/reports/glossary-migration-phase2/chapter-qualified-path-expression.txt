@@ -1,0 +1,3 @@
+:dp:`fls_7sm3206va03c`
+A :t:`qualified path expression` is a :t:`path expression` that resolves
+through a :t:`qualified type`.

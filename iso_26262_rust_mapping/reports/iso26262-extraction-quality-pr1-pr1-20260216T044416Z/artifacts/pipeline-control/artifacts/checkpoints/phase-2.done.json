@@ -1,0 +1,24 @@
+{
+  "canonical_checksum": "df2b3fd595d211f465800b4f11443dc313f05e9de6c0f24d5001a0829dbdbd72",
+  "checkpoint": "phase-2.done",
+  "input_hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044416Z/artifacts/pipeline-control/artifacts/checkpoints/extract.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044416Z/artifacts/pipeline-control/artifacts/extract/extract-page-decisions.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T044416Z/artifacts/pipeline-control/artifacts/extract/extract-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T044416Z/extract/extract-page-decisions.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T044416Z/extract/extract-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T044416Z/extract/verbatim/page-blocks.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T044416Z/extract/verbatim/page-index.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T044416Z/extract/verbatim/page-signatures.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/quality-runs/pr1-20260216T044416Z/extract/verbatim/page-text.jsonl"
+  ],
+  "phase": 2,
+  "run_id": "pr1-20260216T044416Z",
+  "stage": "extract",
+  "timestamp_utc": "2026-02-16T04:44:37Z"
+}

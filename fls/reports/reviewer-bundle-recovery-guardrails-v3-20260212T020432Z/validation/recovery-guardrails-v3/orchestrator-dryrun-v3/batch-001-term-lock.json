@@ -1,0 +1,21 @@
+{
+  "batch_number": 1,
+  "batch_prefix": "batch-001",
+  "divergence_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails-v3/fixtures/divergence-v3.json",
+  "placement_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T182136Z-v2-phase1/validation/recovery-guardrails-v3/fixtures/placement-v3.json",
+  "terms": [
+    {
+      "checklist_id": "WA-001",
+      "divergence_match_category": "exact_match",
+      "divergence_reliability": "high",
+      "placement_fitness": "poor",
+      "recommended_file": "values.rst",
+      "recommended_reason": "Concept belongs in Values chapter.",
+      "recommended_section": "Values",
+      "relocation_priority": "high",
+      "term": "value"
+    }
+  ],
+  "timestamp": "20260211T234619Z",
+  "wave": "WA"
+}

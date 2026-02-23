@@ -1,0 +1,9 @@
+usage: make.py [-h] [-c] [-s | --check-links | --xml | --debug]
+
+options:
+  -h, --help     show this help message and exit
+  -c, --clear    disable incremental builds
+  -s, --serve    start a local server with live reload
+  --check-links  Check whether all links are valid
+  --xml          Generate Sphinx XML rather than HTML
+  --debug        Debug mode for the extensions, showing exceptions

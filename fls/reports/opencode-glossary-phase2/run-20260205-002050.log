@@ -1,0 +1,951 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[94m[1m| [0m[90m Grep     [0mweak keyword
+[94m[1m| [0m[90m Grep     [0mwhere clause
+[94m[1m| [0m[90m Grep     [0mwhile let loop
+[94m[1m| [0m[90m Grep     [0mwhile loop
+[94m[1m| [0m[90m Grep     [0mwhitespace string
+[94m[1m| [0m[90m Grep     [0mzero-sized type
+[94m[1m| [0m[90m Grep     [0mzero-variant enum type
+[94m[1m| [0m[90m Grep     [0m:dt:`weak keyword`
+[94m[1m| [0m[90m Grep     [0m:dt:`where clause`
+[94m[1m| [0m[90m Grep     [0m:dt:`while let loop expression`
+[94m[1m| [0m[90m Grep     [0m:dt:`where clause predicate`
+[94m[1m| [0m[90m Grep     [0m:dt:`while let loop`
+[94m[1m| [0m[90m Grep     [0m:dt:`while loop`
+[94m[1m| [0m[90m Grep     [0m:dt:`whitespace string`
+[94m[1m| [0m[90m Grep     [0m:dt:`while loop expression`
+[94m[1m| [0m[90m Grep     [0m:dt:`zero-sized type`
+[94m[1m| [0m[90m Grep     [0m:dt:`zero-variant enum type`
+[94m[1m| [0m[90m Grep     [0mweak keyword
+[94m[1m| [0m[90m Grep     [0mwhere clause predicate
+[94m[1m| [0m[90m Grep     [0mwhere clause
+[94m[1m| [0m[90m Grep     [0mwhile let loop expression
+[94m[1m| [0m[90m Grep     [0mwhile loop expression
+[94m[1m| [0m[90m Grep     [0mwhitespace string
+[94m[1m| [0m[90m Grep     [0mzero-sized type
+[94m[1m| [0m[90m Grep     [0mzero-variant enum type
+[94m[1m| [0m[90m Grep     [0mzero-sized type
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/generics.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for weak keyword
+
+.. glossary-entry:: weak keyword
+   
+   :glossary:
+     :dp:`fls_4hiznltf5wlu`
+     A :dt:`weak keyword` is a :t:`keyword` whose special meaning depends on the
+     context.
+     
+     :dp:`fls_psah573fsrig`
+     See :s:`WeakKeyword`.
+   :chapter:
+     :dp:`fls_bv87t1gvj7bz`
+     A :t:`weak keyword` is a :t:`keyword` whose special meaning depends on the
+     context.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for whitespace string
+
+.. glossary-entry:: whitespace string
+   
+   :glossary:
+     :dp:`fls_nljkmadklwdp`
+     A :dt:`whitespace string` is a string that consists of one or more
+     :t:`[whitespace character]s`.
+   :chapter:
+     :dp:`fls_7eifv4ksunu1`
+     A :t:`whitespace string` is a string that consists of one or more
+     :t:`[whitespace character]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for where clause
+
+.. glossary-entry:: where clause
+   
+   :glossary:
+     :dp:`fls_prljyrhontzn`
+     A :dt:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+     :t:`[lifetime parameter]s` and :t:`[type parameter]s`.
+     
+     :dp:`fls_k32hnug33eo9`
+     See :s:`WhereClause`.
+   :chapter:
+     :dp:`fls_3nqb7p5ifvio`
+     A :t:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+     :t:`[lifetime parameter]s` and :t:`[type]s` that have
+     to hold for the :t:`construct` subject to the :t:`where clause` to be valid.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for where clause predicate
+
+.. glossary-entry:: where clause predicate
+   
+   :glossary:
+     :dp:`fls_0LACQVmZpDQF`
+     A :dt:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+     :t:`type bound predicate`.
+     
+     :dp:`fls_Jk7V1SOKE4Gm`
+     See :s:`WhereClausePredicate`.
+   :chapter:
+     :dp:`fls_fhy4rsmmbvyy`
+     A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+     :t:`type bound predicate`.
+     
+     .. glossary-entry:: lifetime bound predicate
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary entry for where clause predicate
+
+.. glossary-entry:: where clause predicate
+   
+   :glossary:
+     :dp:`fls_0LACQVmZpDQF`
+     A :dt:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+     :t:`type bound predicate`.
+     
+     :dp:`fls_Jk7V1SOKE4Gm`
+     See :s:`WhereClausePredicate`.
+   :chapter:
+     :dp:`fls_fhy4rsmmbvyy`
+     A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+     :t:`type bound predicate`.
+     
+     .. glossary-entry:: lifetime bound predicate
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mShow generate-glossary-entry usage
+
+usage: generate-glossary-entry.py [-h] --term TERM [--repo-root REPO_ROOT]
+                                  [--glossary GLOSSARY]
+                                  [--glossary-line GLOSSARY_LINE]
+                                  [--glossary-text-file GLOSSARY_TEXT_FILE]
+                                  [--glossary-stdin]
+                                  [--chapter-file CHAPTER_FILE]
+                                  [--chapter-dp CHAPTER_DP]
+                                  [--chapter-line CHAPTER_LINE]
+                                  [--chapter-text-file CHAPTER_TEXT_FILE]
+                                  [--chapter-stdin]
+
+Generate a formatted glossary-entry directive for a term.
+
+options:
+  -h, --help            show this help message and exit
+  --term TERM           Glossary term
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --glossary GLOSSARY   Static glossary file
+  --glossary-line GLOSSARY_LINE
+                        Glossary text line (repeatable)
+  --glossary-text-file GLOSSARY_TEXT_FILE
+                        File with glossary body lines
+  --glossary-stdin      Read glossary body lines from stdin
+  --chapter-file CHAPTER_FILE
+                        Chapter file to extract from
+  --chapter-dp CHAPTER_DP
+                        Chapter :dp: ids to extract (repeatable)
+  --chapter-line CHAPTER_LINE
+                        Chapter text line (repeatable)
+  --chapter-text-file CHAPTER_TEXT_FILE
+                        File with chapter body lines
+  --chapter-stdin       Read chapter body lines from stdin
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for weak keyword with chapter lines
+
+/bin/bash: line 1: fls_bv87t1gvj7bz: command not found
+/bin/bash: line 1: weak: command not found
+/bin/bash: line 1: keyword: command not found
+.. glossary-entry:: weak keyword
+   
+   :glossary:
+     :dp:`fls_4hiznltf5wlu`
+     A :dt:`weak keyword` is a :t:`keyword` whose special meaning depends on the
+     context.
+     
+     :dp:`fls_psah573fsrig`
+     See :s:`WeakKeyword`.
+   :chapter:
+     :dp:
+     A :t: is a :t: whose special meaning depends on the
+     context.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for weak keyword with safe quoting
+
+.. glossary-entry:: weak keyword
+   
+   :glossary:
+     :dp:`fls_4hiznltf5wlu`
+     A :dt:`weak keyword` is a :t:`keyword` whose special meaning depends on the
+     context.
+     
+     :dp:`fls_psah573fsrig`
+     See :s:`WeakKeyword`.
+   :chapter:
+     :dp:`fls_bv87t1gvj7bz`
+     A :t:`weak keyword` is a :t:`keyword` whose special meaning depends on the
+     context.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for whitespace string with chapter lines
+
+.. glossary-entry:: whitespace string
+   
+   :glossary:
+     :dp:`fls_nljkmadklwdp`
+     A :dt:`whitespace string` is a string that consists of one or more
+     :t:`[whitespace character]s`.
+   :chapter:
+     :dp:`fls_7eifv4ksunu1`
+     A :t:`whitespace string` is a string that consists of one or more
+     :t:`[whitespace character]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for where clause with chapter lines
+
+.. glossary-entry:: where clause
+   
+   :glossary:
+     :dp:`fls_prljyrhontzn`
+     A :dt:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+     :t:`[lifetime parameter]s` and :t:`[type parameter]s`.
+     
+     :dp:`fls_k32hnug33eo9`
+     See :s:`WhereClause`.
+   :chapter:
+     :dp:`fls_3nqb7p5ifvio`
+     A :t:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+     :t:`[lifetime parameter]s` and :t:`[type]s` that have
+     to hold for the :t:`construct` subject to the :t:`where clause` to be valid.
+
+[91m[1m| [0m[90m Bash     [0mNo-op command
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for where clause predicate with chapter lines
+
+.. glossary-entry:: where clause predicate
+   
+   :glossary:
+     :dp:`fls_0LACQVmZpDQF`
+     A :dt:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+     :t:`type bound predicate`.
+     
+     :dp:`fls_Jk7V1SOKE4Gm`
+     See :s:`WhereClausePredicate`.
+   :chapter:
+     :dp:`fls_fhy4rsmmbvyy`
+     A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+     :t:`type bound predicate`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for while loop expression with chapter lines
+
+.. glossary-entry:: while loop expression
+   
+   :glossary:
+     :dp:`fls_fq0zyup4djyh`
+     A :dt:`while loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` as long as its :t:`iteration expression` holds
+     true.
+     
+     :dp:`fls_7htwpbmyq83u`
+     See :s:`WhileLoopExpression`.
+   :chapter:
+     :dp:`fls_ajby242tnu7c`
+     A :t:`while loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` as long as its :t:`iteration expression` holds
+     true.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for while let loop expression with chapter lines
+
+.. glossary-entry:: while let loop expression
+   
+   :glossary:
+     :dp:`fls_g35gn7n88acp`
+     A :dt:`while let loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` as long as its :t:`subject let expression` yields a
+     :t:`value` that can be matched against its :t:`pattern`.
+     
+     :dp:`fls_q3jcb4nodqba`
+     See :s:`WhileLetLoopExpression`.
+   :chapter:
+     :dp:`fls_fmdlyp9r9zl7`
+     A :t:`while let loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` as long as its :t:`subject let expression` yields
+     a :t:`value` that can be matched against its :t:`pattern`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for zero-variant enum type with chapter lines
+
+.. glossary-entry:: zero-variant enum type
+   
+   :glossary:
+     :dp:`fls_84gqz3vwi5mj`
+     A :dt:`zero-variant enum type` is an :t:`enum type` without any
+     :t:`[enum variant]s`.
+   :chapter:
+     :dp:`fls_il9a1olqmu38`
+     A :t:`zero-variant enum type` has no :t:`[value]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for while loop
+
+.. glossary-entry:: while loop
+   
+   :glossary:
+     :dp:`fls_ug9cxoml9ged`
+     For :dt:`while loop`, see :t:`while loop expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for while let loop
+
+.. glossary-entry:: while let loop
+   
+   :glossary:
+     :dp:`fls_ovutw52qtx71`
+     For :dt:`while let loop`, see :t:`while let loop expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary entry for zero-sized type
+
+.. glossary-entry:: zero-sized type
+   
+   :glossary:
+     :dp:`fls_rmd6pearrhr8`
+     A :dt:`zero-sized type` is a :t:`fixed sized type` with :t:`size` zero.
+
+[94m[1m| [0m[90m Grep     [0mfixed sized type
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mSized Types
+[94m[1m| [0m[90m Grep     [0mdynamically sized type
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/generics.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mShow glossary-term-map helper usage
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+
+Append missing glossary migration metadata entries to term-map.jsonl.
+
+options:
+  -h, --help            show this help message and exit
+  --repo-root REPO_ROOT
+                        Repo root directory
+  --src SRC             Source directory
+  --glossary GLOSSARY   Static glossary file
+  --term-map TERM_MAP   Term map JSONL path
+  --checklist CHECKLIST
+                        Checklist file for term selection
+  --count COUNT         Number of unchecked terms to take from checklist
+  --terms [TERMS ...]   Explicit term list
+  --status STATUS       Status value for term-map entries
+  --dry-run             Print JSONL entries without writing
+
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated glossary terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output from directives
+[91m[1m| [0m[90m Bash     [0mCompare generated glossary with static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff after glossary updates
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/expressions.rst
+ M src/generics.rst
+ M src/lexical-elements.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged diffs
+
+diff --git a/src/expressions.rst b/src/expressions.rst
+index a09480e..6c6dfc0 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -5331,6 +5331,12 @@ The :t:`evaluation` of an :t:`infinite loop expression` proceeds as follows:
+ While Loops
+ ~~~~~~~~~~~
+ 
++.. glossary-entry:: while loop
++   
++   :glossary:
++     :dp:`fls_ug9cxoml9ged`
++     For :dt:`while loop`, see :t:`while loop expression`.
++
+ .. rubric:: Syntax
+ 
+ .. syntax::
+@@ -5343,10 +5349,21 @@ While Loops
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_ajby242tnu7c`
+-A :t:`while loop expression` is a :t:`loop expression` that continues to
+-evaluate its :t:`loop body` as long as its :t:`iteration expression` holds
+-true.
++.. glossary-entry:: while loop expression
++   
++   :glossary:
++     :dp:`fls_fq0zyup4djyh`
++     A :dt:`while loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` as long as its :t:`iteration expression` holds
++     true.
++     
++     :dp:`fls_7htwpbmyq83u`
++     See :s:`WhileLoopExpression`.
++   :chapter:
++     :dp:`fls_ajby242tnu7c`
++     A :t:`while loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` as long as its :t:`iteration expression` holds
++     true.
+ 
+ .. glossary-entry:: iteration expression
+    
+@@ -5404,6 +5421,12 @@ The :t:`evaluation` of a :t:`while loop expression` proceeds as follows:
+ While Let Loops
+ ~~~~~~~~~~~~~~~
+ 
++.. glossary-entry:: while let loop
++   
++   :glossary:
++     :dp:`fls_ovutw52qtx71`
++     For :dt:`while let loop`, see :t:`while let loop expression`.
++
+ .. rubric:: Syntax
+ 
+ .. syntax::
+@@ -5413,10 +5436,21 @@ While Let Loops
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fmdlyp9r9zl7`
+-A :t:`while let loop expression` is a :t:`loop expression` that continues to
+-evaluate its :t:`loop body` as long as its :t:`subject let expression` yields
+-a :t:`value` that can be matched against its :t:`pattern`.
++.. glossary-entry:: while let loop expression
++   
++   :glossary:
++     :dp:`fls_g35gn7n88acp`
++     A :dt:`while let loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` as long as its :t:`subject let expression` yields a
++     :t:`value` that can be matched against its :t:`pattern`.
++     
++     :dp:`fls_q3jcb4nodqba`
++     See :s:`WhileLetLoopExpression`.
++   :chapter:
++     :dp:`fls_fmdlyp9r9zl7`
++     A :t:`while let loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` as long as its :t:`subject let expression` yields
++     a :t:`value` that can be matched against its :t:`pattern`.
+ 
+ :dp:`fls_bC60ZSC9yUOI`
+ The :t:`expected type` of the :t:`pattern` is the :t:`type` of the :t:`subject let expression`.
+diff --git a/src/generics.rst b/src/generics.rst
+index 5ad66ad..92316ad 100644
+--- a/src/generics.rst
++++ b/src/generics.rst
+@@ -382,14 +382,34 @@ Where Clauses
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_3nqb7p5ifvio`
+-A :t:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
+-:t:`[lifetime parameter]s` and :t:`[type]s` that have
+-to hold for the :t:`construct` subject to the :t:`where clause` to be valid.
+-
+-:dp:`fls_fhy4rsmmbvyy`
+-A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
+-:t:`type bound predicate`.
++.. glossary-entry:: where clause
++   
++   :glossary:
++     :dp:`fls_prljyrhontzn`
++     A :dt:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
++     :t:`[lifetime parameter]s` and :t:`[type parameter]s`.
++     
++     :dp:`fls_k32hnug33eo9`
++     See :s:`WhereClause`.
++   :chapter:
++     :dp:`fls_3nqb7p5ifvio`
++     A :t:`where clause` is a :t:`construct` that specifies :t:`[bound]s` on
++     :t:`[lifetime parameter]s` and :t:`[type]s` that have
++     to hold for the :t:`construct` subject to the :t:`where clause` to be valid.
++
++.. glossary-entry:: where clause predicate
++   
++   :glossary:
++     :dp:`fls_0LACQVmZpDQF`
++     A :dt:`where clause predicate` is either a :t:`lifetime bound predicate` or a
++     :t:`type bound predicate`.
++     
++     :dp:`fls_Jk7V1SOKE4Gm`
++     See :s:`WhereClausePredicate`.
++   :chapter:
++     :dp:`fls_fhy4rsmmbvyy`
++     A :t:`where clause predicate` is either a :t:`lifetime bound predicate` or a
++     :t:`type bound predicate`.
+ 
+ .. glossary-entry:: lifetime bound predicate
+    
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 7efe7c0..9643b14 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -90,9 +90,16 @@ A :dt:`whitespace character` is one of the following characters:
+ * :dp:`fls_zfs15iel08y0`
+   0x2029 (paragraph separator)
+ 
+-:dp:`fls_7eifv4ksunu1`
+-A :t:`whitespace string` is a string that consists of one or more
+-:t:`[whitespace character]s`.
++.. glossary-entry:: whitespace string
++   
++   :glossary:
++     :dp:`fls_nljkmadklwdp`
++     A :dt:`whitespace string` is a string that consists of one or more
++     :t:`[whitespace character]s`.
++   :chapter:
++     :dp:`fls_7eifv4ksunu1`
++     A :t:`whitespace string` is a string that consists of one or more
++     :t:`[whitespace character]s`.
+ 
+ :dp:`fls_PIDKEm8GiLNL`
+ An :ds:`AsciiCharacter` is any :t:`Unicode` character in the range 0x00 - 0x7F, both inclusive.
+@@ -1962,9 +1969,19 @@ Weak Keywords
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_bv87t1gvj7bz`
+-A :t:`weak keyword` is a :t:`keyword` whose special meaning depends on the
+-context.
++.. glossary-entry:: weak keyword
++   
++   :glossary:
++     :dp:`fls_4hiznltf5wlu`
++     A :dt:`weak keyword` is a :t:`keyword` whose special meaning depends on the
++     context.
++     
++     :dp:`fls_psah573fsrig`
++     See :s:`WeakKeyword`.
++   :chapter:
++     :dp:`fls_bv87t1gvj7bz`
++     A :t:`weak keyword` is a :t:`keyword` whose special meaning depends on the
++     context.
+ 
+ :dp:`fls_bl55g03jmayf`
+ Word ``macro_rules`` acts as a :t:`keyword` only when used in the context of a
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 00e4b3a..d42f49d 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -723,6 +723,12 @@ Array Types
+      A :dt:`fixed sized type` is a :t:`type` that implements the
+      :std:`core::marker::Sized` :t:`trait`.
+ 
++.. glossary-entry:: zero-sized type
++   
++   :glossary:
++     :dp:`fls_rmd6pearrhr8`
++     A :dt:`zero-sized type` is a :t:`fixed sized type` with :t:`size` zero.
++
+ :dp:`fls_pkts1p2dnxo`
+ The :t:`element type` shall be a :t:`fixed sized type`.
+ 
+@@ -972,8 +978,15 @@ Enum Types
+      An :t:`enum type` is an :t:`abstract data type` that contains
+      :t:`[enum variant]s`.
+ 
+-:dp:`fls_il9a1olqmu38`
+-A :t:`zero-variant enum type` has no :t:`[value]s`.
++.. glossary-entry:: zero-variant enum type
++   
++   :glossary:
++     :dp:`fls_84gqz3vwi5mj`
++     A :dt:`zero-variant enum type` is an :t:`enum type` without any
++     :t:`[enum variant]s`.
++   :chapter:
++     :dp:`fls_il9a1olqmu38`
++     A :t:`zero-variant enum type` has no :t:`[value]s`.
+ 
+ .. glossary-entry:: enum variant
+    
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+66a1099 docs(glossary): migrate next 20 glossary terms
+31ccd85 docs(glossary): migrate next 20 glossary terms
+ba1d4b9 docs(glossary): migrate next 20 glossary terms
+cf11e81 docs(glossary): migrate next 20 glossary terms
+52d1339 docs(glossary): migrate next 20 glossary terms
+
+[91m[1m| [0m[90m Bash     [0mStage glossary changes, commit, and show status
+
+[glossary-single-source-phase1 2dfc847] docs(glossary): migrate remaining glossary terms
+ 4 files changed, 108 insertions(+), 24 deletions(-)
+
+Migrated the remaining unchecked glossary terms into `.. glossary-entry::` directives and updated chapter definitions where present, keeping glossary output identical to the static baseline. Changes landed in `src/lexical-elements.rst`, `src/generics.rst`, `src/expressions.rst`, and `src/types-and-traits.rst` with new glossary-only entries for while loops and zero-sized type, plus dual blocks for weak keywords, where clauses, loop expressions, whitespace string, and zero-variant enum types.
+
+- Updated term-map via `/home/pete.levasseur/opencode-project-agents/fls/glossary-term-map.py` (outside repo).
+- Updated checklist at `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md` (outside repo).
+- `./generate-glossary.py` and `diff -u build/generated.glossary.rst src/glossary.static.rst.inc` were clean.
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py` passed; report at `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`.
+- Commit: `docs(glossary): migrate remaining glossary terms` (2dfc847).
+
+Question: the checklist only had 10 unchecked terms left (weak keyword → zero-variant enum type), so I migrated those as a final batch. Is it OK to treat this as the final batch despite the “20 terms” rule? (Recommended: yes, since these are the last remaining terms.)
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

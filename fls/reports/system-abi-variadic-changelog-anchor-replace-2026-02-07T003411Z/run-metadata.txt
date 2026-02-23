@@ -1,0 +1,5 @@
+worktree=/home/pete.levasseur/project/fls-system-abi-variadic-validation
+branch=system-abi-variadic
+head=57b0f04d1fcbc3d4eb11b0a94fa5b89137e343f3
+base_ref=f1b193f5197f48686bd56fe881633bb62fad7f27
+utc_timestamp=2026-02-07T00:43:13Z

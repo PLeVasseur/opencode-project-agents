@@ -1,0 +1,10 @@
+{
+  "batch_size": 20,
+  "batches": [],
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "run_id": "20260211T033329Z",
+  "session_id": "ses_3b53d19b3ffegtNBp30MV0pCAI",
+  "started_at": "20260211T033329Z",
+  "updated_at": "20260211T033814Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

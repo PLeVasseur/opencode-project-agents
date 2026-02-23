@@ -1,0 +1,7 @@
+{
+  "base_branch": "main",
+  "base_pin_sha": "ea5a29d182b54b6cb792196bb8109fd50faff836",
+  "run_id": "20260214T184350Z",
+  "target_branch": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "target_not_base": true
+}

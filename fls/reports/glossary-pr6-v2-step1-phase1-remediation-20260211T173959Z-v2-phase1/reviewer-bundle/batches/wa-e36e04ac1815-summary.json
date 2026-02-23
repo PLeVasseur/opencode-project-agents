@@ -1,0 +1,18 @@
+{
+  "wave": "WA",
+  "commit_hash": "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+  "term_count": 3,
+  "checklist_ids": [
+    "WA-002",
+    "WA-005",
+    "WA-009"
+  ],
+  "terms": [
+    "expression",
+    "construct",
+    "field"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 3
+  }
+}

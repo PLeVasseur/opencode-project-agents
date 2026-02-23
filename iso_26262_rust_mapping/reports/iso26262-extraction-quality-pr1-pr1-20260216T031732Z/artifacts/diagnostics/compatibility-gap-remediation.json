@@ -1,0 +1,11 @@
+{
+  "fixed": [
+    "tokenized_config_env_key_strings_in_runner_messages"
+  ],
+  "found": [
+    "verify_env_token_reference:tools/traceability/mining/execute_quality_remediation.py"
+  ],
+  "preflight_blockers": [],
+  "run_id": "pr1-20260216T031732Z",
+  "timestamp_utc": "2026-02-16T03:19:56Z"
+}

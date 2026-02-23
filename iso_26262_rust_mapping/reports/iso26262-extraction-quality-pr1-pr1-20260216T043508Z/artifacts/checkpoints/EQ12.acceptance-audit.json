@@ -1,0 +1,65 @@
+{
+  "cache_staged_files": [],
+  "control_plane_anti_leak_files": [],
+  "failed_by_part": {
+    "P06": [
+      "list_boundary_f1",
+      "list_meaningful",
+      "paragraph_boundary_f1",
+      "paragraph_fragment_start",
+      "table_cell_boundary_f1",
+      "table_meaningful",
+      "table_pattern",
+      "table_scope",
+      "unit_type_provenance_overlap"
+    ],
+    "P08": [
+      "list_boundary_f1",
+      "list_meaningful",
+      "paragraph_boundary_f1",
+      "paragraph_fragment_start",
+      "table_cell_boundary_f1",
+      "table_meaningful",
+      "table_pattern",
+      "table_scope",
+      "unit_type_provenance_overlap"
+    ],
+    "P09": [
+      "list_boundary_f1",
+      "list_meaningful",
+      "paragraph_boundary_f1",
+      "paragraph_fragment_end",
+      "paragraph_fragment_start",
+      "paragraph_meaningful",
+      "table_cell_boundary_f1",
+      "table_meaningful",
+      "table_scope",
+      "triad_source_set_identity",
+      "unit_type_provenance_overlap"
+    ]
+  },
+  "failed_overall": [
+    "list_boundary_f1",
+    "list_meaningful",
+    "paragraph_boundary_f1",
+    "paragraph_fragment_start",
+    "table_cell_boundary_f1",
+    "table_meaningful",
+    "table_pattern",
+    "table_scope",
+    "unit_type_provenance_overlap"
+  ],
+  "integrity_failures": [],
+  "overall_pass": false,
+  "percent_metric_violations": {
+    "by_part": {
+      "P06": [],
+      "P08": [],
+      "P09": []
+    },
+    "overall": []
+  },
+  "run_id": "pr1-20260216T043508Z",
+  "stage": "EQ12",
+  "timestamp_utc": "2026-02-16T04:37:49Z"
+}

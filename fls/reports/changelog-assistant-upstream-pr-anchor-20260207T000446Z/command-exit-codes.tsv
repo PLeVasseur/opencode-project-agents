@@ -1,0 +1,15 @@
+command	exit_code
+bootstrap printenv OPENCODE_CONFIG_DIR	0
+bootstrap git fetch origin	0
+bootstrap git switch main	1
+bootstrap git pull --ff-only origin main	128
+bootstrap switch working branch	0
+bootstrap uv sync	0
+help capture before	0
+py_compile quality gate	0
+behavior A anchor hit update	0
+behavior B anchor hit second update	0
+behavior C missing URL default	0
+behavior D missing URL strict	1
+post-check after anchored update	0
+help capture after	0

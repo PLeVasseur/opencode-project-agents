@@ -1,0 +1,117 @@
+{
+  "entries": [
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-0.done.json",
+      "phase": "C0",
+      "phase_number": 0,
+      "sha": "5e97c84ac011e09af3f19b1901e5f2492bce8dfd",
+      "subject": "chore(trace-data): lock required-part source PDF hash baseline",
+      "timestamp_utc": "2026-02-15T14:41:23Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/phase-1/c1-scaffold-summary.json",
+      "phase": "C1",
+      "phase_number": 1,
+      "sha": "b93de999ee89006e7ac6156871fdcd77f0502005",
+      "subject": "chore(trace-miner): scaffold standalone mining CLI and stage framework",
+      "timestamp_utc": "2026-02-15T14:43:48Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-1.done.json",
+      "phase": "C2",
+      "phase_number": 1,
+      "sha": "36ad0e2d828b22e1008b33042049f0cc4c75c829",
+      "subject": "feat(trace-miner): implement resumable control-plane state machine",
+      "timestamp_utc": "2026-02-15T14:47:05Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-2.done.json",
+      "phase": "C3",
+      "phase_number": 2,
+      "sha": "16658162ac27a93daac22b5e89dc5fd120bf9bfa",
+      "subject": "feat(trace-miner): implement ingest stage and required-part PDF discovery",
+      "timestamp_utc": "2026-02-15T14:52:08Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-2.done.json",
+      "phase": "C4",
+      "phase_number": 2,
+      "sha": "ea4b2b7a30e365c9eda3bdcba854aeebbc20dc66",
+      "subject": "feat(trace-miner): implement deterministic extraction policy metrics and page decisions",
+      "timestamp_utc": "2026-02-15T14:52:08Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-2.done.json",
+      "phase": "C5",
+      "phase_number": 2,
+      "sha": "08cfea411bf32ce346ff41e6e2788497b264cabe",
+      "subject": "feat(trace-miner): implement OCR fallback and quality banding",
+      "timestamp_utc": "2026-02-15T14:52:08Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-3.done.json",
+      "phase": "C6",
+      "phase_number": 3,
+      "sha": "811e089cf5d1a4846ea0b3b91b49e91835606dd6",
+      "subject": "feat(trace-miner): implement normalize stage and locator model",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-3.done.json",
+      "phase": "C7",
+      "phase_number": 3,
+      "sha": "0b4070cc45899b3f70ad63c9f7733622b7c9e4fc",
+      "subject": "feat(trace-miner): implement deterministic anchoring and sharded corpus writers",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-3.done.json",
+      "phase": "C8",
+      "phase_number": 3,
+      "sha": "ec9abaddf7d03db05551acce86a9f1b5504d6c2b",
+      "subject": "feat(trace-miner): implement publish stage and compatibility registry generation",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-4.done.json",
+      "phase": "C9",
+      "phase_number": 4,
+      "sha": "b9028fc07f77687565963b89aef35f9dc482456d",
+      "subject": "feat(trace-miner): implement verify gates and compliance checks",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-4.done.json",
+      "phase": "C10",
+      "phase_number": 4,
+      "sha": "368cda68cb9d432743d7fbdb475a1f81acee6723",
+      "subject": "chore(ci,docs): add CI jobs and operator runbook workflows",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-4.done.json",
+      "phase": "C11",
+      "phase_number": 4,
+      "sha": "cb698b5b07289fba5561a7c63c2f66266ad363f2",
+      "subject": "chore(trace-data): refresh required-part source hash evidence and lock provenance",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-4.done.json",
+      "phase": "C12",
+      "phase_number": 4,
+      "sha": "94df8946337f054493713ebd3c5e43e13264e328",
+      "subject": "feat(trace-data): publish pilot normalized corpus and evidence",
+      "timestamp_utc": "2026-02-15T15:00:27Z"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-5.done.json",
+      "phase": "C13",
+      "phase_number": 5,
+      "sha": "0b798b37d41847b2a5d39491c15880bb77d32683",
+      "subject": "feat(trace-data): publish required-part corpus batch 1",
+      "timestamp_utc": "2026-02-15T15:20:01Z"
+    }
+  ],
+  "schema_version": 1
+}

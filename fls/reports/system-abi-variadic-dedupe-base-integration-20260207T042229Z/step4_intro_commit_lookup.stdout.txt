@@ -1,0 +1,1 @@
+81b2ad693637808a4c216f3d08aa785091390cab feat(changelog): add Sphinx-aware changelog automation

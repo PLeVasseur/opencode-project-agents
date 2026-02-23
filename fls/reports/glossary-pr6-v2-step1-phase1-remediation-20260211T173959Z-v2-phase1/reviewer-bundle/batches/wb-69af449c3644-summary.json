@@ -1,0 +1,28 @@
+{
+  "wave": "WB",
+  "commit_hash": "69af449c36447c82f24e1ec8021f28ed6ac5f57f",
+  "term_count": 8,
+  "checklist_ids": [
+    "WB-020",
+    "WB-026",
+    "WB-037",
+    "WB-040",
+    "WB-047",
+    "WB-057",
+    "WB-073",
+    "WB-085"
+  ],
+  "terms": [
+    "pattern-without-alternation",
+    "immutable",
+    "pointer",
+    "mutable variable",
+    "mutable",
+    "generic substitution",
+    "mutable static",
+    "pattern-without-range"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 8
+  }
+}

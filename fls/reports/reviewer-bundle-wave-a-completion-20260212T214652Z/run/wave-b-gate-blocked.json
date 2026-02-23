@@ -1,0 +1,6 @@
+{
+  "reason": "missing gate artifact: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/reports/wa-quality-gate.json",
+  "required_artifact": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T200211Z/reports/wa-quality-gate.json",
+  "status": "blocked",
+  "timestamp": "20260212T213724Z"
+}

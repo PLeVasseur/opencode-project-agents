@@ -1,6 +1,6 @@
 # FLS Project Instructions
 
-Verify `OPENCODE_CONFIG_DIR` immediately after reading this file, regardless of mode.
+When asked to confirm AGENTS, run `printenv OPENCODE_CONFIG_DIR` and reply `AGENTS loaded from <value>`. Do not search for AGENTS.md or use Python for this check.
 
 FLS is a Sphinx-built Rust language specification. Source content lives in `src/`.
 
@@ -28,12 +28,45 @@ FLS is a Sphinx-built Rust language specification. Source content lives in `src/
   - Common types: `feat`, `fix`, `docs`, `chore`, `refactor`, `test`.
 - Branch names should be plain, descriptive phrases without a type prefix.
 
+## High-Risk Git Rewrites
+
+- Force pushes are disallowed by default.
+- Exception: rewrite of a fork branch is allowed only when explicitly requested by the user.
+  - Never push rewritten history to `upstream`.
+  - Use explicit lease protection: `git push --force-with-lease=refs/heads/<branch>:<expected-old-sha> origin <src>:refs/heads/<branch>`.
+- Mandatory preflight before rewrite:
+  - Clean working tree.
+  - Fresh `git fetch --prune` for relevant remotes.
+  - PR head owner/branch/SHA still matches expected target.
+  - Immutable constants (base pin, capstone SHA, required commit subjects) are validated.
+- Mandatory backup-before-rewrite:
+  - Create and push a backup branch and tag at the old remote SHA.
+- Mandatory stop conditions (ask user before continuing):
+  - Dirty tree, unexpected remote SHA drift, or PR head mismatch.
+- Mandatory post-rewrite verification:
+  - Confirm new remote head SHA.
+  - Confirm exact commit count and commit subjects over pinned base.
+
+## Durable Plan Execution
+
+- For multi-stage or high-risk operations, use a run-scoped durable state model under `$OPENCODE_CONFIG_DIR/reports/<task>-<run-id>/`.
+- Use a single-writer lock file (`pid/host/user/time`) to prevent concurrent sessions.
+- Persist run state atomically (`*.tmp` + parse check + rename); never edit state files in place.
+- Track stage progress with explicit checklist keys; a stage is complete only when all required child checks are complete.
+- Define crash-resume reconciliation rules and idempotent finalization markers before mutation starts.
+- Capture rollback refs and rollback commands before destructive or history-rewrite steps.
+
 ## Pull Requests
 
 - Upstream: `https://github.com/rust-lang/fls`.
 - Work on a feature branch and push to the fork (`PLeVasseur/fls`) first.
 - Create a PR on the fork for review, then open the upstream PR from the fork branch.
 - Do not push directly to upstream or force-push.
+- For PR testing evidence, use GitHub attachment URLs in PR text; do not include local filesystem paths.
+- After `gh pr edit`, verify at minimum:
+  - head SHA and commit stack shape are unchanged from intent,
+  - attachment links resolve,
+  - checks status snapshot is captured.
 - PR body format:
   - `## Summary`
   - `## Reference alignment` (include Reference PR/section links and deviations)
@@ -65,6 +98,7 @@ FLS is a Sphinx-built Rust language specification. Source content lives in `src/
 - Informational style: `skills/fls-informational/SKILL.md`
 - Build links: `skills/fls-build-links/SKILL.md`
 - Changelog verification: `skills/fls-changelog-verification/SKILL.md`
+- Resumable execution: `skills/fls-resumable-execution/SKILL.md`
 
 ## Where Things Live
 
@@ -86,7 +120,7 @@ FLS is a Sphinx-built Rust language specification. Source content lives in `src/
 
 - For details on IDs/roles/syntax, read `exts/ferrocene_spec/README.rst` only when needed
 - For lint behavior, see `exts/ferrocene_spec_lints/` and `src/conf.py`
-- For deeper workflows, load skills: `fls-paragraph-ids`, `fls-roles-definitions`, `fls-syntax-blocks`, `fls-informational`, `fls-build-links`, `fls-changelog-verification`
+- For deeper workflows, load skills: `fls-paragraph-ids`, `fls-roles-definitions`, `fls-syntax-blocks`, `fls-informational`, `fls-build-links`, `fls-changelog-verification`, `fls-resumable-execution`
 
 ## Avoid
 

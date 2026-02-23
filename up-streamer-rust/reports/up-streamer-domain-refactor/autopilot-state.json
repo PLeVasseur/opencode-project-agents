@@ -1,0 +1,181 @@
+{
+  "schema_version": 1,
+  "script": "up_streamer_refactor_autopilot.py",
+  "status": "completed",
+  "started_at": "2026-02-08T23:24:46+00:00",
+  "updated_at": "2026-02-09T00:08:15+00:00",
+  "project_dir": "/home/pete.levasseur/eclipse/uprotocol/up-streamer-rust",
+  "plan_file": "/home/pete.levasseur/opencode-project-agents/up-streamer-rust/plans/up-streamer-domain-refactor-master-plan.md",
+  "reports_dir": "/home/pete.levasseur/opencode-project-agents/up-streamer-rust/reports/up-streamer-domain-refactor",
+  "last_completed_phase": 7,
+  "next_phase": 8,
+  "phase_history": [
+    {
+      "timestamp": "2026-02-08T23:36:25+00:00",
+      "phase_id": 3,
+      "phase_name": "Phase 3 - Execution Waves",
+      "gate": "Gate 3",
+      "attempt": 1,
+      "max_attempts": 3,
+      "session_id": "ses_3c06d8a44ffeico6QiK6ni5dOk",
+      "return_code": 0,
+      "context_failure_detected": false,
+      "local_validation": {
+        "passed": false,
+        "blockers": [
+          "up-streamer/src/api/endpoint.rs appears stub-like (6 code lines)"
+        ]
+      },
+      "status": {
+        "phase": "Phase 3 - Execution Waves",
+        "gate": "Gate 3",
+        "gate_passed": false,
+        "needs_human": true,
+        "blockers": [
+          "up-streamer/src/api/endpoint.rs appears stub-like (6 code lines)"
+        ],
+        "summary": "Objective local validator failed for this phase.",
+        "next_actions": [
+          "Resolve validator blockers and re-run this phase",
+          "Do not mark gate complete until validator passes"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08T23:41:23+00:00",
+      "phase_id": 3,
+      "phase_name": "Phase 3 - Execution Waves",
+      "gate": "Gate 3",
+      "attempt": 2,
+      "max_attempts": 3,
+      "session_id": "ses_3c062df0effeagJ5t6Xo87v0Ld",
+      "return_code": 0,
+      "context_failure_detected": false,
+      "local_validation": {
+        "passed": true,
+        "blockers": []
+      },
+      "status": {
+        "phase": "Phase 3",
+        "gate": "Gate 3",
+        "gate_passed": true,
+        "needs_human": false,
+        "blockers": [],
+        "summary": "Completed Phase 3 retry (Attempt 2/3): implemented a real API facade in up-streamer/src/api/endpoint.rs (removed stub-like state), revalidated Waves 1-6 in strict order with per-wave commands, and passed Gate 3 hardening checks (no placeholder markers, ustreamer.rs size within threshold at 250 lines, no legacy duplicate orchestration structs in ustreamer.rs, api/endpoint.rs and api/streamer.rs implemented).",
+        "next_actions": [
+          "Proceed to Phase 4 only when explicitly requested",
+          "Keep this run scoped to Phase 3/Gate 3 artifacts and validations"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08T23:47:53+00:00",
+      "phase_id": 4,
+      "phase_name": "Phase 4 - Test Refactor and Expansion",
+      "gate": "Gate 4",
+      "attempt": 1,
+      "max_attempts": 3,
+      "session_id": "ses_3c05e533dffee5DmCEubAPlTa1",
+      "return_code": 0,
+      "context_failure_detected": false,
+      "local_validation": {
+        "passed": true,
+        "blockers": []
+      },
+      "status": {
+        "phase": "Phase 4 - Test Refactor and Expansion (All Levels)",
+        "gate": "Gate 4",
+        "gate_passed": true,
+        "needs_human": false,
+        "blockers": [],
+        "summary": "Re-evaluated Phase 4/Gate 4 from scratch, corrected stale checkbox state, refactored four overlong integration tests by extracting helper functions, re-ran Gate 4 test commands, passed the Phase 4 objective validator (0 blockers), and updated Phase 4 plan/report artifacts (master plan, test matrix, behavior traceability/conservation, wave log, autopilot state/log).",
+        "next_actions": [
+          "Proceed to Phase 5 only when explicitly requested",
+          "Keep subsequent-phase execution out of this run"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08T23:52:11+00:00",
+      "phase_id": 5,
+      "phase_name": "Phase 5 - Rustdoc and Doctest Hardening",
+      "gate": "Gate 5",
+      "attempt": 1,
+      "max_attempts": 3,
+      "session_id": "ses_3c05860e0ffe28IIbMxGiIFqS8",
+      "return_code": 0,
+      "context_failure_detected": false,
+      "local_validation": {
+        "passed": true,
+        "blockers": []
+      },
+      "status": {
+        "phase": "Phase 5 - Rustdoc and Doctest Hardening",
+        "gate": "Gate 5",
+        "gate_passed": true,
+        "needs_human": false,
+        "blockers": [],
+        "summary": "Revalidated Phase 5/Gate 5 and corrected stale checkbox state: added rustdoc comments to every extracted file under up-streamer/src/{api,control_plane,routing,data_plane,runtime}/*.rs, added at least one doctest fence per layer (api/control_plane/routing/data_plane/runtime), and confirmed `cargo test -p up-streamer --doc` plus the Phase 5 objective validator both pass.",
+        "next_actions": [
+          "Proceed to Phase 6 only when explicitly requested",
+          "Keep later-phase execution out of this run"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-08T23:54:33+00:00",
+      "phase_id": 6,
+      "phase_name": "Phase 6 - Consumer Validation and As-Needed Adaptation",
+      "gate": "Gate 6",
+      "attempt": 1,
+      "max_attempts": 3,
+      "session_id": "ses_3c0546fb2ffeMAO5K9sK9MiWxb",
+      "return_code": 0,
+      "context_failure_detected": false,
+      "local_validation": {
+        "passed": true,
+        "blockers": []
+      },
+      "status": {
+        "phase": "Phase 6 - Consumer Validation and As-Needed Adaptation",
+        "gate": "Gate 6",
+        "gate_passed": true,
+        "needs_human": false,
+        "blockers": [],
+        "summary": "Revalidated Phase 6/Gate 6 from fresh evidence: consumer compile checks passed for configurable-streamer, up-linux-streamer-plugin, and integration-test-utils; confirmed expected package-id mismatch for example-streamer-implementations and validated that target via manifest-path without source changes; Phase 6 objective validator passed with 0 blockers; updated Phase 6 plan checkboxes and relevant report artifacts (consumer-impact-analysis, wave-validation-log, autopilot-run-log, autopilot-state).",
+        "next_actions": [
+          "Proceed to Phase 7 only when explicitly requested",
+          "Keep execution scoped to the requested phase in subsequent runs"
+        ]
+      }
+    },
+    {
+      "timestamp": "2026-02-09T00:08:15+00:00",
+      "phase_id": 7,
+      "phase_name": "Phase 7 - Full Validation and CI Parity",
+      "gate": "Gate 7",
+      "attempt": 1,
+      "max_attempts": 3,
+      "session_id": "ses_3c05244b1ffeuhEzvDbSoQzY0Y",
+      "return_code": 0,
+      "context_failure_detected": false,
+      "local_validation": {
+        "passed": true,
+        "blockers": []
+      },
+      "status": {
+        "phase": "Phase 7",
+        "gate": "Gate 7",
+        "gate_passed": true,
+        "needs_human": false,
+        "blockers": [],
+        "summary": "Phase 7/Gate 7 revalidation completed: strict clippy passed, core/workspace validations passed, sourced base and bundled CI-parity matrices passed, unbundled matrix was explicitly skipped due unavailable VSOMEIP_INSTALL_PATH, objective validator passed with 0 blockers, and final API drift/handoff artifacts were completed with no unresolved TBD/pending/uncommitted placeholders.",
+        "next_actions": [
+          "No later phases remain in this master plan",
+          "Prepare commit/review packaging when explicitly requested"
+        ]
+      }
+    }
+  ],
+  "stop_reason": null
+}

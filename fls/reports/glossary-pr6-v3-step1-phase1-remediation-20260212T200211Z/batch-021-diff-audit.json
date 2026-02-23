@@ -1,0 +1,25 @@
+{
+  "batch_number": 21,
+  "commit_hash": "0db68fc8c8c61f25a09f894207b411dc0ef93670",
+  "terms": [
+    {
+      "after_file": "ffi.rst",
+      "after_file_repo_path": "src/ffi.rst",
+      "checklist_id": "WB-082",
+      "definition_operation": "insert",
+      "file_added_lines": 4,
+      "file_deleted_lines": 1,
+      "file_net_delta": 3,
+      "hunk_dt_added": 1,
+      "hunk_dt_removed": 0,
+      "hunk_insert_net": 1,
+      "hunk_insert_pass": true,
+      "hunk_marker_removed": 0,
+      "hunk_t_removed": 0,
+      "mode": "hunk",
+      "swap_detected": false,
+      "term": "c"
+    }
+  ],
+  "timestamp": "20260213T020013Z"
+}

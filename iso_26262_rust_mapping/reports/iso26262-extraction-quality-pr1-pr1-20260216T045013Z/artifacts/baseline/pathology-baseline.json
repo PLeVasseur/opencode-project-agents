@@ -1,0 +1,43 @@
+{
+  "baseline_run_id": "pr1-20260215T221903Z",
+  "pathology_by_part": {
+    "P06": {
+      "oversized_paragraph_rate_pct": 9.090909090909092,
+      "paragraph_fragment_end_rate_pct": 21.21212121212121,
+      "paragraph_fragment_start_rate_pct": 10.606060606060606,
+      "paragraph_singleton_page_rate_pct": 100.0,
+      "residual_legal_boilerplate_hit_count": 1,
+      "triad_source_set_identity_rate_pct": 100.0,
+      "unit_type_provenance_overlap_rate_pct": 0.0
+    },
+    "P08": {
+      "oversized_paragraph_rate_pct": 2.857142857142857,
+      "paragraph_fragment_end_rate_pct": 18.571428571428573,
+      "paragraph_fragment_start_rate_pct": 14.285714285714285,
+      "paragraph_singleton_page_rate_pct": 100.0,
+      "residual_legal_boilerplate_hit_count": 1,
+      "triad_source_set_identity_rate_pct": 100.0,
+      "unit_type_provenance_overlap_rate_pct": 0.0
+    },
+    "P09": {
+      "oversized_paragraph_rate_pct": 5.263157894736842,
+      "paragraph_fragment_end_rate_pct": 23.684210526315788,
+      "paragraph_fragment_start_rate_pct": 13.157894736842104,
+      "paragraph_singleton_page_rate_pct": 100.0,
+      "residual_legal_boilerplate_hit_count": 1,
+      "triad_source_set_identity_rate_pct": 100.0,
+      "unit_type_provenance_overlap_rate_pct": 0.0
+    }
+  },
+  "pathology_overall": {
+    "oversized_paragraph_rate_pct": 5.747126436781609,
+    "paragraph_fragment_end_rate_pct": 20.689655172413794,
+    "paragraph_fragment_start_rate_pct": 12.643678160919542,
+    "paragraph_singleton_page_rate_pct": 100.0,
+    "residual_legal_boilerplate_hit_count": 3,
+    "triad_source_set_identity_rate_pct": 100.0,
+    "unit_type_provenance_overlap_rate_pct": 0.0
+  },
+  "run_id": "pr1-20260216T045013Z",
+  "timestamp_utc": "2026-02-16T04:50:16Z"
+}

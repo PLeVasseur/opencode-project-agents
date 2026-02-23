@@ -1,0 +1,10 @@
+# Phase 1 command log
+# Append commands with UTC timestamps during execution.
+
+2026-02-10T18:09:14Z git cherry-pick --no-commit c13b26a..d77ab3c (term-wave import; resolved two conflicts by taking donor-final files)
+2026-02-10T18:30:53Z uv run ./tools/glossary-migration-check.py --phase 1 --strict --report "$REPORT_ROOT/glossary-phase1-check.json"
+2026-02-10T18:31:28Z ./make.py --clear
+2026-02-10T18:33:17Z ./make.py --check-links
+2026-02-10T18:36:11Z git commit -m "docs(glossary): add chapter-side coverage for glossary terms"
+2026-02-10T18:37:02Z git commit -m "chore(glossary): add phased migration guardrail checks"
+2026-02-10T21:48:44Z generate phase1 non-obvious placement rationale/context reports from term inventory and source excerpts

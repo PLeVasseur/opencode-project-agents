@@ -1,0 +1,6 @@
+1ed5614 (HEAD -> cleanup/refactor-upstream-main, tag: checkpoint-cleanup-refactor-upstream-main-cleanup-refactor-upstream-main-consolidation-20260213T152704Z-commit6-validated-rerun) chore: align new-file copyright headers to 2026
+7c4f7ef (tag: checkpoint-cleanup-refactor-upstream-main-cleanup-refactor-upstream-main-consolidation-20260213T152704Z-commit5-validated) feat(smoke): add deterministic cross-transport smoke suite, claims, and matrix workflow
+650d9f5 (tag: checkpoint-cleanup-refactor-upstream-main-cleanup-refactor-upstream-main-consolidation-20260213T152704Z-commit4-validated) feat(ci): add benchmark guardrail harness and advisory workflow
+15dbd20 (tag: checkpoint-cleanup-refactor-upstream-main-cleanup-refactor-upstream-main-consolidation-20260213T152704Z-commit3-validated-rerun) perf+obs: optimize worker/runtime paths and structured tracing coverage
+7b2a4ec (tag: checkpoint-cleanup-refactor-upstream-main-cleanup-refactor-upstream-main-consolidation-20260213T152704Z-commit2-validated) refactor: complete USubscription and route identity contract migration
+1642795 (tag: checkpoint-cleanup-refactor-upstream-main-cleanup-refactor-upstream-main-consolidation-20260213T152704Z-commit1-validated) refactor: modernize up-streamer domain architecture boundaries

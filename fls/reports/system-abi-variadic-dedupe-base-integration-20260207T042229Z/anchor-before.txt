@@ -1,0 +1,4 @@
+url=https://github.com/rust-lang/rust/pull/145954
+count=1
+lines:
+29:- `Stabilize declaration of C-style variadic functions for the system ABI <https://github.com/rust-lang/rust/pull/145954>`_

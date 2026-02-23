@@ -1,0 +1,64 @@
+{
+  "coverage": {
+    "P06": {
+      "coverage_ratio": 1.0,
+      "pages_seen": 66,
+      "unit_counts": {
+        "list_bullet": 53,
+        "paragraph": 66,
+        "table_cell": 57
+      },
+      "unit_type_presence": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      }
+    },
+    "P08": {
+      "coverage_ratio": 1.0,
+      "pages_seen": 72,
+      "unit_counts": {
+        "list_bullet": 55,
+        "paragraph": 70,
+        "table_cell": 65
+      },
+      "unit_type_presence": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      }
+    },
+    "P09": {
+      "coverage_ratio": 1.0,
+      "pages_seen": 38,
+      "unit_counts": {
+        "list_bullet": 28,
+        "paragraph": 38,
+        "table_cell": 32
+      },
+      "unit_type_presence": {
+        "list_bullet": true,
+        "paragraph": true,
+        "table_cell": true
+      }
+    }
+  },
+  "line_reconstruction": {
+    "dehyphenation_attempts": 101,
+    "dehyphenation_success": 101,
+    "line_wrap_attempts": 1136,
+    "line_wrap_success": 1136
+  },
+  "qa_unresolved_count": 0,
+  "query_source_row_count": 464,
+  "run_id": "pr1-20260216T041431Z",
+  "scope_boundaries": {
+    "clause": 731,
+    "section": 824,
+    "table": 23
+  },
+  "timestamp_utc": "2026-02-16T04:14:55Z",
+  "unit_count": 464,
+  "unit_slice_count": 464,
+  "unit_text_link_count": 464
+}

@@ -1,0 +1,242 @@
+{
+  "BASE_BRANCH": "main",
+  "CONTROL_RUN_ROOT": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z",
+  "CURRENT_PHASE": {
+    "after": 12,
+    "before": 0
+  },
+  "CURRENT_STAGE": {
+    "after": "finalize",
+    "before": "ingest"
+  },
+  "DATA_RUN_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/runs/20260215T162251Z",
+  "MODE": "kickoff-new",
+  "PDF_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262",
+  "REPO_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping",
+  "RUN_ID": "20260215T162251Z",
+  "STOP_REASON": "completed_all_phases",
+  "TARGET_BRANCH": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "VERBATIM_CACHE_ROOT": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/mining/runs/20260215T162251Z",
+  "anti_leak_policy_status": {
+    ".cache_untracked": true,
+    "control_plane_metadata_only": true
+  },
+  "artifacts_created_or_updated": [
+    "artifacts/ingest/ingest-summary.json",
+    "artifacts/extract/extract-summary.json",
+    "artifacts/normalize/normalize-summary.json",
+    "artifacts/anchor/anchor-summary.json",
+    "artifacts/publish/publish-summary.json",
+    "artifacts/verify/verify-summary.json",
+    "artifacts/verify/prewarm-build-quality.json",
+    "artifacts/verify/ts-authoring-bundle-validation.json",
+    "artifacts/probes/probeset-freeze-manifest.json",
+    "artifacts/source-integration/src-integration-manifest.json",
+    "artifacts/replay/verbatim-replay-signatures.json",
+    "artifacts/checkpoints/phase-0.done.json",
+    "artifacts/checkpoints/phase-11.done.json"
+  ],
+  "blockers": [],
+  "build_quality_verification_status": {
+    "anomaly_count": 0,
+    "artifact_hygiene_pass": true,
+    "normalization_pass": true
+  },
+  "commits_created_this_invocation": [
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-0.done.json",
+      "phase": "C14",
+      "sha": "20623fb0e4fe1f4070923cf189bea7f3ba45bb28",
+      "subject": "feat(trace-miner): add data-plane verbatim page prewarm cache writers"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-1.done.json",
+      "phase": "C15",
+      "sha": "06061db6b473319b7e18b3c6e13e3bbca273ab09",
+      "subject": "feat(trace-miner): integrate normalize unit-slice verbatim cache links"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-2.done.json",
+      "phase": "C16",
+      "sha": "92325d5fdf24d42af90bc41aaf979e0e7c6445c2",
+      "subject": "feat(trace-miner): integrate anchor-to-verbatim linkage index"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-3.done.json",
+      "phase": "C17",
+      "sha": "468a8605889c63c9b3b47ab66b13634b834bc95e",
+      "subject": "feat(trace-miner): add replay and checkpoint verification for verbatim caches"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-4.done.json",
+      "phase": "C18",
+      "sha": "4412507818bea39f8afaaa5d77225ce227d97f37",
+      "subject": "docs(trace-miner): specify prewarm cache query interface and lineage contracts"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-5.done.json",
+      "phase": "C19",
+      "sha": "1332511638a358a951643f789ce465743954969f",
+      "subject": "feat(trace-miner): add prewarm cache query CLI for words and phrases"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-6.done.json",
+      "phase": "C20",
+      "sha": "5c3d26fe8086cf06dd4a1da19e0519889ad0fb83",
+      "subject": "test(trace-miner): verify prewarm cache normalization and artifact hygiene gates"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-7.done.json",
+      "phase": "C21",
+      "sha": "e4f94d2abee1fc1934f959441654b46051502fb8",
+      "subject": "test(trace-miner): verify prewarm cache query behavior with source probes"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-8.done.json",
+      "phase": "C22",
+      "sha": "f9c58ac63c760be6adca3fec48d28fc8a8a5c6bd",
+      "subject": "feat(trace-miner): add source insertion helpers for ts-guided query results"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-9.done.json",
+      "phase": "C23",
+      "sha": "6dda71b993f2de1b7250adc1114d512951dda9c7",
+      "subject": "test(trace-miner): validate ts references end-to-end via src insertion and make.py"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-10.done.json",
+      "phase": "C24",
+      "sha": "399608903b24b41c2c1418363a5ce526e16a7f97",
+      "subject": "chore(ci,docs): add prewarm cache query checks and operator runbook"
+    },
+    {
+      "checkpoint": "",
+      "phase": "C20-fix",
+      "sha": "7c884917c9cbfffa306db81283ca87b4df2a0e50",
+      "subject": "fix(trace-miner): sanitize extracted text before verbatim cache writes"
+    },
+    {
+      "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-11.done.json",
+      "phase": "C25",
+      "sha": "ccd270723b62e4bcad5ec9d00d1a0abd07a80dfc",
+      "subject": "feat(trace-data): generate required-part verbatim prewarm cache batch 1"
+    }
+  ],
+  "deterministic_replay_signature_status": {
+    "mismatch_count": 0,
+    "result": "pass"
+  },
+  "end_to_end_src_build_status": {
+    "list_integration_pass": true,
+    "makepy_e2e_pass": true,
+    "paragraph_integration_pass": true,
+    "table_integration_pass": true
+  },
+  "linkage_coverage_summary": {
+    "required_parts_completeness": "3/3",
+    "required_unit_type_completeness": "paragraph/list_bullet/table_cell=100%",
+    "unresolved_qa_count": 0
+  },
+  "next_resume_hint": "No resume needed; run completed. To start a new run, invoke this same prompt without RUN_ID.",
+  "phases_completed_this_invocation": [
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C18",
+    "C19",
+    "C20",
+    "C21",
+    "C22",
+    "C23",
+    "C24",
+    "C25-batch-1"
+  ],
+  "prewarm_cache_summary": {
+    "anchor_text_link_records": 528,
+    "page_block_records": 6742,
+    "page_text_records": 176,
+    "unit_slice_records": 528
+  },
+  "probe_freeze_status": {
+    "freeze_pass": true,
+    "probeset_manifest_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/probes/probeset-freeze-manifest.json",
+    "probeset_signature": "4602aacc181ed362103825584b61e8e17f1f399fd5b1419646439ff15d7963b1",
+    "rotation_applied": false
+  },
+  "query_output_guardrail_status": {
+    "fair_use_marker_pass": true,
+    "guideline_pointer_path": "docs/traceability-ts-and-quotation-guidelines.md",
+    "quote_limit_pass": true,
+    "ts_reminder_preface_pass": true
+  },
+  "query_probe_verification_status": {
+    "negative_probe_pass": true,
+    "probe_signature": "4602aacc181ed362103825584b61e8e17f1f399fd5b1419646439ff15d7963b1",
+    "src_probe_pass": true,
+    "tables_probe_pass": true,
+    "text_probe_pass": true
+  },
+  "query_tool_status": {
+    "phrase_query_smoke": true,
+    "query_cli_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/tools/traceability/query_iso_prewarm_cache.py",
+    "query_index_shards": 2,
+    "word_query_smoke": true
+  },
+  "required_part_ingest_resolution": {
+    "P06": {
+      "hash_status": "LOCKED",
+      "match_mode": "preferred_exact",
+      "resolved_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/ISO 26262-6;2018 ed.2 (en).pdf",
+      "sha256": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce"
+    },
+    "P08": {
+      "hash_status": "LOCKED",
+      "match_mode": "preferred_exact",
+      "resolved_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/ISO 26262-8;2018 ed.2 (en).pdf",
+      "sha256": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c"
+    },
+    "P09": {
+      "hash_status": "LOCKED",
+      "match_mode": "preferred_exact",
+      "resolved_path": "/home/pete.levasseur/personal/iso_26262_rust_mapping/.cache/iso26262/ISO 26262-9;2018 ed.2 (en).pdf",
+      "sha256": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+    }
+  },
+  "resilience_drill_status": {
+    "A": true,
+    "B": true,
+    "C": true,
+    "D": true,
+    "E": true,
+    "F": true,
+    "G": true,
+    "lock_contention": true,
+    "stale_lock": true
+  },
+  "source_cleanup_status": {
+    "auto_revert_applied": true,
+    "residual_src_diff_count": 0,
+    "retain_probe_insertions": 0
+  },
+  "source_integration_transaction_status": {
+    "manifest_checksum_pass": true,
+    "src_integration_begin": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/source-integration/src-integration.begin",
+    "src_integration_commit": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/source-integration/src-integration.commit"
+  },
+  "stages_completed_this_invocation": [
+    "ingest",
+    "extract",
+    "normalize",
+    "anchor",
+    "publish",
+    "verify",
+    "finalize"
+  ],
+  "ts_authoring_bundle_status": {
+    "json_lookup_pointer_pass": true,
+    "lookup_pointer_mode_pass": true,
+    "ts_companion_roles_pass": true,
+    "ts_token_enum_pass": true
+  }
+}

@@ -1,0 +1,9 @@
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.33s
+     Running unittests src/lib.rs (target/debug/deps/subscription_cache-290cb53e953f0c4f)
+tests::rebuild_reflects_removed_rows: test
+tests::same_subscriber_different_topics_coexist: test
+tests::wildcard_lookup_merges_exact_and_wildcard_rows: test
+
+3 tests, 0 benchmarks
+   Doc-tests subscription_cache
+0 tests, 0 benchmarks

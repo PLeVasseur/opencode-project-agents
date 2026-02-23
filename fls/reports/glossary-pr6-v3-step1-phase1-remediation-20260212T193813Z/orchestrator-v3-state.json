@@ -1,0 +1,44 @@
+{
+  "batch_sizes": {
+    "WA": 20,
+    "WB": 20,
+    "WC": 40,
+    "WD": 40
+  },
+  "batches": [],
+  "end_head": "beb89ee90e2b7639d3ffc07a254aa51988f6906b",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "failed_batches": [
+    {
+      "batch_number": 1,
+      "ids": [
+        "WA-001",
+        "WA-002",
+        "WA-003",
+        "WA-004",
+        "WA-005",
+        "WA-006",
+        "WA-007",
+        "WA-008",
+        "WA-009",
+        "WA-010",
+        "WA-011",
+        "WA-012",
+        "WA-013",
+        "WA-014",
+        "WA-015"
+      ],
+      "reason": "all terms failed",
+      "timestamp": "20260212T194730Z",
+      "wave": "WA"
+    }
+  ],
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": "ses_3aca37de6ffeP3k6aVmkP2wWGC",
+  "run_id": "20260212T193813Z",
+  "session_id": null,
+  "start_head": "beb89ee90e2b7639d3ffc07a254aa51988f6906b",
+  "started_at": "20260212T193813Z",
+  "updated_at": "20260212T194731Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

@@ -1,0 +1,5 @@
+glossary-step-1-main-text-coverage | local=43198d66789f | remote=43198d66789f | upstream=origin/glossary-step-1-main-text-coverage
+glossary-step-2-align-duplicate-text | local=d9fd295cde96 | remote=d9fd295cde96 | upstream=origin/glossary-step-2-align-duplicate-text
+glossary-step-3-dt-main-only | local=918daee412e8 | remote=918daee412e8 | upstream=origin/glossary-step-3-dt-main-only
+glossary-step-4-remove-see-paragraphs | local=788ef480be19 | remote=788ef480be19 | upstream=origin/glossary-step-4-remove-see-paragraphs
+glossary-step-5-generated-glossary-parity | local=f617c1b4e998 | remote=f617c1b4e998 | upstream=origin/glossary-step-5-generated-glossary-parity

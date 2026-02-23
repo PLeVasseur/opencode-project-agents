@@ -1,0 +1,41 @@
+{
+  "decision_count": 176,
+  "parts": {
+    "P06": {
+      "fallback_candidate_pages": 0,
+      "hard_fail_pages": 0,
+      "ocr_quality_counts": {
+        "fail": 0,
+        "needs_review": 0,
+        "pass": 0
+      },
+      "pages": 66,
+      "primary_pages": 66
+    },
+    "P08": {
+      "fallback_candidate_pages": 0,
+      "hard_fail_pages": 0,
+      "ocr_quality_counts": {
+        "fail": 0,
+        "needs_review": 0,
+        "pass": 0
+      },
+      "pages": 72,
+      "primary_pages": 72
+    },
+    "P09": {
+      "fallback_candidate_pages": 0,
+      "hard_fail_pages": 0,
+      "ocr_quality_counts": {
+        "fail": 0,
+        "needs_review": 0,
+        "pass": 0
+      },
+      "pages": 38,
+      "primary_pages": 38
+    }
+  },
+  "policy_id": "extraction_policy_v1",
+  "run_id": "20260215T143525Z",
+  "timestamp_utc": "2026-02-15T14:51:22Z"
+}

@@ -1,0 +1,5 @@
+stage=verify
+stage_checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/checkpoints/verify.done.json
+phase_checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/checkpoints/phase-4.done.json
+
+--- stderr ---

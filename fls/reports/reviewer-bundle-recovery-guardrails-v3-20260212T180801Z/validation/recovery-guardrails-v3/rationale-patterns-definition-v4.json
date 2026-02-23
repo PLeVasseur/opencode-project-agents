@@ -1,0 +1,42 @@
+{
+  "completed_total": 1,
+  "min_glossary_similarity": 0.5,
+  "waves": {
+    "WA": {
+      "action_reason_counts": {
+        "move|relocate-conceptual-owner": 1
+      },
+      "adapt_low_similarity_ids": [],
+      "boilerplate_hit_count": 0,
+      "boilerplate_hit_ids": [],
+      "completed_rows": 1,
+      "definition_operation_counts": {
+        "adapt": 0,
+        "insert": 0,
+        "promote": 1
+      },
+      "definition_similarity_stats": {
+        "count": 1,
+        "max": 0.833333,
+        "min": 0.833333,
+        "p50": 0.833333,
+        "p95": 0.833333
+      },
+      "deviation_count": 0,
+      "deviation_fraction": 0.0,
+      "deviation_permit_count": 0,
+      "high_medium_count": 1,
+      "insert_non_positive_net_ids": [],
+      "low_similarity_ids": [],
+      "max_action_reason_fraction": 1.0,
+      "max_action_reason_pair": "move|relocate-conceptual-owner",
+      "max_reason_jaccard": 0.0,
+      "max_reason_jaccard_pair": null,
+      "pending_deviation_count": 0,
+      "promote_low_similarity_ids": [],
+      "unique_action_types": [
+        "move"
+      ]
+    }
+  }
+}

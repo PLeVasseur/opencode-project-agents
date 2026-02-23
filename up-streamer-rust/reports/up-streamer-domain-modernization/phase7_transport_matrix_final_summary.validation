@@ -1,0 +1,3 @@
+141:- Scenario A outcome: PASS
+142:- Scenario B outcome: PASS
+143:- Overall conclusion: Canonical transport behavior is preserved after modernization; both final reruns meet required pass criteria.

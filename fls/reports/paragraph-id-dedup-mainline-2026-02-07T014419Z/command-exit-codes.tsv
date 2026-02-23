@@ -1,0 +1,20 @@
+name	command	exit_code
+bootstrap-opencode-config-dir	printenv OPENCODE_CONFIG_DIR	0
+bootstrap-git-fetch	git fetch origin	0
+bootstrap-worktree-add	git worktree add -b dedupe-paragraph-ids-mainline <path> origin/main	0
+bootstrap-worktree-metadata	pwd; git branch --show-current; git rev-parse HEAD; date -u	0
+bootstrap-uv-sync	uv sync	0
+bootstrap-git-status	git status -sb	0
+duplicate-ids-before	python scan duplicate :dp: IDs before edits	0
+generated-random-ids	./generate-random-ids.py	0
+id-replacements	record chosen ID replacement mapping	0
+id-replacements	write ID replacement mapping artifact	0
+dedup-patch	git diff > dedup.patch	0
+duplicate-ids-after	python scan duplicate :dp: IDs after edits	0
+make	./make.py	0
+base-ref	git merge-base HEAD origin/main	0
+changelog-check	uv run python tools/changelog_assistant.py --check --base <BASE_REF> --emit-report <report>	2
+git-commit	git add src/glossary.rst && git commit -m <message>	0
+commit-info	record commit sha and cherry-pick command	0
+run-metadata	record final worktree branch head timestamp	0
+changelog-assistant-file-check	test -f tools/changelog_assistant.py	1

@@ -1,0 +1,22 @@
+{
+  "examples": [
+    "single user licence",
+    "published in switzerland"
+  ],
+  "exclusions": [
+    "normative legal clauses with technical context"
+  ],
+  "regex_patterns": [
+    "licensed\\s+to",
+    "all rights reserved",
+    "reference number"
+  ],
+  "run_id": "pr1-20260216T031732Z",
+  "schema_version": 2,
+  "term_families": [
+    "license",
+    "copyright",
+    "order-number"
+  ],
+  "timestamp_utc": "2026-02-16T03:17:40Z"
+}

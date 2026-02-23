@@ -1,0 +1,16 @@
+{
+  "wave": "WA",
+  "commit_hash": "3c513af76bfe06a66ce8a8bb283a56a6cf639c95",
+  "term_count": 2,
+  "checklist_ids": [
+    "WA-006",
+    "WA-013"
+  ],
+  "terms": [
+    "entity",
+    "crate"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 2
+  }
+}

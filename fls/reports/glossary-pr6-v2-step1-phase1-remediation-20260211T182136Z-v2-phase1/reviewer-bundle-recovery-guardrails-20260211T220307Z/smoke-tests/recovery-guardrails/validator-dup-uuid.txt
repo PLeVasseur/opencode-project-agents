@@ -1,0 +1,6 @@
+mode=gate
+parent_total=2 parent_checked=2 parent_unchecked=0 sub_total=12 sub_checked=12 sub_unchecked=0
+ledger_rows=2 baseline_rows=2 completed_rows=2 resolved_high_rows=2 errors=2
+ERROR: WA-002: duplicate rationale_uuid 794370c6-d491-4f0f-8d80-6a3d13995365 (recovery)
+ERROR: WA-002: no matching rationale event for rationale_uuid=794370c6-d491-4f0f-8d80-6a3d13995365
+exit_code=1

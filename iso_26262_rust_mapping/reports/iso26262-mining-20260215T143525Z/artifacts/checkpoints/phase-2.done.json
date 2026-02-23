@@ -1,0 +1,41 @@
+{
+  "canonical_checksum": "e43aa10c18c81500bf6c7bfb7b25d1dbeb5e74653716adf15f3ff3199a18d125",
+  "checkpoint": "phase-2.done",
+  "input_hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/ingest/ingest-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/ingest/source-hash-evidence.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/extract/extract-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/extract/extract-page-decisions.jsonl",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/ingest.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/extract.done.json"
+  ],
+  "phase": 2,
+  "phase_commits": [
+    {
+      "id": "C3",
+      "sha": "16658162ac27a93daac22b5e89dc5fd120bf9bfa",
+      "subject": "feat(trace-miner): implement ingest stage and required-part PDF discovery"
+    },
+    {
+      "id": "C4",
+      "sha": "ea4b2b7a30e365c9eda3bdcba854aeebbc20dc66",
+      "subject": "feat(trace-miner): implement deterministic extraction policy metrics and page decisions"
+    },
+    {
+      "id": "C5",
+      "sha": "08cfea411bf32ce346ff41e6e2788497b264cabe",
+      "subject": "feat(trace-miner): implement OCR fallback and quality banding"
+    }
+  ],
+  "run_id": "20260215T143525Z",
+  "stage_set": [
+    "ingest",
+    "extract"
+  ],
+  "timestamp_utc": "2026-02-15T14:51:49Z"
+}

@@ -1,0 +1,36 @@
+ 1:  fb7e497 <  -:  ------- chore: raise workspace MSRV to 1.88
+ 2:  5e9c279 <  -:  ------- chore: upgrade up-rust and transport dependency matrix
+ 3:  6da4edf <  -:  ------- refactor: migrate zenoh transport usage to 0.9 builder API
+ 4:  f7caa8c <  -:  ------- fix: align feature wiring and compile after transport upgrades
+ 5:  ad32453 <  -:  ------- docs: update migration notes and validation results
+ 6:  31c1388 <  -:  ------- fix: gate plugin config module for lint
+ 7:  97c16a6 <  -:  ------- fix: align plugin runtime API with zenoh 1.7
+ 8:  37a1bb8 <  -:  ------- chore: remove repo-local plans and validation artifacts
+ 9:  413591d <  -:  ------- ci: run standard tests in PR workflows
+10:  bc24a61 <  -:  ------- ci: add nightly coverage workflow
+11:  a97a621 <  -:  ------- ci: deduplicate unbundled lint validation
+12:  5d145d7 <  -:  ------- ci: add Rust caches to compile-heavy jobs
+13:  2e8e76c <  -:  ------- ci: split doctest and test invocations in PR jobs
+14:  71fc302 <  -:  ------- ci: isolate rust cache keys and enforce lint-only writes
+15:  b204894 <  -:  ------- ci: add manual cargo timings profiling workflow
+16:  4b6738c <  -:  ------- ci: parallelize bundled lint behind aggregator check
+17:  c4f8a2e <  -:  ------- ci: stabilize bundled lint shard aggregation and vsomeip linking
+18:  f5b0527 <  -:  ------- ci: enable cargo timings profiling run on PR changes
+19:  8feeedd <  -:  ------- ci: rebuild bundled vsomeip artifacts after cache restore
+20:  4a5d3cd <  -:  ------- ci: avoid vendored OpenSSL in required CI paths
+21:  6bf09c3 <  -:  ------- ci: de-duplicate bundled feature lint compilation
+22:  9578b4d <  -:  ------- ci: harden bundled lint cleanup for vsomeip artifacts
+23:  ec4af3b <  -:  ------- ci: trim unbundled lint apt deps
+24:  5f7e6b6 <  -:  ------- ci: simplify bundled lint aggregator checks
+25:  0d441dc =  1:  3f25c1b add shared CLI parsing helpers for example binaries
+26:  b134d5a =  2:  9667bb9 parameterize MQTT and Zenoh pubsub binaries
+27:  08b3c0e =  3:  2c3e830 parameterize remaining example binaries for CLI overrides
+28:  c026489 =  4:  61bcb14 fix publish forwarding authority matching in streamer
+29:  c51bfc8 =  5:  25019e2 document issue74 runbook and CLI override usage
+30:  a553a37 =  6:  13ea67f fix integration harness listener unregister symmetry
+31:  f470b22 =  7:  0877394 chore: remove issue-74 mentions from docs and tests
+32:  8ca9785 =  8:  de2b096 update listener registration to merge wildcard subscribers and dedupe publish keys
+33:  e8fa62a =  9:  160711e fix add_forwarding_rule rollback on listener setup failure
+34:  42d5a26 = 10:  2d42d16 add regression tests for wildcard routing, dedupe safety, rollback, and Path A cache identity
+35:  5440295 <  -:  ------- Upgrade transports to up-rust 0.9 compatibility (MSRV 1.88) (#75)
+36:  ae8afd9 <  -:  ------- ci: reduce PR workflow latency by relocating coverage (#76)

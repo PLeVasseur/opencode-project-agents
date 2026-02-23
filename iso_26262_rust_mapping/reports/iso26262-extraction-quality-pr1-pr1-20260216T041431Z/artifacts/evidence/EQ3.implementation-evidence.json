@@ -1,0 +1,40 @@
+{
+  "artifacts_written": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/fixtures/boundary-goldset-manifest.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T041431Z/artifacts/fixtures/boundary-goldset.jsonl"
+  ],
+  "base_branch": "main",
+  "base_pin_sha": "ea5a29d182b54b6cb792196bb8109fd50faff836",
+  "blocking_issues": [],
+  "changed_files": [
+    "traceability/iso26262/corpus/2018-ed2/p06/clause-manifest.jsonc",
+    "traceability/iso26262/corpus/2018-ed2/p06/list_bullet-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p06/paragraph-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p06/part-manifest.jsonc",
+    "traceability/iso26262/corpus/2018-ed2/p06/table_cell-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p08/clause-manifest.jsonc",
+    "traceability/iso26262/corpus/2018-ed2/p08/list_bullet-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p08/paragraph-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p08/part-manifest.jsonc",
+    "traceability/iso26262/corpus/2018-ed2/p08/table_cell-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p09/clause-manifest.jsonc",
+    "traceability/iso26262/corpus/2018-ed2/p09/list_bullet-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p09/paragraph-0001.jsonl",
+    "traceability/iso26262/corpus/2018-ed2/p09/part-manifest.jsonc",
+    "traceability/iso26262/corpus/2018-ed2/p09/table_cell-0001.jsonl",
+    "traceability/iso26262/index/anchor-registry.jsonc",
+    "traceability/iso26262/index/corpus-manifest.jsonc"
+  ],
+  "commit_shas": [
+    "7938e13f5c9ad447fe777b9f6152139be7850690"
+  ],
+  "head_subject": "feat(trace-data): regenerate typed corpus shards and anchor registry",
+  "metrics_after": {},
+  "metrics_before": {},
+  "metrics_delta": {},
+  "run_id": "pr1-20260216T041431Z",
+  "stage": "EQ3",
+  "target_branch": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "tests_run": [],
+  "timestamp_utc": "2026-02-16T04:14:35Z"
+}

@@ -1,0 +1,21 @@
+{
+  "completed_total": 1,
+  "waves": {
+    "WA": {
+      "action_reason_counts": {
+        "move|relocate-conceptual-owner": 1
+      },
+      "completed_rows": 1,
+      "deviation_count": 0,
+      "deviation_fraction": 0.0,
+      "high_medium_count": 1,
+      "max_action_reason_fraction": 1.0,
+      "max_action_reason_pair": "move|relocate-conceptual-owner",
+      "max_reason_jaccard": 0.0,
+      "max_reason_jaccard_pair": null,
+      "unique_action_types": [
+        "move"
+      ]
+    }
+  }
+}

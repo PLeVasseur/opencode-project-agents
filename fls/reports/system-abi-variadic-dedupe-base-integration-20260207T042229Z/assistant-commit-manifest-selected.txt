@@ -1,0 +1,6 @@
+81b2ad693637808a4c216f3d08aa785091390cab feat(changelog): add Sphinx-aware changelog automation
+5289d458a9ae07e8882d1a92ec47040bbe775ad6 feat(changelog-tags): add verifier harness and schema
+3b490704286c5524f1fbc11cca003109942ef4ee test(changelog-tags): add verifier fixtures and case manifest
+13a35c6f0fc47eba70aad07b68e3d6a1cd285839 ci(changelog-tags): run verifier in PR and nightly
+e7b2ce4838b606d4651b1a450a3fcc27df1982b8 fix(changelog-assistant): anchor updates to existing upstream PR entries
+02937b55eb7326775a33bbae546eac879c15d387 ci(changelog-assistant): run coverage checks in pull requests

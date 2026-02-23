@@ -1,0 +1,19 @@
+{
+  "batch_sizes": {
+    "WA": 20,
+    "WB": 20,
+    "WC": 40,
+    "WD": 40
+  },
+  "batches": [],
+  "end_head": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_status": "not-evaluated",
+  "last_session_id": null,
+  "run_id": "dryrun",
+  "session_id": null,
+  "start_head": "63bde8968e31742477e0f320d86212b9c5704da8",
+  "started_at": "20260211T215409Z",
+  "updated_at": "20260211T215409Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

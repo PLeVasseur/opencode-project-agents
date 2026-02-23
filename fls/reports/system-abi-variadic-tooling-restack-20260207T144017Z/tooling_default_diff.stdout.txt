@@ -1,0 +1,19 @@
+diff --git a/src/changelog.rst b/src/changelog.rst
+index cbf065a..c158c9f 100644
+--- a/src/changelog.rst
++++ b/src/changelog.rst
+@@ -28,7 +28,13 @@ Language changes in Rust 1.93.0
+ 
+ - `Stabilize declaration of C-style variadic functions for the system ABI <https://github.com/rust-lang/rust/pull/145954>`_
+ 
+-  - Changed paragraph: :p:`fls_8m7pc3riokst`
++  - Change tags: paragraph-added, paragraph-changed, role-change, term-ref-removed
++  - Added paragraphs:
++    - :p:`fls_H5vkbMFvzrFs`
++    - :p:`fls_kqdvWGi9cglm`
++  - Changed paragraphs:
++    - :p:`fls_I9JaKZelMiby` (paragraph-changed, role-change, term-ref-removed)
++    - :p:`fls_t4yeovFm83Wo` (paragraph-changed, role-change, term-ref-removed)
+ 
+ - `Emit error when using some keyword as a cfg predicate <https://github.com/rust-lang/rust/pull/146978>`_
+ 

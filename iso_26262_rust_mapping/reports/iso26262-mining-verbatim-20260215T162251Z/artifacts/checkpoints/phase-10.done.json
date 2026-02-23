@@ -1,0 +1,10 @@
+{
+  "canonical_checksum": "41c520a26658919f83433fc4e4b7d55c32f3a8c64f032b5ed6c7affb6984755a",
+  "checkpoint": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/phase-10.done.json",
+  "commit_sha": "399608903b24b41c2c1418363a5ce526e16a7f97",
+  "commit_subject": "chore(ci,docs): add prewarm cache query checks and operator runbook",
+  "phase": 10,
+  "phase_code": "C24",
+  "run_id": "20260215T162251Z",
+  "timestamp_utc": "2026-02-15T16:44:15Z"
+}

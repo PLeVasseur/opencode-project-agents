@@ -1,0 +1,1 @@
+2d42d167c83321ac351d7d3aa4a77b27393402b0	refs/heads/bugfix/issue-74-left-topic-authority

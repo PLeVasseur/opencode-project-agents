@@ -1,0 +1,15 @@
+HTML diff summary
+
+Only in baseline:
+- (none)
+
+Only in generated:
+- (none)
+
+Changed files:
+- (none)
+
+Special comparisons:
+- .buildinfo: config matches; tags differ (ignored)
+- paragraph-ids.json: normalized content matches
+

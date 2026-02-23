@@ -1,0 +1,13 @@
+case: literal-change
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/literal-change/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/literal-change/head.json
+
+observed tags:
+- literal-change
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

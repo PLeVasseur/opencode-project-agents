@@ -1,0 +1,52 @@
+# Recovery guardrail smoke tests (v3)
+
+- Passed: `48/48`
+
+- [x] `record-rationale-v3.py --help`
+- [x] `validate-ledger-and-checklist-v3.py --help`
+- [x] `glossary-batch-orchestrator-v3.py --help`
+- [x] `analyze-rationale-patterns-v3.py --help`
+- [x] `approve-deviation.py --help`
+- [x] record-rationale move success case writes UUID/event
+- [x] record-rationale mismatch case hard-fails term-source lock
+- [x] record-rationale high-priority non-move without permit hard-fails
+- [x] record-rationale pending-review permit with non-empty `approved_by` hard-fails
+- [x] record-rationale invalid permit path format hard-fails
+- [x] record-rationale pending-review permit success writes `deviation_status=pending`
+- [x] validator recovery success case passes
+- [x] validator duplicate UUID fixture fails (`FAILED_UUID_GUARDRAIL` present)
+- [x] validator concentration fixture fails (`FAILED_RATIONALE_MONOCULTURE` present)
+- [x] validator strict regression fixture fails (`FAILED_STRICT_REGRESSION` present)
+- [x] validator progress mode accepts pending deviations (pending count reported)
+- [x] validator gate mode rejects pending deviations (`FAILED_PENDING_DEVIATIONS` present)
+- [x] validator foundational section mismatch fails (`FAILED_FOUNDATIONAL_PLACEMENT` present)
+- [x] approve-deviation approve flow updates permit/ledger/events
+- [x] approve-deviation reject flow updates permit/ledger/events and quarantine metadata
+- [x] validator gate passes after approval flow
+- [x] validator gate fails rejected deviations (`FAILED_RECOMMENDATION_LOCK` present)
+- [x] orchestrator v3 dry-run output exists
+- [x] orchestrator v3 dry-run prompt artifact exists
+- [x] orchestrator v3 dry-run term-lock artifact exists
+- [x] orchestrator validator classification helper quarantines UUID/recommendation errors by checklist ID
+- [x] orchestrator validator hard-fail classification helper flags pending-deviation hard-fail codes
+- [x] rationale analyzer fixture smoke test emits JSON + Markdown
+- [x] record-rationale definition promote success writes similarity/hash fields
+- [x] record-rationale compound split trap fails (`FAILED_COMPOUND_DT_SPLIT` present)
+- [x] record-rationale function-word stopword `not` after `:dt:` passes
+- [x] record-rationale function-word stopword `no` after `:dt:` passes
+- [x] record-rationale function-word stopword `but` after `:dt:` passes
+- [x] record-rationale function-word stopword `as` after `:dt:` passes
+- [x] record-rationale function-word stopword `if` after `:dt:` passes
+- [x] record-rationale function-word stopword `so` after `:dt:` passes
+- [x] validator progress warns on missing `after_commit` (`WARN_GLOSSARY_MISMATCH` present)
+- [x] validator gate rejects missing `after_commit` (`FAILED_GLOSSARY_ALIGNMENT` present)
+- [x] validator gate rejects hash drift (`FAILED_SIMILARITY_DRIFT` present)
+- [x] validator gate rejects insert with non-positive diff evidence (`FAILED_INSERT_DIFF_MISMATCH` present)
+- [x] rationale analyzer definition smoke emits operation/similarity metrics JSON + Markdown
+- [x] record-rationale post-refactor success smoke passes (`definition_alignment_shared.py` import path validated)
+- [x] validator progress post-refactor pass smoke succeeds
+- [x] validator rejects swap-as-insert with diff-audit hunk evidence (`FAILED_INSERT_DIFF_MISMATCH`, `swap_detected=true`)
+- [x] validator rejects swap-as-insert with live hunk analysis (`FAILED_INSERT_DIFF_MISMATCH`, no fallback downgrade)
+- [x] validator rejects subject-form bypass for `promote` (`FAILED_SUBJECT_FORM` present)
+- [x] validator rejects subject-form bypass for `insert` (`FAILED_SUBJECT_FORM` present)
+- [x] validator rejects subject-form bypass for marginal `adapt` (`FAILED_SUBJECT_FORM` present)

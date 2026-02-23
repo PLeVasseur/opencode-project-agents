@@ -1,0 +1,38 @@
+{
+  "wave": "WB",
+  "commit_hash": "3c513af76bfe06a66ce8a8bb283a56a6cf639c95",
+  "term_count": 13,
+  "checklist_ids": [
+    "WB-011",
+    "WB-021",
+    "WB-024",
+    "WB-028",
+    "WB-039",
+    "WB-041",
+    "WB-043",
+    "WB-044",
+    "WB-045",
+    "WB-046",
+    "WB-055",
+    "WB-056",
+    "WB-077"
+  ],
+  "terms": [
+    "crate root module",
+    "discriminant",
+    "evaluation",
+    "execution",
+    "element type",
+    "discriminant initializer",
+    "elaboration",
+    "exported function",
+    "expression-with-block",
+    "external function item type",
+    "destructor",
+    "escaped character",
+    "external function"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 13
+  }
+}

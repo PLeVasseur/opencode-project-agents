@@ -1,0 +1,9 @@
+Commit 0 included files (mechanical, finalizable source + required manifest seeds)
+
+example-streamer-uses/src/bin/common/mod.rs
+utils/integration-test-utils/src/integration_test_listeners.rs
+utils/integration-test-utils/src/up_client_failing_register.rs
+up-streamer/src/endpoint.rs
+Cargo.toml
+example-streamer-uses/Cargo.toml
+utils/integration-test-utils/Cargo.toml

@@ -1,0 +1,1586 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[91m[1m| [0m[90m Bash     [0mList next 20 unchecked glossary terms
+
+usage: glossary-term-map.py [-h] [--repo-root REPO_ROOT] [--src SRC]
+                            [--glossary GLOSSARY] [--term-map TERM_MAP]
+                            [--checklist CHECKLIST] [--count COUNT]
+                            [--terms [TERMS ...]] [--status STATUS]
+                            [--dry-run]
+glossary-term-map.py: error: argument --checklist: expected one argument
+
+[91m[1m| [0m[90m Bash     [0mGet next 20 unchecked glossary terms
+
+warning: glossary-entry not found in src files: FFI
+warning: glossary-entry not found in src files: field
+warning: glossary-entry not found in src files: field access expression
+warning: glossary-entry not found in src files: field index
+warning: glossary-entry not found in src files: field list
+warning: glossary-entry not found in src files: field resolution
+warning: glossary-entry not found in src files: field selector
+warning: glossary-entry not found in src files: final match arm
+warning: glossary-entry not found in src files: fixed sized type
+warning: glossary-entry not found in src files: float literal
+warning: glossary-entry not found in src files: float suffix
+warning: glossary-entry not found in src files: floating-point type
+warning: glossary-entry not found in src files: floating-point type variable
+warning: glossary-entry not found in src files: floating-point value
+warning: glossary-entry not found in src files: for loop
+warning: glossary-entry not found in src files: for loop expression
+warning: glossary-entry not found in src files: Foreign Function Interface
+warning: glossary-entry not found in src files: fragment specifier
+warning: glossary-entry not found in src files: full range expression
+warning: glossary-entry not found in src files: function
+warning: no new term-map entries to write
+
+[91m[1m| [0m[90m Bash     [0mCheck next 20 terms in glossary static
+
+missing: none
+
+[91m[1m| [0m[90m Bash     [0mFind chapter hits for next 20 terms
+
+FFI
+  src/ffi.rst:14: :t:`Foreign Function Interface` or :t:`FFI` employs :t:`ABI`,
+  src/ffi.rst:19: The following :t:`[attribute]s` affect :t:`FFI`:
+field
+  src/entities-and-resolution.rst:159: which :t:`[module]s` can refer to the :t:`name` of the :t:`field` or :t:`item`.
+  src/entities-and-resolution.rst:219: An external :t:`item`, a :t:`field`, or an :t:`item` that appears without a
+  src/entities-and-resolution.rst:1329: A :dt:`candidate field` is a :t:`field` of a :t:`candidate container type`
+  src/entities-and-resolution.rst:1379: A :t:`field access expression` shall resolve to exactly one :t:`field`.
+  src/expressions.rst:1113: reference to a :t:`field` in an :t:`abstract data type` subject to
+  src/expressions.rst:2686: uninitialized :t:`field` of a :t:`variable`.
+  src/expressions.rst:3634: initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+  src/expressions.rst:3637: An :t:`indexed initializer` matches a :t:`field` of the :t:`constructee`
+  src/expressions.rst:3639: position of a :t:`field` in the :t:`constructee`. Such an
+  src/expressions.rst:3644: :t:`type` of the matched :t:`field` shall be :t:`unifiable`.
+  src/expressions.rst:3652: initial :t:`value` of a :t:`field` in a :t:`struct expression`.
+  src/expressions.rst:3655: A :t:`named initializer` matches a :t:`field` of the :t:`constructee` when
+  src/expressions.rst:3656: its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+  src/expressions.rst:3661: :t:`field` shall be :t:`unifiable`.
+  src/expressions.rst:3669: of a :t:`field` in a :t:`struct expression`.
+  src/expressions.rst:3677: A :t:`shorthand initializer` matches a :t:`field` of the :t:`constructee`
+  src/expressions.rst:3678: when its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such
+  src/expressions.rst:3683: :t:`field` shall be :t:`unifiable`.
+  src/expressions.rst:3702: For each :t:`field` of the :t:`constructee`, the :t:`struct expression` shall
+  src/expressions.rst:3723: For each :t:`field` of the :t:`constructee`, the :t:`struct expression` shall
+  src/expressions.rst:3743: For the single :t:`field` of the :t:`constructee`, the :t:`struct expression`
+  src/expressions.rst:3757: If a :t:`base initializer` is supplied, then for each :t:`field` that was not
+  src/expressions.rst:3759: :t:`field` of the :t:`base initializer` is :t:`passed <passing convention>` to
+  src/expressions.rst:3760: the :t:`field` of the :t:`constructee`.
+  src/expressions.rst:4091: An :t:`argument operand` matches a :t:`function parameter` or :t:`field` of the
+  src/expressions.rst:4093: :t:`function parameter` or :t:`field` are the same. Such an
+  src/expressions.rst:4098: corresponding :t:`function parameter` or :t:`field` shall be :t:`unifiable`.
+  src/expressions.rst:4132: A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
+  src/expressions.rst:4140: whose :t:`field` is selected in a :t:`field access expression`.
+  src/expressions.rst:4147: :t:`field` is selected in a :t:`field access expression`.
+  src/expressions.rst:4150: A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+  src/expressions.rst:4154: A :t:`selected field` is a :t:`field` that is selected by a
+  src/expressions.rst:5755: A :dt:`capture target` is either a :t:`binding` or a :t:`field` of a
+  src/expressions.rst:5759: A :t:`capture target` is either a :t:`variable` or a :t:`field` of a
+  src/ownership-and-deconstruction.rst:214: :t:`Borrowing` a :t:`field` of a :t:`union type` borrows all remaining
+  src/ownership-and-deconstruction.rst:308: A :t:`field` of a :t:`place expression` that can be
+  src/ownership-and-deconstruction.rst:401: :t:`trait` or contains a :t:`field` that has a :t:`destructor`.
+  src/ownership-and-deconstruction.rst:405: :t:`trait` or contains a :t:`field` that has a :t:`drop type`.
+  src/patterns.rst:856: a :t:`field`.
+  src/patterns.rst:859: An :t:`indexed deconstructor` matches a :t:`field` of the :t:`deconstructee`
+  src/patterns.rst:860: when its :t:`field index` and the position of the :t:`field` in the
+  src/patterns.rst:866: matched :t:`field` shall be :t:`unifiable`.
+  src/patterns.rst:870: a :t:`field`.
+  src/patterns.rst:873: A :t:`named deconstructor` matches a :t:`field` of the :t:`deconstructee` when
+  src/patterns.rst:874: its :t:`identifier` and the :t:`name` of the :t:`field` are the same. Such a
+  src/patterns.rst:879: matched :t:`field` shall be :t:`unifiable`.
+  src/patterns.rst:883: of a :t:`field` and binds the :t:`value` of the matched :t:`field` to a
+  src/patterns.rst:902: A :t:`shorthand deconstructor` matches a :t:`field` of the :t:`deconstructee`
+  src/patterns.rst:903: when its :t:`name` and the :t:`name` of the :t:`field` are the same. Such a
+  src/patterns.rst:908: matched :t:`field` shall be :t:`unifiable`.
+  src/patterns.rst:915: For each :t:`field` of the :t:`deconstructee`, the :t:`record struct pattern`
+  src/patterns.rst:936: For each :t:`field` of the :t:`deconstructee`, the :t:`record struct pattern`
+  src/patterns.rst:962: For the single :t:`field` of the :t:`deconstructee`, the
+  src/patterns.rst:982: It is undefined behavior reading the :t:`field` of a :t:`deconstructee` that is
+  src/patterns.rst:983: a :t:`union type` when the :t:`field` contains data that is invalid for the
+  src/patterns.rst:984: :t:`field`'s type.
+  src/patterns.rst:1067: A :t:`subpattern` of a :t:`tuple struct pattern` matches a :t:`field` of the
+  src/patterns.rst:1068: :t:`deconstructee` when its position and the position of the :t:`field` in
+  src/patterns.rst:1094: :t:`type` of the matched :t:`field` shall be :t:`unifiable`.
+  src/patterns.rst:1097: For each :t:`field` of the :t:`deconstructee`, the :t:`tuple struct pattern`
+  src/patterns.rst:1603: corresponding :t:`field` of the context :t:`value` is bound to the
+  src/patterns.rst:1609: corresponding :t:`field` from the context :t:`value`, ignoring :t:`[rest
+  src/patterns.rst:1630: corresponding :t:`field` from the context :t:`value`, ignoring
+  src/patterns.rst:1651: corresponding :t:`field` from the context :t:`value`, ignoring
+  src/types-and-traits.rst:737: An :dt:`enum field` is a :t:`field` of an :t:`enum variant`.
+  src/types-and-traits.rst:1744: :t:`enum variant` has a single :t:`field` of non-zero :t:`size` and any number
+  src/types-and-traits.rst:1749: :t:`type representation` as the :t:`type` of their :t:`field` with non-zero
+  src/types-and-traits.rst:1814: a single :t:`field` of non-zero :t:`size`, or
+  src/types-and-traits.rst:1829: The :t:`type` of the first :t:`field` of the :t:`struct type` is the
+  src/types-and-traits.rst:1838: :t:`type representation` as the single :t:`field` of non-zero :t:`size` of its
+  src/types-and-traits.rst:1851: the :t:`alignment` of the most-aligned :t:`field` in it.
+  src/types-and-traits.rst:1861: For each :t:`field` of the :t:`struct type` in declarative order:
+  src/types-and-traits.rst:1864: Calculate the :t:`size` and :t:`alignment` of the :t:`field`.
+  src/types-and-traits.rst:1869: multiple of the :t:`alignment`. The offset of the :t:`field` is the
+  src/types-and-traits.rst:1873: Increase the current offset by the :t:`size` of the :t:`field`.
+  src/types-and-traits.rst:1876: Proceed with the next :t:`field`.
+  src/types-and-traits.rst:1889: A single :t:`field` of non-zero :t:`size`, or
+  src/types-and-traits.rst:1896: :t:`type representation` as the single :t:`field` of non-zero :t:`size` if one
+  src/types-and-traits.rst:2171: A :t:`field` of an :t:`abstract data type`.
+  src/types-and-traits.rst:2442: The :t:`type` is a :t:`struct type` with at least one :t:`visible <visibility>` :t:`field` whose :t:`type` is subject to :t:`visible emptiness`.
+  src/types-and-traits.rst:3206: If an :t:`outlives bound` applies to the :t:`type` of a :t:`field`, then this
+  src/types-and-traits.rst:3370: For each :t:`field` of the :t:`abstract data type` or the
+  src/types-and-traits.rst:3374: If :t:`field` :t:`type` ``T`` uses ``G``, then
+  src/unsafety.rst:35: Accessing a :t:`field` of a :t:`union`, other than to assign to it.
+  src/values.rst:36: :t:`field` of the same :t:`value`, or
+field access expression
+  src/entities-and-resolution.rst:30: text, usually via a :t:`field access expression` or a :t:`path`.
+  src/entities-and-resolution.rst:34: usually via a :t:`field access expression` or a :t:`path`.
+  src/entities-and-resolution.rst:1268: :t:`field access expression`, a :t:`method call expression`, a :t:`call
+  src/entities-and-resolution.rst:1314: :t:`field access expression`.
+  src/entities-and-resolution.rst:1318: of a :t:`field access expression` :t:`under resolution`.
+  src/entities-and-resolution.rst:1324: :t:`field access expression` :t:`under resolution`. From then on, the
+  src/entities-and-resolution.rst:1330: that is visible from the location of the :t:`field access expression`
+  src/entities-and-resolution.rst:1343: :t:`Field resolution` of a :t:`field access expression` with an
+  src/entities-and-resolution.rst:1356: of the :t:`field access expression`, then the :t:`field access expression`
+  src/entities-and-resolution.rst:1361: :t:`Field resolution` of a :t:`field access expression` with a
+  src/entities-and-resolution.rst:1374: of the :t:`field access expression`, then the :t:`field access expression`
+  src/entities-and-resolution.rst:1379: A :t:`field access expression` shall resolve to exactly one :t:`field`.
+  src/expressions.rst:510: A :t:`field access expression` where the :t:`container operand` is a
+  src/expressions.rst:557: The :t:`container operand` of a :t:`field access expression`,
+  src/expressions.rst:599: The :t:`container operand` of :t:`field access expression` if evaluated in a
+  src/expressions.rst:4132: A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
+  src/expressions.rst:4140: whose :t:`field` is selected in a :t:`field access expression`.
+  src/expressions.rst:4147: :t:`field` is selected in a :t:`field access expression`.
+  src/expressions.rst:4151: accessed in a :t:`field access expression`.
+  src/expressions.rst:4155: :t:`field access expression`.
+  src/expressions.rst:4158: The :t:`type` of a :t:`field access expression` is the :t:`type` of the
+  src/expressions.rst:4162: The :t:`value` of a :t:`field access expression` is the :t:`value` of the
+  src/expressions.rst:4184: A :t:`field access expression` is subject to :t:`field resolution`.
+  src/expressions.rst:4196: The :t:`evaluation` of a :t:`field access expression` evaluates its
+  src/ownership-and-deconstruction.rst:191: The :t:`operand` of a :t:`field access expression`,
+  src/ownership-and-deconstruction.rst:724: :t:`dereference expression`, or a :t:`field access expression` that has an
+field index
+  src/expressions.rst:3638: when the :t:`field index` of the :t:`indexed initializer` resolves to a valid
+  src/patterns.rst:860: when its :t:`field index` and the position of the :t:`field` in the
+field list
+  (no :dt:/ :t: hits)
+field resolution
+  src/entities-and-resolution.rst:1357: resolves to that :t:`candidate indexed field` and :t:`field resolution`
+  src/entities-and-resolution.rst:1375: resolves to that :t:`candidate named field` and :t:`field resolution`
+  src/expressions.rst:4184: A :t:`field access expression` is subject to :t:`field resolution`.
+field selector
+  src/expressions.rst:4150: A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+final match arm
+  src/expressions.rst:5294: A :t:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
+fixed sized type
+  src/types-and-traits.rst:538: The :t:`element type` shall be a :t:`fixed sized type`.
+  src/types-and-traits.rst:575: The :t:`element type` shall be a :t:`fixed sized type`.
+float literal
+  src/lexical-elements.rst:1094: A :t:`float literal` is a :t:`numeric literal` that denotes a fractional number.
+  src/lexical-elements.rst:1097: A :t:`float suffix` is a component of a :t:`float literal` that specifies an
+  src/lexical-elements.rst:1101: A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+  src/lexical-elements.rst:1104: An :t:`unsuffixed float` is a :t:`float literal` without a :t:`float suffix`.
+float suffix
+  src/lexical-elements.rst:1097: A :t:`float suffix` is a component of a :t:`float literal` that specifies an
+  src/lexical-elements.rst:1101: A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+  src/lexical-elements.rst:1104: An :t:`unsuffixed float` is a :t:`float literal` without a :t:`float suffix`.
+  src/lexical-elements.rst:1107: The :t:`type` of a :t:`suffixed float` is determined by the :t:`float suffix`
+floating-point type
+  src/expressions.rst:1488: If the type of the :t:`operand` is a :t:`floating-point type`, then the
+  src/expressions.rst:1494: :t:`floating-point type`, then ``core::ops::Neg::neg(operand)`` is invoked.
+  src/expressions.rst:1687: :t:`floating-point type`, then the :t:`addition expression` evaluates to the
+  src/expressions.rst:1709: :t:`floating-point type`, then the :t:`division expression` evaluates to the
+  src/expressions.rst:1738: :t:`floating-point type`, then the :t:`multiplication expression` evaluates
+  src/expressions.rst:1760: :t:`floating-point type`, then the :t:`remainder expression` evaluates to
+  src/expressions.rst:1790: :t:`floating-point type`, then the :t:`subtraction expression` evaluates to
+  src/expressions.rst:2528: Casting an :t:`operand` of a :t:`floating-point type` to a target
+  src/expressions.rst:2550: :t:`floating-point type` produces the closest possible floating-point
+  src/lexical-elements.rst:1098: explicit :t:`floating-point type`.
+  src/lexical-elements.rst:1121: If a :t:`floating-point type` can be uniquely determined from the surrounding
+  src/types-and-traits.rst:393: :dc:`f32` is a :t:`floating-point type` equivalent to the IEEE 754-2008
+  src/types-and-traits.rst:403: :dc:`f64` is a :t:`floating-point type` equivalent to the IEEE 754-2008
+  src/types-and-traits.rst:2001: If ``U`` is a :t:`floating-point type` or an
+  src/types-and-traits.rst:2610: been unified with a concrete :t:`floating-point type`, perform floating-point
+floating-point type variable
+  src/types-and-traits.rst:1997: Otherwise, if one :t:`type` ``T`` is a :t:`floating-point type variable`,
+  src/types-and-traits.rst:2002: :t:`floating-point type variable`, the :t:`floating-point type variable`
+  src/types-and-traits.rst:2547: A :t:`floating-point type variable` is a :t:`type variable` that can refer only
+floating-point value
+  (no :dt:/ :t: hits)
+for loop
+  src/entities-and-resolution.rst:528: The :t:`binding` of a :t:`for loop` or a :t:`while let loop` is :t:`in scope`
+for loop expression
+  src/entities-and-resolution.rst:800: A :t:`for loop expression` or a :t:`while let loop expression` introduces a
+  src/expressions.rst:4445: A :t:`for loop expression` is a :t:`loop expression` that continues to evaluate
+  src/expressions.rst:4456: The :t:`type` of a :t:`for loop expression` is the :t:`unit type`.
+  src/expressions.rst:4459: The :t:`value` of a :t:`for loop expression` is the :t:`unit value`.
+  src/expressions.rst:4464: The :t:`evaluation` of a :t:`for loop expression` of the form
+  src/ownership-and-deconstruction.rst:583: A :t:`binding` declared in a :t:`for loop expression` is associated with
+  src/ownership-and-deconstruction.rst:585: :t:`for loop expression`.
+  src/types-and-traits.rst:2720: A :t:`for loop expression` is inferred by unifying the :t:`type` of its
+Foreign Function Interface
+  src/ffi.rst:14: :t:`Foreign Function Interface` or :t:`FFI` employs :t:`ABI`,
+fragment specifier
+  src/macros.rst:164: A :t:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+  src/macros.rst:181: the ``block`` :t:`fragment specifier` kind.
+  src/macros.rst:193: the ``block`` :t:`fragment specifier` kind.
+  src/macros.rst:199: :t:`fragment specifier` kind.
+  src/macros.rst:864: :t:`[token]s` in the :t:`macro invocation` based on its :t:`fragment specifier`:
+full range expression
+  src/expressions.rst:2727: A :t:`full range expression` corresponds to a :t:`rest pattern` if inside an
+function
+  src/associated-items.rst:56: An :dt:`associated function` is a :t:`function` that appears as an
+  src/associated-items.rst:60: An :t:`associated function` is a :t:`function` that appears as an
+  src/attributes.rst:408: :t:`Attribute` :dc:`cold` indicates that its related :t:`function` is unlikely
+  src/attributes.rst:440: :t:`Attribute` :dc:`inline` marks its related :t:`function` as :dt:`inlined`.
+  src/attributes.rst:441: The process of replacing a :t:`call expression` to an :t:`inlined` :t:`function`
+  src/attributes.rst:578: related :t:`function`.
+  src/attributes.rst:835: related :t:`function` to obtain a :std:`core::panic::Location` which indicates
+  src/attributes.rst:837: :t:`function`.
+  src/attributes.rst:886: :t:`Attribute` :dc:`naked` ensures that a :t:`function` prologue and epilogue are not generated.
+  src/attributes.rst:1281: related :t:`function` or :t:`static`.
+  src/attributes.rst:1436: symbol of the related :t:`function` or :t:`static` will be placed.
+  src/attributes.rst:1557: :t:`function` or :t:`static` will be used as the symbol for that :t:`function`
+  src/attributes.rst:1561: :t:`Attribute` :c:`no_mangle` causes the related :t:`function` or :t:`static` to
+  src/attributes.rst:1568: An :dt:`exported function` is an export of a :t:`function`.
+  src/attributes.rst:1571: An :t:`exported function` is a :t:`function` subject to :t:`attribute`
+  src/attributes.rst:1942: :t:`Attribute` :dc:`proc_macro` turns the related :t:`function` into a
+  src/attributes.rst:1971: :t:`Attribute` :dc:`proc_macro_attribute` turns the related :t:`function` into
+  src/attributes.rst:2012: :t:`Attribute` :dc:`proc_macro_derive` turns the related :t:`function` into a
+  src/attributes.rst:2223: :t:`Attribute` :dc:`panic_handler` indicates that its related :t:`function`
+  src/attributes.rst:2227: A :t:`crate` graph shall contain exactly one :t:`function` subject to
+  src/attributes.rst:2378: :t:`Attribute` :dc:`test` indicates that the respective :t:`function` is a
+  src/entities-and-resolution.rst:779: The :t:`declaration` of a :t:`function` introduces a :t:`binding scope` and a
+  src/entities-and-resolution.rst:1846: Try to locate a visible :t:`constant` or a visible :t:`function` in the
+  src/entities-and-resolution.rst:1851: If such a :t:`constant` or :t:`function` exists, then the
+  src/entities-and-resolution.rst:1852: :t:`path segment` resolves to that :t:`constant` or :t:`function` and
+  src/entities-and-resolution.rst:1864: Try to locate a visible :t:`constant` or a visible :t:`function` in the
+  src/entities-and-resolution.rst:1869: If such a :t:`constant` or :t:`function` exists, then the
+  src/entities-and-resolution.rst:1870: :t:`path segment` resolves to that :t:`constant` or :t:`function` and
+  src/exceptions-and-errors.rst:59: :t:`function` subject to :t:`attribute` :c:`panic_handler`.
+  src/expressions.rst:700: :t:`constant`, a :t:`function`, a :t:`static`, a :t:`tuple enum variant`, a
+  src/expressions.rst:2485: machine address of the referenced :t:`function`. If the :t:`integer type` is
+  src/expressions.rst:3096: The appropriate :t:`function` is invoked as indicated below.
+  src/expressions.rst:3108: The appropriate :t:`function` is invoked as indicated below.
+  src/expressions.rst:3836: A :dt:`call expression` is an :t:`expression` that invokes a :t:`function` or
+  src/expressions.rst:3843: A :t:`call expression` is an :t:`expression` that invokes a :t:`function` or
+  src/expressions.rst:3861: A :dt:`call operand` is the :t:`function` being invoked or the
+  src/expressions.rst:3869: A :t:`call operand` is the :t:`function` being invoked or the
+  src/expressions.rst:3909: :t:`function`, the :t:`type` of the :t:`tuple enum variant` or the
+  src/expressions.rst:3924: corresponding :t:`function` with the :t:`[argument operand]s`.
+  src/expressions.rst:3972: :t:`function pointer type`, then corresponding :t:`function` is invoked.
+  src/expressions.rst:3995: It is undefined behavior to call a :t:`function` with an :t:`ABI` other than the
+  src/expressions.rst:3996: :t:`ABI` the :t:`function` was defined with.
+  src/expressions.rst:4176: subject to :t:`attribute` :c:`repr` is equivalent to invoking :t:`function`
+  src/ffi.rst:109: A :t:`function` without an explicit :t:`ABI` has implicit :t:`Rust ABI`, unless
+  src/ffi.rst:113: A :t:`function` with an :t:`ABI` but without a specified :t:`ABI kind` has
+  src/ffi.rst:256: An :dt:`external function` is an unchecked import of a foreign :t:`function`.
+  src/ffi.rst:259: An :t:`external function` is an unchecked import of a foreign :t:`function`.
+  src/functions.rst:52: A :t:`function` is a :t:`value` of a :t:`function type` that models a behavior.
+  src/functions.rst:55: A :t:`function` declares a unique :t:`function item type` for itself.
+  src/functions.rst:59: a :t:`function`.
+  src/functions.rst:62: A :t:`function` shall not be subject to both :t:`keyword` ``async`` and
+  src/functions.rst:75: A :t:`function` shall not specify a :t:`self parameter` unless it is an
+  src/functions.rst:104: The :t:`[binding]s` of all :t:`[pattern]s` of all :t:`[function parameter]s` of a :t:`function` shall not shadow another.
+  src/functions.rst:141: A :t:`return type` is the :t:`type` of the result a :t:`function`, :t:`closure type` or :t:`function pointer type` returns.
+  src/functions.rst:144: The :t:`return type` of a :t:`function` is determined as follows:
+  src/functions.rst:153: A :t:`function body` is the :t:`block expression` of a :t:`function`.
+  src/functions.rst:156: A :t:`function` shall have a :t:`function body` unless it is an
+  src/functions.rst:182: A :t:`function signature` is a unique identification of a :t:`function`
+  src/functions.rst:191: A :dt:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
+  src/functions.rst:194: A :t:`constant function` is a :t:`function` subject to :t:`keyword` ``const``.
+  src/functions.rst:207: An :dt:`async function` is a :t:`function` subject to :t:`keyword` ``async``.
+  src/functions.rst:210: An :t:`async function` is a :t:`function` subject to :t:`keyword` ``async``. An
+  src/functions.rst:220: is equivalent to :t:`function`
+  src/functions.rst:231: An :t:`unsafe function` is a :t:`function` subject to an :s:`ItemSafety` with :t:`keyword` ``unsafe``.
+  src/functions.rst:234: A :t:`function` shall only be subject to an :s:`ItemSafety` with :t:`keyword` ``safe`` if it is an :t:`external function` in an :t:`unsafe external block`.
+  src/generics.rst:62: A :t:`generic function` is a :t:`function` with :t:`[generic parameter]s`.
+  src/generics.rst:234: A :t:`type parameter` of a :t:`function` has implicit :t:`[lifetime bound]s`
+  src/inline-assembly.rst:742: a :t:`function` :t:`name` or a :t:`static` :t:`name`.
+  src/inline-assembly.rst:1726: :t:`function` where the :t:`macro invocation` took place. A tool is free to
+  src/inline-assembly.rst:1727: encapsulate the :t:`assembly code block` in a separate :t:`function` and
+  src/inline-assembly.rst:1738: :t:`assembly code block` to be emitted outside the :t:`function` where the
+  src/macros.rst:322: transformations in a :t:`function`. :t:`[Procedural macro]s` consume one or more
+  src/macros.rst:330: A :t:`macro implementation function` is the :t:`function` that encapsulates the
+  src/ownership-and-deconstruction.rst:411: A :dt:`destructor` is a :t:`function` that is invoked immediately before the
+  src/ownership-and-deconstruction.rst:415: A :t:`destructor` is a :t:`function` that is invoked immediately before the
+  src/ownership-and-deconstruction.rst:547: The :t:`drop scope` of a :t:`function` is the outermost :t:`drop scope`.
+  src/ownership-and-deconstruction.rst:551: its related :t:`function`.
+  src/ownership-and-deconstruction.rst:607: :t:`drop scope` of the :t:`function` of the :t:`function parameter`.
+  src/ownership-and-deconstruction.rst:785: When a :t:`drop scope` of a :t:`function` is left, then each
+  src/program-structure-and-compilation.rst:154: a :t:`function` in scope of its :t:`crate root module` under the :t:`name`
+  src/program-structure-and-compilation.rst:158: The :t:`function` in scope of a :t:`binary crate`'s :t:`crate root module` under
+  src/program-structure-and-compilation.rst:314: A :t:`program entry point` is a :t:`function` that is invoked at the start of
+  src/types-and-traits.rst:1041: identifies a :t:`function`.
+  src/types-and-traits.rst:1048: related :t:`function` is an :t:`external function`.
+  src/types-and-traits.rst:1052: related :t:`function` is an :t:`external function`.
+  src/types-and-traits.rst:1056: :t:`function` is an :t:`unsafe function`.
+  src/types-and-traits.rst:1103: :t:`function`.
+  src/types-and-traits.rst:1272: the :t:`return type` of a :t:`function`.
+  src/types-and-traits.rst:1286: :t:`function` return type.
+  src/types-and-traits.rst:1290: :t:`function` :t:`return type`.
+  src/types-and-traits.rst:1294: parameter]s` of the :t:`return type`'s :t:`function` and its parent :t:`trait`
+  src/types-and-traits.rst:1300: of the :t:`return type`'s :t:`function` and its parent :t:`trait` or
+  src/types-and-traits.rst:2174: A :t:`function` result.
+  src/types-and-traits.rst:2327: To find the :t:`return type` of a :t:`function` with multiple
+  src/types-and-traits.rst:2528: :t:`function`.
+  src/types-and-traits.rst:3082: :t:`object safe` dispatchable :t:`function` or an :t:`object safe`
+  src/types-and-traits.rst:3083: non-dispatchable :t:`function`.
+  src/types-and-traits.rst:3086: A dispatchable :t:`function` is :t:`object safe` when:
+  src/types-and-traits.rst:3103: A :t:`function` is :t:`object safe` when it specifies a
+  src/types-and-traits.rst:3213: :t:`function` as an :t:`implied bound`.
+  src/types-and-traits.rst:3437: a :t:`subtype` of the :t:`return type` of the containing :t:`function` or
+  src/types-and-traits.rst:3530: Any :t:`lifetime` related to the :t:`return type` of a :t:`function`.
+  src/types-and-traits.rst:3567: If a :t:`function` has a :t:`self parameter` with exactly 1
+  src/types-and-traits.rst:3578: Given :t:`function` ``f`` of the form
+
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mLocate chapter definitions for term 'field'
+[91m[1m| [0m[90m Bash     [0mFind potential definitions for 'field'
+[91m[1m| [0m[90m Bash     [0mFind 'field list' occurrences in chapters
+[91m[1m| [0m[90m Bash     [0mSearch for field index definition lines
+[91m[1m| [0m[90m Bash     [0mSearch for field resolution definition
+[91m[1m| [0m[90m Bash     [0mFind floating-point type definition lines
+[96m[1m| [0m[90m Read     [0msrc/ffi.rst
+[91m[1m| [0m[90m Bash     [0mExtract glossary static entries for target terms
+
+
+== FFI
+:dp:`fls_z363fu89mj1c`
+For :dt:`FFI`, see :t:`Foreign Function Interface`.
+
+
+== Foreign Function Interface
+:dp:`fls_240yj1kym1kh`
+:dt:`Foreign Function Interface` employs :t:`ABI`, :t:`[attribute]s`,
+:t:`external block`, :t:`[external function]s`, linkage, and :t:`type`
+:t:`layout` to interface a Rust program with foreign code.
+
+
+== field
+:dp:`fls_uAkrgfFTK2YV`
+A :dt:`field` is an element of an :t:`abstract data type`.
+
+
+== field access expression
+:dp:`fls_gdl348a04d15`
+A :dt:`field access expression` is an :t:`expression` that accesses a
+:t:`field` of a :t:`value`.
+
+:dp:`fls_luetyuwu54d6`
+See :s:`FieldAccessExpression`.
+
+
+== field index
+:dp:`fls_6061r871qgbj`
+A :dt:`field index` is the position of a :t:`field` within a
+:t:`tuple struct type` or :t:`tuple enum variant`. The first :t:`field` has a
+:t:`field index` of zero, the Nth :t:`field` has a :t:`field index` of N-1.
+
+:dp:`fls_IDYKXUIL845x`
+See :s:`FieldIndex`.
+
+
+== field list
+:dp:`fls_xMZsrxMc9Cni`
+A :dt:`field list` is a :s:`RecordStructFieldList` or :s:`TupleStructFieldList`.
+
+
+== field resolution
+:dp:`fls_nL8UuclgxfGL`
+:dt:`Field resolution` is a form of :t:`resolution` that applies to a
+:t:`field access expression`.
+
+
+== field selector
+:dp:`fls_aq1yg9cp1uof`
+A :dt:`field selector` is a :t:`construct` that selects the :t:`field` to be
+accessed in a :t:`field access expression`.
+
+:dp:`fls_x8swot8e1j32`
+See :s:`FieldSelector`.
+
+
+== final match arm
+:dp:`fls_btoz8jioisx9`
+A :dt:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
+
+:dp:`fls_v7ockjwbeel1`
+See :s:`FinalMatchArm`.
+
+
+== fixed sized type
+:dp:`fls_eadiywl20jo4`
+A :dt:`fixed sized type` is a :t:`type` that implements the
+:std:`core::marker::Sized` :t:`trait`.
+
+
+== float literal
+:dp:`fls_53o8dio9vpjh`
+A :dt:`float literal` is a :t:`numeric literal` that denotes a fractional
+number.
+
+:dp:`fls_hqeaakhsqxok`
+See :s:`FloatLiteral`.
+
+
+== float suffix
+:dp:`fls_vka2z7frq9j8`
+A :dt:`float suffix` is a component of a :t:`float literal` that specifies an
+explicit :t:`floating-point type`.
+
+:dp:`fls_2k1ddqhsgxqk`
+See :s:`FloatSuffix`.
+
+
+== floating-point type
+:dp:`fls_1w5yjiffah1u`
+A :dt:`floating-point type` is a :t:`numeric type` whose :t:`[value]s` denote
+fractional numbers.
+
+
+== floating-point type variable
+:dp:`fls_ls41emhkrxdi`
+A :dt:`floating-point type variable` is a :t:`type variable` that can refer
+only to :t:`[floating-point type]s`.
+
+
+== floating-point value
+:dp:`fls_rx8cvWPlvel5`
+A :dt:`floating-point value` is a :t:`value` of a :t:`floating-point type`.
+
+
+== for loop
+:dp:`fls_gmhh56arsbw8`
+For :dt:`for loop`, see :t:`for loop expression`.
+
+
+== for loop expression
+:dp:`fls_f0gp7qxoc4o4`
+A :dt:`for loop expression` is a :t:`loop expression` that continues to
+evaluate its :t:`loop body` as long as its :t:`subject expression` yields a
+:t:`value`.
+
+:dp:`fls_yn4d35pvmn87`
+See :s:`ForLoopExpression`.
+
+
+== fragment specifier
+:dp:`fls_6lhwep7ulpr0`
+A :dt:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+a :t:`metavariable`.
+
+:dp:`fls_drfn9yqrihgx`
+See ``MacroFragmentSpecifier``.
+
+
+== full range expression
+:dp:`fls_NIb9UOIRjMqa`
+A :dt:`full range expression` is a :t:`range expression` that covers the full
+range of a :t:`type`.
+
+
+== function
+:dp:`fls_ni14pcm4ap9l`
+A :dt:`function` is a :t:`value` of a :t:`function type` that models a behavior.
+
+:dp:`fls_hn01vvw2fx9m`
+See :s:`FunctionDeclaration`.
+
+
+[96m[1m| [0m[90m Read     [0msrc/entities-and-resolution.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[91m[1m| [0m[90m Bash     [0mFind Struct Types section in types-and-traits
+
+847
+
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/macros.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[91m[1m| [0m[90m Bash     [0mFind Range Expressions section
+
+4919
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0msrc/functions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for FFI
+
+.. glossary-entry:: FFI
+   
+   :glossary:
+     :dp:`fls_z363fu89mj1c`
+     For :dt:`FFI`, see :t:`Foreign Function Interface`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for Foreign Function Interface
+
+.. glossary-entry:: Foreign Function Interface
+   
+   :glossary:
+     :dp:`fls_240yj1kym1kh`
+     :dt:`Foreign Function Interface` employs :t:`ABI`, :t:`[attribute]s`,
+     :t:`external block`, :t:`[external function]s`, linkage, and :t:`type`
+     :t:`layout` to interface a Rust program with foreign code.
+   :chapter:
+     :dp:`fls_djlglv2eaihl`
+     :t:`Foreign Function Interface` or :t:`FFI` employs :t:`ABI`,
+     :t:`[attribute]s`, :t:`[external block]s`, :t:`[external function]s`, linkage,
+     and :t:`type` :t:`layout` to interface a Rust program with foreign code.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for field access expression
+
+.. glossary-entry:: field access expression
+   
+   :glossary:
+     :dp:`fls_gdl348a04d15`
+     A :dt:`field access expression` is an :t:`expression` that accesses a
+     :t:`field` of a :t:`value`.
+     
+     :dp:`fls_luetyuwu54d6`
+     See :s:`FieldAccessExpression`.
+   :chapter:
+     :dp:`fls_hr8qvwlhd9ts`
+     A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
+     of a :t:`value`.
+     
+     .. glossary-entry:: container operand
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate field access expression glossary-entry with manual chapter lines
+
+/bin/bash: line 1: fls_hr8qvwlhd9ts: command not found
+/bin/bash: line 1: field: command not found
+/bin/bash: line 1: expression: command not found
+/bin/bash: line 1: field: command not found
+/bin/bash: line 1: value: command not found
+.. glossary-entry:: field access expression
+   
+   :glossary:
+     :dp:`fls_gdl348a04d15`
+     A :dt:`field access expression` is an :t:`expression` that accesses a
+     :t:`field` of a :t:`value`.
+     
+     :dp:`fls_luetyuwu54d6`
+     See :s:`FieldAccessExpression`.
+   :chapter:
+     :dp:
+     A :t: is an :t: that accesses a :t:
+     of a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate field access expression glossary-entry with correct chapter lines
+
+.. glossary-entry:: field access expression
+   
+   :glossary:
+     :dp:`fls_gdl348a04d15`
+     A :dt:`field access expression` is an :t:`expression` that accesses a
+     :t:`field` of a :t:`value`.
+     
+     :dp:`fls_luetyuwu54d6`
+     See :s:`FieldAccessExpression`.
+   :chapter:
+     :dp:`fls_hr8qvwlhd9ts`
+     A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
+     of a :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate field selector glossary-entry
+
+.. glossary-entry:: field selector
+   
+   :glossary:
+     :dp:`fls_aq1yg9cp1uof`
+     A :dt:`field selector` is a :t:`construct` that selects the :t:`field` to be
+     accessed in a :t:`field access expression`.
+     
+     :dp:`fls_x8swot8e1j32`
+     See :s:`FieldSelector`.
+   :chapter:
+     :dp:`fls_yeuayil6uxzx`
+     A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+     accessed in a :t:`field access expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate field resolution glossary-entry
+
+.. glossary-entry:: field resolution
+   
+   :glossary:
+     :dp:`fls_nL8UuclgxfGL`
+     :dt:`Field resolution` is a form of :t:`resolution` that applies to a
+     :t:`field access expression`.
+   :chapter:
+     :dp:`fls_1nxknwjdp0am`
+     :t:`Field resolution` is a form of :t:`resolution` that applies to a
+     :t:`field access expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate final match arm glossary-entry
+
+.. glossary-entry:: final match arm
+   
+   :glossary:
+     :dp:`fls_btoz8jioisx9`
+     A :dt:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
+     
+     :dp:`fls_v7ockjwbeel1`
+     See :s:`FinalMatchArm`.
+   :chapter:
+     :dp:`fls_oj8dg28xw5yp`
+     A :t:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate float literal glossary-entry
+
+.. glossary-entry:: float literal
+   
+   :glossary:
+     :dp:`fls_53o8dio9vpjh`
+     A :dt:`float literal` is a :t:`numeric literal` that denotes a fractional
+     number.
+     
+     :dp:`fls_hqeaakhsqxok`
+     See :s:`FloatLiteral`.
+   :chapter:
+     :dp:`fls_rzi7oeqokd6e`
+     A :t:`float literal` is a :t:`numeric literal` that denotes a fractional number.
+
+[91m[1m| [0m[90m Bash     [0mGenerate float suffix glossary-entry
+
+.. glossary-entry:: float suffix
+   
+   :glossary:
+     :dp:`fls_vka2z7frq9j8`
+     A :dt:`float suffix` is a component of a :t:`float literal` that specifies an
+     explicit :t:`floating-point type`.
+     
+     :dp:`fls_2k1ddqhsgxqk`
+     See :s:`FloatSuffix`.
+   :chapter:
+     :dp:`fls_2ru1zyrykd37`
+     A :t:`float suffix` is a component of a :t:`float literal` that specifies an
+     explicit :t:`floating-point type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate floating-point type variable glossary-entry with manual chapter lines
+
+.. glossary-entry:: floating-point type variable
+   
+   :glossary:
+     :dp:`fls_ls41emhkrxdi`
+     A :dt:`floating-point type variable` is a :t:`type variable` that can refer
+     only to :t:`[floating-point type]s`.
+   :chapter:
+     :dp:`fls_3hv3wxkhjjp1`
+     A :t:`floating-point type variable` is a :t:`type variable` that can refer only
+     to :t:`[floating-point type]s`. 
+
+[91m[1m| [0m[90m Bash     [0mGenerate floating-point type variable glossary-entry
+
+.. glossary-entry:: floating-point type variable
+   
+   :glossary:
+     :dp:`fls_ls41emhkrxdi`
+     A :dt:`floating-point type variable` is a :t:`type variable` that can refer
+     only to :t:`[floating-point type]s`.
+   :chapter:
+     :dp:`fls_3hv3wxkhjjp1`
+     A :t:`floating-point type variable` is a :t:`type variable` that can refer only
+     to :t:`[floating-point type]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate for loop expression glossary-entry
+
+.. glossary-entry:: for loop expression
+   
+   :glossary:
+     :dp:`fls_f0gp7qxoc4o4`
+     A :dt:`for loop expression` is a :t:`loop expression` that continues to
+     evaluate its :t:`loop body` as long as its :t:`subject expression` yields a
+     :t:`value`.
+     
+     :dp:`fls_yn4d35pvmn87`
+     See :s:`ForLoopExpression`.
+   :chapter:
+     :dp:`fls_1bh2alh37frz`
+     A :t:`for loop expression` is a :t:`loop expression` that continues to evaluate
+     its :t:`loop body` as long as its :t:`subject expression` yields a :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate fragment specifier glossary-entry
+
+.. glossary-entry:: fragment specifier
+   
+   :glossary:
+     :dp:`fls_6lhwep7ulpr0`
+     A :dt:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+     a :t:`metavariable`.
+     
+     :dp:`fls_drfn9yqrihgx`
+     See ``MacroFragmentSpecifier``.
+   :chapter:
+     :dp:`fls_8zypylq60zba`
+     A :t:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+     a :t:`metavariable`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate function glossary-entry
+
+.. glossary-entry:: function
+   
+   :glossary:
+     :dp:`fls_ni14pcm4ap9l`
+     A :dt:`function` is a :t:`value` of a :t:`function type` that models a behavior.
+     
+     :dp:`fls_hn01vvw2fx9m`
+     See :s:`FunctionDeclaration`.
+   :chapter:
+     :dp:`fls_gn1ngtx2tp2s`
+     A :t:`function` is a :t:`value` of a :t:`function type` that models a behavior.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for field
+
+.. glossary-entry:: field
+   
+   :glossary:
+     :dp:`fls_uAkrgfFTK2YV`
+     A :dt:`field` is an element of an :t:`abstract data type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for field index
+
+.. glossary-entry:: field index
+   
+   :glossary:
+     :dp:`fls_6061r871qgbj`
+     A :dt:`field index` is the position of a :t:`field` within a
+     :t:`tuple struct type` or :t:`tuple enum variant`. The first :t:`field` has a
+     :t:`field index` of zero, the Nth :t:`field` has a :t:`field index` of N-1.
+     
+     :dp:`fls_IDYKXUIL845x`
+     See :s:`FieldIndex`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for field list
+
+.. glossary-entry:: field list
+   
+   :glossary:
+     :dp:`fls_xMZsrxMc9Cni`
+     A :dt:`field list` is a :s:`RecordStructFieldList` or :s:`TupleStructFieldList`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for fixed sized type
+
+.. glossary-entry:: fixed sized type
+   
+   :glossary:
+     :dp:`fls_eadiywl20jo4`
+     A :dt:`fixed sized type` is a :t:`type` that implements the
+     :std:`core::marker::Sized` :t:`trait`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for floating-point type
+
+.. glossary-entry:: floating-point type
+   
+   :glossary:
+     :dp:`fls_1w5yjiffah1u`
+     A :dt:`floating-point type` is a :t:`numeric type` whose :t:`[value]s` denote
+     fractional numbers.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for floating-point value
+
+.. glossary-entry:: floating-point value
+   
+   :glossary:
+     :dp:`fls_rx8cvWPlvel5`
+     A :dt:`floating-point value` is a :t:`value` of a :t:`floating-point type`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for for loop
+
+.. glossary-entry:: for loop
+   
+   :glossary:
+     :dp:`fls_gmhh56arsbw8`
+     For :dt:`for loop`, see :t:`for loop expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for full range expression
+
+.. glossary-entry:: full range expression
+   
+   :glossary:
+     :dp:`fls_NIb9UOIRjMqa`
+     A :dt:`full range expression` is a :t:`range expression` that covers the full
+     range of a :t:`type`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ffi.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/entities-and-resolution.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/macros.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/functions.rst
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mGenerate glossary output
+[91m[1m| [0m[90m Bash     [0mDiff generated glossary vs static glossary
+[91m[1m| [0m[90m Bash     [0mVerify HTML diff report
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mShow short git status
+
+ M src/entities-and-resolution.rst
+ M src/expressions.rst
+ M src/ffi.rst
+ M src/functions.rst
+ M src/lexical-elements.rst
+ M src/macros.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow recent commit messages
+
+862a461 docs(glossary): migrate batch 10 entries
+9a978c3 docs(glossary): migrate batch 09 entries
+869af9c docs(glossary): migrate phase 2 batch for glossary parity
+441f3fd docs(glossary): migrate batch 08 entries
+7a54fff docs(glossary): migrate batch 07 entries
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged and staged diff
+
+diff --git a/src/entities-and-resolution.rst b/src/entities-and-resolution.rst
+index e25dbb7..224b0ef 100644
+--- a/src/entities-and-resolution.rst
++++ b/src/entities-and-resolution.rst
+@@ -1309,9 +1309,16 @@ Field Resolution
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_1nxknwjdp0am`
+-:t:`Field resolution` is a form of :t:`resolution` that applies to a
+-:t:`field access expression`.
++.. glossary-entry:: field resolution
++   
++   :glossary:
++     :dp:`fls_nL8UuclgxfGL`
++     :dt:`Field resolution` is a form of :t:`resolution` that applies to a
++     :t:`field access expression`.
++   :chapter:
++     :dp:`fls_1nxknwjdp0am`
++     :t:`Field resolution` is a form of :t:`resolution` that applies to a
++     :t:`field access expression`.
+ 
+ :dp:`fls_j1bip4w30q8`
+ A :dt:`candidate container type` is the :t:`type` of the :t:`container operand`
+diff --git a/src/expressions.rst b/src/expressions.rst
+index 0c070ca..4ff4d71 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -4128,9 +4128,19 @@ Field Access Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_hr8qvwlhd9ts`
+-A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
+-of a :t:`value`.
++.. glossary-entry:: field access expression
++   
++   :glossary:
++     :dp:`fls_gdl348a04d15`
++     A :dt:`field access expression` is an :t:`expression` that accesses a
++     :t:`field` of a :t:`value`.
++     
++     :dp:`fls_luetyuwu54d6`
++     See :s:`FieldAccessExpression`.
++   :chapter:
++     :dp:`fls_hr8qvwlhd9ts`
++     A :t:`field access expression` is an :t:`expression` that accesses a :t:`field`
++     of a :t:`value`.
+ 
+ .. glossary-entry:: container operand
+    
+@@ -4146,9 +4156,30 @@ of a :t:`value`.
+      A :t:`container operand` is an :t:`operand` that indicates the :t:`value` whose
+      :t:`field` is selected in a :t:`field access expression`.
+ 
+-:dp:`fls_yeuayil6uxzx`
+-A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
+-accessed in a :t:`field access expression`.
++.. glossary-entry:: field selector
++   
++   :glossary:
++     :dp:`fls_aq1yg9cp1uof`
++     A :dt:`field selector` is a :t:`construct` that selects the :t:`field` to be
++     accessed in a :t:`field access expression`.
++     
++     :dp:`fls_x8swot8e1j32`
++     See :s:`FieldSelector`.
++   :chapter:
++     :dp:`fls_yeuayil6uxzx`
++     A :t:`field selector` is a :t:`construct` that selects the :t:`field` to be
++     accessed in a :t:`field access expression`.
++
++.. glossary-entry:: field index
++   
++   :glossary:
++     :dp:`fls_6061r871qgbj`
++     A :dt:`field index` is the position of a :t:`field` within a
++     :t:`tuple struct type` or :t:`tuple enum variant`. The first :t:`field` has a
++     :t:`field index` of zero, the Nth :t:`field` has a :t:`field index` of N-1.
++     
++     :dp:`fls_IDYKXUIL845x`
++     See :s:`FieldIndex`.
+ 
+ :dp:`fls_qqrconpa92i3`
+ A :t:`selected field` is a :t:`field` that is selected by a
+@@ -4441,9 +4472,26 @@ For Loops
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_1bh2alh37frz`
+-A :t:`for loop expression` is a :t:`loop expression` that continues to evaluate
+-its :t:`loop body` as long as its :t:`subject expression` yields a :t:`value`.
++.. glossary-entry:: for loop
++   
++   :glossary:
++     :dp:`fls_gmhh56arsbw8`
++     For :dt:`for loop`, see :t:`for loop expression`.
++
++.. glossary-entry:: for loop expression
++   
++   :glossary:
++     :dp:`fls_f0gp7qxoc4o4`
++     A :dt:`for loop expression` is a :t:`loop expression` that continues to
++     evaluate its :t:`loop body` as long as its :t:`subject expression` yields a
++     :t:`value`.
++     
++     :dp:`fls_yn4d35pvmn87`
++     See :s:`ForLoopExpression`.
++   :chapter:
++     :dp:`fls_1bh2alh37frz`
++     A :t:`for loop expression` is a :t:`loop expression` that continues to evaluate
++     its :t:`loop body` as long as its :t:`subject expression` yields a :t:`value`.
+ 
+ :dp:`fls_fkgbin6ydkm4`
+ The :t:`type` of a :t:`subject expression` shall implement the
+@@ -4960,6 +5008,13 @@ Range Expressions
+ :dp:`fls_bi82rusji8g0`
+ A :t:`range expression` is an :t:`expression` that constructs a range.
+ 
++.. glossary-entry:: full range expression
++   
++   :glossary:
++     :dp:`fls_NIb9UOIRjMqa`
++     A :dt:`full range expression` is a :t:`range expression` that covers the full
++     range of a :t:`type`.
++
+ :dp:`fls_msyv4oyk5zp9`
+ A :t:`range expression low bound` is an :t:`operand` that specifies the start of
+ a range.
+@@ -5290,8 +5345,17 @@ and a :t:`match arm body`.
+ An :t:`intermediate match arm` is any :t:`non-[final match arm]` of a
+ :t:`match expression`.
+ 
+-:dp:`fls_oj8dg28xw5yp`
+-A :t:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
++.. glossary-entry:: final match arm
++   
++   :glossary:
++     :dp:`fls_btoz8jioisx9`
++     A :dt:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
++     
++     :dp:`fls_v7ockjwbeel1`
++     See :s:`FinalMatchArm`.
++   :chapter:
++     :dp:`fls_oj8dg28xw5yp`
++     A :t:`final match arm` is the last :t:`match arm` of a :t:`match expression`.
+ 
+ :dp:`fls_lrdrtedyz28i`
+ A :t:`match arm matcher` is a :t:`construct` that consists of a :t:`pattern` and
+diff --git a/src/ffi.rst b/src/ffi.rst
+index 9c33fa5..5329886 100644
+--- a/src/ffi.rst
++++ b/src/ffi.rst
+@@ -10,10 +10,24 @@ FFI
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_djlglv2eaihl`
+-:t:`Foreign Function Interface` or :t:`FFI` employs :t:`ABI`,
+-:t:`[attribute]s`, :t:`[external block]s`, :t:`[external function]s`, linkage,
+-and :t:`type` :t:`layout` to interface a Rust program with foreign code.
++.. glossary-entry:: FFI
++   
++   :glossary:
++     :dp:`fls_z363fu89mj1c`
++     For :dt:`FFI`, see :t:`Foreign Function Interface`.
++
++.. glossary-entry:: Foreign Function Interface
++   
++   :glossary:
++     :dp:`fls_240yj1kym1kh`
++     :dt:`Foreign Function Interface` employs :t:`ABI`, :t:`[attribute]s`,
++     :t:`external block`, :t:`[external function]s`, linkage, and :t:`type`
++     :t:`layout` to interface a Rust program with foreign code.
++   :chapter:
++     :dp:`fls_djlglv2eaihl`
++     :t:`Foreign Function Interface` or :t:`FFI` employs :t:`ABI`,
++     :t:`[attribute]s`, :t:`[external block]s`, :t:`[external function]s`, linkage,
++     and :t:`type` :t:`layout` to interface a Rust program with foreign code.
+ 
+ :dp:`fls_k1hiwghzxtfa`
+ The following :t:`[attribute]s` affect :t:`FFI`:
+diff --git a/src/functions.rst b/src/functions.rst
+index 195837b..1fa4bcd 100644
+--- a/src/functions.rst
++++ b/src/functions.rst
+@@ -48,8 +48,17 @@ Functions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_gn1ngtx2tp2s`
+-A :t:`function` is a :t:`value` of a :t:`function type` that models a behavior.
++.. glossary-entry:: function
++   
++   :glossary:
++     :dp:`fls_ni14pcm4ap9l`
++     A :dt:`function` is a :t:`value` of a :t:`function type` that models a behavior.
++     
++     :dp:`fls_hn01vvw2fx9m`
++     See :s:`FunctionDeclaration`.
++   :chapter:
++     :dp:`fls_gn1ngtx2tp2s`
++     A :t:`function` is a :t:`value` of a :t:`function type` that models a behavior.
+ 
+ :dp:`fls_bdx9gnnjxru3`
+ A :t:`function` declares a unique :t:`function item type` for itself.
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 4557d5d..f92eff6 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -1090,12 +1090,32 @@ Float Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_rzi7oeqokd6e`
+-A :t:`float literal` is a :t:`numeric literal` that denotes a fractional number.
++.. glossary-entry:: float literal
++   
++   :glossary:
++     :dp:`fls_53o8dio9vpjh`
++     A :dt:`float literal` is a :t:`numeric literal` that denotes a fractional
++     number.
++     
++     :dp:`fls_hqeaakhsqxok`
++     See :s:`FloatLiteral`.
++   :chapter:
++     :dp:`fls_rzi7oeqokd6e`
++     A :t:`float literal` is a :t:`numeric literal` that denotes a fractional number.
+ 
+-:dp:`fls_2ru1zyrykd37`
+-A :t:`float suffix` is a component of a :t:`float literal` that specifies an
+-explicit :t:`floating-point type`.
++.. glossary-entry:: float suffix
++   
++   :glossary:
++     :dp:`fls_vka2z7frq9j8`
++     A :dt:`float suffix` is a component of a :t:`float literal` that specifies an
++     explicit :t:`floating-point type`.
++     
++     :dp:`fls_2k1ddqhsgxqk`
++     See :s:`FloatSuffix`.
++   :chapter:
++     :dp:`fls_2ru1zyrykd37`
++     A :t:`float suffix` is a component of a :t:`float literal` that specifies an
++     explicit :t:`floating-point type`.
+ 
+ :dp:`fls_21mhnhplzam7`
+ A :t:`suffixed float` is a :t:`float literal` with a :t:`float suffix`.
+diff --git a/src/macros.rst b/src/macros.rst
+index 40100d0..6a8fc07 100644
+--- a/src/macros.rst
++++ b/src/macros.rst
+@@ -160,9 +160,19 @@ A :t:`metavariable` is a :t:`macro match` that describes a :t:`variable`.
+ A :t:`metavariable` is visible in the :t:`macro transcriber` of the
+ :t:`macro rule` of the :t:`macro matcher` it is declared in.
+ 
+-:dp:`fls_8zypylq60zba`
+-A :t:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
+-a :t:`metavariable`.
++.. glossary-entry:: fragment specifier
++   
++   :glossary:
++     :dp:`fls_6lhwep7ulpr0`
++     A :dt:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
++     a :t:`metavariable`.
++     
++     :dp:`fls_drfn9yqrihgx`
++     See ``MacroFragmentSpecifier``.
++   :chapter:
++     :dp:`fls_8zypylq60zba`
++     A :t:`fragment specifier` is a :t:`construct` that indicates the :t:`type` of
++     a :t:`metavariable`.
+ 
+ :dp:`fls_8o9mcV2KrKac`
+ :t:`Fragment specifier` kinds impose the following
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index 3744254..e5eec2e 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -386,6 +386,19 @@ Floating Point Types
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: floating-point type
++   
++   :glossary:
++     :dp:`fls_1w5yjiffah1u`
++     A :dt:`floating-point type` is a :t:`numeric type` whose :t:`[value]s` denote
++     fractional numbers.
++
++.. glossary-entry:: floating-point value
++   
++   :glossary:
++     :dp:`fls_rx8cvWPlvel5`
++     A :dt:`floating-point value` is a :t:`value` of a :t:`floating-point type`.
++
+ .. glossary-entry:: f32
+    
+    :glossary:
+@@ -534,6 +547,13 @@ Array Types
+      :dp:`fls_pvyl887dn016`
+      See :s:`ElementType`.
+ 
++.. glossary-entry:: fixed sized type
++   
++   :glossary:
++     :dp:`fls_eadiywl20jo4`
++     A :dt:`fixed sized type` is a :t:`type` that implements the
++     :std:`core::marker::Sized` :t:`trait`.
++
+ :dp:`fls_pkts1p2dnxo`
+ The :t:`element type` shall be a :t:`fixed sized type`.
+ 
+@@ -879,6 +899,18 @@ Struct Types
+ 
+ .. rubric:: Legality Rules
+ 
++.. glossary-entry:: field
++   
++   :glossary:
++     :dp:`fls_uAkrgfFTK2YV`
++     A :dt:`field` is an element of an :t:`abstract data type`.
++
++.. glossary-entry:: field list
++   
++   :glossary:
++     :dp:`fls_xMZsrxMc9Cni`
++     A :dt:`field list` is a :s:`RecordStructFieldList` or :s:`TupleStructFieldList`.
++
+ :dp:`fls_g1azfj548136`
+ A :t:`struct type` is an :t:`abstract data type` that is a product of other
+ :t:`[type]s`.
+@@ -2543,9 +2575,16 @@ A :t:`global type variable` is a :t:`type variable` that can refer to any
+ An :t:`integer type variable` is a :t:`type variable` that can refer only to
+ :t:`[integer type]s`.
+ 
+-:dp:`fls_3hv3wxkhjjp1`
+-A :t:`floating-point type variable` is a :t:`type variable` that can refer only
+-to :t:`[floating-point type]s`.
++.. glossary-entry:: floating-point type variable
++   
++   :glossary:
++     :dp:`fls_ls41emhkrxdi`
++     A :dt:`floating-point type variable` is a :t:`type variable` that can refer
++     only to :t:`[floating-point type]s`.
++   :chapter:
++     :dp:`fls_3hv3wxkhjjp1`
++     A :t:`floating-point type variable` is a :t:`type variable` that can refer only
++     to :t:`[floating-point type]s`.
+ 
+ .. glossary-entry:: diverging type variable
+    
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration files and commit
+
+[glossary-single-source-phase1 200bda3] docs(glossary): migrate batch 11 entries
+ 7 files changed, 194 insertions(+), 31 deletions(-)
+
+Added the next 20 glossary migrations with `.. glossary-entry::` blocks (dual where chapter definitions exist, glossary-only elsewhere) and placed them near the relevant sections. Updates are in `src/ffi.rst`, `src/entities-and-resolution.rst`, `src/expressions.rst`, `src/lexical-elements.rst`, `src/types-and-traits.rst`, `src/macros.rst`, and `src/functions.rst`.  
+Checklist and term-map metadata were updated under `/home/pete.levasseur/opencode-project-agents/fls/` (not staged).
+
+Verification:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Commit:
+- `docs(glossary): migrate batch 11 entries` (200bda3)
+
+If you want, I can continue with the next batch of 20 terms.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

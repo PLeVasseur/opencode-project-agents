@@ -1,0 +1,9 @@
+e498c8d (HEAD -> glossary-step-1-main-text-coverage, origin/glossary-step-1-main-text-coverage) docs(glossary): remediate placement terms WA-007-WA-007
+4fd7d55 docs(glossary): remediate placement terms WA-013-WA-015
+d7c8a94 docs(glossary): remediate placement terms WA-010-WA-012
+7b8d1eb docs(glossary): remediate placement terms WA-008-WA-009
+de4fbe5 Revert "docs(glossary): remediate placement terms WA-007-WA-009"
+9b68d6a docs(glossary): remediate placement terms WA-007-WA-009
+c05c97a docs(glossary): remediate placement terms WA-004-WA-006
+193539b docs(glossary): remediate placement terms WA-004-WA-006
+e1a41fe docs(glossary): remediate placement terms WA-001-WA-003

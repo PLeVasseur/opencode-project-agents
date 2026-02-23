@@ -1,0 +1,33 @@
+{
+  "canonical_checksum": "5bd735a9b9d48deac0f6fbcba34511bd5514119472c13586478001110e583809",
+  "checkpoint": "phase-5.done",
+  "input_hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/rollout/phase-5-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/rollout/coverage-evidence.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/replay/replay-checks.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/resilience/resilience-drills.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/verify/verify-summary.json",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/required-part-rollout-evidence.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/corpus-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/anchor-registry.jsonc"
+  ],
+  "phase": 5,
+  "phase_commits": [
+    {
+      "id": "C13",
+      "sha": "0b798b37d41847b2a5d39491c15880bb77d32683",
+      "subject": "feat(trace-data): publish required-part corpus batch 1"
+    }
+  ],
+  "run_id": "20260215T143525Z",
+  "stage_set": [
+    "rollout",
+    "stabilization"
+  ],
+  "timestamp_utc": "2026-02-15T15:20:01Z"
+}

@@ -1,0 +1,8 @@
+git_status=0
+git_log=0
+git_diff_stat=0
+source_envsetup=0
+cargo_fmt=0
+cargo_clippy=0
+cargo_test_routing=0
+cargo_test_ingress_registry=0

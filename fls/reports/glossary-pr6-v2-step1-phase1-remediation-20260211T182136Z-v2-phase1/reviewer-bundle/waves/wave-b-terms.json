@@ -1,0 +1,387 @@
+{
+  "checklist_wave_b_count": 89,
+  "derived_term_count": 89,
+  "deterministic_match": true,
+  "excluded_foundational_terms": [
+    "construct",
+    "crate",
+    "entity",
+    "expression",
+    "field",
+    "implementation",
+    "item",
+    "method",
+    "module",
+    "name",
+    "reference",
+    "statement",
+    "trait",
+    "type",
+    "value"
+  ],
+  "extra_in_checklist": [],
+  "missing_in_checklist": [],
+  "relocation_priorities": [
+    "high",
+    "medium"
+  ],
+  "source": "inputs/fls-pr6-placement-fitness-v2.json",
+  "terms": [
+    {
+      "checklist_id": "WB-001",
+      "term": "field list"
+    },
+    {
+      "checklist_id": "WB-002",
+      "term": "type specification"
+    },
+    {
+      "checklist_id": "WB-003",
+      "term": "concrete type"
+    },
+    {
+      "checklist_id": "WB-004",
+      "term": "generic function"
+    },
+    {
+      "checklist_id": "WB-005",
+      "term": "variable"
+    },
+    {
+      "checklist_id": "WB-006",
+      "term": "container operand"
+    },
+    {
+      "checklist_id": "WB-007",
+      "term": "undefined behavior"
+    },
+    {
+      "checklist_id": "WB-008",
+      "term": "code point"
+    },
+    {
+      "checklist_id": "WB-009",
+      "term": "receiver operand"
+    },
+    {
+      "checklist_id": "WB-010",
+      "term": "associated constant"
+    },
+    {
+      "checklist_id": "WB-011",
+      "term": "crate root module"
+    },
+    {
+      "checklist_id": "WB-012",
+      "term": "associated trait function"
+    },
+    {
+      "checklist_id": "WB-013",
+      "term": "size"
+    },
+    {
+      "checklist_id": "WB-014",
+      "term": "floating-point type"
+    },
+    {
+      "checklist_id": "WB-015",
+      "term": "safety invariant"
+    },
+    {
+      "checklist_id": "WB-016",
+      "term": "unit struct"
+    },
+    {
+      "checklist_id": "WB-017",
+      "term": "unsafe context"
+    },
+    {
+      "checklist_id": "WB-018",
+      "term": "associated trait constant"
+    },
+    {
+      "checklist_id": "WB-019",
+      "term": "union value"
+    },
+    {
+      "checklist_id": "WB-020",
+      "term": "pattern-without-alternation"
+    },
+    {
+      "checklist_id": "WB-021",
+      "term": "discriminant"
+    },
+    {
+      "checklist_id": "WB-022",
+      "term": "field index"
+    },
+    {
+      "checklist_id": "WB-023",
+      "term": "static"
+    },
+    {
+      "checklist_id": "WB-024",
+      "term": "evaluation"
+    },
+    {
+      "checklist_id": "WB-025",
+      "term": "enum variant value"
+    },
+    {
+      "checklist_id": "WB-026",
+      "term": "immutable"
+    },
+    {
+      "checklist_id": "WB-027",
+      "term": "signed integer type"
+    },
+    {
+      "checklist_id": "WB-028",
+      "term": "execution"
+    },
+    {
+      "checklist_id": "WB-029",
+      "term": "function body"
+    },
+    {
+      "checklist_id": "WB-030",
+      "term": "attribute content"
+    },
+    {
+      "checklist_id": "WB-031",
+      "term": "borrowed"
+    },
+    {
+      "checklist_id": "WB-032",
+      "term": "irrefutable pattern"
+    },
+    {
+      "checklist_id": "WB-033",
+      "term": "record enum variant"
+    },
+    {
+      "checklist_id": "WB-034",
+      "term": "structurally equal"
+    },
+    {
+      "checklist_id": "WB-035",
+      "term": "implementation body"
+    },
+    {
+      "checklist_id": "WB-036",
+      "term": "dangling"
+    },
+    {
+      "checklist_id": "WB-037",
+      "term": "pointer"
+    },
+    {
+      "checklist_id": "WB-038",
+      "term": "underscore expression"
+    },
+    {
+      "checklist_id": "WB-039",
+      "term": "element type"
+    },
+    {
+      "checklist_id": "WB-040",
+      "term": "mutable variable"
+    },
+    {
+      "checklist_id": "WB-041",
+      "term": "discriminant initializer"
+    },
+    {
+      "checklist_id": "WB-042",
+      "term": "[unifiable type]s"
+    },
+    {
+      "checklist_id": "WB-043",
+      "term": "elaboration"
+    },
+    {
+      "checklist_id": "WB-044",
+      "term": "exported function"
+    },
+    {
+      "checklist_id": "WB-045",
+      "term": "expression-with-block"
+    },
+    {
+      "checklist_id": "WB-046",
+      "term": "external function item type"
+    },
+    {
+      "checklist_id": "WB-047",
+      "term": "mutable"
+    },
+    {
+      "checklist_id": "WB-048",
+      "term": "where clause"
+    },
+    {
+      "checklist_id": "WB-049",
+      "term": "associated function"
+    },
+    {
+      "checklist_id": "WB-050",
+      "term": "renaming"
+    },
+    {
+      "checklist_id": "WB-051",
+      "term": "separator"
+    },
+    {
+      "checklist_id": "WB-052",
+      "term": "struct pattern"
+    },
+    {
+      "checklist_id": "WB-053",
+      "term": "tuple enum variant"
+    },
+    {
+      "checklist_id": "WB-054",
+      "term": "associated item"
+    },
+    {
+      "checklist_id": "WB-055",
+      "term": "destructor"
+    },
+    {
+      "checklist_id": "WB-056",
+      "term": "escaped character"
+    },
+    {
+      "checklist_id": "WB-057",
+      "term": "generic substitution"
+    },
+    {
+      "checklist_id": "WB-058",
+      "term": "trait implementation"
+    },
+    {
+      "checklist_id": "WB-059",
+      "term": "function"
+    },
+    {
+      "checklist_id": "WB-060",
+      "term": "type path"
+    },
+    {
+      "checklist_id": "WB-061",
+      "term": "inherent implementation"
+    },
+    {
+      "checklist_id": "WB-062",
+      "term": "self parameter"
+    },
+    {
+      "checklist_id": "WB-063",
+      "term": "tuple"
+    },
+    {
+      "checklist_id": "WB-064",
+      "term": "type parameter"
+    },
+    {
+      "checklist_id": "WB-065",
+      "term": "implicit borrow"
+    },
+    {
+      "checklist_id": "WB-066",
+      "term": "associated type"
+    },
+    {
+      "checklist_id": "WB-067",
+      "term": "binding argument"
+    },
+    {
+      "checklist_id": "WB-068",
+      "term": "future"
+    },
+    {
+      "checklist_id": "WB-069",
+      "term": "label"
+    },
+    {
+      "checklist_id": "WB-070",
+      "term": "static initializer"
+    },
+    {
+      "checklist_id": "WB-071",
+      "term": "arity"
+    },
+    {
+      "checklist_id": "WB-072",
+      "term": "constant parameter"
+    },
+    {
+      "checklist_id": "WB-073",
+      "term": "mutable static"
+    },
+    {
+      "checklist_id": "WB-074",
+      "term": "scalar type"
+    },
+    {
+      "checklist_id": "WB-075",
+      "term": "constant parameter initializer"
+    },
+    {
+      "checklist_id": "WB-076",
+      "term": "immutable reference"
+    },
+    {
+      "checklist_id": "WB-077",
+      "term": "external function"
+    },
+    {
+      "checklist_id": "WB-078",
+      "term": "external static"
+    },
+    {
+      "checklist_id": "WB-079",
+      "term": "unit enum variant"
+    },
+    {
+      "checklist_id": "WB-080",
+      "term": "tuple struct"
+    },
+    {
+      "checklist_id": "WB-081",
+      "term": "binary crate"
+    },
+    {
+      "checklist_id": "WB-082",
+      "term": "c"
+    },
+    {
+      "checklist_id": "WB-083",
+      "term": "qualifying trait"
+    },
+    {
+      "checklist_id": "WB-084",
+      "term": "temporary"
+    },
+    {
+      "checklist_id": "WB-085",
+      "term": "pattern-without-range"
+    },
+    {
+      "checklist_id": "WB-086",
+      "term": "qualified type"
+    },
+    {
+      "checklist_id": "WB-087",
+      "term": "tuple struct type"
+    },
+    {
+      "checklist_id": "WB-088",
+      "term": "trait body"
+    },
+    {
+      "checklist_id": "WB-089",
+      "term": "base initializer"
+    }
+  ]
+}

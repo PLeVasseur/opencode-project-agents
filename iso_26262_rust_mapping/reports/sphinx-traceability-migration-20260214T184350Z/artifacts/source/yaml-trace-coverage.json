@@ -1,0 +1,137 @@
+{
+  "table_count": 26,
+  "tables": [
+    {
+      "instrumented_cells": 21,
+      "rows": 7,
+      "table_file": "src/tables/table-01.yaml"
+    },
+    {
+      "instrumented_cells": 45,
+      "rows": 9,
+      "table_file": "src/tables/table-02.yaml"
+    },
+    {
+      "instrumented_cells": 12,
+      "rows": 4,
+      "table_file": "src/tables/table-03.yaml"
+    },
+    {
+      "instrumented_cells": 45,
+      "rows": 9,
+      "table_file": "src/tables/table-04.yaml"
+    },
+    {
+      "instrumented_cells": 32,
+      "rows": 8,
+      "table_file": "src/tables/table-05.yaml"
+    },
+    {
+      "instrumented_cells": 50,
+      "rows": 10,
+      "table_file": "src/tables/table-06.yaml"
+    },
+    {
+      "instrumented_cells": 44,
+      "rows": 11,
+      "table_file": "src/tables/table-07.yaml"
+    },
+    {
+      "instrumented_cells": 12,
+      "rows": 4,
+      "table_file": "src/tables/table-08.yaml"
+    },
+    {
+      "instrumented_cells": 9,
+      "rows": 3,
+      "table_file": "src/tables/table-09.yaml"
+    },
+    {
+      "instrumented_cells": 32,
+      "rows": 8,
+      "table_file": "src/tables/table-10.yaml"
+    },
+    {
+      "instrumented_cells": 6,
+      "rows": 2,
+      "table_file": "src/tables/table-11.yaml"
+    },
+    {
+      "instrumented_cells": 9,
+      "rows": 3,
+      "table_file": "src/tables/table-12.yaml"
+    },
+    {
+      "instrumented_cells": 420,
+      "rows": 60,
+      "table_file": "src/tables/table-13.yaml"
+    },
+    {
+      "instrumented_cells": 140,
+      "rows": 20,
+      "table_file": "src/tables/table-14.yaml"
+    },
+    {
+      "instrumented_cells": 126,
+      "rows": 18,
+      "table_file": "src/tables/table-15.yaml"
+    },
+    {
+      "instrumented_cells": 91,
+      "rows": 13,
+      "table_file": "src/tables/table-16.yaml"
+    },
+    {
+      "instrumented_cells": 105,
+      "rows": 15,
+      "table_file": "src/tables/table-17.yaml"
+    },
+    {
+      "instrumented_cells": 56,
+      "rows": 8,
+      "table_file": "src/tables/table-18.yaml"
+    },
+    {
+      "instrumented_cells": 70,
+      "rows": 10,
+      "table_file": "src/tables/table-19.yaml"
+    },
+    {
+      "instrumented_cells": 204,
+      "rows": 51,
+      "table_file": "src/tables/table-20.yaml"
+    },
+    {
+      "instrumented_cells": 52,
+      "rows": 13,
+      "table_file": "src/tables/table-21.yaml"
+    },
+    {
+      "instrumented_cells": 240,
+      "rows": 60,
+      "table_file": "src/tables/table-22.yaml"
+    },
+    {
+      "instrumented_cells": 124,
+      "rows": 31,
+      "table_file": "src/tables/table-23.yaml"
+    },
+    {
+      "instrumented_cells": 32,
+      "rows": 8,
+      "table_file": "src/tables/table-24.yaml"
+    },
+    {
+      "instrumented_cells": 18,
+      "rows": 6,
+      "table_file": "src/tables/table-25.yaml"
+    },
+    {
+      "instrumented_cells": 60,
+      "rows": 10,
+      "table_file": "src/tables/table-26.yaml"
+    }
+  ],
+  "total_instrumented_cells": 2055,
+  "total_rows": 401
+}

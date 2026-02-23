@@ -1,0 +1,2 @@
+uv run python make.py build
+status=pass

@@ -1,0 +1,9 @@
+{
+  "changes": [
+    "boost paragraph split cues around punctuation and heading boundaries",
+    "reject paragraph candidates dominated by list/table signatures",
+    "reject paragraph candidates with license/boilerplate dominance"
+  ],
+  "run_id": "pr1-20260216T044125Z",
+  "timestamp_utc": "2026-02-16T04:41:31Z"
+}

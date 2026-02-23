@@ -1,0 +1,3 @@
+:dp:`fls_e65q3iz50j6a`
+A :t:`qualifying trait` is a :t:`trait` that imposes a restriction on a
+:t:`qualified type`.

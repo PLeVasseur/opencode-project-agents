@@ -1,0 +1,22 @@
+e498c8d docs(glossary): remediate placement terms WA-007-WA-007
+4fd7d55 docs(glossary): remediate placement terms WA-013-WA-015
+ src/macros.rst                            | 4 ++--
+ src/program-structure-and-compilation.rst | 2 +-
+ src/statements.rst                        | 3 +++
+ 3 files changed, 6 insertions(+), 3 deletions(-)
+d7c8a94 docs(glossary): remediate placement terms WA-010-WA-012
+ src/functions.rst                    | 3 +++
+ src/implementations.rst              | 2 +-
+ src/ownership-and-deconstruction.rst | 3 +++
+ 3 files changed, 7 insertions(+), 1 deletion(-)
+7b8d1eb docs(glossary): remediate placement terms WA-008-WA-009
+ src/entities-and-resolution.rst | 5 ++++-
+ src/items.rst                   | 4 ++++
+ src/types-and-traits.rst        | 3 +++
+ 3 files changed, 11 insertions(+), 1 deletion(-)
+c05c97a docs(glossary): remediate placement terms WA-004-WA-006
+e1a41fe docs(glossary): remediate placement terms WA-001-WA-003
+ src/expressions.rst      | 6 +-----
+ src/types-and-traits.rst | 4 ++--
+ src/values.rst           | 4 ++++
+ 3 files changed, 7 insertions(+), 7 deletions(-)

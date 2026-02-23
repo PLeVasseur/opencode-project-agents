@@ -1,0 +1,56 @@
+{
+  "base_branch": "main",
+  "entries": [
+    {
+      "commit_sha": "a2529ca",
+      "stage_checkpoint": "C01-M2",
+      "subject": "build(sphinx): scaffold sphinx project and strict config",
+      "timestamp_utc": "2026-02-14T20:07:30Z"
+    },
+    {
+      "commit_sha": "a88d440",
+      "stage_checkpoint": "C02-M3",
+      "subject": "feat(traceability): convert source placeholders to myst directives and metadata preface syntax",
+      "timestamp_utc": "2026-02-14T20:07:30Z"
+    },
+    {
+      "commit_sha": "b7357cc",
+      "stage_checkpoint": "C03-M4-M5",
+      "subject": "feat(traceability): add fls-style trace domain and statement-unit instrumentation enforcement",
+      "timestamp_utc": "2026-02-14T20:07:30Z"
+    },
+    {
+      "commit_sha": "3da6523",
+      "stage_checkpoint": "C04-M6",
+      "subject": "feat(traceability): integrate yaml iso-table directive and table trace validators",
+      "timestamp_utc": "2026-02-14T20:07:30Z"
+    },
+    {
+      "commit_sha": "417dab2",
+      "stage_checkpoint": "C05-M7-M8",
+      "subject": "feat(traceability): enforce anchor integrity and strict lint consistency gates",
+      "timestamp_utc": "2026-02-14T20:07:30Z"
+    },
+    {
+      "commit_sha": "152f2ea",
+      "stage_checkpoint": "C06-M9-M10",
+      "subject": "feat(traceability): add coverage exports and make.py sphinx orchestration contract",
+      "timestamp_utc": "2026-02-14T20:07:30Z"
+    },
+    {
+      "commit_sha": "9ca0551",
+      "stage_checkpoint": "C07-M11-M12",
+      "subject": "docs(remediation): execute critique-aligned updates with instrumentation freeze",
+      "timestamp_utc": "2026-02-14T20:07:31Z"
+    },
+    {
+      "commit_sha": "2907d91",
+      "stage_checkpoint": "C08-M13-M14",
+      "subject": "docs(migration): finalize cutover, closeout reports, and legacy retirement",
+      "timestamp_utc": "2026-02-14T20:07:31Z"
+    }
+  ],
+  "run_id": "20260214T184350Z",
+  "schema_version": 1,
+  "target_branch": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z"
+}

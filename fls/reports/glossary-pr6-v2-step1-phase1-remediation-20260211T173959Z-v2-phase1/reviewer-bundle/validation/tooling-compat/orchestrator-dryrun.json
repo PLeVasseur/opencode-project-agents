@@ -1,0 +1,40 @@
+{
+  "status": "pass",
+  "dryrun": {
+    "summary_file": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-dryrun-run/orchestrator-summary.json",
+    "first_batch_line": "=== batch-001 WA: WA-001 .. WA-015 (15 IDs) ===",
+    "remaining_parent_ids_head": [
+      "WA-001",
+      "WA-002",
+      "WA-003",
+      "WA-004",
+      "WA-005",
+      "WA-006",
+      "WA-007",
+      "WA-008",
+      "WA-009",
+      "WA-010",
+      "WA-011",
+      "WA-012",
+      "WA-013",
+      "WA-014",
+      "WA-015",
+      "WB-001",
+      "WB-002",
+      "WB-003",
+      "WB-004",
+      "WB-005"
+    ],
+    "gate_b_plus_status": "not-evaluated"
+  },
+  "gate_b_plus_probe": {
+    "summary_file": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run/orchestrator-summary.json",
+    "gate_b_plus_status": "blocked-missing-v3",
+    "blocked_file": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run/gate-b-plus-blocked.json",
+    "missing_v3_artifacts": [
+      "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run/inputs/v3/fls-pr6-updated-analysis-v3.md",
+      "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run/inputs/v3/fls-pr6-placement-fitness-v3.json",
+      "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-step1-phase1-remediation-20260211T173959Z-v2-phase1/validation/tooling-compat/orchestrator-gate-bplus-run/inputs/v3/fls-pr6-definition-divergence-v3.json"
+    ]
+  }
+}

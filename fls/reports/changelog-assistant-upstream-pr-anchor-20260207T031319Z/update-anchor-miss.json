@@ -1,0 +1,11 @@
+{
+  "release": "1.93.0",
+  "base": "eaafc97e1db8f4a3d153db1abe96ececacf1be2c",
+  "changed_src_files": [],
+  "tags": [],
+  "changes": [],
+  "update_action": "append",
+  "anchored_pr_url": null,
+  "anchored_entry_line": null,
+  "anchored_entry_index": null
+}

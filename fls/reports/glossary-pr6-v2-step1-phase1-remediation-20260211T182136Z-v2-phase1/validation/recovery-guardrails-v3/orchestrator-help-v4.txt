@@ -1,0 +1,110 @@
+usage: glossary-batch-orchestrator-v3.py [-h] [--workdir WORKDIR]
+                                         [--expected-branch EXPECTED_BRANCH]
+                                         [--batch-size-wa BATCH_SIZE_WA]
+                                         [--batch-size-wb BATCH_SIZE_WB]
+                                         [--batch-size-wc BATCH_SIZE_WC]
+                                         [--batch-size-wd BATCH_SIZE_WD]
+                                         [--max-batches MAX_BATCHES]
+                                         [--run-id RUN_ID]
+                                         [--remediation-dir REMEDIATION_DIR]
+                                         [--session-id SESSION_ID]
+                                         [--attach-url ATTACH_URL]
+                                         [--model MODEL] [--agent AGENT]
+                                         [--opencode-bin OPENCODE_BIN]
+                                         [--checklist CHECKLIST]
+                                         [--seed-ledger SEED_LEDGER]
+                                         [--baseline-reference BASELINE_REFERENCE]
+                                         [--placement-json PLACEMENT_JSON]
+                                         [--divergence-json DIVERGENCE_JSON]
+                                         [--reason-rubric REASON_RUBRIC]
+                                         [--rationale-writer RATIONALE_WRITER]
+                                         [--rationale-analyzer RATIONALE_ANALYZER]
+                                         [--validator VALIDATOR]
+                                         [--manual-plan MANUAL_PLAN]
+                                         [--events-jsonl EVENTS_JSONL]
+                                         [--strict-baseline-json STRICT_BASELINE_JSON]
+                                         [--strict-current-json STRICT_CURRENT_JSON]
+                                         [--strict-command-template STRICT_COMMAND_TEMPLATE]
+                                         [--strict-max-missing STRICT_MAX_MISSING]
+                                         [--strict-waiver-file STRICT_WAIVER_FILE]
+                                         [--glossary-file GLOSSARY_FILE]
+                                         [--min-glossary-similarity MIN_GLOSSARY_SIMILARITY]
+                                         [--min-promote-similarity MIN_PROMOTE_SIMILARITY]
+                                         [--glossary-ack-json GLOSSARY_ACK_JSON]
+                                         [--diff-mode {head}]
+                                         [--wa-quality-gate-json WA_QUALITY_GATE_JSON]
+                                         [--enforce-recovery-guardrails]
+                                         [--state-file STATE_FILE]
+                                         [--commit-prefix COMMIT_PREFIX]
+                                         [--allow-dirty]
+                                         [--allow-empty-commit]
+                                         [--pause-seconds PAUSE_SECONDS]
+                                         [--extra-check EXTRA_CHECK]
+                                         [--permission-override PERMISSION_OVERRIDE]
+                                         [--dry-run] [--skip-final-validator]
+                                         [--stream-opencode-output]
+                                         [--retry-quarantine]
+
+Run v3 Step1/Phase1 remediation in wave-aware OpenCode batches
+
+options:
+  -h, --help            show this help message and exit
+  --workdir WORKDIR     Target git worktree directory
+  --expected-branch EXPECTED_BRANCH
+                        Expected git branch in target worktree
+  --batch-size-wa BATCH_SIZE_WA
+  --batch-size-wb BATCH_SIZE_WB
+  --batch-size-wc BATCH_SIZE_WC
+  --batch-size-wd BATCH_SIZE_WD
+  --max-batches MAX_BATCHES
+  --run-id RUN_ID
+  --remediation-dir REMEDIATION_DIR
+  --session-id SESSION_ID
+  --attach-url ATTACH_URL
+  --model MODEL
+  --agent AGENT
+  --opencode-bin OPENCODE_BIN
+  --checklist CHECKLIST
+  --seed-ledger SEED_LEDGER
+  --baseline-reference BASELINE_REFERENCE
+  --placement-json PLACEMENT_JSON
+  --divergence-json DIVERGENCE_JSON
+  --reason-rubric REASON_RUBRIC
+  --rationale-writer RATIONALE_WRITER
+  --rationale-analyzer RATIONALE_ANALYZER
+  --validator VALIDATOR
+  --manual-plan MANUAL_PLAN
+  --events-jsonl EVENTS_JSONL
+  --strict-baseline-json STRICT_BASELINE_JSON
+  --strict-current-json STRICT_CURRENT_JSON
+  --strict-command-template STRICT_COMMAND_TEMPLATE
+                        Template command for strict phase checks; must include
+                        {report}
+  --strict-max-missing STRICT_MAX_MISSING
+  --strict-waiver-file STRICT_WAIVER_FILE
+  --glossary-file GLOSSARY_FILE
+                        Glossary file path for definition alignment checks
+  --min-glossary-similarity MIN_GLOSSARY_SIMILARITY
+                        Minimum glossary/chapter similarity before mismatch
+                        warning/failure
+  --min-promote-similarity MIN_PROMOTE_SIMILARITY
+                        Minimum similarity required for
+                        definition_operation=promote
+  --glossary-ack-json GLOSSARY_ACK_JSON
+                        Optional reviewer acknowledgment JSON for known
+                        glossary mismatches
+  --diff-mode {head}    Diff evaluation mode for insert truth checks
+  --wa-quality-gate-json WA_QUALITY_GATE_JSON
+                        Reviewer gate artifact required before Wave B starts
+  --enforce-recovery-guardrails
+  --state-file STATE_FILE
+  --commit-prefix COMMIT_PREFIX
+  --allow-dirty
+  --allow-empty-commit
+  --pause-seconds PAUSE_SECONDS
+  --extra-check EXTRA_CHECK
+  --permission-override PERMISSION_OVERRIDE
+  --dry-run
+  --skip-final-validator
+  --stream-opencode-output
+  --retry-quarantine    Include open quarantine IDs in batch selection

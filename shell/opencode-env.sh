@@ -4,21 +4,27 @@ opencode_set_config() {
   local root repo config config_dir
   root="$(git rev-parse --show-toplevel 2>/dev/null)" || {
     unset OPENCODE_CONFIG
+    unset OPENCODE_CONFIG_DIR
     return
   }
   repo="$(basename "$root")"
-  config="$HOME/opencode-project-agents/$repo/opencode.jsonc"
   config_dir="$HOME/opencode-project-agents/$repo"
+  config="$config_dir/opencode.jsonc"
+
+  if command -v opencode-bootstrap >/dev/null 2>&1; then
+    opencode-bootstrap
+  fi
+
+  if [ -d "$config_dir" ]; then
+    export OPENCODE_CONFIG_DIR="$config_dir"
+  else
+    unset OPENCODE_CONFIG_DIR
+  fi
+
   if [ -f "$config" ]; then
     export OPENCODE_CONFIG="$config"
-    if [ -d "$config_dir" ]; then
-      export OPENCODE_CONFIG_DIR="$config_dir"
-    else
-      unset OPENCODE_CONFIG_DIR
-    fi
   else
     unset OPENCODE_CONFIG
-    unset OPENCODE_CONFIG_DIR
   fi
 }
 

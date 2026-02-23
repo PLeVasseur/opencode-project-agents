@@ -1,0 +1,27 @@
+verify-html-diff report
+
+mode: refs
+left: 6716db3a49cfbffa30ccac3a51cf76ebd9ab60a7
+right: 1132eb4c632c0d1b65bc7000d9bced2fca3842bd
+
+result: no differences under configured comparison policy.
+
+policy:
+- strict byte-for-byte file comparison
+- paragraph-ids.json compared by normalized logical content (sorted structure)
+- searchindex.js compared by normalized JSON payload (ferrocene_spec envversion ignored)
+- .buildinfo compares config; tags differences are ignored
+
+only in left:
+- (none)
+
+only in right:
+- (none)
+
+changed files:
+- (none)
+
+special comparisons:
+- .buildinfo: config matches
+- paragraph-ids.json: normalized content matches
+- searchindex.js: normalized content matches (ferrocene_spec envversion ignored)

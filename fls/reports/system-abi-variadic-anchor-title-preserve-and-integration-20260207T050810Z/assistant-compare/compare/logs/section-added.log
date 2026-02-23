@@ -1,0 +1,13 @@
+case: section-added
+mode: compare
+base fixture: tools/changelog_tag_fixtures/comparator/section-added/base.json
+head fixture: tools/changelog_tag_fixtures/comparator/section-added/head.json
+
+observed tags:
+- section-added
+
+missing required tags:
+- <none>
+
+present forbidden tags:
+- <none>

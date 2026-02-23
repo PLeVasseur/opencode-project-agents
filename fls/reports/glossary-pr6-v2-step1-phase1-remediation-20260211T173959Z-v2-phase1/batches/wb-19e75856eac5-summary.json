@@ -1,0 +1,18 @@
+{
+  "wave": "WB",
+  "commit_hash": "19e75856eac5694e5d613c7c59b429848d333992",
+  "term_count": 3,
+  "checklist_ids": [
+    "WB-007",
+    "WB-083",
+    "WB-089"
+  ],
+  "terms": [
+    "undefined behavior",
+    "qualifying trait",
+    "base initializer"
+  ],
+  "final_quality_counts": {
+    "resolved-exception": 3
+  }
+}

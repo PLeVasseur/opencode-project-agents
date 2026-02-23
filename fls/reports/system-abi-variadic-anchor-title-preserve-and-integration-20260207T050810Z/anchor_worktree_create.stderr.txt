@@ -1,0 +1,1 @@
+Preparing worktree (new branch 'changelog-assistant-upstream-pr-anchor-title-preserve-on-dedupe')

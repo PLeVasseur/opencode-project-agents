@@ -1,0 +1,27 @@
+diff --git a/src/changelog.rst b/src/changelog.rst
+index e9baad4..3b674a4 100644
+--- a/src/changelog.rst
++++ b/src/changelog.rst
+@@ -26,7 +26,10 @@ Language changes in Rust 1.93.0
+ 
+   - No change: the target is outside the scope of FLS
+ 
+-- `Stabilize declaration of C-style variadic functions for the system ABI <https://github.com/rust-lang/rust/pull/145954>`_
++- `Anchor replace validation <https://github.com/rust-lang/rust/pull/145954>`_
++
++  - Change tags: 
++
+ - `Emit error when using some keyword as a cfg predicate <https://github.com/rust-lang/rust/pull/146978>`_
+ 
+   - No change: this bug was not documented in FLS
+@@ -51,6 +54,10 @@ Language changes in Rust 1.93.0
+ 
+   - Lints are outside the scope of FLS
+ 
++- `Anchor miss append validation <https://github.com/rust-lang/rust/pull/999999>`_
++
++  - Change tags: 
++
+ Language changes in Rust 1.92.0
+ -------------------------------
+ 

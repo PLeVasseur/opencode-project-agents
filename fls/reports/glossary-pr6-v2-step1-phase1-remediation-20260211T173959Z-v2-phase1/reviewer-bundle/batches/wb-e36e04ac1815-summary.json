@@ -1,0 +1,38 @@
+{
+  "wave": "WB",
+  "commit_hash": "e36e04ac1815930f9dbabd6de3f8c0bcc1a55d7e",
+  "term_count": 13,
+  "checklist_ids": [
+    "WB-006",
+    "WB-008",
+    "WB-018",
+    "WB-022",
+    "WB-025",
+    "WB-029",
+    "WB-030",
+    "WB-031",
+    "WB-036",
+    "WB-042",
+    "WB-059",
+    "WB-071",
+    "WB-082"
+  ],
+  "terms": [
+    "container operand",
+    "code point",
+    "associated trait constant",
+    "field index",
+    "enum variant value",
+    "function body",
+    "attribute content",
+    "borrowed",
+    "dangling",
+    "[unifiable type]s",
+    "function",
+    "arity",
+    "c"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 13
+  }
+}

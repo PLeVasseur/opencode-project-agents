@@ -1,0 +1,1243 @@
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/AGENTS.md
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/plans/glossary-migration-phase2.md
+[91m[1m| [0m[90m Bash     [0mShow OPENCODE_CONFIG_DIR value
+
+/home/pete.levasseur/opencode-project-agents/fls
+
+[94m[1m| [0m[90m skill    [0mLoaded skill: fls-glossary-definitions
+[96m[1m| [0m[90m Read     [0m../../opencode-project-agents/fls/glossary-term-map.py
+[91m[1m| [0m[90m Bash     [0mCheck terms exist in static glossary
+
+missing: []
+
+[94m[1m| [0m[90m Grep     [0m\bborrow\b
+[96m[1m| [0m[90m Read     [0msrc/ownership-and-deconstruction.rst
+[94m[1m| [0m[90m Grep     [0m\bborrowed\b
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0m:dt:`borrowed`|:t:`borrowed` is
+[94m[1m| [0m[90m Grep     [0m\bbound pattern\b|\bbound\b
+[96m[1m| [0m[90m Read     [0msrc/patterns.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mbreak expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mbuilt-in attribute|built-in trait
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[96m[1m| [0m[90m Read     [0msrc/attributes.rst
+[94m[1m| [0m[90m Grep     [0mbuilt-in trait
+[94m[1m| [0m[90m Grep     [0mbuilt-in trait
+[94m[1m| [0m[90m Grep     [0mbyte literal|byte string literal|c string literal|C signed int type|C representation|\bC\b
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/lexical-elements.rst
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mc signed int type
+[94m[1m| [0m[90m Grep     [0m:t:`C` is|:dt:`C`|\bC language\b
+[94m[1m| [0m[90m Grep     [0mcall expression
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[94m[1m| [0m[90m Grep     [0mCall conformance
+[94m[1m| [0m[90m Grep     [0m^Traits$|^Trait
+[96m[1m| [0m[90m Read     [0msrc/types-and-traits.rst
+[94m[1m| [0m[90m Grep     [0mconformance
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for borrowing
+
+.. glossary-entry:: borrowing
+   
+   :glossary:
+     :dp:`fls_2epblwd2slp8`
+     :dt:`Borrowing` is the process of temporarily associating a :t:`reference` with
+     a :t:`value` without transferring :t:`ownership` permanently.
+   :chapter:
+     :dp:`fls_c02flohk54pc`
+     :t:`Borrowing` is the process of temporarily associating a :t:`reference` with a
+     :t:`value` without transferring :t:`ownership` permanently.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for borrow
+
+.. glossary-entry:: borrow
+   
+   :glossary:
+     :dp:`fls_2tpbdddvrl2f`
+     A :dt:`borrow` is a :t:`reference` produced by :t:`borrowing`.
+   :chapter:
+     :dp:`fls_j9kof0px3l7s`
+     A :t:`borrow` is a :t:`reference` produced by :t:`borrowing`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/ownership-and-deconstruction.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for borrow expression
+
+.. glossary-entry:: borrow expression
+   
+   :glossary:
+     :dp:`fls_2f55piwg78ru`
+     A :dt:`borrow expression` is an :t:`expression` that borrows the :t:`value`
+     of its :t:`operand` and creates a :t:`reference` to the memory location of its
+     operand.
+     
+     :dp:`fls_c3hydbp2exok`
+     See :s:`BorrowExpression`.
+   :chapter:
+     :dp:`fls_nnqfkl228hjx`
+     A :t:`borrow expression` is an :t:`expression` that borrows the :t:`value` of
+     its :t:`operand` and creates a :t:`reference` to the memory location of its
+     :t:`operand`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for borrowed
+
+.. glossary-entry:: borrowed
+   
+   :glossary:
+     :dp:`fls_3gnps2s95ck4`
+     A memory location is :dt:`borrowed` when a :t:`reference` pointing to it is
+     :t:`active`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for bound pattern
+
+.. glossary-entry:: bound pattern
+   
+   :glossary:
+     :dp:`fls_uusfbosjwyd1`
+     A :dt:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
+     :t:`identifier pattern`.
+     
+     :dp:`fls_oszhit2crxzc`
+     See :s:`BoundPattern`.
+   :chapter:
+     :dp:`fls_vy9uw586wy0d`
+     A :t:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
+     :t:`identifier pattern`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/patterns.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for bound
+
+.. glossary-entry:: bound
+   
+   :glossary:
+     :dp:`fls_q6mxhn1fxjs6`
+     A :dt:`bound` imposes a constraint on a :t:`generic parameter` by limiting the
+     set of possible :t:`[generic substitution]s`.
+     
+     :dp:`fls_rxabhhigp5uy`
+     See :s:`TypeBound`.
+   :chapter:
+     :dp:`fls_5g508z6c7q5f`
+     A :t:`bound` imposes a constraint on a :t:`generic parameter` by limiting the
+     set of possible :t:`[generic substitution]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for break expression
+
+.. glossary-entry:: break expression
+   
+   :glossary:
+     :dp:`fls_8ys8hlqgizoa`
+     A :dt:`break expression` is an :t:`expression` that terminates a
+     :t:`loop expression` or a :t:`named block expression`.
+     
+     :dp:`fls_fd1xpst5fki2`
+     See :s:`BreakExpression`.
+   :chapter:
+     :dp:`fls_i5ko1t2wbgxe`
+     A :t:`break expression` is an :t:`expression` that terminates a
+     :t:`loop expression` or a :t:`named block expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for break type
+
+.. glossary-entry:: break type
+   
+   :glossary:
+     :dp:`fls_jvm1vsqmslxn`
+     :dt:`Break type` is the :t:`type` of the :t:`operand` of a
+     :t:`break expression`.
+   :chapter:
+     :dp:`fls_1wdybpfldj7q`
+     :t:`Break type` is the :t:`type` of the :t:`operand` of a :t:`break expression`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for break value
+
+.. glossary-entry:: break value
+   
+   :glossary:
+     :dp:`fls_kpka4jf2qr5l`
+     :dt:`Break value` is the :t:`value` of the :t:`operand` of a
+     :t:`break expression`.
+   :chapter:
+     :dp:`fls_bgd7d5q69q0g`
+     :t:`Break value` is the :t:`value` of the :t:`operand` of a
+     :t:`break expression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for built-in attribute
+
+.. glossary-entry:: built-in attribute
+   
+   :glossary:
+     :dp:`fls_a40rclur4orm`
+     A :dt:`built-in attribute` is a language-defined :t:`attribute`.
+     
+     :dp:`fls_ooq5g8zffyfb`
+     See :s:`InnerBuiltinAttribute`, :s:`OuterBuiltinAttribute`.
+   :chapter:
+     :dp:`fls_92tqo8uas8kd`
+     A :t:`built-in attribute` is a language-defined :t:`attribute`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/attributes.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for byte literal
+
+.. glossary-entry:: byte literal
+   
+   :glossary:
+     :dp:`fls_l67oo0u12zjb`
+     A :dt:`byte literal` is a :t:`literal` that denotes a fixed byte :t:`value`.
+     
+     :dp:`fls_iu9twvm648dx`
+     See :s:`ByteLiteral`.
+   :chapter:
+     :dp:`fls_q0qwr83frszx`
+     A :t:`byte literal` is a :t:`literal` that denotes a fixed byte :t:`value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for byte string literal
+
+.. glossary-entry:: byte string literal
+   
+   :glossary:
+     :dp:`fls_my4r1l3ilyt2`
+     A :dt:`byte string literal` is a :t:`literal` that consists of multiple
+     :s:`[AsciiCharacter]s`.
+     
+     :dp:`fls_4yhag19z61bl`
+     See :s:`ByteStringLiteral`.
+   :chapter:
+     :dp:`fls_t63zfv5JdUhj`
+     A :t:`byte string literal` is a :t:`literal` that consists of multiple
+     :s:`[AsciiCharacter]s`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for c string literal
+
+.. glossary-entry:: c string literal
+   
+   :glossary:
+     :dp:`fls_g3NHtaOhTB7g`
+     A :dt:`c string literal` is a :t:`literal` that consists of multiple characters
+     with an implicit 0x00 byte appended to it.
+     
+     :dp:`fls_FZ6QSpjmVme5`
+     See :s:`CStringLiteral`.
+   :chapter:
+     :dp:`fls_VKCW830CzhhN`
+     A :t:`c string literal` is a :t:`literal` that consists of multiple characters
+     with an implicit 0x00 byte appended to it.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/lexical-elements.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for C representation
+
+.. glossary-entry:: C representation
+   
+   :glossary:
+     :dp:`fls_g9pdb06m5fto`
+     :dt:`C representation` is a :t:`type representation` that lays out :t:`[type]s`
+     such that they are interoperable with the :t:`C` language.
+   :chapter:
+     :dp:`fls_8s1vddh8vdhy`
+     :t:`C representation` lays out a :t:`type` such that the :t:`type` is
+     interoperable with the :t:`C` language.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for C
+
+.. glossary-entry:: C
+   
+   :glossary:
+     :dp:`fls_d4q2ro4nsnop`
+     :dt:`C` is the programming language described in the ISO/IEC 9899:2018
+     International Standard.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for C signed int type
+
+.. glossary-entry:: C signed int type
+   
+   :glossary:
+     :dp:`fls_8QIcvapJehqY`
+     :dt:`C signed int type` is the `signed int` :t:`type` of the :t:`C` language.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for built-in trait
+
+.. glossary-entry:: built-in trait
+   
+   :glossary:
+     :dp:`fls_IgzD9l8o6R50`
+     A :dt:`built-in trait` is a language-defined :t:`trait`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for Call conformance
+
+.. glossary-entry:: Call conformance
+   
+   :glossary:
+     :dp:`fls_Jr1gUX7Ju4Oh`
+     :dt:`Call conformance` measures the compatibility between a set of
+     :t:`[argument operand]s` and a set if :t:`[function parameter]s` or
+     :t:`[field]s`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/types-and-traits.rst
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for call expression
+
+.. glossary-entry:: call expression
+   
+   :glossary:
+     :dp:`fls_a9ap0tyk2eou`
+     A :dt:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple struct value` or :t:`tuple enum variant value`.
+     
+     :dp:`fls_aibti9uqrmmd`
+     See :s:`CallExpression`.
+   :chapter:
+     :dp:`fls_fvgfx17ossd9`
+     A :t:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
+     
+     .. glossary-entry:: argument operand
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for call operand
+
+.. glossary-entry:: call operand
+   
+   :glossary:
+     :dp:`fls_cqnko94y4xbs`
+     A :dt:`call operand` is the :t:`function` being invoked or the
+     :t:`tuple struct value` or :t:`tuple enum variant value` being constructed by a
+     :t:`call expression`.
+     
+     :dp:`fls_w6wu4wi6srjj`
+     See :s:`CallOperand`.
+   :chapter:
+     :dp:`fls_7ql1c71eidg8`
+     A :t:`call operand` is the :t:`function` being invoked or the
+     :t:`tuple enum variant value` or the :t:`tuple struct value` being constructed
+     by a :t:`call expression`.
+     
+     .. glossary-entry:: adjusted call operand
+        
+        :glossary:
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry block for call expression
+
+.. glossary-entry:: call expression
+   
+   :glossary:
+     :dp:`fls_a9ap0tyk2eou`
+     A :dt:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple struct value` or :t:`tuple enum variant value`.
+     
+     :dp:`fls_aibti9uqrmmd`
+     See :s:`CallExpression`.
+   :chapter:
+     :dp:`fls_fvgfx17ossd9`
+     A :t:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
+     
+     .. glossary-entry:: argument operand
+        
+        :glossary:
+
+[96m[1m| [0m[90m Read     [0msrc/expressions.rst
+[96m[1m| [0m[90m Read     [0mgenerate-glossary-entry.py
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for call expression with manual chapter lines
+
+/bin/bash: line 1: fls_fvgfx17ossd9: command not found
+/bin/bash: line 1: call: command not found
+/bin/bash: line 1: expression: command not found
+/bin/bash: command substitution: line 1: syntax error near unexpected token `newline'
+/bin/bash: command substitution: line 1: `function'
+/bin/bash: line 1: tuple: command not found
+/bin/bash: line 1: tuple: command not found
+.. glossary-entry:: call expression
+   
+   :glossary:
+     :dp:`fls_a9ap0tyk2eou`
+     A :dt:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple struct value` or :t:`tuple enum variant value`.
+     
+     :dp:`fls_aibti9uqrmmd`
+     See :s:`CallExpression`.
+   :chapter:
+     :dp:
+     A :t: is an :t: that invokes a :t: or
+     constructs a :t: or a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for call operand with manual chapter lines
+
+/bin/bash: line 1: fls_7ql1c71eidg8: command not found
+/bin/bash: line 1: call: command not found
+/bin/bash: command substitution: line 1: syntax error near unexpected token `newline'
+/bin/bash: command substitution: line 1: `function'
+/bin/bash: line 1: tuple: command not found
+/bin/bash: line 1: tuple: command not found
+/bin/bash: line 1: call: command not found
+.. glossary-entry:: call operand
+   
+   :glossary:
+     :dp:`fls_cqnko94y4xbs`
+     A :dt:`call operand` is the :t:`function` being invoked or the
+     :t:`tuple struct value` or :t:`tuple enum variant value` being constructed by a
+     :t:`call expression`.
+     
+     :dp:`fls_w6wu4wi6srjj`
+     See :s:`CallOperand`.
+   :chapter:
+     :dp:
+     A :t: is the :t: being invoked or the
+     :t: or the :t: being constructed
+     by a :t:.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for call expression with literal chapter lines
+
+.. glossary-entry:: call expression
+   
+   :glossary:
+     :dp:`fls_a9ap0tyk2eou`
+     A :dt:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple struct value` or :t:`tuple enum variant value`.
+     
+     :dp:`fls_aibti9uqrmmd`
+     See :s:`CallExpression`.
+   :chapter:
+     :dp:`fls_fvgfx17ossd9`
+     A :t:`call expression` is an :t:`expression` that invokes a :t:`function` or
+     constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
+
+[91m[1m| [0m[90m Bash     [0mGenerate glossary-entry for call operand with literal chapter lines
+
+.. glossary-entry:: call operand
+   
+   :glossary:
+     :dp:`fls_cqnko94y4xbs`
+     A :dt:`call operand` is the :t:`function` being invoked or the
+     :t:`tuple struct value` or :t:`tuple enum variant value` being constructed by a
+     :t:`call expression`.
+     
+     :dp:`fls_w6wu4wi6srjj`
+     See :s:`CallOperand`.
+   :chapter:
+     :dp:`fls_7ql1c71eidg8`
+     A :t:`call operand` is the :t:`function` being invoked or the
+     :t:`tuple enum variant value` or the :t:`tuple struct value` being constructed
+     by a :t:`call expression`.
+
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M src/expressions.rst
+[94m[1m| [0m[90m apply_patch  [0mSuccess. Updated the following files:
+M ../../opencode-project-agents/fls/plans/glossary-migration-checklist.md
+[91m[1m| [0m[90m Bash     [0mAppend term-map entries for migrated terms
+[91m[1m| [0m[90m Bash     [0mRegenerate glossary, diff, and verify HTML
+
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt
+
+[91m[1m| [0m[90m Bash     [0mShow working tree status
+
+ M src/attributes.rst
+ M src/expressions.rst
+ M src/lexical-elements.rst
+ M src/ownership-and-deconstruction.rst
+ M src/patterns.rst
+ M src/types-and-traits.rst
+
+[91m[1m| [0m[90m Bash     [0mShow unstaged diff
+
+diff --git a/src/attributes.rst b/src/attributes.rst
+index dbab029..6b0f7ac 100644
+--- a/src/attributes.rst
++++ b/src/attributes.rst
+@@ -188,8 +188,17 @@ Built-in Attributes
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_92tqo8uas8kd`
+-A :t:`built-in attribute` is a language-defined :t:`attribute`.
++.. glossary-entry:: built-in attribute
++   
++   :glossary:
++     :dp:`fls_a40rclur4orm`
++     A :dt:`built-in attribute` is a language-defined :t:`attribute`.
++     
++     :dp:`fls_ooq5g8zffyfb`
++     See :s:`InnerBuiltinAttribute`, :s:`OuterBuiltinAttribute`.
++   :chapter:
++     :dp:`fls_92tqo8uas8kd`
++     A :t:`built-in attribute` is a language-defined :t:`attribute`.
+ 
+ :dp:`fls_bxucstrfcco8`
+ The following :t:`[built-in attribute]s` are :dt:`[code generation attribute]s`:
+diff --git a/src/expressions.rst b/src/expressions.rst
+index a5a72c0..e723d29 100644
+--- a/src/expressions.rst
++++ b/src/expressions.rst
+@@ -985,10 +985,21 @@ Borrow Expression
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_nnqfkl228hjx`
+-A :t:`borrow expression` is an :t:`expression` that borrows the :t:`value` of
+-its :t:`operand` and creates a :t:`reference` to the memory location of its
+-:t:`operand`.
++.. glossary-entry:: borrow expression
++   
++   :glossary:
++     :dp:`fls_2f55piwg78ru`
++     A :dt:`borrow expression` is an :t:`expression` that borrows the :t:`value`
++     of its :t:`operand` and creates a :t:`reference` to the memory location of its
++     operand.
++     
++     :dp:`fls_c3hydbp2exok`
++     See :s:`BorrowExpression`.
++   :chapter:
++     :dp:`fls_nnqfkl228hjx`
++     A :t:`borrow expression` is an :t:`expression` that borrows the :t:`value` of
++     its :t:`operand` and creates a :t:`reference` to the memory location of its
++     :t:`operand`.
+ 
+ :dp:`fls_r7ix8webgqlm`
+ An :t:`immutable borrow expression` is a :t:`borrow expression` that lacks
+@@ -1004,6 +1015,13 @@ the :t:`borrow expression` produces a :t:`reference` to the memory location
+ indicated by the :t:`operand`. The memory location is placed in a borrowed
+ state, or simply :t:`borrowed`.
+ 
++.. glossary-entry:: borrowed
++   
++   :glossary:
++     :dp:`fls_3gnps2s95ck4`
++     A memory location is :dt:`borrowed` when a :t:`reference` pointing to it is
++     :t:`active`.
++
+ :dp:`fls_chr03xll75d`
+ The :t:`type` of a :t:`borrow expression` is determined as follows:
+ 
+@@ -3620,9 +3638,19 @@ Call Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_fvgfx17ossd9`
+-A :t:`call expression` is an :t:`expression` that invokes a :t:`function` or
+-constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
++.. glossary-entry:: call expression
++   
++   :glossary:
++     :dp:`fls_a9ap0tyk2eou`
++     A :dt:`call expression` is an :t:`expression` that invokes a :t:`function` or
++     constructs a :t:`tuple struct value` or :t:`tuple enum variant value`.
++     
++     :dp:`fls_aibti9uqrmmd`
++     See :s:`CallExpression`.
++   :chapter:
++     :dp:`fls_fvgfx17ossd9`
++     A :t:`call expression` is an :t:`expression` that invokes a :t:`function` or
++     constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
+ 
+ .. glossary-entry:: argument operand
+    
+@@ -3635,10 +3663,29 @@ constructs a :t:`tuple enum variant value` or a :t:`tuple struct value`.
+      An :t:`argument operand` is an :t:`operand` which is used as an argument in a
+      :t:`call expression` or a :t:`method call expression`.
+ 
+-:dp:`fls_7ql1c71eidg8`
+-A :t:`call operand` is the :t:`function` being invoked or the
+-:t:`tuple enum variant value` or the :t:`tuple struct value` being constructed
+-by a :t:`call expression`.
++.. glossary-entry:: call operand
++   
++   :glossary:
++     :dp:`fls_cqnko94y4xbs`
++     A :dt:`call operand` is the :t:`function` being invoked or the
++     :t:`tuple struct value` or :t:`tuple enum variant value` being constructed by a
++     :t:`call expression`.
++     
++     :dp:`fls_w6wu4wi6srjj`
++     See :s:`CallOperand`.
++   :chapter:
++     :dp:`fls_7ql1c71eidg8`
++     A :t:`call operand` is the :t:`function` being invoked or the
++     :t:`tuple enum variant value` or the :t:`tuple struct value` being constructed
++     by a :t:`call expression`.
++
++.. glossary-entry:: Call conformance
++   
++   :glossary:
++     :dp:`fls_Jr1gUX7Ju4Oh`
++     :dt:`Call conformance` measures the compatibility between a set of
++     :t:`[argument operand]s` and a set if :t:`[function parameter]s` or
++     :t:`[field]s`.
+ 
+ .. glossary-entry:: adjusted call operand
+    
+@@ -4436,9 +4483,19 @@ Break Expressions
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_i5ko1t2wbgxe`
+-A :t:`break expression` is an :t:`expression` that terminates a
+-:t:`loop expression` or a :t:`named block expression`.
++.. glossary-entry:: break expression
++   
++   :glossary:
++     :dp:`fls_8ys8hlqgizoa`
++     A :dt:`break expression` is an :t:`expression` that terminates a
++     :t:`loop expression` or a :t:`named block expression`.
++     
++     :dp:`fls_fd1xpst5fki2`
++     See :s:`BreakExpression`.
++   :chapter:
++     :dp:`fls_i5ko1t2wbgxe`
++     A :t:`break expression` is an :t:`expression` that terminates a
++     :t:`loop expression` or a :t:`named block expression`.
+ 
+ :dp:`fls_jiykbp51909f`
+ A :t:`break expression` shall appear within a :t:`loop body` or a
+@@ -4470,8 +4527,15 @@ with an :t:`infinite loop`.
+ :dp:`fls_dnnq1zym8ii0`
+ The :t:`type` of a :t:`break expression` is the :t:`never type`.
+ 
+-:dp:`fls_1wdybpfldj7q`
+-:t:`Break type` is the :t:`type` of the :t:`operand` of a :t:`break expression`.
++.. glossary-entry:: break type
++   
++   :glossary:
++     :dp:`fls_jvm1vsqmslxn`
++     :dt:`Break type` is the :t:`type` of the :t:`operand` of a
++     :t:`break expression`.
++   :chapter:
++     :dp:`fls_1wdybpfldj7q`
++     :t:`Break type` is the :t:`type` of the :t:`operand` of a :t:`break expression`.
+ 
+ :dp:`fls_8yore99adr22`
+ The :t:`break type` is determined as follows:
+@@ -4484,9 +4548,16 @@ The :t:`break type` is determined as follows:
+   If the :t:`break expression` has an :t:`operand`, then the :t:`break type` is
+   the :t:`type` of its :t:`operand`.
+ 
+-:dp:`fls_bgd7d5q69q0g`
+-:t:`Break value` is the :t:`value` of the :t:`operand` of a
+-:t:`break expression`.
++.. glossary-entry:: break value
++   
++   :glossary:
++     :dp:`fls_kpka4jf2qr5l`
++     :dt:`Break value` is the :t:`value` of the :t:`operand` of a
++     :t:`break expression`.
++   :chapter:
++     :dp:`fls_bgd7d5q69q0g`
++     :t:`Break value` is the :t:`value` of the :t:`operand` of a
++     :t:`break expression`.
+ 
+ :dp:`fls_yb8jv4mkmki0`
+ The :t:`break value` is determined as follows:
+diff --git a/src/lexical-elements.rst b/src/lexical-elements.rst
+index 75c8f20..881de13 100644
+--- a/src/lexical-elements.rst
++++ b/src/lexical-elements.rst
+@@ -590,8 +590,17 @@ return), 0x27 (apostrophe), and 0x5C (reverse solidus).
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_q0qwr83frszx`
+-A :t:`byte literal` is a :t:`literal` that denotes a fixed byte :t:`value`.
++.. glossary-entry:: byte literal
++   
++   :glossary:
++     :dp:`fls_l67oo0u12zjb`
++     A :dt:`byte literal` is a :t:`literal` that denotes a fixed byte :t:`value`.
++     
++     :dp:`fls_iu9twvm648dx`
++     See :s:`ByteLiteral`.
++   :chapter:
++     :dp:`fls_q0qwr83frszx`
++     A :t:`byte literal` is a :t:`literal` that denotes a fixed byte :t:`value`.
+ 
+ :dp:`fls_fggytrv5jvw0`
+ The :t:`type` of a :t:`byte literal` is :c:`u8`.
+@@ -619,9 +628,19 @@ Byte String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_t63zfv5JdUhj`
+-A :t:`byte string literal` is a :t:`literal` that consists of multiple
+-:s:`[AsciiCharacter]s`.
++.. glossary-entry:: byte string literal
++   
++   :glossary:
++     :dp:`fls_my4r1l3ilyt2`
++     A :dt:`byte string literal` is a :t:`literal` that consists of multiple
++     :s:`[AsciiCharacter]s`.
++     
++     :dp:`fls_4yhag19z61bl`
++     See :s:`ByteStringLiteral`.
++   :chapter:
++     :dp:`fls_t63zfv5JdUhj`
++     A :t:`byte string literal` is a :t:`literal` that consists of multiple
++     :s:`[AsciiCharacter]s`.
+ 
+ :dp:`fls_Xd6LnfzMb7t7`
+ The character sequence 0x0D 0x0A (carriage return, new line) is replaced by 0x0A
+@@ -720,9 +739,19 @@ C String Literals
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_VKCW830CzhhN`
+-A :t:`c string literal` is a :t:`literal` that consists of multiple characters
+-with an implicit 0x00 byte appended to it.
++.. glossary-entry:: c string literal
++   
++   :glossary:
++     :dp:`fls_g3NHtaOhTB7g`
++     A :dt:`c string literal` is a :t:`literal` that consists of multiple characters
++     with an implicit 0x00 byte appended to it.
++     
++     :dp:`fls_FZ6QSpjmVme5`
++     See :s:`CStringLiteral`.
++   :chapter:
++     :dp:`fls_VKCW830CzhhN`
++     A :t:`c string literal` is a :t:`literal` that consists of multiple characters
++     with an implicit 0x00 byte appended to it.
+ 
+ :dp:`fls_XJprzaEn82Xs`
+ The character sequence 0x0D 0x0A (carriage return, new line) is replaced by 0x0A
+diff --git a/src/ownership-and-deconstruction.rst b/src/ownership-and-deconstruction.rst
+index a36a28f..a75949d 100644
+--- a/src/ownership-and-deconstruction.rst
++++ b/src/ownership-and-deconstruction.rst
+@@ -154,12 +154,25 @@ Borrowing
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_c02flohk54pc`
+-:t:`Borrowing` is the process of temporarily associating a :t:`reference` with a
+-:t:`value` without transferring :t:`ownership` permanently.
+-
+-:dp:`fls_j9kof0px3l7s`
+-A :t:`borrow` is a :t:`reference` produced by :t:`borrowing`.
++.. glossary-entry:: borrowing
++   
++   :glossary:
++     :dp:`fls_2epblwd2slp8`
++     :dt:`Borrowing` is the process of temporarily associating a :t:`reference` with
++     a :t:`value` without transferring :t:`ownership` permanently.
++   :chapter:
++     :dp:`fls_c02flohk54pc`
++     :t:`Borrowing` is the process of temporarily associating a :t:`reference` with a
++     :t:`value` without transferring :t:`ownership` permanently.
++
++.. glossary-entry:: borrow
++   
++   :glossary:
++     :dp:`fls_2tpbdddvrl2f`
++     A :dt:`borrow` is a :t:`reference` produced by :t:`borrowing`.
++   :chapter:
++     :dp:`fls_j9kof0px3l7s`
++     A :t:`borrow` is a :t:`reference` produced by :t:`borrowing`.
+ 
+ :dp:`fls_zepwytjwy049`
+ An :t:`implicit borrow` is a :t:`borrow` that is not present syntactically in
+@@ -773,4 +786,3 @@ Dropping proceeds as follows:
+    drop_order(Ok([PrintOnDrop("1"), PrintOnDrop("2")]));
+ 
+    drop_order(Err([PrintOnDrop("2"), PrintOnDrop("1")]));
+-
+diff --git a/src/patterns.rst b/src/patterns.rst
+index 0e4b403..ffb213e 100644
+--- a/src/patterns.rst
++++ b/src/patterns.rst
+@@ -154,9 +154,19 @@ Identifier Patterns
+ An :t:`identifier pattern` is a :t:`pattern` that binds the :t:`value` it
+ matches to a :t:`binding`.
+ 
+-:dp:`fls_vy9uw586wy0d`
+-A :t:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
+-:t:`identifier pattern`.
++.. glossary-entry:: bound pattern
++   
++   :glossary:
++     :dp:`fls_uusfbosjwyd1`
++     A :dt:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
++     :t:`identifier pattern`.
++     
++     :dp:`fls_oszhit2crxzc`
++     See :s:`BoundPattern`.
++   :chapter:
++     :dp:`fls_vy9uw586wy0d`
++     A :t:`bound pattern` is a :t:`pattern` that imposes a constraint on a related
++     :t:`identifier pattern`.
+ 
+ :dp:`fls_hqwt3fvr063y`
+ An :t:`identifier pattern` yields a :t:`binding`. An :t:`identifier pattern`
+diff --git a/src/types-and-traits.rst b/src/types-and-traits.rst
+index e58ebb5..8f473ae 100644
+--- a/src/types-and-traits.rst
++++ b/src/types-and-traits.rst
+@@ -1581,9 +1581,23 @@ does not change the :t:`layout` of the :t:`[field]s` themselves.
+ * :dp:`fls_ergdb18tpx25`
+   :t:`Transparent representation`.
+ 
+-:dp:`fls_8s1vddh8vdhy`
+-:t:`C representation` lays out a :t:`type` such that the :t:`type` is
+-interoperable with the :t:`C` language.
++.. glossary-entry:: C
++   
++   :glossary:
++     :dp:`fls_d4q2ro4nsnop`
++     :dt:`C` is the programming language described in the ISO/IEC 9899:2018
++     International Standard.
++
++.. glossary-entry:: C representation
++   
++   :glossary:
++     :dp:`fls_g9pdb06m5fto`
++     :dt:`C representation` is a :t:`type representation` that lays out :t:`[type]s`
++     such that they are interoperable with the :t:`C` language.
++   :chapter:
++     :dp:`fls_8s1vddh8vdhy`
++     :t:`C representation` lays out a :t:`type` such that the :t:`type` is
++     interoperable with the :t:`C` language.
+ 
+ :dp:`fls_b005bktrkrxy`
+ :t:`Default representation` makes no guarantees about the :t:`layout`.
+@@ -1637,6 +1651,12 @@ The :t:`discriminant type` of an :t:`enum type` with :t:`C representation` is
+ the corresponding :t:`c signed int type` for the target platform's :t:`C`
+ :t:`ABI`.
+ 
++.. glossary-entry:: C signed int type
++   
++   :glossary:
++     :dp:`fls_8QIcvapJehqY`
++     :dt:`C signed int type` is the `signed int` :t:`type` of the :t:`C` language.
++
+ :dp:`fls_slhvf3gmqz4h`
+ The :t:`discriminant type` of an :t:`enum type` with :t:`default representation`
+ is tool-defined.
+@@ -2777,6 +2797,12 @@ Traits
+ A :t:`trait` is an :t:`item` that describes an interface a :t:`type` can
+ implement.
+ 
++.. glossary-entry:: built-in trait
++   
++   :glossary:
++     :dp:`fls_IgzD9l8o6R50`
++     A :dt:`built-in trait` is a language-defined :t:`trait`.
++
+ :dp:`fls_PiAR1B26SoZV`
+ A :t:`trait body` is a :t:`construct` that encapsulates the
+ :t:`[associated item]s`, :t:`[inner attribute]s`, and
+@@ -2972,9 +2998,19 @@ Trait and Lifetime Bounds
+ 
+ .. rubric:: Legality Rules
+ 
+-:dp:`fls_5g508z6c7q5f`
+-A :t:`bound` imposes a constraint on a :t:`generic parameter` by limiting the
+-set of possible :t:`[generic substitution]s`.
++.. glossary-entry:: bound
++   
++   :glossary:
++     :dp:`fls_q6mxhn1fxjs6`
++     A :dt:`bound` imposes a constraint on a :t:`generic parameter` by limiting the
++     set of possible :t:`[generic substitution]s`.
++     
++     :dp:`fls_rxabhhigp5uy`
++     See :s:`TypeBound`.
++   :chapter:
++     :dp:`fls_5g508z6c7q5f`
++     A :t:`bound` imposes a constraint on a :t:`generic parameter` by limiting the
++     set of possible :t:`[generic substitution]s`.
+ 
+ :dp:`fls_BqLPVaSyyXRG`
+ A :t:`bound` does not impose a constraint on a :t:`generic parameter` of a
+
+[91m[1m| [0m[90m Bash     [0mShow recent commits
+
+48ae279 docs(glossary): migrate batch 04 entries
+e377a80 add script to generate glossary directives
+1e900d9 docs(glossary): migrate batch 03 entries
+0cc1c39 chore(build): log glossary include selection
+73607e0 docs(glossary): migrate batch 02 entries
+
+[91m[1m| [0m[90m Bash     [0mStage glossary migration files and commit
+
+[glossary-single-source-phase1 98e97a8] docs(glossary): migrate batch 05 entries
+ 6 files changed, 212 insertions(+), 45 deletions(-)
+
+Migrated the next 20 glossary terms into `.. glossary-entry::` blocks across the relevant chapters while keeping glossary output identical. Updated borrow/call/break/glossary entries in `src/expressions.rst`, borrowing in `src/ownership-and-deconstruction.rst`, bound pattern in `src/patterns.rst`, C/type representation and bounds in `src/types-and-traits.rst`, and literals/attributes in `src/lexical-elements.rst` and `src/attributes.rst`.
+
+- Commit: `98e97a8` `docs(glossary): migrate batch 05 entries`
+- Repo updates: `src/attributes.rst`, `src/expressions.rst`, `src/lexical-elements.rst`, `src/ownership-and-deconstruction.rst`, `src/patterns.rst`, `src/types-and-traits.rst`
+- Checklist updated (not committed): `/home/pete.levasseur/opencode-project-agents/fls/plans/glossary-migration-checklist.md`
+- Term-map appended (not committed): `/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-migration-phase2/term-map.jsonl`
+- HTML diff report written: `/home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt`
+
+Tests:
+- `./generate-glossary.py`
+- `diff -u build/generated.glossary.rst src/glossary.static.rst.inc`
+- `python3 /home/pete.levasseur/opencode-project-agents/fls/verify-html-diff.py`
+
+Next steps:
+1) Start the next batch of 20 terms.
+2) Push the commit to your branch.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: skipped tag='use_generated_glossary' include=../build/generated.glossary.rst
+glossary-include: using tag='not use_generated_glossary' include=/home/pete.levasseur/project/fls/src/glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+Running Sphinx v8.1.3
+loading translations [en]... done
+making output directory... done
+building [mo]: targets for 0 po files that are out of date
+writing output... 
+building [html]: targets for 28 source files that are out of date
+updating environment: [new config] 28 added, 0 changed, 0 removed
+reading sources... [  4%] associated-items
+reading sources... [  7%] attributes
+reading sources... [ 11%] background
+reading sources... [ 14%] changelog
+reading sources... [ 18%] concurrency
+reading sources... [ 21%] entities-and-resolution
+reading sources... [ 25%] exceptions-and-errors
+reading sources... [ 29%] expressions
+reading sources... [ 32%] ffi
+reading sources... [ 36%] functions
+reading sources... [ 39%] general
+reading sources... [ 43%] generics
+reading sources... [ 46%] glossary
+reading sources... [ 50%] implementations
+reading sources... [ 54%] index
+reading sources... [ 57%] inline-assembly
+reading sources... [ 61%] items
+reading sources... [ 64%] lexical-elements
+reading sources... [ 68%] licenses
+reading sources... [ 71%] macros
+reading sources... [ 75%] ownership-and-deconstruction
+reading sources... [ 79%] patterns
+reading sources... [ 82%] program-structure-and-compilation
+reading sources... [ 86%] statements
+reading sources... [ 89%] types-and-traits
+reading sources... [ 93%] undefined-behavior
+reading sources... [ 96%] unsafety
+glossary-include: using tag='use_generated_glossary' include=/home/pete.levasseur/project/fls/build/generated.glossary.rst
+glossary-include: skipped tag='not use_generated_glossary' include=glossary.static.rst.inc
+reading sources... [100%] values
+
+looking for now-outdated files... none found
+pickling environment... done
+checking consistency... done
+preparing documents... done
+copying assets... 
+copying static files... 
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/basic.css
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/documentation_options.js
+Writing evaluated template result to /home/pete.levasseur/project/fls/build/html/_static/language_data.js
+copying static files: done
+copying extra files... 
+copying extra files: done
+copying assets: done
+writing output... [  4%] attributes
+writing output... [  7%] background
+writing output... [ 11%] changelog
+writing output... [ 15%] concurrency
+writing output... [ 19%] entities-and-resolution
+writing output... [ 22%] exceptions-and-errors
+writing output... [ 26%] expressions
+writing output... [ 30%] ffi
+writing output... [ 33%] functions
+writing output... [ 37%] general
+writing output... [ 41%] generics
+writing output... [ 44%] glossary
+writing output... [ 48%] implementations
+writing output... [ 52%] index
+writing output... [ 56%] inline-assembly
+writing output... [ 59%] items
+writing output... [ 63%] lexical-elements
+writing output... [ 67%] licenses
+writing output... [ 70%] macros
+writing output... [ 74%] ownership-and-deconstruction
+writing output... [ 78%] patterns
+writing output... [ 81%] program-structure-and-compilation
+writing output... [ 85%] statements
+writing output... [ 89%] types-and-traits
+writing output... [ 93%] undefined-behavior
+writing output... [ 96%] unsafety
+writing output... [100%] values
+
+generating indices... genindex done
+writing additional pages... search done
+dumping search index in English (code: en)... done
+dumping object inventory... done
+dumping paragraph ids... done
+build succeeded.
+
+The HTML pages are in build/html.
+no differences; report written to /home/pete.levasseur/opencode-project-agents/fls/reports/html-diff.txt

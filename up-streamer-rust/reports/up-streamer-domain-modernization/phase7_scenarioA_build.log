@@ -1,0 +1,5 @@
+[0;33mSet GENERIC_CPP_STDLIB_PATH=[0;32m/usr/include/c++/14[0;0m
+[0;33mSet ARCH_SPECIFIC_CPP_STDLIB_PATH=[0;32m/usr/include/x86_64-linux-gnu/c++/14[0;0m
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.56s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.49s
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.45s

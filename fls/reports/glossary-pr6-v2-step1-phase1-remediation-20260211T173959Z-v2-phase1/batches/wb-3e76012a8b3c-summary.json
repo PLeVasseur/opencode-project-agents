@@ -1,0 +1,24 @@
+{
+  "wave": "WB",
+  "commit_hash": "3e76012a8b3c70058bfbdcddb7156b1dbd284cb0",
+  "term_count": 6,
+  "checklist_ids": [
+    "WB-005",
+    "WB-010",
+    "WB-017",
+    "WB-048",
+    "WB-049",
+    "WB-079"
+  ],
+  "terms": [
+    "variable",
+    "associated constant",
+    "unsafe context",
+    "where clause",
+    "associated function",
+    "unit enum variant"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 6
+  }
+}

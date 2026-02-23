@@ -1,0 +1,2 @@
+glossary-step-1-main-text-coverage 1c2c2b73313fb48987ed02ac044ff68cec69968e
+glossary-step-2-align-duplicate-text 9005a21f6ca30120ec15435e37acd345834fe2a2

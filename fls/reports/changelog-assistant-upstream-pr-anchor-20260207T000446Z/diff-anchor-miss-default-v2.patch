@@ -1,0 +1,18 @@
+diff --git a/src/changelog.rst b/src/changelog.rst
+index e9baad4..cc31e67 100644
+--- a/src/changelog.rst
++++ b/src/changelog.rst
+@@ -51,6 +51,13 @@ Language changes in Rust 1.93.0
+ 
+   - Lints are outside the scope of FLS
+ 
++- `Anchor miss append validation <https://github.com/rust-lang/rust/pull/999999>`_
++
++  - Change tags: paragraph-changed
++  - Changed paragraphs:
++    - :p:`fls_I9JaKZelMiby`
++    - :p:`fls_t4yeovFm83Wo`
++
+ Language changes in Rust 1.92.0
+ -------------------------------
+ 

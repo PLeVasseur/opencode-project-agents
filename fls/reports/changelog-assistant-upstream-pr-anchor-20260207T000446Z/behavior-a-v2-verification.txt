@@ -1,0 +1,6 @@
+update_action=replace
+anchored_pr_url=https://github.com/rust-lang/rust/pull/145954
+anchored_entry_line=29
+anchored_entry_index=2
+canonical_match_count=1
+canonical_match_lines=29

@@ -1,0 +1,2 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.48s
+     Running `target/debug/zenoh_subscriber --uauthority authority-b --uentity 0x5678 --uversion 0x1 --resource 0x1234 --source-authority authority-c --source-uentity 0x5BA0 --source-uversion 0x1 --source-resource 0x8001`

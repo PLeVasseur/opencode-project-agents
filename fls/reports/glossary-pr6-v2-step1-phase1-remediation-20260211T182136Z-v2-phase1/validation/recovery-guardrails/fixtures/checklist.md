@@ -1,0 +1,7 @@
+- [x] WA-001 term="value"
+  - [x] WA-001.1 before snapshot locked
+  - [x] WA-001.2 action recorded
+  - [x] WA-001.3 rationale quality pass
+  - [x] WA-001.4 semantic review fields complete
+  - [x] WA-001.5 after snapshot captured
+  - [x] WA-001.6 status finalized

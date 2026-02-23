@@ -1,0 +1,16 @@
+{
+  "canonical_checksum": "aee2e6d743982bc0f58e8f632c5c7249ea2b16926870c6d7360036c052516f44",
+  "input_hashes": {
+    "P06": "126e0fcf087860ba1822f6def83122328ca42206e0919485de13d4eacb5f9bce",
+    "P08": "77a86a9c81760dcd0428e0e46882fc66724e43b0617c21e0a8d166c369316c0c",
+    "P09": "0ead898ccdc80e420ca801eced451eae2c6740b119bc16ae0ca4da768f785e5a"
+  },
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/extract/extract-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/extract/extract-page-decisions.jsonl"
+  ],
+  "phase": 2,
+  "run_id": "20260215T143525Z",
+  "stage": "extract",
+  "timestamp_utc": "2026-02-15T14:51:49Z"
+}

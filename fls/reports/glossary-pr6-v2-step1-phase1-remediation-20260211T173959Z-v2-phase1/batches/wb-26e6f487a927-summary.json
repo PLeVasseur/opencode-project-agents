@@ -1,0 +1,32 @@
+{
+  "wave": "WB",
+  "commit_hash": "26e6f487a9270d75b1ff58d17e6bf82f81f89405",
+  "term_count": 10,
+  "checklist_ids": [
+    "WB-016",
+    "WB-019",
+    "WB-038",
+    "WB-053",
+    "WB-058",
+    "WB-060",
+    "WB-063",
+    "WB-080",
+    "WB-087",
+    "WB-088"
+  ],
+  "terms": [
+    "unit struct",
+    "union value",
+    "underscore expression",
+    "tuple enum variant",
+    "trait implementation",
+    "type path",
+    "tuple",
+    "tuple struct",
+    "tuple struct type",
+    "trait body"
+  ],
+  "final_quality_counts": {
+    "resolved-high": 10
+  }
+}

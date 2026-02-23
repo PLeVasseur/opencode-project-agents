@@ -1,0 +1,102 @@
+diff --git a/tools/verify-html-diff.py b/tools/verify-html-diff.py
+index b9b8308..334954d 100755
+--- a/tools/verify-html-diff.py
++++ b/tools/verify-html-diff.py
+@@ -29,7 +29,9 @@ def main() -> int:
+             return EXIT_ERROR
+ 
+         parser = argparse.ArgumentParser(
+-            description="Build and compare rendered HTML output under configured policy",
++            description=(
++                "Build and compare rendered HTML output under configured " "policy"
++            ),
+         )
+         parser.add_argument(
+             "--mode",
+@@ -99,7 +101,8 @@ def main() -> int:
+                 args.report,
+                 repo_root,
+                 report_root,
+-                f"verify-html-diff-refs-{sanitize_label(left_ref)}-vs-{sanitize_label(right_ref)}.txt",
++                f"verify-html-diff-refs-{sanitize_label(left_ref)}-vs-"
++                f"{sanitize_label(right_ref)}.txt",
+             )
+             with tempfile.TemporaryDirectory(
+                 prefix="verify-html-diff-refs-",
+@@ -174,9 +177,15 @@ def run_comparison_mode(
+     diff = diff_trees(left_dir, right_dir)
+     write_report(report_path, mode, left_label, right_label, diff)
+     if has_differences(diff):
+-        print(f"differences found under configured comparison policy; report written to {report_path}")
++        print(
++            "differences found under configured comparison policy; "
++            f"report written to {report_path}"
++        )
+         return EXIT_DIFFERENCES
+-    print(f"no differences under configured comparison policy; report written to {report_path}")
++    print(
++        "no differences under configured comparison policy; "
++        f"report written to {report_path}"
++    )
+     return EXIT_SUCCESS
+ 
+ 
+@@ -239,7 +248,9 @@ def export_ref(
+ 
+     cleanup_worktree_path = False
+     if worktree_dir is None:
+-        worktree_dir = Path(tempfile.mkdtemp(prefix="worktree-", dir=str(worktree_root)))
++        worktree_dir = Path(
++            tempfile.mkdtemp(prefix="worktree-", dir=str(worktree_root))
++        )
+         cleanup_worktree_path = True
+     else:
+         worktree_dir.parent.mkdir(parents=True, exist_ok=True)
+@@ -251,7 +262,10 @@ def export_ref(
+             ["git", "worktree", "remove", "--force", str(worktree_dir)],
+             cwd=repo_root,
+         )
+-        run(["git", "worktree", "add", "--detach", str(worktree_dir), ref], cwd=repo_root)
++        run(
++            ["git", "worktree", "add", "--detach", str(worktree_dir), ref],
++            cwd=repo_root,
++        )
+         worktree_added = True
+         git_wrapper_dir = worktree_dir / "build" / "verify-tools-bin"
+         git_wrapper = git_wrapper_dir / "git"
+@@ -261,11 +275,11 @@ def export_ref(
+             raise RuntimeError("missing git executable")
+         git_wrapper.write_text(
+             "#!/bin/sh\n"
+-            "if [ \"$1\" = \"rev-parse\" ] && [ \"$2\" = \"HEAD\" ] && [ -z \"$3\" ]; then\n"
++            'if [ "$1" = "rev-parse" ] && [ "$2" = "HEAD" ] && [ -z "$3" ]; then\n'
+             f"  printf '%s\\n' '{FIXED_BUILD_COMMIT}'\n"
+             "  exit 0\n"
+             "fi\n"
+-            f"exec {real_git} \"$@\"\n",
++            f'exec {real_git} "$@"\n',
+             encoding="utf-8",
+         )
+         git_wrapper.chmod(0o755)
+@@ -448,7 +462,10 @@ def compare_searchindex(left: Path, right: Path) -> dict[str, object]:
+     if left_data == right_data:
+         return {
+             "equal": True,
+-            "message": "searchindex.js: normalized content matches (ferrocene_spec envversion ignored)",
++            "message": (
++                "searchindex.js: normalized content matches "
++                "(ferrocene_spec envversion ignored)"
++            ),
+         }
+     return {
+         "equal": False,
+@@ -537,7 +554,8 @@ def write_report(
+         "- paragraph-ids.json compared by normalized logical content (sorted structure)"
+     )
+     lines.append(
+-        "- searchindex.js compared by normalized JSON payload (ferrocene_spec envversion ignored)"
++        "- searchindex.js compared by normalized JSON payload "
++        "(ferrocene_spec envversion ignored)"
+     )
+     lines.append("- .buildinfo compares config; tags differences are ignored")
+     lines.append("")

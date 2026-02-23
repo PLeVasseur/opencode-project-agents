@@ -1,0 +1,30 @@
+verify-html-diff report
+
+mode: compare-dirs
+left: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-relayer-20260214-artifacts/html-upstream-main
+right: /home/pete.levasseur/opencode-project-agents/fls/reports/glossary-single-source-phase1-relayer-20260214-artifacts/html-commit3
+
+result: differences found under configured comparison policy.
+
+policy:
+- strict byte-for-byte file comparison
+- paragraph-ids.json compared by normalized logical content (sorted structure)
+- .buildinfo compares config; tags differences are ignored
+
+only in left:
+- (none)
+
+only in right:
+- (none)
+
+changed files:
+- glossary.html
+- macros.html
+- objects.inv
+- paragraph-ids.json
+- searchindex.js
+- types-and-traits.html
+
+special comparisons:
+- .buildinfo: config matches
+- paragraph-ids.json: normalized content differs

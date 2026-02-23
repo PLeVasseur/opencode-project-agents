@@ -1,0 +1,93 @@
+{
+  "release": "1.93.0",
+  "base": "f1b193f5197f48686bd56fe881633bb62fad7f27",
+  "changed_src_files": [
+    "src/glossary.rst"
+  ],
+  "tags": [
+    "paragraph-added",
+    "paragraph-changed",
+    "role-change",
+    "term-ref-removed"
+  ],
+  "changes": [
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_H5vkbMFvzrFs",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_added",
+      "paragraph_id": "fls_kqdvWGi9cglm",
+      "tag": "paragraph-added"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "tag": "paragraph-changed",
+      "base_checksum": "c6afddf3086e634c55738c917ada6174289ada7dde046b2ad1f620e70d67f5e9",
+      "head_checksum": "c6afddf3086e634c55738c917ada6174289ada7dde046b2ad1f620e70d67f5e9"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 1,
+        "t": 5,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 3,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      }
+    },
+    {
+      "type": "term_ref_removed",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "count": 2,
+      "tag": "term-ref-removed"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "tag": "paragraph-changed",
+      "base_checksum": "9018d5bb55a9ad10867addcd1bc986fa5e8cd4c111f3cb348c42f11f7343d886",
+      "head_checksum": "9018d5bb55a9ad10867addcd1bc986fa5e8cd4c111f3cb348c42f11f7343d886"
+    },
+    {
+      "type": "role_change",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "tag": "role-change",
+      "base_roles": {
+        "dt": 1,
+        "t": 4,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      },
+      "head_roles": {
+        "dt": 0,
+        "t": 2,
+        "ds": 0,
+        "s": 0,
+        "std": 0
+      }
+    },
+    {
+      "type": "term_ref_removed",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "count": 2,
+      "tag": "term-ref-removed"
+    }
+  ],
+  "update_action": "replace",
+  "anchored_pr_url": "https://github.com/rust-lang/rust/pull/145954",
+  "anchored_entry_line": 29,
+  "anchored_entry_index": 2
+}

@@ -1,0 +1,33 @@
+{
+  "errors": [
+    "ledger: missing expected IDs: WA-001, WA-002, WA-003, WA-004, WA-005, WA-006, WA-007, WA-008, WA-009, WA-010, WA-011, WA-012, WA-013, WA-014, WA-015",
+    "baseline: missing expected IDs: WA-001, WA-002, WA-003, WA-004, WA-005, WA-006, WA-007, WA-008, WA-009, WA-010, WA-011, WA-012, WA-013, WA-014, WA-015",
+    "checklist and ledger ID sets differ",
+    "checklist and baseline ID sets differ",
+    "FAILED_GLOSSARY_ALIGNMENT: could not load glossary text from committed HEAD (/home/pete.levasseur/project/fls-wt/step1/src/glossary.rst): git show failed for 'HEAD:/home/pete.levasseur/project/fls-wt/step1/src/glossary.rst': fatal: path '/home/pete.levasseur/project/fls-wt/step1/src/glossary.rst' exists on disk, but not in 'HEAD'"
+  ],
+  "summary": {
+    "baseline_rows": 0,
+    "checklist": {
+      "parent_checked": 0,
+      "parent_total": 15,
+      "parent_unchecked": 15,
+      "sub_checked": 0,
+      "sub_total": 90,
+      "sub_unchecked": 90
+    },
+    "completed_rows": 0,
+    "error_count": 5,
+    "expected_ids_provided": false,
+    "expected_parent_count": null,
+    "expected_sub_count": 90,
+    "insert_diff_modes": {},
+    "ledger_rows": 0,
+    "mode": "progress",
+    "pending_deviation_count": 0,
+    "recovery_guardrails": true,
+    "resolved_high_rows": 0,
+    "warning_count": 0
+  },
+  "warnings": []
+}

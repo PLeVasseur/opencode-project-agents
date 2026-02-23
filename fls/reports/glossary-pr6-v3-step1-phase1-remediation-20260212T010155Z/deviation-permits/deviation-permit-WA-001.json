@@ -1,0 +1,14 @@
+{
+  "checklist_id": "WA-001",
+  "term": "value",
+  "recommended_file": "lexical-elements.rst",
+  "recommended_section": "Character Set",
+  "recommended_reason": "First reference at lexical-elements.rst:34 precedes definition",
+  "proposed_action": "move+rewrite",
+  "proposed_location": "values.rst :: Values",
+  "status": "pending-review",
+  "evidence_against_recommendation": "The recommendation is driven by first-use timing in Character Set, but that section is about Unicode and source text validity rather than semantic runtime concepts. Defining value there binds the core semantic term to lexical material and fragments conceptual ownership across chapters. The same term then has to be immediately re-contextualized in later semantic chapters, which weakens discoverability for readers looking for normative value model rules.",
+  "evidence_for_proposed": "The Values chapter is the canonical semantic owner for runtime notions such as mutability, initialization, overlap, null, and dangling state. Anchoring value there keeps the definition adjacent to the rules that operate on values and reduces cross-chapter indirection. This improves chapter coherence, makes subsequent references more intuitive, and avoids introducing a foundational semantic definition inside a primarily lexical section.",
+  "reference_count_argument": "Although first use appears earlier in lexical-elements.rst, that occurrence is contextual mention, not concept ownership. Placement should prioritize normative ownership over earliest mention for foundational semantics. Values.rst centralizes value-centric rules and better supports long-term maintainability and reader navigation than a lexical-first placement.",
+  "approved_by": ""
+}

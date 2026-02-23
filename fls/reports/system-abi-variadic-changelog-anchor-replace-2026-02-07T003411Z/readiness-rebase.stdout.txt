@@ -1,0 +1,3 @@
+Created autostash: 3161bb3
+Current branch system-abi-variadic is up to date.
+Applied autostash.

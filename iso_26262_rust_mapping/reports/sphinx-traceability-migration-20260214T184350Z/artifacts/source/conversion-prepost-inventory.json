@@ -1,0 +1,25 @@
+{
+  "migration_counts": {
+    "remaining_blank_tokens": 0,
+    "remaining_page_break_tokens": 0,
+    "remaining_table_placeholders": 0,
+    "statement_preface_count": 101
+  },
+  "post_counts": {
+    "blank_tokens": 0,
+    "fmt_hints": 0,
+    "heading_count": 60,
+    "line_count": 572,
+    "page_break_tokens": 0,
+    "table_placeholders": 0
+  },
+  "pre_counts": {
+    "blank_tokens": 25,
+    "fmt_hints": 58,
+    "heading_count": 60,
+    "line_count": 506,
+    "page_break_tokens": 2,
+    "table_placeholders": 26
+  },
+  "source": "src/iso26262_rust_mapping.md"
+}

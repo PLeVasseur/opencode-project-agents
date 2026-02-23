@@ -1,0 +1,13 @@
+{
+  "canonical_checksum": "cc83ff9f25d2a39b298476a6ced64b0f511b8c7dc49ba3263999cfa6d16a4ea4",
+  "checkpoint": "phase-4.done",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/checkpoints/finalize.done.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-verbatim-20260215T162251Z/artifacts/scaffold/finalize.marker.json"
+  ],
+  "phase": 4,
+  "run_id": "20260215T162251Z",
+  "stage": "finalize",
+  "timestamp_utc": "2026-02-15T16:48:28Z"
+}

@@ -1,0 +1,69 @@
+{
+  "boundary_scorer_contract": {
+    "fields": [
+      "expected_counts",
+      "expected_boundaries"
+    ],
+    "scorer_mode": "fixture",
+    "source": "fixtures/boundary-goldset.jsonl"
+  },
+  "minimum_pages": 40,
+  "required_page_quotas": {
+    "P06": 15,
+    "P08": 15,
+    "P09": 10
+  },
+  "run_id": "pr1-20260216T043508Z",
+  "schema_version": 2,
+  "selected_page_count": 40,
+  "selected_pages": {
+    "P06": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "P08": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ],
+    "P09": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ]
+  },
+  "shortfalls": [],
+  "timestamp_utc": "2026-02-16T04:35:13Z"
+}

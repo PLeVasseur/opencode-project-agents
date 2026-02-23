@@ -1,0 +1,23 @@
+{
+  "coverage": {
+    "P06": {
+      "coverage_ratio": 1.0,
+      "expected": 66,
+      "normalized": 66
+    },
+    "P08": {
+      "coverage_ratio": 1.0,
+      "expected": 72,
+      "normalized": 72
+    },
+    "P09": {
+      "coverage_ratio": 1.0,
+      "expected": 38,
+      "normalized": 38
+    }
+  },
+  "qa_unresolved_count": 0,
+  "run_id": "20260215T143525Z",
+  "timestamp_utc": "2026-02-15T14:57:39Z",
+  "unit_count": 176
+}

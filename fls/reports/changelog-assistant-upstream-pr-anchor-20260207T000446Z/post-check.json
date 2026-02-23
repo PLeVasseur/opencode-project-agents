@@ -1,0 +1,30 @@
+{
+  "release": "1.93.0",
+  "base": "eaafc97e1db8f4a3d153db1abe96ececacf1be2c",
+  "changed_src_files": [
+    "src/anchor_validation_temp.rst"
+  ],
+  "tags": [
+    "paragraph-changed"
+  ],
+  "changes": [
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_I9JaKZelMiby",
+      "tag": "paragraph-changed",
+      "base_checksum": "c6afddf3086e634c55738c917ada6174289ada7dde046b2ad1f620e70d67f5e9",
+      "head_checksum": "c6afddf3086e634c55738c917ada6174289ada7dde046b2ad1f620e70d67f5e9"
+    },
+    {
+      "type": "paragraph_changed",
+      "paragraph_id": "fls_t4yeovFm83Wo",
+      "tag": "paragraph-changed",
+      "base_checksum": "9018d5bb55a9ad10867addcd1bc986fa5e8cd4c111f3cb348c42f11f7343d886",
+      "head_checksum": "9018d5bb55a9ad10867addcd1bc986fa5e8cd4c111f3cb348c42f11f7343d886"
+    }
+  ],
+  "update_action": null,
+  "anchored_pr_url": null,
+  "anchored_entry_line": null,
+  "anchored_entry_index": null
+}

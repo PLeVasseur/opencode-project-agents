@@ -1,0 +1,176 @@
+{
+  "batch_number": 2,
+  "commit_hash": "8be070702fdc09a253d2b598fc55dcec2d02b0ec",
+  "deviation_permit_count": 0,
+  "high_medium_count": 20,
+  "ids": [
+    "WB-001",
+    "WB-002",
+    "WB-003",
+    "WB-004",
+    "WB-005",
+    "WB-006",
+    "WB-007",
+    "WB-008",
+    "WB-009",
+    "WB-010",
+    "WB-011",
+    "WB-012",
+    "WB-013",
+    "WB-014",
+    "WB-015",
+    "WB-016",
+    "WB-017",
+    "WB-018",
+    "WB-019",
+    "WB-020"
+  ],
+  "max_rationale_similarity": 0.2,
+  "max_rationale_similarity_pair": [
+    "WB-006",
+    "WB-012"
+  ],
+  "moved_term_count": 20,
+  "moved_terms": [
+    {
+      "checklist_id": "WB-001",
+      "term": "field list"
+    },
+    {
+      "checklist_id": "WB-002",
+      "term": "type specification"
+    },
+    {
+      "checklist_id": "WB-003",
+      "term": "concrete type"
+    },
+    {
+      "checklist_id": "WB-004",
+      "term": "generic function"
+    },
+    {
+      "checklist_id": "WB-005",
+      "term": "variable"
+    },
+    {
+      "checklist_id": "WB-006",
+      "term": "container operand"
+    },
+    {
+      "checklist_id": "WB-007",
+      "term": "undefined behavior"
+    },
+    {
+      "checklist_id": "WB-008",
+      "term": "code point"
+    },
+    {
+      "checklist_id": "WB-009",
+      "term": "receiver operand"
+    },
+    {
+      "checklist_id": "WB-010",
+      "term": "associated constant"
+    },
+    {
+      "checklist_id": "WB-011",
+      "term": "crate root module"
+    },
+    {
+      "checklist_id": "WB-012",
+      "term": "associated trait function"
+    },
+    {
+      "checklist_id": "WB-013",
+      "term": "size"
+    },
+    {
+      "checklist_id": "WB-014",
+      "term": "floating-point type"
+    },
+    {
+      "checklist_id": "WB-015",
+      "term": "safety invariant"
+    },
+    {
+      "checklist_id": "WB-016",
+      "term": "unit struct"
+    },
+    {
+      "checklist_id": "WB-017",
+      "term": "unsafe context"
+    },
+    {
+      "checklist_id": "WB-018",
+      "term": "associated trait constant"
+    },
+    {
+      "checklist_id": "WB-019",
+      "term": "union value"
+    },
+    {
+      "checklist_id": "WB-020",
+      "term": "pattern-without-alternation"
+    }
+  ],
+  "opencode_log": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-opencode.jsonl",
+  "passed_ids": [
+    "WB-001",
+    "WB-002",
+    "WB-003",
+    "WB-004",
+    "WB-005",
+    "WB-006",
+    "WB-007",
+    "WB-008",
+    "WB-009",
+    "WB-010",
+    "WB-011",
+    "WB-012",
+    "WB-013",
+    "WB-014",
+    "WB-015",
+    "WB-016",
+    "WB-017",
+    "WB-018",
+    "WB-019",
+    "WB-020"
+  ],
+  "pending_deviation_count": 0,
+  "quarantined_ids": [],
+  "rationale_patterns_json": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-rationale-patterns.json",
+  "rationale_patterns_md": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-rationale-patterns.md",
+  "recommendation_compliance_rate": 1.0,
+  "recommendation_compliant_count": 20,
+  "session_id": "ses_3b09e7bcaffeSexLv2WP0FbB5c",
+  "strict_post": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-strict-post.json",
+  "strict_pre": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-strict-pre.json",
+  "terms": [
+    "field list",
+    "type specification",
+    "concrete type",
+    "generic function",
+    "variable",
+    "container operand",
+    "undefined behavior",
+    "code point",
+    "receiver operand",
+    "associated constant",
+    "crate root module",
+    "associated trait function",
+    "size",
+    "floating-point type",
+    "safety invariant",
+    "unit struct",
+    "unsafe context",
+    "associated trait constant",
+    "union value",
+    "pattern-without-alternation"
+  ],
+  "timestamp": "20260212T011251Z",
+  "validator_failure_codes": [],
+  "validator_post_commit": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-validate-post-commit.json",
+  "validator_progress": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v3-step1-phase1-remediation-20260212T010155Z/batch-002-validate-progress.json",
+  "validator_progress_post_quarantine": null,
+  "wave": "WB"
+}

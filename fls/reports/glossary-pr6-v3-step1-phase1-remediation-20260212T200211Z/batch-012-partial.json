@@ -1,0 +1,28 @@
+{
+  "batch_number": 12,
+  "passed_ids": [],
+  "quarantined": {
+    "WB-041": "parent row is not checked",
+    "WB-042": "parent row is not checked",
+    "WB-043": "parent row is not checked",
+    "WB-044": "parent row is not checked",
+    "WB-045": "parent row is not checked",
+    "WB-046": "parent row is not checked",
+    "WB-047": "parent row is not checked",
+    "WB-048": "parent row is not checked",
+    "WB-049": "parent row is not checked",
+    "WB-050": "parent row is not checked",
+    "WB-051": "parent row is not checked",
+    "WB-052": "parent row is not checked",
+    "WB-053": "parent row is not checked",
+    "WB-054": "parent row is not checked",
+    "WB-055": "parent row is not checked",
+    "WB-056": "parent row is not checked",
+    "WB-057": "parent row is not checked",
+    "WB-058": "parent row is not checked",
+    "WB-059": "parent row is not checked",
+    "WB-060": "parent row is not checked"
+  },
+  "timestamp": "20260212T233056Z",
+  "wave": "WB"
+}

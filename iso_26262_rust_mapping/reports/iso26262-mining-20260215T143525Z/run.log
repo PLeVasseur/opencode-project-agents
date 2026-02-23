@@ -1,0 +1,33 @@
+[2026-02-15T14:37:31Z] lock_acquired pid=3215861 run_id=20260215T143525Z
+[2026-02-15T14:40:19Z] stale_lock_replaced payload={"acquired_at_utc": "2026-02-15T14:37:31Z", "host": "oss-work", "pid": 3215861, "run_id": "20260215T143525Z", "user": "pete.levasseur"}
+[2026-02-15T14:40:19Z] lock_acquired pid=3216135 run_id=20260215T143525Z
+[2026-02-15T14:40:55Z] phase C0 ingest hash-lock artifacts written
+[2026-02-15T14:41:28Z] phase_commit phase=C0 sha=5e97c84ac011e09af3f19b1901e5f2492bce8dfd checkpoint=phase-0.done.json
+[2026-02-15T14:43:48Z] commit_created phase=C1 sha=b93de9974e34e6fdf5cf13b4fc9c91f6ee1579e4 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/phase-1/c1-scaffold-summary.json
+[2026-02-15T14:46:56Z] phase_commit phase=C2 sha=36ad0e2d828b22e1008b33042049f0cc4c75c829 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-1.done.json
+[2026-02-15T14:46:56Z] phase_done phase=1 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-1.done.json
+[2026-02-15T14:51:49Z] phase_done phase=2 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-2.done.json
+[2026-02-15T15:00:01Z] phase_done phase=3 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-3.done.json
+[2026-02-15T15:00:01Z] phase_done phase=4 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-4.done.json
+[2026-02-15T15:00:01Z] finalize_complete checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/finalize.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C3 sha=16658162ac27a93daac22b5e89dc5fd120bf9bfa checkpoint=phase-2.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C4 sha=ea4b2b7a30e365c9eda3bdcba854aeebbc20dc66 checkpoint=phase-2.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C5 sha=08cfea411bf32ce346ff41e6e2788497b264cabe checkpoint=phase-2.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C6 sha=811e089cf5d1a4846ea0b3b91b49e91835606dd6 checkpoint=phase-3.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C7 sha=0b4070cc45899b3f70ad63c9f7733622b7c9e4fc checkpoint=phase-3.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C8 sha=ec9abaddf7d03db05551acce86a9f1b5504d6c2b checkpoint=phase-3.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C9 sha=b9028fc07f77687565963b89aef35f9dc482456d checkpoint=phase-4.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C10 sha=368cda68cb9d432743d7fbdb475a1f81acee6723 checkpoint=phase-4.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C11 sha=cb698b5b07289fba5561a7c63c2f66266ad363f2 checkpoint=phase-4.done.json
+[2026-02-15T15:00:38Z] phase_commit phase=C12 sha=94df8946337f054493713ebd3c5e43e13264e328 checkpoint=phase-4.done.json
+[2026-02-15T15:00:38Z] run_complete stop_reason=completed_all_phases
+[2026-02-15T15:00:57Z] lock_released run_id=20260215T143525Z
+[2026-02-15T15:15:50Z] lock_acquired pid=3233509 run_id=20260215T143525Z
+[2026-02-15T15:19:17Z] stale_lock_replaced payload={"acquired_at_utc": "2026-02-15T15:15:50Z", "host": "oss-work", "pid": 3233509, "run_id": "20260215T143525Z", "user": "pete.levasseur"}
+[2026-02-15T15:19:17Z] lock_acquired pid=3236030 run_id=20260215T143525Z
+[2026-02-15T15:19:17Z] lock_released run_id=20260215T143525Z
+[2026-02-15T15:20:01Z] phase_commit phase=C13 sha=0b798b37d41847b2a5d39491c15880bb77d32683 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-5.done.json
+[2026-02-15T15:20:01Z] phase_done phase=5 checkpoint=/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-mining-20260215T143525Z/artifacts/checkpoints/phase-5.done.json
+[2026-02-15T15:20:01Z] run_complete stop_reason=completed_all_phases
+[2026-02-15T15:20:14Z] lock_acquired pid=3236626 run_id=20260215T143525Z
+[2026-02-15T15:20:14Z] lock_released run_id=20260215T143525Z

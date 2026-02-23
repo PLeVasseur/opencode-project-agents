@@ -1,0 +1,37 @@
+{
+  "base_branch": "main",
+  "base_pin_sha": "ea5a29d182b54b6cb792196bb8109fd50faff836",
+  "changed_files": [],
+  "commit_shas": [
+    "ccd270723b62e4bcad5ec9d00d1a0abd07a80dfc"
+  ],
+  "metrics_after": {},
+  "metrics_before": {},
+  "metrics_delta": {},
+  "run_id": "pr1-20260215T221903Z",
+  "stage": "EQ10",
+  "target_branch": "docs/iso26262-sphinx-traceability-migration-20260214T184350Z",
+  "tests_run": [
+    {
+      "command": "mining-cli ingest",
+      "exit_code": 0,
+      "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/pipeline-ingest.log"
+    },
+    {
+      "command": "mining-cli extract",
+      "exit_code": 0,
+      "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/pipeline-extract.log"
+    },
+    {
+      "command": "mining-cli normalize",
+      "exit_code": 0,
+      "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/pipeline-normalize.log"
+    },
+    {
+      "command": "mining-cli anchor",
+      "exit_code": 0,
+      "output_artifact_path": "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260215T221903Z/artifacts/quality/pipeline-anchor.log"
+    }
+  ],
+  "timestamp_utc": "2026-02-15T23:01:00Z"
+}

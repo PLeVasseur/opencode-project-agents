@@ -1,0 +1,30 @@
+{
+  "canonical_checksum": "fcf2626677f0b92099c81ac8f3e9f8875a7ea4a3e86b61b3a0e96b79f87d970e",
+  "input_hashes": {},
+  "outputs": [
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/publish/publish-summary.json",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/publish/publish.begin",
+    "/home/pete.levasseur/opencode-project-agents/iso_26262_rust_mapping/reports/iso26262-extraction-quality-pr1-pr1-20260216T031732Z/artifacts/pipeline-control/artifacts/publish/publish.commit",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/clause-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/list_bullet-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/part-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p06/table_cell-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/clause-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/list_bullet-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/part-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p08/table_cell-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/clause-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/list_bullet-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/paragraph-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/part-manifest.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/corpus/2018-ed2/p09/table_cell-0001.jsonl",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/anchor-registry.jsonc",
+    "/home/pete.levasseur/personal/iso_26262_rust_mapping/traceability/iso26262/index/corpus-manifest.jsonc"
+  ],
+  "phase": 3,
+  "run_id": "pr1-20260216T031732Z",
+  "stage": "publish",
+  "timestamp_utc": "2026-02-16T03:19:57Z"
+}

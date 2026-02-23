@@ -1,0 +1,15 @@
+{
+  "batches_completed": 0,
+  "canonical_checklist_template": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-tooling-compat-20260211T151833Z/fixtures/checklist-wc-gate-bplus.md",
+  "expected_branch": "glossary-step-1-main-text-coverage",
+  "gate_b_plus_status": "blocked-missing-v3",
+  "last_session_id": null,
+  "remaining_parent_ids": [
+    "WC-001"
+  ],
+  "remediation_dir": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-tooling-compat-20260211T151833Z/orchestrator-gate-bplus",
+  "run_id": "bplus",
+  "run_local_checklist": "/home/pete.levasseur/opencode-project-agents/fls/reports/glossary-pr6-v2-tooling-compat-20260211T151833Z/orchestrator-gate-bplus/manual-placement-checklist-v2.md",
+  "timestamp": "20260211T151930Z",
+  "workdir": "/home/pete.levasseur/project/fls-wt/step1"
+}

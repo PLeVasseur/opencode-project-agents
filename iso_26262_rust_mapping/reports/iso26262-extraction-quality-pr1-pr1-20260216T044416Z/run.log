@@ -1,0 +1,44 @@
+[2026-02-16T04:44:17Z] run_bootstrap mode=kickoff-auto-pr1 run_id=pr1-20260216T044416Z
+[2026-02-16T04:44:17Z] lock_acquired pid=3434374 run_id=pr1-20260216T044416Z
+[2026-02-16T04:44:17Z] stage_start stage=EQ0
+[2026-02-16T04:44:18Z] stage_complete stage=EQ0
+[2026-02-16T04:44:18Z] stage_start stage=EQ1
+[2026-02-16T04:44:19Z] stage_complete stage=EQ1
+[2026-02-16T04:44:19Z] stage_start stage=EQ2
+[2026-02-16T04:44:20Z] stage_complete stage=EQ2
+[2026-02-16T04:44:20Z] stage_start stage=EQ3
+[2026-02-16T04:44:20Z] stage_complete stage=EQ3
+[2026-02-16T04:44:20Z] stage_start stage=EQ4
+[2026-02-16T04:44:21Z] stage_complete stage=EQ4
+[2026-02-16T04:44:21Z] stage_start stage=EQ5
+[2026-02-16T04:44:22Z] stage_complete stage=EQ5
+[2026-02-16T04:44:22Z] stage_start stage=EQ6
+[2026-02-16T04:44:23Z] stage_complete stage=EQ6
+[2026-02-16T04:44:23Z] stage_start stage=EQ7
+[2026-02-16T04:44:23Z] stage_complete stage=EQ7
+[2026-02-16T04:44:23Z] stage_start stage=EQ8
+[2026-02-16T04:44:24Z] stage_complete stage=EQ8
+[2026-02-16T04:44:24Z] stage_start stage=EQ9
+[2026-02-16T04:44:25Z] stage_complete stage=EQ9
+[2026-02-16T04:44:25Z] stage_start stage=EQ10
+[2026-02-16T04:44:42Z] stage_complete stage=EQ10
+[2026-02-16T04:44:42Z] stage_start stage=EQ11
+[2026-02-16T04:45:27Z] stage_complete stage=EQ11
+[2026-02-16T04:45:27Z] stage_start stage=EQ12
+[2026-02-16T04:45:28Z] lock_released run_id=pr1-20260216T044416Z
+[2026-02-16T04:46:09Z] lock_acquired pid=3435804 run_id=pr1-20260216T044416Z
+[2026-02-16T04:46:09Z] stage_start stage=EQ12
+[2026-02-16T04:46:10Z] lock_released run_id=pr1-20260216T044416Z
+[2026-02-16T04:46:37Z] lock_acquired pid=3436217 run_id=pr1-20260216T044416Z
+[2026-02-16T04:46:37Z] stage_start stage=EQ12
+[2026-02-16T04:46:38Z] stage_complete stage=EQ12
+[2026-02-16T04:46:38Z] stage_start stage=EQ13
+[2026-02-16T04:46:42Z] lock_released run_id=pr1-20260216T044416Z
+[2026-02-16T04:47:19Z] lock_acquired pid=3437051 run_id=pr1-20260216T044416Z
+[2026-02-16T04:47:19Z] stage_start stage=EQ13
+[2026-02-16T04:47:21Z] stage_complete stage=EQ13
+[2026-02-16T04:47:22Z] lock_released run_id=pr1-20260216T044416Z
+[2026-02-16T04:48:17Z] lock_acquired pid=3438076 run_id=pr1-20260216T044416Z
+[2026-02-16T04:48:17Z] stage_start stage=EQ13
+[2026-02-16T04:48:19Z] stage_complete stage=EQ13
+[2026-02-16T04:48:20Z] lock_released run_id=pr1-20260216T044416Z

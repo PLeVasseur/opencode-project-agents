@@ -1,0 +1,48 @@
+{
+    up_streamer_config: {
+      message_queue_size: 10000
+    },
+    streamer_uuri: {
+      authority: "authority-b",
+      ue_id: 78,
+      ue_version_major: 1
+    },
+    usubscription_config: {
+      mode: "live_usubscription",
+      file_path: "subscription_data.json"
+    },
+    transports: {
+        zenoh: {
+            config_file: "ZENOH_CONFIG.json5",
+            endpoints: [
+                {
+                    authority: "authority-b",
+                    endpoint: "endpoint_zenoh_1",
+                    forwarding: [
+                        "endpoint_mqtt_1",
+                        "endpoint_zenoh_2"
+                    ]
+                },
+                {
+                    authority: "authority-c",
+                    endpoint: "endpoint_zenoh_2",
+                    forwarding: [
+                        "endpoint_zenoh_1",
+                    ]
+                }
+            ]
+        },
+        mqtt: {
+            config_file: "MQTT_CONFIG.json5",
+            endpoints: [
+                {
+                    authority: "authority-a",
+                    endpoint: "endpoint_mqtt_1",
+                    forwarding: [
+                        "endpoint_zenoh_1",
+                    ]
+                },
+            ]
+        },
+    }
+}

@@ -1,0 +1,49 @@
+00128: - `Anchor replace validation (system-abi-variadic) <https://github.com/rust-lang/rust/pull/145954>`_
+00129: 
+00130:   - Change tags: paragraph-added, paragraph-changed, role-change, term-def-added, syntax-ref-added, section-added, normative-shift
+00131:   - Added paragraphs:
+00132:     - :p:`fls_9OFXj6DnKS7W`
+00133:     - :p:`fls_MpcAsy5zhCeW`
+00134:     - :p:`fls_NxhrfQzbxetN`
+00135:     - :p:`fls_TmvfmSQP65pA`
+00136:     - :p:`fls_ZbvI45Ojpte4`
+00137:     - :p:`fls_tZP7xARsjuYv`
+00138:     - :p:`fls_tuP6iLdL6Kx0`
+00139:     - :p:`fls_yjRmR5F1cL6i`
+00140:   - Changed paragraphs:
+00141:     - :p:`fls_36qrs2fxxvi7`
+00142:     - :p:`fls_6rtj6rwqxojh`
+00143:     - :p:`fls_7t7yxh94wnbl`
+00144:     - :p:`fls_CIyK8BYzzo26`
+00145:     - :p:`fls_UippZpUyYpHl`
+00146:     - :p:`fls_ccFdnlX5HIYk`
+00147:     - :p:`fls_d3nmpc5mtg27`
+00148:     - :p:`fls_dbbfqaqa80r8`
+00149:     - :p:`fls_qwchgvvnp0qe`
+00150:     - :p:`fls_sxj4vy39sj4g`
+00151:     - :p:`fls_tyjs1x4j8ovp`
+00152:     - :p:`fls_xrCRprWS13R1`
+00153:   - Role changes:
+00154:     - :p:`fls_qwchgvvnp0qe`
+00155:   - Term definitions added:
+00156:     - calling_convention
+00157:   - Syntax references added:
+00158:     - :p:`fls_qwchgvvnp0qe`
+00159:   - Sections added:
+00160:     - :ref:`fls_m9hw83dqgt6w`
+00161:   - Normative shifts:
+00162:     - :p:`fls_36qrs2fxxvi7`
+00163:     - :p:`fls_6rtj6rwqxojh`
+00164:     - :p:`fls_7t7yxh94wnbl`
+00165:     - :p:`fls_CIyK8BYzzo26`
+00166:     - :p:`fls_UippZpUyYpHl`
+00167:     - :p:`fls_ccFdnlX5HIYk`
+00168:     - :p:`fls_d3nmpc5mtg27`
+00169:     - :p:`fls_dbbfqaqa80r8`
+00170:     - :p:`fls_sxj4vy39sj4g`
+00171:     - :p:`fls_tyjs1x4j8ovp`
+00172:     - :p:`fls_xrCRprWS13R1`
+00173: 
+00174: Language changes in Rust 1.92.0
+00175: -------------------------------
+00176: 
