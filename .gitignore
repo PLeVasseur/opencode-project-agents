@@ -3,3 +3,7 @@ node_modules
 package.json
 bun.lock
 **/worktrees/
+
+# Embedded fixture repositories under report artifacts
+/fls/reports/**/sandbox-repo/
+/fls/reports/**/definition-alignment-workdir/
