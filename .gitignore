@@ -7,3 +7,7 @@ bun.lock
 # Embedded fixture repositories under report artifacts
 /fls/reports/**/sandbox-repo/
 /fls/reports/**/definition-alignment-workdir/
+
+# Ignore local Arene-related content anywhere in this repo
+**/arene*
+**/*arene*
